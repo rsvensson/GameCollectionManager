@@ -1,0 +1,55 @@
+Platform	Name	Region	Country	Accessory	Box	Manual	Comment
+Atari ST	TAC-2 Joystick x2	??	??	Yes	No	No	The white version
+Gamecube	Gamecube Controller	PAL	SCN	Yes	No	No	The one included in the box. Black
+Gamecube	Gamecube Controller x3	PAL	SCN	Yes	Yes	Yes	All black
+Gamecube	Gamecube Game Boy Player	PAL	??	Yes	No	No	Black. No box for the adapter itself. Only for the disc. Model No: C/L-DOL-A-GP-EUR. DOL-017.
+Gamecube	Gamecube Memory Card 251 x3	PAL	SCN	Yes	Yes	Yes	One still factory sealed
+GB/GBC	AC Adapter	PAL	Europe	Yes	No	No	Manufactured by Big Ben
+GB/GBC	Action Replay Xtreme	PAL	??	Yes	Yes	Yes	French instruction book and box.
+GB/GBC	EMS USB 64M Smartcard	??	??	Yes	--	Yes	A flashcart for Game Boy with multi-ROM support and a mini USB port to transfer ROMs over from a PC with a transfer application. Has the number 1212 burned into the back.
+GB/GBC	Game Boy official replacement screen	??	??	Yes	No	No	
+GB/GBC	Game Boy Pocket official replacement screen x2	??	??	Yes	No	No	Contrary to the linked picture (which is the photo the seller used...), it does not have holes for the power LED. I have two of these.
+GB/GBC	Game Boy Pocket replacement screen x2	??	??	Yes	No	No	With power LED-hole!
+GB/GBC	Game Boy Pocket Silver official replacement screen	??	??	Yes	No	No	Silver border, without a hole for the power LED.
+GB/GBC	Lightmaster magnifying glass + light	??	??	Yes	No	No	A black one. The light on this is really bad.
+Mega Drive	Mega Drive controller	PAL	1650	Yes	No	No	With white start button
+Mega Drive	Mega Drive controller x2	--	--	Yes	No	No	Third party 6-button pads
+Mega Drive	Mega Everdrive X7	--	--	Yes	Yes	Yes	Mega-ED v2.01 11.11.2014
+Mega Drive	Pro Action Replay 1	PAL	--	Yes	Yes	Yes	German release. Box and instructions in german, code book in english. Includes registration card.
+NES/FC	Famicom Disk System RAM Adapter	NTSC	JPN	Yes	No	No	Ram adapter only, no disk drive. Has a 4.7k resistor array installed on the PRG data lines to fix glitchy graphics on some systems.
+NES/FC	Famicom Everdrive N8	--	KRI-KZ	Yes	No	No	White shell
+NES/FC	FDSstick	--	--	Yes	No	No	Disk Drive emulator for Famicom Disk System
+NES/FC	NES Connector	??	??	Yes	No	No	The connector that used to sit in my childhood machine. Needs cleaning and re-bending of the pins to work.
+NES/FC	NES Controller x2	PAL	GER	Yes	No	No	NES-004E, brand new. One has never been used, still wrapped in factory plastic.
+NES/FC	NES Controller x5	PAL	SCN	Yes	No	No	Regular Scandinavian NES-004 controllers of varying quality I've gathered over the years.
+NES/FC	NES Four-Score Adapter	PAL	??	Yes	No	No	NES-034A. Works with both NES-004 and NES-004E controllers on both SCN and NTSC consoles. Probably won't work on a German NES though.
+NES/FC	NES Gold-plated Connector	??	??	Yes	No	No	A gold-plated connector for NES. Seems kind of rare. Used to see them from time to time when I bought it, but now I haven't seen one in years. I now use it in my NTSC machine.
+NES/FC	NES PowerPak	--	--	Yes	No	No	"Flashcart for NES. Includes transparent dust-sleeve with ""RetroZone"" written on it, and a 2GB Compact Flash memory card. Says ""POWERPAK rev E"" on the PCB."
+NES/FC	NES Zapper	PAL	??	Yes	No	No	
+NES/FC	NTDEC 60->72pin Converter	??	??	Yes	No	No	Converter to play Famicom games on the NES. It was probably intended for the Russian or Chinese clone market because it doesn't seem to have a lockout chip in it. If used on a non-region modded console it just reboots every 1 second.
+Nintendo 3DS	Circle Pad Pro	??	??	Yes	--	Yes	The one that came with Resident Evil: Revelations
+Nintendo 64	64drive homebrew cartridge	PAL	--	Yes	--	Yes	The PCB has the 7101 CIC lockout chip installed, in a black PAL cartridge case modded with CF card and USB port openings. Linux says the serial number is FTV9EI5E (old one that I replaced had FTV84KYM). Currently running Menu 1.11c, Firmware 1.05 and Bootloader 1.01.
+Nintendo 64	N64 Controller Pak	PAL	SCN	Yes	Yes	Yes	
+Nintendo 64	N64 Controller x2	PAL	SCN	Yes	No	No	One gray and one blue. I have replaced the analog sticks with new GC-style sticks that won't wear out like the original ones. They are however a bit shorter so the sensitivity is a bit higher than normal.
+Nintendo 64	N64 Expansion Pak	PAL	SCN	Yes	Yes	Yes	Missing the plastic tool to remove the jumper pak with.
+Nintendo 64	N64 Rumble Pak	PAL	SCN	Yes	Yes	Yes	
+Nintendo 64	N64 Transfer Pak	PAL	GER	Yes	No	No	
+Nintendo DS	Acekard 2i	??	??	Yes	Yes	Yes	Flashcart for NDS. Includes the MicroSD card reader.
+Nintendo DS	R4DS	??	??	Yes	Yes	Yes	Flashcart for NDS. Includes the MicroSD card reader, cartridge dust case and strap.
+Philips CD-i	CDI 450 Tutorial Disc	PAL	3104 128 90811	Yes	Yes	Yes	
+SNES/SFC	Games Master Converter	PAL	??	Yes	No	No	Converter for SNES to play NTSC games on PAL consoles
+SNES/SFC	Honey Bee Super-Magic Game Converter	PAL	??	Yes	No	No	Converter for SNES to play NTSC games on PAL consoles
+SNES/SFC	Nintendo Scope	PAL	SCN	Yes	Yes	No	Called Super Scope outside PAL-land
+SNES/SFC	Pro Action Replay 1	PAL	??	Yes	Yes	Yes	Cheat adapter and region converter for SNES.
+SNES/SFC	SD2SNES	--	--	Yes	No	No	Flashcart for SNES. With universal case. Revision E1 / 2012-02-10
+SNES/SFC	SNES Controller x4	PAL	SCN	Yes	No	No	
+SNES/SFC	SNES Mouse	NTSC	JPN	Yes	No	No	A bit yellowed
+SNES/SFC	Super Famicom Controller	NTSC	JPN	Yes	No	No	
+SNES/SFC	Super Game Boy	PAL	SCN	Yes	No	No	Product code: SNSP-A-SG(UKV)
+SNES/SFC	Super Game Boy 2	NTSC	JPN	Yes	No	No	
+Wii	3rd Party Wii Nunchuck	??	??	Yes	Yes	Yes	Same as the above with the addition that it seems to make the IR pointer more laggy in homebrew apps for some reason.
+Wii	3rd Party Wii Remote	??	??	Yes	Yes	Yes	Blue/Teal. Looks exactly like an official Wii remote, except for the fact that it doesn't say Nintendo or Wii. Instead, it's called Wü. The buttons aren't as good as the original and the rumble feels weak and makes a lot more noise. The speaker is also often garbled. Otherwise works well.
+Wii	Wii MotionPlus	PAL	SCN	Yes	No	No	"Black. With ""jacket""."
+Wii	Wii MotionPlus	PAL	SCN	Yes	Yes	Yes	"White. With ""jacket""."
+Wii	Wii Nunchuck x2	PAL	SCN	Yes	No	No	White
+Wii	Wii Remote x2	PAL	SCN	Yes	No	No	White
