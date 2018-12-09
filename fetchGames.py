@@ -1,36 +1,47 @@
 #!/usr/bin/env python
 
 from bs4 import BeautifulSoup as bs
-from requests import get
-from requests.exceptions import RequestException
-from contextlib import closing
+from urllib.request import urlopen
 
-def simpleGet(url):
+url = "file:///home/synt4x/Nextcloud/Code/Projects/GameCollectionManager/FCWiki.html"
 
-    # Gets an html file and returns the raw content
-    try:
-        with closing(get(url, stream=True)) as resp:
-            if isGoodResponce(resp):
-                return resp.content
-            else:
-                return None
-
-    except RequestException as e:
-        print("Error during request to {0} : {1}".format(url, str(e)))
-        return None
-
-def isGoodResponce(resp):
-
-    # Only returns if content is html
-    contentType = resp.headers["Content-Type"].lower()
-    return (resp.status_code == 200
-            and contentType is not None
-            and contentType.find("html") > -1)
-
-# Testing with Wikipedia's list of SNES games page
-rawHTML = simpleGet("https://en.wikipedia.org/wiki/List_of_Super_Nintendo_Entertainment_System_games")
+rawHTML = urlopen(url)
 html = bs(rawHTML, "html.parser")
 
-# Prints the info from all the <td> tags
-for i, td in enumerate(html.select("td")):
-    print(i, td.text)
+# Gets the info from the <tr> tags and saves it to a list
+
+titles = html.find_all("a").get_text()
+print(titles)
+gamelist = []
+startRead = 0
+stopRead = 0
+
+"""
+for i in range(len(trlist)):
+
+    # Get initial start
+    if startRead == 0:
+        for j, game in enumerate(trlist):
+            if "Title\n" in game:
+                startRead = j+1
+                break
+
+    for game in trlist[startRead:]:
+        if "Title\n" in game:
+            startRead = i+1
+            print(startRead)
+            break
+        if game == "" or game == "\n":
+            pass
+
+        #temp = game.lstrip().split("\n")
+        gamelist.append(game)
+"""
+
+
+
+#print(trList[10])
+#print(type(trList[10]))
+
+#with open("gamelist.txt", 'w', encoding='utf8') as f:
+#    f.writelines(trList)
