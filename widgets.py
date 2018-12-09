@@ -529,6 +529,8 @@ class Table(QTableWidget):
 
         # TODO: Understand why this works
 
+        # TODO: Fix issue with table not updating when user erases letters
+
         rowCount = 0
 
         # This is a confusing name with the current logic for hiding rows,
