@@ -1,0 +1,511 @@
+|       | 4-in-1 Fun Pak                                                 | Interplay                    | Game Boy | 1992 | North America
+|       | 4-in-1 Funpak: Volume II                                       | Interplay                    | Game Boy | 1993 | North America
+|       | Addams Family, The                                             | Ocean                        | Game Boy | 1992 | North America
+|       | Addams Family: Pugsley's Scavenger Hunt, The                   | Ocean                        | Game Boy | 1993 | North America
+|       | Adventure Island                                               | Hudson                       | Game Boy | 1992 | North America
+|       | Adventure Island II: Aliens in Paradise                        | Hudson                       | Game Boy | 1993 | North America
+|       | Adventures of Rocky and Bullwinkle and Friends, The            | THQ                          | Game Boy | 1992 | North America
+|       | Adventures of Star Saver, The                                  | Taito Corporation            | Game Boy | 1992 | North America
+|       | Aerostar                                                       | Vic Tokai                    | Game Boy | 1991 | North America
+|       | Alfred Chicken                                                 | Mindscape Inc.               | Game Boy | 1994 | North America
+|       | Alien 3                                                        | LJN Ltd.                     | Game Boy | 1993 | North America
+|       | Alien vs. Predator: The Last of His Clan                       | Activision                   | Game Boy | 1993 | North America
+|       | All-Star Baseball 99                                           | Acclaim                      | Game Boy | 1998 | North America
+|       | Alleyway                                                       | Nintendo                     | Game Boy | 1989 | North America
+|       | Altered Space: A 3-D Alien Adventure                           | Sony Imagesoft               | Game Boy | 1991 | North America
+|       | Amazing Penguin                                                | Natsume                      | Game Boy | 1990 | North America
+|       | Amazing Spider-Man 2, The                                      | LJN Ltd.                     | Game Boy | 1992 | North America
+|       | Amazing Spider-Man, The                                        | LJN Ltd.                     | Game Boy | 1990 | North America
+|       | Amazing Tater                                                  | ATLUS                        | Game Boy | 1992 | North America
+|       | Animaniacs                                                     | Konami                       | Game Boy | 1995 | North America
+|       | Arcade Classic No. 1: Asteroids / Missile Command              | Nintendo                     | Game Boy | 1995 | North America
+|       | Arcade Classic No. 2: Centipede / Millipede                    | Nintendo                     | Game Boy | 1995 | North America
+|       | Arcade Classic No. 3: Galaga / Galaxian                        | Nintendo                     | Game Boy | 1995 | North America
+|       | Arcade Classic No. 4: Defender / Joust                         | Nintendo                     | Game Boy | 1995 | North America
+|       | Arcade Classics: Super Breakout / Battlezone                   | Atari                        | Game Boy | 1996 | North America
+|       | Asteroids                                                      | Accolade                     | Game Boy | 1992 | North America
+|       | Atomic Punk                                                    | Hudson                       | Game Boy | 1991 | North America
+|       | Attack of the Killer Tomatoes                                  | THQ                          | Game Boy | 1992 | North America
+|       | Avenging Spirit                                                | Jaleco Entertainment         | Game Boy | 1992 | North America
+|       | Balloon Kid                                                    | Nintendo                     | Game Boy | 1990 | North America
+|       | Barbie Game Girl                                               | Hi Tech Expressions          | Game Boy | 1992 | North America
+|       | Bart Simpson's Escape From Camp Deadly                         | Acclaim                      | Game Boy | 1991 | North America
+|       | Baseball                                                       | Nintendo                     | Game Boy | 1989 | North America
+|       | Bases Loaded                                                   | Jaleco Entertainment         | Game Boy | 1990 | North America
+|       | Batman Forever                                                 | Acclaim                      | Game Boy | 1995 | North America
+|       | Batman: Return of the Joker                                    | SunSoft                      | Game Boy | 1992 | North America
+|       | Batman: The Animated Series                                    | Konami                       | Game Boy | 1993 | North America
+|       | Batman: The Video Game                                         | SunSoft                      | Game Boy | 1990 | North America
+|       | Battle Arena Toshinden                                         | Takara                       | Game Boy | 1996 | North America
+|       | Battle Bull                                                    | Seta Corporation             | Game Boy | 1991 | North America
+|       | Battle Unit Zeoth                                              | Jaleco Entertainment         | Game Boy | 1991 | North America
+|       | Battleship                                                     | Mindscape Inc.               | Game Boy | 1992 | North America
+|       | Battletoads                                                    | Tradewest                    | Game Boy | 1991 | North America
+|       | Battletoads / Double Dragon                                    | Tradewest                    | Game Boy | 1993 | North America
+|       | Battletoads in Ragnarok's World                                | Tradewest                    | Game Boy | 1993 | North America
+|       | Beavis and Butt-head                                           | GT Interactive               | Game Boy | 1999 | North America
+|       | Beetlejuice                                                    | LJN Ltd.                     | Game Boy | 1992 | North America
+|       | Best of the Best: Championship Karate                          | Electro Brain                | Game Boy | 1992 | North America
+|       | Bill & Ted's Excellent Game Boy Adventure                      | LJN Ltd.                     | Game Boy | 1991 | North America
+|       | Bill Elliott's NASCAR Fast Tracks                              | Konami                       | Game Boy | 1991 | North America
+|       | Bionic Battler                                                 | Electro Brain                | Game Boy | 1992 | North America
+|       | Bionic Commando                                                | Capcom                       | Game Boy | 1992 | North America
+|       | Black Bass: Lure Fishing                                       | Hot B                        | Game Boy | 1994 | North America
+|       | Blades of Steel                                                | Ultra                        | Game Boy | 1991 | North America
+|       | Blaster Master Boy                                             | SunSoft                      | Game Boy | 1992 | North America
+|       | Blues Brothers, The                                            | Titus Software               | Game Boy | 1992 | North America
+|       | Bo Jackson: Two Games In One                                   | THQ                          | Game Boy | 1991 | North America
+|       | Boggle Plus                                                    | Parker Bros                  | Game Boy | 1992 | North America
+|       | Bomberman GB                                                   | Nintendo                     | Game Boy | 1998 | North America
+|       | Bonk's Adventure                                               | Hudson                       | Game Boy | 1992 | North America
+|       | Bonk's Revenge                                                 | Hudson                       | Game Boy | 1994 | North America
+|       | Boomer's Adventure in Asmik World                              | Asmik Corporation of America | Game Boy | 1990 | North America
+|       | Boxxle                                                         | FCI, Inc.                    | Game Boy | 1990 | North America
+|       | Boxxle II                                                      | FCI, Inc.                    | Game Boy | 1992 | North America
+|       | Brain Bender                                                   | Electro Brain                | Game Boy | 1991 | North America
+|       | Brain Drain                                                    | Acclaim                      | Game Boy | 1998 | North America
+|       | Bram Stoker's Dracula                                          | Sony Imagesoft               | Game Boy | 1993 | North America
+|       | BreakThru!                                                     | Spectrum Holobyte            | Game Boy | 1995 | North America
+|       | Bubble Bobble                                                  | Taito Corporation            | Game Boy | 1991 | North America
+|       | Bubble Bobble Part 2                                           | Taito Corporation            | Game Boy | 1993 | North America
+|       | Bubble Ghost                                                   | FCI, Inc.                    | Game Boy | 1990 | North America
+|       | Bubsy II                                                       | Accolade                     | Game Boy | 1998 | North America
+|       | Bugs Bunny Crazy Castle 2, The                                 | Kemco                        | Game Boy | 1991 | North America
+|       | Bugs Bunny Crazy Castle, The                                   | Kemco                        | Game Boy | 1990 | North America
+|       | Burai Fighter Deluxe                                           | Taxan                        | Game Boy | 1991 | North America
+|       | BurgerTime Deluxe                                              | Data East                    | Game Boy | 1991 | North America
+|       | Bust-A-Move 2 Arcade Edition                                   | Acclaim                      | Game Boy | 1998 | North America
+|       | Buster Bros.                                                   | Hudson Soft                  | Game Boy | 1993 | North America
+|       | Caesars Palace                                                 | Arcadia Systems              | Game Boy | 1991 | North America
+|       | Captain America and the Avengers                               | Mindscape Inc.               | Game Boy | 1994 | North America
+|       | Casino Funpak                                                  | Interplay                    | Game Boy | 1995 | North America
+|       | Casper                                                         | Natsume                      | Game Boy | 1996 | North America
+|       | Castelian                                                      | Triffix                      | Game Boy | 1991 | North America
+|       | Castlevania II: Belmont's Revenge                              | Konami                       | Game Boy | 1991 | North America
+|       | Castlevania Legends                                            | Konami                       | Game Boy | 1998 | North America
+|       | Castlevania: The Adventure                                     | Konami                       | Game Boy | 1989 | North America
+|       | Catrap                                                         | Asmik Ace Entertainment, Inc | Game Boy | 1990 | North America
+|       | Centipede                                                      | Accolade                     | Game Boy | 1992 | North America
+|       | Centipede                                                      | Majesco Games                | Game Boy | 1998 | North America
+|       | Championship Pool                                              | Mindscape Inc.               | Game Boy | 1993 | North America
+|       | Chase H.Q.                                                     | Taito Corporation            | Game Boy | 1990 | North America
+|       | Chessmaster, The                                               | Hi Tech Expressions          | Game Boy | 1991 | North America
+|       | Choplifter II                                                  | Victor Interactive Software  | Game Boy | 1991 | North America
+|       | Chuck Rock                                                     | Sony Imagesoft               | Game Boy | 1993 | North America
+|       | Cliffhanger                                                    | Sony Imagesoft               | Game Boy | 1993 | North America
+|       | College Slam                                                   | Acclaim                      | Game Boy | 1996 | North America
+|       | Contra: The Alien Wars                                         | Konami                       | Game Boy | 1994 | North America
+|       | Cool Ball                                                      | Takara                       | Game Boy | 1994 | North America
+|       | Cool Spot                                                      | Virgin Interactive           | Game Boy | 1994 | North America
+|       | Cool World                                                     | Ocean                        | Game Boy | 1993 | North America
+|       | Cosmo Tank                                                     | ATLUS                        | Game Boy | 1990 | North America
+|       | Crystal Quest                                                  | Data East                    | Game Boy | 1991 | North America
+|       | Cutthroat Island                                               | Acclaim                      | Game Boy | 1996 | North America
+|       | Cyraid                                                         | Nexoft                       | Game Boy | 1991 | North America
+|       | Daedalian Opus                                                 | Vic Tokai                    | Game Boy | 1990 | North America
+|       | Daffy Duck                                                     | SunSoft                      | Game Boy | 1995 | North America
+|       | Darkman                                                        | Ocean                        | Game Boy | 1992 | North America
+|       | David Crane's The Rescue of Princess Blobette                  | Absolute Entertainment       | Game Boy | 1991 | North America
+|       | Days of Thunder                                                | Mindscape Inc.               | Game Boy | 1992 | North America
+|       | Dead Heat Scramble                                             | Electro Brain                | Game Boy | 1990 | North America
+|       | Dennis the Menace                                              | Ocean                        | Game Boy | 1994 | North America
+|       | Desert Strike: Return to the Gulf                              | Malibu                       | Game Boy | 1995 | North America
+|       | Dexterity                                                      | SNK                          | Game Boy | 1990 | North America
+|       | Dick Tracy                                                     | Bandai                       | Game Boy | 1991 | North America
+|       | Dig Dug                                                        | Namco                        | Game Boy | 1992 | North America
+|       | Disney's Aladdin                                               | Virgin Interactive           | Game Boy | 1995 | North America
+|       | Disney's Darkwing Duck                                         | Capcom                       | Game Boy | 1993 | North America
+|       | Disney's DuckTales                                             | Capcom                       | Game Boy | 1990 | North America
+|       | Disney's DuckTales 2                                           | Capcom                       | Game Boy | 1993 | North America
+|       | Disney's Hercules                                              | THQ                          | Game Boy | 1997 | North America
+|       | Disney's Mulan                                                 | THQ                          | Game Boy | 1998 | North America
+|       | Disney's Pinocchio                                             | Black Pearl                  | Game Boy | 1996 | North America
+|       | Disney's Pocahontas                                            | THQ                          | Game Boy | 1996 | North America
+|       | Disney's TaleSpin                                              | Capcom                       | Game Boy | 1992 | North America
+|       | Disney's The Hunchback of Notre Dame                           | Disney Interactive Studios   | Game Boy | 1997 | North America
+|       | Disney's The Jungle Book                                       | Virgin Interactive           | Game Boy | 1994 | North America
+|       | Disney's The Little Mermaid                                    | Capcom                       | Game Boy | 1993 | North America
+|       | Donkey Kong                                                    | Nintendo                     | Game Boy | 1994 | North America
+|       | Donkey Kong Land                                               | Nintendo                     | Game Boy | 1995 | North America
+|       | Donkey Kong Land 2                                             | Nintendo                     | Game Boy | 1996 | North America
+|       | Donkey Kong Land III                                           | Nintendo                     | Game Boy | 1997 | North America
+|       | Double Dragon                                                  | Tradewest                    | Game Boy | 1990 | North America
+|       | Double Dragon 3: The Arcade Game                               | Acclaim                      | Game Boy | 1992 | North America
+|       | Double Dragon II                                               | Acclaim                      | Game Boy | 1991 | North America
+|       | Double Dribble: 5 on 5                                         | Konami                       | Game Boy | 1991 | North America
+|       | Dr. Franken                                                    | Kemco                        | Game Boy | 1992 | North America
+|       | Dr. Franken II                                                 | Jaleco Entertainment         | Game Boy | 1997 | North America
+|       | Dr. Mario                                                      | Nintendo                     | Game Boy | 1990 | North America
+|       | Dragon's Lair: The Legend                                      | Sony Imagesoft               | Game Boy | 1991 | North America
+|       | DragonHeart: Fire & Steel                                      | Acclaim                      | Game Boy | 1996 | North America
+|       | Earthworm Jim                                                  | Playmates                    | Game Boy | 1995 | North America
+|       | Elevator Action                                                | Taito Corporation            | Game Boy | 1991 | North America
+|       | Elite Soccer                                                   | GameTek                      | Game Boy | 1994 | North America
+|       | Exodus: Journey to the Promised Land                           | Wisdom Tree                  | Game Boy | 1992 | North America
+|       | Extra Bases                                                    | Bandai                       | Game Boy | 1991 | North America
+|       | F-1 Race                                                       | Nintendo                     | Game Boy | 1991 | North America
+|       | F-15 Strike Eagle                                              | MicroProse                   | Game Boy | 1993 | North America
+|       | F1 Pole Position                                               | Ubisoft                      | Game Boy | 1993 | North America
+|       | Faceball 2000                                                  | Bullet Proof Software        | Game Boy | 1991 | North America
+|       | Fastest Lap                                                    | NTVIC                        | Game Boy | 1992 | North America
+|       | Felix the Cat                                                  | Hudson Soft                  | Game Boy | 1993 | North America
+|       | Ferrari Grand Prix Challenge                                   | Acclaim                      | Game Boy | 1992 | North America
+|       | Fidgetts, The                                                  | Jaleco Entertainment         | Game Boy | 1997 | North America
+|       | FIFA International Soccer                                      | Malibu                       | Game Boy | 1995 | North America
+|       | FIFA Soccer 96                                                 | EA Sports                    | Game Boy | 1995 | North America
+|       | FIFA Soccer 97                                                 | Black Pearl                  | Game Boy | 1996 | North America
+|       | Fighting Simulator: 2-in-1 Flying Warriors                     | Culture Brain                | Game Boy | 1992 | North America
+|       | Final Fantasy Adventure                                        | SquareSoft                   | Game Boy | 1991 | North America
+|       | Final Fantasy Legend                                           | SquareSoft                   | Game Boy | 1990 | North America
+|       | Final Fantasy Legend II                                        | SquareSoft                   | Game Boy | 1991 | North America
+|       | Final Fantasy Legend III                                       | SquareSoft                   | Game Boy | 1993 | North America
+|       | Fish Dude                                                      | Sofel                        | Game Boy | 1991 | North America
+|       | Fist of the North Star                                         | Electro Brain                | Game Boy | 1990 | North America
+|       | Flash, The                                                     | THQ                          | Game Boy | 1992 | North America
+|       | Flintstones: King Rock Treasure Island, The                    | Taito Corporation            | Game Boy | 1993 | North America
+|       | Flintstones: The Movie, The                                    | Ocean                        | Game Boy | 1994 | North America
+|       | Flipull                                                        | Taito Corporation            | Game Boy | 1990 | North America
+|       | Foreman For Real                                               | Acclaim                      | Game Boy | 1995 | North America
+|       | Fortified Zone                                                 | Jaleco Entertainment         | Game Boy | 1991 | North America
+|       | Fortress of Fear: Wizards & Warriors X                         | Acclaim                      | Game Boy | 1990 | North America
+|       | Frank Thomas: Big Hurt Baseball                                | Acclaim                      | Game Boy | 1995 | North America
+|       | Frogger                                                        | Majesco Games                | Game Boy | 1998 | North America
+|       | Game & Watch Gallery                                           | Nintendo                     | Game Boy | 1997 | North America
+|       | Game of Harmony, The                                           | Accolade                     | Game Boy | 1991 | North America
+|       | Gargoyle's Quest                                               | Capcom                       | Game Boy | 1990 | North America
+|       | Gauntlet II                                                    | Mindscape Inc.               | Game Boy | 1991 | North America
+|       | Gear Works                                                     | Sony Imagesoft               | Game Boy | 1993 | North America
+|       | George Foreman's KO Boxing                                     | Acclaim                      | Game Boy | 1992 | North America
+|       | Getaway: High Speed II, The                                    | Williams                     | Game Boy | 1995 | North America
+|       | Ghostbusters II                                                | Activision                   | Game Boy | 1990 | North America
+|       | Go! Go! Tank                                                   | Electro Brain                | Game Boy | 1991 | North America
+|       | Goal!                                                          | Jaleco Entertainment         | Game Boy | 1993 | North America
+|       | Godzilla                                                       | Toho                         | Game Boy | 1990 | North America
+|       | Golf                                                           | Nintendo                     | Game Boy | 1990 | North America
+|       | Gradius: The Interstellar Assault                              | Konami                       | Game Boy | 1992 | North America
+|       | Great Greed                                                    | Namco                        | Game Boy | 1993 | North America
+|       | Gremlins 2: The New Batch                                      | SunSoft                      | Game Boy | 1991 | North America
+|       | Hal Wrestling                                                  | Hal                          | Game Boy | 1990 | North America
+|       | Harvest Moon GB                                                | Natsume                      | Game Boy | 1998 | North America
+|       | Hatris                                                         | Bullet Proof Software        | Game Boy | 1991 | North America
+|       | Heavyweight Championship Boxing                                | Activision                   | Game Boy | 1990 | North America
+|       | Heiankyo Alien                                                 | Meldac                       | Game Boy | 1990 | North America
+|       | High Stakes Gambling                                           | Electro Brain                | Game Boy | 1992 | North America
+|       | Hit the Ice                                                    | Taito Corporation            | Game Boy | 1992 | North America
+|       | Home Alone                                                     | THQ                          | Game Boy | 1991 | North America
+|       | Home Alone 2: Lost in New York                                 | THQ                          | Game Boy | 1992 | North America
+|       | Hook                                                           | Sony Imagesoft               | Game Boy | 1992 | North America
+|       | Hudson Hawk                                                    | Sony Imagesoft               | Game Boy | 1991 | North America
+|       | Humans, The                                                    | GameTek                      | Game Boy | 1992 | North America
+|       | Hunt For Red October, The                                      | Hi-Tech                      | Game Boy | 1991 | North America
+|       | Hyper Lode Runner                                              | Bandai                       | Game Boy | 1990 | North America
+|       | In Your Face                                                   | Jaleco Entertainment         | Game Boy | 1990 | North America
+|       | Incredible Crash Dummies, The                                  | LJN Ltd.                     | Game Boy | 1992 | North America
+|       | Indiana Jones and the Last Crusade                             | Ubisoft                      | Game Boy | 1994 | North America
+|       | InfoGenius Productivity Pak: Berlitz French Translator         | GameTek                      | Game Boy | 1991 | North America
+|       | InfoGenius Productivity Pak: Berlitz Spanish Translator        | GameTek                      | Game Boy | 1991 | North America
+|       | InfoGenius Productivity Pak: Frommer's Travel Guide            | GameTek                      | Game Boy | 1991 | North America
+|       | InfoGenius Productivity Pak: Personal Organizer and Phone Book | GameTek                      | Game Boy | 1991 | North America
+|       | InfoGenius Productivity Pak: Spell Checker and Calculator      | GameTek                      | Game Boy | 1991 | North America
+|       | International Superstar Soccer                                 | Konami                       | Game Boy | 1998 | North America
+|       | Iron Man / X-O Manowar in Heavy Metal                          | Acclaim                      | Game Boy | 1996 | North America
+|       | Ishido: The Way of Stones                                      | Publishing International     | Game Boy | 1990 | North America
+|       | Itchy & Scratchy in Miniature Golf Madness                     | Acclaim                      | Game Boy | 1994 | North America
+|       | Jack Nicklaus Golf                                             | Tradewest                    | Game Boy | 1992 | North America
+|       | James Bond 007                                                 | Nintendo                     | Game Boy | 1998 | North America
+|       | Jeep Jamboree: Off Road Adventure                              | Virgin Interactive           | Game Boy | 1992 | North America
+|       | Jeopardy!                                                      | GameTek                      | Game Boy | 1991 | North America
+|       | Jeopardy! Platinum Edition                                     | GameTek                      | Game Boy | 1996 | North America
+|       | Jeopardy! Sports Edition                                       | GameTek                      | Game Boy | 1994 | North America
+|       | Jeopardy! Teen Tournament                                      | GameTek                      | Game Boy | 1996 | North America
+|       | Jetsons: Robot Panic, The                                      | Taito Corporation            | Game Boy | 1992 | North America
+|       | Jimmy Connors Tennis                                           | Ubisoft                      | Game Boy | 1998 | North America
+|       | Joe & Mac                                                      | Data East                    | Game Boy | 1993 | North America
+|       | Jordan vs Bird: One on One                                     | Electronic Arts              | Game Boy | 1992 | North America
+|       | Joshua & the Battle of Jericho                                 | Wisdom Tree                  | Game Boy | 1992 | North America
+|       | Judge Dredd                                                    | Acclaim                      | Game Boy | 1995 | North America
+|       | Jungle Strike                                                  | Ocean                        | Game Boy | 1995 | North America
+|       | Jurassic Park                                                  | Ocean                        | Game Boy | 1993 | North America
+|       | Jurassic Park Part 2: The Chaos Continues                      | Ocean                        | Game Boy | 1994 | North America
+|       | Ken Griffey Jr. Presents Major League Baseball                 | Nintendo                     | Game Boy | 1997 | North America
+|       | Kid Dracula                                                    | Konami                       | Game Boy | 1993 | North America
+|       | Kid Icarus: Of Myths and Monsters                              | Nintendo                     | Game Boy | 1991 | North America
+|       | Killer Instinct                                                | Nintendo                     | Game Boy | 1995 | North America
+|       | King James Bible                                               | Wisdom Tree                  | Game Boy | 1994 | North America
+|       | King of Fighters '95, The                                      | Nintendo                     | Game Boy | 1997 | North America
+|       | Kingdom Crusade                                                | Electro Brain                | Game Boy | 1992 | North America
+|       | Kirby's Block Ball                                             | Nintendo                     | Game Boy | 1996 | North America
+|       | Kirby's Dream Land                                             | Nintendo                     | Game Boy | 1992 | North America
+|       | Kirby's Dream Land 2                                           | Nintendo                     | Game Boy | 1995 | North America
+|       | Kirby's Pinball Land                                           | Nintendo                     | Game Boy | 1993 | North America
+|       | Kirby's Star Stacker                                           | Nintendo                     | Game Boy | 1997 | North America
+|       | Klax                                                           | Mindscape Inc.               | Game Boy | 1991 | North America
+|       | Knight Quest                                                   | Taito Corporation            | Game Boy | 1992 | North America
+|       | Krusty's Fun House                                             | Acclaim                      | Game Boy | 1993 | North America
+|       | Kung Fu Master                                                 | Irem                         | Game Boy | 1991 | North America
+|       | Kwirk                                                          | Acclaim                      | Game Boy | 1990 | North America
+|       | Lamborghini: American Challenge                                | Titus Software               | Game Boy | 1994 | North America
+|       | Last Action Hero                                               | Sony Imagesoft               | Game Boy | 1993 | North America
+|       | Lazlos' Leap                                                   | DTMC                         | Game Boy | 1992 | North America
+|       | Legend of the River King                                       | Natsume                      | Game Boy | 1998 | North America
+|       | Legend of Zelda: Link's Awakening, The                         | Nintendo                     | Game Boy | 1993 | North America
+|       | Lemmings                                                       | Ocean                        | Game Boy | 1994 | North America
+|       | Lethal Weapon                                                  | Ocean                        | Game Boy | 1993 | North America
+|       | Lion King, The                                                 | Virgin Interactive           | Game Boy | 1995 | North America
+|       | Lock n' Chase                                                  | Data East                    | Game Boy | 1990 | North America
+|       | Looney Tunes                                                   | SunSoft                      | Game Boy | 1992 | North America
+|       | LoopZ                                                          | Mindscape Inc.               | Game Boy | 1991 | North America
+|       | Lost World: Jurassic Park, The                                 | THQ                          | Game Boy | 1997 | North America
+|       | Madden 95                                                      | Malibu                       | Game Boy | 1994 | North America
+|       | Madden 96                                                      | Black Pearl                  | Game Boy | 1995 | North America
+|       | Madden 97                                                      | Black Pearl                  | Game Boy | 1996 | North America
+|       | Malibu Beach Volleyball                                        | Activision                   | Game Boy | 1990 | North America
+|       | Marble Madness                                                 | Mindscape Inc.               | Game Boy | 1991 | North America
+|       | Mario's Picross                                                | Nintendo                     | Game Boy | 1995 | North America
+|       | Maru's Mission                                                 | Jaleco Entertainment         | Game Boy | 1991 | North America
+|       | Maui Mallard in Cold Shadow                                    | SunSoft                      | Game Boy | 1998 | North America
+|       | Mega Man II                                                    | Capcom                       | Game Boy | 1992 | North America
+|       | Mega Man III                                                   | Capcom                       | Game Boy | 1992 | North America
+|       | Mega Man IV                                                    | Capcom                       | Game Boy | 1993 | North America
+|       | Mega Man V                                                     | Capcom                       | Game Boy | 1994 | North America
+|       | Mega Man: Dr. Wily's Revenge                                   | Capcom                       | Game Boy | 1991 | North America
+|       | Megalit                                                        | Takara                       | Game Boy | 1992 | North America
+|       | Mercenary Force                                                | Meldac                       | Game Boy | 1990 | North America
+|       | Metal Masters                                                  | Electro Brain                | Game Boy | 1993 | North America
+|       | Metroid II: Return of Samus                                    | Nintendo                     | Game Boy | 1991 | North America
+|       | Mickey Mouse: Magic Wands!                                     | Nintendo                     | Game Boy | 1998 | North America
+|       | Mickey's Dangerous Chase                                       | Capcom                       | Game Boy | 1991 | North America
+|       | Mickey's Ultimate Challenge                                    | Hi Tech Expressions          | Game Boy | 1994 | North America
+|       | Micro Machines                                                 | Ocean                        | Game Boy | 1995 | North America
+|       | Mighty Morphin Power Rangers                                   | Bandai                       | Game Boy | 1994 | North America
+|       | Mighty Morphin Power Rangers: The Movie                        | Bandai                       | Game Boy | 1995 | North America
+|       | Milon's Secret Castle                                          | Hudson                       | Game Boy | 1993 | North America
+|       | Miner 2049er                                                   | Mindscape Inc.               | Game Boy | 1992 | North America
+|       | Missile Command                                                | Accolade                     | Game Boy | 1992 | North America
+|       | Mole Mania                                                     | Nintendo                     | Game Boy | 1996 | North America
+|       | Monopoly                                                       | Parker Bros                  | Game Boy | 1991 | North America
+|       | Monster Truck Wars                                             | Acclaim                      | Game Boy | 1994 | North America
+|       | Mortal Kombat                                                  | Acclaim                      | Game Boy | 1993 | North America
+|       | Mortal Kombat & Mortal Kombat II                               | Acclaim                      | Game Boy | 1997 | North America
+|       | Mortal Kombat 3                                                | Acclaim                      | Game Boy | 1995 | North America
+|       | Mortal Kombat II                                               | Acclaim                      | Game Boy | 1994 | North America
+|       | Motocross Maniacs                                              | Ultra                        | Game Boy | 1990 | North America
+|       | Mouse Trap Hotel                                               | Electro Brain                | Game Boy | 1992 | North America
+|       | Mr. Chin's Gourmet Paradise                                    | Romstar                      | Game Boy | 1990 | North America
+|       | Mr. Do!                                                        | Ocean                        | Game Boy | 1992 | North America
+|       | Ms. Pac-Man                                                    | Namco                        | Game Boy | 1993 | North America
+|       | Muhammad Ali: Heavyweight Boxing                               | Virgin Interactive           | Game Boy | 1993 | North America
+|       | Mysterium                                                      | Asmik Corporation of America | Game Boy | 1991 | North America
+|       | Mystical Ninja Starring Goemon                                 | Konami                       | Game Boy | 1998 | North America
+|       | Nail 'N Scale                                                  | Data East                    | Game Boy | 1992 | North America
+|       | Navy Seals                                                     | Ocean                        | Game Boy | 1991 | North America
+|       | NBA All-Star Challenge                                         | LJN Ltd.                     | Game Boy | 1991 | North America
+|       | NBA All-Star Challenge 2                                       | Acclaim Japan                | Game Boy | 1992 | North America
+|       | NBA Jam                                                        | Acclaim                      | Game Boy | 1994 | North America
+|       | NBA Jam: Tournament Edition                                    | Acclaim                      | Game Boy | 1995 | North America
+|       | NBA Live 96                                                    | Black Pearl                  | Game Boy | 1996 | North America
+|       | Nemesis                                                        | Ultra                        | Game Boy | 1990 | North America
+|       | New Chessmaster, The                                           | Hi Tech Expressions          | Game Boy | 1993 | North America
+|       | NFL Football                                                   | Konami                       | Game Boy | 1990 | North America
+|       | NFL Quarterback Club                                           | LJN Ltd.                     | Game Boy | 1993 | North America
+|       | NFL Quarterback Club 96                                        | Acclaim                      | Game Boy | 1995 | North America
+|       | NFL Quarterback Club II                                        | LJN Ltd.                     | Game Boy | 1995 | North America
+|       | NHL 96                                                         | Black Pearl                  | Game Boy | 1996 | North America
+|       | NHL Hockey '95                                                 | Malibu                       | Game Boy | 1995 | North America
+|       | Nigel Mansell's World Championship Racing                      | GameTek                      | Game Boy | 1993 | North America
+|       | Ninja Boy                                                      | Culture Brain                | Game Boy | 1990 | North America
+|       | Ninja Boy 2                                                    | Culture Brain                | Game Boy | 1993 | North America
+|       | Ninja Gaiden Shadow                                            | Tecmo                        | Game Boy | 1991 | North America
+|       | Ninja Taro                                                     | American Sammy               | Game Boy | 1992 | North America
+|       | Nintendo World Cup                                             | Nintendo                     | Game Boy | 1991 | North America
+|       | NIV Bible & the 20 Lost Levels of Joshua                       | Wisdom Tree                  | Game Boy | 1996 | North America
+|       | Nobunaga's Ambition                                            | Koei                         | Game Boy | 1991 | North America
+|       | Oddworld Adventures                                            | GT Interactive               | Game Boy | 1998 | North America
+|       | Olympic Summer Games: Atlanta 1996                             | Black Pearl                  | Game Boy | 1996 | North America
+|       | Operation C                                                    | Ultra                        | Game Boy | 1991 | North America
+|       | Out of Gas                                                     | FCI, Inc.                    | Game Boy | 1992 | North America
+|       | Pac-Attack                                                     | Namco                        | Game Boy | 1994 | North America
+|       | Pac-in-Time                                                    | Namco                        | Game Boy | 1995 | North America
+|       | Pac-Man                                                        | Namco                        | Game Boy | 1991 | North America
+|       | Pagemaster, The                                                | Fox Interactive              | Game Boy | 1994 | North America
+|       | Panel Action Bingo                                             | FCI, Inc.                    | Game Boy | 1993 | North America
+|       | Paperboy                                                       | Mindscape Inc.               | Game Boy | 1990 | North America
+|       | Paperboy 2                                                     | Mindscape Inc.               | Game Boy | 1992 | North America
+|       | Penguin Wars                                                   | Nexoft                       | Game Boy | 1990 | North America
+|       | PGA European Tour                                              | Malibu                       | Game Boy | 1995 | North America
+|       | PGA Tour 96                                                    | Black Pearl                  | Game Boy | 1995 | North America
+|       | Pinball Dreams                                                 | GameTek                      | Game Boy | 1993 | North America
+|       | Pinball Fantasies                                              | GameTek                      | Game Boy | 1995 | North America
+|       | Pipe Dream                                                     | Bullet Proof Software        | Game Boy | 1990 | North America
+|       | Pit-Fighter                                                    | THQ                          | Game Boy | 1992 | North America
+|       | Play Action Football                                           | Nintendo                     | Game Boy | 1990 | North America
+|       | Pokemon Blue Version                                           | Nintendo                     | Game Boy | 1998 | North America
+|       | Pokemon Red Version                                            | Nintendo                     | Game Boy | 1998 | North America
+|       | Pokemon Yellow Version: Special Pikachu Edition                | Nintendo                     | Game Boy | 1999 | North America
+|       | Popeye 2                                                       | Activision                   | Game Boy | 1993 | North America
+|       | Power Mission                                                  | NTVIC                        | Game Boy | 1991 | North America
+|       | Power Racer                                                    | Tecmo                        | Game Boy | 1990 | North America
+|       | Prehistorik Man                                                | Titus Software               | Game Boy | 1996 | North America
+|       | Primal Rage                                                    | Time Warner Interactive      | Game Boy | 1995 | North America
+|       | Prince of Persia                                               | Virgin Interactive           | Game Boy | 1992 | North America
+|       | Prophecy: The Viking Child                                     | GameTek                      | Game Boy | 1992 | North America
+|       | Punisher: The Ultimate Payback, The                            | Acclaim                      | Game Boy | 1991 | North America
+|       | Pyramids of Ra                                                 | Matchbox                     | Game Boy | 1993 | North America
+|       | Q Billion                                                      | Seta Corporation             | Game Boy | 1990 | North America
+|       | Q*bert                                                         | Jaleco Entertainment         | Game Boy | 1992 | North America
+|       | Qix                                                            | Nintendo                     | Game Boy | 1990 | North America
+|       | Quarth                                                         | Konami                       | Game Boy | 1990 | North America
+|       | R-Type                                                         | Irem                         | Game Boy | 1991 | North America
+|       | Race Days                                                      | GameTek                      | Game Boy | 1994 | North America
+|       | Race Drivin'                                                   | THQ                          | Game Boy | 1993 | North America
+|       | Radar Mission                                                  | Nintendo                     | Game Boy | 1991 | North America
+|       | Raging Fighter                                                 | Konami                       | Game Boy | 1993 | North America
+|       | Rampart                                                        | Jaleco Entertainment         | Game Boy | 1993 | North America
+|       | Real Ghostbusters, The                                         | Activision                   | Game Boy | 1993 | North America
+|       | Ren & Stimpy Show: Space Cadet Adventures, The                 | THQ                          | Game Boy | 1992 | North America
+|       | Ren & Stimpy Show: Veediots!, The                              | THQ                          | Game Boy | 1993 | North America
+|       | Revenge of the 'Gator                                          | Hal                          | Game Boy | 1990 | North America
+|       | Riddick Bowe Boxing                                            | Extreme Entertainment Group  | Game Boy | 1994 | North America
+|       | Ring Rage                                                      | Taito Corporation            | Game Boy | 1998 | North America
+|       | Road Rash                                                      | Ocean                        | Game Boy | 1996 | North America
+|       | Robin Hood: Prince of Thieves                                  | Virgin Interactive           | Game Boy | 1993 | North America
+|       | RoboCop                                                        | Ocean                        | Game Boy | 1990 | North America
+|       | RoboCop 2                                                      | Ocean                        | Game Boy | 1991 | North America
+|       | RoboCop Versus The Terminator                                  | Interplay                    | Game Boy | 1994 | North America
+|       | Roger Clemens' MVP Baseball                                    | LJN Ltd.                     | Game Boy | 1992 | North America
+|       | Rolan's Curse                                                  | American Sammy               | Game Boy | 1991 | North America
+|       | Rolan's Curse 2                                                | American Sammy               | Game Boy | 1992 | North America
+|       | Rugrats Movie, The                                             | THQ                          | Game Boy | 1998 | North America
+|       | Samurai Shodown                                                | Takara                       | Game Boy | 1994 | North America
+|       | seaQuest DSV                                                   | Malibu                       | Game Boy | 1994 | North America
+|       | Serpent                                                        | Taxan                        | Game Boy | 1990 | North America
+|       | Shanghai                                                       | Hal                          | Game Boy | 1990 | North America
+|       | Shaq Fu                                                        | Black Pearl                  | Game Boy | 1995 | North America
+|       | Side Pocket                                                    | Data East                    | Game Boy | 1990 | North America
+|       | Simpsons: Bart & the Beanstalk, The                            | Acclaim                      | Game Boy | 1994 | North America
+|       | Simpsons: Bart vs. the Juggernauts, The                        | Acclaim                      | Game Boy | 1992 | North America
+|       | Skate Or Die: Bad 'N Rad                                       | Konami                       | Game Boy | 1990 | North America
+|       | Skate Or Die: Tour de Thrash                                   | EA Sports                    | Game Boy | 1991 | North America
+|       | Small Soldiers                                                 | THQ                          | Game Boy | 1998 | North America
+|       | Smurfs, The                                                    | Infogrames                   | Game Boy | 1994 | North America
+|       | Sneaky Snakes                                                  | Tradewest                    | Game Boy | 1991 | North America
+|       | Snoopy's Magic Show                                            | Kemco                        | Game Boy | 1990 | North America
+|       | Snow Brothers                                                  | Capcom                       | Game Boy | 1992 | North America
+|       | Soccer Mania                                                   | Sony Imagesoft               | Game Boy | 1992 | North America
+|       | Solar Striker                                                  | Nintendo                     | Game Boy | 1990 | North America
+|       | Solitaire FunPak                                               | Interplay                    | Game Boy | 1994 | North America
+|       | Solomon's Club                                                 | Tecmo                        | Game Boy | 1991 | North America
+|       | Space Invaders                                                 | Nintendo                     | Game Boy | 1994 | North America
+|       | Spanky's Quest                                                 | Natsume                      | Game Boy | 1992 | North America
+|       | Speedball 2                                                    | Mindscape Inc.               | Game Boy | 1992 | North America
+|       | Speedy Gonzales                                                | SunSoft                      | Game Boy | 1993 | North America
+|       | Spider-Man / X-Men: Arcade's Revenge                           | LJN Ltd.                     | Game Boy | 1993 | North America
+|       | Spider-Man 3: Invasion of the Spider-Slayers                   | LJN Ltd.                     | Game Boy | 1993 | North America
+|       | Spiritual Warfare                                              | Wisdom Tree                  | Game Boy | 1992 | North America
+|       | Sports Illustrated for Kids: The Ultimate Triple Dare          | Malibu                       | Game Boy | 1994 | North America
+|       | Sports Illustrated: Championship Football & Baseball           | Malibu                       | Game Boy | 1993 | North America
+|       | Sports Illustrated: Golf Classic                               | Malibu                       | Game Boy | 1994 | North America
+|       | Spot: The Cool Adventure                                       | Virgin Interactive           | Game Boy | 1993 | North America
+|       | Spot: The Video Game                                           | Virgin Interactive           | Game Boy | 1991 | North America
+|       | Spud's Adventure                                               | ATLUS                        | Game Boy | 1991 | North America
+|       | Spy vs. Spy                                                    | First Star Software          | Game Boy | 1992 | North America
+|       | Square Deal                                                    | DTMC                         | Game Boy | 1992 | North America
+|       | Star Trek Generations: Beyond the Nexus                        | Absolute Entertainment       | Game Boy | 1994 | North America
+|       | Star Trek: 25th Anniversary                                    | Ultra                        | Game Boy | 1992 | North America
+|       | Star Trek: The Next Generation                                 | Absolute Entertainment       | Game Boy | 1993 | North America
+|       | Star Wars                                                      | Capcom                       | Game Boy | 1992 | North America
+|       | Star Wars: The Empire Strikes Back                             | Capcom                       | Game Boy | 1993 | North America
+|       | Stargate                                                       | Acclaim                      | Game Boy | 1994 | North America
+|       | Stop That Roach!                                               | Koei                         | Game Boy | 1994 | North America
+|       | Street Fighter II                                              | Nintendo                     | Game Boy | 1995 | North America
+|       | Street Racer                                                   | Ubisoft                      | Game Boy | 1996 | North America
+|       | Sumo Fighter                                                   | DTMC                         | Game Boy | 1993 | North America
+|       | Super Battletank                                               | Absolute Entertainment       | Game Boy | 1994 | North America
+|       | Super Black Bass                                               | Hot B                        | Game Boy | 1998 | North America
+|       | Super Breakout                                                 | Majesco Games                | Game Boy | 1998 | North America
+|       | Super Chase H.Q.                                               | Taito Corporation            | Game Boy | 1994 | North America
+|       | Super Hunchback                                                | Ocean                        | Game Boy | 1992 | North America
+|       | Super Mario Land                                               | Nintendo                     | Game Boy | 1989 | North America
+|       | Super Mario Land 2: 6 Golden Coins                             | Nintendo                     | Game Boy | 1992 | North America
+|       | Super Mario Land 3: Wario Land                                 | Nintendo                     | Game Boy | 1994 | North America
+|       | Super Off Road                                                 | Tradewest                    | Game Boy | 1992 | North America
+|       | Super R.C. Pro-Am                                              | Nintendo                     | Game Boy | 1991 | North America
+|       | Super Scrabble                                                 | Milton Bradley               | Game Boy | 1991 | North America
+|       | Super Star Wars: Return of the Jedi                            | Black Pearl                  | Game Boy | 1995 | North America
+|       | Superman                                                       | Titus Software               | Game Boy | 1997 | North America
+|       | Swamp Thing                                                    | THQ                          | Game Boy | 1992 | North America
+|       | Sword of Hope II                                               | Kemco                        | Game Boy | 1996 | North America
+|       | Sword of Hope, The                                             | Seika Corp.                  | Game Boy | 1991 | North America
+|       | T2: Terminator 2 Judgment Day                                  | LJN Ltd.                     | Game Boy | 1992 | North America
+|       | T2: The Arcade Game                                            | Acclaim                      | Game Boy | 1992 | North America
+|       | Tail 'Gator                                                    | Natsume                      | Game Boy | 1991 | North America
+|       | Tamagotchi                                                     | Bandai                       | Game Boy | 1997 | North America
+|       | Tarzan: Lord of the Jungle                                     | GameTek                      | Game Boy | 1994 | North America
+|       | Tasmania Story                                                 | FCI, Inc.                    | Game Boy | 1991 | North America
+|       | Taz-Mania                                                      | SunSoft                      | Game Boy | 1994 | North America
+|       | Taz-Mania 2                                                    | THQ                          | Game Boy | 1997 | North America
+|       | Tecmo Bowl                                                     | Tecmo                        | Game Boy | 1991 | North America
+|       | Teenage Mutant Ninja Turtles II: Back from the Sewers          | Konami                       | Game Boy | 1991 | North America
+|       | Teenage Mutant Ninja Turtles III: Radical Rescue               | Konami                       | Game Boy | 1993 | North America
+|       | Teenage Mutant Ninja Turtles: Fall of the Foot Clan            | Ultra                        | Game Boy | 1990 | North America
+|       | Tennis                                                         | Nintendo                     | Game Boy | 1989 | North America
+|       | Tesserae                                                       | GameTek                      | Game Boy | 1993 | North America
+|       | Tetris                                                         | Nintendo                     | Game Boy | 1989 | North America
+|       | Tetris 2                                                       | Nintendo                     | Game Boy | 1993 | North America
+|       | Tetris Attack                                                  | Nintendo                     | Game Boy | 1996 | North America
+|       | Tetris Blast                                                   | Nintendo                     | Game Boy | 1996 | North America
+|       | Tetris Plus                                                    | Jaleco Entertainment         | Game Boy | 1997 | North America
+|       | Tiny Toon Adventures 2: Montana's Movie Madness                | Konami                       | Game Boy | 1993 | North America
+|       | Tiny Toon Adventures: Babs' Big Break                          | Konami                       | Game Boy | 1992 | North America
+|       | Tiny Toon Adventures: Wacky Sports                             | Konami                       | Game Boy | 1994 | North America
+|       | Titus the Fox                                                  | Titus Software               | Game Boy | 1993 | North America
+|       | Tom & Jerry                                                    | Hi Tech Expressions          | Game Boy | 1992 | North America
+|       | Tom and Jerry: Frantic Antics                                  | Hi-Tech                      | Game Boy | 1993 | North America
+|       | Top Gun: Guts and Glory                                        | Konami                       | Game Boy | 1993 | North America
+|       | Top Rank Tennis                                                | Nintendo                     | Game Boy | 1993 | North America
+|       | Torpedo Range                                                  | Romstar                      | Game Boy | 1996 | North America
+|       | Total Carnage                                                  | Malibu                       | Game Boy | 1994 | North America
+|       | Toxic Crusaders                                                | Bandai                       | Game Boy | 1992 | North America
+|       | Toy Story                                                      | Black Pearl                  | Game Boy | 1996 | North America
+|       | Track & Field                                                  | Konami                       | Game Boy | 1992 | North America
+|       | Track Meet                                                     | Interplay                    | Game Boy | 1991 | North America
+|       | Trax                                                           | Hal                          | Game Boy | 1991 | North America
+|       | True Lies                                                      | LJN Ltd.                     | Game Boy | 1995 | North America
+|       | Tumble Pop                                                     | Data East                    | Game Boy | 1993 | North America
+|       | Turn and Burn: The F-14 Dogfight Simulator                     | Absolute Entertainment       | Game Boy | 1992 | North America
+|       | Turok: Battle of the Bionosaurs                                | Acclaim                      | Game Boy | 1997 | North America
+|       | Turrican                                                       | Accolade                     | Game Boy | 1991 | North America
+|       | Ultima: Runes of Virtue                                        | FCI, Inc.                    | Game Boy | 1992 | North America
+|       | Ultima: Runes of Virtue II                                     | Pony Canyon                  | Game Boy | 1994 | North America
+|       | Ultra Golf                                                     | Ultra                        | Game Boy | 1992 | North America
+|       | Universal Soldier                                              | Accolade                     | Game Boy | 1992 | North America
+|       | Urban Strike                                                   | Black Pearl                  | Game Boy | 1996 | North America
+|       | Vegas Stakes                                                   | Nintendo                     | Game Boy | 1995 | North America
+|       | Wario Blast: Featuring Bomberman!                              | Nintendo                     | Game Boy | 1994 | North America
+|       | Wario Land II                                                  | Nintendo                     | Game Boy | 1998 | North America
+|       | Wave Race                                                      | Nintendo                     | Game Boy | 1992 | North America
+|       | Wayne's World                                                  | THQ                          | Game Boy | 1993 | North America
+|       | WCW Wrestling: The Main Event                                  | FCI, Inc.                    | Game Boy | 1994 | North America
+|       | We're Back!                                                    | Hi Tech Expressions          | Game Boy | 1993 | North America
+|       | Wheel of Fortune                                               | GameTek                      | Game Boy | 1990 | North America
+|       | Who Framed Roger Rabbit                                        | Capcom                       | Game Boy | 1991 | North America
+|       | Wild Snake                                                     | Spectrum Holobyte            | Game Boy | 1994 | North America
+|       | Winter Olympic Games: Lillehammer '94                          | U.S. Gold                    | Game Boy | 1994 | North America
+|       | Word Zap                                                       | Jaleco Entertainment         | Game Boy | 1992 | North America
+|       | Wordtris                                                       | Spectrum Holobyte            | Game Boy | 1992 | North America
+|       | World Bowling                                                  | Romstar                      | Game Boy | 1990 | North America
+|       | World Circuit Series                                           | Ultra                        | Game Boy | 1992 | North America
+|       | World Cup 98                                                   | THQ                          | Game Boy | 1998 | North America
+|       | World Heroes 2 Jet                                             | Takara                       | Game Boy | 1995 | North America
+|       | WWF King of the Ring                                           | LJN Ltd.                     | Game Boy | 1993 | North America
+|       | WWF Raw                                                        | Accolade                     | Game Boy | 1994 | North America
+|       | WWF Superstars                                                 | LJN Ltd.                     | Game Boy | 1991 | North America
+|       | WWF Superstars 2                                               | LJN Ltd.                     | Game Boy | 1992 | North America
+|       | WWF War Zone                                                   | Acclaim                      | Game Boy | 1998 | North America
+|       | Xenon 2                                                        | Mindscape Inc.               | Game Boy | 1992 | North America
+|       | Yogi Bear's Goldrush                                           | GameTek                      | Game Boy | 1994 | North America
+|       | Yoshi                                                          | Nintendo                     | Game Boy | 1992 | North America
+|       | Yoshi's Cookie                                                 | Nintendo                     | Game Boy | 1993 | North America
+|       | Zen: Intergalactic Ninja                                       | Konami                       | Game Boy | 1993 | North America
+|       | Zool: Ninja of the "Nth" Dimension                             | GameTek                      | Game Boy | 1993 | North America
+|       | Zoop                                                           | Viacom New Media             | Game Boy | 1995 | North America

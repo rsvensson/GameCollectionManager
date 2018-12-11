@@ -1,0 +1,243 @@
+|       | 3D Lemmings                                                    | Psygnosis                     | Sega Saturn | 1996 | Europe
+|       | Actua Golf                                                     | Gremlin Interactive           | Sega Saturn | 1997 | Europe
+|       | Actua Soccer: Club Edition                                     | Gremlin Interactive           | Sega Saturn | 1996 | Europe
+|       | Alien Trilogy                                                  | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | Alone in the Dark: Jack is Back                                | Infogrames                    | Sega Saturn | 1996 | Europe
+|       | Amok                                                           | Sega                          | Sega Saturn | 1997 | Europe
+|       | Andretti Racing                                                | Electronic Arts               | Sega Saturn | 1996 | Europe
+|       | Area 51                                                        | Midway                        | Sega Saturn | 1997 | Europe
+|       | Athlete Kings                                                  | Sega                          | Sega Saturn | 1995 | Europe
+|       | Atlantis: Secrets d'un monde oublie                            | Cryo Interactive              | Sega Saturn | 1997 | Europe
+|       | Baku Baku                                                      | Sega                          | Sega Saturn | 1998 | Europe
+|       | Batman Forever: The Arcade Game                                | Acclaim                       | Sega Saturn | 1997 | Europe
+|       | Battle Arena Toshinden Remix                                   | Sega                          | Sega Saturn | 1996 | Europe
+|       | Battle Arena Toshinden URA                                     | Sega                          | Sega Saturn | 1996 | Europe
+|       | Battle Monsters                                                | Acclaim                       | Sega Saturn | 1995 | Europe
+|       | Battle Stations                                                | Electronic Arts               | Sega Saturn | 1997 | Europe
+|       | Black Dawn                                                     | Virgin Interactive            | Sega Saturn | 1997 | Europe
+|       | Black Fire                                                     | Virgin Interactive            | Sega Saturn | 1995 | Europe
+|       | Blam! Machinehead                                              | Core Design Ltd.              | Sega Saturn | 1997 | Europe
+|       | Blast Chamber                                                  | Activision                    | Sega Saturn | 1997 | Europe
+|       | Blazing Dragons                                                | Sega                          | Sega Saturn | 1996 | Europe
+|       | Bootleg Sampler                                                | Sega                          | Sega Saturn | 1995 | Europe
+|       | Break Point                                                    | Ocean                         | Sega Saturn | 1997 | Europe
+|       | Bubble Bobble also featuring Rainbow Islands                   | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | Bug Too!                                                       | Sega                          | Sega Saturn | 1997 | Europe
+|       | Bug!                                                           | Sega                          | Sega Saturn | 1995 | Europe
+|       | Burning Rangers                                                | Sega                          | Sega Saturn | 1998 | Europe
+|       | Bust-A-Move 2: Arcade Edition                                  | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | Bust-A-Move 3                                                  | Acclaim                       | Sega Saturn | 1997 | Europe
+|       | Casper                                                         | Interplay                     | Sega Saturn | 1996 | Europe
+|       | Chaos Control                                                  | Infogrames                    | Sega Saturn | 1996 | Europe
+|       | Christmas NiGHTS into Dreams...                                | Sega                          | Sega Saturn | 1996 | Europe
+|       | Clockwork Knight                                               | Sega                          | Sega Saturn | 1995 | Europe
+|       | Clockwork Knight 2                                             | Sega                          | Sega Saturn | 1995 | Europe
+|       | Command & Conquer                                              | Westwood Studios              | Sega Saturn | 1997 | Europe
+|       | Courier Crisis                                                 | BMG Interactive Entertainment | Sega Saturn | 1998 | Europe
+|       | CrimeWave                                                      | Eidos Interactive             | Sega Saturn | 1997 | Europe
+|       | Croc: Legend of the Gobbos                                     | Fox Interactive               | Sega Saturn | 1997 | Europe
+|       | Crow: City of Angels, The                                      | Acclaim                       | Sega Saturn | 1997 | Europe
+|       | Crusader: No Remorse                                           | Electronic Arts               | Sega Saturn | 1997 | Europe
+|       | Crypt Killer                                                   | Konami                        | Sega Saturn | 1997 | Europe
+|       | Cyber Speedway                                                 | Sega                          | Sega Saturn | 1996 | Europe
+|       | Cyberia                                                        | Interplay                     | Sega Saturn | 1996 | Europe
+|       | D                                                              | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | Darius Gaiden                                                  | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | Darius II                                                      | Taito Corporation             | Sega Saturn | 1996 | Europe
+|       | Dark Savior                                                    | Sega                          | Sega Saturn | 1997 | Europe
+|       | Darklight Conflict                                             | Electronic Arts               | Sega Saturn | 1997 | Europe
+|       | Daytona USA                                                    | Sega                          | Sega Saturn | 1995 | Europe
+|       | Daytona USA Championship Circuit Edition                       | Sega                          | Sega Saturn | 1996 | Europe
+|       | Deep Fear                                                      | Sega                          | Sega Saturn | 1998 | Europe
+|       | DefCon 5                                                       | GTI                           | Sega Saturn | 1996 | Europe
+|       | Destruction Derby                                              | Psygnosis                     | Sega Saturn | 1996 | Europe
+|       | Die Hard Arcade                                                | Sega                          | Sega Saturn | 1997 | Europe
+|       | Die Hard Trilogy                                               | Fox Interactive               | Sega Saturn | 1997 | Europe
+|       | Digital Pinball                                                | Sega                          | Sega Saturn | 1995 | Europe
+|       | Discworld                                                      | Psygnosis                     | Sega Saturn | 1996 | Europe
+|       | Discworld II: Missing Presumed...?!                            | Sega                          | Sega Saturn | 1997 | Europe
+|       | Doom                                                           | GT Interactive                | Sega Saturn | 1997 | Europe
+|       | Dragon Ball Z: Idainaru Dragon Ball Densetsu                   | Bandai                        | Sega Saturn | 1996 | Europe
+|       | Dragon Force                                                   | Sega                          | Sega Saturn | 1997 | Europe
+|       | DragonHeart: Fire & Steel                                      | Acclaim                       | Sega Saturn | 1997 | Europe
+|       | Duke Nukem 3D                                                  | Sega                          | Sega Saturn | 1997 | Europe
+|       | Earthworm Jim 2                                                | Virgin Interactive            | Sega Saturn | 1996 | Europe
+|       | Enemy Zero                                                     | Sega                          | Sega Saturn | 1997 | Europe
+|       | Exhumed                                                        | BMG Interactive Entertainment | Sega Saturn | 1997 | Europe
+|       | F-1 Challenge                                                  | Sega                          | Sega Saturn | 1995 | Europe
+|       | FIFA 97                                                        | EA Sports                     | Sega Saturn | 1997 | Europe
+|       | FIFA Soccer 96                                                 | EA Sports                     | Sega Saturn | 1996 | Europe
+|       | FIFA: Road to World Cup 98                                     | Electronic Arts               | Sega Saturn | 1997 | Europe
+|       | Fighters Megamix                                               | Sega                          | Sega Saturn | 1997 | Europe
+|       | Fighting Vipers                                                | Sega                          | Sega Saturn | 1996 | Europe
+|       | Firestorm Thunderhawk 2                                        | Core Design Ltd.              | Sega Saturn | 1995 | Europe
+|       | Formula Karts: Special Edition                                 | Sega                          | Sega Saturn | 1997 | Europe
+|       | Frank Thomas Big Hurt Baseball                                 | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | Frankenstein: Through the Eyes of the Monster                  | Interplay                     | Sega Saturn | 1995 | Europe
+|       | Galactic Attack                                                | Acclaim                       | Sega Saturn | 1995 | Europe
+|       | Galaxy Fight                                                   | SunSoft                       | Sega Saturn | 1995 | Europe
+|       | Gex                                                            | Crystal Dynamics              | Sega Saturn | 1996 | Europe
+|       | Ghen War                                                       | Virgin Interactive            | Sega Saturn | 1996 | Europe
+|       | Golden Axe: The Duel                                           | Sega                          | Sega Saturn | 1995 | Europe
+|       | Grid Run                                                       | Virgin Interactive            | Sega Saturn | 1996 | Europe
+|       | Guardian Heroes                                                | Sega                          | Sega Saturn | 1996 | Europe
+|       | GunGriffon                                                     | Sega                          | Sega Saturn | 1996 | Europe
+|       | Hang On GP '96                                                 | Sega                          | Sega Saturn | 1996 | Europe
+|       | Hardcore 4X4                                                   | Gremlin Interactive           | Sega Saturn | 1997 | Europe
+|       | Hebereke's Popoitto                                            | SunSoft                       | Sega Saturn | 1995 | Europe
+|       | Hexen                                                          | GT Interactive                | Sega Saturn | 1995 | Europe
+|       | Hi-Octane                                                      | Bullfrog Productions          | Sega Saturn | 1995 | Europe
+|       | Highway 2000                                                   | JVC Musical Industries, Inc.  | Sega Saturn | 1996 | Europe
+|       | Horde, The                                                     | Crystal Dynamics              | Sega Saturn | 1995 | Europe
+|       | House of the Dead, The                                         | Sega                          | Sega Saturn | 1998 | Europe
+|       | Impact Racing                                                  | JVC Digital Studios           | Sega Saturn | 1997 | Europe
+|       | In the Hunt                                                    | THQ                           | Sega Saturn | 1996 | Europe
+|       | Incredible Hulk: The Pantheon Saga, The                        | Eidos Interactive             | Sega Saturn | 1996 | Europe
+|       | Independence Day: The Game                                     | Fox Interactive               | Sega Saturn | 1996 | Europe
+|       | International Victory Goal                                     | Sega                          | Sega Saturn | 1995 | Europe
+|       | Iron Man / X-O Manowar in Heavy Metal                          | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | Jewels of the Oracle                                           | SunSoft                       | Sega Saturn | 1996 | Europe
+|       | Jewels of the Oracle                                           | SunSoft                       | Sega Saturn | 1996 | Europe
+|       | Johnny Bazookatone                                             | U.S. Gold                     | Sega Saturn | 1996 | Europe
+|       | Jonah Lomu Rugby                                               | Codemasters                   | Sega Saturn | 1997 | Europe
+|       | Keio 2: Flying Squadron                                        | JVC Digital Studios           | Sega Saturn | 1997 | Europe
+|       | King of Fighters '95, The                                      | SNK                           | Sega Saturn | 1996 | Europe
+|       | Krazy Ivan                                                     | Psygnosis                     | Sega Saturn | 1997 | Europe
+|       | Last Bronx                                                     | Sega                          | Sega Saturn | 1997 | Europe
+|       | Loaded                                                         | Gremlin Interactive           | Sega Saturn | 1996 | Europe
+|       | Lost Vikings 2: Norse by Norsewest                             | Interplay                     | Sega Saturn | 1997 | Europe
+|       | Lost World: Jurassic Park, The                                 | Sega                          | Sega Saturn | 1997 | Europe
+|       | Madden NFL 97                                                  | EA Sports                     | Sega Saturn | 1996 | Europe
+|       | Madden NFL 98                                                  | EA Sports                     | Sega Saturn | 1997 | Europe
+|       | Magic Carpet                                                   | Bullfrog Productions          | Sega Saturn | 1996 | Europe
+|       | Mansion of Hidden Souls, The                                   | Sega                          | Sega Saturn | 1995 | Europe
+|       | Manx TT Super Bike                                             | Sega                          | Sega Saturn | 1997 | Europe
+|       | Marvel Super Heroes                                            | Capcom                        | Sega Saturn | 1997 | Europe
+|       | Mass Destruction                                               | BMG Interactive Entertainment | Sega Saturn | 1997 | Europe
+|       | Maximum Force                                                  | GT Interactive                | Sega Saturn | 1996 | Europe
+|       | MechWarrior 2: 31st Century Combat                             | Activision                    | Sega Saturn | 1997 | Europe
+|       | Mega Man X3                                                    | Virgin Interactive            | Sega Saturn | 1996 | Europe
+|       | Midway Presents Arcade's Greatest Hits: The Atari Collection 1 | Midway                        | Sega Saturn | 1997 | Europe
+|       | Mighty Hits                                                    | Altron                        | Sega Saturn | 1996 | Europe
+|       | Mortal Kombat II                                               | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | Mortal Kombat Trilogy                                          | GT Interactive                | Sega Saturn | 1997 | Europe
+|       | Mr. Bones                                                      | Sega                          | Sega Saturn | 1996 | Europe
+|       | Myst                                                           | SunSoft                       | Sega Saturn | 1995 | Europe
+|       | Mystaria: The Realms of Lore                                   | Sega                          | Sega Saturn | 1996 | Europe
+|       | NASCAR 98                                                      | EA Sports                     | Sega Saturn | 1997 | Europe
+|       | NBA Action                                                     | Sega                          | Sega Saturn | 1996 | Europe
+|       | NBA Action 98                                                  | Sega                          | Sega Saturn | 1998 | Europe
+|       | NBA Jam Extreme                                                | Acclaim                       | Sega Saturn | 1997 | Europe
+|       | NBA Jam Tournament Edition                                     | Acclaim                       | Sega Saturn | 1995 | Europe
+|       | NBA Live 97                                                    | EA Sports                     | Sega Saturn | 1997 | Europe
+|       | NBA Live 98                                                    | Electronic Arts               | Sega Saturn | 1997 | Europe
+|       | NFL Quarterback Club 96                                        | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | NFL Quarterback Club 97                                        | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | NHL 97                                                         | Electronic Arts               | Sega Saturn | 1996 | Europe
+|       | NHL 98                                                         | EA Sports                     | Sega Saturn | 1998 | Europe
+|       | NHL All-Star Hockey                                            | Sega                          | Sega Saturn | 1997 | Europe
+|       | NHL All-Star Hockey 98                                         | Sega                          | Sega Saturn | 1998 | Europe
+|       | NHL PowerPlay                                                  | Virgin Interactive            | Sega Saturn | 1996 | Europe
+|       | Night Warriors: Darkstalkers' Revenge                          | Virgin Interactive            | Sega Saturn | 1996 | Europe
+|       | NiGHTS into Dreams...                                          | Sega                          | Sega Saturn | 1996 | Europe
+|       | Off-World Interceptor Extreme                                  | Crystal Dynamics              | Sega Saturn | 1995 | Europe
+|       | Olympic Soccer                                                 | U.S. Gold                     | Sega Saturn | 1996 | Europe
+|       | Pandemonium!                                                   | Crystal Dynamics              | Sega Saturn | 1997 | Europe
+|       | Panzer Dragoon                                                 | Sega                          | Sega Saturn | 1995 | Europe
+|       | Panzer Dragoon II Zwei                                         | Sega                          | Sega Saturn | 1996 | Europe
+|       | Panzer Dragoon Saga                                            | Sega                          | Sega Saturn | 1998 | Europe
+|       | Parodius                                                       | Konami                        | Sega Saturn | 1996 | Europe
+|       | Pebble Beach Golf Links                                        | Sega                          | Sega Saturn | 1995 | Europe
+|       | PGA Tour 97                                                    | EA Sports                     | Sega Saturn | 1996 | Europe
+|       | Photo CD Operating System                                      | Sega                          | Sega Saturn | 1995 | Europe
+|       | Pinball Graffiti                                               | JVC Digital Studios           | Sega Saturn | 1996 | Europe
+|       | Primal Rage                                                    | Time Warner Interactive       | Sega Saturn | 1998 | Europe
+|       | Pro Pinball: The Web                                           | Empire Interactive            | Sega Saturn | 1996 | Europe
+|       | Quake                                                          | Sega                          | Sega Saturn | 1997 | Europe
+|       | Rampage World Tour                                             | GT Interactive                | Sega Saturn | 1997 | Europe
+|       | Rayman                                                         | Ubisoft                       | Sega Saturn | 1995 | Europe
+|       | Resident Evil                                                  | Capcom                        | Sega Saturn | 1997 | Europe
+|       | Resurrection: Rise 2                                           | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | Revolution X                                                   | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | Riven: The Sequel to Myst                                      | Sega                          | Sega Saturn | 1998 | Europe
+|       | Road & Track Presents: The Need for Speed                      | Electronic Arts               | Sega Saturn | 1996 | Europe
+|       | Road Rash                                                      | Electronic Arts               | Sega Saturn | 1996 | Europe
+|       | Robo Pit                                                       | Kokopeli Digital Studios      | Sega Saturn | 1996 | Europe
+|       | Robotica: Cybernation Revolt                                   | Sega                          | Sega Saturn | 1995 | Europe
+|       | Saturn Bomberman                                               | Sega                          | Sega Saturn | 1997 | Europe
+|       | Scorcher                                                       | Sega                          | Sega Saturn | 1997 | Europe
+|       | SeaBass Fishing                                                | JVC Digital Studios           | Sega Saturn | 1996 | Europe
+|       | Sega Ages Volume 1                                             | Sega                          | Sega Saturn | 1996 | Europe
+|       | Sega Rally Championship                                        | Sega                          | Sega Saturn | 1996 | Europe
+|       | Sega Touring Car Championship                                  | Sega                          | Sega Saturn | 1997 | Europe
+|       | Sega Worldwide Soccer '98 Club Edition                         | Sega                          | Sega Saturn | 1998 | Europe
+|       | Sega Worldwide Soccer 97                                       | Sega                          | Sega Saturn | 1996 | Europe
+|       | Shellshock                                                     | U.S. Gold                     | Sega Saturn | 1995 | Europe
+|       | Shining Force III                                              | Sega                          | Sega Saturn | 1998 | Europe
+|       | Shining the Holy Ark                                           | Sega                          | Sega Saturn | 1997 | Europe
+|       | Shining Wisdom                                                 | Sega                          | Sega Saturn | 1996 | Europe
+|       | Shinobi X                                                      | Sega                          | Sega Saturn | 1996 | Europe
+|       | Shockwave Assault                                              | Electronic Arts               | Sega Saturn | 1996 | Europe
+|       | SimCity 2000                                                   | Sega                          | Sega Saturn | 1995 | Europe
+|       | Skeleton Warriors                                              | Virgin Interactive            | Sega Saturn | 1997 | Europe
+|       | Sky Target                                                     | Sega                          | Sega Saturn | 1997 | Europe
+|       | Slam 'n Jam '96 featuring Magic & Kareem                       | Virgin Interactive            | Sega Saturn | 1996 | Europe
+|       | Sonic 3D: Flickies' Island                                     | Sega                          | Sega Saturn | 1997 | Europe
+|       | Sonic Jam                                                      | Sega                          | Sega Saturn | 1997 | Europe
+|       | Sonic R                                                        | Sega                          | Sega Saturn | 1997 | Europe
+|       | Soviet Strike                                                  | Electronic Arts               | Sega Saturn | 1996 | Europe
+|       | Space Hulk: Vengeance of the Blood Angels                      | Electronic Arts               | Sega Saturn | 1996 | Europe
+|       | Space Jam                                                      | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | Spot Goes to Hollywood                                         | Virgin Interactive            | Sega Saturn | 1997 | Europe
+|       | Starfighter 3000                                               | Telstar                       | Sega Saturn | 1996 | Europe
+|       | Steep Slope Sliders                                            | Sega                          | Sega Saturn | 1997 | Europe
+|       | Story of Thor 2, The                                           | Sega                          | Sega Saturn | 1996 | Europe
+|       | Street Fighter Alpha 2                                         | Virgin Interactive            | Sega Saturn | 1996 | Europe
+|       | Street Fighter Alpha: Warriors' Dreams                         | Capcom                        | Sega Saturn | 1996 | Europe
+|       | Street Fighter Collection                                      | Capcom                        | Sega Saturn | 1997 | Europe
+|       | Street Fighter: The Movie                                      | Acclaim                       | Sega Saturn | 1995 | Europe
+|       | Street Racer                                                   | Ubisoft                       | Sega Saturn | 1996 | Europe
+|       | Striker '96                                                    | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | Super Puzzle Fighter II Turbo                                  | Virgin Interactive            | Sega Saturn | 1997 | Europe
+|       | Swagman                                                        | Eidos Interactive             | Sega Saturn | 1997 | Europe
+|       | Tempest 2000                                                   | Interplay                     | Sega Saturn | 1996 | Europe
+|       | Tetris Plus                                                    | Jaleco Entertainment          | Sega Saturn | 1996 | Europe
+|       | Theme Park                                                     | Electronic Arts               | Sega Saturn | 1995 | Europe
+|       | Three Dirty Dwarves                                            | SegaSoft                      | Sega Saturn | 1997 | Europe
+|       | Tilt!                                                          | Virgin Interactive            | Sega Saturn | 1997 | Europe
+|       | Titan Wars                                                     | Crystal Dynamics              | Sega Saturn | 1996 | Europe
+|       | Tomb Raider                                                    | Eidos Interactive             | Sega Saturn | 1996 | Europe
+|       | Torico                                                         | Sega                          | Sega Saturn | 1997 | Europe
+|       | Trash It                                                       | GT Interactive                | Sega Saturn | 1997 | Europe
+|       | True Pinball                                                   | Ocean                         | Sega Saturn | 1996 | Europe
+|       | Tunnel B1                                                      | Ocean                         | Sega Saturn | 1997 | Europe
+|       | UEFA Euro 96 England                                           | Sega                          | Sega Saturn | 1996 | Europe
+|       | Ultimate Mortal Kombat 3                                       | GT Interactive                | Sega Saturn | 1996 | Europe
+|       | V.R. Virtua Racing                                             | Time Warner Interactive       | Sega Saturn | 1995 | Europe
+|       | Valora Valley Golf                                             | Vic Tokai                     | Sega Saturn | 1996 | Europe
+|       | Victory Boxing                                                 | JVC Digital Studios           | Sega Saturn | 1996 | Europe
+|       | Virtua Cop                                                     | Sega                          | Sega Saturn | 1995 | Europe
+|       | Virtua Cop 2                                                   | Sega                          | Sega Saturn | 1997 | Europe
+|       | Virtua Fighter                                                 | Sega                          | Sega Saturn | 1995 | Europe
+|       | Virtua Fighter 2                                               | Sega                          | Sega Saturn | 1996 | Europe
+|       | Virtua Fighter Kids                                            | Sega                          | Sega Saturn | 1996 | Europe
+|       | Virtua Fighter Remix                                           | Sega                          | Sega Saturn | 1995 | Europe
+|       | Virtual Golf                                                   | Core Design Ltd.              | Sega Saturn | 1996 | Europe
+|       | Virtual Hydlide                                                | Sega                          | Sega Saturn | 1995 | Europe
+|       | Virtual Open Tennis                                            | Acclaim                       | Sega Saturn | 1995 | Europe
+|       | Virtual-On: Cyber Troopers                                     | Sega                          | Sega Saturn | 1996 | Europe
+|       | Warcraft II: The Dark Saga                                     | Electronic Arts               | Sega Saturn | 1997 | Europe
+|       | Whizz                                                          | Konami                        | Sega Saturn | 1997 | Europe
+|       | Wing Arms                                                      | Sega                          | Sega Saturn | 1995 | Europe
+|       | Winter Heat                                                    | Sega                          | Sega Saturn | 1997 | Europe
+|       | WipEout                                                        | Psygnosis                     | Sega Saturn | 1996 | Europe
+|       | Wipeout 2097                                                   | Psygnosis                     | Sega Saturn | 1997 | Europe
+|       | World Cup Golf: Professional Edition                           | U.S. Gold                     | Sega Saturn | 1995 | Europe
+|       | World League Soccer '98                                        | Sega                          | Sega Saturn | 1998 | Europe
+|       | World Series Baseball                                          | Sega                          | Sega Saturn | 1995 | Europe
+|       | World Series Baseball II                                       | Sega                          | Sega Saturn | 1996 | Europe
+|       | Worms                                                          | Ocean                         | Sega Saturn | 1997 | Europe
+|       | WWF In Your House                                              | Acclaim                       | Sega Saturn | 1997 | Europe
+|       | WWF Wrestlemania: The Arcade Game                              | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | X-Men: Children of the Atom                                    | Acclaim                       | Sega Saturn | 1996 | Europe
+|       | Z                                                              | GT Interactive                | Sega Saturn | 1998 | Europe

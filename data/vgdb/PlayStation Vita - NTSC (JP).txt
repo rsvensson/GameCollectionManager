@@ -1,0 +1,730 @@
+|       | @field                                                                                               | Sonic Powered                          | PlayStation Vita | 2012 | Japan
+|       | &: Sora no Mukou de Saki Masuyou ni                                                                  | Spike Chunsoft                         | PlayStation Vita | 2013 | Japan
+|       | 12-Ji no Kane to Cinderella: Cinderella Series Triple Zenkan Pack                                    | Quinrose                               | PlayStation Vita | 2015 | Japan
+|       | 12-Toki no Kane to Cinderella Series Triple Zenkan Pack                                              | Quinrose                               | PlayStation Vita | 2015 | Japan
+|       | 5-nin no Koi Prince: Himitsu no Keiyaku Kekkon                                                       | Asgard                                 | PlayStation Vita | 2015 | Japan
+|       | 7'scarlet                                                                                            | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Abunai Koi no Sousashitsu: Eternal Happiness                                                         | Asgard                                 | PlayStation Vita | 2015 | Japan
+|       | Accel World vs. Sword Art Online: Millennium Twilight                                                | Bandai Namco Games                     | PlayStation Vita | 2017 | Japan
+|       | Adventure Time: Nameless Oukoku no Sannin no Princess                                                | Bergsala-Lightweight                   | PlayStation Vita | 2016 | Japan
+|       | Air                                                                                                  | Prototype                              | PlayStation Vita | 2016 | Japan
+|       | Airship Q                                                                                            | Cygames                                | PlayStation Vita | 2015 | Japan
+|       | Aiyoku no Eustia: Angel's Blessing                                                                   | dramatic create                        | PlayStation Vita | 2014 | Japan
+|       | Akai Suna Ochiru Tsuki                                                                               | HuneX                                  | PlayStation Vita | 2016 | Japan
+|       | AKB1/149: Renai Sousenkyo                                                                            | Bandai Namco Games                     | PlayStation Vita | 2012 | Japan
+|       | Akiba's Beat                                                                                         | Acquire                                | PlayStation Vita | 2017 | Japan
+|       | Akiba's Trip 2                                                                                       | Acquire                                | PlayStation Vita | 2013 | Japan
+|       | Alia's Carnival! Sacrament                                                                           | HuneX                                  | PlayStation Vita | 2015 | Japan
+|       | Amaekata wa Kanojo Nari ni.                                                                          | Entergram                              | PlayStation Vita | 2017 | Japan
+|       | Amagami                                                                                              | Kadokawa                               | PlayStation Vita | 2014 | Japan
+|       | Amatsumi Sora ni! Kumo no Hatate ni                                                                  | Prototype                              | PlayStation Vita | 2015 | Japan
+|       | Amnesia World                                                                                        | Idea Factory                           | PlayStation Vita | 2014 | Japan
+|       | Amnesia: Later x Crowd V. Edition                                                                    | Idea Factory                           | PlayStation Vita | 2014 | Japan
+|       | Amnesia: V Edition                                                                                   | Idea Factory                           | PlayStation Vita | 2013 | Japan
+|       | Angelique Retour                                                                                     | Koei Tecmo Games                       | PlayStation Vita | 2015 | Japan
+|       | Anoko wa Ore Kara Hanarenai                                                                          | TGL                                    | PlayStation Vita | 2014 | Japan
+|       | Ao no Kanata no Four Rhythm                                                                          | Piacci                                 | PlayStation Vita | 2016 | Japan
+|       | Aoki Kakumeki no Valkyria                                                                            | Sega                                   | PlayStation Vita | 2017 | Japan
+|       | Aoki Kakumeki no Valkyria                                                                            | Sega                                   | PlayStation Vita | 2017 | Japan
+|       | Ar Nosurge Plus: Umareizuru Hoshi e Inoru Uta                                                        | Gust                                   | PlayStation Vita | 2014 | Japan
+|       | Arcana Famiglia: La storia della Aracana Famiglia - Ancora                                           | Quality Confidence                     | PlayStation Vita | 2015 | Japan
+|       | Arcana Heart 3: LOVEMAX!!!!!                                                                         | Arc System Works                       | PlayStation Vita | 2014 | Japan
+|       | Asphalt: Injection                                                                                   | Konami                                 | PlayStation Vita | 2011 | Japan
+|       | Assassin's Creed Chronicles                                                                          | Ubisoft                                | PlayStation Vita | 2016 | Japan
+|       | Assassin's Creed III: Lady Liberty                                                                   | Ubisoft                                | PlayStation Vita | 2012 | Japan
+|       | AstralAir no Shiroki Eien: White Eternity                                                            | HuneX                                  | PlayStation Vita | 2016 | Japan
+|       | Ayakashi Gohan: Oomori!                                                                              | Asgard                                 | PlayStation Vita | 2015 | Japan
+|       | Ayesha no Atelier Plus: Koukon No Daichi No Renkinjutsu                                              | Gust                                   | PlayStation Vita | 2014 | Japan
+|       | Bad Apple Wars                                                                                       | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Bakumatsu Rock: Ultra Soul                                                                           | Marvelous Inc.                         | PlayStation Vita | 2014 | Japan
+|       | Bara ni Kakusareshi Verite                                                                           | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Batman: Arkham Begins Blackgate                                                                      | Warner Bros. Interactive Entertainment | PlayStation Vita | 2013 | Japan
+|       | Believer!                                                                                            | D3Publisher                            | PlayStation Vita | 2015 | Japan
+|       | Berserk Musou                                                                                        | Koei Tecmo Games                       | PlayStation Vita | 2016 | Japan
+|       | BinaryStar                                                                                           | Idea Factory                           | PlayStation Vita | 2014 | Japan
+|       | BioHazard: Revelations 2                                                                             | Capcom                                 | PlayStation Vita | 2015 | Japan
+|       | Bitter Smile.                                                                                        | TGL                                    | PlayStation Vita | 2013 | Japan
+|       | Black Wolves Saga: Weiss und Schwarz                                                                 | Idea Factory                           | PlayStation Vita | 2017 | Japan
+|       | BlazBlue: Chrono Phantasma                                                                           | Arc System Works                       | PlayStation Vita | 2014 | Japan
+|       | BlazBlue: Continuum Shift Extend                                                                     | Arc System Works                       | PlayStation Vita | 2011 | Japan
+|       | Blue Reflection: Maboroshi ni Mau - Shoujo no Ken                                                    | Koei Tecmo Games                       | PlayStation Vita | 2017 | Japan
+|       | Borderlands 2                                                                                        | 2K Games                               | PlayStation Vita | 2014 | Japan
+|       | Brothers Conflict: Precious Baby                                                                     | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Bullet Girls                                                                                         | D3Publisher                            | PlayStation Vita | 2014 | Japan
+|       | Bullet Girls 2                                                                                       | D3Publisher                            | PlayStation Vita | 2016 | Japan
+|       | Caligula                                                                                             | FuRyu                                  | PlayStation Vita | 2016 | Japan
+|       | Call of Duty: Black Ops Declassified                                                                 | Square Enix                            | PlayStation Vita | 2012 | Japan
+|       | Captain Earth: Mind Labyrinth                                                                        | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | Chain Chronicle V                                                                                    | Sega                                   | PlayStation Vita | 2014 | Japan
+|       | Chaos Rings III: Prequel Trilogy                                                                     | Square Enix                            | PlayStation Vita | 2014 | Japan
+|       | Chaos;Child                                                                                          | 5pb                                    | PlayStation Vita | 2015 | Japan
+|       | Chaos;Child: Love Chuchu!!                                                                           | 5pb                                    | PlayStation Vita | 2017 | Japan
+|       | Chaos;Head Dual                                                                                      | 5pb                                    | PlayStation Vita | 2014 | Japan
+|       | Chikyuu Boueigun 2 Portable V2                                                                       | D3Publisher                            | PlayStation Vita | 2014 | Japan
+|       | Chikyuu Boueigun 3 Portable                                                                          | D3Publisher                            | PlayStation Vita | 2012 | Japan
+|       | Child of Light                                                                                       | Ubisoft                                | PlayStation Vita | 2014 | Japan
+|       | Chou Ezaru wa Akai Hana: Koi wa Tsuki ni Shirube Kareru                                              | HuneX                                  | PlayStation Vita | 2016 | Japan
+|       | Chou Jigen Action: Neptune U                                                                         | Compile Heart                          | PlayStation Vita | 2014 | Japan
+|       | Chou Jigen Taisen Neptune VS Sega Hard Girls: Yume no Gattai Special                                 | Compile Heart                          | PlayStation Vita | 2015 | Japan
+|       | Chou Jijigen Game Neptune Re:Birth1                                                                  | Compile Heart                          | PlayStation Vita | 2013 | Japan
+|       | Chou Megami Shinkou Noire: Gekishin Black Heart                                                      | Compile Heart                          | PlayStation Vita | 2014 | Japan
+|       | Chou no Doku: Hana no Kusari - Taishou Tsuyakoi Ibun                                                 | Prototype                              | PlayStation Vita | 2014 | Japan
+|       | Chou Tsugitsugimono Game Neptune Re;Birth2: Sisters Generation                                       | Compile Heart                          | PlayStation Vita | 2014 | Japan
+|       | ChuSingura 46+1 V                                                                                    | HuneX                                  | PlayStation Vita | 2015 | Japan
+|       | Ciel Nosurge RE:Incarnation                                                                          | Gust                                   | PlayStation Vita | 2013 | Japan
+|       | Ciel Nosurge: Ushinawareta Hoshi e Sasagu Uta                                                        | Gust                                   | PlayStation Vita | 2012 | Japan
+|       | Clannad                                                                                              | Prototype                              | PlayStation Vita | 2014 | Japan
+|       | Classic Dungeon Sengoku                                                                              | Nippon Ichi Software                   | PlayStation Vita | 2016 | Japan
+|       | Clock Zero: Shuuen no Ichibyou ExTime                                                                | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Code:Realize - Shukufuku no Mirai                                                                    | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Code:Realize - Sousei no Himegimi                                                                    | Idea Factory                           | PlayStation Vita | 2014 | Japan
+|       | Code:Realize - Twin Pack                                                                             | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Collar x Malice                                                                                      | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Color Guardians                                                                                      | CrossFunction                          | PlayStation Vita | 2017 | Japan
+|       | Conception II: Shichisei no Michibiki to Mazuru no Akumu                                             | Spike Chunsoft                         | PlayStation Vita | 2013 | Japan
+|       | Corpse Party: Blood Drive                                                                            | 5pb                                    | PlayStation Vita | 2014 | Japan
+|       | Crank In                                                                                             | Petit Reve                             | PlayStation Vita | 2017 | Japan
+|       | Criminal Girls 2                                                                                     | Nippon Ichi Software                   | PlayStation Vita | 2015 | Japan
+|       | Criminal Girls: Invitation                                                                           | Nippon Ichi Software                   | PlayStation Vita | 2013 | Japan
+|       | Cross Ange: Tenshi to Ryuu no Rondo tr.                                                              | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | Cross Channel: For All People                                                                        | 5pb                                    | PlayStation Vita | 2014 | Japan
+|       | Dai-3-Ji Super Robot Taisen Z Jigoku-hen                                                             | Bandai Namco Games                     | PlayStation Vita | 2014 | Japan
+|       | Dai-3-Ji Super Robot Taisen Z Tengoku-hen                                                            | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | Daisenryaku Exceed II                                                                                | SystemSoft Alpha                       | PlayStation Vita | 2015 | Japan
+|       | Daisenryaku Perfect: Senjou no Hasha                                                                 | SystemSoft Alpha                       | PlayStation Vita | 2016 | Japan
+|       | Daisenryaku: Dai Toua Kouboushi - Dainijisekaitaisen Boppatsu - Suujiku Sentai Rengougun Zensekaisen | SystemSoft Alpha                       | PlayStation Vita | 2015 | Japan
+|       | Daitoshokan no Hitsujikai: Library Party                                                             | Kaga Create                            | PlayStation Vita | 2015 | Japan
+|       | Danball Senki W                                                                                      | Level 5                                | PlayStation Vita | 2012 | Japan
+|       | Dance with Devils                                                                                    | Rejet                                  | PlayStation Vita | 2016 | Japan
+|       | Danganronpa 1-2 Reload                                                                               | Spike Chunsoft                         | PlayStation Vita | 2013 | Japan
+|       | Daredemo Shodan ni Nareru Igo Kyoushitsu                                                             | SilverStar                             | PlayStation Vita | 2017 | Japan
+|       | Daredemo Shodan ni Nareru Igo Kyoushitsu                                                             | SilverStar                             | PlayStation Vita | 2017 | Japan
+|       | Dariusburst: Chronicle Saviours                                                                      | Kadokawa                               | PlayStation Vita | 2016 | Japan
+|       | Dark Quest: Alliance                                                                                 | Ubisoft                                | PlayStation Vita | 2011 | Japan
+|       | Date-A-Live Twin Edition: Rio Reincarnation                                                          | Compile Heart                          | PlayStation Vita | 2015 | Japan
+|       | Dead or Alive 5 Plus                                                                                 | Koei Tecmo Games                       | PlayStation Vita | 2013 | Japan
+|       | Dead or Alive Xtreme 3: Venus                                                                        | Koei Tecmo Games                       | PlayStation Vita | 2016 | Japan
+|       | Dekamori Senran Kagura                                                                               | Marvelous AQL                          | PlayStation Vita | 2014 | Japan
+|       | Demon Gaze                                                                                           | Kadokawa                               | PlayStation Vita | 2013 | Japan
+|       | Demon Gaze II                                                                                        | Kadokawa                               | PlayStation Vita | 2016 | Japan
+|       | Dengeki Bunko: Fighting Climax                                                                       | Sega                                   | PlayStation Vita | 2014 | Japan
+|       | Dengeki Bunko: Fighting Climax Ignition                                                              | Sega                                   | PlayStation Vita | 2015 | Japan
+|       | Desire: Remaster Ver.                                                                                | RED FLAGSHIP co.,Ltd.                  | PlayStation Vita | 2017 | Japan
+|       | Desire: Remaster Ver.                                                                                | RED FLAGSHIP co.,Ltd.                  | PlayStation Vita | 2017 | Japan
+|       | Diabolik Lovers: Dark Fate                                                                           | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Diabolik Lovers: Limited V Edition                                                                   | Idea Factory                           | PlayStation Vita | 2013 | Japan
+|       | Diabolik Lovers: Lost Eden                                                                           | Idea Factory                           | PlayStation Vita | 2017 | Japan
+|       | Diabolik Lovers: Lunatic Parade                                                                      | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Diabolik Lovers: more.Blood - Limited V Edition                                                      | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Diabolik Lovers: Vandead Carnival                                                                    | Idea Factory                           | PlayStation Vita | 2014 | Japan
+|       | Digimon Story Cyber Sleuth                                                                           | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | Digimon World: Next Order                                                                            | Bandai Namco Games                     | PlayStation Vita | 2016 | Japan
+|       | DJMax Technika Tune                                                                                  | CyberFront                             | PlayStation Vita | 2012 | Japan
+|       | Dokuro                                                                                               | GungHo                                 | PlayStation Vita | 2012 | Japan
+|       | Double Focus: Aya to Momiji no Dangan Shuzai Kikou - PS Vita Edition                                 | Mediascape                             | PlayStation Vita | 2016 | Japan
+|       | Double Focus: Aya to Momiji no Dangan Shuzai Kikou - PS Vita Edition                                 | Mediascape                             | PlayStation Vita | 2016 | Japan
+|       | Dragon Ball Z: Battle of Z                                                                           | Bandai Namco Games                     | PlayStation Vita | 2014 | Japan
+|       | Dragon Quest Builders: Alefgard o Fukkatsu Niseyo                                                    | Square Enix                            | PlayStation Vita | 2016 | Japan
+|       | Dragon Quest Heroes II: Futago no Ou to Yogen no Owari                                               | Square Enix                            | PlayStation Vita | 2016 | Japan
+|       | Dragon's Crown                                                                                       | ATLUS                                  | PlayStation Vita | 2013 | Japan
+|       | DRAMAtical Murder re:code                                                                            | Digiturbo                              | PlayStation Vita | 2014 | Japan
+|       | Dream C Club Zero Portable                                                                           | D3Publisher                            | PlayStation Vita | 2011 | Japan
+|       | Dungeon Travelers 2-2: Yamiochi no Otome to Hajimari no Sho                                          | Aqua Plus                              | PlayStation Vita | 2017 | Japan
+|       | Dungeon Travelers 2: Ouritsu Toshokan to Mamono no Fuuin                                             | Aqua Plus                              | PlayStation Vita | 2014 | Japan
+|       | Durarara!! 3way Standoff -alley- V                                                                   | Kadokawa                               | PlayStation Vita | 2014 | Japan
+|       | Durarara!! Relay                                                                                     | Kadokawa                               | PlayStation Vita | 2015 | Japan
+|       | Dynamic Chord feat.[reve parfait] V edition                                                          | Asgard                                 | PlayStation Vita | 2016 | Japan
+|       | Dynamic Chord feat.Kyohso V edition                                                                  | Asgard                                 | PlayStation Vita | 2017 | Japan
+|       | Dynamic Chord feat.Liar-S V edition                                                                  | Asgard                                 | PlayStation Vita | 2016 | Japan
+|       | Eikoku Tantei Mysteria: The Crown                                                                    | Karin Entertainment                    | PlayStation Vita | 2016 | Japan
+|       | Eiyuu * Senki                                                                                        | 5pb                                    | PlayStation Vita | 2014 | Japan
+|       | Eiyuu Densetsu: Ao no Kiseki Evolution                                                               | Kadokawa                               | PlayStation Vita | 2014 | Japan
+|       | Eiyuu Densetsu: Sen no Kiseki                                                                        | Falcom                                 | PlayStation Vita | 2013 | Japan
+|       | Eiyuu Densetsu: Sen no Kiseki II                                                                     | Falcom                                 | PlayStation Vita | 2014 | Japan
+|       | Eiyuu Densetsu: Sora no Kiseki FC Evolution                                                          | Kadokawa                               | PlayStation Vita | 2015 | Japan
+|       | Eiyuu Densetsu: Sora no Kiseki SC Evolution                                                          | Kadokawa                               | PlayStation Vita | 2015 | Japan
+|       | Eiyuu Densetsu: Sora no Kiseki the 3rd Evolution                                                     | Kadokawa                               | PlayStation Vita | 2016 | Japan
+|       | Eiyuu Densetsu: Zero no Kiseki Evolution                                                             | Falcom                                 | PlayStation Vita | 2012 | Japan
+|       | end sleep                                                                                            | Lilac Soft                             | PlayStation Vita | 2017 | Japan
+|       | Escha & Logy no Atelier Plus: Tasogare no Sora no Renkinjutsushi                                     | Koei Tecmo Games                       | PlayStation Vita | 2015 | Japan
+|       | EVE Burst Error R                                                                                    | RED FLAGSHIP co.,Ltd.                  | PlayStation Vita | 2016 | Japan
+|       | Exist Archive: The Other Side of the Sky                                                             | Spike Chunsoft                         | PlayStation Vita | 2015 | Japan
+|       | Exstetra                                                                                             | FuRyu                                  | PlayStation Vita | 2013 | Japan
+|       | F1 2011                                                                                              | Codemasters                            | PlayStation Vita | 2011 | Japan
+|       | Farming Simulator 14: Pocket Nouen 2                                                                 | Intergrow                              | PlayStation Vita | 2014 | Japan
+|       | Farming Simulator 16: Pocket Nouen 3                                                                 | Intergrow                              | PlayStation Vita | 2016 | Japan
+|       | Fata Morgana no Kan                                                                                  | dramatic create                        | PlayStation Vita | 2017 | Japan
+|       | Fate/Extella                                                                                         | Marvelous Inc.                         | PlayStation Vita | 2016 | Japan
+|       | Fate/hollow ataraxia                                                                                 | Kadokawa                               | PlayStation Vita | 2014 | Japan
+|       | Fate/Stay Night [Realta Nua]                                                                         | Kadokawa                               | PlayStation Vita | 2012 | Japan
+|       | FIFA 13: World Class Soccer                                                                          | EA Sports                              | PlayStation Vita | 2012 | Japan
+|       | FIFA 14                                                                                              | EA Sports                              | PlayStation Vita | 2013 | Japan
+|       | FIFA 15                                                                                              | Electronic Arts                        | PlayStation Vita | 2014 | Japan
+|       | FIFA World Class Soccer                                                                              | Electronic Arts                        | PlayStation Vita | 2012 | Japan
+|       | Final Fantasy X / X-2 HD Remaster                                                                    | Square Enix                            | PlayStation Vita | 2013 | Japan
+|       | Final Fantasy X HD Remaster                                                                          | Square Enix                            | PlayStation Vita | 2013 | Japan
+|       | Final Fantasy X-2 HD Remaster                                                                        | Square Enix                            | PlayStation Vita | 2013 | Japan
+|       | Firis no Atelier: Fushigi na Tabi no Renkinjutsushi                                                  | Koei Tecmo Games                       | PlayStation Vita | 2016 | Japan
+|       | Flowers                                                                                              | Prototype                              | PlayStation Vita | 2014 | Japan
+|       | Flowers: Natsu-Hen                                                                                   | Prototype                              | PlayStation Vita | 2015 | Japan
+|       | Flowers: Toki-Hen                                                                                    | Prototype                              | PlayStation Vita | 2016 | Japan
+|       | Freedom Wars                                                                                         | SCEI                                   | PlayStation Vita | 2014 | Japan
+|       | Friend to Lover                                                                                      | Kaga Create                            | PlayStation Vita | 2015 | Japan
+|       | Furuiro Meikyuu Rondo: La Roue de fortune                                                            | Yeti                                   | PlayStation Vita | 2013 | Japan
+|       | Fushigi no Chronicle: Furikaerimasen Katsu Madewa                                                    | Spike Chunsoft                         | PlayStation Vita | 2015 | Japan
+|       | Fushigi no Dungeon: Fuurai no Shiren 5 Plus - Fortune Tower to Unmei no Dice                         | Spike Chunsoft                         | PlayStation Vita | 2015 | Japan
+|       | Fushigi no Gensoukyou: The Tower of Desire                                                           | Mediascape                             | PlayStation Vita | 2015 | Japan
+|       | Futagoza no Paradox                                                                                  | Entergram                              | PlayStation Vita | 2017 | Japan
+|       | Fuuraiki 3                                                                                           | Nippon Ichi Software                   | PlayStation Vita | 2015 | Japan
+|       | Gakuen Heaven 2: Double Scramble                                                                     | Prototype                              | PlayStation Vita | 2015 | Japan
+|       | Gakuen Heaven: Boy's Love Scramble!                                                                  | Prototype                              | PlayStation Vita | 2015 | Japan
+|       | Gakuen K: Wonderful School Days V Edition                                                            | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Gakusen Toshi Asterisk Festa: Houka Kenran                                                           | Bandai Namco Games                     | PlayStation Vita | 2016 | Japan
+|       | Gal*Gun: Double Peace                                                                                | Experience Inc.                        | PlayStation Vita | 2015 | Japan
+|       | Geki Jigen Tag: Blanc + Neptune VS Zombie Gundan                                                     | Compile Heart                          | PlayStation Vita | 2015 | Japan
+|       | Gekijouban Madoka Magicka: The Battle Pentagram                                                      | Bandai Namco Games                     | PlayStation Vita | 2013 | Japan
+|       | Gendai Daisenryaku 2016: Chitsujo no Houkai - Haken Kokka Shittsui                                   | SystemSoft Alpha                       | PlayStation Vita | 2016 | Japan
+|       | Genji Koi Emaki                                                                                      | Quinrose                               | PlayStation Vita | 2015 | Japan
+|       | Genkai Tokki Monster Monpiece                                                                        | Compile Heart                          | PlayStation Vita | 2013 | Japan
+|       | Genkai Tokki: Moero Chronicle                                                                        | Compile Heart                          | PlayStation Vita | 2014 | Japan
+|       | Genkai Tokki: Moero Crystal                                                                          | Compile Heart                          | PlayStation Vita | 2015 | Japan
+|       | Genkai Tokki: Seven Pirates                                                                          | Compile Heart                          | PlayStation Vita | 2016 | Japan
+|       | Geten no Hana with Yume Akari - Aizouban                                                             | Koei Tecmo Games                       | PlayStation Vita | 2016 | Japan
+|       | Getsuei Gakuen: kou                                                                                  | Arc System Works                       | PlayStation Vita | 2013 | Japan
+|       | Getsuei no Kusari: Kouran Moratorium                                                                 | Takuyo                                 | PlayStation Vita | 2016 | Japan
+|       | Getsuei no Kusari: Sakuran Paranoia                                                                  | Takuyo                                 | PlayStation Vita | 2015 | Japan
+|       | Ginsei Igo: Next Generation                                                                          | SilverStar                             | PlayStation Vita | 2014 | Japan
+|       | Ginsei Shogi: Kyoutendo Toufuu Raijin                                                                | SilverStar                             | PlayStation Vita | 2012 | Japan
+|       | Girl Friend Beta: Kimi to Sugosu Natsuyasumi                                                         | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | Girls und Panzer: Senshado, Kiwamemasu!                                                              | Bandai Namco Games                     | PlayStation Vita | 2014 | Japan
+|       | Gochuumon wa Usagi Desu ka?? Wonderful party!                                                        | 5pb                                    | PlayStation Vita | 2016 | Japan
+|       | God Eater 2                                                                                          | Bandai Namco Games                     | PlayStation Vita | 2013 | Japan
+|       | God Eater 2: Rage Burst                                                                              | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | God Eater Resurrection                                                                               | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | God of War Collection                                                                                | SCEI                                   | PlayStation Vita | 2014 | Japan
+|       | God Wars: Toki o Koete                                                                               | Kadokawa                               | PlayStation Vita | 2017 | Japan
+|       | Goes!                                                                                                | Future Tech Lab                        | PlayStation Vita | 2015 | Japan
+|       | Golden Time: Vivid Memories                                                                          | Kadokawa                               | PlayStation Vita | 2014 | Japan
+|       | Grand Kingdom                                                                                        | Spike Chunsoft                         | PlayStation Vita | 2015 | Japan
+|       | Gravity Daze                                                                                         | SCEI                                   | PlayStation Vita | 2012 | Japan
+|       | Grisaia no Kajitsu Spinout!? Idol Mahou Shoujo ChiruChiru*Michiru                                    | Prototype                              | PlayStation Vita | 2015 | Japan
+|       | Grisaia no Kajitsu: Le Fruit de la Grisaia                                                           | Prototype                              | PlayStation Vita | 2013 | Japan
+|       | Grisaia no Kajitsu: Side Episode                                                                     | Prototype                              | PlayStation Vita | 2017 | Japan
+|       | Grisaia no Kajitsu: Side Episode                                                                     | Prototype                              | PlayStation Vita | 2017 | Japan
+|       | Grisaia no Meikyuu: Le Labyrinthe de la Grisaia                                                      | Prototype                              | PlayStation Vita | 2014 | Japan
+|       | Grisaia no Rakuen: Le Eden de la Grisaia                                                             | Prototype                              | PlayStation Vita | 2014 | Japan
+|       | Gun Gun Pixies                                                                                       | Idea Factory                           | PlayStation Vita | 2017 | Japan
+|       | Gundam Breaker                                                                                       | Bandai Namco Games                     | PlayStation Vita | 2013 | Japan
+|       | Gundam Breaker 2                                                                                     | Bandai Namco Games                     | PlayStation Vita | 2014 | Japan
+|       | Gundam Breaker 3                                                                                     | Bandai Namco Games                     | PlayStation Vita | 2016 | Japan
+|       | Haitaka no Psychedelica                                                                              | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Haitaka no Psychedelica                                                                              | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Haiyore! Nyaruko-San: Meijoushigatai Game no You na Mono                                             | 5pb                                    | PlayStation Vita | 2013 | Japan
+|       | Hakuisei Aijou Izonshou                                                                              | Kogado Studio                          | PlayStation Vita | 2015 | Japan
+|       | Hakuouki SSL: Sweet School Life                                                                      | Idea Factory                           | PlayStation Vita | 2014 | Japan
+|       | Hakuouki: Kyouka Roku                                                                                | Idea Factory                           | PlayStation Vita | 2013 | Japan
+|       | Hakuouki: Reimeiroku - Omouhase Kara                                                                 | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Hakuouki: Shinkai - Hana no Shou                                                                     | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Hakuouki: Shinkai - Twin Pack                                                                        | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Hakuouki: Yuugi Roku - Taishitachi no Daienkai                                                       | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Hakuouki: Zuisouroku - Omokagebana                                                                   | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Hana Oboro: Sengoku Denranki                                                                         | Idea Factory                           | PlayStation Vita | 2017 | Japan
+|       | Hanasaki Work Spring                                                                                 | Entergram                              | PlayStation Vita | 2017 | Japan
+|       | Hanasaku Manimani                                                                                    | 5pb                                    | PlayStation Vita | 2014 | Japan
+|       | Hanayaka Nari, Wa ga Ichizoku: Gentou Nostalgie                                                      | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Hanayaka Nari, Wa ga Ichizoku: Modern Nostalgie                                                      | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Hanayamata: Yosakoi Live!                                                                            | Bandai Namco Games                     | PlayStation Vita | 2014 | Japan
+|       | Harukanaru Toki no Naka de 3 Ultimate                                                                | Koei Tecmo Games                       | PlayStation Vita | 2017 | Japan
+|       | Harukanaru Toki no Naka de 6                                                                         | Koei Tecmo Games                       | PlayStation Vita | 2015 | Japan
+|       | Harukanaru Toki no Naka de 6: Gentou Rondo                                                           | Koei Tecmo Games                       | PlayStation Vita | 2016 | Japan
+|       | Harvest OverRay                                                                                      | TGL                                    | PlayStation Vita | 2015 | Japan
+|       | Hatsune Miku: Project Diva f                                                                         | Sega                                   | PlayStation Vita | 2012 | Japan
+|       | Hatsune Miku: Project Diva F 2nd                                                                     | Sega                                   | PlayStation Vita | 2014 | Japan
+|       | Hatsune Miku: Project Diva X                                                                         | Sega                                   | PlayStation Vita | 2016 | Japan
+|       | Hatsuru Kotonaki Mirai Yori                                                                          | Prototype                              | PlayStation Vita | 2016 | Japan
+|       | Hatsuyuki Sakura                                                                                     | Entergram                              | PlayStation Vita | 2017 | Japan
+|       | Heiligenstadt no Uta                                                                                 | eXtend                                 | PlayStation Vita | 2017 | Japan
+|       | Hello Kitty to Issho: Block Crash V                                                                  | Dorart                                 | PlayStation Vita | 2012 | Japan
+|       | Hideboh: Tap Dance Hero                                                                              | Dorart                                 | PlayStation Vita | 2014 | Japan
+|       | Higurashi no Naku Koro ni Sui                                                                        | Kaga Create                            | PlayStation Vita | 2015 | Japan
+|       | Hiiro no Kakera: Omoi Iro no Kioku                                                                   | Idea Factory                           | PlayStation Vita | 2017 | Japan
+|       | Himawari: Pebble in the Sky                                                                          | Prototype                              | PlayStation Vita | 2015 | Japan
+|       | HimeHibi Ichi Gakki: Princess Days                                                                   | Takuyo                                 | PlayStation Vita | 2017 | Japan
+|       | HimeHibi: Princess Days                                                                              | Takuyo                                 | PlayStation Vita | 2017 | Japan
+|       | Himoutou! Umaru-Chan: Himoutou Ikusei Keikaku                                                        | FuRyu                                  | PlayStation Vita | 2015 | Japan
+|       | Hitotsu Tobashi Renai V                                                                              | Kaga Create                            | PlayStation Vita | 2015 | Japan
+|       | Hoshiori Yume Mirai: Converted Edition                                                               | Prototype                              | PlayStation Vita | 2016 | Japan
+|       | Hotchkiss                                                                                            | TGL                                    | PlayStation Vita | 2013 | Japan
+|       | Hotline Miami: Collected Edition                                                                     | Spike Chunsoft                         | PlayStation Vita | 2015 | Japan
+|       | htoL#NiQ: Hotaru no Nikki                                                                            | Nippon Ichi Software                   | PlayStation Vita | 2014 | Japan
+|       | Hyakka Hyakurou: Sengoku Ninpoujou                                                                   | D3Publisher                            | PlayStation Vita | 2016 | Japan
+|       | Hyakka Ryouran Elixir: Record of Torenia Revival                                                     | Kaga Create                            | PlayStation Vita | 2015 | Japan
+|       | Hyakka Yakou                                                                                         | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | I Doll U                                                                                             | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | IA/VT -COLORFUL-                                                                                     | Marvelous Inc.                         | PlayStation Vita | 2015 | Japan
+|       | id: RebirthSession                                                                                   | Entergram                              | PlayStation Vita | 2016 | Japan
+|       | Idol Death Game TV                                                                                   | D3Publisher                            | PlayStation Vita | 2016 | Japan
+|       | IdolM@ster: Must Songs - Aka-Ban, The                                                                | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | IdolM@ster: Must Songs - Ao-Ban, The                                                                 | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | Ikenie to Yuki no Setsuna                                                                            | Square Enix                            | PlayStation Vita | 2016 | Japan
+|       | Imasugu Oniichan ni Imouto Datte Iitai!                                                              | Piacci                                 | PlayStation Vita | 2014 | Japan
+|       | Infinite Stratos 2: Ignition Hearts                                                                  | 5pb                                    | PlayStation Vita | 2014 | Japan
+|       | Infinite Stratos 2: Love and Purge                                                                   | 5pb                                    | PlayStation Vita | 2015 | Japan
+|       | Injustice: Kamigami no Gekitotsu                                                                     | Warner Bros. Interactive Entertainment | PlayStation Vita | 2013 | Japan
+|       | Irotoridori no Sekai: World's End Re-Birth                                                           | dramatic create                        | PlayStation Vita | 2015 | Japan
+|       | ISLAND                                                                                               | Prototype                              | PlayStation Vita | 2017 | Japan
+|       | Iwaihime: Matsuri                                                                                    | Nippon Ichi Software                   | PlayStation Vita | 2017 | Japan
+|       | J-Stars Victory Vs                                                                                   | Bandai Namco Games                     | PlayStation Vita | 2014 | Japan
+|       | Jigoku no Gundan: Army Corps of Hell                                                                 | Square Enix                            | PlayStation Vita | 2011 | Japan
+|       | Jikkyou Powerful Pro Yakyuu 2012                                                                     | Konami                                 | PlayStation Vita | 2012 | Japan
+|       | Jikkyou Powerful Pro Yakyuu 2012 Ketteiban                                                           | Konami                                 | PlayStation Vita | 2012 | Japan
+|       | Jikkyou Powerful Pro Yakyuu 2013                                                                     | Konami                                 | PlayStation Vita | 2013 | Japan
+|       | Jikkyou Powerful Pro Yakyuu 2014                                                                     | Konami                                 | PlayStation Vita | 2014 | Japan
+|       | Jikkyou Powerful Pro Yakyuu 2016                                                                     | Konami                                 | PlayStation Vita | 2016 | Japan
+|       | Justy x Nasty: Maou Hajime Mashita                                                                   | GN Software                            | PlayStation Vita | 2015 | Japan
+|       | Jyuzaengi: Engetsu Sangokuden 1+2                                                                    | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Kadenz fermata//Akkord:fortissimo                                                                    | 5pb                                    | PlayStation Vita | 2014 | Japan
+|       | Kaeru Batake de Tsukamaete                                                                           | Takuyo                                 | PlayStation Vita | 2014 | Japan
+|       | Kaeru Batake de Tsukamaete: Natsu Chigira Sansen!                                                    | Takuyo                                 | PlayStation Vita | 2015 | Japan
+|       | Kagero: Darkside Princess                                                                            | Koei Tecmo Games                       | PlayStation Vita | 2014 | Japan
+|       | Kagero: Mou Hitori no Princess                                                                       | Koei Tecmo Games                       | PlayStation Vita | 2015 | Japan
+|       | Kaihou Shoujo SIN                                                                                    | 5pb                                    | PlayStation Vita | 2014 | Japan
+|       | Kajiri Kamui Kagura: Akebono no Hikari                                                               | Views                                  | PlayStation Vita | 2013 | Japan
+|       | Kaleidoeve                                                                                           | estciel                                | PlayStation Vita | 2015 | Japan
+|       | Kamaitachi no Yoru: Rinne Saisei                                                                     | 5pb                                    | PlayStation Vita | 2017 | Japan
+|       | Kamen Rider: Battride War Sousei                                                                     | Bandai Namco Games                     | PlayStation Vita | 2016 | Japan
+|       | Kami Jigen Idol Neptune PP                                                                           | Idea Factory                           | PlayStation Vita | 2013 | Japan
+|       | Kami Jijigen Game Neptune Re;Birth 3: V Century                                                      | Compile Heart                          | PlayStation Vita | 2014 | Japan
+|       | Kamidanomi Shisugite Ore no Mirai ga Yabai                                                           | Entergram                              | PlayStation Vita | 2017 | Japan
+|       | Kamigami no Asobi InFinite                                                                           | Broccoli                               | PlayStation Vita | 2016 | Japan
+|       | Kamisama to Koi Gokoro                                                                               | Takuyo                                 | PlayStation Vita | 2014 | Japan
+|       | Kan Colle Kai                                                                                        | Kadokawa                               | PlayStation Vita | 2016 | Japan
+|       | Karumaruka * Circle                                                                                  | Entergram                              | PlayStation Vita | 2017 | Japan
+|       | Katamari Damacy No-Vita                                                                              | Bandai Namco Games                     | PlayStation Vita | 2011 | Japan
+|       | Ken ga Kimi for V                                                                                    | Rejet                                  | PlayStation Vita | 2015 | Japan
+|       | Ken ga Kimi Momoyo Tsuzuri: Twin Pack                                                                | Rejet                                  | PlayStation Vita | 2016 | Japan
+|       | Ken ga Kimi: Momoyo Tsuzuri                                                                          | Rejet                                  | PlayStation Vita | 2016 | Japan
+|       | Kenka Bancho Otome                                                                                   | Spike Chunsoft                         | PlayStation Vita | 2016 | Japan
+|       | Kenka Bancho Otome: Kanzenmuketsu no My Honey                                                        | Spike Chunsoft                         | PlayStation Vita | 2017 | Japan
+|       | Kidou Senshi Gundam Seed: Battle Destiny                                                             | Bandai Namco Games                     | PlayStation Vita | 2012 | Japan
+|       | Kidou Senshi Gundam: Extreme VS Force                                                                | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | Killzone: Mercenary                                                                                  | SCEI                                   | PlayStation Vita | 2013 | Japan
+|       | Kimi o Aogi Otome wa Hime ni                                                                         | Entergram                              | PlayStation Vita | 2016 | Japan
+|       | Kiniro no Corda 2 ff                                                                                 | Koei Tecmo Games                       | PlayStation Vita | 2017 | Japan
+|       | Kiniro no Corda 4                                                                                    | Koei Tecmo Games                       | PlayStation Vita | 2016 | Japan
+|       | Kiss Ato                                                                                             | TGL                                    | PlayStation Vita | 2015 | Japan
+|       | Kiss Ato                                                                                             | TGL                                    | PlayStation Vita | 2015 | Japan
+|       | KissBell                                                                                             | TGL                                    | PlayStation Vita | 2014 | Japan
+|       | KLAP!! Kind Love And Punish                                                                          | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | KLAP!! Kind Love And Punish: Fun Party                                                               | Idea Factory                           | PlayStation Vita | 2017 | Japan
+|       | Kokuchou no Psychedelica                                                                             | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Kokuchou no Psychedelica                                                                             | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Kono Aozora ni Yakusoku o                                                                            | TGL                                    | PlayStation Vita | 2015 | Japan
+|       | Kono Oozora ni, Tsubasa o Hirogete: Cruise Sign                                                      | 5pb                                    | PlayStation Vita | 2016 | Japan
+|       | Kono Subarashii Sekai ni Shukufuku o! Kono Yokubukai Game ni Shinpan o!                              | 5pb                                    | PlayStation Vita | 2017 | Japan
+|       | Kud Wafter: Converted Edition                                                                        | Prototype                              | PlayStation Vita | 2013 | Japan
+|       | Kujiragami no Tearstilla                                                                             | Piacci                                 | PlayStation Vita | 2016 | Japan
+|       | Kurogane Kaikitan: Senya Ichiya                                                                      | Minato Station                         | PlayStation Vita | 2015 | Japan
+|       | Kyokugen Dasshutsu ADV: Zennin Shiboudesu                                                            | ChunSoft                               | PlayStation Vita | 2012 | Japan
+|       | Kyoukai no Shirayuki                                                                                 | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | LEGO Marvel's Avengers                                                                               | Warner Bros. Interactive Entertainment | PlayStation Vita | 2016 | Japan
+|       | LEGO Ninjago: Nindroids                                                                              | Warner Bros. Interactive Entertainment | PlayStation Vita | 2016 | Japan
+|       | LEGO Star Wars: Force no Kakusei                                                                     | Warner Bros. Interactive Entertainment | PlayStation Vita | 2016 | Japan
+|       | Let's Try Bass Fishing: FISH ON NEXT                                                                 | Kadokawa                               | PlayStation Vita | 2012 | Japan
+|       | Little Busters! Converted Edition                                                                    | Prototype                              | PlayStation Vita | 2012 | Japan
+|       | LittleBigPlanet PS Vita                                                                              | SCEI                                   | PlayStation Vita | 2012 | Japan
+|       | Lord of Apocalypse                                                                                   | Square Enix                            | PlayStation Vita | 2011 | Japan
+|       | Lost Child, The                                                                                      | Kadokawa                               | PlayStation Vita | 2017 | Japan
+|       | Lost Dimension                                                                                       | FuRyu                                  | PlayStation Vita | 2014 | Japan
+|       | Love Live! School Idol Paradise Vol. 1: Printemps Unit                                               | Kadokawa                               | PlayStation Vita | 2014 | Japan
+|       | Love Live! School Idol Paradise Vol. 2: BiBi Unit                                                    | Kadokawa                               | PlayStation Vita | 2014 | Japan
+|       | Love Live! School Idol Paradise Vol. 3: Lily White Unit                                              | Kadokawa                               | PlayStation Vita | 2014 | Japan
+|       | Love of Ren'ai Koutei of LOVE!                                                                       | Entergram                              | PlayStation Vita | 2017 | Japan
+|       | LOVE:QUIZ - Koisuru Shoujo no Final Answer                                                           | Asgard                                 | PlayStation Vita | 2015 | Japan
+|       | Lovely Quest Unlimited                                                                               | GN Software                            | PlayStation Vita | 2014 | Japan
+|       | Lovely x Cation 1 & 2                                                                                | 5pb                                    | PlayStation Vita | 2015 | Japan
+|       | Lumines: Electronic Symphony                                                                         | Ubisoft                                | PlayStation Vita | 2012 | Japan
+|       | Luminous Arc Infinity                                                                                | Marvelous Inc.                         | PlayStation Vita | 2015 | Japan
+|       | M3: Sono Kuroki Hagane /// Mission Memento Mori                                                      | Bandai Namco Games                     | PlayStation Vita | 2014 | Japan
+|       | Macross Delta Scramble                                                                               | Bandai Namco Games                     | PlayStation Vita | 2016 | Japan
+|       | Mahjong Fight Club: Shinsei Zenkoku Taisen Han                                                       | Konami                                 | PlayStation Vita | 2011 | Japan
+|       | Mahouka Koukou no Rettousei: Out of Order                                                            | Bandai Namco Games                     | PlayStation Vita | 2014 | Japan
+|       | Maji-Kyun! Renaissance                                                                               | Broccoli                               | PlayStation Vita | 2016 | Japan
+|       | Majo Koi Nikki: Dragon x Caravan                                                                     | Kaga Create                            | PlayStation Vita | 2015 | Japan
+|       | Makai Senki Disgaea 3 Return                                                                         | Nippon Ichi Software                   | PlayStation Vita | 2011 | Japan
+|       | Makai Senki Disgaea 4 Return                                                                         | Nippon Ichi Software                   | PlayStation Vita | 2014 | Japan
+|       | Makaigami Trillion                                                                                   | Compile Heart                          | PlayStation Vita | 2015 | Japan
+|       | Marginal #4: Idol of Supernova                                                                       | Idea Factory                           | PlayStation Vita | 2014 | Japan
+|       | Marginal #4: Road to Galaxy                                                                          | Idea Factory                           | PlayStation Vita | 2017 | Japan
+|       | Mato Kurenai Yuugekitai: Daybreak Special Gigs                                                       | Arc System Works                       | PlayStation Vita | 2015 | Japan
+|       | Mato Kurenai Yuugekitai: Tokyo Twilight Ghosthunters                                                 | Arc System Works                       | PlayStation Vita | 2014 | Japan
+|       | Meiji Toukyou Renka: Full Moon                                                                       | Mages.                                 | PlayStation Vita | 2016 | Japan
+|       | Meikyuu Cross Blood: Infinity                                                                        | CyberFront                             | PlayStation Vita | 2013 | Japan
+|       | Meikyuu Cross Blood: Infinity Ultimate                                                               | 5pb                                    | PlayStation Vita | 2014 | Japan
+|       | MeiQ no Chika Ni Shisu: A Maze to Eradicate Them All                                                 | Compile Heart                          | PlayStation Vita | 2015 | Japan
+|       | MeltyMoment                                                                                          | GN Software                            | PlayStation Vita | 2015 | Japan
+|       | Memories Off 6 Complete                                                                              | 5pb                                    | PlayStation Vita | 2013 | Japan
+|       | Memories Off: Yubikiri no Kioku                                                                      | 5pb                                    | PlayStation Vita | 2013 | Japan
+|       | Meruru no Atelier Plus: Arland no Renkinjutsushi 3                                                   | Gust                                   | PlayStation Vita | 2013 | Japan
+|       | Metal Gear Solid HD Edition                                                                          | Konami                                 | PlayStation Vita | 2012 | Japan
+|       | Michael Jackson The Experience HD                                                                    | Ubisoft                                | PlayStation Vita | 2011 | Japan
+|       | Mind = Zero                                                                                          | Acquire                                | PlayStation Vita | 2013 | Japan
+|       | Minecraft: PlayStation Vita Edition                                                                  | SCEI                                   | PlayStation Vita | 2015 | Japan
+|       | Minna no Golf 6                                                                                      | SCEI                                   | PlayStation Vita | 2011 | Japan
+|       | Miracle Girls Festival                                                                               | Sega                                   | PlayStation Vita | 2015 | Japan
+|       | Moe Moe 2-Ji Daisenryaku 3                                                                           | SystemSoft Alpha                       | PlayStation Vita | 2017 | Japan
+|       | Moe Moe Daisensou * Gendaiban++                                                                      | SystemSoft                             | PlayStation Vita | 2012 | Japan
+|       | Monobeno: Pure Smile                                                                                 | dramatic create                        | PlayStation Vita | 2014 | Japan
+|       | Monster Hunter Frontier G                                                                            | Capcom                                 | PlayStation Vita | 2014 | Japan
+|       | Monster Hunter Frontier G6                                                                           | Capcom                                 | PlayStation Vita | 2014 | Japan
+|       | Monster Hunter Frontier G7                                                                           | Capcom                                 | PlayStation Vita | 2015 | Japan
+|       | Monster Hunter Frontier G8                                                                           | Capcom                                 | PlayStation Vita | 2015 | Japan
+|       | Monster Hunter Frontier G9                                                                           | Capcom                                 | PlayStation Vita | 2015 | Japan
+|       | Monster Hunter Frontier Z                                                                            | Capcom                                 | PlayStation Vita | 2016 | Japan
+|       | Monster Radar                                                                                        | Sony Marketing                         | PlayStation Vita | 2011 | Japan
+|       | Moshi, Kono Sekai ni Kami-sama ga Iru to suru Naraba.                                                | Rejet                                  | PlayStation Vita | 2016 | Japan
+|       | Motto Ane, Chan to Shiyouyo! +Plus                                                                   | NetRevo                                | PlayStation Vita | 2014 | Japan
+|       | Moujuu-Tachi to Ohimesama                                                                            | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Moujuu-Tachi to Ohimesama ~ in blossom ~                                                             | Otomate                                | PlayStation Vita | 2017 | Japan
+|       | Moujuutsukai to Oujisama: Flower & Snow                                                              | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Musou Orochi 2 Ultimate                                                                              | Koei Tecmo Games                       | PlayStation Vita | 2013 | Japan
+|       | Musou Stars                                                                                          | Koei Tecmo Games                       | PlayStation Vita | 2017 | Japan
+|       | Musou Stars                                                                                          | Koei Tecmo Games                       | PlayStation Vita | 2017 | Japan
+|       | Muv-Luv                                                                                              | 5pb                                    | PlayStation Vita | 2016 | Japan
+|       | Muv-Luv Alternative                                                                                  | 5pb                                    | PlayStation Vita | 2016 | Japan
+|       | Muv-Luv Double Pack                                                                                  | 5pb                                    | PlayStation Vita | 2016 | Japan
+|       | Naitei! Shuukatsu Kanzen Taisaku - ES - SPI - Mensetsu                                               | Media5                                 | PlayStation Vita | 2013 | Japan
+|       | Nanairo Reincarnation                                                                                | RED FLAGSHIP co.,Ltd.                  | PlayStation Vita | 2015 | Japan
+|       | Natsumegu                                                                                            | TGL                                    | PlayStation Vita | 2015 | Japan
+|       | Natural Doctrine                                                                                     | Kadokawa                               | PlayStation Vita | 2014 | Japan
+|       | Need for Speed: Most Wanted - A Criterion Game                                                       | Electronic Arts                        | PlayStation Vita | 2012 | Japan
+|       | Nekketsu Inou Bukatsu: Trigger Kiss                                                                  | Idea Factory                           | PlayStation Vita | 2014 | Japan
+|       | Neo Angelique: Tenshi no Namida                                                                      | Idea Factory                           | PlayStation Vita | 2017 | Japan
+|       | Neo Atlas 1469                                                                                       | Artdink                                | PlayStation Vita | 2016 | Japan
+|       | Net High                                                                                             | Marvelous Inc.                         | PlayStation Vita | 2015 | Japan
+|       | NEW Danganronpa V3: Minna no Koroshiai Shingakki                                                     | Spike Chunsoft                         | PlayStation Vita | 2017 | Japan
+|       | New Game! The Challenge Stage!                                                                       | 5pb                                    | PlayStation Vita | 2017 | Japan
+|       | NextRev: Care Manager Shiken                                                                         | Media5                                 | PlayStation Vita | 2013 | Japan
+|       | NextRev: Chuushoukigyou Shindanshi Shiken 1                                                          | Media5                                 | PlayStation Vita | 2013 | Japan
+|       | NextRev: Chuushoukigyou Shindanshi Shiken 2                                                          | Media5                                 | PlayStation Vita | 2013 | Japan
+|       | NextRev: Dainishu Denki Koujishi Shiken                                                              | Media5                                 | PlayStation Vita | 2013 | Japan
+|       | NextRev: Daisanshu Denki Shunin Gijutsusha Shiken                                                    | Media5                                 | PlayStation Vita | 2013 | Japan
+|       | NextRev: Eibunpou Tettei Tokkun                                                                      | Media5                                 | PlayStation Vita | 2012 | Japan
+|       | NextRev: Eiken                                                                                       | Media5                                 | PlayStation Vita | 2013 | Japan
+|       | NextRev: FP Ginoukentei Shiken 2-Kyuu                                                                | Media5                                 | PlayStation Vita | 2012 | Japan
+|       | NextRev: FP Ginoukentei Shiken 3-Kyuu                                                                | Media5                                 | PlayStation Vita | 2012 | Japan
+|       | NextRev: Gyouseishoshi Shiken                                                                        | Media5                                 | PlayStation Vita | 2012 | Japan
+|       | NextRev: Hisho Kentei Shiken                                                                         | Media5                                 | PlayStation Vita | 2013 | Japan
+|       | NextRev: IT Passport Shiken                                                                          | Media5                                 | PlayStation Vita | 2012 | Japan
+|       | NextRev: Jouhou Security Specialist Shiken - Network Specialist Shiken                               | Media5                                 | PlayStation Vita | 2012 | Japan
+|       | NextRev: Kaigo Fukushishi Shiken                                                                     | Media5                                 | PlayStation Vita | 2012 | Japan
+|       | NextRev: Kihonjouhou Gijutsusha Shiken                                                               | Media5                                 | PlayStation Vita | 2012 | Japan
+|       | NextRev: Ouyou Jouhougijutsusha Shiken                                                               | Media5                                 | PlayStation Vita | 2012 | Japan
+|       | NextRev: Shakai Fukushishi Shiken                                                                    | Media5                                 | PlayStation Vita | 2012 | Japan
+|       | NextRev: Sharoushi Shiken                                                                            | Media5                                 | PlayStation Vita | 2013 | Japan
+|       | NextRev: Takken Shiken                                                                               | Media5                                 | PlayStation Vita | 2012 | Japan
+|       | Nihon Pro Mahjong Renmei Kounin: Motto 20-Bai! Mahjong ga Tsuyoku Naru Houhou - Shochuukyuusha Hen   | Naxat Soft                             | PlayStation Vita | 2013 | Japan
+|       | Nihon Pro Mahjong Renmei Suisen: Tokoton Mahjong! Joryuu Pro ni Chousen! Tetsuman Megami Special     | Naxat Soft                             | PlayStation Vita | 2013 | Japan
+|       | Nikoli no Sudoku V: Shugyoku no 12 Puzzle                                                            | Hamster                                | PlayStation Vita | 2012 | Japan
+|       | Nil Admirari no Tenbin: Kuroyuri En'youtan                                                           | Idea Factory                           | PlayStation Vita | 2017 | Japan
+|       | Nil Admirari no Tenbin: Kuroyuri En'youtan                                                           | Idea Factory                           | PlayStation Vita | 2017 | Japan
+|       | Nil Admirari no Tenbin: Teito Genwaku Kitan                                                          | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Ninja Gaiden Sigma 2 Plus                                                                            | Koei Tecmo Games                       | PlayStation Vita | 2013 | Japan
+|       | Ninja Gaiden Sigma Plus                                                                              | Koei Tecmo Games                       | PlayStation Vita | 2012 | Japan
+|       | Nisekoi: Yomeiri!?                                                                                   | Konami                                 | PlayStation Vita | 2014 | Japan
+|       | Nobunaga no Yabou: Souzou                                                                            | Koei Tecmo Games                       | PlayStation Vita | 2014 | Japan
+|       | Nobunaga no Yabou: Souzou - Sengoku Risshiden                                                        | Koei Tecmo Games                       | PlayStation Vita | 2016 | Japan
+|       | Nobunaga no Yabou: Souzou with Power-Up Kit                                                          | Koei Tecmo Games                       | PlayStation Vita | 2015 | Japan
+|       | Nobunaga no Yabou: Tendou with Power-Up Kit                                                          | Koei Tecmo Games                       | PlayStation Vita | 2012 | Japan
+|       | Nobunaga no Yabou: Tenshouki with Power-Up Kit HD Version                                            | Koei Tecmo Games                       | PlayStation Vita | 2015 | Japan
+|       | Nora to Koujo to Noraneko Heart                                                                      | HARUKAZE                               | PlayStation Vita | 2017 | Japan
+|       | Norn9: Last Era                                                                                      | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Norn9: Norn + Nonette Act Tune                                                                       | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Norn9: Norn + Nonette Act Tune                                                                       | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Norn9: Var Commons                                                                                   | Idea Factory                           | PlayStation Vita | 2014 | Japan
+|       | Oboro Muramasa                                                                                       | Marvelous AQL                          | PlayStation Vita | 2013 | Japan
+|       | OCCULTIC;NINE                                                                                        | 5pb                                    | PlayStation Vita | 2017 | Japan
+|       | Odin Sphere: Leifdrasir                                                                              | ATLUS                                  | PlayStation Vita | 2016 | Japan
+|       | Omega Labyrinth                                                                                      | D3Publisher                            | PlayStation Vita | 2015 | Japan
+|       | Omega Labyrinth Z                                                                                    | D3Publisher                            | PlayStation Vita | 2017 | Japan
+|       | Omerta Code: Tycoon Kai                                                                              | Karin Chatnoir Omega                   | PlayStation Vita | 2016 | Japan
+|       | One Piece: Burning Blood                                                                             | Bandai Namco Games                     | PlayStation Vita | 2016 | Japan
+|       | One Piece: Kaizoku Musou 2                                                                           | Bandai Namco Games                     | PlayStation Vita | 2013 | Japan
+|       | One Piece: Kaizoku Musou 3                                                                           | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | One Piece: Unlimited World Red                                                                       | Bandai Namco Games                     | PlayStation Vita | 2014 | Japan
+|       | Ooedo Blacksmith                                                                                     | Nippon Ichi Software                   | PlayStation Vita | 2014 | Japan
+|       | Ore no Shikabane o Koete Yuke 2                                                                      | SCEI                                   | PlayStation Vita | 2014 | Japan
+|       | Oretachi ni Tsubasa wa Nai                                                                           | 5pb                                    | PlayStation Vita | 2014 | Japan
+|       | Orfleurs: Koufuku no Hanataba                                                                        | HuneX                                  | PlayStation Vita | 2017 | Japan
+|       | Orgarhythm                                                                                           | Acquire                                | PlayStation Vita | 2012 | Japan
+|       | Osomatsu-san: The Game                                                                               | Idea Factory                           | PlayStation Vita | 2017 | Japan
+|       | Otoko Yuukaku                                                                                        | D3Publisher                            | PlayStation Vita | 2015 | Japan
+|       | Otomate Special Pack                                                                                 | Idea Factory                           | PlayStation Vita | 2013 | Japan
+|       | Otome Riron to Sono Shuuhen: Bon Voyage                                                              | HuneX                                  | PlayStation Vita | 2016 | Japan
+|       | Ou to Maou to 7-nin no Himegimitachi: Shin Ousama Monogatari                                         | Konami                                 | PlayStation Vita | 2012 | Japan
+|       | Ouka Sabaki                                                                                          | dramatic create                        | PlayStation Vita | 2017 | Japan
+|       | Ouma ga Toki: Kakuriyo no Enishi                                                                     | eXtend                                 | PlayStation Vita | 2016 | Japan
+|       | Owari no Seraph: Unmei no Hajimari                                                                   | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | Owaru Sekai to Birthday                                                                              | Entergram                              | PlayStation Vita | 2017 | Japan
+|       | OZMAFIA!! -vivace-                                                                                   | dramatic create                        | PlayStation Vita | 2015 | Japan
+|       | Parfait                                                                                              | TGL                                    | PlayStation Vita | 2015 | Japan
+|       | Persona 4: Dancing All Night                                                                         | ATLUS                                  | PlayStation Vita | 2015 | Japan
+|       | Persona 4: The Golden                                                                                | ATLUS                                  | PlayStation Vita | 2012 | Japan
+|       | Phantasy Star Nova                                                                                   | Sega                                   | PlayStation Vita | 2014 | Japan
+|       | Phantasy Star Online 2                                                                               | Sega                                   | PlayStation Vita | 2013 | Japan
+|       | Phantom Breaker: Battle Grounds                                                                      | 5pb                                    | PlayStation Vita | 2014 | Japan
+|       | PhotoKano Kiss                                                                                       | Kadokawa                               | PlayStation Vita | 2013 | Japan
+|       | Plastic Memories                                                                                     | 5pb                                    | PlayStation Vita | 2016 | Japan
+|       | PlayStation All-Stars Battle Royale                                                                  | SCEI                                   | PlayStation Vita | 2013 | Japan
+|       | Possession Magenta                                                                                   | Comfort                                | PlayStation Vita | 2015 | Japan
+|       | Power Smash 4                                                                                        | Sega                                   | PlayStation Vita | 2011 | Japan
+|       | PriministAr                                                                                          | Entergram                              | PlayStation Vita | 2016 | Japan
+|       | Prince of Stride                                                                                     | Kadokawa                               | PlayStation Vita | 2015 | Japan
+|       | Princess wa Kane no Mouja                                                                            | Nippon Ichi Software                   | PlayStation Vita | 2016 | Japan
+|       | Princess wa Kane no Mouja                                                                            | Nippon Ichi Software                   | PlayStation Vita | 2016 | Japan
+|       | Pro Yakyuu Spirits 2012                                                                              | Konami                                 | PlayStation Vita | 2012 | Japan
+|       | Pro Yakyuu Spirits 2013                                                                              | Konami                                 | PlayStation Vita | 2013 | Japan
+|       | Pro Yakyuu Spirits 2014                                                                              | Konami                                 | PlayStation Vita | 2014 | Japan
+|       | Pro Yakyuu Spirits 2015                                                                              | Konami                                 | PlayStation Vita | 2015 | Japan
+|       | PsychicEmotion6                                                                                      | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Psycho-Pass: Sentaku Naki Koufuku                                                                    | 5pb                                    | PlayStation Vita | 2016 | Japan
+|       | Punch Line                                                                                           | 5pb                                    | PlayStation Vita | 2016 | Japan
+|       | Punch Line                                                                                           | 5pb                                    | PlayStation Vita | 2016 | Japan
+|       | PuraMai Wars V                                                                                       | Entergram                              | PlayStation Vita | 2016 | Japan
+|       | Puyo Puyo Tetris                                                                                     | Sega                                   | PlayStation Vita | 2014 | Japan
+|       | Ragnarok Odyssey                                                                                     | GungHo                                 | PlayStation Vita | 2012 | Japan
+|       | Ragnarok Odyssey ACE                                                                                 | GungHo                                 | PlayStation Vita | 2013 | Japan
+|       | Raishi                                                                                               | Klon Co., Ltd.                         | PlayStation Vita | 2015 | Japan
+|       | Raishi: Konpeki no Shou                                                                              | Klon Co., Ltd.                         | PlayStation Vita | 2016 | Japan
+|       | Raishi: Ouen Set                                                                                     | Klon Co., Ltd.                         | PlayStation Vita | 2016 | Japan
+|       | Ray Gigant                                                                                           | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | Rayman Legends                                                                                       | Ubisoft                                | PlayStation Vita | 2014 | Japan
+|       | Rayman Origins                                                                                       | Ubisoft                                | PlayStation Vita | 2012 | Japan
+|       | Re:BIRTHDAY SONG: Koi o Utau Shinigami - Another Record                                              | Asgard                                 | PlayStation Vita | 2016 | Japan
+|       | RE:VICE[D]                                                                                           | Idea Factory                           | PlayStation Vita | 2014 | Japan
+|       | Re:Zero - kara Hajimeru Isekai Seikatsu - Death or Kiss                                              | 5pb                                    | PlayStation Vita | 2017 | Japan
+|       | Reality Fighters                                                                                     | SCEI                                   | PlayStation Vita | 2012 | Japan
+|       | Rear Pheles: Red of Another                                                                          | Matatabi                               | PlayStation Vita | 2015 | Japan
+|       | RecoLove: Blue Ocean                                                                                 | Kadokawa                               | PlayStation Vita | 2016 | Japan
+|       | RecoLove: Gold Beach                                                                                 | Kadokawa                               | PlayStation Vita | 2016 | Japan
+|       | Refrain no Chika Meikyuu to Majo no Ryodan                                                           | Nippon Ichi Software                   | PlayStation Vita | 2016 | Japan
+|       | Reine des Fleurs                                                                                     | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Renai 0 Kilometer V                                                                                  | Alchemist                              | PlayStation Vita | 2014 | Japan
+|       | Renai Revenge                                                                                        | TGL                                    | PlayStation Vita | 2015 | Japan
+|       | RepKiss                                                                                              | Entergram                              | PlayStation Vita | 2017 | Japan
+|       | Resistance: America Saigo no Teikou                                                                  | SCEI                                   | PlayStation Vita | 2012 | Japan
+|       | Rewrite                                                                                              | Prototype                              | PlayStation Vita | 2014 | Japan
+|       | Rewrite Harvest festa!                                                                               | Prototype                              | PlayStation Vita | 2017 | Japan
+|       | Ridge Racer                                                                                          | Bandai Namco Games                     | PlayStation Vita | 2011 | Japan
+|       | Ro-Kyu-Bu! Naisho no Shutter Chance                                                                  | Kadokawa                               | PlayStation Vita | 2014 | Japan
+|       | Robotics;Notes Elite                                                                                 | 5pb                                    | PlayStation Vita | 2014 | Japan
+|       | Romeo VS Juliet: Zenkan Pack                                                                         | Quinrose                               | PlayStation Vita | 2015 | Japan
+|       | Root Infinity Rexx                                                                                   | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Root Letter                                                                                          | Kadokawa                               | PlayStation Vita | 2016 | Japan
+|       | Rose to Tasogare no Kojou                                                                            | Nippon Ichi Software                   | PlayStation Vita | 2017 | Japan
+|       | Rozen Maiden: Wechseln Sie Welt ab                                                                   | 5pb                                    | PlayStation Vita | 2014 | Japan
+|       | Rui wa Tomo o Yobu                                                                                   | 5pb                                    | PlayStation Vita | 2013 | Japan
+|       | Ryuuyoku no Melodia: Diva with the Blessed Dragonol                                                  | Piacci                                 | PlayStation Vita | 2015 | Japan
+|       | SA7: Silent Ability Seven                                                                            | Future Tech Lab                        | PlayStation Vita | 2016 | Japan
+|       | Saenai Heroine no Sodatekata: Blessing Flowers                                                       | 5pb                                    | PlayStation Vita | 2015 | Japan
+|       | SaGa: Scarlet Grace                                                                                  | Square Enix                            | PlayStation Vita | 2016 | Japan
+|       | Saka Agari Hurricane Portable                                                                        | Entergram                              | PlayStation Vita | 2016 | Japan
+|       | Saki: Zenkoku-hen                                                                                    | Kaga Create                            | PlayStation Vita | 2015 | Japan
+|       | Saki: Zenkoku-hen Plus                                                                               | Entergram                              | PlayStation Vita | 2017 | Japan
+|       | Sakura-Sou no Pet na Kanojo                                                                          | Kadokawa                               | PlayStation Vita | 2013 | Japan
+|       | Samurai & Dragons                                                                                    | Sega                                   | PlayStation Vita | 2012 | Japan
+|       | San Goku Shi 12                                                                                      | Koei Tecmo Games                       | PlayStation Vita | 2013 | Japan
+|       | San Goku Shi 12 with Power-Up Kit                                                                    | Koei Tecmo Games                       | PlayStation Vita | 2013 | Japan
+|       | San Goku Shi 13 with Power-Up Kit                                                                    | Koei Tecmo Games                       | PlayStation Vita | 2017 | Japan
+|       | Sangoku Hime 2: Tenka Hatou - Shishi no Keishousha                                                   | SystemSoft Alpha                       | PlayStation Vita | 2013 | Japan
+|       | Sangoku Hime 4: Tenka Ryouran - Tenmei no Koi Emaki                                                  | SystemSoft Alpha                       | PlayStation Vita | 2016 | Japan
+|       | Sangoku Rensenki: Otome no Heihou!                                                                   | Prototype                              | PlayStation Vita | 2013 | Japan
+|       | Sangoku Rensenki: Otome no Heihou! Omoide Gaeshi - CS Edition                                        | Prototype                              | PlayStation Vita | 2016 | Japan
+|       | Sayonara Umihara Kawase Chirari                                                                      | Agatsuma Entertainment                 | PlayStation Vita | 2015 | Japan
+|       | Scared Rider Xechs Rev.                                                                              | RED Entertainment                      | PlayStation Vita | 2015 | Japan
+|       | School Wars: Zenkan Pack Honpen & Sotsugyou Sensen                                                   | Quinrose                               | PlayStation Vita | 2015 | Japan
+|       | SD Gundam G Generation Genesis                                                                       | Bandai Namco Games                     | PlayStation Vita | 2016 | Japan
+|       | Sei Madou Monogatari                                                                                 | Compile Heart                          | PlayStation Vita | 2013 | Japan
+|       | Seiken Densetsu 2: Secret of Mana                                                                    | Square Enix                            | PlayStation Vita | 2018 | Japan
+|       | Sekaiichi Nagai 5 Funkan                                                                             | Nippon Ichi Software                   | PlayStation Vita | 2016 | Japan
+|       | Sen no Hatou, Arazome no Hime                                                                        | ARIA                                   | PlayStation Vita | 2017 | Japan
+|       | Sengo Muramasa DX: Guren no Kettou                                                                   | SystemSoft Alpha                       | PlayStation Vita | 2017 | Japan
+|       | Sengoku Hime 3: Tenka o Kirisaku Hikari to Kage                                                      | SystemSoft Alpha                       | PlayStation Vita | 2013 | Japan
+|       | Sengoku Hime 4: Souha Hyakkei, Hana Mamoru Chikai                                                    | SystemSoft Alpha                       | PlayStation Vita | 2014 | Japan
+|       | Sengoku Hime 5: Senkatatsu Haoh no Keifu                                                             | SystemSoft Alpha                       | PlayStation Vita | 2014 | Japan
+|       | Sengoku Musou 4                                                                                      | Koei Tecmo Games                       | PlayStation Vita | 2014 | Japan
+|       | Sengoku Musou 4 Empires                                                                              | Koei Tecmo Games                       | PlayStation Vita | 2015 | Japan
+|       | Sengoku Musou 4-II                                                                                   | Koei Tecmo Games                       | PlayStation Vita | 2015 | Japan
+|       | Sengoku Musou Chronicle 3                                                                            | Koei Tecmo Games                       | PlayStation Vita | 2014 | Japan
+|       | Sengoku Musou: Sanada Maru                                                                           | Koei Tecmo Games                       | PlayStation Vita | 2016 | Japan
+|       | Sengoku Otome: Legend Battle                                                                         | Planet G                               | PlayStation Vita | 2016 | Japan
+|       | Senjou no Waltz                                                                                      | Idea Factory                           | PlayStation Vita | 2014 | Japan
+|       | Senran Kagura Shinovi Versus: Shoujotachi no Shoumei                                                 | Marvelous AQL                          | PlayStation Vita | 2013 | Japan
+|       | Senran Kagura: Dekamori Shinovi Pack                                                                 | Marvelous Inc.                         | PlayStation Vita | 2014 | Japan
+|       | Senran Kagura: Estival Versus - Shoujotachi no Sentaku                                               | Marvelous Inc.                         | PlayStation Vita | 2015 | Japan
+|       | Shallie no Atelier Plus: Tasogare no Umi no Renkinjutsushi                                           | Koei Tecmo Games                       | PlayStation Vita | 2016 | Japan
+|       | Shiin                                                                                                | Experience Inc.                        | PlayStation Vita | 2017 | Japan
+|       | Shin Gundam Musou                                                                                    | Bandai Namco Games                     | PlayStation Vita | 2013 | Japan
+|       | Shin Hayarigami                                                                                      | Nippon Ichi Software                   | PlayStation Vita | 2014 | Japan
+|       | Shin Hayarigami 2                                                                                    | Nippon Ichi Software                   | PlayStation Vita | 2016 | Japan
+|       | Shin Kamaitachi no Yoru: 11 Hitome no Suspect                                                        | ChunSoft                               | PlayStation Vita | 2011 | Japan
+|       | Shin Rorona no Atelier: Hajimari no Monogatari - Arland no Renkinjutsushi                            | Gust                                   | PlayStation Vita | 2013 | Japan
+|       | Shin Sangoku Musou 7 Empires                                                                         | Koei Tecmo Games                       | PlayStation Vita | 2015 | Japan
+|       | Shin Sangoku Musou 7 with Moushouden                                                                 | Koei Tecmo Games                       | PlayStation Vita | 2013 | Japan
+|       | Shin Sangoku Musou Next                                                                              | Koei Tecmo Games                       | PlayStation Vita | 2011 | Japan
+|       | Shin Sangoku Musou: Eiketsuden                                                                       | Koei Tecmo Games                       | PlayStation Vita | 2016 | Japan
+|       | Shingeki no Kyojin                                                                                   | Koei Tecmo Games                       | PlayStation Vita | 2016 | Japan
+|       | Shinobi, Koi Utsutsu: Kanmitsu Hana Emaki - Twin Pack                                                | Idea Factory                           | PlayStation Vita | 2017 | Japan
+|       | Shinobi, Koi Utsutsu: Setsugetsuka Koi Emaki                                                         | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Shinobido 2: Sange                                                                                   | Spike                                  | PlayStation Vita | 2011 | Japan
+|       | Shinsei Batteki Drive Girls                                                                          | Bergsala-Lightweight                   | PlayStation Vita | 2017 | Japan
+|       | Shinsei Batteki Drive Girls                                                                          | Bergsala-Lightweight                   | PlayStation Vita | 2017 | Japan
+|       | Shinshaku Tsurugi no Machi no Ihoujin: Kuro no Kyuuden                                               | Experience Inc.                        | PlayStation Vita | 2016 | Japan
+|       | Shinshaku Tsurugi no Machi no Ihoujin: Kuro no Kyuuden                                               | Experience Inc.                        | PlayStation Vita | 2016 | Japan
+|       | Shinsouban Mahou Tsukai no Goshujinsama                                                              | Quinrose                               | PlayStation Vita | 2015 | Japan
+|       | Shinsouban Okashi na Shima no Peter Pan: Sweet Never Land                                            | Quinrose                               | PlayStation Vita | 2015 | Japan
+|       | Shinsouhan Crimson Empire                                                                            | Quinrose                               | PlayStation Vita | 2015 | Japan
+|       | Shinsouhan Heart no Kuni no Alice: Wonderful Wonder World                                            | Quinrose                               | PlayStation Vita | 2015 | Japan
+|       | Shiro to Kuro no Alice                                                                               | Idea Factory                           | PlayStation Vita | 2017 | Japan
+|       | Shirogane x Spirits                                                                                  | TGL                                    | PlayStation Vita | 2016 | Japan
+|       | Shitsuji ga Aruji o Erabu Toki                                                                       | TGL                                    | PlayStation Vita | 2016 | Japan
+|       | Sid Meier's Civilization Revolution 2+                                                               | 2K Games                               | PlayStation Vita | 2015 | Japan
+|       | Side Kicks!                                                                                          | eXtend                                 | PlayStation Vita | 2017 | Japan
+|       | Silent Hill: Book of Memories                                                                        | Konami                                 | PlayStation Vita | 2013 | Japan
+|       | Silverio Vendetta: Verse of Orpheus                                                                  | Views                                  | PlayStation Vita | 2016 | Japan
+|       | Skullgirls: 2nd Encore                                                                               | Arc System Works                       | PlayStation Vita | 2016 | Japan
+|       | Slotter Mania V: Black Lagoon                                                                        | Dorart                                 | PlayStation Vita | 2012 | Japan
+|       | Slotter Mania V: Gakuen Mokushiroku - Highschool of the Dead                                         | Dorart                                 | PlayStation Vita | 2013 | Japan
+|       | Slotter Mania V: Zettai Shogeki II                                                                   | Dorart                                 | PlayStation Vita | 2013 | Japan
+|       | Soccer Tsuku: Pro Soccer Club o Tsukurou!                                                            | Sega                                   | PlayStation Vita | 2013 | Japan
+|       | Sophie no Atelier: Fushigi na Hon no Renkinjutsushi                                                  | Koei Tecmo Games                       | PlayStation Vita | 2015 | Japan
+|       | Sorayume                                                                                             | Takuyo                                 | PlayStation Vita | 2014 | Japan
+|       | Soukai Buccaneers!                                                                                   | Future Tech Lab                        | PlayStation Vita | 2014 | Japan
+|       | Soul Sacrifice                                                                                       | SCEI                                   | PlayStation Vita | 2013 | Japan
+|       | Soul Sacrifice Delta                                                                                 | SCEI                                   | PlayStation Vita | 2014 | Japan
+|       | Sousei no Onmyouji                                                                                   | Bandai Namco Games                     | PlayStation Vita | 2017 | Japan
+|       | Soushuu Senshinkan Gakuen: Hachimyoujin - Ten no Koku                                                | Light                                  | PlayStation Vita | 2014 | Japan
+|       | Spy Hunter                                                                                           | Warner Bros. Interactive Entertainment | PlayStation Vita | 2012 | Japan
+|       | Starry * Sky: Autumn Stories                                                                         | Asgard                                 | PlayStation Vita | 2017 | Japan
+|       | Starry * Sky: Spring Stories                                                                         | Asgard                                 | PlayStation Vita | 2016 | Japan
+|       | Starry * Sky: Summer Stories                                                                         | Asgard                                 | PlayStation Vita | 2017 | Japan
+|       | Steam Prison: Nanatsu no Bitoku                                                                      | HuneX                                  | PlayStation Vita | 2017 | Japan
+|       | Steins;Gate                                                                                          | 5pb                                    | PlayStation Vita | 2013 | Japan
+|       | Steins;Gate Double Pack                                                                              | 5pb                                    | PlayStation Vita | 2013 | Japan
+|       | Steins;Gate Zero                                                                                     | 5pb                                    | PlayStation Vita | 2015 | Japan
+|       | Steins;Gate: Hiyoku Renri no Darling                                                                 | 5pb                                    | PlayStation Vita | 2013 | Japan
+|       | Steins;Gate: Senkei Kousoku no Phenogram                                                             | 5pb                                    | PlayStation Vita | 2013 | Japan
+|       | StormLover 2nd V                                                                                     | D3Publisher                            | PlayStation Vita | 2016 | Japan
+|       | StormLover V                                                                                         | D3Publisher                            | PlayStation Vita | 2015 | Japan
+|       | Strawberry Nauts                                                                                     | Entergram                              | PlayStation Vita | 2016 | Japan
+|       | Street Fighter X Tekken                                                                              | Capcom                                 | PlayStation Vita | 2012 | Japan
+|       | Sumioni                                                                                              | Acquire                                | PlayStation Vita | 2012 | Japan
+|       | Super Hero Generation                                                                                | Bandai Namco Games                     | PlayStation Vita | 2014 | Japan
+|       | Super Heroine Chronicle: Chou Heroine Senki                                                          | Bandai Namco Games                     | PlayStation Vita | 2014 | Japan
+|       | Super Monkey Ball: Tokumori AsoVita!                                                                 | Sega                                   | PlayStation Vita | 2012 | Japan
+|       | Super Robot Taisen OG Saga: Masou Kishin III - Pride of Justice                                      | Bandai Namco Games                     | PlayStation Vita | 2013 | Japan
+|       | Super Robot Taisen V                                                                                 | Bandai Namco Games                     | PlayStation Vita | 2017 | Japan
+|       | SUPERBEAT: XONiC                                                                                     | Arc System Works                       | PlayStation Vita | 2015 | Japan
+|       | Suran digit                                                                                          | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Suugaku Rikiou: Chuukyuu Naka-2-Level                                                                | Media5                                 | PlayStation Vita | 2013 | Japan
+|       | Suugaku Rikiou: Joukyuu Naka-3-Level                                                                 | Media5                                 | PlayStation Vita | 2013 | Japan
+|       | Suugaku Rikiou: Shokyuu Naka-1-Level                                                                 | Media5                                 | PlayStation Vita | 2013 | Japan
+|       | Sweet Clown: Gozen Sanji no Okashi na Doukeshi                                                       | Takuyo                                 | PlayStation Vita | 2015 | Japan
+|       | Sweets Chara: Sweets Gakkou e Youkoso!                                                               | FuRyu                                  | PlayStation Vita | 2017 | Japan
+|       | Sword Art Online: Hollow Fragment                                                                    | Bandai Namco Games                     | PlayStation Vita | 2014 | Japan
+|       | Sword Art Online: Hollow Realization                                                                 | Bandai Namco Games                     | PlayStation Vita | 2016 | Japan
+|       | Sword Art Online: Lost Song                                                                          | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | Taiheiyou no Arashi: Koukoku no Kouhai Kokoniari, 1942 Senkan Yamato Hankou no Goujuu                | SystemSoft Alpha                       | PlayStation Vita | 2016 | Japan
+|       | Taiko no Tatsujin: V Version                                                                         | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | Taishou Mebiusline: Teito Bibouroku Hare                                                             | dramatic create                        | PlayStation Vita | 2017 | Japan
+|       | Taishou Mebiusline: Vitable                                                                          | HuneX                                  | PlayStation Vita | 2016 | Japan
+|       | Taishou x Alice: All in One                                                                          | Prototype                              | PlayStation Vita | 2016 | Japan
+|       | Tales of Hearts R                                                                                    | Bandai Namco Games                     | PlayStation Vita | 2013 | Japan
+|       | Tales of Innocence R                                                                                 | Bandai Namco Games                     | PlayStation Vita | 2012 | Japan
+|       | Tearaway: Hagareta Sekai no Daibouken                                                                | SCEI                                   | PlayStation Vita | 2013 | Japan
+|       | Teikoku Kaigun Koi Bojou: Meiji Yokosuka Koushinkyoku                                                | D3Publisher                            | PlayStation Vita | 2015 | Japan
+|       | Terraria                                                                                             | Spike Chunsoft                         | PlayStation Vita | 2014 | Japan
+|       | Time Travelers                                                                                       | Level 5                                | PlayStation Vita | 2012 | Japan
+|       | Timepiece Ensemble                                                                                   | Entergram                              | PlayStation Vita | 2017 | Japan
+|       | To Heart 2: Dungeon Travelers                                                                        | Aqua Plus                              | PlayStation Vita | 2015 | Japan
+|       | To Love-Ru Trouble Darkness: Battle Ecstasy                                                          | FuRyu                                  | PlayStation Vita | 2014 | Japan
+|       | To Love-Ru Trouble Darkness: True Princess                                                           | FuRyu                                  | PlayStation Vita | 2015 | Japan
+|       | TOEIC Test: Jissen Tokkun                                                                            | Media5                                 | PlayStation Vita | 2012 | Japan
+|       | TOEIC Test: Jissen Tokkun 2                                                                          | Media5                                 | PlayStation Vita | 2013 | Japan
+|       | Tokeijikake no Ley Line: Kagerou ni Samayou Majo                                                     | HuneX                                  | PlayStation Vita | 2017 | Japan
+|       | Tokushu Houdoubu                                                                                     | Nippon Ichi Software                   | PlayStation Vita | 2012 | Japan
+|       | Tokyo Clanpool                                                                                       | Compile Heart                          | PlayStation Vita | 2017 | Japan
+|       | Tokyo Ghoul: Jail                                                                                    | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | Tokyo Onmyouji: Tengen Jibashi - Rei no Baai - V Edition                                             | HuneX                                  | PlayStation Vita | 2015 | Japan
+|       | Tokyo Shinseiroku: Operation Abyss                                                                   | 5pb                                    | PlayStation Vita | 2014 | Japan
+|       | Tokyo Shinseiroku: Operation Abyss & Babel - Shintai Zenryoku Support Double Pack                    | 5pb                                    | PlayStation Vita | 2016 | Japan
+|       | Tokyo Yamanote Boys for V: Fan Disc                                                                  | Rejet                                  | PlayStation Vita | 2017 | Japan
+|       | Tokyo Yamanote Boys for V: Main Disc                                                                 | Rejet                                  | PlayStation Vita | 2017 | Japan
+|       | Torikago no Marriage: Hatsukoi no Tsubasa                                                            | HuneX                                  | PlayStation Vita | 2016 | Japan
+|       | Totori no Atelier Plus: Arland no Renkinjutsushi 2                                                   | Gust                                   | PlayStation Vita | 2012 | Japan
+|       | Toukiden                                                                                             | Koei Tecmo Games                       | PlayStation Vita | 2013 | Japan
+|       | Toukiden 2                                                                                           | Koei Tecmo Games                       | PlayStation Vita | 2016 | Japan
+|       | Toukiden Kiwami                                                                                      | Koei Tecmo Games                       | PlayStation Vita | 2014 | Japan
+|       | Traveling Stars                                                                                      | Piacci                                 | PlayStation Vita | 2016 | Japan
+|       | Tsuihou Senkyo                                                                                       | Nippon Ichi Software                   | PlayStation Vita | 2017 | Japan
+|       | Tsuki ni Yori Sou Otome no Sahou: Hidamari no Hibi                                                   | HuneX                                  | PlayStation Vita | 2015 | Japan
+|       | Tsukitomo. Tsukiuta 12 Memories                                                                      | Bandai Namco Games                     | PlayStation Vita | 2017 | Japan
+|       | Tsumigui: Sen no Noroi, Sen no Inori for V                                                           | dramatic create                        | PlayStation Vita | 2017 | Japan
+|       | Tsumikui: Sen no Noroi, Sen no Inori for V                                                           | Operetta                               | PlayStation Vita | 2017 | Japan
+|       | Tsurugi no Machi no Ihoujin: Kuro no Kyuuden                                                         | Experience Inc.                        | PlayStation Vita | 2015 | Japan
+|       | Ukiyo no Roushi                                                                                      | Spike Chunsoft                         | PlayStation Vita | 2015 | Japan
+|       | Ultimate Marvel vs. Capcom 3                                                                         | Capcom                                 | PlayStation Vita | 2011 | Japan
+|       | Uncharted: Chizu no Bouken no Hajimari                                                               | SCEI                                   | PlayStation Vita | 2011 | Japan
+|       | Unit 13                                                                                              | SCEI                                   | PlayStation Vita | 2012 | Japan
+|       | Uppers                                                                                               | Marvelous Inc.                         | PlayStation Vita | 2016 | Japan
+|       | Usotsuki Shangri-La                                                                                  | Rejet                                  | PlayStation Vita | 2017 | Japan
+|       | Uta Kumi 575                                                                                         | Sega                                   | PlayStation Vita | 2014 | Japan
+|       | Uta no * Prince-Sama: Amazing Aria & Sweet Serenade                                                  | Broccoli                               | PlayStation Vita | 2017 | Japan
+|       | Uta no * Prince-Sama: Music 3                                                                        | Broccoli                               | PlayStation Vita | 2016 | Japan
+|       | Uta no * Prince-Sama: Repeat LOVE                                                                    | Broccoli                               | PlayStation Vita | 2017 | Japan
+|       | Utawarerumono: Itsuwari no Kamen                                                                     | Aqua Plus                              | PlayStation Vita | 2015 | Japan
+|       | Utsusemi no Mawari                                                                                   | Matatabi                               | PlayStation Vita | 2017 | Japan
+|       | Utsusemi no Meguri                                                                                   | Matatabi                               | PlayStation Vita | 2017 | Japan
+|       | Valhalla Knights 3                                                                                   | Marvelous AQL                          | PlayStation Vita | 2013 | Japan
+|       | Valkyrie Drive: Bhikkhuni                                                                            | Marvelous Inc.                         | PlayStation Vita | 2015 | Japan
+|       | Vamwolf Cross                                                                                        | D3Publisher                            | PlayStation Vita | 2015 | Japan
+|       | Wagamama High Spec                                                                                   | iMel                                   | PlayStation Vita | 2017 | Japan
+|       | Walking Dead: A Telltale Games Series - The Complete First Season, The                               | Square Enix                            | PlayStation Vita | 2014 | Japan
+|       | Walking Dead: Season Two - A Telltale Games Series, The                                              | Square Enix                            | PlayStation Vita | 2016 | Japan
+|       | Walpurgis no Uta                                                                                     | Prototype                              | PlayStation Vita | 2015 | Japan
+|       | Wand of Fortune R                                                                                    | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Wand of Fortune R2: Jikuu ni Shizumu Mokushiroku                                                     | Idea Factory                           | PlayStation Vita | 2017 | Japan
+|       | White Album 2: Shiawase no Mukougawa                                                                 | Aqua Plus                              | PlayStation Vita | 2013 | Japan
+|       | Winning Post 7 2013                                                                                  | Koei Tecmo Games                       | PlayStation Vita | 2013 | Japan
+|       | Winning Post 8                                                                                       | Koei Tecmo Games                       | PlayStation Vita | 2014 | Japan
+|       | Winning Post 8 2015                                                                                  | Koei Tecmo Games                       | PlayStation Vita | 2015 | Japan
+|       | Winning Post 8 2016                                                                                  | Koei Tecmo Games                       | PlayStation Vita | 2016 | Japan
+|       | Winning Post 8 2017                                                                                  | Koei Tecmo Games                       | PlayStation Vita | 2017 | Japan
+|       | WipEout 2048                                                                                         | SCEI                                   | PlayStation Vita | 2012 | Japan
+|       | World Election                                                                                       | Piacci                                 | PlayStation Vita | 2017 | Japan
+|       | World of Final Fantasy                                                                               | Square Enix                            | PlayStation Vita | 2016 | Japan
+|       | World Trigger: Borderless Mission                                                                    | Bandai Namco Games                     | PlayStation Vita | 2015 | Japan
+|       | WRC 3: FIA World Rally Championship                                                                  | CyberFront                             | PlayStation Vita | 2013 | Japan
+|       | WRC 4: FIA World Rally Championship                                                                  | Square Enix                            | PlayStation Vita | 2014 | Japan
+|       | XBLAZE Code: Embryo                                                                                  | Arc System Works                       | PlayStation Vita | 2013 | Japan
+|       | XBLAZE: Lost Memories                                                                                | Arc System Works                       | PlayStation Vita | 2015 | Japan
+|       | Yahari Game Demo Ore no Seishun Love-Kome wa Machigatteiru.                                          | 5pb                                    | PlayStation Vita | 2013 | Japan
+|       | Yahari Game Demo Ore no Seishun Love-Kome wa Machigatteiru. Zoku                                     | 5pb                                    | PlayStation Vita | 2016 | Japan
+|       | Yomawari                                                                                             | Nippon Ichi Software                   | PlayStation Vita | 2015 | Japan
+|       | Yomawari: Midnight Shadows                                                                           | Nippon Ichi Software                   | PlayStation Vita | 2017 | Japan
+|       | Yoru no Nai Kuni                                                                                     | Koei Tecmo Games                       | PlayStation Vita | 2015 | Japan
+|       | Yoru no Nai Kuni 2: Shingetsu no Hanayome                                                            | Koei Tecmo Games                       | PlayStation Vita | 2017 | Japan
+|       | Ys VIII: Lacrimosa of DANA                                                                           | Falcom                                 | PlayStation Vita | 2016 | Japan
+|       | Ys: Celceta no Jukai                                                                                 | Falcom                                 | PlayStation Vita | 2012 | Japan
+|       | YU-NO: Konoyo no Hate de Koi o Utau Shoujo                                                           | 5pb                                    | PlayStation Vita | 2017 | Japan
+|       | Yunohana SpRING!                                                                                     | Idea Factory                           | PlayStation Vita | 2015 | Japan
+|       | Yunohana SpRING! Cherishing Time                                                                     | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Yuuki Yuuna wa Yuusha de Aru: Jukai no Kioku                                                         | FuRyu                                  | PlayStation Vita | 2015 | Japan
+|       | Yuukyuu no Tierblade: Fragments of Memory                                                            | Otomate                                | PlayStation Vita | 2017 | Japan
+|       | Yuukyuu no Tierblade: Lost Chronicle                                                                 | Idea Factory                           | PlayStation Vita | 2016 | Japan
+|       | Yuusha Shisu.                                                                                        | Nippon Ichi Software                   | PlayStation Vita | 2016 | Japan
+|       | Zero Escape: Toki no Dilemma                                                                         | Spike Chunsoft                         | PlayStation Vita | 2016 | Japan
+|       | Zettai Geigeki Wars                                                                                  | Acquire                                | PlayStation Vita | 2015 | Japan
+|       | Zettai Kaikyuu Gakuen: Eden with Roses and Phantasm                                                  | Prototype                              | PlayStation Vita | 2016 | Japan
+|       | Zettai Meikyuu: Himitsu no Oya Yubi Hime                                                             | Karin Entertainment                    | PlayStation Vita | 2015 | Japan
+|       | Zettai Zetsubou Shoujo: Dangan-Ronpa - Another Episode                                               | Spike Chunsoft                         | PlayStation Vita | 2014 | Japan

@@ -1,0 +1,161 @@
+|       | 007 Legends                                                              | Activision                             | Nintendo Wii U | 2012 | Europe
+|       | Adventure Time: Explore the Dungeon Because I DON'T KNOW!                | Namco Bandai Games                     | Nintendo Wii U | 2013 | Europe
+|       | Adventure Time: Finn and Jake Investigations                             | Little Orbit                           | Nintendo Wii U | 2015 | Europe
+|       | Amazing Spider-Man 2, The                                                | Activision                             | Nintendo Wii U | 2014 | Europe
+|       | Amazing Spider-Man: Ultimate Edition, The                                | Activision                             | Nintendo Wii U | 2013 | Europe
+|       | Angry Birds Star Wars                                                    | Activision                             | Nintendo Wii U | 2013 | Europe
+|       | Angry Birds Trilogy                                                      | Activision                             | Nintendo Wii U | 2013 | Europe
+|       | Animal Crossing: amiibo Festival                                         | Nintendo                               | Nintendo Wii U | 2015 | Europe
+|       | Art Academy: Atelier                                                     | Nintendo                               | Nintendo Wii U | 2015 | Europe
+|       | Assassin's Creed III                                                     | Ubisoft                                | Nintendo Wii U | 2012 | Europe
+|       | Assassin's Creed IV: Black Flag                                          | Ubisoft                                | Nintendo Wii U | 2013 | Europe
+|       | Baila Latino                                                             | Oxygene                                | Nintendo Wii U | 2015 | Europe
+|       | Barbie and Her Sisters: Puppy Rescue                                     | Little Orbit                           | Nintendo Wii U | 2015 | Europe
+|       | Barbie Dreamhouse Party                                                  | Little Orbit                           | Nintendo Wii U | 2014 | Europe
+|       | Batman: Arkham City - Armoured Edition                                   | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2012 | Europe
+|       | Batman: Arkham Origins                                                   | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2013 | Europe
+|       | Bayonetta 2                                                              | Nintendo                               | Nintendo Wii U | 2014 | Europe
+|       | Ben 10 Omniverse 2                                                       | D3Publisher                            | Nintendo Wii U | 2013 | Europe
+|       | Ben 10: Omniverse                                                        | D3Publisher                            | Nintendo Wii U | 2012 | Europe
+|       | Book of Unwritten Tales 2, The                                           | The Adventure Company                  | Nintendo Wii U | 2016 | Europe
+|       | Cabela's Dangerous Hunts 2013                                            | Activision                             | Nintendo Wii U | 2012 | Europe
+|       | Call of Duty: Black Ops II                                               | Activision                             | Nintendo Wii U | 2012 | Europe
+|       | Call of Duty: Ghosts                                                     | Activision                             | Nintendo Wii U | 2013 | Europe
+|       | Captain Toad: Treasure Tracker                                           | Nintendo                               | Nintendo Wii U | 2014 | Europe
+|       | Cars 3: Driven to Win                                                    | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2017 | Europe
+|       | Croods: Prehistoric Party!, The                                          | D3Publisher                            | Nintendo Wii U | 2013 | Europe
+|       | Darksiders II                                                            | THQ                                    | Nintendo Wii U | 2012 | Europe
+|       | Darksiders: Warmastered Edition                                          | Nordic Games Publishing                | Nintendo Wii U | 2018 | Europe
+|       | Deus Ex: Human Revolution - Director's Cut                               | Square Enix                            | Nintendo Wii U | 2013 | Europe
+|       | Devil's Third                                                            | Nintendo                               | Nintendo Wii U | 2015 | Europe
+|       | Disney Epic Mickey 2: The Power of Two                                   | Disney Interactive Studios             | Nintendo Wii U | 2012 | Europe
+|       | Disney Infinity                                                          | Disney Interactive Studios             | Nintendo Wii U | 2013 | Europe
+|       | Disney Infinity 2.0 Edition                                              | Disney Interactive Studios             | Nintendo Wii U | 2014 | Europe
+|       | Disney Infinity 3.0 Edition                                              | Disney Interactive Studios             | Nintendo Wii U | 2015 | Europe
+|       | Disney Planes                                                            | Disney Interactive Studios             | Nintendo Wii U | 2013 | Europe
+|       | Disney Planes: Fire & Rescue                                             | Little Orbit                           | Nintendo Wii U | 2014 | Europe
+|       | Donkey Kong Country: Tropical Freeze                                     | Nintendo                               | Nintendo Wii U | 2014 | Europe
+|       | Family Party: 30 Great Games Obstacle Arcade                             | D3Publisher                            | Nintendo Wii U | 2012 | Europe
+|       | Fast & Furious: Showdown                                                 | Activision                             | Nintendo Wii U | 2013 | Europe
+|       | FAST Racing Neo                                                          | Shin'en                                | Nintendo Wii U | 2016 | Europe
+|       | FIFA 13                                                                  | EA Sports                              | Nintendo Wii U | 2012 | Europe
+|       | Fit Music for Wii U                                                      | Oxygene                                | Nintendo Wii U | 2015 | Europe
+|       | Funky Barn                                                               | 505 Games                              | Nintendo Wii U | 2012 | Europe
+|       | Game & Wario                                                             | Nintendo                               | Nintendo Wii U | 2013 | Europe
+|       | Game Party Champions                                                     | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2012 | Europe
+|       | Guitar Hero Live                                                         | Activision                             | Nintendo Wii U | 2015 | Europe
+|       | Hello Kitty Kruisers                                                     | Bergsala-Lightweight                   | Nintendo Wii U | 2015 | Europe
+|       | Hot Wheels: World's Best Driver                                          | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2013 | Europe
+|       | How to Train Your Dragon 2                                               | Little Orbit                           | Nintendo Wii U | 2014 | Europe
+|       | Hyrule Warriors                                                          | Nintendo                               | Nintendo Wii U | 2014 | Europe
+|       | Injustice: Gods Among Us                                                 | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2013 | Europe
+|       | Jett Tailfin                                                             | Funbox Media                           | Nintendo Wii U | 2014 | Europe
+|       | Joe's Diner                                                              | UIG Entertainment                      | Nintendo Wii U | 2017 | Europe
+|       | Just Dance 2014                                                          | Ubisoft                                | Nintendo Wii U | 2013 | Europe
+|       | Just Dance 2015                                                          | Ubisoft                                | Nintendo Wii U | 2014 | Europe
+|       | Just Dance 2016                                                          | Ubisoft                                | Nintendo Wii U | 2015 | Europe
+|       | Just Dance 2017                                                          | Ubisoft                                | Nintendo Wii U | 2016 | Europe
+|       | Just Dance 2018                                                          | Ubisoft                                | Nintendo Wii U | 2017 | Europe
+|       | Just Dance 4                                                             | Ubisoft                                | Nintendo Wii U | 2012 | Europe
+|       | Just Dance Kids 2014                                                     | Ubisoft                                | Nintendo Wii U | 2013 | Europe
+|       | Just Dance: Disney Party 2                                               | Ubisoft                                | Nintendo Wii U | 2015 | Europe
+|       | Kirby and the Rainbow Paintbrush                                         | Nintendo                               | Nintendo Wii U | 2015 | Europe
+|       | Kung Fu Panda: Showdown of Legendary Legends                             | Little Orbit                           | Nintendo Wii U | 2015 | Europe
+|       | Legend of Kay Anniversary                                                | Nordic Games Publishing                | Nintendo Wii U | 2015 | Europe
+|       | Legend of Zelda: Breath of the Wild, The                                 | Nintendo                               | Nintendo Wii U | 2017 | Europe
+|       | Legend of Zelda: The Wind Waker HD, The                                  | Nintendo                               | Nintendo Wii U | 2013 | Europe
+|       | Legend of Zelda: Twilight Princess HD, The                               | Nintendo                               | Nintendo Wii U | 2016 | Europe
+|       | LEGO Batman 2: DC Super Heroes                                           | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2013 | Europe
+|       | LEGO Batman 3: Beyond Gotham                                             | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2014 | Europe
+|       | LEGO City Undercover                                                     | Nintendo                               | Nintendo Wii U | 2013 | Europe
+|       | LEGO Dimensions                                                          | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2015 | Europe
+|       | LEGO Jurassic World                                                      | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2015 | Europe
+|       | LEGO Marvel Super Heroes                                                 | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2013 | Europe
+|       | LEGO Marvel's Avengers                                                   | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2016 | Europe
+|       | LEGO Movie Videogame, The                                                | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2014 | Europe
+|       | LEGO Star Wars: The Force Awakens                                        | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2016 | Europe
+|       | LEGO The Hobbit                                                          | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2014 | Europe
+|       | Luv me Buddies Wonderland                                                | Oxygene                                | Nintendo Wii U | 2014 | Europe
+|       | Mario & Sonic at the Rio 2016 Olympic Games                              | Nintendo                               | Nintendo Wii U | 2016 | Europe
+|       | Mario & Sonic at the Sochi 2014 Olympic Winter Games                     | Nintendo                               | Nintendo Wii U | 2013 | Europe
+|       | Mario Kart 8                                                             | Nintendo                               | Nintendo Wii U | 2014 | Europe
+|       | Mario Party 10                                                           | Nintendo                               | Nintendo Wii U | 2015 | Europe
+|       | Mario Tennis: Ultra Smash                                                | Nintendo                               | Nintendo Wii U | 2015 | Europe
+|       | Mario vs. Donkey Kong: Tipping Stars                                     | Nintendo                               | Nintendo Wii U | 2015 | Europe
+|       | Marvel Avengers: Battle for Earth                                        | Ubisoft                                | Nintendo Wii U | 2013 | Europe
+|       | Mass Effect 3: Special Edition                                           | Electronic Arts                        | Nintendo Wii U | 2012 | Europe
+|       | Mighty No. 9                                                             | Deep Silver                            | Nintendo Wii U | 2016 | Europe
+|       | Minecraft: Story Mode - A Telltale Games Series - The Complete Adventure | Telltale Games                         | Nintendo Wii U | 2016 | Europe
+|       | Minecraft: Wii U Edition                                                 | Mojang AB                              | Nintendo Wii U | 2016 | Europe
+|       | Monster High: 13 Wishes                                                  | Little Orbit                           | Nintendo Wii U | 2013 | Europe
+|       | Monster High: New Ghoul in School                                        | Little Orbit                           | Nintendo Wii U | 2015 | Europe
+|       | Monster Hunter 3 Ultimate                                                | Capcom                                 | Nintendo Wii U | 2013 | Europe
+|       | NBA 2K13                                                                 | 2K Sports                              | Nintendo Wii U | 2012 | Europe
+|       | Need for Speed: Most Wanted U - A Criterion Game                         | Electronic Arts                        | Nintendo Wii U | 2013 | Europe
+|       | New Super Luigi U                                                        | Nintendo                               | Nintendo Wii U | 2013 | Europe
+|       | New Super Mario Bros. U                                                  | Nintendo                               | Nintendo Wii U | 2012 | Europe
+|       | New Super Mario Bros. U + New Super Luigi U                              | Nintendo                               | Nintendo Wii U | 2013 | Europe
+|       | Ninja Gaiden 3: Razor's Edge                                             | Nintendo                               | Nintendo Wii U | 2013 | Europe
+|       | Nintendo Land                                                            | Nintendo                               | Nintendo Wii U | 2012 | Europe
+|       | One Piece: Unlimited World Red                                           | Bandai Namco Games                     | Nintendo Wii U | 2014 | Europe
+|       | Pac-Man and the Ghostly Adventures                                       | Namco Bandai Games                     | Nintendo Wii U | 2014 | Europe
+|       | Pac-Man and the Ghostly Adventures 2                                     | Bandai Namco Games                     | Nintendo Wii U | 2014 | Europe
+|       | Paper Mario: Color Splash                                                | Nintendo                               | Nintendo Wii U | 2016 | Europe
+|       | Peanuts Movie: Snoopy's Grand Adventure, The                             | Activision                             | Nintendo Wii U | 2015 | Europe
+|       | Penguins of Madagascar                                                   | Little Orbit                           | Nintendo Wii U | 2014 | Europe
+|       | Phineas and Ferb: Quest for Cool Stuff                                   | 505 Games                              | Nintendo Wii U | 2014 | Europe
+|       | Pikmin 3                                                                 | Nintendo                               | Nintendo Wii U | 2013 | Europe
+|       | Pineview Drive                                                           | UIG Entertainment                      | Nintendo Wii U | 2017 | Europe
+|       | Pokemon Tekken                                                           | Nintendo                               | Nintendo Wii U | 2016 | Europe
+|       | Project Zero: Maiden of Black Water                                      | Nintendo                               | Nintendo Wii U | 2015 | Europe
+|       | Rabbids Land                                                             | Ubisoft                                | Nintendo Wii U | 2012 | Europe
+|       | Rayman Legends                                                           | Ubisoft                                | Nintendo Wii U | 2013 | Europe
+|       | Resident Evil: Revelations                                               | Capcom                                 | Nintendo Wii U | 2013 | Europe
+|       | Rise of the Guardians                                                    | D3Publisher                            | Nintendo Wii U | 2012 | Europe
+|       | Rodea the Sky Soldier                                                    | NIS America                            | Nintendo Wii U | 2015 | Europe
+|       | Runbow                                                                   | Nighthawk Interactive                  | Nintendo Wii U | 2016 | Europe
+|       | Scribblenauts Unlimited                                                  | Warner Bros. Interactive Entertainment | Nintendo Wii U | 2013 | Europe
+|       | Shovel Knight                                                            | Yacht Club Games                       | Nintendo Wii U | 2015 | Europe
+|       | SiNG Party                                                               | Nintendo                               | Nintendo Wii U | 2013 | Europe
+|       | Skylanders Giants                                                        | Activision                             | Nintendo Wii U | 2012 | Europe
+|       | Skylanders Imaginators                                                   | Activision                             | Nintendo Wii U | 2016 | Europe
+|       | Skylanders SuperChargers                                                 | Activision                             | Nintendo Wii U | 2015 | Europe
+|       | Skylanders Swap Force                                                    | Activision                             | Nintendo Wii U | 2013 | Europe
+|       | Skylanders Trap Team                                                     | Activision                             | Nintendo Wii U | 2014 | Europe
+|       | Smurfs 2, The                                                            | Ubisoft                                | Nintendo Wii U | 2013 | Europe
+|       | Sniper Elite V2                                                          | 505 Games                              | Nintendo Wii U | 2013 | Europe
+|       | Sonic & All-Stars Racing Transformed                                     | Sega                                   | Nintendo Wii U | 2012 | Europe
+|       | Sonic Boom: Rise of Lyric                                                | Sega                                   | Nintendo Wii U | 2014 | Europe
+|       | Sonic: Lost World                                                        | Sega                                   | Nintendo Wii U | 2013 | Europe
+|       | Splatoon                                                                 | Nintendo                               | Nintendo Wii U | 2015 | Europe
+|       | SpongeBob SquarePants: Plankton's Robotic Revenge                        | Activision                             | Nintendo Wii U | 2013 | Europe
+|       | Sports Connection                                                        | Ubisoft                                | Nintendo Wii U | 2012 | Europe
+|       | Star Fox Guard                                                           | Nintendo                               | Nintendo Wii U | 2016 | Europe
+|       | Star Fox Zero                                                            | Nintendo                               | Nintendo Wii U | 2016 | Europe
+|       | SteamWorld Collection                                                    | Image & Form                           | Nintendo Wii U | 2016 | Europe
+|       | Super Mario 3D World                                                     | Nintendo                               | Nintendo Wii U | 2013 | Europe
+|       | Super Mario Maker                                                        | Nintendo                               | Nintendo Wii U | 2015 | Europe
+|       | Super Smash Bros. for Wii U                                              | Nintendo                               | Nintendo Wii U | 2014 | Europe
+|       | Tank! Tank! Tank!                                                        | Namco Bandai Games                     | Nintendo Wii U | 2012 | Europe
+|       | Tekken Tag Tournament 2: Wii U Edition                                   | Namco Bandai Games                     | Nintendo Wii U | 2012 | Europe
+|       | Terraria                                                                 | 505 Games                              | Nintendo Wii U | 2016 | Europe
+|       | Teslagrad                                                                | Soedesco                               | Nintendo Wii U | 2015 | Europe
+|       | Tokyo Mirage Sessions #FE                                                | Nintendo                               | Nintendo Wii U | 2016 | Europe
+|       | Tom Clancy's Splinter Cell: Blacklist                                    | Ubisoft                                | Nintendo Wii U | 2013 | Europe
+|       | Transformers Prime: The Game                                             | Activision                             | Nintendo Wii U | 2012 | Europe
+|       | Transformers: Rise of the Dark Spark                                     | Activision                             | Nintendo Wii U | 2014 | Europe
+|       | Tumblestone                                                              | Nighthawk Interactive                  | Nintendo Wii U | 2016 | Europe
+|       | Turbo: Super Stunt Squad                                                 | D3Publisher                            | Nintendo Wii U | 2013 | Europe
+|       | Voice, The                                                               | BigBen Interactive                     | Nintendo Wii U | 2016 | Europe
+|       | Walking Dead: Survival Instinct, The                                     | Activision                             | Nintendo Wii U | 2013 | Europe
+|       | Warriors Orochi 3 Hyper                                                  | Nintendo                               | Nintendo Wii U | 2012 | Europe
+|       | Watch Dogs                                                               | Ubisoft                                | Nintendo Wii U | 2014 | Europe
+|       | Wii Fit U                                                                | Nintendo                               | Nintendo Wii U | 2013 | Europe
+|       | Wii Party U                                                              | Nintendo                               | Nintendo Wii U | 2013 | Europe
+|       | Wii Sports Club                                                          | Nintendo                               | Nintendo Wii U | 2014 | Europe
+|       | Wonderful 101, The                                                       | Nintendo                               | Nintendo Wii U | 2013 | Europe
+|       | Xenoblade Chronicles X                                                   | Nintendo                               | Nintendo Wii U | 2015 | Europe
+|       | Yoshi's Woolly World                                                     | Nintendo                               | Nintendo Wii U | 2015 | Europe
+|       | Your Shape: Fitness Evolved 2013                                         | Ubisoft                                | Nintendo Wii U | 2012 | Europe
+|       | ZombiU                                                                   | Ubisoft                                | Nintendo Wii U | 2012 | Europe
+|       | Zumba Fitness World Party                                                | Majesco                                | Nintendo Wii U | 2013 | Europe

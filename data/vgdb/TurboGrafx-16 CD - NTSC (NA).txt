@@ -1,0 +1,45 @@
+|       | 4 in 1 Super CD                               | Hudson                   | TurboGrafx-16 CD | 1992 | North America
+|       | Addams Family, The                            | Turbo Technologies, Inc. | TurboGrafx-16 CD | 1991 | North America
+|       | Beyond Shadowgate                             | Turbo Technologies, Inc. | TurboGrafx-16 CD | 1993 | North America
+|       | Bonk 3: Bonk's Big Adventure CD               | Turbo Technologies, Inc. | TurboGrafx-16 CD | 1994 | North America
+|       | Buster Bros.                                  | Hudson                   | TurboGrafx-16 CD | 1993 | North America
+|       | Camp California                               | Turbo Technologies, Inc. | TurboGrafx-16 CD | 1993 | North America
+|       | Cosmic Fantasy 2                              | Working Designs          | TurboGrafx-16 CD | 1992 | North America
+|       | Cotton: Fantastic Night Dreams                | Hudson                   | TurboGrafx-16 CD | 1993 | North America
+|       | Dragon Slayer: The Legend of Heroes           | Hudson                   | TurboGrafx-16 CD | 1992 | North America
+|       | Dungeon Explorer II                           | Hudson                   | TurboGrafx-16 CD | 1993 | North America
+|       | Dungeon Master: Theron's Quest                | Turbo Technologies, Inc. | TurboGrafx-16 CD | 1993 | North America
+|       | Dynastic Hero, The                            | Turbo Technologies, Inc. | TurboGrafx-16 CD | 1993 | North America
+|       | Exile                                         | Working Designs          | TurboGrafx-16 CD | 1992 | North America
+|       | Exile: Wicked Phenomenon                      | Working Designs          | TurboGrafx-16 CD | 1993 | North America
+|       | Fighting Street                               | NEC                      | TurboGrafx-16 CD | 1989 | North America
+|       | Final Zone II                                 | Nippon Telenet           | TurboGrafx-16 CD | 1990 | North America
+|       | Forgotten Worlds                              | NEC                      | TurboGrafx-16 CD | 1992 | North America
+|       | Godzilla                                      | Turbo Technologies, Inc. | TurboGrafx-16 CD | 1993 | North America
+|       | It Came From The Desert                       | NEC                      | TurboGrafx-16 CD | 1991 | North America
+|       | J.B. Harold Murder Club                       | NEC                      | TurboGrafx-16 CD | 1991 | North America
+|       | Jack Nicklaus Turbo Golf                      | Accolade                 | TurboGrafx-16 CD | 1992 | North America
+|       | John Madden Duo CD Football                   | Hudson                   | TurboGrafx-16 CD | 1993 | North America
+|       | Last Alert                                    | NEC Interchannel         | TurboGrafx-16 CD | 1990 | North America
+|       | Loom                                          | NEC                      | TurboGrafx-16 CD | 1992 | North America
+|       | Lords of the Rising Sun                       | NEC                      | TurboGrafx-16 CD | 1992 | North America
+|       | Lords of Thunder                              | Hudson                   | TurboGrafx-16 CD | 1993 | North America
+|       | Magical Dinosaur Tour                         | NEC                      | TurboGrafx-16 CD | 1990 | North America
+|       | Might and Magic III: Isles of Terra           | Hudson                   | TurboGrafx-16 CD | 1993 | North America
+|       | Monster Lair                                  | NEC                      | TurboGrafx-16 CD | 1989 | North America
+|       | Mysterious Song                               | Frozen Utopia            | TurboGrafx-16 CD | 2011 | North America
+|       | Prince of Persia                              | Turbo Technologies, Inc. | TurboGrafx-16 CD | 1992 | North America
+|       | Pyramid Plunder                               | Aetherbyte               | TurboGrafx-16 CD | 2013 | North America
+|       | Riot Zone                                     | Turbo Technologies, Inc. | TurboGrafx-16 CD | 1992 | North America
+|       | Shadow of the Beast                           | Turbo Technologies, Inc. | TurboGrafx-16 CD | 1992 | North America
+|       | Shape Shifter                                 | Turbo Technologies, Inc. | TurboGrafx-16 CD | 1993 | North America
+|       | Sherlock Holmes Consulting Detective          | NEC Interchannel         | TurboGrafx-16 CD | 1991 | North America
+|       | Sherlock Holmes Consulting Detective Volume 2 | Turbo Technologies, Inc. | TurboGrafx-16 CD | 1993 | North America
+|       | SimEarth: The Living Planet                   | Hudson                   | TurboGrafx-16 CD | 1993 | North America
+|       | Splash Lake                                   | NEC Avenue               | TurboGrafx-16 CD | 1992 | North America
+|       | Super Air Zonk                                | Hudson Soft              | TurboGrafx-16 CD | 1993 | North America
+|       | Syd Mead's Terraforming                       | Turbo Technologies, Inc. | TurboGrafx-16 CD | 1993 | North America
+|       | Valis II                                      | NEC                      | TurboGrafx-16 CD | 1990 | North America
+|       | Valis III                                     | Turbo Technologies, Inc. | TurboGrafx-16 CD | 1992 | North America
+|       | Ys Book I & II                                | Hudson                   | TurboGrafx-16 CD | 1990 | North America
+|       | Ys III: Wanderers From Ys                     | NEC                      | TurboGrafx-16 CD | 1991 | North America

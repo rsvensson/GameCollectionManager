@@ -1,0 +1,478 @@
+|       | 007: The World is Not Enough                                             | Electronic Arts                     | Game Boy Color | 2001 | Europe
+|       | 10 Pin Bowling                                                           | Majesco                             | Game Boy Color | 1999 | Europe
+|       | 1942                                                                     | Capcom                              | Game Boy Color | 2001 | Europe
+|       | 3D Pocket Pool                                                           | Virgin Interactive                  | Game Boy Color | 2001 | Europe
+|       | 4x4 World Trophy                                                         | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | 720 Degrees                                                              | Midway                              | Game Boy Color | 1999 | Europe
+|       | Action Man: Search for Base X                                            | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Adventures of the Smurfs, The                                            | Infogrames                          | Game Boy Color | 2001 | Europe
+|       | Airaki                                                                   | Furrtek Software Engineering        | Game Boy Color | 2014 | Europe
+|       | Airaki                                                                   | Furrtek Software Engineering        | Game Boy Color | 2014 | Europe
+|       | Alfred's Adventure                                                       | SCi                                 | Game Boy Color | 2000 | Europe
+|       | Alice in Wonderland                                                      | Nintendo                            | Game Boy Color | 2001 | Europe
+|       | Aliens: Thanatos Encounter                                               | THQ                                 | Game Boy Color | 2001 | Europe
+|       | All Star Tennis 2000                                                     | Ubisoft                             | Game Boy Color | 1999 | Europe
+|       | All-Star Baseball 2000                                                   | Acclaim                             | Game Boy Color | 1999 | Europe
+|       | Alone in the Dark: The New Nightmare                                     | Infogrames                          | Game Boy Color | 2001 | Europe
+|       | Animorphs                                                                | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Anpfiff: Der RTL Fussball-Manager                                        | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Antz                                                                     | Infogrames                          | Game Boy Color | 1999 | Europe
+|       | Antz Racing                                                              | Acclaim                             | Game Boy Color | 2001 | Europe
+|       | Antz World Sportz                                                        | LSP                                 | Game Boy Color | 2001 | Europe
+|       | Armorines: Project S.W.A.R.M.                                            | Acclaim                             | Game Boy Color | 1999 | Europe
+|       | Army Men                                                                 | 3DO                                 | Game Boy Color | 2000 | Europe
+|       | Army Men 2                                                               | 3DO                                 | Game Boy Color | 2000 | Europe
+|       | Army Men: Air Combat                                                     | 3DO                                 | Game Boy Color | 2000 | Europe
+|       | Army Men: Sarge's Heroes 2                                               | 3DO                                 | Game Boy Color | 2000 | Europe
+|       | Asterix & Obelix                                                         | Infogrames                          | Game Boy Color | 1999 | Europe
+|       | Asterix & Obelix Contre Cesar                                            | Cryo Interactive                    | Game Boy Color | 2000 | Europe
+|       | Asterix sur la Trace D'Idefix                                            | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | Asteroids                                                                | Activision                          | Game Boy Color | 1999 | Europe
+|       | ATV Racing                                                               | Datel                               | Game Boy Color | 2001 | Europe
+|       | Austin Powers: Oh, Behave!                                               | Take-Two Interactive                | Game Boy Color | 2000 | Europe
+|       | Austin Powers: Welcome to my Underground Lair!                           | Take-Two Interactive                | Game Boy Color | 2000 | Europe
+|       | Azure Dreams                                                             | Konami                              | Game Boy Color | 2000 | Europe
+|       | Babe and Friends                                                         | Crave                               | Game Boy Color | 1999 | Europe
+|       | Baby Felix Halloween                                                     | LSP                                 | Game Boy Color | 2001 | Europe
+|       | Backgammon                                                               | JVC Digital Studios                 | Game Boy Color | 2000 | Europe
+|       | Barbie: Fashion Pack Games                                               | Mattel                              | Game Boy Color | 2000 | Europe
+|       | Barbie: Ocean Discovery                                                  | Mattel                              | Game Boy Color | 1999 | Europe
+|       | Barbie: Pet Patrol                                                       | Mattel                              | Game Boy Color | 2001 | Europe
+|       | Bass Masters Classic                                                     | THQ                                 | Game Boy Color | 1999 | Europe
+|       | Batman of the Future: Return of the Joker                                | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Batman: Chaos in Gotham                                                  | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | BattleShip                                                               | Majesco                             | Game Boy Color | 1999 | Europe
+|       | BattleTanx                                                               | 3DO                                 | Game Boy Color | 2000 | Europe
+|       | Beach 'n Ball                                                            | Infogrames                          | Game Boy Color | 2001 | Europe
+|       | Benjamin Blumchen: Ein verruckter Tag Im Zoo                             | Kiddinx                             | Game Boy Color | 2001 | Europe
+|       | Bibi Blocksberg: Im Bann der Hexenkugel                                  | Kiddinx                             | Game Boy Color | 2001 | Europe
+|       | Bibi und Tina: Fohlen Felix in Gefahr                                    | Kiddinx                             | Game Boy Color | 2002 | Europe
+|       | Billy Bob's Huntin' n Fishin'                                            | Midway                              | Game Boy Color | 1999 | Europe
+|       | Black Bass: Lure Fishing                                                 | Majesco                             | Game Boy Color | 1999 | Europe
+|       | Blade                                                                    | Activision                          | Game Boy Color | 2000 | Europe
+|       | Blaster Master: Enemy Below                                              | SunSoft                             | Game Boy Color | 2000 | Europe
+|       | Bob et Bobette: Les Dompteurs du Temps                                   | Infogrames                          | Game Boy Color | 2001 | Europe
+|       | Bob the Builder: Fix it Fun!                                             | BBC Multimedia                      | Game Boy Color | 2000 | Europe
+|       | Bomberman Quest                                                          | Hudson                              | Game Boy Color | 1999 | Europe
+|       | Bounced                                                                  | Midas Interactive Entertainment     | Game Boy Color | 2000 | Europe
+|       | Buffy the Vampire Slayer                                                 | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Bugs Bunny & Lola Bunny: Operation Carrot Patch                          | Infogrames                          | Game Boy Color | 1998 | Europe
+|       | Bugs Bunny in Crazy Castle 4                                             | Kemco                               | Game Boy Color | 2000 | Europe
+|       | Bugs Bunny: Crazy Castle 3                                               | Nintendo                            | Game Boy Color | 1999 | Europe
+|       | Bundesliga Stars 2001                                                    | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Bust-A-Move 4                                                            | Acclaim                             | Game Boy Color | 1999 | Europe
+|       | Bust-A-Move Millennium                                                   | Acclaim                             | Game Boy Color | 2000 | Europe
+|       | Caesars Palace II                                                        | Interplay                           | Game Boy Color | 1999 | Europe
+|       | Cannon Fodder                                                            | Activision                          | Game Boy Color | 2000 | Europe
+|       | Carl Lewis Athletics 2000                                                | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Carmageddon                                                              | SCi                                 | Game Boy Color | 2000 | Europe
+|       | Casper                                                                   | Interplay                           | Game Boy Color | 2000 | Europe
+|       | Catwoman                                                                 | Kemco                               | Game Boy Color | 2000 | Europe
+|       | Catz                                                                     | Mindscape                           | Game Boy Color | 1999 | Europe
+|       | Centipede                                                                | Majesco                             | Game Boy Color | 1998 | Europe
+|       | Championship Motocross 2001 Featuring Ricky Carmichael                   | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Chase H.Q.: Secret Police                                                | Gaga                                | Game Boy Color | 1999 | Europe
+|       | Chessmaster                                                              | Mindscape                           | Game Boy Color | 1999 | Europe
+|       | Chicken Run                                                              | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Classic Bubble Bobble                                                    | Taito Corporation                   | Game Boy Color | 1999 | Europe
+|       | Colin McRae Rally                                                        | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Commander Keen                                                           | Activision                          | Game Boy Color | 2001 | Europe
+|       | Conker's Pocket Tales                                                    | Rare Ltd.                           | Game Boy Color | 1999 | Europe
+|       | Cool Bricks                                                              | SCi                                 | Game Boy Color | 1999 | Europe
+|       | Cool Hand                                                                | Take-Two Interactive                | Game Boy Color | 1998 | Europe
+|       | Crazy Bikers                                                             | Konami                              | Game Boy Color | 1999 | Europe
+|       | Croc                                                                     | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Croc 2                                                                   | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Cross Country Racing                                                     | Konami                              | Game Boy Color | 2000 | Europe
+|       | CyberTiger                                                               | Electronic Arts                     | Game Boy Color | 2000 | Europe
+|       | Daffy Duck: Fowl Play                                                    | SunSoft                             | Game Boy Color | 1999 | Europe
+|       | Das Geheimnis der Happy Hippo-Insel                                      | JoWooD Entertainment AG             | Game Boy Color | 2001 | Europe
+|       | Dave Mirra Freestyle BMX                                                 | Acclaim                             | Game Boy Color | 2000 | Europe
+|       | David Beckham Soccer                                                     | Rage Software                       | Game Boy Color | 2002 | Europe
+|       | David O'Leary's Total Soccer 2000                                        | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Deadly Skies                                                             | Konami                              | Game Boy Color | 2000 | Europe
+|       | Deja Vu I & II                                                           | Kemco                               | Game Boy Color | 1999 | Europe
+|       | Denki Blocks!                                                            | Rage Software                       | Game Boy Color | 2001 | Europe
+|       | Dexter's Laboratory: Robot Rampage                                       | Bam Entertainment                   | Game Boy Color | 2000 | Europe
+|       | Die Maus                                                                 | Infogrames                          | Game Boy Color | 1999 | Europe
+|       | Die Maus: Verrueckte Olympiade                                           | Infogrames                          | Game Boy Color | 2001 | Europe
+|       | Die Original Moorhuhn Jagd                                               | Ravensburger Interactive Media GmbH | Game Boy Color | 2000 | Europe
+|       | Die Schlumpfe: Im Alptraumland                                           | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | Dinosaur'us                                                              | Electronic Arts                     | Game Boy Color | 2001 | Europe
+|       | Disney's 102 Dalmatians: Puppies to the Rescue                           | Activision                          | Game Boy Color | 2000 | Europe
+|       | Disney's Aladdin                                                         | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Disney's Atlantis: The Lost Empire                                       | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Disney's Beauty and the Beast: A Board Game Adventure                    | Nintendo                            | Game Boy Color | 1999 | Europe
+|       | Disney's Dinosaur                                                        | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Disney's Donald Duck: Quack Attack                                       | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Disney's Doug: Doug's Big Game                                           | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Disney's Tarzan                                                          | Activision                          | Game Boy Color | 1999 | Europe
+|       | Disney's The Emperor's New Groove                                        | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Disney's The Lion King: Simba's Mighty Adventure                         | Activision                          | Game Boy Color | 2001 | Europe
+|       | Disney's The Little Mermaid II: Pinball Frenzy                           | Nintendo                            | Game Boy Color | 2001 | Europe
+|       | Disney/Pixar A Bug's Life                                                | Activision                          | Game Boy Color | 1999 | Europe
+|       | Disney/Pixar Buzz Lightyear of Star Command                              | Activision                          | Game Boy Color | 2001 | Europe
+|       | Disney/Pixar Monsters, Inc.                                              | THQ                                 | Game Boy Color | 2002 | Europe
+|       | Disney/Pixar Toy Story 2                                                 | Activision                          | Game Boy Color | 2000 | Europe
+|       | Disney/Pixar Toy Story Racer                                             | Activision                          | Game Boy Color | 2001 | Europe
+|       | Diva Starz: Mall Mania                                                   | VU Games                            | Game Boy Color | 2001 | Europe
+|       | Dogz                                                                     | Mindscape                           | Game Boy Color | 2000 | Europe
+|       | Donkey Kong Country                                                      | Nintendo                            | Game Boy Color | 2000 | Europe
+|       | Dracula: Crazy Vampire                                                   | Cryo Interactive                    | Game Boy Color | 2001 | Europe
+|       | Dragon Ball Z: Legendary Super Warriors                                  | Infogrames                          | Game Boy Color | 2002 | Europe
+|       | Dragon Dance                                                             | Crave                               | Game Boy Color | 2000 | Europe
+|       | Dragon Riders                                                            | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Dragon Tales: Dragon Wings                                               | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Dragon Warrior Monsters                                                  | Eidos Interactive                   | Game Boy Color | 1999 | Europe
+|       | Dragon's Lair                                                            | Capcom                              | Game Boy Color | 2001 | Europe
+|       | Driver                                                                   | Infogrames                          | Game Boy Color | 2001 | Europe
+|       | Dropzone                                                                 | Acclaim                             | Game Boy Color | 1999 | Europe
+|       | Duke Nukem                                                               | GT Interactive                      | Game Boy Color | 1999 | Europe
+|       | Dukes of Hazzard, The                                                    | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | E.T. The Extra-Terrestrial and the Cosmic Garden                         | Ubisoft                             | Game Boy Color | 2002 | Europe
+|       | E.T. The Extra-Terrestrial: Digital Companion                            | NewKidCo                            | Game Boy Color | 2002 | Europe
+|       | E.T. The Extra-Terrestrial: The 20th Anniversary                         | Ubisoft                             | Game Boy Color | 2002 | Europe
+|       | Earthworm Jim: Menace 2 the Galaxy                                       | Crave                               | Game Boy Color | 1999 | Europe
+|       | ECW Hardcore Revolution                                                  | Acclaim                             | Game Boy Color | 2000 | Europe
+|       | European Super League                                                    | Virgin Interactive                  | Game Boy Color | 2001 | Europe
+|       | Evel Knievel                                                             | Take-Two Interactive                | Game Boy Color | 1999 | Europe
+|       | Extreme Ghostbusters                                                     | LSP                                 | Game Boy Color | 2001 | Europe
+|       | Extreme Sports with the Berenstain Bears                                 | Sound Source                        | Game Boy Color | 2000 | Europe
+|       | F-1 World Grand Prix                                                     | Video System                        | Game Boy Color | 2000 | Europe
+|       | F-18 Thunder Strike                                                      | Take-Two Interactive                | Game Boy Color | 2000 | Europe
+|       | F1 Championship Season 2000                                              | Electronic Arts                     | Game Boy Color | 2000 | Europe
+|       | F1 Racing Championship                                                   | Video System                        | Game Boy Color | 2000 | Europe
+|       | F1 World Grand Prix II for Game Boy Color                                | Konami                              | Game Boy Color | 2000 | Europe
+|       | FIFA 2000                                                                | Electronic Arts                     | Game Boy Color | 1999 | Europe
+|       | Fish Files, The                                                          | 7th Sense                           | Game Boy Color | 2001 | Europe
+|       | Flintstones: BurgerTime in Bedrock, The                                  | Swing! Deutschland                  | Game Boy Color | 2000 | Europe
+|       | Flipper & Lopaka                                                         | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Fort Boyard                                                              | Microids                            | Game Boy Color | 2001 | Europe
+|       | Freestyle Scooter                                                        | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Frogger                                                                  | Majesco                             | Game Boy Color | 1997 | Europe
+|       | Full Time Soccer                                                         | Datel                               | Game Boy Color | 2000 | Europe
+|       | Game & Watch Gallery 2                                                   | Nintendo                            | Game Boy Color | 1998 | Europe
+|       | Game & Watch Gallery 3                                                   | Nintendo                            | Game Boy Color | 2000 | Europe
+|       | Games Frenzy                                                             | 3DO                                 | Game Boy Color | 2000 | Europe
+|       | Gex: Enter the Gecko                                                     | Interplay                           | Game Boy Color | 1998 | Europe
+|       | Ghosts 'n Goblins                                                        | Capcom                              | Game Boy Color | 2001 | Europe
+|       | Gift                                                                     | Cryo Interactive                    | Game Boy Color | 2001 | Europe
+|       | Godzilla the Series                                                      | Crave                               | Game Boy Color | 2000 | Europe
+|       | Godzilla the Series: Monster Wars                                        | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Gold and Glory: The Road to El Dorado                                    | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Golden Goal                                                              | Take-Two Interactive                | Game Boy Color | 1999 | Europe
+|       | Grand Theft Auto                                                         | Rockstar Games                      | Game Boy Color | 1999 | Europe
+|       | Grand Theft Auto 2                                                       | Rockstar Games                      | Game Boy Color | 2000 | Europe
+|       | Gremlins: Unleashed                                                      | LSP                                 | Game Boy Color | 2001 | Europe
+|       | Grinch, The                                                              | Konami                              | Game Boy Color | 2000 | Europe
+|       | Gute Zeiten Schlechte Zeiten Quiz                                        | Software 2000                       | Game Boy Color | 2000 | Europe
+|       | Guy Roux Manager 2000                                                    | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Halloween Racer                                                          | Microids                            | Game Boy Color | 1999 | Europe
+|       | Hamtaro: Ham-Hams Unite!                                                 | Nintendo                            | Game Boy Color | 2003 | Europe
+|       | Hands of Time                                                            | Titus Software                      | Game Boy Color | 2001 | Europe
+|       | Harry Potter and the Chamber of Secrets                                  | Electronic Arts                     | Game Boy Color | 2002 | Europe
+|       | Harry Potter and the Philosopher's Stone                                 | Electronic Arts                     | Game Boy Color | 2001 | Europe
+|       | Harvest Moon 2 GBC                                                       | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Harvest Moon GB                                                          | Nintendo                            | Game Boy Color | 1998 | Europe
+|       | Hello Kitty's Cube Frenzy                                                | NewKidCo                            | Game Boy Color | 2001 | Europe
+|       | Hercules: The Legendary Journeys                                         | Titus Software                      | Game Boy Color | 2001 | Europe
+|       | Heroes of Might and Magic                                                | 3DO                                 | Game Boy Color | 2000 | Europe
+|       | Heroes of Might and Magic II                                             | 3DO                                 | Game Boy Color | 2001 | Europe
+|       | Hexcite: Duels de Strateges                                              | Ubisoft                             | Game Boy Color | 1999 | Europe
+|       | Hollywood Pinball                                                        | Take-Two Interactive                | Game Boy Color | 1999 | Europe
+|       | Holy Magic Century                                                       | Virgin Interactive                  | Game Boy Color | 1999 | Europe
+|       | Hot Wheels: Stunt Track Driver                                           | Mattel                              | Game Boy Color | 2000 | Europe
+|       | Hugo 2 1/2                                                               | Infogrames                          | Game Boy Color | 1999 | Europe
+|       | Hugo: Black Diamond Fever                                                | ITE Media                           | Game Boy Color | 2001 | Europe
+|       | Hype: The Time Quest                                                     | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Indiana Jones and the Infernal Machine                                   | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Inspector Gadget: Operation Madkactus                                    | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | International Karate 2000                                                | Virgin Interactive                  | Game Boy Color | 2000 | Europe
+|       | International Superstar Soccer 2000                                      | Konami                              | Game Boy Color | 2000 | Europe
+|       | International Superstar Soccer 99                                        | Konami                              | Game Boy Color | 1999 | Europe
+|       | International Track & Field                                              | Konami                              | Game Boy Color | 1999 | Europe
+|       | International Track & Field: Summer Games                                | Konami                              | Game Boy Color | 2000 | Europe
+|       | Janosch: Das grosse Panama-Spiel                                         | Infogrames                          | Game Boy Color | 1999 | Europe
+|       | Jeremy McGrath Supercross 2000                                           | Acclaim                             | Game Boy Color | 2000 | Europe
+|       | Jim Henson's Bear in the Big Blue House                                  | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Jim Henson's The Muppets                                                 | Take-Two Interactive                | Game Boy Color | 2000 | Europe
+|       | Jimmy White's Cue Ball                                                   | Vatical Entertainment               | Game Boy Color | 2000 | Europe
+|       | John Romero's Daikatana                                                  | Kemco                               | Game Boy Color | 2000 | Europe
+|       | Kapt'n Blaubar: Die verruckte Schatzsuche                                | Ravensburger Interactive Media GmbH | Game Boy Color | 2001 | Europe
+|       | Karate Joe                                                               | Datel                               | Game Boy Color | 2001 | Europe
+|       | Keep the Balance                                                         | JoWooD Entertainment AG             | Game Boy Color | 2001 | Europe
+|       | Kirikou                                                                  | Wanadoo                             | Game Boy Color | 2001 | Europe
+|       | Klustar                                                                  | Infogrames                          | Game Boy Color | 1999 | Europe
+|       | Knockout Kings                                                           | Electronic Arts                     | Game Boy Color | 1999 | Europe
+|       | Konami GB Collection Vol. 1                                              | Konami                              | Game Boy Color | 2000 | Europe
+|       | Konami GB Collection Vol. 2                                              | Konami                              | Game Boy Color | 2000 | Europe
+|       | Konami GB Collection Vol. 3                                              | Konami                              | Game Boy Color | 2000 | Europe
+|       | Konami GB Collection Vol. 4                                              | Konami                              | Game Boy Color | 2000 | Europe
+|       | Konami Winter Games                                                      | Konami                              | Game Boy Color | 2000 | Europe
+|       | KRTL: Jay und die Spielzeugdiebe                                         | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Land Before Time, The                                                    | Conspiracy Entertainment            | Game Boy Color | 2001 | Europe
+|       | Lara Croft - Tomb Raider: Curse of the Sword                             | Activision                          | Game Boy Color | 2001 | Europe
+|       | Le Mans 24 Hours                                                         | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | Legend of the River King 2                                               | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Legend of the River King GB                                              | Victor Interactive Software         | Game Boy Color | 2000 | Europe
+|       | Legend of Zelda: Link's Awakening DX, The                                | Nintendo                            | Game Boy Color | 1999 | Europe
+|       | Legend of Zelda: Oracle of Ages / Oracle of Seasons Limited Edition, The | Nintendo                            | Game Boy Color | 2001 | Europe
+|       | Legend of Zelda: Oracle of Ages, The                                     | Nintendo                            | Game Boy Color | 2001 | Europe
+|       | Legend of Zelda: Oracle of Seasons, The                                  | Nintendo                            | Game Boy Color | 2001 | Europe
+|       | LEGO Action Team                                                         | Lego Media                          | Game Boy Color | 2000 | Europe
+|       | LEGO Island 2: The Brickster's Revenge                                   | Lego Media                          | Game Boy Color | 2001 | Europe
+|       | LEGO Racers                                                              | Lego Media                          | Game Boy Color | 2000 | Europe
+|       | LEGO Stunt Rally                                                         | Lego Media                          | Game Boy Color | 2000 | Europe
+|       | Les Visiteurs                                                            | Ubisoft                             | Game Boy Color | 1999 | Europe
+|       | Logical                                                                  | THQ                                 | Game Boy Color | 1999 | Europe
+|       | Looney Tunes                                                             | SunSoft                             | Game Boy Color | 1998 | Europe
+|       | Looney Tunes Collector: Martian Alert!                                   | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | Looney Tunes Collector: Martian Revenge!                                 | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | Looney Tunes Racing                                                      | Infogrames                          | Game Boy Color | 2001 | Europe
+|       | Lucky Luke                                                               | Infogrames                          | Game Boy Color | 1999 | Europe
+|       | Lucky Luke: Desperado Train                                              | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | Lufia: The Legend Returns                                                | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | M & M's Mini Madness                                                     | JoWooD Entertainment AG             | Game Boy Color | 2001 | Europe
+|       | Madden NFL 2000                                                          | Electronic Arts                     | Game Boy Color | 1999 | Europe
+|       | Magical Drop                                                             | Swing! Deutschland                  | Game Boy Color | 2000 | Europe
+|       | Magical Tetris Challenge                                                 | Activision                          | Game Boy Color | 2000 | Europe
+|       | Marble Madness                                                           | Midway                              | Game Boy Color | 2000 | Europe
+|       | Mario Golf                                                               | Nintendo                            | Game Boy Color | 1999 | Europe
+|       | Mario Tennis                                                             | Nintendo                            | Game Boy Color | 2001 | Europe
+|       | Mary-Kate & Ashley: Get a Clue!                                          | Acclaim                             | Game Boy Color | 2000 | Europe
+|       | Mary-Kate and Ashley: Crush Course                                       | Acclaim                             | Game Boy Color | 2001 | Europe
+|       | Mary-Kate and Ashley: Pocket Planner                                     | Acclaim                             | Game Boy Color | 2001 | Europe
+|       | Mary-Kate and Ashley: Winners Circle                                     | Acclaim                             | Game Boy Color | 2001 | Europe
+|       | Mask of Zorro, The                                                       | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Mat Hoffman's Pro BMX                                                    | Activision                          | Game Boy Color | 2001 | Europe
+|       | Matchbox Caterpillar Construction Zone                                   | Mattel                              | Game Boy Color | 2000 | Europe
+|       | Matchbox Emergency Patrol                                                | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Maya the Bee and Her Friends                                             | Acclaim                             | Game Boy Color | 2000 | Europe
+|       | Maya the Bee: Garden Adventures                                          | Acclaim                             | Game Boy Color | 2000 | Europe
+|       | Mega Man Xtreme                                                          | Capcom                              | Game Boy Color | 2001 | Europe
+|       | Mega Man Xtreme 2                                                        | Capcom                              | Game Boy Color | 2002 | Europe
+|       | Men in Black 2: The Series                                               | Crave                               | Game Boy Color | 2000 | Europe
+|       | Men in Black: The Series                                                 | Interplay                           | Game Boy Color | 1998 | Europe
+|       | Merlin                                                                   | Electronic Arts                     | Game Boy Color | 2001 | Europe
+|       | Metal Gear Solid                                                         | Konami                              | Game Boy Color | 2000 | Europe
+|       | Mickey's Racing Adventure                                                | Nintendo                            | Game Boy Color | 1999 | Europe
+|       | Mickey's Speedway USA                                                    | Nintendo                            | Game Boy Color | 2001 | Europe
+|       | Micro Machines 1 and 2: Twin Turbo                                       | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Micro Machines V3                                                        | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Micro Maniacs                                                            | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Microsoft Pinball Arcade                                                 | Cryo Interactive                    | Game Boy Color | 2001 | Europe
+|       | Microsoft: The 6in1 Puzzle Collection Entertainment Pack                 | Conspiracy Entertainment            | Game Boy Color | 2000 | Europe
+|       | Microsoft: The Best of Entertainment Pack                                | Cryo Interactive                    | Game Boy Color | 2001 | Europe
+|       | Midway Presents Arcade Hits: Joust / Defender                            | Midway                              | Game Boy Color | 1999 | Europe
+|       | Midway presents Arcade Hits: Spy Hunter / Moon Patrol                    | Midway                              | Game Boy Color | 1999 | Europe
+|       | Missile Command                                                          | Hasbro Interactive                  | Game Boy Color | 1999 | Europe
+|       | Mission: Impossible                                                      | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | Monkey Puncher                                                           | Event Horizon Software              | Game Boy Color | 2000 | Europe
+|       | Montezuma's Return                                                       | Take-Two Interactive                | Game Boy Color | 1998 | Europe
+|       | Moomin's Tale                                                            | SunSoft                             | Game Boy Color | 2000 | Europe
+|       | Moorhuhn 2: Die Jagd Geht Weiter                                         | Phenomedia                          | Game Boy Color | 2001 | Europe
+|       | Moorhuhn 3: ...Es Gibt Huhn!                                             | Ubisoft                             | Game Boy Color | 2002 | Europe
+|       | Mortal Kombat 4                                                          | Midway                              | Game Boy Color | 1999 | Europe
+|       | Mr. Driller                                                              | Virgin Interactive                  | Game Boy Color | 2000 | Europe
+|       | Mr. Nutz                                                                 | Infogrames                          | Game Boy Color | 1999 | Europe
+|       | Ms. Pac-Man: Special Colour Edition                                      | Acclaim                             | Game Boy Color | 1999 | Europe
+|       | MTV Sports: Pure Ride                                                    | THQ                                 | Game Boy Color | 2000 | Europe
+|       | MTV Sports: Skateboarding Featuring Andy Macdonald                       | THQ                                 | Game Boy Color | 2000 | Europe
+|       | MTV Sports: T.J. Lavin's Ultimate BMX                                    | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Mummy Returns, The                                                       | Havas Interactive                   | Game Boy Color | 2001 | Europe
+|       | Mummy, The                                                               | Konami                              | Game Boy Color | 2000 | Europe
+|       | NASCAR 2000                                                              | Electronic Arts                     | Game Boy Color | 2000 | Europe
+|       | Nations: Land of Legends, The                                            | JoWooD Entertainment AG             | Game Boy Color | 2002 | Europe
+|       | NBA In the Zone 2000                                                     | Konami                              | Game Boy Color | 2000 | Europe
+|       | NBA Jam 2001                                                             | Acclaim                             | Game Boy Color | 2000 | Europe
+|       | NBA Jam 99                                                               | Acclaim                             | Game Boy Color | 1998 | Europe
+|       | NBA Pro '99                                                              | Konami                              | Game Boy Color | 1999 | Europe
+|       | New Addams Family Series, The                                            | Microids                            | Game Boy Color | 2002 | Europe
+|       | New Adventures of Mary-Kate & Ashley, The                                | Acclaim                             | Game Boy Color | 2001 | Europe
+|       | NFL Blitz                                                                | Midway                              | Game Boy Color | 1998 | Europe
+|       | NHL 2000                                                                 | Electronic Arts                     | Game Boy Color | 1999 | Europe
+|       | No Fear: Downhill Mountain Biking                                        | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Noddy and the Birthday Party                                             | BBC Multimedia                      | Game Boy Color | 2000 | Europe
+|       | NYR: New York Race                                                       | Wanadoo                             | Game Boy Color | 2001 | Europe
+|       | Oddworld Adventures 2                                                    | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | Ottifanten: Kommando Stortebeker                                         | JoWooD Entertainment AG             | Game Boy Color | 2001 | Europe
+|       | Pac-Man: Special Colour Edition                                          | Acclaim                             | Game Boy Color | 1999 | Europe
+|       | Paperboy                                                                 | Midway                              | Game Boy Color | 1999 | Europe
+|       | Papyrus                                                                  | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Perfect Dark                                                             | Rare Ltd.                           | Game Boy Color | 2000 | Europe
+|       | Pitfall: Beyond the Jungle                                               | Interplay                           | Game Boy Color | 1999 | Europe
+|       | Planet of the Apes                                                       | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Player Manager 2001                                                      | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Playmobil Interactive: Laura                                             | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Pocket Bomberman                                                         | Nintendo                            | Game Boy Color | 1999 | Europe
+|       | Pocket Music                                                             | Rage Software                       | Game Boy Color | 2002 | Europe
+|       | Pocket Racing                                                            | Virgin Interactive                  | Game Boy Color | 2000 | Europe
+|       | Pocket Soccer                                                            | Nintendo                            | Game Boy Color | 2001 | Europe
+|       | Pokemon Gold Version                                                     | Nintendo                            | Game Boy Color | 2001 | Europe
+|       | Pokemon Pinball                                                          | Nintendo                            | Game Boy Color | 2000 | Europe
+|       | Pokemon Puzzle Challenge                                                 | Nintendo                            | Game Boy Color | 2001 | Europe
+|       | Pokemon Silver Version                                                   | Nintendo                            | Game Boy Color | 2001 | Europe
+|       | Pokemon Trading Card Game                                                | Nintendo                            | Game Boy Color | 2000 | Europe
+|       | Pong                                                                     | Hasbro Interactive                  | Game Boy Color | 2000 | Europe
+|       | Pooh and Tigger's Hunny Safari                                           | Ubisoft                             | Game Boy Color | 2002 | Europe
+|       | Pop n Pop                                                                | JVC Digital Studios                 | Game Boy Color | 2001 | Europe
+|       | Power Quest                                                              | SunSoft                             | Game Boy Color | 1999 | Europe
+|       | Power Rangers: Time Force                                                | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Powerpuff Girls: Bad Mojo Jojo, The                                      | Bam Entertainment                   | Game Boy Color | 2000 | Europe
+|       | Powerpuff Girls: Battle Him, The                                         | Bam Entertainment                   | Game Boy Color | 2001 | Europe
+|       | Powerpuff Girls: Paint the Townsville Green, The                         | Bam Entertainment                   | Game Boy Color | 2001 | Europe
+|       | Prince Naseem Boxing                                                     | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Prince of Persia                                                         | Red Orb Entertainment               | Game Boy Color | 1999 | Europe
+|       | Pro Darts                                                                | Vatical Entertainment               | Game Boy Color | 2000 | Europe
+|       | Pro Pool                                                                 | Codemasters                         | Game Boy Color | 2000 | Europe
+|       | Puchi Carat                                                              | Taito Corporation                   | Game Boy Color | 2000 | Europe
+|       | Pumuckls Abenteuer bei den Piraten                                       | Acclaim                             | Game Boy Color | 1999 | Europe
+|       | Pumuckls Abenteuer im Geisterschloss                                     | Acclaim                             | Game Boy Color | 2000 | Europe
+|       | Puzzled                                                                  | Swing! Deutschland                  | Game Boy Color | 2001 | Europe
+|       | Qix Adventure                                                            | Event Horizon Software              | Game Boy Color | 2000 | Europe
+|       | Quest For Camelot                                                        | Titus Software                      | Game Boy Color | 1999 | Europe
+|       | R-Type DX                                                                | Nintendo                            | Game Boy Color | 1999 | Europe
+|       | Rainbow Islands                                                          | TDK Core                            | Game Boy Color | 2001 | Europe
+|       | Rampage 2: Universal Tour                                                | Midway                              | Game Boy Color | 1999 | Europe
+|       | Rampage: World Tour                                                      | Midway                              | Game Boy Color | 1998 | Europe
+|       | Rayman                                                                   | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Rayman 2 Forever                                                         | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Ready 2 Rumble Boxing                                                    | Midway                              | Game Boy Color | 1999 | Europe
+|       | Reservoir Rat                                                            | Take-Two Interactive                | Game Boy Color | 1999 | Europe
+|       | Resident Evil Gaiden                                                     | Virgin Interactive                  | Game Boy Color | 2001 | Europe
+|       | Return of the Ninja                                                      | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Rhino Rumble                                                             | Telegames                           | Game Boy Color | 2000 | Europe
+|       | Rip-Tide Racer                                                           | Cryo Interactive                    | Game Boy Color | 2000 | Europe
+|       | Road Champs: BXS Stunt Biking                                            | Activision                          | Game Boy Color | 2001 | Europe
+|       | Road Rash                                                                | Electronic Arts                     | Game Boy Color | 2000 | Europe
+|       | Roadsters                                                                | Titus Software                      | Game Boy Color | 2000 | Europe
+|       | Robin Hood                                                               | Electronic Arts                     | Game Boy Color | 2001 | Europe
+|       | Robocop                                                                  | Titus Software                      | Game Boy Color | 2001 | Europe
+|       | Robot Wars: Metal Mayhem                                                 | BBC Multimedia                      | Game Boy Color | 2000 | Europe
+|       | Rocket Power: Gettin' Air                                                | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Roland Garros French Open                                                | Cryo Interactive                    | Game Boy Color | 2000 | Europe
+|       | Roswell Conspiracies: Aliens, Myths & Legends                            | Red Storm Entertainment             | Game Boy Color | 2001 | Europe
+|       | Rox                                                                      | Titus Software                      | Game Boy Color | 2001 | Europe
+|       | Rugrats in Paris: The Movie                                              | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Rugrats Movie, The                                                       | THQ                                 | Game Boy Color | 1999 | Europe
+|       | Rugrats: Time Travellers                                                 | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Rugrats: Totally Angelica                                                | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Saban's Power Rangers: Lightspeed Rescue                                 | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Sabrina the Animated Series: Spooked!                                    | Simon & Schuster                    | Game Boy Color | 2001 | Europe
+|       | Sabrina the Animated Series: Zapped!                                     | Havas Interactive                   | Game Boy Color | 2000 | Europe
+|       | San Francisco Rush 2049                                                  | Midway                              | Game Boy Color | 2000 | Europe
+|       | Santa Claus Junior                                                       | JoWooD Entertainment AG             | Game Boy Color | 2001 | Europe
+|       | Scooby-Doo! Classic Creep Capers                                         | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Scrabble                                                                 | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Sesame Street Sports                                                     | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Sesame Street: Elmo in Grouchland                                        | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Sesame Street: Elmo's 123s                                               | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Sesame Street: Elmo's ABCs                                               | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Shadowgate Classic                                                       | Nintendo                            | Game Boy Color | 1999 | Europe
+|       | Shamus                                                                   | Telegames                           | Game Boy Color | 2000 | Europe
+|       | Shanghai Pocket                                                          | Activision                          | Game Boy Color | 1998 | Europe
+|       | Shelly Club                                                              | VU Games                            | Game Boy Color | 2001 | Europe
+|       | Shrek: Fairy Tale Freakdown                                              | TDK Mediactive                      | Game Boy Color | 2001 | Europe
+|       | Simpsons: Night of the Living Treehouse of Horror, The                   | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Snoopy Tennis                                                            | Infogrames                          | Game Boy Color | 2001 | Europe
+|       | SnowCross                                                                | Wanadoo                             | Game Boy Color | 2001 | Europe
+|       | Soccer Manager                                                           | Acclaim                             | Game Boy Color | 2000 | Europe
+|       | Space Invaders                                                           | Activision                          | Game Boy Color | 1999 | Europe
+|       | Space Invasion                                                           | Datel                               | Game Boy Color | 2001 | Europe
+|       | Space Station Silicon Valley                                             | Take-Two Interactive                | Game Boy Color | 1999 | Europe
+|       | Speedy Gonzales: Aztec Adventure                                         | SunSoft                             | Game Boy Color | 2000 | Europe
+|       | Spider-Man                                                               | Activision                          | Game Boy Color | 2000 | Europe
+|       | Spider-Man 2: Enter the Sinister Six                                     | Activision                          | Game Boy Color | 2001 | Europe
+|       | Spirou: The Robot Invasion                                               | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | SpongeBob Squarepants: Legend of the Lost Spatula                        | THQ                                 | Game Boy Color | 2001 | Europe
+|       | Spy vs Spy                                                               | Kemco                               | Game Boy Color | 1999 | Europe
+|       | Star Wars Episode I: Obi-Wan's Adventures                                | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Star Wars Episode I: Racer                                               | Nintendo                            | Game Boy Color | 1999 | Europe
+|       | Star Wars: Yoda Stories                                                  | THQ                                 | Game Boy Color | 1999 | Europe
+|       | Stranded Kids                                                            | Konami                              | Game Boy Color | 1999 | Europe
+|       | Street Fighter Alpha: Warriors' Dreams                                   | Virgin Interactive                  | Game Boy Color | 1999 | Europe
+|       | Stuart Little: The Journey Home                                          | Activision                          | Game Boy Color | 2001 | Europe
+|       | Super 1 Karting                                                          | Midas Interactive Entertainment     | Game Boy Color | 2001 | Europe
+|       | Super Breakout                                                           | Majesco                             | Game Boy Color | 1999 | Europe
+|       | Super Mario Bros. Deluxe                                                 | Nintendo                            | Game Boy Color | 1999 | Europe
+|       | Supercross Freestyle                                                     | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | Supreme Snowboarding                                                     | Infogrames                          | Game Boy Color | 1999 | Europe
+|       | Suzuki Alstare Extreme Racing                                            | Ubisoft                             | Game Boy Color | 1999 | Europe
+|       | Swing                                                                    | Software 2000                       | Game Boy Color | 2000 | Europe
+|       | SWiV                                                                     | SCi                                 | Game Boy Color | 2001 | Europe
+|       | Sylvester and Tweety: Breakfast on the Run                               | Infogrames                          | Game Boy Color | 1998 | Europe
+|       | Tabaluga                                                                 | Infogrames                          | Game Boy Color | 1999 | Europe
+|       | Tasmanian Devil: Munching Madness                                        | SunSoft                             | Game Boy Color | 1999 | Europe
+|       | Taxi 2                                                                   | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Taxi 3                                                                   | Ubisoft                             | Game Boy Color | 2002 | Europe
+|       | Tech Deck Skateboarding                                                  | Codemasters                         | Game Boy Color | 2001 | Europe
+|       | Telefoot Soccer 2000                                                     | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Test Drive 6                                                             | Cryo Interactive                    | Game Boy Color | 2000 | Europe
+|       | Tetris DX                                                                | Nintendo                            | Game Boy Color | 1999 | Europe
+|       | Thunderbirds                                                             | SCi                                 | Game Boy Color | 2000 | Europe
+|       | Tiger Woods PGA Tour 2000                                                | Electronic Arts                     | Game Boy Color | 1999 | Europe
+|       | Tintin in Tibet                                                          | Infogrames                          | Game Boy Color | 2001 | Europe
+|       | Tintin: Le Temple Du Soleil                                              | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | Tiny Toon Adventures: Buster Saves the Day                               | Conspiracy Entertainment            | Game Boy Color | 2001 | Europe
+|       | Tiny Toon Adventures: Dizzy's Candy Quest                                | Conspiracy Entertainment            | Game Boy Color | 2001 | Europe
+|       | Titus the Fox                                                            | Virgin Interactive                  | Game Boy Color | 2000 | Europe
+|       | TOCA Touring Car Championship                                            | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Toki Tori                                                                | Capcom                              | Game Boy Color | 2002 | Europe
+|       | Tom and Jerry                                                            | Majesco                             | Game Boy Color | 2000 | Europe
+|       | Tom and Jerry in House Trap                                              | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Tom and Jerry: Mouse Hunt                                                | Virgin Interactive                  | Game Boy Color | 2000 | Europe
+|       | Tom Clancy's Rainbow Six                                                 | Red Storm Entertainment             | Game Boy Color | 2000 | Europe
+|       | Tomb Raider                                                              | Eidos Interactive                   | Game Boy Color | 2000 | Europe
+|       | Tonic Trouble                                                            | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Tonka Raceway                                                            | Hasbro Interactive                  | Game Boy Color | 1999 | Europe
+|       | Tony Hawk's Pro Skater 2                                                 | Activision                          | Game Boy Color | 2000 | Europe
+|       | Tony Hawk's Pro Skater 3                                                 | Activision                          | Game Boy Color | 2001 | Europe
+|       | Tony Hawk's Skateboarding                                                | Activision                          | Game Boy Color | 2000 | Europe
+|       | Toonsylvania                                                             | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Tootuff                                                                  | Infogrames                          | Game Boy Color | 2001 | Europe
+|       | Top Gear Rally                                                           | Kemco                               | Game Boy Color | 1999 | Europe
+|       | Top Gear Rally 2                                                         | Kemco                               | Game Boy Color | 2000 | Europe
+|       | Top Gun: Firestorm                                                       | Titus Software                      | Game Boy Color | 2001 | Europe
+|       | Towers: Lord Baniff's Deceit                                             | Telegames                           | Game Boy Color | 2000 | Europe
+|       | Trick Boarder                                                            | Natsume                             | Game Boy Color | 2000 | Europe
+|       | Triple Play 2001                                                         | THQ                                 | Game Boy Color | 2000 | Europe
+|       | Turbo Racing Challenge                                                   | Midas Interactive Entertainment     | Game Boy Color | 2001 | Europe
+|       | Turok 2: Seeds of Evil                                                   | Acclaim                             | Game Boy Color | 1998 | Europe
+|       | Turok 3: Shadow of Oblivion                                              | Acclaim                             | Game Boy Color | 2000 | Europe
+|       | Turok: Rage Wars                                                         | Acclaim                             | Game Boy Color | 2000 | Europe
+|       | Tweenies: Doodles' Bones                                                 | BBC Multimedia                      | Game Boy Color | 2001 | Europe
+|       | Tweety's High-Flying Adventure                                           | Kemco                               | Game Boy Color | 2000 | Europe
+|       | UEFA 2000                                                                | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | Ultimate Fighting Championship                                           | Crave                               | Game Boy Color | 2001 | Europe
+|       | Ultimate Paintball                                                       | Majesco                             | Game Boy Color | 2000 | Europe
+|       | Ultimate Surfing                                                         | Natsume                             | Game Boy Color | 2001 | Europe
+|       | Uno                                                                      | Mattel                              | Game Boy Color | 2000 | Europe
+|       | V-Rally: Championship Edition                                            | Infogrames                          | Game Boy Color | 1999 | Europe
+|       | Vegas Games                                                              | 3DO                                 | Game Boy Color | 2000 | Europe
+|       | VIP                                                                      | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Wacky Races                                                              | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | Walt Disney World Quest: Magical Racing Tour                             | Eidos Interactive                   | Game Boy Color | 2000 | Europe
+|       | Walt Disney: Snow White and the Seven Dwarfs                             | Ubisoft                             | Game Boy Color | 2001 | Europe
+|       | Walt Disney's The Jungle Book: Mowgli's Wild Adventure                   | Ubisoft                             | Game Boy Color | 2000 | Europe
+|       | Wario Land 3                                                             | Nintendo                            | Game Boy Color | 2000 | Europe
+|       | Wario Land II                                                            | Nintendo                            | Game Boy Color | 1999 | Europe
+|       | Warriors of Might and Magic                                              | 3DO                                 | Game Boy Color | 2001 | Europe
+|       | WCW Mayhem                                                               | Electronic Arts                     | Game Boy Color | 2000 | Europe
+|       | WDL World Destruction League: Thunder Tanks                              | 3DO                                 | Game Boy Color | 2001 | Europe
+|       | Wendy: Every Witch Way                                                   | TDK Mediactive                      | Game Boy Color | 2000 | Europe
+|       | Wetrix GB                                                                | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | Wings of Fury                                                            | Red Orb Entertainment               | Game Boy Color | 1999 | Europe
+|       | Woody Woodpecker                                                         | Cryo Interactive                    | Game Boy Color | 2001 | Europe
+|       | Woody Woodpecker Racing                                                  | Konami                              | Game Boy Color | 2000 | Europe
+|       | Worms Armageddon                                                         | Infogrames                          | Game Boy Color | 2000 | Europe
+|       | WWF Attitude                                                             | Acclaim                             | Game Boy Color | 1999 | Europe
+|       | WWF Betrayal                                                             | THQ                                 | Game Boy Color | 2001 | Europe
+|       | WWF Wrestlemania 2000                                                    | THQ                                 | Game Boy Color | 1999 | Europe
+|       | X-Men: Mutant Wars                                                       | Activision                          | Game Boy Color | 2000 | Europe
+|       | X-Men: Wolverine's Rage                                                  | Activision                          | Game Boy Color | 2001 | Europe
+|       | Xena: Warrior Princess                                                   | Titus Software                      | Game Boy Color | 2001 | Europe
+|       | Xtreme Wheels                                                            | Bergsala                            | Game Boy Color | 2000 | Europe
+|       | Yars' Revenge                                                            | Telegames                           | Game Boy Color | 2000 | Europe
+|       | Yu-Gi-Oh! Dark Duel Stories                                              | Konami                              | Game Boy Color | 2003 | Europe
+|       | Zebco Fishing                                                            | Vatical Entertainment               | Game Boy Color | 2000 | Europe
+|       | Zidane: Football Generation                                              | Cryo Interactive                    | Game Boy Color | 2002 | Europe

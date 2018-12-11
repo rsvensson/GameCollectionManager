@@ -1,0 +1,84 @@
+|       | 3 Count Bout                               | SNK       | Neo Geo AES | 1993 | North America
+|       | Aero Fighters 2                            | SNK       | Neo Geo AES | 1994 | North America
+|       | Aggressors of Dark Kombat                  | SNK       | Neo Geo AES | 1994 | North America
+|       | Alpha Mission II                           | SNK       | Neo Geo AES | 1991 | North America
+|       | Andro Dunos                                | SNK       | Neo Geo AES | 1992 | North America
+|       | Art of Fighting                            | SNK       | Neo Geo AES | 1992 | North America
+|       | Art of Fighting 2                          | SNK       | Neo Geo AES | 1994 | North America
+|       | Art of Fighting 3: The Path of the Warrior | SNK       | Neo Geo AES | 1996 | North America
+|       | Baseball Stars 2                           | SNK       | Neo Geo AES | 1992 | North America
+|       | Baseball Stars Professional                | SNK       | Neo Geo AES | 1991 | North America
+|       | Blue's Journey                             | SNK       | Neo Geo AES | 1991 | North America
+|       | Burning Fight                              | SNK       | Neo Geo AES | 1991 | North America
+|       | Crossed Swords                             | SNK       | Neo Geo AES | 1991 | North America
+|       | Cyber-Lip                                  | SNK       | Neo Geo AES | 1991 | North America
+|       | Double Dragon                              | SNK       | Neo Geo AES | 1995 | North America
+|       | Fatal Fury                                 | SNK       | Neo Geo AES | 1991 | North America
+|       | Fatal Fury 2                               | SNK       | Neo Geo AES | 1993 | North America
+|       | Fatal Fury 3: Road to the Final Victory    | SNK       | Neo Geo AES | 1995 | North America
+|       | Fatal Fury Special                         | SNK       | Neo Geo AES | 1993 | North America
+|       | Football Frenzy                            | SNK       | Neo Geo AES | 1992 | North America
+|       | Galaxy Fight: Universal Warriors           | SNK       | Neo Geo AES | 1995 | North America
+|       | Garou: Mark of the Wolves                  | SNK       | Neo Geo AES | 2000 | North America
+|       | Ghost Pilots                               | SNK       | Neo Geo AES | 1991 | North America
+|       | Karnov's Revenge                           | SNK       | Neo Geo AES | 1994 | North America
+|       | King of Fighters '94, The                  | SNK       | Neo Geo AES | 1994 | North America
+|       | King of Fighters '95, The                  | SNK       | Neo Geo AES | 1995 | North America
+|       | King of Fighters '96, The                  | SNK       | Neo Geo AES | 1996 | North America
+|       | King of Fighters '97, The                  | SNK       | Neo Geo AES | 1997 | North America
+|       | King of Fighters '98, The                  | SNK       | Neo Geo AES | 1998 | North America
+|       | King of Fighters '99, The                  | SNK       | Neo Geo AES | 1999 | North America
+|       | King of Fighters 2000, The                 | SNK       | Neo Geo AES | 2000 | North America
+|       | King of Fighters 2001, The                 | SNK       | Neo Geo AES | 2002 | North America
+|       | King of Fighters 2002, The                 | SNK       | Neo Geo AES | 2002 | North America
+|       | King of Fighters 2003, The                 | SNK       | Neo Geo AES | 2004 | North America
+|       | King of the Monsters                       | SNK       | Neo Geo AES | 1991 | North America
+|       | King of the Monsters 2: The Next Thing     | SNK       | Neo Geo AES | 1992 | North America
+|       | Last Blade 2, The                          | SNK       | Neo Geo AES | 1999 | North America
+|       | Last Blade, The                            | SNK       | Neo Geo AES | 1998 | North America
+|       | Last Resort                                | SNK       | Neo Geo AES | 1992 | North America
+|       | League Bowling                             | SNK       | Neo Geo AES | 1991 | North America
+|       | Magician Lord                              | SNK       | Neo Geo AES | 1991 | North America
+|       | Metal Slug                                 | SNK       | Neo Geo AES | 1996 | North America
+|       | Metal Slug 2                               | SNK       | Neo Geo AES | 1998 | North America
+|       | Metal Slug 3                               | SNK       | Neo Geo AES | 2000 | North America
+|       | Metal Slug 4                               | SNK       | Neo Geo AES | 2002 | North America
+|       | Metal Slug 5                               | SNK       | Neo Geo AES | 2004 | North America
+|       | Metal Slug X                               | SNK       | Neo Geo AES | 1999 | North America
+|       | Mutation Nation                            | SNK       | Neo Geo AES | 1992 | North America
+|       | NAM-1975                                   | SNK       | Neo Geo AES | 1991 | North America
+|       | Neo Turf Masters                           | SNK       | Neo Geo AES | 1996 | North America
+|       | NEOGEO X Classics: Volume I                | Tommo     | Neo Geo AES | 2013 | North America
+|       | Ninja Combat                               | SNK       | Neo Geo AES | 1991 | North America
+|       | Ninja Commando                             | SNK       | Neo Geo AES | 1992 | North America
+|       | Ninja Master's                             | SNK       | Neo Geo AES | 1996 | North America
+|       | Power Instinct Matrimelee                  | SNK       | Neo Geo AES | 2003 | North America
+|       | Rage of the Dragons                        | SNK       | Neo Geo AES | 2002 | North America
+|       | Real Bout Fatal Fury                       | SNK       | Neo Geo AES | 1996 | North America
+|       | Real Bout Fatal Fury 2: The Newcomers      | SNK       | Neo Geo AES | 1998 | North America
+|       | Real Bout Fatal Fury Special               | SNK       | Neo Geo AES | 1997 | North America
+|       | Riding Hero                                | SNK       | Neo Geo AES | 1991 | North America
+|       | Robo Army                                  | SNK       | Neo Geo AES | 1991 | North America
+|       | Samurai Shodown                            | SNK       | Neo Geo AES | 1993 | North America
+|       | Samurai Shodown II                         | SNK       | Neo Geo AES | 1994 | North America
+|       | Samurai Shodown III                        | SNK       | Neo Geo AES | 1995 | North America
+|       | Samurai Shodown IV: Amakusa's Revenge      | SNK       | Neo Geo AES | 1996 | North America
+|       | Samurai Shodown V                          | SNK       | Neo Geo AES | 2003 | North America
+|       | Samurai Shodown V Special                  | SNK       | Neo Geo AES | 2004 | North America
+|       | Savage Reign                               | SNK       | Neo Geo AES | 1995 | North America
+|       | Sengoku                                    | SNK       | Neo Geo AES | 1991 | North America
+|       | Sengoku 2                                  | SNK       | Neo Geo AES | 1993 | North America
+|       | Sengoku 3                                  | SNK       | Neo Geo AES | 2001 | North America
+|       | Super Baseball 2020                        | SNK       | Neo Geo AES | 1991 | North America
+|       | Super Sidekicks                            | SNK       | Neo Geo AES | 1993 | North America
+|       | Super Sidekicks 2: The World Championship  | SNK       | Neo Geo AES | 1994 | North America
+|       | Super Spy, The                             | SNK       | Neo Geo AES | 1991 | North America
+|       | Thrash Rally                               | SNK       | Neo Geo AES | 1991 | North America
+|       | Top Player's Golf                          | SNK       | Neo Geo AES | 1991 | North America
+|       | Viewpoint                                  | SNK       | Neo Geo AES | 1992 | North America
+|       | Voltage Fighter Gowcaizer                  | SNK       | Neo Geo AES | 1995 | North America
+|       | Windjammers                                | SNK       | Neo Geo AES | 1994 | North America
+|       | World Heroes                               | SNK       | Neo Geo AES | 1992 | North America
+|       | World Heroes 2                             | SNK       | Neo Geo AES | 1993 | North America
+|       | World Heroes 2 Jet                         | SNK       | Neo Geo AES | 1994 | North America
+|       | World Heroes Perfect                       | SNK       | Neo Geo AES | 1995 | North America

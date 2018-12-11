@@ -1,0 +1,85 @@
+|       | Action Fighter                            | Sega      | Sega Master System | 1986 | Japan
+|       | After Burner                              | Sega      | Sega Master System | 1987 | Japan
+|       | Akai Koudan Zillion                       | Sega      | Sega Master System | 1987 | Japan
+|       | Aleste                                    | Sega      | Sega Master System | 1988 | Japan
+|       | Alex Kidd no Miracle World                | Sega      | Sega Master System | 1986 | Japan
+|       | Alex Kidd: The Lost Stars                 | Sega      | Sega Master System | 1988 | Japan
+|       | Alien Syndrome                            | Sega      | Sega Master System | 1987 | Japan
+|       | Anmitsu Hime                              | Sega      | Sega Master System | 1987 | Japan
+|       | Argos no Juujiken                         | Salio     | Sega Master System | 1988 | Japan
+|       | Argos no Senshi                           | Salio     | Sega Master System | 1988 | Japan
+|       | Ashura                                    | Sega      | Sega Master System | 1986 | Japan
+|       | Astro Flash                               | Sega      | Sega Master System | 1985 | Japan
+|       | Astro Warrior                             | Sega      | Sega Master System | 1986 | Japan
+|       | Blade Eagle                               | Sega      | Sega Master System | 1988 | Japan
+|       | BMX Trial: Alex Kidd                      | Sega      | Sega Master System | 1987 | Japan
+|       | Bomber Raid                               | Sega      | Sega Master System | 1989 | Japan
+|       | Captain Silver                            | Sega      | Sega Master System | 1988 | Japan
+|       | Chou-on Senshi Borgman                    | Sega      | Sega Master System | 1988 | Japan
+|       | Circuit, The                              | Sega      | Sega Master System | 1986 | Japan
+|       | Comical MachineGun Joe                    | Sega      | Sega Master System | 1986 | Japan
+|       | DokiDoki Penguin Land: Uchuu Daibouken    | Sega      | Sega Master System | 1987 | Japan
+|       | Double Dragon                             | Sega      | Sega Master System | 1988 | Japan
+|       | Double Target: Cynthia no Nemuri          | Sega      | Sega Master System | 1987 | Japan
+|       | Enduro Racer                              | Sega      | Sega Master System | 1987 | Japan
+|       | F-16 Fighting Falcon                      | Sega      | Sega Master System | 1985 | Japan
+|       | Family Games                              | Sega      | Sega Master System | 1987 | Japan
+|       | Fantasy Zone                              | Sega      | Sega Master System | 1986 | Japan
+|       | Fantasy Zone II: Opa-Opa no Namida        | Sega      | Sega Master System | 1987 | Japan
+|       | Final Bubble Bobble                       | Sega      | Sega Master System | 1988 | Japan
+|       | Fushigi no Oshiro Pit Pot                 | Sega      | Sega Master System | 1985 | Japan
+|       | Galactic Protector                        | Sega      | Sega Master System | 1988 | Japan
+|       | Ghost House                               | Sega      | Sega Master System | 1986 | Japan
+|       | Gokuaku Doumei Dump Matsumoto             | Sega      | Sega Master System | 1986 | Japan
+|       | Great Baseball                            | Sega      | Sega Master System | 1985 | Japan
+|       | Great Basketball                          | Sega      | Sega Master System | 1987 | Japan
+|       | Great Football                            | Sega      | Sega Master System | 1987 | Japan
+|       | Great Golf                                | Sega      | Sega Master System | 1986 | Japan
+|       | Great Ice Hockey                          | Sega      | Sega Master System | 1987 | Japan
+|       | Great Soccer                              | Sega      | Sega Master System | 1985 | Japan
+|       | Great Tennis                              | Sega      | Sega Master System | 1985 | Japan
+|       | Great Volleyball                          | Sega      | Sega Master System | 1987 | Japan
+|       | Haja no Fuuin                             | Sega      | Sega Master System | 1987 | Japan
+|       | Hang On                                   | Sega      | Sega Master System | 1985 | Japan
+|       | High School! Kimengumi                    | Sega      | Sega Master System | 1986 | Japan
+|       | Hokuto no Ken                             | Sega      | Sega Master System | 1986 | Japan
+|       | Hoshi o Sagashite...                      | Sega      | Sega Master System | 1988 | Japan
+|       | Kenseiden                                 | Sega      | Sega Master System | 1988 | Japan
+|       | Kujaku Ou                                 | Sega      | Sega Master System | 1988 | Japan
+|       | Lord of Sword                             | Sega      | Sega Master System | 1988 | Japan
+|       | Mahjong Sengoku Jidai                     | Sega      | Sega Master System | 1987 | Japan
+|       | Makai Retsuden                            | Sega      | Sega Master System | 1987 | Japan
+|       | Maou Golvellius                           | Sega      | Sega Master System | 1988 | Japan
+|       | Masters Golf                              | Sega      | Sega Master System | 1987 | Japan
+|       | Maze Walker                               | Sega      | Sega Master System | 1988 | Japan
+|       | Megumi Rescue                             | Sega      | Sega Master System | 1988 | Japan
+|       | Nazca '88: The Golden Road to Paradise    | Sega      | Sega Master System | 1987 | Japan
+|       | Nekkyu Koushien                           | Sega      | Sega Master System | 1988 | Japan
+|       | Ninja, The                                | Sega      | Sega Master System | 1986 | Japan
+|       | Opa Opa                                   | Sega      | Sega Master System | 1987 | Japan
+|       | OutRun                                    | Sega      | Sega Master System | 1987 | Japan
+|       | Phantasy Star                             | Sega      | Sega Master System | 1987 | Japan
+|       | Pro Yakyuu: Pennant Race, The             | Sega      | Sega Master System | 1987 | Japan
+|       | R-Type                                    | Sega      | Sega Master System | 1988 | Japan
+|       | Rocky                                     | Sega      | Sega Master System | 1987 | Japan
+|       | Satellite 7                               | Sega      | Sega Master System | 1985 | Japan
+|       | SDI                                       | Sega      | Sega Master System | 1987 | Japan
+|       | Seishun Scandal                           | Sega      | Sega Master System | 1986 | Japan
+|       | Sherlock Holmes: Loretta no Shouzou       | Sega      | Sega Master System | 1987 | Japan
+|       | Shinobi                                   | Sega      | Sega Master System | 1988 | Japan
+|       | Solomon no Kagi: Oujo Rihita no Namida    | Salio     | Sega Master System | 1988 | Japan
+|       | Space Harrier                             | Sega      | Sega Master System | 1986 | Japan
+|       | Space Harrier 3D                          | Sega      | Sega Master System | 1988 | Japan
+|       | Spy vs. Spy                               | Sega      | Sega Master System | 1986 | Japan
+|       | Sukeban Deka II: Shoujo Tekkamen Densetsu | Sega      | Sega Master System | 1987 | Japan
+|       | Super Racing                              | Sega      | Sega Master System | 1988 | Japan
+|       | Super Wonder Boy                          | Sega      | Sega Master System | 1987 | Japan
+|       | Super Wonder Boy: Monster World           | Sega      | Sega Master System | 1988 | Japan
+|       | Teddy Boy Blues                           | Sega      | Sega Master System | 1985 | Japan
+|       | Tensai Bakabon                            | Sega      | Sega Master System | 1988 | Japan
+|       | Thunder Blade                             | Sega      | Sega Master System | 1988 | Japan
+|       | Tri-Formation                             | Sega      | Sega Master System | 1987 | Japan
+|       | Woody Pop: Shinjinrui no Block Kuzushi    | Sega      | Sega Master System | 1987 | Japan
+|       | World Soccer                              | Sega      | Sega Master System | 1987 | Japan
+|       | Ys                                        | Sega      | Sega Master System | 1988 | Japan
+|       | Zaxxon 3-D                                | Sega      | Sega Master System | 1987 | Japan

@@ -1,0 +1,547 @@
+|       | 688 Attack Sub                                                                                    | Sega                    | Sega Genesis | 1991 | Europe
+|       | AAAHH!!! Real Monsters                                                                            | Viacom New Media        | Sega Genesis | 1995 | Europe
+|       | Addams Family Values                                                                              | Ocean                   | Sega Genesis | 1995 | Europe
+|       | Addams Family, The                                                                                | Flying Edge             | Sega Genesis | 1994 | Europe
+|       | Adventures of Batman & Robin, The                                                                 | Sega                    | Sega Genesis | 1995 | Europe
+|       | Adventures of Mighty Max, The                                                                     | Ocean                   | Sega Genesis | 1994 | Europe
+|       | Aero the Acro-Bat                                                                                 | SunSoft                 | Sega Genesis | 1993 | Europe
+|       | Aero the Acro-Bat 2                                                                               | SunSoft                 | Sega Genesis | 1994 | Europe
+|       | After Burner II                                                                                   | Sega                    | Sega Genesis | 1990 | Europe
+|       | Alex Kidd in the Enchanted Castle                                                                 | Sega                    | Sega Genesis | 1990 | Europe
+|       | Alien 3                                                                                           | Arena                   | Sega Genesis | 1993 | Europe
+|       | Alien Soldier                                                                                     | Sega                    | Sega Genesis | 1995 | Europe
+|       | Alien Storm                                                                                       | Sega                    | Sega Genesis | 1991 | Europe
+|       | Alisia Dragoon                                                                                    | Sega                    | Sega Genesis | 1992 | Europe
+|       | Altered Beast                                                                                     | Sega                    | Sega Genesis | 1990 | Europe
+|       | Andre Agassi Tennis                                                                               | TecMagik                | Sega Genesis | 1992 | Europe
+|       | Animaniacs                                                                                        | Konami                  | Sega Genesis | 1994 | Europe
+|       | Another World                                                                                     | Virgin Games            | Sega Genesis | 1993 | Europe
+|       | Aquatic Games starring James Pond and the Aquabats, The                                           | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | Arcade Classics                                                                                   | Sega                    | Sega Genesis | 1996 | Europe
+|       | Arch Rivals: The Arcade Game                                                                      | Flying Edge             | Sega Genesis | 1992 | Europe
+|       | Arnold Palmer Tournament Golf                                                                     | Sega                    | Sega Genesis | 1990 | Europe
+|       | Arrow Flash                                                                                       | Sega                    | Sega Genesis | 1991 | Europe
+|       | Art Alive                                                                                         | Sega                    | Sega Genesis | 1992 | Europe
+|       | Art of Fighting                                                                                   | Sega                    | Sega Genesis | 1994 | Europe
+|       | Asterix and the Great Rescue                                                                      | Sega                    | Sega Genesis | 1993 | Europe
+|       | Asterix and the Power of the Gods                                                                 | Sega                    | Sega Genesis | 1995 | Europe
+|       | Atomic Runner                                                                                     | Data East               | Sega Genesis | 1992 | Europe
+|       | ATP Tour                                                                                          | Sega                    | Sega Genesis | 1995 | Europe
+|       | Australian Rugby League                                                                           | Electronic Arts         | Sega Genesis | 1995 | Europe
+|       | Ayrton Senna's Super Monaco GP II                                                                 | Sega                    | Sega Genesis | 1992 | Europe
+|       | B.O.B.                                                                                            | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Back to the Future Part III                                                                       | Imageworks              | Sega Genesis | 1991 | Europe
+|       | Ball Jacks                                                                                        | Namco                   | Sega Genesis | 1993 | Europe
+|       | Ballz 3D: The Battle of the Ballz                                                                 | Accolade                | Sega Genesis | 1994 | Europe
+|       | Barkley: Shut Up and Jam!                                                                         | Accolade                | Sega Genesis | 1994 | Europe
+|       | Batman                                                                                            | Sega                    | Sega Genesis | 1992 | Europe
+|       | Batman Forever                                                                                    | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | Batman Returns                                                                                    | Sega                    | Sega Genesis | 1992 | Europe
+|       | Battle Frenzy                                                                                     | Acclaim                 | Sega Genesis | 1994 | Europe
+|       | Battle Squadron                                                                                   | Electronic Arts         | Sega Genesis | 1990 | Europe
+|       | Battletoads                                                                                       | Tradewest               | Sega Genesis | 1993 | Europe
+|       | Beggar Prince                                                                                     | Super Fighter Team      | Sega Genesis | 2006 | Europe
+|       | Bill Walsh College Football                                                                       | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Bio Hazard Battle                                                                                 | Sega                    | Sega Genesis | 1992 | Europe
+|       | Blades of Vengeance                                                                               | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Blockout                                                                                          | Sega                    | Sega Genesis | 1991 | Europe
+|       | Body Count                                                                                        | Sega                    | Sega Genesis | 1994 | Europe
+|       | Bonanza Bros.                                                                                     | Sega                    | Sega Genesis | 1991 | Europe
+|       | Boogerman: A Pick and Flick Adventure                                                             | Interplay               | Sega Genesis | 1994 | Europe
+|       | Bram Stoker's Dracula                                                                             | Sony Imagesoft          | Sega Genesis | 1993 | Europe
+|       | Brian Lara Cricket                                                                                | Codemasters             | Sega Genesis | 1995 | Europe
+|       | Brian Lara Cricket 96                                                                             | Codemasters             | Sega Genesis | 1996 | Europe
+|       | Brutal: Paws of Fury                                                                              | GameTek                 | Sega Genesis | 1994 | Europe
+|       | Bubba 'n' Stix                                                                                    | Core Design Ltd.        | Sega Genesis | 1994 | Europe
+|       | Bubble and Squeak                                                                                 | SunSoft                 | Sega Genesis | 1994 | Europe
+|       | Bubsy II                                                                                          | Accolade                | Sega Genesis | 1994 | Europe
+|       | Bubsy in: Claws Encounters of the Furred Kind                                                     | Accolade                | Sega Genesis | 1993 | Europe
+|       | Buck Rogers: Countdown to Doomsday                                                                | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | Budokan: The Martial Spirit                                                                       | Electronic Arts         | Sega Genesis | 1990 | Europe
+|       | Bugs Bunny in Double Trouble                                                                      | Sega                    | Sega Genesis | 1996 | Europe
+|       | Bulls versus Blazers and the NBA Playoffs                                                         | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Bulls vs Lakers and the NBA Playoffs                                                              | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | Burning Force                                                                                     | Sega                    | Sega Genesis | 1991 | Europe
+|       | California Games                                                                                  | Sega                    | Sega Genesis | 1991 | Europe
+|       | Cannon Fodder                                                                                     | Virgin Interactive      | Sega Genesis | 1994 | Europe
+|       | Captain America and the Avengers                                                                  | Sega                    | Sega Genesis | 1992 | Europe
+|       | Captain Planet and the Planeteers                                                                 | Sega                    | Sega Genesis | 1993 | Europe
+|       | Castle of Illusion starring Mickey Mouse                                                          | Sega                    | Sega Genesis | 1990 | Europe
+|       | Castlevania: The New Generation                                                                   | Konami                  | Sega Genesis | 1994 | Europe
+|       | Centurion: Defender of Rome                                                                       | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | Chakan                                                                                            | Sega                    | Sega Genesis | 1992 | Europe
+|       | Champions World Class Soccer                                                                      | Flying Edge             | Sega Genesis | 1993 | Europe
+|       | Chaos Engine, The                                                                                 | MicroProse              | Sega Genesis | 1992 | Europe
+|       | Cheese Cat-Astrophe Starring Speedy Gonzales                                                      | Sega                    | Sega Genesis | 1995 | Europe
+|       | Chiki Chiki Boys                                                                                  | Sega                    | Sega Genesis | 1992 | Europe
+|       | Chuck Rock                                                                                        | Virgin Games            | Sega Genesis | 1992 | Europe
+|       | Chuck Rock II: Son of Chuck                                                                       | Core Design Ltd.        | Sega Genesis | 1993 | Europe
+|       | Classic Collection                                                                                | Sega                    | Sega Genesis | 1994 | Europe
+|       | ClayFighter                                                                                       | Interplay               | Sega Genesis | 1994 | Europe
+|       | Cliffhanger                                                                                       | Sony Imagesoft          | Sega Genesis | 1993 | Europe
+|       | Columns                                                                                           | Sega                    | Sega Genesis | 1990 | Europe
+|       | Combat Cars                                                                                       | Accolade                | Sega Genesis | 1994 | Europe
+|       | Comix Zone                                                                                        | Sega                    | Sega Genesis | 1995 | Europe
+|       | Cool Spot                                                                                         | Virgin Interactive      | Sega Genesis | 1994 | Europe
+|       | Corporation                                                                                       | Virgin Games            | Sega Genesis | 1992 | Europe
+|       | Cosmic Spacehead                                                                                  | Codemasters             | Sega Genesis | 1993 | Europe
+|       | Crack Down                                                                                        | Sega                    | Sega Genesis | 1991 | Europe
+|       | Crue Ball                                                                                         | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | Cutthroat Island                                                                                  | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | Cyberball                                                                                         | Sega                    | Sega Genesis | 1990 | Europe
+|       | Cyborg Justice                                                                                    | Sega                    | Sega Genesis | 1993 | Europe
+|       | Daffy Duck in Hollywood                                                                           | Sega                    | Sega Genesis | 1994 | Europe
+|       | Dark Castle                                                                                       | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | David Robinson's Supreme Court                                                                    | Sega                    | Sega Genesis | 1992 | Europe
+|       | Davis Cup World Tour                                                                              | Tengen                  | Sega Genesis | 1993 | Europe
+|       | Death and Return of Superman, The                                                                 | Acclaim                 | Sega Genesis | 1994 | Europe
+|       | DecapAttack                                                                                       | Sega                    | Sega Genesis | 1991 | Europe
+|       | Demolition Man                                                                                    | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | Desert Demolition Starring Road Runner and Wile E. Coyote                                         | Sega                    | Sega Genesis | 1994 | Europe
+|       | Desert Strike: Return to the Gulf                                                                 | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Dick Tracy                                                                                        | Sega                    | Sega Genesis | 1991 | Europe
+|       | Dino Dini's Soccer                                                                                | Virgin Interactive      | Sega Genesis | 1994 | Europe
+|       | Disney Collection: Castle of Illusion starring Mickey Mouse / QuackShot starring Donald Duck, The | Sega                    | Sega Genesis | 1996 | Europe
+|       | Disney's Aladdin                                                                                  | Sega                    | Sega Genesis | 1993 | Europe
+|       | Disney's Ariel: The Little Mermaid                                                                | Sega                    | Sega Genesis | 1992 | Europe
+|       | Disney's Bonkers                                                                                  | Sega                    | Sega Genesis | 1994 | Europe
+|       | Disney's Pinocchio                                                                                | Sega                    | Sega Genesis | 1995 | Europe
+|       | Disney's TaleSpin                                                                                 | Sega                    | Sega Genesis | 1992 | Europe
+|       | Disney's The Jungle Book                                                                          | Virgin Interactive      | Sega Genesis | 1994 | Europe
+|       | Disney's The Lion King                                                                            | Virgin Interactive      | Sega Genesis | 1994 | Europe
+|       | Disney's Toy Story                                                                                | Sega                    | Sega Genesis | 1996 | Europe
+|       | DJ Boy                                                                                            | Kaneko                  | Sega Genesis | 1991 | Europe
+|       | Donald in Maui Mallard                                                                            | Sega                    | Sega Genesis | 1995 | Europe
+|       | Double Clutch                                                                                     | ASCII Entertainment     | Sega Genesis | 1992 | Europe
+|       | Double Dragon                                                                                     | Accolade                | Sega Genesis | 1993 | Europe
+|       | Double Dragon 3: The Arcade Game                                                                  | Flying Edge             | Sega Genesis | 1993 | Europe
+|       | Dr. Robotnik And His Mean Bean Machine                                                            | Sega                    | Sega Genesis | 1993 | Europe
+|       | Dragon Ball Z                                                                                     | Bandai                  | Sega Genesis | 1994 | Europe
+|       | Dragon: The Bruce Lee Story                                                                       | Virgin Interactive      | Sega Genesis | 1993 | Europe
+|       | Dragon's Fury                                                                                     | Tengen                  | Sega Genesis | 1992 | Europe
+|       | Dragon's Revenge                                                                                  | Tengen                  | Sega Genesis | 1993 | Europe
+|       | Dune II: Battle for Arrakis                                                                       | Virgin Interactive      | Sega Genesis | 1993 | Europe
+|       | Dungeons & Dragons: Warriors of the Eternal Sun                                                   | Sega                    | Sega Genesis | 1992 | Europe
+|       | Dynamite Duke                                                                                     | Sega                    | Sega Genesis | 1990 | Europe
+|       | Dynamite Headdy                                                                                   | Sega                    | Sega Genesis | 1994 | Europe
+|       | EA Hockey                                                                                         | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | EA Sports Double Header                                                                           | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Earthworm Jim                                                                                     | Virgin Interactive      | Sega Genesis | 1994 | Europe
+|       | Earthworm Jim 2                                                                                   | Virgin Interactive      | Sega Genesis | 1995 | Europe
+|       | Ecco the Dolphin                                                                                  | Sega                    | Sega Genesis | 1993 | Europe
+|       | Ecco: The Tides of Time                                                                           | Sega                    | Sega Genesis | 1994 | Europe
+|       | Elitserien 95                                                                                     | Electronic Arts         | Sega Genesis | 1995 | Europe
+|       | Elitserien 96                                                                                     | Electronic Arts         | Sega Genesis | 1995 | Europe
+|       | Empire of Steel                                                                                   | Flying Edge             | Sega Genesis | 1992 | Europe
+|       | Escape 2042: The Truth Defenders                                                                  | Orion Soft              | Sega Genesis | 2017 | Europe
+|       | ESWAT: City Under Siege                                                                           | Sega                    | Sega Genesis | 1990 | Europe
+|       | Eternal Champions                                                                                 | Sega                    | Sega Genesis | 1993 | Europe
+|       | European Club Soccer                                                                              | Virgin Interactive      | Sega Genesis | 1992 | Europe
+|       | Evander 'Real Deal' Holyfield's Boxing                                                            | Sega                    | Sega Genesis | 1992 | Europe
+|       | Ex-Mutants                                                                                        | Sega                    | Sega Genesis | 1992 | Europe
+|       | ExoSquad                                                                                          | Virgin Interactive      | Sega Genesis | 1995 | Europe
+|       | F-117 Night Storm                                                                                 | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | F-15 Strike Eagle II                                                                              | MicroProse              | Sega Genesis | 1993 | Europe
+|       | F-22 Interceptor                                                                                  | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | F1                                                                                                | Tengen                  | Sega Genesis | 1993 | Europe
+|       | F1 World Championship                                                                             | Domark                  | Sega Genesis | 1993 | Europe
+|       | Faery Tale Adventure, The                                                                         | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | Fantasia                                                                                          | Sega                    | Sega Genesis | 1991 | Europe
+|       | Fantastic Dizzy                                                                                   | Codemasters             | Sega Genesis | 1993 | Europe
+|       | Fantastic Dizzy and Cosmic Spacehead Double Pack                                                  | Codemasters             | Sega Genesis | 1994 | Europe
+|       | Fatal Fury                                                                                        | Sega                    | Sega Genesis | 1993 | Europe
+|       | Fatal Labyrinth                                                                                   | Sega                    | Sega Genesis | 1991 | Europe
+|       | Fatal Rewind                                                                                      | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | Ferrari Grand Prix Challenge                                                                      | Flying Edge             | Sega Genesis | 1992 | Europe
+|       | Fever Pitch Soccer                                                                                | U.S. Gold               | Sega Genesis | 1995 | Europe
+|       | FIFA 97                                                                                           | EA Sports               | Sega Genesis | 1996 | Europe
+|       | FIFA International Soccer                                                                         | EA Sports               | Sega Genesis | 1994 | Europe
+|       | FIFA Soccer '95                                                                                   | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | FIFA Soccer 96                                                                                    | Electronic Arts         | Sega Genesis | 1995 | Europe
+|       | FIFA: En Route Pour La Coupe Du Monde 98                                                          | EA Sports               | Sega Genesis | 1997 | Europe
+|       | Fire Shark                                                                                        | Sega                    | Sega Genesis | 1991 | Europe
+|       | Flashback                                                                                         | U.S. Gold               | Sega Genesis | 1993 | Europe
+|       | Flicky                                                                                            | Sega                    | Sega Genesis | 1991 | Europe
+|       | Flink                                                                                             | Sony Imagesoft          | Sega Genesis | 1994 | Europe
+|       | Flintstones, The                                                                                  | Taito Corporation       | Sega Genesis | 1993 | Europe
+|       | Foreman For Real                                                                                  | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | Forgotten Worlds                                                                                  | Sega                    | Sega Genesis | 1990 | Europe
+|       | Frank Thomas Big Hurt Baseball                                                                    | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | Fun 'n Games                                                                                      | Sony Imagesoft          | Sega Genesis | 1993 | Europe
+|       | G-LOC Air Battle                                                                                  | Sega                    | Sega Genesis | 1993 | Europe
+|       | Gain Ground                                                                                       | Sega                    | Sega Genesis | 1991 | Europe
+|       | Galaxy Force II                                                                                   | Sega                    | Sega Genesis | 1992 | Europe
+|       | Garfield: Caught in the Act                                                                       | Sega                    | Sega Genesis | 1995 | Europe
+|       | Gauntlet IV                                                                                       | Tengen                  | Sega Genesis | 1993 | Europe
+|       | General Chaos                                                                                     | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | Generations Lost                                                                                  | Time Warner Interactive | Sega Genesis | 1994 | Europe
+|       | George Foreman's KO Boxing                                                                        | Flying Edge             | Sega Genesis | 1992 | Europe
+|       | Ghostbusters                                                                                      | Sega                    | Sega Genesis | 1990 | Europe
+|       | Ghouls 'n Ghosts                                                                                  | Sega                    | Sega Genesis | 1990 | Europe
+|       | Global Gladiators                                                                                 | Virgin Interactive      | Sega Genesis | 1993 | Europe
+|       | Gods                                                                                              | Accolade                | Sega Genesis | 1993 | Europe
+|       | Golden Axe                                                                                        | Sega                    | Sega Genesis | 1990 | Europe
+|       | Golden Axe II                                                                                     | Sega                    | Sega Genesis | 1991 | Europe
+|       | Grandslam: The Tennis Tournament                                                                  | Sega                    | Sega Genesis | 1992 | Europe
+|       | Greatest Heavyweights                                                                             | Sega                    | Sega Genesis | 1994 | Europe
+|       | Greendog: The Beached Surfer Dude!                                                                | Sega                    | Sega Genesis | 1992 | Europe
+|       | Gunship                                                                                           | U.S. Gold               | Sega Genesis | 1993 | Europe
+|       | Gunstar Heroes                                                                                    | Sega                    | Sega Genesis | 1993 | Europe
+|       | Gynoug                                                                                            | Sega                    | Sega Genesis | 1991 | Europe
+|       | Hard Drivin'                                                                                      | Tengen                  | Sega Genesis | 1991 | Europe
+|       | Hardball '94                                                                                      | Accolade                | Sega Genesis | 1994 | Europe
+|       | Hardball!                                                                                         | Ballistic               | Sega Genesis | 1991 | Europe
+|       | Haunting Starring Polterguy                                                                       | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Havoc                                                                                             | Codemasters             | Sega Genesis | 1994 | Europe
+|       | Hellfire                                                                                          | Sega                    | Sega Genesis | 1991 | Europe
+|       | Herzog Zwei                                                                                       | Sega                    | Sega Genesis | 1990 | Europe
+|       | Home Alone                                                                                        | Sega                    | Sega Genesis | 1992 | Europe
+|       | Hook                                                                                              | Sony Imagesoft          | Sega Genesis | 1992 | Europe
+|       | Hurricanes                                                                                        | U.S. Gold               | Sega Genesis | 1994 | Europe
+|       | HyperDunk                                                                                         | Konami                  | Sega Genesis | 1994 | Europe
+|       | HyperDunk                                                                                         | Konami                  | Sega Genesis | 1994 | Europe
+|       | IMG International Tour Tennis                                                                     | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | Immortal, The                                                                                     | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Incredible Crash Dummies, The                                                                     | Flying Edge             | Sega Genesis | 1994 | Europe
+|       | Incredible Hulk, The                                                                              | U.S. Gold               | Sega Genesis | 1994 | Europe
+|       | Indiana Jones and the Last Crusade                                                                | U.S. Gold               | Sega Genesis | 1992 | Europe
+|       | International Rugby                                                                               | Domark                  | Sega Genesis | 1993 | Europe
+|       | International Sensible Soccer - Limited Edition: World Champions                                  | Sony Imagesoft          | Sega Genesis | 1993 | Europe
+|       | International Superstar Soccer Deluxe                                                             | Konami                  | Sega Genesis | 1996 | Europe
+|       | Izzy's Quest for the Olympic Rings                                                                | U.S. Gold               | Sega Genesis | 1995 | Europe
+|       | Jack Nicklaus' Power Challenge Golf                                                               | Accolade                | Sega Genesis | 1993 | Europe
+|       | James 'Buster' Douglas Knockout Boxing                                                            | Taito Corporation       | Sega Genesis | 1991 | Europe
+|       | James Bond 007: The Duel                                                                          | Domark                  | Sega Genesis | 1993 | Europe
+|       | James Pond 3                                                                                      | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | James Pond II: Codename: Robocod                                                                  | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | James Pond: Underwater Agent                                                                      | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | Jewel Master                                                                                      | Sega                    | Sega Genesis | 1991 | Europe
+|       | Jimmy White's Whirlwind Snooker                                                                   | Virgin Interactive      | Sega Genesis | 1994 | Europe
+|       | Joe Montana Football                                                                              | Sega                    | Sega Genesis | 1991 | Europe
+|       | Joe Montana II: Sports Talk Football                                                              | Sega                    | Sega Genesis | 1991 | Europe
+|       | John Madden American Football                                                                     | Electronic Arts         | Sega Genesis | 1990 | Europe
+|       | John Madden Football '92                                                                          | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | John Madden Football '93                                                                          | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | Jordan vs Bird                                                                                    | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | Judge Dredd                                                                                       | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | Jungle Strike                                                                                     | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Jurassic Park                                                                                     | Sega                    | Sega Genesis | 1993 | Europe
+|       | Jurassic Park: Rampage Edition                                                                    | Sega                    | Sega Genesis | 1994 | Europe
+|       | Justice League Task Force                                                                         | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | Kawasaki Superbikes                                                                               | Domark                  | Sega Genesis | 1995 | Europe
+|       | Kick Off 3: European Challenge                                                                    | Vic Tokai               | Sega Genesis | 1994 | Europe
+|       | Kid Chameleon                                                                                     | Sega                    | Sega Genesis | 1992 | Europe
+|       | King of the Monsters                                                                              | Sega                    | Sega Genesis | 1993 | Europe
+|       | King's Bounty: The Conqueror's Quest                                                              | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | Klax                                                                                              | Tengen                  | Sega Genesis | 1990 | Europe
+|       | Krusty's Super Fun House                                                                          | Flying Edge             | Sega Genesis | 1992 | Europe
+|       | Lakers versus Celtics and the NBA Playoffs                                                        | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | Landstalker: The Treasures of King Nole                                                           | Sega                    | Sega Genesis | 1993 | Europe
+|       | Last Battle                                                                                       | Sega                    | Sega Genesis | 1990 | Europe
+|       | Lawnmower Man, The                                                                                | Time Warner Interactive | Sega Genesis | 1994 | Europe
+|       | Legend of Galahad, The                                                                            | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | Lemmings                                                                                          | Sega                    | Sega Genesis | 1992 | Europe
+|       | Lemmings 2: The Tribes                                                                            | Psygnosis               | Sega Genesis | 1994 | Europe
+|       | Lethal Enforcers                                                                                  | Konami                  | Sega Genesis | 1993 | Europe
+|       | Lethal Enforcers II: Gun Fighters                                                                 | Konami                  | Sega Genesis | 1994 | Europe
+|       | LHX Attack Chopper                                                                                | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | Light Crusader                                                                                    | Sega                    | Sega Genesis | 1995 | Europe
+|       | Lost Vikings, The                                                                                 | Interplay               | Sega Genesis | 1992 | Europe
+|       | Lost World: Jurassic Park, The                                                                    | Sega                    | Sega Genesis | 1997 | Europe
+|       | Lotus II: R.E.C.S                                                                                 | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Lotus Turbo Challenge                                                                             | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | M-1 Abrams Battle Tank                                                                            | Sega                    | Sega Genesis | 1991 | Europe
+|       | Madden NFL '94                                                                                    | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | Madden NFL '96                                                                                    | Electronic Arts         | Sega Genesis | 1995 | Europe
+|       | Madden NFL 95                                                                                     | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | Madden NFL 97                                                                                     | EA Sports               | Sega Genesis | 1997 | Europe
+|       | Man Overboard!                                                                                    | Codemasters             | Sega Genesis | 1994 | Europe
+|       | Marble Madness                                                                                    | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Mario Andretti Racing                                                                             | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | Mario Lemieux Hockey                                                                              | Sega                    | Sega Genesis | 1991 | Europe
+|       | Marko's Magic Football                                                                            | Domark                  | Sega Genesis | 1994 | Europe
+|       | Marsupilami                                                                                       | Sega                    | Sega Genesis | 1995 | Europe
+|       | Mazin Wars                                                                                        | Sega                    | Sega Genesis | 1993 | Europe
+|       | McDonald's Treasure Land Adventure                                                                | Sega                    | Sega Genesis | 1993 | Europe
+|       | Mega 6 Vol. 3                                                                                     | Sega                    | Sega Genesis | 1995 | Europe
+|       | Mega Bomberman                                                                                    | Sega                    | Sega Genesis | 1994 | Europe
+|       | Mega Games 2                                                                                      | Sega                    | Sega Genesis | 1993 | Europe
+|       | Mega Games 3                                                                                      | Sega                    | Sega Genesis | 1993 | Europe
+|       | Mega Games 6                                                                                      | Sega                    | Sega Genesis | 1995 | Europe
+|       | Mega Games 6 Vol. 2                                                                               | Sega                    | Sega Genesis | 1995 | Europe
+|       | Mega Games I                                                                                      | Sega                    | Sega Genesis | 1992 | Europe
+|       | Mega Lo Mania                                                                                     | Virgin Games            | Sega Genesis | 1992 | Europe
+|       | Mega Lo Mania                                                                                     | Virgin Games            | Sega Genesis | 1992 | Europe
+|       | Mega Man: The Wily Wars                                                                           | Capcom                  | Sega Genesis | 1995 | Europe
+|       | Mega SWIV                                                                                         | Time Warner Interactive | Sega Genesis | 1994 | Europe
+|       | Mega Turrican                                                                                     | Sony Imagesoft          | Sega Genesis | 1994 | Europe
+|       | Menacer 6-Game Cartridge                                                                          | Sega                    | Sega Genesis | 1992 | Europe
+|       | Mercs                                                                                             | Sega                    | Sega Genesis | 1991 | Europe
+|       | Michael Jackson's Moonwalker                                                                      | Sega                    | Sega Genesis | 1990 | Europe
+|       | Mickey Mania                                                                                      | Sony Imagesoft          | Sega Genesis | 1994 | Europe
+|       | Micro Machines                                                                                    | Codemasters             | Sega Genesis | 1993 | Europe
+|       | Micro Machines 2: Turbo Tournament                                                                | Codemasters             | Sega Genesis | 1994 | Europe
+|       | Micro Machines Military                                                                           | Codemasters             | Sega Genesis | 1996 | Europe
+|       | Micro Machines: Turbo Tournament 96                                                               | Codemasters             | Sega Genesis | 1995 | Europe
+|       | Midway Presents Arcade's Greatest Hits                                                            | Midway                  | Sega Genesis | 1996 | Europe
+|       | MIG-29 Fighter Pilot                                                                              | Domark                  | Sega Genesis | 1993 | Europe
+|       | Might and Magic: Gates to Another World                                                           | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | Mighty Morphin Power Rangers                                                                      | Sega                    | Sega Genesis | 1994 | Europe
+|       | Mighty Morphin Power Rangers: The Movie                                                           | Sega                    | Sega Genesis | 1995 | Europe
+|       | Mike Ditka Power Football                                                                         | Ballistic               | Sega Genesis | 1991 | Europe
+|       | Mortal Kombat                                                                                     | Arena                   | Sega Genesis | 1993 | Europe
+|       | Mortal Kombat 3                                                                                   | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | Mortal Kombat II                                                                                  | Acclaim                 | Sega Genesis | 1994 | Europe
+|       | Mr. Nutz                                                                                          | Ocean                   | Sega Genesis | 1994 | Europe
+|       | Ms. Pac-Man                                                                                       | Time Warner Interactive | Sega Genesis | 1992 | Europe
+|       | MTV's Beavis and Butt-head                                                                        | Viacom New Media        | Sega Genesis | 1994 | Europe
+|       | Muhammad Ali Heavyweight Boxing                                                                   | Virgin Interactive      | Sega Genesis | 1992 | Europe
+|       | Mutant League Football                                                                            | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Mutant League Hockey                                                                              | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | Mystic Defender                                                                                   | Sega                    | Sega Genesis | 1990 | Europe
+|       | NBA Action '95 starring David Robinson                                                            | Sega                    | Sega Genesis | 1995 | Europe
+|       | NBA All-Star Challenge                                                                            | Flying Edge             | Sega Genesis | 1993 | Europe
+|       | NBA Hang Time                                                                                     | Midway                  | Sega Genesis | 1996 | Europe
+|       | NBA Jam                                                                                           | Arena                   | Sega Genesis | 1994 | Europe
+|       | NBA Jam Tournament Edition                                                                        | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | NBA Live '96                                                                                      | Electronic Arts         | Sega Genesis | 1995 | Europe
+|       | NBA Live 95                                                                                       | EA Sports               | Sega Genesis | 1994 | Europe
+|       | NBA Live 97                                                                                       | EA Sports               | Sega Genesis | 1996 | Europe
+|       | NBA Showdown                                                                                      | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | Newman Haas IndyCar Featuring Nigel Mansell                                                       | Acclaim                 | Sega Genesis | 1994 | Europe
+|       | NFL Quarterback Club                                                                              | Acclaim                 | Sega Genesis | 1994 | Europe
+|       | NFL Quarterback Club 96                                                                           | Acclaim                 | Sega Genesis | 1996 | Europe
+|       | NFL Sports Talk Football '93 Starring Joe Montana                                                 | Sega                    | Sega Genesis | 1992 | Europe
+|       | NHL 97                                                                                            | Electronic Arts         | Sega Genesis | 1996 | Europe
+|       | NHL Hockey '94                                                                                    | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | NHLPA Hockey 93                                                                                   | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | Nigel Mansell's World Championship Racing                                                         | Konami                  | Sega Genesis | 1993 | Europe
+|       | Normy's Beach Babe-O-Rama                                                                         | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | Oh Mummy Genesis                                                                                  | 1985 Alternativo        | Sega Genesis | 2012 | Europe
+|       | Olympic Gold: Barcelona '92                                                                       | U.S. Gold               | Sega Genesis | 1992 | Europe
+|       | Olympic Summer Games: Atlanta 1996                                                                | Black Pearl             | Sega Genesis | 1996 | Europe
+|       | Ooze, The                                                                                         | Sega                    | Sega Genesis | 1995 | Europe
+|       | Ottifants, The                                                                                    | Sega                    | Sega Genesis | 1993 | Europe
+|       | OutRun                                                                                            | Sega                    | Sega Genesis | 1991 | Europe
+|       | OutRun 2019                                                                                       | Sega                    | Sega Genesis | 1993 | Europe
+|       | Pac-Mania                                                                                         | Tengen                  | Sega Genesis | 1991 | Europe
+|       | Pac-Panic                                                                                         | Namco                   | Sega Genesis | 1993 | Europe
+|       | Pagemaster, The                                                                                   | Fox Interactive         | Sega Genesis | 1994 | Europe
+|       | Paperboy                                                                                          | Tengen                  | Sega Genesis | 1991 | Europe
+|       | Paperboy 2                                                                                        | Tengen                  | Sega Genesis | 1992 | Europe
+|       | Pebble Beach Golf Links                                                                           | Sega                    | Sega Genesis | 1993 | Europe
+|       | Pele's World Tournament Soccer                                                                    | Accolade                | Sega Genesis | 1994 | Europe
+|       | Pete Sampras Tennis                                                                               | Codemasters             | Sega Genesis | 1994 | Europe
+|       | PGA European Tour                                                                                 | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | PGA Tour 96                                                                                       | Electronic Arts         | Sega Genesis | 1995 | Europe
+|       | PGA Tour Golf                                                                                     | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | PGA Tour Golf II                                                                                  | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | PGA Tour Golf III                                                                                 | EA Sports               | Sega Genesis | 1994 | Europe
+|       | Phantasy Star II                                                                                  | Sega                    | Sega Genesis | 1990 | Europe
+|       | Phantasy Star III: Generations of Doom                                                            | Sega                    | Sega Genesis | 1991 | Europe
+|       | Phantasy Star IV                                                                                  | Sega                    | Sega Genesis | 1995 | Europe
+|       | Phantom 2040                                                                                      | Viacom New Media        | Sega Genesis | 1995 | Europe
+|       | Phelios                                                                                           | Namco                   | Sega Genesis | 1990 | Europe
+|       | Pier Solar and the Great Architects                                                               | Watermelon Development  | Sega Genesis | 2010 | Europe
+|       | Pink Goes to Hollywood                                                                            | TecMagik                | Sega Genesis | 1993 | Europe
+|       | Pirates of Dark Water, The                                                                        | SunSoft                 | Sega Genesis | 1994 | Europe
+|       | Pit-Fighter                                                                                       | Tengen                  | Sega Genesis | 1991 | Europe
+|       | Pitfall: The Mayan Adventure                                                                      | Activision              | Sega Genesis | 1994 | Europe
+|       | Pocahontas                                                                                        | Sega                    | Sega Genesis | 1996 | Europe
+|       | Populous                                                                                          | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | Power Drive                                                                                       | U.S. Gold               | Sega Genesis | 1994 | Europe
+|       | Power Monger                                                                                      | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Predator 2                                                                                        | Arena                   | Sega Genesis | 1992 | Europe
+|       | Premier Manager                                                                                   | Sega                    | Sega Genesis | 1995 | Europe
+|       | Premier Manager 97                                                                                | Sega                    | Sega Genesis | 1996 | Europe
+|       | Primal Rage                                                                                       | Time Warner Interactive | Sega Genesis | 1995 | Europe
+|       | Prince of Persia                                                                                  | Domark                  | Sega Genesis | 1993 | Europe
+|       | Probotector                                                                                       | Konami                  | Sega Genesis | 1994 | Europe
+|       | Psycho Pinball                                                                                    | Codemasters             | Sega Genesis | 1994 | Europe
+|       | Puggsy                                                                                            | Psygnosis               | Sega Genesis | 1993 | Europe
+|       | Punisher, The                                                                                     | Capcom                  | Sega Genesis | 1994 | Europe
+|       | QuackShot starring Donald Duck                                                                    | Sega                    | Sega Genesis | 1991 | Europe
+|       | R.B.I. Baseball '94                                                                               | Tengen                  | Sega Genesis | 1994 | Europe
+|       | Radical Rex                                                                                       | Activision              | Sega Genesis | 1994 | Europe
+|       | Rambo III                                                                                         | Sega                    | Sega Genesis | 1990 | Europe
+|       | Ranger X                                                                                          | Sega                    | Sega Genesis | 1993 | Europe
+|       | Red Zone                                                                                          | Time Warner Interactive | Sega Genesis | 1994 | Europe
+|       | Ren & Stimpy Show Presents: Stimpy's Invention, The                                               | Sega                    | Sega Genesis | 1993 | Europe
+|       | Revenge of Shinobi, The                                                                           | Sega                    | Sega Genesis | 1990 | Europe
+|       | Revolution X                                                                                      | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | Rings of Power                                                                                    | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | Rise of the Robots                                                                                | Acclaim                 | Sega Genesis | 1994 | Europe
+|       | Risky Woods                                                                                       | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | Ristar                                                                                            | Sega                    | Sega Genesis | 1995 | Europe
+|       | Road Rash                                                                                         | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | Road Rash 3                                                                                       | Electronic Arts         | Sega Genesis | 1995 | Europe
+|       | Road Rash II                                                                                      | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | RoboCop 3                                                                                         | Flying Edge             | Sega Genesis | 1993 | Europe
+|       | RoboCop Versus The Terminator                                                                     | Virgin Interactive      | Sega Genesis | 1994 | Europe
+|       | Rock 'N' Roll Racing                                                                              | Interplay               | Sega Genesis | 1994 | Europe
+|       | Rocket Knight Adventures                                                                          | Konami                  | Sega Genesis | 1993 | Europe
+|       | Rolling Thunder 2                                                                                 | Namco                   | Sega Genesis | 1991 | Europe
+|       | Rolo to the Rescue                                                                                | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | Rugby World Cup 1995                                                                              | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | Sampras Tennis 96                                                                                 | Codemasters             | Sega Genesis | 1995 | Europe
+|       | Samurai Shodown                                                                                   | Takara                  | Sega Genesis | 1994 | Europe
+|       | Saturday Night Slam Masters                                                                       | Capcom                  | Sega Genesis | 1994 | Europe
+|       | seaQuest DSV                                                                                      | THQ                     | Sega Genesis | 1994 | Europe
+|       | Second Samurai                                                                                    | Psygnosis               | Sega Genesis | 1994 | Europe
+|       | Sega Sports 1: Super Monaco / Wimbledon / Ultimate Soccer                                         | Sega                    | Sega Genesis | 1995 | Europe
+|       | Sensible Soccer: European Champions                                                               | Renegade                | Sega Genesis | 1993 | Europe
+|       | Shadow Dancer: The Secret of Shinobi                                                              | Sega                    | Sega Genesis | 1991 | Europe
+|       | Shadow of the Beast                                                                               | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | Shadow of the Beast II                                                                            | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | Shaq-Fu                                                                                           | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | Shining Force                                                                                     | Sega                    | Sega Genesis | 1993 | Europe
+|       | Shining Force II                                                                                  | Sega                    | Sega Genesis | 1994 | Europe
+|       | Shining in the Darkness                                                                           | Sega                    | Sega Genesis | 1991 | Europe
+|       | Shinobi III: Return of the Ninja Master                                                           | Sega                    | Sega Genesis | 1993 | Europe
+|       | Side Pocket                                                                                       | Sega                    | Sega Genesis | 1992 | Europe
+|       | Silvestre y Piolin y sus Sigilosas Travesuras                                                     | Time Warner Interactive | Sega Genesis | 1994 | Europe
+|       | Simpsons: Bart vs. the Space Mutants, The                                                         | Flying Edge             | Sega Genesis | 1992 | Europe
+|       | Simpsons: Bart's Nightmare, The                                                                   | Flying Edge             | Sega Genesis | 1993 | Europe
+|       | Skeleton Krew                                                                                     | Core Design Ltd.        | Sega Genesis | 1995 | Europe
+|       | Skitchin'                                                                                         | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Smurfs Travel the World, The                                                                      | Infogrames              | Sega Genesis | 1996 | Europe
+|       | Smurfs, The                                                                                       | Infogrames              | Sega Genesis | 1995 | Europe
+|       | Snake Rattle n Roll                                                                               | Sega                    | Sega Genesis | 1993 | Europe
+|       | Soleil                                                                                            | Sega                    | Sega Genesis | 1994 | Europe
+|       | Sonic & Knuckles                                                                                  | Sega                    | Sega Genesis | 1994 | Europe
+|       | Sonic 3                                                                                           | Sega                    | Sega Genesis | 1994 | Europe
+|       | Sonic 3D: Flickies' Island                                                                        | Sega                    | Sega Genesis | 1996 | Europe
+|       | Sonic Compilation                                                                                 | Sega                    | Sega Genesis | 1995 | Europe
+|       | Sonic the Hedgehog                                                                                | Sega                    | Sega Genesis | 1991 | Europe
+|       | Sonic the Hedgehog 2                                                                              | Sega                    | Sega Genesis | 1992 | Europe
+|       | Sonic the Hedgehog Spinball                                                                       | Sega                    | Sega Genesis | 1993 | Europe
+|       | Space Harrier II                                                                                  | Sega                    | Sega Genesis | 1990 | Europe
+|       | Sparkster                                                                                         | Konami                  | Sega Genesis | 1994 | Europe
+|       | Speedball 2                                                                                       | Virgin Games            | Sega Genesis | 1992 | Europe
+|       | Spider-Man                                                                                        | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | Spider-Man                                                                                        | Sega                    | Sega Genesis | 1991 | Europe
+|       | Spider-Man / X-Men: Arcade's Revenge                                                              | Flying Edge             | Sega Genesis | 1993 | Europe
+|       | Spider-Man & Venom: Maximum Carnage                                                               | Acclaim                 | Sega Genesis | 1994 | Europe
+|       | Spider-Man the Animated Series                                                                    | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | Spirou                                                                                            | Infogrames              | Sega Genesis | 1996 | Europe
+|       | Splatterhouse 2                                                                                   | Sega                    | Sega Genesis | 1992 | Europe
+|       | Sports Talk Baseball                                                                              | Sega                    | Sega Genesis | 1991 | Europe
+|       | Spot Goes To Hollywood                                                                            | Virgin Interactive      | Sega Genesis | 1996 | Europe
+|       | Star Control                                                                                      | Ballistic               | Sega Genesis | 1991 | Europe
+|       | Star Trek: Deep Space Nine - Crossroads of Time                                                   | Virgin Interactive      | Sega Genesis | 1995 | Europe
+|       | StarFlight                                                                                        | Electronic Arts         | Sega Genesis | 1991 | Europe
+|       | Stargate                                                                                          | Acclaim                 | Sega Genesis | 1994 | Europe
+|       | Steel Talons                                                                                      | Tengen                  | Sega Genesis | 1992 | Europe
+|       | Story of Thor, The                                                                                | Sega                    | Sega Genesis | 1994 | Europe
+|       | Street Fighter II': Special Champion Edition                                                      | Sega                    | Sega Genesis | 1993 | Europe
+|       | Street Racer                                                                                      | Ubisoft                 | Sega Genesis | 1995 | Europe
+|       | Streets of Rage                                                                                   | Sega                    | Sega Genesis | 1991 | Europe
+|       | Streets of Rage 3                                                                                 | Sega                    | Sega Genesis | 1994 | Europe
+|       | Streets of Rage II                                                                                | Sega                    | Sega Genesis | 1993 | Europe
+|       | Strider                                                                                           | Sega                    | Sega Genesis | 1991 | Europe
+|       | Strider II                                                                                        | U.S. Gold               | Sega Genesis | 1990 | Europe
+|       | Striker                                                                                           | Sega                    | Sega Genesis | 1994 | Europe
+|       | Sub-Terrania                                                                                      | Sega                    | Sega Genesis | 1994 | Europe
+|       | Summer Challenge                                                                                  | Accolade                | Sega Genesis | 1993 | Europe
+|       | Sunset Riders                                                                                     | Konami                  | Sega Genesis | 1992 | Europe
+|       | Super Baseball 2020                                                                               | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | Super Fantasy Zone                                                                                | SunSoft                 | Sega Genesis | 1993 | Europe
+|       | Super Hang-On                                                                                     | Sega                    | Sega Genesis | 1990 | Europe
+|       | Super Hydlide                                                                                     | Sega                    | Sega Genesis | 1991 | Europe
+|       | Super Kick Off                                                                                    | U.S. Gold               | Sega Genesis | 1992 | Europe
+|       | Super League                                                                                      | Sega                    | Sega Genesis | 1990 | Europe
+|       | Super Monaco GP                                                                                   | Sega                    | Sega Genesis | 1991 | Europe
+|       | Super Off Road                                                                                    | Ballistic               | Sega Genesis | 1994 | Europe
+|       | Super Real Basketball                                                                             | Sega                    | Sega Genesis | 1990 | Europe
+|       | Super Skidmarks                                                                                   | Codemasters             | Sega Genesis | 1995 | Europe
+|       | Super Smash T.V.                                                                                  | Flying Edge             | Sega Genesis | 1992 | Europe
+|       | Super Street Fighter II                                                                           | Capcom                  | Sega Genesis | 1994 | Europe
+|       | Super Thunder Blade                                                                               | Sega                    | Sega Genesis | 1990 | Europe
+|       | Superman: The Man of Steel                                                                        | Virgin Interactive      | Sega Genesis | 1993 | Europe
+|       | Sword of Sodan                                                                                    | Electronic Arts         | Sega Genesis | 1990 | Europe
+|       | Sword of Vermilion                                                                                | Sega                    | Sega Genesis | 1990 | Europe
+|       | Syndicate                                                                                         | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | T2: The Arcade Game                                                                               | Arena                   | Sega Genesis | 1992 | Europe
+|       | Talmit's Adventure                                                                                | Sega                    | Sega Genesis | 1991 | Europe
+|       | Taz in Escape From Mars                                                                           | Sega                    | Sega Genesis | 1994 | Europe
+|       | Taz-Mania                                                                                         | Sega                    | Sega Genesis | 1992 | Europe
+|       | Team USA Basketball                                                                               | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | TechnoClash                                                                                       | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Teenage Mutant Hero Turtles: The Hyperstone Heist                                                 | Konami                  | Sega Genesis | 1992 | Europe
+|       | Teenage Mutant Hero Turtles: Tournament Fighters                                                  | Konami                  | Sega Genesis | 1993 | Europe
+|       | Telstar Double Value Games: Alien 3 / Predator 2                                                  | Telstar                 | Sega Genesis | 1995 | Europe
+|       | Telstar Double Value Games: Another World / Speedball 2                                           | Telstar                 | Sega Genesis | 1995 | Europe
+|       | Telstar Double Value Games: EA Sports Double Header / Lotus II: R.E.C.S.                          | Telstar                 | Sega Genesis | 1995 | Europe
+|       | Telstar Double Value Games: James Pond 3 / Zool: Ninja of the "Nth" Dimension                     | Telstar                 | Sega Genesis | 1995 | Europe
+|       | Telstar Double Value Games: Lotus Turbo Challenge / OutRun 2019                                   | Telstar                 | Sega Genesis | 1995 | Europe
+|       | Telstar Double Value Games: Pit-Fighter / Wrestle War                                             | Telstar                 | Sega Genesis | 1995 | Europe
+|       | Telstar Double Value Games: Sonic the Hedgehog 2 / Bubsy in: Claws Encounters of the Furred Kind  | Telstar                 | Sega Genesis | 1995 | Europe
+|       | Terminator 2: Judgment Day                                                                        | Flying Edge             | Sega Genesis | 1992 | Europe
+|       | Terminator, The                                                                                   | Virgin Interactive      | Sega Genesis | 1992 | Europe
+|       | Test Drive II: The Duel                                                                           | Ballistic               | Sega Genesis | 1992 | Europe
+|       | Theme Park                                                                                        | Electronic Arts         | Sega Genesis | 1995 | Europe
+|       | Thunder Force II                                                                                  | Sega                    | Sega Genesis | 1990 | Europe
+|       | Thunder Force IV                                                                                  | TechnoSoft              | Sega Genesis | 1992 | Europe
+|       | Time Killers                                                                                      | Black Pearl             | Sega Genesis | 1996 | Europe
+|       | Tintin in Tibet                                                                                   | Infogrames              | Sega Genesis | 1995 | Europe
+|       | Tiny Toon Adventures: ACME All-Stars                                                              | Konami                  | Sega Genesis | 1994 | Europe
+|       | Tiny Toon Adventures: Buster's Hidden Treasure                                                    | Konami                  | Sega Genesis | 1993 | Europe
+|       | ToeJam & Earl                                                                                     | Sega                    | Sega Genesis | 1992 | Europe
+|       | ToeJam & Earl in Panic on Funkotron                                                               | Sega                    | Sega Genesis | 1993 | Europe
+|       | Toki: Going Ape Spit                                                                              | Sega                    | Sega Genesis | 1991 | Europe
+|       | Tony La Russa Baseball                                                                            | EA Sports               | Sega Genesis | 1992 | Europe
+|       | Total Football                                                                                    | Domark                  | Sega Genesis | 1995 | Europe
+|       | Toughman Contest                                                                                  | EA Sports               | Sega Genesis | 1995 | Europe
+|       | True Lies                                                                                         | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | Truxton                                                                                           | Sega                    | Sega Genesis | 1990 | Europe
+|       | Turbo OutRun                                                                                      | Sega                    | Sega Genesis | 1992 | Europe
+|       | Turrican                                                                                          | Ballistic               | Sega Genesis | 1991 | Europe
+|       | Twin Hawk                                                                                         | Sega                    | Sega Genesis | 1990 | Europe
+|       | Two Crude Dudes                                                                                   | Data East               | Sega Genesis | 1992 | Europe
+|       | Two Tribes: Populous II                                                                           | Virgin Interactive      | Sega Genesis | 1993 | Europe
+|       | Ultimate Mortal Kombat 3                                                                          | Acclaim                 | Sega Genesis | 1996 | Europe
+|       | Ultimate Soccer                                                                                   | Sega                    | Sega Genesis | 1993 | Europe
+|       | Universal Soldier                                                                                 | Ballistic               | Sega Genesis | 1992 | Europe
+|       | Urban Strike                                                                                      | Electronic Arts         | Sega Genesis | 1994 | Europe
+|       | Vectorman                                                                                         | Sega                    | Sega Genesis | 1995 | Europe
+|       | Venom - Spider-Man: Separation Anxiety                                                            | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | Virtua Fighter 2                                                                                  | Sega                    | Sega Genesis | 1997 | Europe
+|       | Virtua Racing                                                                                     | Sega                    | Sega Genesis | 1994 | Europe
+|       | Virtual Bart                                                                                      | Acclaim                 | Sega Genesis | 1994 | Europe
+|       | Virtual Pinball                                                                                   | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | VR Troopers                                                                                       | Sega                    | Sega Genesis | 1995 | Europe
+|       | Warlock                                                                                           | Acclaim                 | Sega Genesis | 1994 | Europe
+|       | Warpspeed                                                                                         | Accolade                | Sega Genesis | 1993 | Europe
+|       | Wayne Gretzky and the NHLPA All-Stars                                                             | Time Warner Interactive | Sega Genesis | 1995 | Europe
+|       | Where in the World is Carmen Sandiego?                                                            | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | Where in Time is Carmen Sandiego?                                                                 | Electronic Arts         | Sega Genesis | 1992 | Europe
+|       | Wimbledon                                                                                         | Sega                    | Sega Genesis | 1994 | Europe
+|       | Winter Challenge                                                                                  | Accolade                | Sega Genesis | 1992 | Europe
+|       | Winter Olympics: Lillehammer '94                                                                  | U.S. Gold               | Sega Genesis | 1994 | Europe
+|       | Wiz 'n' Liz: The Frantic Wabbit Wescue                                                            | Psygnosis               | Sega Genesis | 1993 | Europe
+|       | Wolverine: Adamantium Rage                                                                        | Acclaim                 | Sega Genesis | 1994 | Europe
+|       | Wonder Boy III: Monster Lair                                                                      | Sega                    | Sega Genesis | 1991 | Europe
+|       | Wonder Boy in Monster World                                                                       | Sega                    | Sega Genesis | 1992 | Europe
+|       | World Championship Soccer 2                                                                       | Sega                    | Sega Genesis | 1994 | Europe
+|       | World Class Leaderboard                                                                           | U.S. Gold               | Sega Genesis | 1992 | Europe
+|       | World Cup Italia '90                                                                              | Sega                    | Sega Genesis | 1990 | Europe
+|       | World Cup USA 94                                                                                  | U.S. Gold               | Sega Genesis | 1994 | Europe
+|       | World of Illusion Starring Mickey Mouse & Donald Duck                                             | Sega                    | Sega Genesis | 1992 | Europe
+|       | Worms                                                                                             | Ocean                   | Sega Genesis | 1995 | Europe
+|       | Wrestle War                                                                                       | Sega                    | Sega Genesis | 1991 | Europe
+|       | WWF Raw                                                                                           | Acclaim                 | Sega Genesis | 1994 | Europe
+|       | WWF Royal Rumble                                                                                  | Flying Edge             | Sega Genesis | 1994 | Europe
+|       | WWF Super Wrestlemania                                                                            | Flying Edge             | Sega Genesis | 1992 | Europe
+|       | WWF WrestleMania: The Arcade Game                                                                 | Acclaim                 | Sega Genesis | 1995 | Europe
+|       | X-Men                                                                                             | Sega                    | Sega Genesis | 1993 | Europe
+|       | X-Men 2: Clone Wars                                                                               | Sega                    | Sega Genesis | 1995 | Europe
+|       | Xenon 2: Megablast                                                                                | Virgin Interactive      | Sega Genesis | 1992 | Europe
+|       | Yogi Bear's Cartoon Capers                                                                        | Empire Interactive      | Sega Genesis | 1994 | Europe
+|       | Zany Golf                                                                                         | Electronic Arts         | Sega Genesis | 1990 | Europe
+|       | Zero the Kamikaze Squirrel                                                                        | SunSoft                 | Sega Genesis | 1994 | Europe
+|       | Zero Tolerance                                                                                    | Accolade                | Sega Genesis | 1994 | Europe
+|       | Zero Wing                                                                                         | Sega                    | Sega Genesis | 1991 | Europe
+|       | Zombies                                                                                           | Konami                  | Sega Genesis | 1994 | Europe
+|       | Zool: Ninja of the "Nth" Dimension                                                                | Electronic Arts         | Sega Genesis | 1993 | Europe
+|       | Zoom!                                                                                             | Sega                    | Sega Genesis | 1990 | Europe
+|       | Zoop                                                                                              | Viacom New Media        | Sega Genesis | 1995 | Europe

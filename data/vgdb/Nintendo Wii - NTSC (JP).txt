@@ -1,0 +1,463 @@
+|       | 007: Nagusame no Houshuu                                                                 | Square Enix                | Nintendo Wii | 2009 | Japan
+|       | 2010 FIFA World Cup South Africa                                                         | EA Sports                  | Nintendo Wii | 2010 | Japan
+|       | 250 Mannin no Kanken: Wii de Tokoton Kanji Nou                                           | IE Institute               | Nintendo Wii | 2008 | Japan
+|       | 428: Fuusa Sareta Shibuya de                                                             | Sega                       | Nintendo Wii | 2008 | Japan
+|       | Akko de Pon! Ikasama Hourouki                                                            | Success                    | Nintendo Wii | 2008 | Japan
+|       | Akumajou Dracula Judgment                                                                | Konami                     | Nintendo Wii | 2009 | Japan
+|       | And-Kensaku                                                                              | Nintendo                   | Nintendo Wii | 2010 | Japan
+|       | Anime Slot Revolution: Pachi-Slot Kidou Senshi Gundam II - Ai Senshi Hen                 | Yamasa                     | Nintendo Wii | 2007 | Japan
+|       | Another Code:R - Kioku no Tobira                                                         | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Anpanman Niko Niko Party                                                                 | Agatsuma Entertainment     | Nintendo Wii | 2010 | Japan
+|       | Arc Rise Fantasia                                                                        | Marvelous Entertainment    | Nintendo Wii | 2009 | Japan
+|       | Argos no Senshi: Muscle Impact                                                           | Tecmo                      | Nintendo Wii | 2008 | Japan
+|       | Babysitter Mama                                                                          | Office Create              | Nintendo Wii | 2010 | Japan
+|       | Barnyard: Shuyaku wa Ore, Ushi                                                           | THQ                        | Nintendo Wii | 2007 | Japan
+|       | Baroque for Wii                                                                          | Sting                      | Nintendo Wii | 2008 | Japan
+|       | Billy's Boot Camp: Wii de Enjoy Diet!                                                    | Rocket Company             | Nintendo Wii | 2011 | Japan
+|       | BioHazard                                                                                | Capcom                     | Nintendo Wii | 2008 | Japan
+|       | BioHazard 0                                                                              | Capcom                     | Nintendo Wii | 2008 | Japan
+|       | BioHazard 4: Wii Edition                                                                 | Capcom                     | Nintendo Wii | 2007 | Japan
+|       | BioHazard Chronicles Value Pack                                                          | Capcom                     | Nintendo Wii | 2011 | Japan
+|       | BioHazard: The Darkside Chronicles                                                       | Capcom                     | Nintendo Wii | 2010 | Japan
+|       | BioHazard: Umbrella Chronicles                                                           | Capcom                     | Nintendo Wii | 2007 | Japan
+|       | Bleach Wii: Hakujin Kirameku Rondo                                                       | Sega                       | Nintendo Wii | 2006 | Japan
+|       | Bleach: Versus Crusade                                                                   | Sega                       | Nintendo Wii | 2008 | Japan
+|       | Blob: Colorful na Kibou                                                                  | THQ                        | Nintendo Wii | 2008 | Japan
+|       | Boku to Sim no Machi                                                                     | EA Games                   | Nintendo Wii | 2007 | Japan
+|       | Boku to Sim no Machi Agents                                                              | Electronic Arts            | Nintendo Wii | 2009 | Japan
+|       | Boku to Sim no Machi Kingdom                                                             | Electronic Arts            | Nintendo Wii | 2008 | Japan
+|       | Boku to Sim no Machi Party                                                               | EA Games                   | Nintendo Wii | 2009 | Japan
+|       | Boku to Sim no Machi Racing                                                              | EA Games                   | Nintendo Wii | 2009 | Japan
+|       | Bokujou Monogatari: Waku Waku Animal March                                               | Marvelous Entertainment    | Nintendo Wii | 2008 | Japan
+|       | Bokujou Monogatari: Yasuragi no Ki                                                       | Marvelous Entertainment    | Nintendo Wii | 2007 | Japan
+|       | Bomberman                                                                                | Hudson                     | Nintendo Wii | 2008 | Japan
+|       | Bomberman Land Wii                                                                       | Hudson Entertainment       | Nintendo Wii | 2007 | Japan
+|       | Boom Blox                                                                                | Electronic Arts            | Nintendo Wii | 2008 | Japan
+|       | Caduceus Z: 2-tsu no Chou Shittou                                                        | ATLUS                      | Nintendo Wii | 2006 | Japan
+|       | Caduceus: New Blood                                                                      | ATLUS                      | Nintendo Wii | 2008 | Japan
+|       | Calling: Kuroki Chakushin                                                                | Hudson Entertainment       | Nintendo Wii | 2009 | Japan
+|       | Captain Rainbow                                                                          | Nintendo                   | Nintendo Wii | 2008 | Japan
+|       | Carl Jii-San no Soratobu Ie                                                              | E-Frontier                 | Nintendo Wii | 2009 | Japan
+|       | Cars                                                                                     | THQ                        | Nintendo Wii | 2007 | Japan
+|       | Champion Jockey: G1 Jockey & Gallop Racer                                                | Koei Tecmo Games           | Nintendo Wii | 2011 | Japan
+|       | Chibi-Robo!                                                                              | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Chin Sports                                                                              | Sega                       | Nintendo Wii | 2009 | Japan
+|       | Chocobo no Fushigi na Dungeon: Toki Wasure No Meikyuu                                    | Square Enix                | Nintendo Wii | 2007 | Japan
+|       | Choro Q Wii                                                                              | Takara Tomy                | Nintendo Wii | 2008 | Japan
+|       | Cooking Mama 2: Taihen! Mama wa Ooisogashi!!                                             | Taito Corporation          | Nintendo Wii | 2008 | Japan
+|       | Cooking Mama: Minna to Issho ni Oryouri Taikai!                                          | Taito Corporation          | Nintendo Wii | 2007 | Japan
+|       | Crayon Shin-Chan: Saikyou Kazoku Kasukabe King Wii                                       | Banpresto                  | Nintendo Wii | 2006 | Japan
+|       | Crazy Climber Wii                                                                        | Nihon System               | Nintendo Wii | 2007 | Japan
+|       | Daikaijuu Battle: Ultra Coliseum                                                         | Bandai Namco Games         | Nintendo Wii | 2008 | Japan
+|       | Daikaijuu Battle: Ultra Coliseum DX - Ultra Senshi Daishuuketsu                          | Bandai Namco Games         | Nintendo Wii | 2010 | Japan
+|       | Dairantou Smash Brothers X                                                               | Nintendo                   | Nintendo Wii | 2008 | Japan
+|       | Dance Dance Revolution: Furu Furu Party                                                  | Konami                     | Nintendo Wii | 2008 | Japan
+|       | Dance Dance Revolution: Hottest Party                                                    | Konami                     | Nintendo Wii | 2007 | Japan
+|       | Dance Dance Revolution: Music Fit                                                        | Konami                     | Nintendo Wii | 2010 | Japan
+|       | Darts Wii Deluxe                                                                         | Alpha Unit                 | Nintendo Wii | 2009 | Japan
+|       | Dead Rising: Zombie no Ikenie                                                            | Capcom                     | Nintendo Wii | 2009 | Japan
+|       | Dead Space: Extraction                                                                   | Electronic Arts            | Nintendo Wii | 2009 | Japan
+|       | Deca Sporta 2: Wii de Sports "10" Shumoku!                                               | Hudson                     | Nintendo Wii | 2009 | Japan
+|       | Deca Sporta 3: Wii de Sports 10 Shumoku!                                                 | Hudson                     | Nintendo Wii | 2010 | Japan
+|       | Deca Sporta: Wii de Sports "10" Shumoku!                                                 | Hudson                     | Nintendo Wii | 2008 | Japan
+|       | Densha de Go! Shinkansen EX: Sanyou Shinkansen Hen                                       | Taito Corporation          | Nintendo Wii | 2007 | Japan
+|       | Dewy's Adventure: Suishou Dewy no Daibouken!!                                            | Konami                     | Nintendo Wii | 2007 | Japan
+|       | Disaster: Day of Crisis                                                                  | Nintendo                   | Nintendo Wii | 2008 | Japan
+|       | Disney Epic Mickey 2: Futatsu no Chikara                                                 | Spike Chunsoft             | Nintendo Wii | 2013 | Japan
+|       | Disney Epic Mickey: Mickey Mouse to Mahou no Fude                                        | Nintendo                   | Nintendo Wii | 2011 | Japan
+|       | Disney Princess: Mahou no Sekai e                                                        | Disney Interactive Studios | Nintendo Wii | 2007 | Japan
+|       | Disney TH!NK: Haya Oshi Quiz                                                             | Disney Interactive Studios | Nintendo Wii | 2008 | Japan
+|       | Disney/Pixar Remy no Oishii Restaurant                                                   | THQ                        | Nintendo Wii | 2007 | Japan
+|       | Doala de Wii                                                                             | Tera Box                   | Nintendo Wii | 2009 | Japan
+|       | Dog Island: Hitotsu no Hana no Monogatari, The                                           | Yuke's                     | Nintendo Wii | 2007 | Japan
+|       | Dokapon Kingdom for Wii                                                                  | Sting                      | Nintendo Wii | 2008 | Japan
+|       | Donkey Kong Jungle Beat                                                                  | Nintendo                   | Nintendo Wii | 2008 | Japan
+|       | Donkey Kong Returns                                                                      | Nintendo                   | Nintendo Wii | 2010 | Japan
+|       | Donkey Kong Taru Jet Race                                                                | Nintendo                   | Nintendo Wii | 2007 | Japan
+|       | Doraemon Wii: Himitsu Douguou Ketteisen!                                                 | Sega                       | Nintendo Wii | 2007 | Japan
+|       | Doubutsu Kisoutengai!                                                                    | Success                    | Nintendo Wii | 2008 | Japan
+|       | Dragon Ball Z: Sparking! Meteor                                                          | Bandai Namco Games         | Nintendo Wii | 2007 | Japan
+|       | Dragon Ball Z: Sparking! Neo                                                             | Namco Bandai Games         | Nintendo Wii | 2007 | Japan
+|       | Dragon Ball: Tenkaichi Daibouken                                                         | Bandai Namco Games         | Nintendo Wii | 2009 | Japan
+|       | Dragon Blade                                                                             | D3Publisher                | Nintendo Wii | 2007 | Japan
+|       | Dragon Quest 25 Shuunen Kinen: Famicom & Super Famicom Dragon Quest I-II-III             | Square Enix                | Nintendo Wii | 2011 | Japan
+|       | Dragon Quest Monsters: Battle Road Victory                                               | Square Enix                | Nintendo Wii | 2010 | Japan
+|       | Dragon Quest Sword: Kamen no Joou to Kagami no Tou                                       | Square Enix                | Nintendo Wii | 2007 | Japan
+|       | Dragon Quest X: All In One Package                                                       | Square Enix                | Nintendo Wii | 2014 | Japan
+|       | Dragon Quest X: Inishie no Ryuu no Denshou Online                                        | Square Enix                | Nintendo Wii | 2015 | Japan
+|       | Dragon Quest X: Mezameshi Itsutsu no Shuzoku Online                                      | Square Enix                | Nintendo Wii | 2012 | Japan
+|       | Dragon Quest X: Nemureru Yuusha to Michibiki no Meiyuu Online                            | Square Enix                | Nintendo Wii | 2013 | Japan
+|       | EA Sports Active Personal Trainer Wii: 6-Shuukan Shuuchuu Kishime Program                | Electronic Arts            | Nintendo Wii | 2010 | Japan
+|       | EA Sports Active: Personal Trainer Wii 30-Hi Seikatsu Kaizen Program                     | EA Sports                  | Nintendo Wii | 2009 | Japan
+|       | Earth Seeker                                                                             | Enterbrain                 | Nintendo Wii | 2011 | Japan
+|       | Elebits                                                                                  | Konami                     | Nintendo Wii | 2006 | Japan
+|       | Ennichi no Tatsujin                                                                      | Bandai Namco Games         | Nintendo Wii | 2006 | Japan
+|       | Excite Mou-Machine                                                                       | Nintendo                   | Nintendo Wii | 2011 | Japan
+|       | Excite Truck                                                                             | Nintendo                   | Nintendo Wii | 2007 | Japan
+|       | Eyeshield 21: Field Saikyou no Senshi Tachi                                              | Nintendo                   | Nintendo Wii | 2007 | Japan
+|       | F1 2009                                                                                  | Codemasters                | Nintendo Wii | 2009 | Japan
+|       | FaceBreaker K.O. Party                                                                   | EA Sports                  | Nintendo Wii | 2008 | Japan
+|       | Family Challenge Wii                                                                     | Konami                     | Nintendo Wii | 2009 | Japan
+|       | Family Fishing                                                                           | Bandai Namco Games         | Nintendo Wii | 2011 | Japan
+|       | Family Jockey                                                                            | Bandai Namco Games         | Nintendo Wii | 2008 | Japan
+|       | Family Ski                                                                               | Bandai Namco Games         | Nintendo Wii | 2008 | Japan
+|       | Family Ski: World Ski & Snowboard                                                        | Bandai Namco Games         | Nintendo Wii | 2008 | Japan
+|       | Family Trainer                                                                           | Bandai Namco Games         | Nintendo Wii | 2008 | Japan
+|       | Family Trainer 1 & 2                                                                     | Bandai Namco Games         | Nintendo Wii | 2009 | Japan
+|       | Family Trainer 2                                                                         | Bandai Namco Games         | Nintendo Wii | 2009 | Japan
+|       | FIFA 08: World Class Soccer                                                              | EA Sports                  | Nintendo Wii | 2007 | Japan
+|       | FIFA 09: All-Play                                                                        | EA Sports                  | Nintendo Wii | 2008 | Japan
+|       | FIFA 10: World Class Soccer                                                              | Electronic Arts            | Nintendo Wii | 2009 | Japan
+|       | Final Fantasy Crystal Chronicles: Echoes of Time                                         | Square Enix                | Nintendo Wii | 2009 | Japan
+|       | Final Fantasy Crystal Chronicles: The Crystal Bearers                                    | Square Enix                | Nintendo Wii | 2009 | Japan
+|       | Fire Emblem: Akatsuki no Megami                                                          | Nintendo                   | Nintendo Wii | 2007 | Japan
+|       | Fish Eyes Wii                                                                            | Marvelous Entertainment    | Nintendo Wii | 2009 | Japan
+|       | Fit in Six: Carada o Kitaeru 6-tsu no Youso                                              | Ubisoft                    | Nintendo Wii | 2011 | Japan
+|       | Fitness Party                                                                            | Bandai Namco Games         | Nintendo Wii | 2010 | Japan
+|       | Forever Blue                                                                             | Nintendo                   | Nintendo Wii | 2007 | Japan
+|       | Forever Blue 2: Umi no Yobigoe                                                           | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Fragile: Sayonara Tsuki no Haikyo                                                        | Bandai Namco Games         | Nintendo Wii | 2009 | Japan
+|       | Fullmetal Alchemist: Tasogare no Shoujo                                                  | Square Enix                | Nintendo Wii | 2009 | Japan
+|       | Furu Furu Park                                                                           | Taito Corporation          | Nintendo Wii | 2007 | Japan
+|       | Fushigi no Dungeon - Furai no Shiren 3: Karakuri Yashiki no Nemuri Hime                  | Sega                       | Nintendo Wii | 2008 | Japan
+|       | G1 Jockey Wii                                                                            | Koei                       | Nintendo Wii | 2007 | Japan
+|       | G1 Jockey Wii 2008                                                                       | Koei                       | Nintendo Wii | 2008 | Japan
+|       | Gegege no Kitarou: Youkai Daiundoukai                                                    | Bandai Namco Games         | Nintendo Wii | 2007 | Japan
+|       | Ghost Squad                                                                              | Sega                       | Nintendo Wii | 2007 | Japan
+|       | Ginsei Table Games Wii                                                                   | Electronic Arts            | Nintendo Wii | 2008 | Japan
+|       | Gintama: Yorozuya Chuubu                                                                 | Bandai Namco Games         | Nintendo Wii | 2007 | Japan
+|       | Go Vacation                                                                              | Bandai Namco Games         | Nintendo Wii | 2011 | Japan
+|       | Go! Go! Minon                                                                            | Success                    | Nintendo Wii | 2007 | Japan
+|       | GoldenEye 007                                                                            | Nintendo                   | Nintendo Wii | 2011 | Japan
+|       | Grand Slam Tennis                                                                        | Electronic Arts            | Nintendo Wii | 2009 | Japan
+|       | GT Pro Series                                                                            | MTO                        | Nintendo Wii | 2007 | Japan
+|       | GTI Club World: City Race                                                                | Konami                     | Nintendo Wii | 2010 | Japan
+|       | Guilty Gear XX Accent Core                                                               | Arc System Works           | Nintendo Wii | 2007 | Japan
+|       | Guitar Hero III: Legends of Rock                                                         | Activision                 | Nintendo Wii | 2008 | Japan
+|       | Guitar Hero: Aerosmith on Tour                                                           | Activision                 | Nintendo Wii | 2008 | Japan
+|       | Hagane no Renkinjutsushi: Fullmetal Alchemist - Akatsuki no Ouji                         | Square Enix                | Nintendo Wii | 2009 | Japan
+|       | Hajime no Ippo Revolution                                                                | AQ Interactive             | Nintendo Wii | 2007 | Japan
+|       | Hajimete no Wii                                                                          | Nintendo                   | Nintendo Wii | 2006 | Japan
+|       | Haneru no Tobira Wii: Girigirissu                                                        | Bandai Namco Games         | Nintendo Wii | 2007 | Japan
+|       | Happy Dance Collection                                                                   | Bandai Namco Games         | Nintendo Wii | 2008 | Japan
+|       | Harry Potter to Fushichou no Kishidan                                                    | EA Games                   | Nintendo Wii | 2007 | Japan
+|       | Harukanaru Toki no Naka de 4                                                             | Koei                       | Nintendo Wii | 2008 | Japan
+|       | Hataraku Hito                                                                            | Hudson                     | Nintendo Wii | 2008 | Japan
+|       | High School Musical DANCE!                                                               | Disney Interactive Studios | Nintendo Wii | 2009 | Japan
+|       | Hoshi no Kirby Wii                                                                       | Nintendo                   | Nintendo Wii | 2011 | Japan
+|       | Hoshi no Kirby: 20-Shuunen Special Collection                                            | Nintendo                   | Nintendo Wii | 2012 | Japan
+|       | HOSPITAL. 6-nin no Ishi                                                                  | ATLUS                      | Nintendo Wii | 2010 | Japan
+|       | House of the Dead 2 & 3 Return, The                                                      | Sega                       | Nintendo Wii | 2008 | Japan
+|       | House of the Dead: Overkill, The                                                         | Sega                       | Nintendo Wii | 2009 | Japan
+|       | Hula Wii: Hula de Hajimeru - Bi to Kenkou!                                               | MileStone Inc.             | Nintendo Wii | 2008 | Japan
+|       | Hula Wii: Motto Jouzu no Fura o Odorou!!                                                 | MileStone Inc.             | Nintendo Wii | 2009 | Japan
+|       | Ikenie no Yoru                                                                           | Marvelous Entertainment    | Nintendo Wii | 2011 | Japan
+|       | Illvelo Wii: Illmatic Envelope                                                           | MileStone Inc.             | Nintendo Wii | 2008 | Japan
+|       | Imabikisou: Kaimei Hen                                                                   | Sega                       | Nintendo Wii | 2008 | Japan
+|       | Inazuma Eleven Go: Strikers 2013                                                         | Level 5                    | Nintendo Wii | 2012 | Japan
+|       | Inazuma Eleven Strikers                                                                  | Level 5                    | Nintendo Wii | 2011 | Japan
+|       | Inazuma Eleven Strikers 2012 Xtreme                                                      | Level 5                    | Nintendo Wii | 2011 | Japan
+|       | Isometric & Karate Exercise: Wii de Kotsuban Fitness                                     | IE Institute               | Nintendo Wii | 2009 | Japan
+|       | Issho ni Asobu! Dream Theme Park                                                         | Bandai Namco Games         | Nintendo Wii | 2011 | Japan
+|       | Itadaki Street Wii                                                                       | Square Enix                | Nintendo Wii | 2011 | Japan
+|       | Ivy the Kiwi?                                                                            | Bandai Namco Games         | Nintendo Wii | 2010 | Japan
+|       | Jawa: Mammoth to Himitsu no Ishi                                                         | Spike                      | Nintendo Wii | 2008 | Japan
+|       | Jigsaw Puzzle: Kyou no Wanko                                                             | Hudson                     | Nintendo Wii | 2007 | Japan
+|       | Jikkyou Powerful Major League 2 Wii                                                      | Konami                     | Nintendo Wii | 2007 | Japan
+|       | Jikkyou Powerful Major League 2009                                                       | Konami                     | Nintendo Wii | 2009 | Japan
+|       | Jikkyou Powerful Major League 3                                                          | Konami                     | Nintendo Wii | 2008 | Japan
+|       | Jikkyou Powerful Pro Yakyuu 15                                                           | Konami                     | Nintendo Wii | 2008 | Japan
+|       | Jikkyou Powerful Pro Yakyuu Next                                                         | Konami                     | Nintendo Wii | 2009 | Japan
+|       | Jikkyou Powerful Pro Yakyuu Wii                                                          | Konami                     | Nintendo Wii | 2007 | Japan
+|       | Jikkyou Powerful Pro Yakyuu Wii Ketteiban                                                | Konami                     | Nintendo Wii | 2007 | Japan
+|       | Jinsei Game Wii                                                                          | Takara Tomy                | Nintendo Wii | 2007 | Japan
+|       | Jinsei Game Wii EX                                                                       | Takara Tomy                | Nintendo Wii | 2008 | Japan
+|       | Jinsei Game: Happy Family                                                                | Takara Tomy                | Nintendo Wii | 2010 | Japan
+|       | Jissen Pachi-Slot Pachinko Hisshouhou! Sammy's Collection Hokuto no Ken Wii              | Sega                       | Nintendo Wii | 2007 | Japan
+|       | Just Dance Wii                                                                           | Nintendo                   | Nintendo Wii | 2011 | Japan
+|       | Just Dance Wii 2                                                                         | Nintendo                   | Nintendo Wii | 2012 | Japan
+|       | Kage no Tou                                                                              | Hudson Soft                | Nintendo Wii | 2010 | Japan
+|       | Kamen Rider Climax Heroes Fourze                                                         | Bandai Namco Games         | Nintendo Wii | 2011 | Japan
+|       | Kamen Rider Climax Heroes OOO                                                            | Bandai Namco Games         | Nintendo Wii | 2010 | Japan
+|       | Kamen Rider: Chou Climax Heroes                                                          | Bandai Namco Games         | Nintendo Wii | 2012 | Japan
+|       | Kamen Rider: Climax Heroes W                                                             | Bandai Namco Games         | Nintendo Wii | 2009 | Japan
+|       | Karaoke Joysound Wii                                                                     | Hudson                     | Nintendo Wii | 2009 | Japan
+|       | Karaoke Joysound Wii DX                                                                  | Hudson                     | Nintendo Wii | 2009 | Japan
+|       | Karaoke Joysound Wii Super DX: Hitori de Minna de Utai Houdai!                           | Hudson                     | Nintendo Wii | 2010 | Japan
+|       | Karaoke Joysound Wii: Duet Kyokuhen                                                      | Hudson                     | Nintendo Wii | 2010 | Japan
+|       | Karaoke Joysound Wii: Enka Kayoukyoku Hen                                                | Hudson                     | Nintendo Wii | 2010 | Japan
+|       | Kaseki Monster: Spectrobes                                                               | Disney Interactive Studios | Nintendo Wii | 2010 | Japan
+|       | Katekyoo Hitman Reborn! Dream Hyper Battle! Wii                                          | Marvelous Entertainment    | Nintendo Wii | 2008 | Japan
+|       | Katekyoo Hitman Reborn! Kindan no Yami no Delta                                          | Marvelous Entertainment    | Nintendo Wii | 2008 | Japan
+|       | Kaze no Klonoa: Door to Phantomile                                                       | Bandai Namco Games         | Nintendo Wii | 2008 | Japan
+|       | Keito no Kirby                                                                           | Nintendo                   | Nintendo Wii | 2010 | Japan
+|       | Kekkaishi: Kokubourou no Kage                                                            | Bandai Namco Games         | Nintendo Wii | 2007 | Japan
+|       | Kidou Senshi Gundam: MS Sensen 0079                                                      | Bandai Namco Games         | Nintendo Wii | 2007 | Japan
+|       | Kiki Trick                                                                               | Nintendo                   | Nintendo Wii | 2012 | Japan
+|       | Kororinpa                                                                                | Hudson                     | Nintendo Wii | 2006 | Japan
+|       | Kororinpa 2: Anthony to Kiniro Himawari no Tane                                          | Konami                     | Nintendo Wii | 2009 | Japan
+|       | Kotoba no Puzzle: Mojipittan Wii Deluxe                                                  | Bandai Namco Games         | Nintendo Wii | 2008 | Japan
+|       | Kung Fu Panda                                                                            | Activision                 | Nintendo Wii | 2008 | Japan
+|       | Kyoufu Taikan: Juon                                                                      | AQ Interactive             | Nintendo Wii | 2009 | Japan
+|       | Last Story, The                                                                          | Nintendo                   | Nintendo Wii | 2011 | Japan
+|       | LEGO Star Wars: The Complete Saga                                                        | Activision                 | Nintendo Wii | 2008 | Japan
+|       | Let's TAP                                                                                | Sega                       | Nintendo Wii | 2008 | Japan
+|       | Lewis to Mirai Dorobou                                                                   | Disney Interactive Studios | Nintendo Wii | 2007 | Japan
+|       | Link no Bowgun Training                                                                  | Nintendo                   | Nintendo Wii | 2008 | Japan
+|       | Machi e Ikouyo: Doubutsu no Mori                                                         | Nintendo                   | Nintendo Wii | 2008 | Japan
+|       | MadWorld                                                                                 | Spike                      | Nintendo Wii | 2010 | Japan
+|       | Mahjong Kakutou Club Wii: Wi-Fi Taiou                                                    | Konami                     | Nintendo Wii | 2009 | Japan
+|       | Mahjong Taikai Wii                                                                       | Koei                       | Nintendo Wii | 2007 | Japan
+|       | Mahou Sensei Negima!? Neo-Pactio Fight!!                                                 | Marvelous Entertainment    | Nintendo Wii | 2007 | Japan
+|       | Major Dream: Major Wii Nagero! Gyroball!!                                                | Takara Tomy                | Nintendo Wii | 2008 | Japan
+|       | Major Dream: Major Wii Perfect Closer                                                    | Takara Tomy                | Nintendo Wii | 2008 | Japan
+|       | Mario & Sonic at Bejing Olympics                                                         | Nintendo                   | Nintendo Wii | 2007 | Japan
+|       | Mario & Sonic at London Olympics                                                         | Nintendo                   | Nintendo Wii | 2011 | Japan
+|       | Mario & Sonic at Vancouver Olympics                                                      | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Mario Kart Wii                                                                           | Nintendo                   | Nintendo Wii | 2008 | Japan
+|       | Mario Party 8                                                                            | Nintendo                   | Nintendo Wii | 2007 | Japan
+|       | Mario Party 9                                                                            | Nintendo                   | Nintendo Wii | 2012 | Japan
+|       | Mario Sports Mix                                                                         | Nintendo                   | Nintendo Wii | 2010 | Japan
+|       | Mario Strikers Charged                                                                   | Nintendo                   | Nintendo Wii | 2007 | Japan
+|       | Mario Tennis GC                                                                          | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Marvel: Ultimate Alliance                                                                | Interchannel               | Nintendo Wii | 2007 | Japan
+|       | Medal of Honor Heroes 2                                                                  | Electronic Arts            | Nintendo Wii | 2008 | Japan
+|       | Meitantei Conan: Tsuioku no Mirage                                                       | Marvelous Entertainment    | Nintendo Wii | 2007 | Japan
+|       | Meja-Maji March                                                                          | Square Enix                | Nintendo Wii | 2009 | Japan
+|       | Metal Fight Beyblade: Gachinko Stadium                                                   | Hudson                     | Nintendo Wii | 2009 | Japan
+|       | Metal Slug Complete                                                                      | SNK Playmore               | Nintendo Wii | 2007 | Japan
+|       | Metroid Prime                                                                            | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Metroid Prime 2: Dark Echoes                                                             | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Metroid Prime 3: Corruption                                                              | Nintendo                   | Nintendo Wii | 2008 | Japan
+|       | Metroid: Other M                                                                         | Nintendo                   | Nintendo Wii | 2010 | Japan
+|       | Mezase! Tsuri Master: Sekai ni Challenge! Hen                                            | Hudson                     | Nintendo Wii | 2008 | Japan
+|       | Mezase!! Tsuri Master                                                                    | Hudson                     | Nintendo Wii | 2007 | Japan
+|       | Miburi & Teburi                                                                          | Sega                       | Nintendo Wii | 2008 | Japan
+|       | Michael Jackson The Experience                                                           | Ubisoft                    | Nintendo Wii | 2011 | Japan
+|       | Milestone Shooting Collection 2                                                          | MileStone Inc.             | Nintendo Wii | 2010 | Japan
+|       | Milestone Shooting Collection: Karous Wii                                                | MileStone Inc.             | Nintendo Wii | 2008 | Japan
+|       | Minna de Asobou! Namco Carnival                                                          | Bandai Namco Games         | Nintendo Wii | 2007 | Japan
+|       | Minna de Bouken! Family Trainer                                                          | Bandai Namco Games         | Nintendo Wii | 2010 | Japan
+|       | Minna ga Shuyaku no NHK Kouhaku Quiz Gassen                                              | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Minna no Joushiki Ryoku TV                                                               | Nintendo                   | Nintendo Wii | 2008 | Japan
+|       | Minna no Rhythm Tengoku                                                                  | Nintendo                   | Nintendo Wii | 2011 | Japan
+|       | Momotarou Dentetsu 16                                                                    | Hudson                     | Nintendo Wii | 2007 | Japan
+|       | Momotarou Dentetsu 2010: Sengoku Ishin no Hero Daishuugou! no Maki                       | Hudson                     | Nintendo Wii | 2009 | Japan
+|       | Momu-chan Diet Wii: Figurobics by Chon Dayon                                             | IE Institute               | Nintendo Wii | 2010 | Japan
+|       | Monopoly                                                                                 | Electronic Arts            | Nintendo Wii | 2009 | Japan
+|       | Monster 4X4: World Circuit                                                               | Ubisoft                    | Nintendo Wii | 2006 | Japan
+|       | Monster Hunter 3                                                                         | Capcom                     | Nintendo Wii | 2009 | Japan
+|       | Monster Hunter G                                                                         | Capcom                     | Nintendo Wii | 2009 | Japan
+|       | Narnia Kuni Monogatari Dai-2-Shou: Caspian Ouji no Tsunobue                              | Disney Interactive Studios | Nintendo Wii | 2008 | Japan
+|       | Naruto Shippuden Gekitou Ninja Taisen EX2                                                | Takara Tomy                | Nintendo Wii | 2007 | Japan
+|       | Naruto Shippuden Gekitou Ninja Taisen EX3                                                | Takara Tomy                | Nintendo Wii | 2008 | Japan
+|       | Naruto Shippuden: Gekitou Ninja Taisen EX                                                | Takara Tomy                | Nintendo Wii | 2007 | Japan
+|       | Naruto Shippuden: Gekitou Ninja Taisen Special                                           | Takara Tomy                | Nintendo Wii | 2010 | Japan
+|       | Naruto Shippuden: Ryujinki                                                               | Takara Tomy                | Nintendo Wii | 2009 | Japan
+|       | Necro-Nesia                                                                              | Spike                      | Nintendo Wii | 2006 | Japan
+|       | Need for Speed Carbon                                                                    | EA Games                   | Nintendo Wii | 2006 | Japan
+|       | Need for Speed ProStreet                                                                 | EA Games                   | Nintendo Wii | 2008 | Japan
+|       | Need for Speed Undercover                                                                | Electronic Arts            | Nintendo Wii | 2008 | Japan
+|       | Need for Speed: Hot Pursuit                                                              | Electronic Arts            | Nintendo Wii | 2010 | Japan
+|       | Need for Speed: Nitro                                                                    | EA Games                   | Nintendo Wii | 2009 | Japan
+|       | Need for Speed: The Run                                                                  | Electronic Arts            | Nintendo Wii | 2011 | Japan
+|       | New Super Mario Bros. Wii                                                                | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | New Unou Kids Wii                                                                        | IE Institute               | Nintendo Wii | 2008 | Japan
+|       | NiGHTS: Hoshi Furu Yoru no Monogatari                                                    | Sega                       | Nintendo Wii | 2007 | Japan
+|       | Nihon Yakyuu Kikou Shounin: Batting Revolution                                           | Alpha Unit                 | Nintendo Wii | 2009 | Japan
+|       | Ninja Reflex                                                                             | Electronic Arts            | Nintendo Wii | 2008 | Japan
+|       | Nitrobike                                                                                | Ubisoft                    | Nintendo Wii | 2008 | Japan
+|       | No More Heroes                                                                           | Marvelous Entertainment    | Nintendo Wii | 2007 | Japan
+|       | No More Heroes 2: Desperate Struggle                                                     | Marvelous Entertainment    | Nintendo Wii | 2010 | Japan
+|       | Nobunaga no Yabou: Kakushin with Power-Up Kit                                            | Koei                       | Nintendo Wii | 2008 | Japan
+|       | Nobunaga no Yabou: Kakushin with Power-Up Kit                                            | Koei                       | Nintendo Wii | 2008 | Japan
+|       | Nodame Cantabile: Dream * Orchestra                                                      | Bandai Namco Games         | Nintendo Wii | 2007 | Japan
+|       | Nyanko to Mahou no Boushi                                                                | Ubisoft                    | Nintendo Wii | 2007 | Japan
+|       | Oboro Muramasa                                                                           | Marvelous Entertainment    | Nintendo Wii | 2009 | Japan
+|       | Odoru Made in Wario                                                                      | Nintendo                   | Nintendo Wii | 2006 | Japan
+|       | One Piece Unlimited Cruise: Episode 1 - Nami ni Yureru Hihou                             | Bandai Namco Games         | Nintendo Wii | 2008 | Japan
+|       | One Piece Unlimited Cruise: Episode 2 - Mezameru Yuusha                                  | Bandai Namco Games         | Nintendo Wii | 2009 | Japan
+|       | One Piece: Unlimited Adventure                                                           | Namco Bandai Games         | Nintendo Wii | 2007 | Japan
+|       | Oneechanbara Revolution                                                                  | D3Publisher                | Nintendo Wii | 2008 | Japan
+|       | Ookami                                                                                   | Capcom                     | Nintendo Wii | 2009 | Japan
+|       | Opoona                                                                                   | Koei                       | Nintendo Wii | 2007 | Japan
+|       | Osouji Sentai Clean Keeper                                                               | Idea Factory               | Nintendo Wii | 2008 | Japan
+|       | Ougon no Kizuna                                                                          | Jaleco Entertainment       | Nintendo Wii | 2009 | Japan
+|       | Ousama Monogatari                                                                        | Marvelous Entertainment    | Nintendo Wii | 2009 | Japan
+|       | Oyako de Asobo: Miffy no Omocha Bako                                                     | Square Enix                | Nintendo Wii | 2010 | Japan
+|       | Pac-Man Party                                                                            | Bandai Namco Games         | Nintendo Wii | 2010 | Japan
+|       | Pandora no Tou: Kimi no Moto e Kaerumade                                                 | Nintendo                   | Nintendo Wii | 2011 | Japan
+|       | Party Game Box 100                                                                       | Hudson                     | Nintendo Wii | 2010 | Japan
+|       | Phantom Brave Wii                                                                        | Nippon Ichi Software       | Nintendo Wii | 2009 | Japan
+|       | Pikmin                                                                                   | Nintendo                   | Nintendo Wii | 2008 | Japan
+|       | Pikmin 2                                                                                 | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Pirates of the Caribbean: At World's End                                                 | Disney Interactive Studios | Nintendo Wii | 2007 | Japan
+|       | Playground: Kouen de Asobou!                                                             | Electronic Arts            | Nintendo Wii | 2008 | Japan
+|       | Pokemon Battle Revolution                                                                | Nintendo                   | Nintendo Wii | 2006 | Japan
+|       | PokePark 2: Beyond the World                                                             | Nintendo                   | Nintendo Wii | 2011 | Japan
+|       | PokePark Wii: Pikachu no Daibouken                                                       | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Pop'n Music                                                                              | Konami                     | Nintendo Wii | 2009 | Japan
+|       | PreCure All-Stars: Zenin Shuugou * Let's Dance!                                          | Bandai Namco Games         | Nintendo Wii | 2013 | Japan
+|       | Pro Golfer Saru                                                                          | Bandai Namco Games         | Nintendo Wii | 2008 | Japan
+|       | Pro Yakyuu Family Stadium                                                                | Bandai Namco Games         | Nintendo Wii | 2008 | Japan
+|       | Puchi Copter Wii: Adventure Flight                                                       | Arc System Works           | Nintendo Wii | 2007 | Japan
+|       | Punch-Out!!                                                                              | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Puyo Puyo 7                                                                              | Sega                       | Nintendo Wii | 2009 | Japan
+|       | Puyo Puyo! 15th Anniversary                                                              | Sega                       | Nintendo Wii | 2007 | Japan
+|       | Puyo Puyo!! 20th Anniversary                                                             | Sega                       | Nintendo Wii | 2011 | Japan
+|       | Puzzle Series Vol. 1: Sudoku                                                             | Hudson                     | Nintendo Wii | 2007 | Japan
+|       | Puzzle Series Vol. 2: Illust Logic + Colorful Logic                                      | Hudson                     | Nintendo Wii | 2008 | Japan
+|       | Rabbids Go Home                                                                          | Ubisoft                    | Nintendo Wii | 2009 | Japan
+|       | Rabbids Party                                                                            | Ubisoft                    | Nintendo Wii | 2006 | Japan
+|       | Rabbids Party Returns                                                                    | Ubisoft                    | Nintendo Wii | 2007 | Japan
+|       | Rabbids Party: Time Travel                                                               | Ubisoft                    | Nintendo Wii | 2011 | Japan
+|       | Rabbids Party: TV Party                                                                  | Ubisoft                    | Nintendo Wii | 2009 | Japan
+|       | Radirgy Noa Wii                                                                          | MileStone Inc.             | Nintendo Wii | 2010 | Japan
+|       | Rainbow Pop                                                                              | Interchannel               | Nintendo Wii | 2008 | Japan
+|       | Red Steel                                                                                | Ubisoft                    | Nintendo Wii | 2006 | Japan
+|       | Red Steel 2                                                                              | Ubisoft                    | Nintendo Wii | 2010 | Japan
+|       | Relaxuma: Minna de Goyururi Seikatsu                                                     | MTO                        | Nintendo Wii | 2009 | Japan
+|       | Rockstar Games presents Table Tennis                                                     | Spike                      | Nintendo Wii | 2009 | Japan
+|       | Rooms: Fushigi na Ugoku Heya                                                             | Hudson Entertainment       | Nintendo Wii | 2010 | Japan
+|       | Rune Factory Frontier                                                                    | Marvelous Entertainment    | Nintendo Wii | 2008 | Japan
+|       | Rune Factory Oceans                                                                      | Marvelous Entertainment    | Nintendo Wii | 2011 | Japan
+|       | Samba de Amigo                                                                           | Sega                       | Nintendo Wii | 2008 | Japan
+|       | Samurai Spirits: Rokuban Shoubu                                                          | SNK Playmore               | Nintendo Wii | 2008 | Japan
+|       | San Goku Shi 11 with Power-Up Kit                                                        | Koei                       | Nintendo Wii | 2007 | Japan
+|       | SD Gundam G Generation Wars                                                              | Bandai Namco Games         | Nintendo Wii | 2009 | Japan
+|       | SD Gundam G Generation World                                                             | Bandai Namco Games         | Nintendo Wii | 2011 | Japan
+|       | SD Gundam: Gashapon Wars                                                                 | Bandai Namco Games         | Nintendo Wii | 2010 | Japan
+|       | SD Gundam: Scad Hammers                                                                  | Bandai Namco Games         | Nintendo Wii | 2006 | Japan
+|       | Sengoku Basara 2 Heroes                                                                  | Capcom                     | Nintendo Wii | 2007 | Japan
+|       | Sengoku Basara 3                                                                         | Capcom                     | Nintendo Wii | 2010 | Japan
+|       | Sengoku Basara 3 Utage                                                                   | Capcom                     | Nintendo Wii | 2011 | Japan
+|       | Sengoku Musou 3                                                                          | Koei                       | Nintendo Wii | 2009 | Japan
+|       | Sengoku Musou 3 Moushouden                                                               | Koei                       | Nintendo Wii | 2011 | Japan
+|       | Sengoku Musou Katana                                                                     | Koei                       | Nintendo Wii | 2007 | Japan
+|       | Shanghai                                                                                 | Success                    | Nintendo Wii | 2007 | Japan
+|       | Shape Boxing 2: Wii de Enjoy Diet!                                                       | Rocket Company             | Nintendo Wii | 2010 | Japan
+|       | Shape Boxing: Wii de Enjoy! Diet                                                         | Rocket Company             | Nintendo Wii | 2008 | Japan
+|       | Sharuui * Takoron                                                                        | Compile Heart              | Nintendo Wii | 2007 | Japan
+|       | Shikakui Atama o Maru Kusuru: Kanzen Seiha Wii                                           | IE Institute               | Nintendo Wii | 2009 | Japan
+|       | Shikigami no Shiro III                                                                   | Arc System Works           | Nintendo Wii | 2007 | Japan
+|       | Shin Chuuka Taisen: Michael to Meimei no Bouken                                          | Starfish                   | Nintendo Wii | 2007 | Japan
+|       | Silent Hill: Shattered Memories                                                          | Konami                     | Nintendo Wii | 2010 | Japan
+|       | SimAnimals                                                                               | Electronic Arts            | Nintendo Wii | 2009 | Japan
+|       | SimAnimals Africa                                                                        | Electronic Arts            | Nintendo Wii | 2009 | Japan
+|       | SimCity Creator                                                                          | EA Games                   | Nintendo Wii | 2008 | Japan
+|       | Simple 2000 Series Wii Vol. 1: The Table Game                                            | D3Publisher                | Nintendo Wii | 2008 | Japan
+|       | Simple 2000 Series Wii Vol. 2: The Party Game                                            | D3Publisher                | Nintendo Wii | 2008 | Japan
+|       | Simple Wii Series Vol. 1: The Minna de Kart Race                                         | D3Publisher                | Nintendo Wii | 2007 | Japan
+|       | Simple Wii Series Vol. 2: The Minna de Bass Tsuri Taikai                                 | D3Publisher                | Nintendo Wii | 2007 | Japan
+|       | Simple Wii Series Vol. 3: Ason de Wakaru - The Party Casino                              | D3Publisher                | Nintendo Wii | 2007 | Japan
+|       | Simple Wii Series Vol. 4: The DokoDemo Asoberu - The Shooting Action                     | D3Publisher                | Nintendo Wii | 2007 | Japan
+|       | Simple Wii Series Vol. 5: The Block Kuzushi                                              | D3Publisher                | Nintendo Wii | 2008 | Japan
+|       | Simple Wii Series Vol. 6: The Wai Wai Combat                                             | D3Publisher                | Nintendo Wii | 2008 | Japan
+|       | Skate It                                                                                 | Electronic Arts            | Nintendo Wii | 2009 | Japan
+|       | Sky Crawlers: Innocent Aces                                                              | Bandai Namco Games         | Nintendo Wii | 2008 | Japan
+|       | Skylanders: Spyro no Daiboken                                                            | Square Enix                | Nintendo Wii | 2013 | Japan
+|       | Sonic Colors                                                                             | Sega                       | Nintendo Wii | 2010 | Japan
+|       | Sonic Riders: Shooting Star Story                                                        | Sega                       | Nintendo Wii | 2008 | Japan
+|       | Sonic to Ankoku no Kishi                                                                 | Sega                       | Nintendo Wii | 2009 | Japan
+|       | Sonic to Himitsu no Ring                                                                 | Sega                       | Nintendo Wii | 2007 | Japan
+|       | Sonic World Adventure                                                                    | Sega                       | Nintendo Wii | 2008 | Japan
+|       | Soul Eater: Monotone Princess                                                            | Square Enix                | Nintendo Wii | 2008 | Japan
+|       | SoulCalibur Legends                                                                      | Bandai Namco Games         | Nintendo Wii | 2007 | Japan
+|       | Speed Racer                                                                              | Activision                 | Nintendo Wii | 2008 | Japan
+|       | Spider-Man 3                                                                             | Activision                 | Nintendo Wii | 2008 | Japan
+|       | SpongeBob                                                                                | THQ                        | Nintendo Wii | 2007 | Japan
+|       | Spongebob to Nakamatachi: Toybot no Kougeki                                              | THQ                        | Nintendo Wii | 2007 | Japan
+|       | Spore: Kimi wa Tsukuru Hero                                                              | EA Games                   | Nintendo Wii | 2010 | Japan
+|       | SSX Blur                                                                                 | EA Sports Big              | Nintendo Wii | 2007 | Japan
+|       | Star Wars: The Force Unleashed                                                           | Activision                 | Nintendo Wii | 2008 | Japan
+|       | Sugoro Chronicle: Migite ni Ken o Hidarite ni Saikoro o                                  | Compile Heart              | Nintendo Wii | 2008 | Japan
+|       | Sukeban Shachou Rena Wii                                                                 | Jorudan                    | Nintendo Wii | 2009 | Japan
+|       | Super Mario Galaxy                                                                       | Nintendo                   | Nintendo Wii | 2007 | Japan
+|       | Super Mario Galaxy 2                                                                     | Nintendo                   | Nintendo Wii | 2010 | Japan
+|       | Super Mario Stadium: Family Baseball                                                     | Nintendo                   | Nintendo Wii | 2008 | Japan
+|       | Super Monkey Ball Athletic                                                               | Sega                       | Nintendo Wii | 2010 | Japan
+|       | Super Monkey Ball: Uki Uki Party Daishuugou                                              | Sega                       | Nintendo Wii | 2006 | Japan
+|       | Super Paper Mario                                                                        | Nintendo                   | Nintendo Wii | 2007 | Japan
+|       | Super Robot Taisen Neo                                                                   | Bandai Namco Games         | Nintendo Wii | 2009 | Japan
+|       | Super Sentai Battle: Ranger Cross                                                        | Bandai Namco Games         | Nintendo Wii | 2011 | Japan
+|       | Survival Kids Wii                                                                        | Konami                     | Nintendo Wii | 2008 | Japan
+|       | Suzumiya Haruhi no Gekidou                                                               | Kadokawa                   | Nintendo Wii | 2009 | Japan
+|       | Suzumiya Haruhi no Heiretsu                                                              | Sega                       | Nintendo Wii | 2009 | Japan
+|       | Swing Golf Pangya                                                                        | Tecmo                      | Nintendo Wii | 2006 | Japan
+|       | Swing Golf Pangya 2nd Shot!                                                              | Tecmo                      | Nintendo Wii | 2007 | Japan
+|       | Tabemon                                                                                  | Bandai Namco Games         | Nintendo Wii | 2009 | Japan
+|       | Taiko no Tatsujin Wii                                                                    | Bandai Namco Games         | Nintendo Wii | 2008 | Japan
+|       | Taiko no Tatsujin Wii: Chougoukaban                                                      | Bandai Namco Games         | Nintendo Wii | 2012 | Japan
+|       | Taiko no Tatsujin Wii: Dodoon to 2 Daime!                                                | Bandai Namco Games         | Nintendo Wii | 2009 | Japan
+|       | Taiko no Tatsujin Wii: Ketteiban                                                         | Bandai Namco Games         | Nintendo Wii | 2011 | Japan
+|       | Taiko no Tatsujin Wii: Minna de Party * 3-Daime!                                         | Bandai Namco Games         | Nintendo Wii | 2010 | Japan
+|       | Taiseiou                                                                                 | Starfish SD                | Nintendo Wii | 2009 | Japan
+|       | Takarajima Z: Barbaros no Hihou                                                          | Capcom                     | Nintendo Wii | 2007 | Japan
+|       | Takt of Magic                                                                            | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Takumi Restaurant wa Daihanjou!                                                          | Dorasu                     | Nintendo Wii | 2009 | Japan
+|       | Tales of Graces                                                                          | Bandai Namco Games         | Nintendo Wii | 2009 | Japan
+|       | Tales of Symphonia: Ratatosk no Kishi                                                    | Bandai Namco Games         | Nintendo Wii | 2008 | Japan
+|       | Tamagotchi no Furifuri Kagekidan                                                         | Bandai Namco Games         | Nintendo Wii | 2007 | Japan
+|       | Tamagotchi no Pika Pika Daitouryou!                                                      | Bandai Namco Games         | Nintendo Wii | 2006 | Japan
+|       | Tamaran                                                                                  | Ignition Entertainment     | Nintendo Wii | 2009 | Japan
+|       | Tataite Hazumu: Super Smash Ball Plus                                                    | Nintendo                   | Nintendo Wii | 2010 | Japan
+|       | Tatsunoko vs. Capcom: Cross Generation of Heroes                                         | Capcom                     | Nintendo Wii | 2008 | Japan
+|       | Tatsunoko vs. Capcom: Ultimate All-Stars                                                 | Capcom                     | Nintendo Wii | 2010 | Japan
+|       | Tele-Shibai Wii                                                                          | Konami                     | Nintendo Wii | 2009 | Japan
+|       | Tenchu 4                                                                                 | From Software              | Nintendo Wii | 2008 | Japan
+|       | Tenkuu no Kishi Rodea                                                                    | Kadokawa                   | Nintendo Wii | 2015 | Japan
+|       | Tetris Party Premium                                                                     | Hudson                     | Nintendo Wii | 2010 | Japan
+|       | Tiger Woods PGA Tour 08                                                                  | EA Sports                  | Nintendo Wii | 2007 | Japan
+|       | Tiger Woods PGA Tour 09 All-Play                                                         | Electronic Arts            | Nintendo Wii | 2009 | Japan
+|       | Tokyo Friend Park II Ketteiban: Minna de Chousen! Taikan Attraction                      | Spike                      | Nintendo Wii | 2009 | Japan
+|       | Tomb Raider: Anniversary                                                                 | Spike                      | Nintendo Wii | 2008 | Japan
+|       | Tomb Raider: Underworld                                                                  | Spike                      | Nintendo Wii | 2009 | Japan
+|       | Top Spin 3                                                                               | D3Publisher                | Nintendo Wii | 2009 | Japan
+|       | Toshinden                                                                                | Takara Tomy                | Nintendo Wii | 2009 | Japan
+|       | Totsugeki!! Famicom Wars VS                                                              | Nintendo                   | Nintendo Wii | 2008 | Japan
+|       | Transformers: The Game                                                                   | Activision                 | Nintendo Wii | 2008 | Japan
+|       | Tsumi to Batsu: Uchuu no Koukeisha                                                       | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Twinkle Queen                                                                            | MileStone Inc.             | Nintendo Wii | 2010 | Japan
+|       | Uchi Tsuri! Sega Bass Fishing                                                            | Sega                       | Nintendo Wii | 2008 | Japan
+|       | Valhalla Knights: Eldar Saga                                                             | Marvelous Entertainment    | Nintendo Wii | 2009 | Japan
+|       | WALL-E                                                                                   | THQ                        | Nintendo Wii | 2008 | Japan
+|       | Wanko to Mahou no Boushi                                                                 | Ubisoft                    | Nintendo Wii | 2007 | Japan
+|       | Wario Land Shake                                                                         | Nintendo                   | Nintendo Wii | 2008 | Japan
+|       | We Cheer                                                                                 | Bandai Namco Games         | Nintendo Wii | 2009 | Japan
+|       | We Cheer: Dancing Spirits!                                                               | Bandai Namco Games         | Nintendo Wii | 2010 | Japan
+|       | We Love Golf!                                                                            | Capcom                     | Nintendo Wii | 2007 | Japan
+|       | Wi-Fi Taiou: Gensen Table Game Wii                                                       | Hudson                     | Nintendo Wii | 2008 | Japan
+|       | Wii de Yawaraka Atama Juku                                                               | Nintendo                   | Nintendo Wii | 2007 | Japan
+|       | Wii Fit                                                                                  | Nintendo                   | Nintendo Wii | 2007 | Japan
+|       | Wii Fit Plus                                                                             | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Wii Music                                                                                | Nintendo                   | Nintendo Wii | 2008 | Japan
+|       | Wii Party                                                                                | Nintendo                   | Nintendo Wii | 2010 | Japan
+|       | Wii RemoCon Plus: Variety                                                                | Nintendo                   | Nintendo Wii | 2011 | Japan
+|       | Wii Sports                                                                               | Nintendo                   | Nintendo Wii | 2006 | Japan
+|       | Wii Sports Resort                                                                        | Nintendo                   | Nintendo Wii | 2009 | Japan
+|       | Wing Island                                                                              | Hudson                     | Nintendo Wii | 2006 | Japan
+|       | Winning Eleven Play Maker 2008                                                           | Konami                     | Nintendo Wii | 2008 | Japan
+|       | Winning Eleven Playmaker 2009                                                            | Konami                     | Nintendo Wii | 2009 | Japan
+|       | Winning Eleven PlayMaker 2010                                                            | Konami                     | Nintendo Wii | 2009 | Japan
+|       | Winning Eleven Playmaker 2010: Aoki Samurai no Chousen                                   | Konami                     | Nintendo Wii | 2010 | Japan
+|       | Winning Eleven Playmaker 2011                                                            | Konami                     | Nintendo Wii | 2010 | Japan
+|       | Winning Eleven PlayMaker 2012                                                            | Konami                     | Nintendo Wii | 2011 | Japan
+|       | Winning Eleven Playmaker 2013                                                            | Konami                     | Nintendo Wii | 2012 | Japan
+|       | Winning Post 7 Maximum 2008                                                              | Koei                       | Nintendo Wii | 2008 | Japan
+|       | Winning Post World                                                                       | Koei                       | Nintendo Wii | 2009 | Japan
+|       | Winning Post World 2010                                                                  | Koei                       | Nintendo Wii | 2010 | Japan
+|       | Winter Sports 2009: The Next Challenge                                                   | Arc System Works           | Nintendo Wii | 2009 | Japan
+|       | World of Golden Eggs: Nori Nori Rhythm Kei, The                                          | AQ Interactive             | Nintendo Wii | 2008 | Japan
+|       | WWE SmackDown vs. Raw 2008                                                               | THQ                        | Nintendo Wii | 2008 | Japan
+|       | Xenoblade                                                                                | Nintendo                   | Nintendo Wii | 2010 | Japan
+|       | Yatterman Wii: Bikkuridokkiri Machine de Mou Race da Koron                               | Takara Tomy                | Nintendo Wii | 2008 | Japan
+|       | Yu-Gi-Oh! 5D's: Duel Transer                                                             | Konami                     | Nintendo Wii | 2011 | Japan
+|       | Yu-Gi-Oh! 5D's: Wheelie Breakers                                                         | Konami                     | Nintendo Wii | 2009 | Japan
+|       | Yukinko Daisenpuu: Sayuki to Koyuki no Hie Hie Daisoudou                                 | Starfish                   | Nintendo Wii | 2007 | Japan
+|       | Zaidan Houjin Nippon Kanji Nouryoku Kentei Kyoukai Kounin: Kanken Wii Kanji Ou Ketteisen | Rocket Company             | Nintendo Wii | 2007 | Japan
+|       | Zangeki no Reginleiv                                                                     | Nintendo                   | Nintendo Wii | 2010 | Japan
+|       | Zelda no Densetsu: Skyward Sword                                                         | Nintendo                   | Nintendo Wii | 2011 | Japan
+|       | Zelda no Densetsu: Twilight Princess                                                     | Nintendo                   | Nintendo Wii | 2006 | Japan
+|       | Zenkoku Dekotora Matsuri                                                                 | Jaleco Entertainment       | Nintendo Wii | 2008 | Japan
+|       | Zero: Shinku no Chou                                                                     | Nintendo                   | Nintendo Wii | 2012 | Japan
+|       | Zero: Tsukihami no Kamen                                                                 | Nintendo                   | Nintendo Wii | 2008 | Japan

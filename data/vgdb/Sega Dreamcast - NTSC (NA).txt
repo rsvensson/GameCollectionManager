@@ -1,0 +1,268 @@
+|       | 18 Wheeler: American Pro Trucker                          | Sega                     | Sega Dreamcast | 2001 | North America
+|       | 4 Wheel Thunder                                           | Midway                   | Sega Dreamcast | 2000 | North America
+|       | 4x4 Evolution                                             | Gathering                | Sega Dreamcast | 2000 | North America
+|       | AeroWings                                                 | Crave                    | Sega Dreamcast | 1999 | North America
+|       | AeroWings 2: Air Strike                                   | Crave                    | Sega Dreamcast | 2000 | North America
+|       | AirForce Delta                                            | Konami                   | Sega Dreamcast | 1999 | North America
+|       | Alien Front Online                                        | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Alone in the Dark: The New Nightmare                      | Infogrames               | Sega Dreamcast | 2001 | North America
+|       | Armada                                                    | Metro3D                  | Sega Dreamcast | 1999 | North America
+|       | Army Men: Sarge's Heroes                                  | Midway                   | Sega Dreamcast | 2000 | North America
+|       | Atari Anniversary Edition                                 | Infogrames               | Sega Dreamcast | 2001 | North America
+|       | BANG! Gunship Elite                                       | Red Storm Entertainment  | Sega Dreamcast | 2000 | North America
+|       | Bangai-O                                                  | Conspiracy Entertainment | Sega Dreamcast | 2001 | North America
+|       | bleem! Gran Turismo 2                                     | bleem!                   | Sega Dreamcast | 2013 | North America
+|       | bleemcast! Metal Gear Solid                               | bleem!                   | Sega Dreamcast | 2001 | North America
+|       | bleemcast! Tekken 3                                       | bleem!                   | Sega Dreamcast | 2001 | North America
+|       | Blue Stinger                                              | Activision               | Sega Dreamcast | 1999 | North America
+|       | Bomberman Online                                          | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Bust-A-Move 4                                             | Acclaim                  | Sega Dreamcast | 2000 | North America
+|       | Caesars Palace 2000: Millennium Gold Edition              | Interplay                | Sega Dreamcast | 2000 | North America
+|       | Cannon Spike                                              | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Capcom vs. SNK                                            | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Carrier                                                   | Jaleco Entertainment     | Sega Dreamcast | 2000 | North America
+|       | CART Flag to Flag                                         | Sega                     | Sega Dreamcast | 1999 | North America
+|       | Centipede                                                 | Hasbro Interactive       | Sega Dreamcast | 1999 | North America
+|       | Championship Surfer                                       | Mattel                   | Sega Dreamcast | 2000 | North America
+|       | Charge 'n Blast                                           | Xicat Interactive        | Sega Dreamcast | 2001 | North America
+|       | Chicken Run                                               | Eidos Interactive        | Sega Dreamcast | 2000 | North America
+|       | ChuChu Rocket!                                            | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Coaster Works                                             | Xicat Interactive        | Sega Dreamcast | 2000 | North America
+|       | Confidential Mission                                      | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Conflict Zone                                             | Ubisoft                  | Sega Dreamcast | 2001 | North America
+|       | Cool Herders                                              | GOAT Store Publishing    | Sega Dreamcast | 2005 | North America
+|       | Crazy Taxi                                                | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Crazy Taxi 2                                              | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Cyber Troopers Virtual On: Oratorio Tangram               | Activision               | Sega Dreamcast | 2000 | North America
+|       | D2                                                        | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Dave Mirra Freestyle BMX                                  | Acclaim                  | Sega Dreamcast | 2000 | North America
+|       | Daytona USA                                               | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Dead or Alive 2                                           | Tecmo                    | Sega Dreamcast | 2000 | North America
+|       | Death Crimson OX                                          | Sammy Studios            | Sega Dreamcast | 2001 | North America
+|       | Deep Fighter: The Tsunami Offense                         | Ubisoft                  | Sega Dreamcast | 2000 | North America
+|       | Demolition Racer: No Exit                                 | Infogrames               | Sega Dreamcast | 2000 | North America
+|       | Dino Crisis                                               | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Disney's 102 Dalmatians: Puppies to the Rescue            | Eidos Interactive        | Sega Dreamcast | 2000 | North America
+|       | Disney's Dinosaur                                         | Ubisoft                  | Sega Dreamcast | 2000 | North America
+|       | Disney's Donald Duck: Goin' Quackers                      | Ubisoft                  | Sega Dreamcast | 2000 | North America
+|       | Disney/Pixar Buzz Lightyear of Star Command               | Activision               | Sega Dreamcast | 2000 | North America
+|       | Draconus: Cult of the Wyrm                                | Crave                    | Sega Dreamcast | 2000 | North America
+|       | Dragon Riders: Chronicles of Pern                         | Ubisoft                  | Sega Dreamcast | 2001 | North America
+|       | Ducati World Racing Challenge                             | Acclaim                  | Sega Dreamcast | 2001 | North America
+|       | Dynamite Cop!                                             | Sega                     | Sega Dreamcast | 1999 | North America
+|       | Ecco the Dolphin: Defender of the Future                  | Sega                     | Sega Dreamcast | 2000 | North America
+|       | ECW Anarchy Rulz                                          | Acclaim                  | Sega Dreamcast | 2000 | North America
+|       | ECW Hardcore Revolution                                   | Acclaim                  | Sega Dreamcast | 2000 | North America
+|       | Elemental Gimmick Gear                                    | Vatical Entertainment    | Sega Dreamcast | 1999 | North America
+|       | ESPN International Track & Field                          | Konami                   | Sega Dreamcast | 2000 | North America
+|       | ESPN NBA 2Night                                           | Konami                   | Sega Dreamcast | 2000 | North America
+|       | Evil Dead: Hail to the King                               | THQ                      | Sega Dreamcast | 2000 | North America
+|       | Evolution 2: Far Off Promise                              | Ubisoft                  | Sega Dreamcast | 2000 | North America
+|       | Evolution: The World of Sacred Device                     | Ubisoft                  | Sega Dreamcast | 2013 | North America
+|       | Expendable                                                | Infogrames               | Sega Dreamcast | 1999 | North America
+|       | F1 World Grand Prix                                       | Sega                     | Sega Dreamcast | 2000 | North America
+|       | F355 Challenge: Passione Rossa                            | Acclaim                  | Sega Dreamcast | 2000 | North America
+|       | Fatal Fury: Mark of the Wolves                            | Agetec Inc.              | Sega Dreamcast | 2001 | North America
+|       | Feet of Fury                                              | GOAT Store Publishing    | Sega Dreamcast | 2003 | North America
+|       | Fighting Force 2                                          | Eidos Interactive        | Sega Dreamcast | 1999 | North America
+|       | Floigan Bros. Episode 1                                   | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Frogger 2: Swampy's Revenge                               | Hasbro Interactive       | Sega Dreamcast | 2000 | North America
+|       | Fur Fighters                                              | Acclaim                  | Sega Dreamcast | 2000 | North America
+|       | Gauntlet Legends                                          | Midway                   | Sega Dreamcast | 2000 | North America
+|       | Generator Demo Disc Vol. 1                                | Sega                     | Sega Dreamcast | 1999 | North America
+|       | Generator Demo Disc Vol. 2                                | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Giga Wing                                                 | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Giga Wing 2                                               | Capcom                   | Sega Dreamcast | 2001 | North America
+|       | Grand Theft Auto 2                                        | Rockstar Games           | Sega Dreamcast | 2000 | North America
+|       | Grandia II                                                | Ubisoft                  | Sega Dreamcast | 2000 | North America
+|       | Grinch, The                                               | Konami                   | Sega Dreamcast | 2000 | North America
+|       | Gunbird 2                                                 | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Gundam Side Story 0079: Rise from the Ashes               | Bandai                   | Sega Dreamcast | 2000 | North America
+|       | Heavy Metal: Geomatrix                                    | Capcom                   | Sega Dreamcast | 2001 | North America
+|       | Hidden & Dangerous                                        | TalonSoft                | Sega Dreamcast | 2000 | North America
+|       | House of the Dead 2, The                                  | Sega                     | Sega Dreamcast | 1999 | North America
+|       | Hoyle Casino                                              | Sierra Entertainment     | Sega Dreamcast | 2013 | North America
+|       | Hydro Thunder                                             | Midway                   | Sega Dreamcast | 1999 | North America
+|       | Illbleed                                                  | AIA                      | Sega Dreamcast | 2001 | North America
+|       | Incoming                                                  | Interplay                | Sega Dreamcast | 1998 | North America
+|       | Industrial Spy: Operation Espionage                       | UFO Interactive          | Sega Dreamcast | 2000 | North America
+|       | Inhabitants                                               | GOAT Store Publishing    | Sega Dreamcast | 2005 | North America
+|       | Irides: Master of Blocks                                  | GOAT Store Publishing    | Sega Dreamcast | 2005 | North America
+|       | Iron Aces                                                 | Xicat Interactive        | Sega Dreamcast | 2001 | North America
+|       | Jeremy McGrath SuperCross 2000                            | Acclaim                  | Sega Dreamcast | 1999 | North America
+|       | Jet Grind Radio                                           | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Jojo's Bizarre Adventure                                  | Capcom                   | Sega Dreamcast | 1999 | North America
+|       | Kao the Kangaroo                                          | Titus Software           | Sega Dreamcast | 2001 | North America
+|       | KISS: Psycho Circus: The Nightmare Child                  | Take-Two Interactive     | Sega Dreamcast | 2000 | North America
+|       | Legacy of Kain: Soul Reaver                               | Eidos Interactive        | Sega Dreamcast | 2000 | North America
+|       | Looney Tunes: Space Race                                  | Infogrames               | Sega Dreamcast | 2000 | North America
+|       | Mag Force Racing                                          | Crave                    | Sega Dreamcast | 2000 | North America
+|       | Maken X                                                   | ATLUS                    | Sega Dreamcast | 1999 | North America
+|       | Maqiupai                                                  | GOAT Store Publishing    | Sega Dreamcast | 2005 | North America
+|       | Mars Matrix                                               | Capcom                   | Sega Dreamcast | 2001 | North America
+|       | Marvel vs. Capcom 2                                       | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Marvel vs. Capcom: Clash of Super Heroes                  | Capcom                   | Sega Dreamcast | 1999 | North America
+|       | Mat Hoffman's Pro BMX                                     | Activision               | Sega Dreamcast | 2001 | North America
+|       | Max Steel                                                 | Mattel                   | Sega Dreamcast | 2001 | North America
+|       | Maximum Pool                                              | Sierra Entertainment     | Sega Dreamcast | 2000 | North America
+|       | MDK2                                                      | Interplay                | Sega Dreamcast | 2000 | North America
+|       | Metropolis Street Racer                                   | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Midway's Greatest Arcade Hits Volume 1                    | Midway                   | Sega Dreamcast | 2000 | North America
+|       | Midway's Greatest Arcade Hits Volume 2                    | Midway                   | Sega Dreamcast | 2001 | North America
+|       | Monaco Grand Prix                                         | Ubisoft                  | Sega Dreamcast | 1999 | North America
+|       | Mortal Kombat Gold                                        | Midway                   | Sega Dreamcast | 1999 | North America
+|       | Mr. Driller                                               | Namco                    | Sega Dreamcast | 2000 | North America
+|       | Ms. Pac-Man Maze Madness                                  | Namco                    | Sega Dreamcast | 2000 | North America
+|       | MTV Sports: Skateboarding Featuring Andy Macdonald        | THQ                      | Sega Dreamcast | 2000 | North America
+|       | Namco Museum                                              | Namco                    | Sega Dreamcast | 2000 | North America
+|       | NBA 2K                                                    | Sega                     | Sega Dreamcast | 1999 | North America
+|       | NBA 2K1                                                   | Sega                     | Sega Dreamcast | 2000 | North America
+|       | NBA 2K2                                                   | Sega                     | Sega Dreamcast | 2001 | North America
+|       | NBA Hoopz                                                 | Midway                   | Sega Dreamcast | 2001 | North America
+|       | NBA Showtime: NBA on NBC                                  | Midway                   | Sega Dreamcast | 1999 | North America
+|       | NCAA College Football 2K2                                 | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Next Tetris: On-line Edition, The                         | Crave                    | Sega Dreamcast | 2000 | North America
+|       | NFL 2K                                                    | Sega                     | Sega Dreamcast | 1999 | North America
+|       | NFL 2K1                                                   | Sega                     | Sega Dreamcast | 2000 | North America
+|       | NFL 2K2                                                   | Sega                     | Sega Dreamcast | 2001 | North America
+|       | NFL Blitz 2000                                            | Midway                   | Sega Dreamcast | 1999 | North America
+|       | NFL Blitz 2001                                            | Midway                   | Sega Dreamcast | 2000 | North America
+|       | NFL QB Club 2001                                          | Acclaim                  | Sega Dreamcast | 2000 | North America
+|       | NFL Quarterback Club 2000                                 | Acclaim                  | Sega Dreamcast | 1999 | North America
+|       | NHL 2K                                                    | Sega                     | Sega Dreamcast | 2000 | North America
+|       | NHL 2K2                                                   | Sega                     | Sega Dreamcast | 2002 | North America
+|       | Nightmare Creatures II                                    | Konami                   | Sega Dreamcast | 2000 | North America
+|       | Official Dreamcast Magazine #1                            | Sega                     | Sega Dreamcast | 1999 | North America
+|       | Official Dreamcast Magazine #10                           | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Official Dreamcast Magazine #2                            | Sega                     | Sega Dreamcast | 1999 | North America
+|       | Official Dreamcast Magazine #3                            | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Official Dreamcast Magazine #4                            | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Official Dreamcast Magazine #5                            | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Official Dreamcast Magazine #6                            | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Official Dreamcast Magazine #7                            | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Official Dreamcast Magazine #8                            | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Official Dreamcast Magazine #9                            | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Official Dreamcast Magazine Vol. 11                       | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Omikron: The Nomad Soul                                   | Eidos Interactive        | Sega Dreamcast | 2000 | North America
+|       | Ooga Booga                                                | Sega                     | Sega Dreamcast | 2001 | North America
+|       | OutTrigger: International Counter Terrorism Special Force | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Pen Pen TriIcelon                                         | Infogrames               | Sega Dreamcast | 1999 | North America
+|       | Phantasy Star Online                                      | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Phantasy Star Online Ver. 2                               | Sega                     | Sega Dreamcast | 2001 | North America
+|       | PlanetWeb Web Browser 1.0                                 | Sega                     | Sega Dreamcast | 1999 | North America
+|       | PlanetWeb Web Browser 2.0                                 | Sega                     | Sega Dreamcast | 2013 | North America
+|       | PlanetWeb Web Browser 3.0                                 | Sega                     | Sega Dreamcast | 2013 | North America
+|       | Plasma Sword: Nightmare of Bilstein                       | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | POD: Speedzone                                            | Ubisoft                  | Sega Dreamcast | 2000 | North America
+|       | Power Stone                                               | Capcom                   | Sega Dreamcast | 1999 | North America
+|       | Power Stone 2                                             | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Prince of Persia: Arabian Nights                          | Mattel                   | Sega Dreamcast | 2000 | North America
+|       | Project Justice                                           | Capcom                   | Sega Dreamcast | 2001 | North America
+|       | Psychic Force 2012                                        | Acclaim                  | Sega Dreamcast | 1999 | North America
+|       | Q*Bert                                                    | Hasbro Interactive       | Sega Dreamcast | 2000 | North America
+|       | Quake III Arena                                           | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Railroad Tycoon II: Gold Edition                          | Gathering                | Sega Dreamcast | 2000 | North America
+|       | Rayman 2: The Great Escape                                | Ubisoft                  | Sega Dreamcast | 2000 | North America
+|       | Razor Freestyle Scooter                                   | Crave                    | Sega Dreamcast | 2001 | North America
+|       | Re-Volt                                                   | Acclaim                  | Sega Dreamcast | 1999 | North America
+|       | Ready 2 Rumble Boxing                                     | Midway                   | Sega Dreamcast | 1999 | North America
+|       | Ready 2 Rumble Boxing: Round 2                            | Midway                   | Sega Dreamcast | 2000 | North America
+|       | Record of Lodoss War                                      | Conspiracy Entertainment | Sega Dreamcast | 2001 | North America
+|       | Red Dog: Superior Firepower                               | Crave                    | Sega Dreamcast | 2000 | North America
+|       | Reel Fishing: Wild                                        | Natsume                  | Sega Dreamcast | 2013 | North America
+|       | Resident Evil 2                                           | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Resident Evil 3: Nemesis                                  | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Resident Evil Code: Veronica                              | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Rippin' Riders                                            | Sega                     | Sega Dreamcast | 1999 | North America
+|       | Roadsters                                                 | Titus Software           | Sega Dreamcast | 2000 | North America
+|       | Samba de Amigo                                            | Sega                     | Sega Dreamcast | 2000 | North America
+|       | San Francisco Rush 2049                                   | Midway                   | Sega Dreamcast | 2000 | North America
+|       | Seaman                                                    | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Sega Bass Fishing                                         | Sega                     | Sega Dreamcast | 1999 | North America
+|       | Sega Bass Fishing 2                                       | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Sega GT                                                   | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Sega Marine Fishing                                       | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Sega Rally Championship 2                                 | Sega                     | Sega Dreamcast | 1999 | North America
+|       | Sega Smash Pack Volume 1                                  | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Seventh Cross Evolution                                   | UFO Interactive          | Sega Dreamcast | 2000 | North America
+|       | Shadow Man                                                | Acclaim                  | Sega Dreamcast | 1999 | North America
+|       | Shenmue                                                   | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Silent Scope                                              | Konami                   | Sega Dreamcast | 2000 | North America
+|       | Silver                                                    | Infogrames               | Sega Dreamcast | 2000 | North America
+|       | Skies of Arcadia                                          | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Slave Zero                                                | Infogrames               | Sega Dreamcast | 1999 | North America
+|       | Sno-Cross Championship Racing                             | Crave                    | Sega Dreamcast | 2000 | North America
+|       | Soldier of Fortune                                        | Crave                    | Sega Dreamcast | 2001 | North America
+|       | Sonic Adventure                                           | Sega                     | Sega Dreamcast | 1999 | North America
+|       | Sonic Adventure 2                                         | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Sonic Shuffle                                             | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Soul Fighter                                              | Mindscape Inc.           | Sega Dreamcast | 1999 | North America
+|       | SoulCalibur                                               | Namco                    | Sega Dreamcast | 1999 | North America
+|       | South Park Rally                                          | Acclaim                  | Sega Dreamcast | 2000 | North America
+|       | South Park: Chef's Luv Shack                              | Acclaim                  | Sega Dreamcast | 1999 | North America
+|       | Space Channel 5                                           | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Spawn: In the Demon's Hand                                | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Spec Ops II: Omega Squad                                  | Ripcord Games            | Sega Dreamcast | 2000 | North America
+|       | Speed Devils                                              | Ubisoft                  | Sega Dreamcast | 1999 | North America
+|       | Speed Devils Online Racing                                | Ubisoft                  | Sega Dreamcast | 2000 | North America
+|       | Spider-Man                                                | Activision               | Sega Dreamcast | 2001 | North America
+|       | Spirit of Speed 1937                                      | LJN Ltd.                 | Sega Dreamcast | 2000 | North America
+|       | Sports Jam                                                | Agetec Inc.              | Sega Dreamcast | 2001 | North America
+|       | Star Wars Episode I: Jedi Power Battles                   | LucasArts                | Sega Dreamcast | 2000 | North America
+|       | Star Wars Episode I: Racer                                | LucasArts                | Sega Dreamcast | 2000 | North America
+|       | Star Wars: Demolition                                     | LucasArts                | Sega Dreamcast | 2000 | North America
+|       | StarLancer                                                | Crave                    | Sega Dreamcast | 2000 | North America
+|       | Street Fighter Alpha 3                                    | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Street Fighter III: 3rd Strike                            | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Street Fighter III: Double Impact                         | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Striker Pro 2000                                          | Infogrames               | Sega Dreamcast | 2000 | North America
+|       | Stupid Invaders                                           | Ubisoft                  | Sega Dreamcast | 2001 | North America
+|       | Sturmwind                                                 | redspotgames             | Sega Dreamcast | 2013 | North America
+|       | Super Magnetic Neo                                        | Crave                    | Sega Dreamcast | 2000 | North America
+|       | Super Runabout: San Francisco Edition                     | Interplay                | Sega Dreamcast | 2000 | North America
+|       | Surf Rocket Racers                                        | Crave                    | Sega Dreamcast | 2001 | North America
+|       | Suzuki Alstare Extreme Racing                             | Ubisoft                  | Sega Dreamcast | 1999 | North America
+|       | Sword of the Berserk: Guts' Rage                          | Eidos Interactive        | Sega Dreamcast | 2000 | North America
+|       | Sydney 2000                                               | Eidos Interactive        | Sega Dreamcast | 2000 | North America
+|       | Tech Romancer                                             | Capcom                   | Sega Dreamcast | 2000 | North America
+|       | Tee Off                                                   | Acclaim                  | Sega Dreamcast | 1999 | North America
+|       | Tennis 2K2                                                | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Test Drive 6                                              | Infogrames               | Sega Dreamcast | 1999 | North America
+|       | Test Drive Le Mans                                        | Infogrames               | Sega Dreamcast | 2000 | North America
+|       | Test Drive V-Rally                                        | Infogrames               | Sega Dreamcast | 2000 | North America
+|       | Time Stalkers                                             | Sega                     | Sega Dreamcast | 1999 | North America
+|       | TNN Motorsports HardCore Heat                             | ASC Games                | Sega Dreamcast | 1999 | North America
+|       | Tokyo Xtreme Racer                                        | Crave                    | Sega Dreamcast | 1999 | North America
+|       | Tokyo Xtreme Racer 2                                      | Crave                    | Sega Dreamcast | 2000 | North America
+|       | Tom Clancy's Rainbow Six                                  | Majesco Games            | Sega Dreamcast | 2000 | North America
+|       | Tom Clancy's Rainbow Six: Rogue Spear                     | Red Storm Entertainment  | Sega Dreamcast | 2000 | North America
+|       | Tomb Raider: Chronicles                                   | Eidos Interactive        | Sega Dreamcast | 2000 | North America
+|       | Tomb Raider: The Last Revelation                          | Eidos Interactive        | Sega Dreamcast | 2001 | North America
+|       | Tony Hawk's Pro Skater                                    | Crave                    | Sega Dreamcast | 2000 | North America
+|       | Tony Hawk's Pro Skater 2                                  | Activision               | Sega Dreamcast | 2000 | North America
+|       | Toy Commander                                             | Sega                     | Sega Dreamcast | 1999 | North America
+|       | Toy Story 2: Buzz Lightyear to the Rescue!                | Activision               | Sega Dreamcast | 2000 | North America
+|       | TrickStyle                                                | Acclaim                  | Sega Dreamcast | 1999 | North America
+|       | Typing of the Dead, The                                   | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Ultimate Fighting Championship                            | Crave                    | Sega Dreamcast | 2000 | North America
+|       | Unreal Tournament                                         | Infogrames               | Sega Dreamcast | 2001 | North America
+|       | Urban Chaos                                               | Eidos Interactive        | Sega Dreamcast | 2000 | North America
+|       | Vanishing Point                                           | Acclaim                  | Sega Dreamcast | 2000 | North America
+|       | Vigilante 8: 2nd Offense                                  | Activision               | Sega Dreamcast | 1999 | North America
+|       | Virtua Athlete 2000                                       | Agetec Inc.              | Sega Dreamcast | 2001 | North America
+|       | Virtua Fighter 3tb                                        | Sega                     | Sega Dreamcast | 1999 | North America
+|       | Virtua Striker 2                                          | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Virtua Tennis                                             | Sega                     | Sega Dreamcast | 2000 | North America
+|       | Wacky Races                                               | Infogrames               | Sega Dreamcast | 2000 | North America
+|       | Walt Disney World Quest: Magical Racing Tour              | Eidos Interactive        | Sega Dreamcast | 2000 | North America
+|       | Wetrix+                                                   | Xicat Interactive        | Sega Dreamcast | 1999 | North America
+|       | Who Wants to Beat Up a Millionaire?                       | Berkeley                 | Sega Dreamcast | 2013 | North America
+|       | Wild Metal                                                | Rockstar Games           | Sega Dreamcast | 2000 | North America
+|       | World Series Baseball 2K1                                 | Sega                     | Sega Dreamcast | 2000 | North America
+|       | World Series Baseball 2K2                                 | Sega                     | Sega Dreamcast | 2001 | North America
+|       | Worms Armageddon                                          | Hasbro Interactive       | Sega Dreamcast | 1999 | North America
+|       | Worms World Party                                         | Titus Software           | Sega Dreamcast | 2001 | North America
+|       | WWF Attitude                                              | Acclaim                  | Sega Dreamcast | 1999 | North America
+|       | WWF Royal Rumble                                          | THQ                      | Sega Dreamcast | 2000 | North America
+|       | Xtreme Sports                                             | Infogrames               | Sega Dreamcast | 2000 | North America
+|       | Zombie Revenge                                            | Sega                     | Sega Dreamcast | 1999 | North America

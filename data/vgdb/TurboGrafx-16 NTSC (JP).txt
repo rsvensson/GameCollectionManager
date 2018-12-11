@@ -1,0 +1,295 @@
+|       | 1941: Counter Attack                                        | Hudson                       | TurboGrafx-16 | 1991 | Japan
+|       | 1943 Kai                                                    | Naxat Soft                   | TurboGrafx-16 | 1991 | Japan
+|       | 21 Emon: Mezase! Hotel Ou                                   | NEC Interchannel             | TurboGrafx-16 | 1994 | Japan
+|       | Adventure Island                                            | Hudson Soft                  | TurboGrafx-16 | 1991 | Japan
+|       | Aero Blasters                                               | Hudson                       | TurboGrafx-16 | 1990 | Japan
+|       | After Burner II                                             | NEC Interchannel             | TurboGrafx-16 | 1990 | Japan
+|       | Aldynes: The Mission Code for Rage Crisis                   | Hudson                       | TurboGrafx-16 | 1991 | Japan
+|       | Alien Crush                                                 | Naxat Soft                   | TurboGrafx-16 | 1988 | Japan
+|       | Ankoku Densetsu                                             | Victor Interactive Software  | TurboGrafx-16 | 1990 | Japan
+|       | Aoi Blink                                                   | Hudson                       | TurboGrafx-16 | 1990 | Japan
+|       | Appare! Gateball                                            | Hudson                       | TurboGrafx-16 | 1988 | Japan
+|       | Artist Tool                                                 | Hudson Soft                  | TurboGrafx-16 | 1989 | Japan
+|       | Atomic Robo-Kid Special                                     | UPL                          | TurboGrafx-16 | 1990 | Japan
+|       | AV Poker World Gambler                                      | Games Express                | TurboGrafx-16 | 1992 | Japan
+|       | Ballistix                                                   | Coconuts Japan               | TurboGrafx-16 | 1991 | Japan
+|       | Bari Bari Densetsu                                          | Taito Corporation            | TurboGrafx-16 | 1989 | Japan
+|       | Barunba                                                     | Namco                        | TurboGrafx-16 | 1990 | Japan
+|       | Batman                                                      | SunSoft                      | TurboGrafx-16 | 1990 | Japan
+|       | Battle Ace                                                  | Hudson                       | TurboGrafx-16 | 1989 | Japan
+|       | Battle Lode Runner                                          | Hudson                       | TurboGrafx-16 | 1993 | Japan
+|       | Be Ball                                                     | Hudson                       | TurboGrafx-16 | 1990 | Japan
+|       | Benkei Gaiden                                               | SunSoft                      | TurboGrafx-16 | 1989 | Japan
+|       | Bikkuriman World                                            | Hudson                       | TurboGrafx-16 | 1987 | Japan
+|       | Blodia                                                      | Hudson                       | TurboGrafx-16 | 1990 | Japan
+|       | BodyConQuest II                                             | Games Express                | TurboGrafx-16 | 1993 | Japan
+|       | Bomberman                                                   | Hudson                       | TurboGrafx-16 | 1990 | Japan
+|       | Bomberman '93                                               | Hudson                       | TurboGrafx-16 | 1992 | Japan
+|       | Bomberman '94                                               | Hudson                       | TurboGrafx-16 | 1993 | Japan
+|       | Bomberman: Users Battle                                     | Hudson                       | TurboGrafx-16 | 1990 | Japan
+|       | Bouken Danshaku Don: The Lost Sunheart                      | I'Max                        | TurboGrafx-16 | 1992 | Japan
+|       | Break In                                                    | Naxat Soft                   | TurboGrafx-16 | 1989 | Japan
+|       | Bubblegum Crash                                             | Naxat Soft                   | TurboGrafx-16 | 1991 | Japan
+|       | Bullfight Ring no Hasha                                     | Cream                        | TurboGrafx-16 | 1989 | Japan
+|       | Burning Angels                                              | Naxat Soft                   | TurboGrafx-16 | 1990 | Japan
+|       | Cadash                                                      | Taito Corporation            | TurboGrafx-16 | 1991 | Japan
+|       | Champion Wrestler                                           | Taito Corporation            | TurboGrafx-16 | 1990 | Japan
+|       | Chibi Maruko-Chan: Quiz de Piihyara                         | Namco                        | TurboGrafx-16 | 1992 | Japan
+|       | Chikudenya Toubee: BIT2 no Kubikiri Yakata Yori             | Naxat Soft                   | TurboGrafx-16 | 1990 | Japan
+|       | Chouzetsu Rinjin Bravoman                                   | Namco                        | TurboGrafx-16 | 1990 | Japan
+|       | Circus Lido                                                 | Unipost                      | TurboGrafx-16 | 1991 | Japan
+|       | City Hunter                                                 | SunSoft                      | TurboGrafx-16 | 1990 | Japan
+|       | Columns                                                     | Laser Soft                   | TurboGrafx-16 | 1991 | Japan
+|       | Coryoon                                                     | Naxat Soft                   | TurboGrafx-16 | 1991 | Japan
+|       | Cross Wiber: Cyber Combat Police                            | Face                         | TurboGrafx-16 | 1990 | Japan
+|       | Cyber Core                                                  | IGS (Japan)                  | TurboGrafx-16 | 1990 | Japan
+|       | Cyber Cross                                                 | Face                         | TurboGrafx-16 | 1989 | Japan
+|       | Cyber Dodge                                                 | Tonkin House                 | TurboGrafx-16 | 1992 | Japan
+|       | Cyber Knight                                                | Tonkin House                 | TurboGrafx-16 | 1990 | Japan
+|       | Dai Makai-Mura                                              | NEC Interchannel             | TurboGrafx-16 | 1990 | Japan
+|       | Daichikun Crisis: Do Natural                                | Salio                        | TurboGrafx-16 | 1989 | Japan
+|       | Daisenpuu                                                   | NEC Interchannel             | TurboGrafx-16 | 1990 | Japan
+|       | Darius Alpha                                                | NEC Interchannel             | TurboGrafx-16 | 1990 | Japan
+|       | Darius Plus                                                 | NEC Interchannel             | TurboGrafx-16 | 1990 | Japan
+|       | Dead Moon: Tsuki Sekai no Akumu                             | TSS                          | TurboGrafx-16 | 1991 | Japan
+|       | Deep Blue Kaitei Shinwa                                     | Pack-In-Video                | TurboGrafx-16 | 1989 | Japan
+|       | Detana!! TwinBee                                            | Konami                       | TurboGrafx-16 | 1992 | Japan
+|       | Devil Crash                                                 | Naxat Soft                   | TurboGrafx-16 | 1990 | Japan
+|       | Die Hard                                                    | NEC Interchannel             | TurboGrafx-16 | 1990 | Japan
+|       | Digital Champ: Battle Boxing                                | Naxat Soft                   | TurboGrafx-16 | 1989 | Japan
+|       | Don Doko Don                                                | Taito Corporation            | TurboGrafx-16 | 1990 | Japan
+|       | Doraemon: Meikyuu Daisakusen                                | Hudson                       | TurboGrafx-16 | 1989 | Japan
+|       | Doraemon: Nobita no Dorabian Night                          | Hudson                       | TurboGrafx-16 | 1991 | Japan
+|       | Double Dungeons                                             | NCS                          | TurboGrafx-16 | 1989 | Japan
+|       | Download                                                    | NEC Interchannel             | TurboGrafx-16 | 1990 | Japan
+|       | Dragon Egg!                                                 | NCS                          | TurboGrafx-16 | 1991 | Japan
+|       | Dragon Saber                                                | Namco                        | TurboGrafx-16 | 1991 | Japan
+|       | Dragon Spirit                                               | Namco                        | TurboGrafx-16 | 1988 | Japan
+|       | Drop Rock Hora Hora                                         | Data East                    | TurboGrafx-16 | 1990 | Japan
+|       | Dungeon Explorer                                            | Hudson                       | TurboGrafx-16 | 1989 | Japan
+|       | Energy                                                      | NCS                          | TurboGrafx-16 | 1989 | Japan
+|       | F-1 Dream                                                   | NEC Interchannel             | TurboGrafx-16 | 1989 | Japan
+|       | F-1 Pilot                                                   | Pack-In-Video                | TurboGrafx-16 | 1989 | Japan
+|       | F1 Circus                                                   | Nihon Bussan                 | TurboGrafx-16 | 1990 | Japan
+|       | F1 Circus '91                                               | Nichibutsu                   | TurboGrafx-16 | 1991 | Japan
+|       | F1 Circus '92                                               | Nichibutsu                   | TurboGrafx-16 | 1992 | Japan
+|       | F1 Triple Battle                                            | Human Entertainment          | TurboGrafx-16 | 1989 | Japan
+|       | Fantasy Zone                                                | NEC Interchannel             | TurboGrafx-16 | 1988 | Japan
+|       | Fighting Run                                                | Nichibutsu                   | TurboGrafx-16 | 1991 | Japan
+|       | Final Blaster                                               | Namco                        | TurboGrafx-16 | 1990 | Japan
+|       | Final Lap Twin                                              | Namco                        | TurboGrafx-16 | 1989 | Japan
+|       | Final Match Tennis                                          | Human Entertainment          | TurboGrafx-16 | 1991 | Japan
+|       | Final Soldier                                               | Hudson                       | TurboGrafx-16 | 1991 | Japan
+|       | Fire ProWrestling                                           | Human Entertainment          | TurboGrafx-16 | 1989 | Japan
+|       | Fire ProWrestling 2nd Bout                                  | Human Entertainment          | TurboGrafx-16 | 1991 | Japan
+|       | Fire ProWrestling 3: Legend Bout                            | Human Entertainment          | TurboGrafx-16 | 1992 | Japan
+|       | Formation Armed F                                           | Pack-In-Video                | TurboGrafx-16 | 1990 | Japan
+|       | Formation Soccer on J.League                                | Human Entertainment          | TurboGrafx-16 | 1994 | Japan
+|       | Formation Soccer: Human Cup '90                             | Human Entertainment          | TurboGrafx-16 | 1990 | Japan
+|       | Fushigi no Yume no Alice                                    | Face                         | TurboGrafx-16 | 1990 | Japan
+|       | Gai Flame                                                   | NCS                          | TurboGrafx-16 | 1990 | Japan
+|       | Gaia no Monshou                                             | NCS                          | TurboGrafx-16 | 1988 | Japan
+|       | Galaga '88                                                  | Namco                        | TurboGrafx-16 | 1988 | Japan
+|       | Ganbare! Golf Boys                                          | NCS                          | TurboGrafx-16 | 1989 | Japan
+|       | Gekibo: Gekisha Boy                                         | Irem                         | TurboGrafx-16 | 1992 | Japan
+|       | Genji Tsuushin Agedama                                      | NEC Interchannel             | TurboGrafx-16 | 1991 | Japan
+|       | Genpei Toumaden                                             | Namco                        | TurboGrafx-16 | 1990 | Japan
+|       | Genpei Toumaden: Kannoni                                    | Namco                        | TurboGrafx-16 | 1992 | Japan
+|       | Gokuraku! Chuuka Taisen                                     | Taito Corporation            | TurboGrafx-16 | 1992 | Japan
+|       | Gomola Speed                                                | UPL                          | TurboGrafx-16 | 1990 | Japan
+|       | Gradius                                                     | Konami                       | TurboGrafx-16 | 1991 | Japan
+|       | Gunhed                                                      | Hudson                       | TurboGrafx-16 | 1989 | Japan
+|       | Hana Taaka Daka!?                                           | Taito Corporation            | TurboGrafx-16 | 1991 | Japan
+|       | Hatris                                                      | Micro Cabin                  | TurboGrafx-16 | 1991 | Japan
+|       | Heavy Unit                                                  | Taito Corporation            | TurboGrafx-16 | 1989 | Japan
+|       | Hisou Kihei X-Serd                                          | NCS                          | TurboGrafx-16 | 1990 | Japan
+|       | Hit the Ice                                                 | Taito Corporation            | TurboGrafx-16 | 1991 | Japan
+|       | Honey in the Sky                                            | Face                         | TurboGrafx-16 | 1989 | Japan
+|       | Honey on the Road                                           | Face                         | TurboGrafx-16 | 1990 | Japan
+|       | Honoo no Doukyuuji: Dodge Danpei                            | Hudson                       | TurboGrafx-16 | 1992 | Japan
+|       | Hyper Dyne Side Arms                                        | NEC Interchannel             | TurboGrafx-16 | 1989 | Japan
+|       | Image Fight                                                 | Irem                         | TurboGrafx-16 | 1990 | Japan
+|       | J.League Greatest Eleven                                    | Nichibutsu                   | TurboGrafx-16 | 1993 | Japan
+|       | Jack Nicklaus' Greatest 18 Holes of Major Championship Golf | Victor Interactive Software  | TurboGrafx-16 | 1989 | Japan
+|       | Jackie Chan                                                 | Hudson                       | TurboGrafx-16 | 1991 | Japan
+|       | Jigoku Meguri                                               | Taito Corporation            | TurboGrafx-16 | 1990 | Japan
+|       | Jinmu Denshou                                               | Big Club                     | TurboGrafx-16 | 1989 | Japan
+|       | Joshoken Necromancer                                        | Hudson                       | TurboGrafx-16 | 1988 | Japan
+|       | Juuouki                                                     | NEC Interchannel             | TurboGrafx-16 | 1989 | Japan
+|       | Kaizou Chounin Shubibinman                                  | NCS                          | TurboGrafx-16 | 1989 | Japan
+|       | Kaizou Chounin Shubibinman 2: Atanaru Teki                  | NCS                          | TurboGrafx-16 | 1991 | Japan
+|       | Kato-Chan Ken-Chan                                          | Hudson                       | TurboGrafx-16 | 1987 | Japan
+|       | Kattobi! Takuhai-Kun                                        | Tonkin House                 | TurboGrafx-16 | 1990 | Japan
+|       | Kickball                                                    | NCS                          | TurboGrafx-16 | 1990 | Japan
+|       | Kiki Kai Kai                                                | Taito Corporation            | TurboGrafx-16 | 1990 | Japan
+|       | King of Casino                                              | Victor Interactive Software  | TurboGrafx-16 | 1990 | Japan
+|       | Klax                                                        | Tengen                       | TurboGrafx-16 | 1990 | Japan
+|       | Knight Rider Special                                        | Pack-In-Video                | TurboGrafx-16 | 1989 | Japan
+|       | Kore ga Pro Yakyuu '89                                      | Intec                        | TurboGrafx-16 | 1989 | Japan
+|       | Kore ga Pro Yakyuu '90                                      | Intec                        | TurboGrafx-16 | 1990 | Japan
+|       | Kung Fu, The                                                | Hudson                       | TurboGrafx-16 | 1987 | Japan
+|       | Kyuukyoku Tiger                                             | Taito Corporation            | TurboGrafx-16 | 1989 | Japan
+|       | Lady Sword: Ryakudatsusareta 10-nin no Otome                | Games Express                | TurboGrafx-16 | 1992 | Japan
+|       | Legend of Hero Tonma                                        | Irem                         | TurboGrafx-16 | 1991 | Japan
+|       | Lode Runner: Ushina Wareta Meikyuu                          | Pack-In-Video                | TurboGrafx-16 | 1990 | Japan
+|       | Madouou Granzort                                            | Hudson                       | TurboGrafx-16 | 1990 | Japan
+|       | Magical Chase                                               | PalSoft                      | TurboGrafx-16 | 1991 | Japan
+|       | Mahjong Gakuen Toumasou Shirou Toujou                       | Face                         | TurboGrafx-16 | 1989 | Japan
+|       | Mahjong Gakuen Toumasou Shirou Toujou Mild                  | Face                         | TurboGrafx-16 | 1990 | Japan
+|       | Mahjong Goku Special                                        | SunSoft                      | TurboGrafx-16 | 1990 | Japan
+|       | Mahjong Haouden: Kaiser's Quest                             | UPL                          | TurboGrafx-16 | 1992 | Japan
+|       | Mahjong Shikaku Retsuden: Mahjong Wars                      | Nihon Bussan                 | TurboGrafx-16 | 1990 | Japan
+|       | Maison Ikkoku                                               | Micro Cabin                  | TurboGrafx-16 | 1989 | Japan
+|       | Majin Eiyuuden Wataru                                       | Hudson                       | TurboGrafx-16 | 1988 | Japan
+|       | Makai Hakkenden Shada                                       | Data East                    | TurboGrafx-16 | 1989 | Japan
+|       | Makai Prince Dorabocchan                                    | Naxat Soft                   | TurboGrafx-16 | 1990 | Japan
+|       | Makyou Densetsu                                             | Victor Interactive Software  | TurboGrafx-16 | 1988 | Japan
+|       | Maniac Pro-Wrestling: Ashita e no Tatakai                   | Hudson                       | TurboGrafx-16 | 1990 | Japan
+|       | Marchen Maze                                                | Namco                        | TurboGrafx-16 | 1990 | Japan
+|       | Mesopotamia                                                 | ATLUS                        | TurboGrafx-16 | 1991 | Japan
+|       | Metal Stoker                                                | Face                         | TurboGrafx-16 | 1991 | Japan
+|       | Mizubaku Daibouken                                          | Taito Corporation            | TurboGrafx-16 | 1992 | Japan
+|       | Momotarou Densetsu Gaiden 1: Dai 1 Shuu                     | Hudson                       | TurboGrafx-16 | 1992 | Japan
+|       | Momotarou Densetsu II                                       | Hudson                       | TurboGrafx-16 | 1990 | Japan
+|       | Momotarou Densetsu Turbo                                    | Hudson                       | TurboGrafx-16 | 1990 | Japan
+|       | Momotarou Katsugeki                                         | Hudson                       | TurboGrafx-16 | 1990 | Japan
+|       | Monster Pro Wrestling                                       | ASK                          | TurboGrafx-16 | 1991 | Japan
+|       | Morita Shogi PC                                             | NEC Interchannel             | TurboGrafx-16 | 1991 | Japan
+|       | Moto Roader                                                 | NEC Interchannel             | TurboGrafx-16 | 1989 | Japan
+|       | Moto Roader II                                              | NCS                          | TurboGrafx-16 | 1991 | Japan
+|       | Mr. Heli no Daibouken                                       | Irem                         | TurboGrafx-16 | 1989 | Japan
+|       | Mr. Heli no Daibouken                                       | Irem                         | TurboGrafx-16 | 1989 | Japan
+|       | Narazumono Sentou Butai: Bloody Wolf                        | Data East                    | TurboGrafx-16 | 1989 | Japan
+|       | Naxat Open                                                  | Naxat Soft                   | TurboGrafx-16 | 1989 | Japan
+|       | Naxat Stadium                                               | Naxat Soft                   | TurboGrafx-16 | 1990 | Japan
+|       | Nazo no Masquerade                                          | NCS                          | TurboGrafx-16 | 1990 | Japan
+|       | Necros no Yousai                                            | ASK                          | TurboGrafx-16 | 1990 | Japan
+|       | Nectaris                                                    | Hudson                       | TurboGrafx-16 | 1989 | Japan
+|       | Nekketsu Koukou Dodge Ball-Bu: PC Bangai-hen                | Naxat Soft                   | TurboGrafx-16 | 1990 | Japan
+|       | Nekketsu Koukou Dodge Ball-Bu: PC Soccer-hen                | Naxat Soft                   | TurboGrafx-16 | 1992 | Japan
+|       | Neutopia II                                                 | Hudson                       | TurboGrafx-16 | 1991 | Japan
+|       | Neutopia: Frey no Shou                                      | Hudson                       | TurboGrafx-16 | 1989 | Japan
+|       | New Zealand Story, The                                      | Taito Corporation            | TurboGrafx-16 | 1990 | Japan
+|       | NHK Taiga Drama: Taiheiki                                   | NHK                          | TurboGrafx-16 | 1992 | Japan
+|       | Niko-Niko Pun                                               | NHK                          | TurboGrafx-16 | 1991 | Japan
+|       | Ninja Ryuukenden                                            | Hudson                       | TurboGrafx-16 | 1992 | Japan
+|       | Ninja Warriors, The                                         | Taito Corporation            | TurboGrafx-16 | 1989 | Japan
+|       | Obocchamakun                                                | Namco                        | TurboGrafx-16 | 1991 | Japan
+|       | Operation Wolf                                              | NEC Interchannel             | TurboGrafx-16 | 1990 | Japan
+|       | Ordyne                                                      | Namco                        | TurboGrafx-16 | 1989 | Japan
+|       | Out Live                                                    | SunSoft                      | TurboGrafx-16 | 1989 | Japan
+|       | OutRun                                                      | NEC Interchannel             | TurboGrafx-16 | 1990 | Japan
+|       | Override                                                    | Data East                    | TurboGrafx-16 | 1991 | Japan
+|       | P-47: The Freedom Fighter                                   | Aicom                        | TurboGrafx-16 | 1989 | Japan
+|       | Pac-Land                                                    | Namco                        | TurboGrafx-16 | 1989 | Japan
+|       | Pachi-Slot PC: Idol Gambler                                 | Games Express                | TurboGrafx-16 | 1992 | Japan
+|       | Pachiokun: Juban Shobu                                      | Coconuts Japan               | TurboGrafx-16 | 1992 | Japan
+|       | Paranoia                                                    | Naxat Soft                   | TurboGrafx-16 | 1990 | Japan
+|       | Parasol Stars: The Story of Bubble Bobble III               | Taito Corporation            | TurboGrafx-16 | 1991 | Japan
+|       | Parodius Da! Shinwa kara Owarai e                           | Konami                       | TurboGrafx-16 | 1992 | Japan
+|       | PC Denjin: Punkic Cyborgs                                   | Hudson                       | TurboGrafx-16 | 1992 | Japan
+|       | PC Genjin                                                   | Hudson                       | TurboGrafx-16 | 1989 | Japan
+|       | PC Genjin 2                                                 | Hudson                       | TurboGrafx-16 | 1991 | Japan
+|       | PC Genjin 3                                                 | Hudson                       | TurboGrafx-16 | 1993 | Japan
+|       | Populous                                                    | Hudson                       | TurboGrafx-16 | 1991 | Japan
+|       | Power Drift                                                 | Asmik Ace Entertainment, Inc | TurboGrafx-16 | 1990 | Japan
+|       | Power Eleven                                                | Hudson                       | TurboGrafx-16 | 1991 | Japan
+|       | Power Gate                                                  | Pack-In-Video                | TurboGrafx-16 | 1991 | Japan
+|       | Power Golf                                                  | Hudson                       | TurboGrafx-16 | 1989 | Japan
+|       | Power League                                                | Hudson                       | TurboGrafx-16 | 1988 | Japan
+|       | Power League '93                                            | Hudson                       | TurboGrafx-16 | 1993 | Japan
+|       | Power League 4                                              | Hudson                       | TurboGrafx-16 | 1991 | Japan
+|       | Power League 5                                              | Hudson                       | TurboGrafx-16 | 1992 | Japan
+|       | Power League II                                             | Hudson                       | TurboGrafx-16 | 1989 | Japan
+|       | Power League III                                            | Hudson                       | TurboGrafx-16 | 1990 | Japan
+|       | Power Sports                                                | Hudson Soft                  | TurboGrafx-16 | 1992 | Japan
+|       | Power Tennis                                                | Hudson                       | TurboGrafx-16 | 1993 | Japan
+|       | Pro Tennis: World Court                                     | Namco                        | TurboGrafx-16 | 1988 | Japan
+|       | Pro Yakyuu World Stadium                                    | Namco                        | TurboGrafx-16 | 1988 | Japan
+|       | Pro Yakyuu World Stadium '91                                | Namco                        | TurboGrafx-16 | 1991 | Japan
+|       | Psycho Chaser                                               | Naxat Soft                   | TurboGrafx-16 | 1990 | Japan
+|       | Puzzle Boy                                                  | Nippon Telenet               | TurboGrafx-16 | 1991 | Japan
+|       | Puzznic                                                     | Taito Corporation            | TurboGrafx-16 | 1990 | Japan
+|       | Quiz Tokou Shashin                                          | Games Express                | TurboGrafx-16 | 1992 | Japan
+|       | Quiz Toukou Shashin                                         | Games Express                | TurboGrafx-16 | 1994 | Japan
+|       | R-Type I                                                    | Hudson                       | TurboGrafx-16 | 1988 | Japan
+|       | R-Type II                                                   | Hudson                       | TurboGrafx-16 | 1988 | Japan
+|       | Rabio Lepus Special                                         | Video System                 | TurboGrafx-16 | 1990 | Japan
+|       | Racing Damashii                                             | Irem                         | TurboGrafx-16 | 1991 | Japan
+|       | Raiden                                                      | Hudson                       | TurboGrafx-16 | 1991 | Japan
+|       | Rastan Saga II                                              | Taito Corporation            | TurboGrafx-16 | 1990 | Japan
+|       | Rock-On                                                     | Big Club                     | TurboGrafx-16 | 1989 | Japan
+|       | Ryuukyuu                                                    | Face                         | TurboGrafx-16 | 1990 | Japan
+|       | S.C.I.: Special Criminal Investigation                      | Taito Corporation            | TurboGrafx-16 | 1991 | Japan
+|       | Sadakichi Seven: Hideyoshi no Ougon                         | Hudson                       | TurboGrafx-16 | 1988 | Japan
+|       | Saigo no Nindou: Ninja Spirit                               | Irem                         | TurboGrafx-16 | 1990 | Japan
+|       | Salamander                                                  | Konami                       | TurboGrafx-16 | 1991 | Japan
+|       | Sekigahara                                                  | Tonkin House                 | TurboGrafx-16 | 1990 | Japan
+|       | Sengoku Mahjong                                             | Hudson                       | TurboGrafx-16 | 1988 | Japan
+|       | Shanghai                                                    | Hudson                       | TurboGrafx-16 | 1987 | Japan
+|       | Shinobi                                                     | Asmik Ace Entertainment, Inc | TurboGrafx-16 | 1989 | Japan
+|       | Shiryou Sensen: War of the Dead                             | Victor Interactive Software  | TurboGrafx-16 | 1989 | Japan
+|       | Shogi Shodan Icchokusen                                     | Home Data                    | TurboGrafx-16 | 1990 | Japan
+|       | Shogi Shoshinsha Muyou                                      | Home Data                    | TurboGrafx-16 | 1991 | Japan
+|       | Silent Debuggers                                            | NEC Interchannel             | TurboGrafx-16 | 1991 | Japan
+|       | Sindibad: Chitei no Daimakyuu                               | IGS (Japan)                  | TurboGrafx-16 | 1990 | Japan
+|       | Skweek                                                      | Victor Interactive Software  | TurboGrafx-16 | 1991 | Japan
+|       | Soldier Blade                                               | Hudson                       | TurboGrafx-16 | 1992 | Japan
+|       | SonSon II                                                   | NEC Interchannel             | TurboGrafx-16 | 1989 | Japan
+|       | Soukoban World                                              | Media Rings                  | TurboGrafx-16 | 1990 | Japan
+|       | Space Harrier                                               | NEC                          | TurboGrafx-16 | 1988 | Japan
+|       | Space Invaders: Fukkatsu no Hi                              | Taito Corporation            | TurboGrafx-16 | 1990 | Japan
+|       | Spin Pair                                                   | Media Rings                  | TurboGrafx-16 | 1990 | Japan
+|       | Spiral Wave                                                 | Media Rings                  | TurboGrafx-16 | 1991 | Japan
+|       | Splatterhouse                                               | Namco                        | TurboGrafx-16 | 1990 | Japan
+|       | Stratego                                                    | Victor Interactive Software  | TurboGrafx-16 | 1992 | Japan
+|       | Street Fighter II': Champion Edition                        | NEC Interchannel             | TurboGrafx-16 | 1993 | Japan
+|       | Strip Fighter II                                            | Games Express                | TurboGrafx-16 | 1993 | Japan
+|       | Super Metal Crusher                                         | Pack-In-Video                | TurboGrafx-16 | 1991 | Japan
+|       | Super Momotarou Dentetsu                                    | Hudson                       | TurboGrafx-16 | 1989 | Japan
+|       | Super Momotarou Dentetsu II                                 | Hudson                       | TurboGrafx-16 | 1991 | Japan
+|       | Super Star Soldier                                          | Hudson                       | TurboGrafx-16 | 1990 | Japan
+|       | Super Volleyball                                            | Video System                 | TurboGrafx-16 | 1990 | Japan
+|       | Susano O Densetsu                                           | Hudson                       | TurboGrafx-16 | 1989 | Japan
+|       | Taito Chase H.Q.                                            | Taito Corporation            | TurboGrafx-16 | 1990 | Japan
+|       | Takahashi Meijin no Shin Bouken Jima                        | Hudson                       | TurboGrafx-16 | 1992 | Japan
+|       | Takeda Shingen                                              | Aicom                        | TurboGrafx-16 | 1989 | Japan
+|       | Tatsu no Ko Fighter                                         | Tonkin House                 | TurboGrafx-16 | 1989 | Japan
+|       | Tatsujin                                                    | Taito Corporation            | TurboGrafx-16 | 1992 | Japan
+|       | Tensei Ryuu: Saint Dragon                                   | Aicom                        | TurboGrafx-16 | 1990 | Japan
+|       | Terra Cresta II: Mandler no Gyakushuu                       | Nichibutsu                   | TurboGrafx-16 | 1992 | Japan
+|       | Thunder Blade                                               | NEC Interchannel             | TurboGrafx-16 | 1990 | Japan
+|       | Time Cruise II                                              | Face                         | TurboGrafx-16 | 1991 | Japan
+|       | Titan                                                       | Naxat Soft                   | TurboGrafx-16 | 1991 | Japan
+|       | Toilet Kids                                                 | Media Rings                  | TurboGrafx-16 | 1992 | Japan
+|       | Tora e no Michi                                             | Victor Interactive Software  | TurboGrafx-16 | 1990 | Japan
+|       | Toshi Tensou Keikaku: Eternal City                          | Naxat Soft                   | TurboGrafx-16 | 1991 | Japan
+|       | Tower of Druaga, The                                        | Namco                        | TurboGrafx-16 | 1992 | Japan
+|       | Toy Shop Boys                                               | Victor Interactive Software  | TurboGrafx-16 | 1990 | Japan
+|       | Tricky                                                      | IGS (Japan)                  | TurboGrafx-16 | 1991 | Japan
+|       | Tsuppari Oozumou: Heisei Ban                                | Naxat Soft                   | TurboGrafx-16 | 1993 | Japan
+|       | Tsuppari Oozumou: Heisei Han                                | Naxat Soft                   | TurboGrafx-16 | 1993 | Japan
+|       | Tsuru Teruhito no Jissen Kabushiki Bi-Game                  | Intec                        | TurboGrafx-16 | 1989 | Japan
+|       | TV Sports Basketball                                        | Victor Interactive Software  | TurboGrafx-16 | 1991 | Japan
+|       | TV Sports Football                                          | Victor Interactive Software  | TurboGrafx-16 | 1991 | Japan
+|       | TV Sports Hockey                                            | Victor Interactive Software  | TurboGrafx-16 | 1993 | Japan
+|       | USA Pro Basketball                                          | Aicom                        | TurboGrafx-16 | 1989 | Japan
+|       | Valkyrie no Densetsu                                        | Namco                        | TurboGrafx-16 | 1990 | Japan
+|       | Veigues Tactical Gladiator                                  | Victor Interactive Software  | TurboGrafx-16 | 1990 | Japan
+|       | Victory Run: Eikou no 13,000KM                              | Hudson                       | TurboGrafx-16 | 1987 | Japan
+|       | Vigilante                                                   | Irem                         | TurboGrafx-16 | 1989 | Japan
+|       | Violent Soldier                                             | IGS (Japan)                  | TurboGrafx-16 | 1990 | Japan
+|       | Volfied                                                     | Taito Corporation            | TurboGrafx-16 | 1989 | Japan
+|       | W Ring: The Double Rings                                    | Naxat Soft                   | TurboGrafx-16 | 1990 | Japan
+|       | Wai Wai Mahjong: Yukai na Jantomi-tachi                     | Video System                 | TurboGrafx-16 | 1989 | Japan
+|       | Wallaby!! Usagi no Kuni no Kangaroo Race                    | NCS                          | TurboGrafx-16 | 1990 | Japan
+|       | Winning Shot                                                | Data East                    | TurboGrafx-16 | 1989 | Japan
+|       | Wonder-Momo                                                 | Namco                        | TurboGrafx-16 | 1989 | Japan
+|       | World Beach Volley                                          | IGS (Japan)                  | TurboGrafx-16 | 1990 | Japan
+|       | World Circuit                                               | Namco                        | TurboGrafx-16 | 1991 | Japan
+|       | World Jockey                                                | Namco                        | TurboGrafx-16 | 1991 | Japan
+|       | Xevious: Fardraut Densetsu                                  | Namco                        | TurboGrafx-16 | 1990 | Japan
+|       | Youkai Douchuuki                                            | Namco                        | TurboGrafx-16 | 1988 | Japan
+|       | YouYou Jinsei                                               | Hudson                       | TurboGrafx-16 | 1988 | Japan
+|       | Zero 4 Champ                                                | Media Rings                  | TurboGrafx-16 | 1991 | Japan
+|       | Zipang                                                      | Pack-In-Video                | TurboGrafx-16 | 1990 | Japan

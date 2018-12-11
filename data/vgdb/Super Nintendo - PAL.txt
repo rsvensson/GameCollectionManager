@@ -1,0 +1,530 @@
+|       | 90 Minutes: European Prime Goal                                  | Ocean                        | Super Nintendo | 1995 | Europe
+|       | AAAHH!!! Real Monsters                                           | Viacom New Media             | Super Nintendo | 1996 | Europe
+|       | ACME Animation Factory                                           | SunSoft                      | Super Nintendo | 1995 | Europe
+|       | ActRaiser                                                        | Enix Corporation             | Super Nintendo | 1993 | Europe
+|       | Actraiser 2                                                      | Ubisoft                      | Super Nintendo | 1994 | Europe
+|       | Addams Family Values                                             | Ocean                        | Super Nintendo | 1996 | Europe
+|       | Addams Family, The                                               | Ocean                        | Super Nintendo | 1992 | Europe
+|       | Addams Family: Pugsley's Scavenger Hunt, The                     | Ocean                        | Super Nintendo | 1992 | Europe
+|       | Adventures of Batman & Robin, The                                | Konami                       | Super Nintendo | 1994 | Europe
+|       | Adventures of Dr. Franken, The                                   | Elite Systems Ltd.           | Super Nintendo | 1994 | Europe
+|       | Adventures of Mighty Max, The                                    | Ocean                        | Super Nintendo | 1994 | Europe
+|       | Aero The Acro-Bat                                                | SunSoft                      | Super Nintendo | 1993 | Europe
+|       | Aero the Acro-Bat 2                                              | SunSoft                      | Super Nintendo | 1994 | Europe
+|       | Aguri Suzuki F-1 Super Driving                                   | Altron                       | Super Nintendo | 1993 | Europe
+|       | Air Cavalry                                                      | GameTek                      | Super Nintendo | 1995 | Europe
+|       | Al Unser Jr.'s Road to the Top                                   | Mindscape                    | Super Nintendo | 1994 | Europe
+|       | Alfred Chicken                                                   | Mindscape                    | Super Nintendo | 1994 | Europe
+|       | Alien 3                                                          | LJN Ltd.                     | Super Nintendo | 1993 | Europe
+|       | Alien vs. Predator                                               | Activision                   | Super Nintendo | 1993 | Europe
+|       | All-American Championship Football                               | Malibu                       | Super Nintendo | 1994 | Europe
+|       | An American Tail: Fievel Goes West                               | Hudson                       | Super Nintendo | 1994 | Europe
+|       | Animaniacs                                                       | Konami                       | Super Nintendo | 1994 | Europe
+|       | Another World                                                    | Interplay                    | Super Nintendo | 1993 | Europe
+|       | Archer MacLean's Super Dropzone                                  | Psygnosis                    | Super Nintendo | 1995 | Europe
+|       | Ardy Lightfoot                                                   | Titus Software               | Super Nintendo | 1994 | Europe
+|       | Arkanoid                                                         | Nintendo                     | Super Nintendo | 1997 | Europe
+|       | Art of Fighting                                                  | Takara                       | Super Nintendo | 1993 | Europe
+|       | Asterix                                                          | Infogrames                   | Super Nintendo | 1993 | Europe
+|       | Asterix & Obelix                                                 | Infogrames                   | Super Nintendo | 1995 | Europe
+|       | Axelay                                                           | Konami                       | Super Nintendo | 1993 | Europe
+|       | B.O.B.                                                           | Electronic Arts              | Super Nintendo | 1993 | Europe
+|       | Barkley: Shut Up and Jam!                                        | Sony Imagesoft               | Super Nintendo | 1994 | Europe
+|       | Bass Masters Classic: Pro Edition                                | Black Pearl                  | Super Nintendo | 1996 | Europe
+|       | Batman Forever                                                   | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Batman Returns                                                   | Konami                       | Super Nintendo | 1993 | Europe
+|       | Battle Clash                                                     | Nintendo                     | Super Nintendo | 1993 | Europe
+|       | Battletoads & Double Dragon - The Ultimate Team                  | Tradewest                    | Super Nintendo | 1994 | Europe
+|       | Battletoads in Battlemaniacs                                     | Tradewest                    | Super Nintendo | 1993 | Europe
+|       | Beavis and Butt-head                                             | Viacom New Media             | Super Nintendo | 1995 | Europe
+|       | Beethoven's 2nd                                                  | Hi Tech Expressions          | Super Nintendo | 1993 | Europe
+|       | Best of the Best: Championship Karate                            | Futura                       | Super Nintendo | 1993 | Europe
+|       | Big Sky Trooper                                                  | JVC Musical Industries, Inc. | Super Nintendo | 1995 | Europe
+|       | Biker Mice From Mars                                             | Konami                       | Super Nintendo | 1994 | Europe
+|       | BioMetal                                                         | Activision                   | Super Nintendo | 1993 | Europe
+|       | Blackhawk                                                        | Virgin Interactive           | Super Nintendo | 1995 | Europe
+|       | Blanco World Class Rugby                                         | Imagineer                    | Super Nintendo | 1993 | Europe
+|       | Blazing Skies                                                    | Namco                        | Super Nintendo | 1993 | Europe
+|       | Blues Brothers, The                                              | Titus Software               | Super Nintendo | 1993 | Europe
+|       | Boogerman: A Pick and Flick Adventure                            | Interplay                    | Super Nintendo | 1996 | Europe
+|       | Boxing Legends of the Ring                                       | Electro Brain                | Super Nintendo | 1993 | Europe
+|       | Brainies, The                                                    | Titus Software               | Super Nintendo | 1994 | Europe
+|       | Bram Stoker's Dracula                                            | Sony Imagesoft               | Super Nintendo | 1993 | Europe
+|       | Brawl Brothers                                                   | Jaleco Entertainment         | Super Nintendo | 1993 | Europe
+|       | Breath of Fire II                                                | Laguna                       | Super Nintendo | 1996 | Europe
+|       | Brett Hull Hockey                                                | Sony Imagesoft               | Super Nintendo | 1994 | Europe
+|       | Brutal: Paws of Fury                                             | GameTek                      | Super Nintendo | 1994 | Europe
+|       | Bubsy II                                                         | Accolade                     | Super Nintendo | 1994 | Europe
+|       | Bubsy in: Claws Encounters of the Furred Kind                    | Accolade                     | Super Nintendo | 1993 | Europe
+|       | Bugs Bunny: Rabbit Rampage                                       | SunSoft                      | Super Nintendo | 1994 | Europe
+|       | Bulls vs Blazers and the NBA Playoffs                            | EA Sports                    | Super Nintendo | 1992 | Europe
+|       | C2 - Clay Fighter 2: Judgment Clay                               | Interplay                    | Super Nintendo | 1995 | Europe
+|       | Cal Ripken Jr. Baseball                                          | Mindscape                    | Super Nintendo | 1993 | Europe
+|       | California Games II                                              | Imagineer                    | Super Nintendo | 1993 | Europe
+|       | Cannon Fodder                                                    | Virgin Interactive           | Super Nintendo | 1994 | Europe
+|       | Captain America and the Avengers                                 | Mindscape                    | Super Nintendo | 1993 | Europe
+|       | Captain Commando                                                 | Capcom                       | Super Nintendo | 1995 | Europe
+|       | Carrier Aces                                                     | GameTek                      | Super Nintendo | 1995 | Europe
+|       | Casper                                                           | Natsume                      | Super Nintendo | 1997 | Europe
+|       | Castlevania: Vampire's Kiss                                      | Konami                       | Super Nintendo | 1996 | Europe
+|       | Champions World Class Soccer                                     | Acclaim                      | Super Nintendo | 1994 | Europe
+|       | Championship Pool                                                | Mindscape                    | Super Nintendo | 1993 | Europe
+|       | Chaos Engine, The                                                | MicroProse                   | Super Nintendo | 1994 | Europe
+|       | Chessmaster, The                                                 | Mindscape                    | Super Nintendo | 1993 | Europe
+|       | Choplifter III                                                   | Ocean                        | Super Nintendo | 1994 | Europe
+|       | Chuck Rock                                                       | Sony Imagesoft               | Super Nintendo | 1992 | Europe
+|       | ClayFighter                                                      | Ocean                        | Super Nintendo | 1994 | Europe
+|       | Claymates                                                        | Interplay                    | Super Nintendo | 1993 | Europe
+|       | Cliffhanger                                                      | Sony Imagesoft               | Super Nintendo | 1993 | Europe
+|       | Congo's Caper                                                    | Data East                    | Super Nintendo | 1993 | Europe
+|       | Cool Spot                                                        | Virgin Interactive           | Super Nintendo | 1994 | Europe
+|       | Cool World                                                       | Ocean                        | Super Nintendo | 1992 | Europe
+|       | Cutthroat Island                                                 | Acclaim                      | Super Nintendo | 1996 | Europe
+|       | Cybernator                                                       | Palcom                       | Super Nintendo | 1993 | Europe
+|       | Daffy Duck: The Marvin Missions                                  | SunSoft                      | Super Nintendo | 1994 | Europe
+|       | Darius Twin                                                      | Taito Corporation            | Super Nintendo | 1993 | Europe
+|       | David Crane's Amazing Tennis                                     | Electronic Arts              | Super Nintendo | 1992 | Europe
+|       | Daze Before Christmas                                            | SunSoft                      | Super Nintendo | 1994 | Europe
+|       | Death and Return of Superman, The                                | SunSoft                      | Super Nintendo | 1994 | Europe
+|       | Demolition Man                                                   | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Demon's Crest                                                    | Capcom                       | Super Nintendo | 1994 | Europe
+|       | Dennis                                                           | Ocean                        | Super Nintendo | 1994 | Europe
+|       | Desert Fighter                                                   | System 3                     | Super Nintendo | 1994 | Europe
+|       | Desert Strike: Return to the Gulf                                | Electronic Arts              | Super Nintendo | 1993 | Europe
+|       | Dino Dini's Soccer                                               | Virgin Interactive           | Super Nintendo | 1995 | Europe
+|       | Dinocity                                                         | Irem                         | Super Nintendo | 1992 | Europe
+|       | Dirt Racer                                                       | Elite Systems Ltd.           | Super Nintendo | 1995 | Europe
+|       | Dirt Trax FX                                                     | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Disney Donald in Maui Mallard                                    | Nintendo                     | Super Nintendo | 1996 | Europe
+|       | Disney Pinocchio                                                 | Nintendo                     | Super Nintendo | 1996 | Europe
+|       | Disney's Aladdin                                                 | Capcom                       | Super Nintendo | 1994 | Europe
+|       | Disney's Beauty and the Beast                                    | Hudson                       | Super Nintendo | 1995 | Europe
+|       | Disney's Goof Troop                                              | Capcom                       | Super Nintendo | 1993 | Europe
+|       | Disney's The Jungle Book                                         | Virgin Interactive           | Super Nintendo | 1994 | Europe
+|       | Disney's Timon & Pumbaa's Jungle Games                           | THQ                          | Super Nintendo | 1998 | Europe
+|       | Disney's Toy Story                                               | Nintendo                     | Super Nintendo | 1996 | Europe
+|       | Donkey Kong Country                                              | Nintendo                     | Super Nintendo | 1994 | Europe
+|       | Donkey Kong Country 2: Diddy's Kong Quest                        | Nintendo                     | Super Nintendo | 1995 | Europe
+|       | Donkey Kong Country 3: Dixie Kong's Double Trouble               | Nintendo                     | Super Nintendo | 1996 | Europe
+|       | Doom                                                             | Ocean                        | Super Nintendo | 1995 | Europe
+|       | Double Dragon V: The Shadow Falls                                | Tradewest                    | Super Nintendo | 1994 | Europe
+|       | Dragon Ball Z                                                    | Bandai                       | Super Nintendo | 1993 | Europe
+|       | Dragon Ball Z: Hyper Dimension                                   | Bandai                       | Super Nintendo | 1996 | Europe
+|       | Dragon Ball Z: La Legende Saien                                  | Bandai                       | Super Nintendo | 1994 | Europe
+|       | Dragon Ball Z: Ultime Menace                                     | Bandai                       | Super Nintendo | 1994 | Europe
+|       | Dragon: The Bruce Lee Story                                      | Virgin Interactive           | Super Nintendo | 1995 | Europe
+|       | Drakkhen                                                         | Infogrames                   | Super Nintendo | 1991 | Europe
+|       | Dungeon Master                                                   | JVC Digital Studios          | Super Nintendo | 1992 | Europe
+|       | Earth Defense Force                                              | Jaleco Entertainment         | Super Nintendo | 1992 | Europe
+|       | Earthworm Jim                                                    | Virgin Interactive           | Super Nintendo | 1995 | Europe
+|       | Earthworm Jim 2                                                  | Virgin Interactive           | Super Nintendo | 1996 | Europe
+|       | Eek! The Cat                                                     | Ocean                        | Super Nintendo | 1994 | Europe
+|       | Equinox                                                          | Sony Imagesoft               | Super Nintendo | 1994 | Europe
+|       | ESPN Baseball Tonight                                            | Sony Imagesoft               | Super Nintendo | 1994 | Europe
+|       | Euro Football Champ                                              | Taito Corporation            | Super Nintendo | 1992 | Europe
+|       | Exhaust Heat                                                     | Ocean                        | Super Nintendo | 1993 | Europe
+|       | F-Zero                                                           | Nintendo                     | Super Nintendo | 1992 | Europe
+|       | F1 Pole Position                                                 | Ubisoft                      | Super Nintendo | 1993 | Europe
+|       | F1 Pole Position 2                                               | Ubisoft                      | Super Nintendo | 1994 | Europe
+|       | F1 World Championship Edition                                    | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Family Dog                                                       | Malibu                       | Super Nintendo | 1993 | Europe
+|       | Fatal Fury                                                       | Takara                       | Super Nintendo | 1993 | Europe
+|       | Fatal Fury 2                                                     | Takara                       | Super Nintendo | 1994 | Europe
+|       | Fatal Fury Special                                               | Takara                       | Super Nintendo | 1995 | Europe
+|       | FIFA 97                                                          | Electronic Arts              | Super Nintendo | 1996 | Europe
+|       | FIFA International Soccer                                        | Electronic Arts              | Super Nintendo | 1994 | Europe
+|       | FIFA Soccer 96                                                   | Electronic Arts              | Super Nintendo | 1995 | Europe
+|       | FIFA: Road to World Cup 98                                       | EA Sports                    | Super Nintendo | 1998 | Europe
+|       | Final Fight                                                      | Capcom                       | Super Nintendo | 1992 | Europe
+|       | Final Fight 2                                                    | Capcom                       | Super Nintendo | 1993 | Europe
+|       | Final Fight 3                                                    | Capcom                       | Super Nintendo | 1996 | Europe
+|       | Firemen, The                                                     | Human Entertainment          | Super Nintendo | 1995 | Europe
+|       | First Samurai                                                    | Kemco                        | Super Nintendo | 1993 | Europe
+|       | Flashback                                                        | U.S. Gold                    | Super Nintendo | 1993 | Europe
+|       | Flintstones, The                                                 | Ocean                        | Super Nintendo | 1995 | Europe
+|       | Flintstones: The Treasure of Sierra Madrock, The                 | Taito Corporation            | Super Nintendo | 1994 | Europe
+|       | Foreman For Real                                                 | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Frank Thomas Big Hurt Baseball                                   | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Frantic Flea                                                     | GameTek                      | Super Nintendo | 1996 | Europe
+|       | Full Throttle All-America Racing                                 | GameTek                      | Super Nintendo | 1994 | Europe
+|       | Fun 'N' Games                                                    | Tradewest                    | Super Nintendo | 1994 | Europe
+|       | George Foreman's KO Boxing                                       | Acclaim                      | Super Nintendo | 1992 | Europe
+|       | Ghoul Patrol                                                     | JVC Musical Industries, Inc. | Super Nintendo | 1994 | Europe
+|       | Gods                                                             | Interplay                    | Super Nintendo | 1993 | Europe
+|       | GP-1                                                             | ATLUS                        | Super Nintendo | 1993 | Europe
+|       | Great Circus Mystery starring Mickey & Minnie, The               | Capcom                       | Super Nintendo | 1995 | Europe
+|       | Hagane                                                           | Hudson                       | Super Nintendo | 1995 | Europe
+|       | HAL's Hole in One Golf                                           | HAL Labs                     | Super Nintendo | 1992 | Europe
+|       | Hanna Barbera's Turbo Toons                                      | Empire Interactive           | Super Nintendo | 1994 | Europe
+|       | Harley's Humongous Adventure                                     | Hi Tech Expressions          | Super Nintendo | 1993 | Europe
+|       | Harvest Moon                                                     | Nintendo                     | Super Nintendo | 1998 | Europe
+|       | Hebereke's Popoitto                                              | SunSoft                      | Super Nintendo | 1995 | Europe
+|       | Hebereke's Popoon                                                | SunSoft                      | Super Nintendo | 1994 | Europe
+|       | Home Alone                                                       | Altron                       | Super Nintendo | 1992 | Europe
+|       | Home Alone 2: Lost in New York                                   | THQ                          | Super Nintendo | 1993 | Europe
+|       | Hook                                                             | Sony Imagesoft               | Super Nintendo | 1993 | Europe
+|       | Humans, The                                                      | GameTek                      | Super Nintendo | 1993 | Europe
+|       | Hungry Dinosaurs                                                 | SunSoft                      | Super Nintendo | 1995 | Europe
+|       | Hunt for Red October, The                                        | Hi Tech Expressions          | Super Nintendo | 1993 | Europe
+|       | Hurricanes                                                       | U.S. Gold                    | Super Nintendo | 1994 | Europe
+|       | Hyper V-Ball                                                     | Ubisoft                      | Super Nintendo | 1993 | Europe
+|       | HyperZone                                                        | HAL Labs                     | Super Nintendo | 1991 | Europe
+|       | Illusion of Time                                                 | Nintendo                     | Super Nintendo | 1995 | Europe
+|       | Incantation                                                      | Titus Software               | Super Nintendo | 1996 | Europe
+|       | Incredible Crash Dummies, The                                    | LJN Ltd.                     | Super Nintendo | 1993 | Europe
+|       | Incredible Hulk, The                                             | U.S. Gold                    | Super Nintendo | 1994 | Europe
+|       | Indiana Jones' Greatest Adventures                               | JVC Digital Studios          | Super Nintendo | 1995 | Europe
+|       | International Sensible Soccer - World Champions: Limited Edition | Sony Imagesoft               | Super Nintendo | 1994 | Europe
+|       | International Superstar Soccer                                   | Konami                       | Super Nintendo | 1995 | Europe
+|       | International Superstar Soccer Deluxe                            | Konami                       | Super Nintendo | 1996 | Europe
+|       | International Tennis Tour                                        | Loriciels                    | Super Nintendo | 1993 | Europe
+|       | Itchy & Scratchy Game, The                                       | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Izzy's Quest for the Olympic Rings                               | U.S. Gold                    | Super Nintendo | 1995 | Europe
+|       | J.R.R. Tolkien's The Lord of the Rings: Volume 1                 | Interplay                    | Super Nintendo | 1995 | Europe
+|       | Jack Nicklaus Golf                                               | Tradewest                    | Super Nintendo | 1992 | Europe
+|       | James Bond Jr.                                                   | THQ                          | Super Nintendo | 1992 | Europe
+|       | James Pond 3: Operation Starfish                                 | U.S. Gold                    | Super Nintendo | 1994 | Europe
+|       | James Pond's Crazy Sports                                        | Sales Curve Interactive      | Super Nintendo | 1994 | Europe
+|       | Jelly Boy                                                        | Ocean                        | Super Nintendo | 1995 | Europe
+|       | Jimmy Connors Pro Tennis Tour                                    | Ubisoft                      | Super Nintendo | 1994 | Europe
+|       | Joe & Mac 3: Lost in the Tropics                                 | Elite                        | Super Nintendo | 1995 | Europe
+|       | Joe & Mac: Caveman Ninja                                         | Elite                        | Super Nintendo | 1992 | Europe
+|       | John Madden Football '93                                         | Electronic Arts              | Super Nintendo | 1993 | Europe
+|       | Judge Dredd                                                      | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Jungle Strike                                                    | Electronic Arts              | Super Nintendo | 1995 | Europe
+|       | Jurassic Park                                                    | Ocean                        | Super Nintendo | 1993 | Europe
+|       | Jurassic Park Part 2: The Chaos Continues                        | Ocean                        | Super Nintendo | 1994 | Europe
+|       | Justice League Task Force                                        | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Kawasaki Superbikes                                              | Time Warner Interactive      | Super Nintendo | 1995 | Europe
+|       | Kevin Keegan's Player Manager                                    | Imagineer                    | Super Nintendo | 1993 | Europe
+|       | Kick Off                                                         | Imagineer                    | Super Nintendo | 1993 | Europe
+|       | Kick Off 3: European Challenge                                   | Vic Tokai                    | Super Nintendo | 1994 | Europe
+|       | Kid Klown in Crazy Chase                                         | Kemco                        | Super Nintendo | 1995 | Europe
+|       | Killer Instinct                                                  | Nintendo                     | Super Nintendo | 1995 | Europe
+|       | King Arthur's World                                              | Jaleco Entertainment         | Super Nintendo | 1993 | Europe
+|       | King of Dragons                                                  | Capcom                       | Super Nintendo | 1994 | Europe
+|       | King of the Monsters                                             | Takara                       | Super Nintendo | 1992 | Europe
+|       | Kirby's Dream Course                                             | Nintendo                     | Super Nintendo | 1995 | Europe
+|       | Kirby's Fun Pak                                                  | Nintendo                     | Super Nintendo | 1997 | Europe
+|       | Kirby's Ghost Trap                                               | Nintendo                     | Super Nintendo | 1995 | Europe
+|       | Knights of the Round                                             | Capcom                       | Super Nintendo | 1994 | Europe
+|       | Krusty's Super Fun House                                         | Acclaim                      | Super Nintendo | 1992 | Europe
+|       | Lagoon                                                           | Kemco                        | Super Nintendo | 1993 | Europe
+|       | Lamborghini: American Challenge                                  | Titus Software               | Super Nintendo | 1994 | Europe
+|       | Last Action Hero                                                 | Sony Imagesoft               | Super Nintendo | 1993 | Europe
+|       | Lawnmower Man, The                                               | Storm                        | Super Nintendo | 1994 | Europe
+|       | Legend                                                           | Sony Imagesoft               | Super Nintendo | 1994 | Europe
+|       | Legend of the Mystical Ninja, The                                | Konami                       | Super Nintendo | 1994 | Europe
+|       | Legend of Zelda: A Link to the Past, The                         | Nintendo                     | Super Nintendo | 1992 | Europe
+|       | Lemmings                                                         | SunSoft                      | Super Nintendo | 1992 | Europe
+|       | Lemmings 2: The Tribes                                           | Psygnosis                    | Super Nintendo | 1994 | Europe
+|       | Lethal Enforcers                                                 | Konami                       | Super Nintendo | 1994 | Europe
+|       | Lethal Weapon                                                    | Ocean                        | Super Nintendo | 1992 | Europe
+|       | Lion King, The                                                   | Virgin Interactive           | Super Nintendo | 1994 | Europe
+|       | Looney Tunes Basketball                                          | SunSoft                      | Super Nintendo | 1995 | Europe
+|       | Looney Tunes: Road Runner                                        | SunSoft                      | Super Nintendo | 1993 | Europe
+|       | Lost Vikings II, The                                             | Interplay                    | Super Nintendo | 1997 | Europe
+|       | Lost Vikings, The                                                | Interplay                    | Super Nintendo | 1993 | Europe
+|       | Lothar Matthaus Super Soccer                                     | Ocean                        | Super Nintendo | 1995 | Europe
+|       | Lucky Luke                                                       | Infogrames                   | Super Nintendo | 1997 | Europe
+|       | Lufia                                                            | Nintendo                     | Super Nintendo | 1995 | Europe
+|       | Madden NFL '94                                                   | Electronic Arts              | Super Nintendo | 1994 | Europe
+|       | Madden NFL 95                                                    | EA Sports                    | Super Nintendo | 1994 | Europe
+|       | Magic Boy                                                        | JVC Digital Studios          | Super Nintendo | 1994 | Europe
+|       | Magic Sword                                                      | Capcom                       | Super Nintendo | 1993 | Europe
+|       | Magical Quest starring Mickey Mouse, The                         | Capcom                       | Super Nintendo | 1993 | Europe
+|       | Major Title                                                      | Irem                         | Super Nintendo | 1993 | Europe
+|       | Mario Basler: Jetzt geht's Los!                                  | U.S. Gold                    | Super Nintendo | 1995 | Europe
+|       | Mario is Missing!                                                | Mindscape                    | Super Nintendo | 1993 | Europe
+|       | Mario Paint                                                      | Nintendo                     | Super Nintendo | 1992 | Europe
+|       | Mario's Time Machine                                             | Mindscape                    | Super Nintendo | 1994 | Europe
+|       | Marko's Magic Football                                           | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Marvel Super Heroes in War of the Gems                           | Capcom                       | Super Nintendo | 1997 | Europe
+|       | Mask, The                                                        | Black Pearl                  | Super Nintendo | 1995 | Europe
+|       | MechWarrior                                                      | Activision                   | Super Nintendo | 1993 | Europe
+|       | MechWarrior 3050                                                 | Activision                   | Super Nintendo | 1995 | Europe
+|       | Mega Man 7                                                       | Laguna                       | Super Nintendo | 1995 | Europe
+|       | Mega Man X                                                       | Nintendo                     | Super Nintendo | 1994 | Europe
+|       | Mega Man X2                                                      | Laguna                       | Super Nintendo | 1995 | Europe
+|       | Mega Man X3                                                      | Laguna                       | Super Nintendo | 1996 | Europe
+|       | Mega-Lo-Mania                                                    | Imagineer                    | Super Nintendo | 1993 | Europe
+|       | Metal Combat: Falcon's Revenge                                   | Nintendo                     | Super Nintendo | 1993 | Europe
+|       | Metal Marines                                                    | Mindscape                    | Super Nintendo | 1994 | Europe
+|       | Michael Jordan: Chaos in the Windy City                          | Ocean                        | Super Nintendo | 1995 | Europe
+|       | Mickey Mania                                                     | Sony Imagesoft               | Super Nintendo | 1994 | Europe
+|       | Micro Machines                                                   | Ocean                        | Super Nintendo | 1994 | Europe
+|       | Micro Machines 2: Turbo Tournament                               | Ocean                        | Super Nintendo | 1996 | Europe
+|       | Midway Presents Arcade's Greatest Hits: The Atari Collection 1   | Williams                     | Super Nintendo | 1998 | Europe
+|       | Might and Magic II                                               | Elite                        | Super Nintendo | 1993 | Europe
+|       | Mighty Morphin Power Rangers                                     | Bandai                       | Super Nintendo | 1995 | Europe
+|       | Mighty Morphin Power Rangers: The Fighting Edition               | Bandai                       | Super Nintendo | 1995 | Europe
+|       | Mighty Morphin Power Rangers: The Movie                          | Bandai                       | Super Nintendo | 1995 | Europe
+|       | Mohawk and Headphone Jack                                        | THQ                          | Super Nintendo | 1997 | Europe
+|       | Mortal Kombat                                                    | Acclaim                      | Super Nintendo | 1993 | Europe
+|       | Mortal Kombat 3                                                  | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Mortal Kombat II                                                 | Acclaim                      | Super Nintendo | 1994 | Europe
+|       | Mr. Do!                                                          | Black Pearl                  | Super Nintendo | 1997 | Europe
+|       | Mr. Nutz                                                         | Ocean                        | Super Nintendo | 1994 | Europe
+|       | Ms. Pac-Man                                                      | THQ                          | Super Nintendo | 1997 | Europe
+|       | Mystic Quest Legend                                              | Nintendo                     | Super Nintendo | 1993 | Europe
+|       | NBA All-Star Challenge                                           | LJN Ltd.                     | Super Nintendo | 1993 | Europe
+|       | NBA Give 'N Go                                                   | Konami                       | Super Nintendo | 1995 | Europe
+|       | NBA Hang Time                                                    | Midway                       | Super Nintendo | 1997 | Europe
+|       | NBA Jam                                                          | Acclaim                      | Super Nintendo | 1996 | Europe
+|       | NBA Jam: Tournament Edition                                      | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | NBA Live 95                                                      | EA Sports                    | Super Nintendo | 1994 | Europe
+|       | NBA Live 96                                                      | Electronic Arts              | Super Nintendo | 1995 | Europe
+|       | NBA Live 97                                                      | EA Sports                    | Super Nintendo | 1996 | Europe
+|       | Newman-Haas' Racing: Indy Car Featuring Nigel Mansell            | Konami                       | Super Nintendo | 1994 | Europe
+|       | NFL Football                                                     | Konami                       | Super Nintendo | 1993 | Europe
+|       | NFL Quarterback Club                                             | LJN Ltd.                     | Super Nintendo | 1995 | Europe
+|       | NFL Quarterback Club 96                                          | Acclaim                      | Super Nintendo | 1996 | Europe
+|       | NHL '94                                                          | Electronic Arts              | Super Nintendo | 1994 | Europe
+|       | NHL 95                                                           | Electronic Arts              | Super Nintendo | 1994 | Europe
+|       | NHL 96                                                           | Electronic Arts              | Super Nintendo | 1995 | Europe
+|       | NHL 97                                                           | Electronic Arts              | Super Nintendo | 1996 | Europe
+|       | NHLPA Hockey 93                                                  | Electronic Arts              | Super Nintendo | 1993 | Europe
+|       | Nigel Mansell's World Championship Racing                        | Nintendo                     | Super Nintendo | 1993 | Europe
+|       | Ninja Warriors: The New Generation                               | Titus Software               | Super Nintendo | 1995 | Europe
+|       | Nintendo Scope 6                                                 | Nintendo                     | Super Nintendo | 1994 | Europe
+|       | Olympic Summer Games                                             | Black Pearl                  | Super Nintendo | 1996 | Europe
+|       | On the Ball                                                      | Taito Corporation            | Super Nintendo | 1993 | Europe
+|       | Operation Logic Bomb: Die Ultimative Herausforderung             | Jaleco Entertainment         | Super Nintendo | 1993 | Europe
+|       | Oscar                                                            | Titus Software               | Super Nintendo | 1996 | Europe
+|       | Outlander                                                        | Mindscape                    | Super Nintendo | 1993 | Europe
+|       | Pac-Attack                                                       | Namco                        | Super Nintendo | 1993 | Europe
+|       | Pac-In-Time                                                      | Namco                        | Super Nintendo | 1994 | Europe
+|       | Pac-Man 2: The New Adventures                                    | Nintendo                     | Super Nintendo | 1994 | Europe
+|       | Pagemaster, The                                                  | Virgin Interactive           | Super Nintendo | 1995 | Europe
+|       | Paperboy 2                                                       | Mindscape                    | Super Nintendo | 1992 | Europe
+|       | Parodius                                                         | Konami                       | Super Nintendo | 1992 | Europe
+|       | PGA European Tour                                                | Black Pearl                  | Super Nintendo | 1996 | Europe
+|       | PGA Tour 96                                                      | Electronic Arts              | Super Nintendo | 1996 | Europe
+|       | PGA Tour Golf                                                    | Electronic Arts              | Super Nintendo | 1993 | Europe
+|       | Phalanx                                                          | Kemco                        | Super Nintendo | 1992 | Europe
+|       | Phantom 2040                                                     | Viacom New Media             | Super Nintendo | 1995 | Europe
+|       | Pierre le Chef is... Out to Lunch                                | Mindscape                    | Super Nintendo | 1993 | Europe
+|       | Pilotwings                                                       | Nintendo                     | Super Nintendo | 1993 | Europe
+|       | Pinball Dreams                                                   | GameTek                      | Super Nintendo | 1994 | Europe
+|       | Pinball Fantasies                                                | GameTek                      | Super Nintendo | 1995 | Europe
+|       | Pink Goes to Hollywood                                           | TecMagik                     | Super Nintendo | 1993 | Europe
+|       | Pirates of Dark Water, The                                       | SunSoft                      | Super Nintendo | 1994 | Europe
+|       | Pit-Fighter                                                      | THQ                          | Super Nintendo | 1992 | Europe
+|       | Pitfall: The Mayan Adventure                                     | Activision                   | Super Nintendo | 1994 | Europe
+|       | Plok                                                             | Nintendo                     | Super Nintendo | 1994 | Europe
+|       | Pocky & Rocky                                                    | Natsume                      | Super Nintendo | 1993 | Europe
+|       | Pocky & Rocky 2                                                  | Ocean                        | Super Nintendo | 1995 | Europe
+|       | Pop'n TwinBee                                                    | Palcom                       | Super Nintendo | 1993 | Europe
+|       | Pop'n TwinBee: Rainbow Bell Adventures                           | Konami                       | Super Nintendo | 1994 | Europe
+|       | Populous                                                         | Imagineer                    | Super Nintendo | 1991 | Europe
+|       | Populous II: Trials of the Olympian Gods                         | Imagineer                    | Super Nintendo | 1994 | Europe
+|       | Porky Pig's Haunted Holiday                                      | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Power Drive                                                      | U.S. Gold                    | Super Nintendo | 1995 | Europe
+|       | Power Monger                                                     | Imagineer                    | Super Nintendo | 1993 | Europe
+|       | Power Piggs of the Dark Age                                      | Titus Software               | Super Nintendo | 1997 | Europe
+|       | Prehistorik Man                                                  | Titus Software               | Super Nintendo | 1996 | Europe
+|       | Primal Rage                                                      | Time Warner Interactive      | Super Nintendo | 1995 | Europe
+|       | Prince of Persia                                                 | Konami                       | Super Nintendo | 1993 | Europe
+|       | Prince of Persia 2: The Shadow and the Flame                     | Laguna                       | Super Nintendo | 1997 | Europe
+|       | Push-Over                                                        | Ocean                        | Super Nintendo | 1992 | Europe
+|       | Putty Squad                                                      | Ocean                        | Super Nintendo | 1994 | Europe
+|       | Puzzle Bobble: Bust-A-Move                                       | Taito Corporation            | Super Nintendo | 1995 | Europe
+|       | R-Type III                                                       | Irem                         | Super Nintendo | 1994 | Europe
+|       | Race Drivin'                                                     | THQ                          | Super Nintendo | 1992 | Europe
+|       | Radical Rex                                                      | Laser Beam Entertainment     | Super Nintendo | 1994 | Europe
+|       | Ranma 1/2                                                        | Ocean                        | Super Nintendo | 1993 | Europe
+|       | Realm                                                            | Titus Software               | Super Nintendo | 1997 | Europe
+|       | Ren & Stimpy Show: Time Warp, The                                | THQ                          | Super Nintendo | 1994 | Europe
+|       | Ren & Stimpy Show: Veediots!, The                                | THQ                          | Super Nintendo | 1993 | Europe
+|       | Revolution X                                                     | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Rise of the Robots                                               | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Rival Turf!                                                      | Jaleco Entertainment         | Super Nintendo | 1992 | Europe
+|       | Road Riot 4WD                                                    | THQ                          | Super Nintendo | 1992 | Europe
+|       | RoboCop 3                                                        | Ocean                        | Super Nintendo | 1992 | Europe
+|       | RoboCop Versus The Terminator                                    | Virgin Interactive           | Super Nintendo | 1995 | Europe
+|       | Rock 'N Roll Racing                                              | Interplay                    | Super Nintendo | 1994 | Europe
+|       | Run Saber                                                        | ATLUS                        | Super Nintendo | 1993 | Europe
+|       | Saban's Power Rangers Zeo: Battle Racers                         | Bandai                       | Super Nintendo | 1996 | Europe
+|       | Sailor Moon                                                      | Bandai                       | Super Nintendo | 1994 | Europe
+|       | Samurai Shodown                                                  | Takara                       | Super Nintendo | 1994 | Europe
+|       | Saturday Night Slam Masters                                      | Capcom                       | Super Nintendo | 1994 | Europe
+|       | seaQuest DSV                                                     | Malibu                       | Super Nintendo | 1995 | Europe
+|       | Secret of Evermore                                               | SquareSoft                   | Super Nintendo | 1996 | Europe
+|       | Secret of Mana                                                   | Nintendo                     | Super Nintendo | 1994 | Europe
+|       | Sensible Soccer: European Champions                              | Sony Imagesoft               | Super Nintendo | 1994 | Europe
+|       | Shadowrun                                                        | Laser Beam Entertainment     | Super Nintendo | 1994 | Europe
+|       | Shanghai II: Dragon's Eye                                        | Activision                   | Super Nintendo | 1993 | Europe
+|       | Shaq-Fu                                                          | Ocean                        | Super Nintendo | 1994 | Europe
+|       | Side Pocket                                                      | Data East                    | Super Nintendo | 1994 | Europe
+|       | SimCity                                                          | Nintendo                     | Super Nintendo | 1992 | Europe
+|       | SimCity 2000                                                     | THQ                          | Super Nintendo | 1996 | Europe
+|       | Simpsons: Bart's Nightmare, The                                  | Acclaim                      | Super Nintendo | 1993 | Europe
+|       | Sink or Swim                                                     | Titus Software               | Super Nintendo | 1994 | Europe
+|       | Skyblazer                                                        | Sony Imagesoft               | Super Nintendo | 1994 | Europe
+|       | Smash Tennis                                                     | Virgin Interactive           | Super Nintendo | 1994 | Europe
+|       | Smurfs Travel the World, The                                     | Infogrames                   | Super Nintendo | 1996 | Europe
+|       | Smurfs, The                                                      | Infogrames                   | Super Nintendo | 1994 | Europe
+|       | Soccer Kid                                                       | Ocean                        | Super Nintendo | 1994 | Europe
+|       | Soccer Shootout                                                  | Nintendo                     | Super Nintendo | 1994 | Europe
+|       | Sonic Blast Man                                                  | Taito Corporation            | Super Nintendo | 1993 | Europe
+|       | Soul Blazer                                                      | Enix Corporation             | Super Nintendo | 1994 | Europe
+|       | Space Ace                                                        | Empire Interactive           | Super Nintendo | 1994 | Europe
+|       | Space Invaders                                                   | Nintendo                     | Super Nintendo | 1997 | Europe
+|       | Spanky's Quest                                                   | Natsume                      | Super Nintendo | 1992 | Europe
+|       | Sparkster                                                        | Konami                       | Super Nintendo | 1994 | Europe
+|       | Spectre                                                          | GameTek                      | Super Nintendo | 1994 | Europe
+|       | Spider-Man                                                       | LJN Ltd.                     | Super Nintendo | 1995 | Europe
+|       | Spider-Man & Venom: Maximum Carnage                              | LJN Ltd.                     | Super Nintendo | 1994 | Europe
+|       | Spider-Man and the X-Men: Arcade's Revenge                       | Acclaim                      | Super Nintendo | 1993 | Europe
+|       | Spindizzy Worlds                                                 | Activision                   | Super Nintendo | 1992 | Europe
+|       | Spirou                                                           | Infogrames                   | Super Nintendo | 1996 | Europe
+|       | Star Trek: Deep Space Nine - Crossroads of Time                  | Virgin Interactive           | Super Nintendo | 1996 | Europe
+|       | Star Trek: Starfleet Academy Starship Bridge Simulator           | Interplay                    | Super Nintendo | 1995 | Europe
+|       | Star Trek: The Next Generation: Future's Past                    | Spectrum Holobyte            | Super Nintendo | 1994 | Europe
+|       | Stargate                                                         | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Starwing                                                         | Nintendo                     | Super Nintendo | 1993 | Europe
+|       | Starwing: Competition                                            | Nintendo                     | Super Nintendo | 1993 | Europe
+|       | Street Fighter Alpha 2                                           | Nintendo                     | Super Nintendo | 1996 | Europe
+|       | Street Fighter II                                                | Capcom                       | Super Nintendo | 1992 | Europe
+|       | Street Fighter II Turbo                                          | Capcom                       | Super Nintendo | 1993 | Europe
+|       | Street Racer                                                     | Ubisoft                      | Super Nintendo | 1994 | Europe
+|       | Striker                                                          | Elite                        | Super Nintendo | 1993 | Europe
+|       | Stunt Race FX                                                    | Nintendo                     | Super Nintendo | 1994 | Europe
+|       | Sullivan Bluth Presents: Dragon's Lair                           | Elite                        | Super Nintendo | 1993 | Europe
+|       | Sunset Riders                                                    | Palcom                       | Super Nintendo | 1993 | Europe
+|       | Super Adventure Island                                           | Hudson                       | Super Nintendo | 1992 | Europe
+|       | Super Adventure Island II                                        | Hudson                       | Super Nintendo | 1995 | Europe
+|       | Super Air Diver                                                  | SunSoft                      | Super Nintendo | 1993 | Europe
+|       | Super Aleste                                                     | Toho                         | Super Nintendo | 1992 | Europe
+|       | Super B.C. Kid                                                   | Hudson                       | Super Nintendo | 1995 | Europe
+|       | Super Battletank                                                 | Absolute Entertainment       | Super Nintendo | 1993 | Europe
+|       | Super Battletank 2                                               | Absolute Entertainment       | Super Nintendo | 1994 | Europe
+|       | Super Bomberman                                                  | Hudson                       | Super Nintendo | 1993 | Europe
+|       | Super Bomberman 2                                                | Hudson                       | Super Nintendo | 1995 | Europe
+|       | Super Bomberman 3                                                | Hudson                       | Super Nintendo | 1995 | Europe
+|       | Super Castlevania IV                                             | Konami                       | Super Nintendo | 1992 | Europe
+|       | Super Conflict                                                   | Vic Tokai                    | Super Nintendo | 1994 | Europe
+|       | Super Dany                                                       | Virgin Interactive           | Super Nintendo | 1994 | Europe
+|       | Super Double Dragon                                              | Tradewest                    | Super Nintendo | 1993 | Europe
+|       | Super Ghouls 'N Ghosts                                           | Capcom                       | Super Nintendo | 1992 | Europe
+|       | Super Goal!                                                      | Jaleco Entertainment         | Super Nintendo | 1993 | Europe
+|       | Super Hockey                                                     | Nintendo                     | Super Nintendo | 1993 | Europe
+|       | Super Ice Hockey                                                 | SunSoft                      | Super Nintendo | 1994 | Europe
+|       | Super International Cricket                                      | Nintendo                     | Super Nintendo | 1994 | Europe
+|       | Super James Pond                                                 | Ocean                        | Super Nintendo | 1993 | Europe
+|       | Super Mario All-Stars                                            | Nintendo                     | Super Nintendo | 1993 | Europe
+|       | Super Mario All-Stars and Super Mario World                      | Nintendo                     | Super Nintendo | 1994 | Europe
+|       | Super Mario Kart                                                 | Nintendo                     | Super Nintendo | 1993 | Europe
+|       | Super Mario World                                                | Nintendo                     | Super Nintendo | 1992 | Europe
+|       | Super Mario World 2: Yoshi's Island                              | Nintendo                     | Super Nintendo | 1995 | Europe
+|       | Super Metroid                                                    | Nintendo                     | Super Nintendo | 1994 | Europe
+|       | Super Morph                                                      | Sony Imagesoft               | Super Nintendo | 1993 | Europe
+|       | Super Off Road                                                   | Tradewest                    | Super Nintendo | 1993 | Europe
+|       | Super Pang                                                       | Capcom                       | Super Nintendo | 1992 | Europe
+|       | Super Pinball: Behind the Mask                                   | Nintendo                     | Super Nintendo | 1994 | Europe
+|       | Super Probotector: Alien Rebels                                  | Konami                       | Super Nintendo | 1992 | Europe
+|       | Super Punch-Out!!                                                | Nintendo                     | Super Nintendo | 1995 | Europe
+|       | Super Putty                                                      | System 3                     | Super Nintendo | 1993 | Europe
+|       | Super R-Type                                                     | Nintendo                     | Super Nintendo | 1992 | Europe
+|       | Super Smash T.V.                                                 | Acclaim                      | Super Nintendo | 1993 | Europe
+|       | Super Soccer                                                     | Nintendo                     | Super Nintendo | 1992 | Europe
+|       | Super Star Wars                                                  | LucasArts                    | Super Nintendo | 1993 | Europe
+|       | Super Star Wars: Return of the Jedi                              | LucasArts                    | Super Nintendo | 1995 | Europe
+|       | Super Star Wars: The Empire Strikes Back                         | LucasArts                    | Super Nintendo | 1994 | Europe
+|       | Super Street Fighter II                                          | Nintendo                     | Super Nintendo | 1994 | Europe
+|       | Super Strike Eagle                                               | MicroProse                   | Super Nintendo | 1993 | Europe
+|       | Super Strike Gunner                                              | Activision                   | Super Nintendo | 1992 | Europe
+|       | Super SWIV                                                       | Storm                        | Super Nintendo | 1993 | Europe
+|       | Super Tennis                                                     | Nintendo                     | Super Nintendo | 1992 | Europe
+|       | Super Troll Islands                                              | ASC Games                    | Super Nintendo | 1994 | Europe
+|       | Super Turrican                                                   | Hudson Soft                  | Super Nintendo | 1993 | Europe
+|       | Super Turrican 2                                                 | Ocean                        | Super Nintendo | 1995 | Europe
+|       | Super Widget                                                     | ATLUS                        | Super Nintendo | 1993 | Europe
+|       | Syndicate                                                        | Ocean                        | Super Nintendo | 1995 | Europe
+|       | Syvalion                                                         | JVC Digital Studios          | Super Nintendo | 1993 | Europe
+|       | T2: The Arcade Game                                              | LJN Ltd.                     | Super Nintendo | 1993 | Europe
+|       | Taz-Mania                                                        | THQ                          | Super Nintendo | 1993 | Europe
+|       | Tecmo Super NBA Basketball                                       | Tecmo                        | Super Nintendo | 1993 | Europe
+|       | Teenage Mutant Hero Turtles IV: Turtles in Time                  | Konami                       | Super Nintendo | 1992 | Europe
+|       | Teenage Mutant Hero Turtles: Tournament Fighters                 | Konami                       | Super Nintendo | 1993 | Europe
+|       | Terminator 2: Judgment Day                                       | LJN Ltd.                     | Super Nintendo | 1993 | Europe
+|       | Terminator, The                                                  | Mindscape                    | Super Nintendo | 1993 | Europe
+|       | Terranigma                                                       | Nintendo                     | Super Nintendo | 1996 | Europe
+|       | Test Drive II: The Duel                                          | Ballistic                    | Super Nintendo | 1993 | Europe
+|       | Tetris & Dr. Mario                                               | Nintendo                     | Super Nintendo | 1995 | Europe
+|       | Tetris 2                                                         | Nintendo                     | Super Nintendo | 1995 | Europe
+|       | Tetris Attack                                                    | Nintendo                     | Super Nintendo | 1996 | Europe
+|       | Theme Park                                                       | Ocean                        | Super Nintendo | 1996 | Europe
+|       | Thomas the Tank Engine & Friends                                 | THQ                          | Super Nintendo | 1993 | Europe
+|       | Time Cop                                                         | JVC Musical Industries, Inc. | Super Nintendo | 1996 | Europe
+|       | Time Slip                                                        | Vic Tokai                    | Super Nintendo | 1993 | Europe
+|       | Time Trax                                                        | THQ                          | Super Nintendo | 1994 | Europe
+|       | Tintin in Tibet                                                  | Infogrames                   | Super Nintendo | 1995 | Europe
+|       | Tintin: Prisoners of the Sun                                     | Infogrames                   | Super Nintendo | 1997 | Europe
+|       | Tiny Toon Adventures: Buster Busts Loose!                        | Konami                       | Super Nintendo | 1993 | Europe
+|       | Tiny Toon Adventures: Wild & Wacky Sports                        | Konami                       | Super Nintendo | 1996 | Europe
+|       | TKO Super Championship Boxing                                    | Sofel                        | Super Nintendo | 1993 | Europe
+|       | Todd McFarlane's Spawn: The Video Game                           | Acclaim                      | Super Nintendo | 1996 | Europe
+|       | Tom and Jerry                                                    | Hi Tech Expressions          | Super Nintendo | 1993 | Europe
+|       | Top Gear                                                         | Kemco                        | Super Nintendo | 1992 | Europe
+|       | Top Gear 2                                                       | Kemco                        | Super Nintendo | 1993 | Europe
+|       | Top Gear 3000                                                    | Gremlin Interactive          | Super Nintendo | 1995 | Europe
+|       | Total Carnage                                                    | Malibu                       | Super Nintendo | 1993 | Europe
+|       | Toys                                                             | Absolute Entertainment       | Super Nintendo | 1993 | Europe
+|       | Troddlers                                                        | Storm                        | Super Nintendo | 1993 | Europe
+|       | Troy Aikman NFL Football                                         | Sony Imagesoft               | Super Nintendo | 1994 | Europe
+|       | True Golf Classics: Pebble Beach Golf Links                      | T&E Soft                     | Super Nintendo | 1992 | Europe
+|       | True Lies                                                        | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Tuff E Nuff                                                      | Jaleco Entertainment         | Super Nintendo | 1993 | Europe
+|       | Turn and Burn: No-Fly Zone                                       | Sony Imagesoft               | Super Nintendo | 1994 | Europe
+|       | U.N. Squadron                                                    | Capcom                       | Super Nintendo | 1992 | Europe
+|       | Ultimate Mortal Kombat 3                                         | Acclaim                      | Super Nintendo | 1996 | Europe
+|       | Ultraman                                                         | Bandai                       | Super Nintendo | 1994 | Europe
+|       | Unirally                                                         | Nintendo                     | Super Nintendo | 1995 | Europe
+|       | Urban Strike                                                     | THQ                          | Super Nintendo | 1995 | Europe
+|       | Utopia                                                           | Konami                       | Super Nintendo | 1994 | Europe
+|       | Val d'Isere Championship                                         | Mindscape                    | Super Nintendo | 1994 | Europe
+|       | Vegas Stakes                                                     | Nintendo                     | Super Nintendo | 1993 | Europe
+|       | Venom - Spider-Man: Separation Anxiety                           | Acclaim                      | Super Nintendo | 1995 | Europe
+|       | Virtual Bart                                                     | Acclaim                      | Super Nintendo | 1994 | Europe
+|       | Virtual Soccer                                                   | Hudson                       | Super Nintendo | 1994 | Europe
+|       | Vortex                                                           | Sony Imagesoft               | Super Nintendo | 1994 | Europe
+|       | Wario's Woods                                                    | Nintendo                     | Super Nintendo | 1995 | Europe
+|       | Warlock                                                          | LJN Ltd.                     | Super Nintendo | 1994 | Europe
+|       | WarpSpeed                                                        | Accolade                     | Super Nintendo | 1993 | Europe
+|       | Waterworld                                                       | Ocean                        | Super Nintendo | 1995 | Europe
+|       | Wayne's World                                                    | THQ                          | Super Nintendo | 1993 | Europe
+|       | We're Back! A Dinosaur's Story                                   | Hi-Tech                      | Super Nintendo | 1993 | Europe
+|       | WeaponLord                                                       | Ocean                        | Super Nintendo | 1995 | Europe
+|       | Where in the World is Carmen Sandiego?                           | Hi-Tech                      | Super Nintendo | 1993 | Europe
+|       | Whirlo                                                           | Namco                        | Super Nintendo | 1992 | Europe
+|       | Whizz                                                            | Titus Software               | Super Nintendo | 1996 | Europe
+|       | Wild Guns                                                        | Titus Software               | Super Nintendo | 1996 | Europe
+|       | Williams Arcade's Greatest Hits                                  | Williams                     | Super Nintendo | 1997 | Europe
+|       | Wing Commander                                                   | Mindscape                    | Super Nintendo | 1993 | Europe
+|       | Wing Commander: The Secret Missions                              | Mindscape                    | Super Nintendo | 1993 | Europe
+|       | Winter Gold                                                      | Nintendo                     | Super Nintendo | 1996 | Europe
+|       | Winter Olympics: Lillehammer '94                                 | U.S. Gold                    | Super Nintendo | 1994 | Europe
+|       | Wolfenstein 3D                                                   | Imagineer                    | Super Nintendo | 1994 | Europe
+|       | Wolverine: Adamantium Rage                                       | LJN Ltd.                     | Super Nintendo | 1994 | Europe
+|       | World Cup Striker                                                | Elite                        | Super Nintendo | 1994 | Europe
+|       | World Cup USA 94                                                 | U.S. Gold                    | Super Nintendo | 1994 | Europe
+|       | World Heroes                                                     | SunSoft                      | Super Nintendo | 1993 | Europe
+|       | World League Basketball                                          | Nintendo                     | Super Nintendo | 1993 | Europe
+|       | World Masters Golf                                               | Virgin Interactive           | Super Nintendo | 1995 | Europe
+|       | Worms                                                            | Ocean                        | Super Nintendo | 1996 | Europe
+|       | WWF Raw                                                          | LJN Ltd.                     | Super Nintendo | 1994 | Europe
+|       | WWF Royal Rumble                                                 | LJN Ltd.                     | Super Nintendo | 1993 | Europe
+|       | WWF Super Wrestlemania                                           | Acclaim                      | Super Nintendo | 1992 | Europe
+|       | WWF Wrestlemania: The Arcade Game                                | Acclaim                      | Super Nintendo | 1996 | Europe
+|       | X-Kaliber 2097                                                   | Activision                   | Super Nintendo | 1994 | Europe
+|       | X-Men: Mutant Apocalypse                                         | Capcom                       | Super Nintendo | 1995 | Europe
+|       | X-Zone                                                           | Kemco                        | Super Nintendo | 1993 | Europe
+|       | Yogi Bear's Cartoon Capers                                       | Empire Interactive           | Super Nintendo | 1994 | Europe
+|       | Yoshi's Cookie                                                   | Bullet Proof Software        | Super Nintendo | 1993 | Europe
+|       | Yoshi's Safari                                                   | Nintendo                     | Super Nintendo | 1993 | Europe
+|       | Young Merlin                                                     | Virgin Interactive           | Super Nintendo | 1994 | Europe
+|       | Zero the Kamikaze Squirrel                                       | SunSoft                      | Super Nintendo | 1995 | Europe
+|       | Zombies                                                          | Konami                       | Super Nintendo | 1994 | Europe
+|       | Zool: Ninja of the "Nth" Dimension                               | Gremlin Interactive          | Super Nintendo | 1994 | Europe
+|       | Zoop                                                             | Viacom New Media             | Super Nintendo | 1995 | Europe

@@ -1,0 +1,55 @@
+|       | Ashen                                          | Nokia             | N-Gage | 2004 | Europe
+|       | Asphalt: Urban GT                              | Nokia             | N-Gage | 2004 | Europe
+|       | Asphalt: Urban GT 2                            | Nokia             | N-Gage | 2005 | Europe
+|       | Atari Masterpieces Vol. I                      | Atari SA          | N-Gage | 2005 | Europe
+|       | Atari Masterpieces Vol. II                     | Atari SA          | N-Gage | 2006 | Europe
+|       | Bomberman                                      | Nokia             | N-Gage | 2004 | Europe
+|       | Call of Duty                                   | Activision        | N-Gage | 2004 | Europe
+|       | Catan                                          | Nokia             | N-Gage | 2005 | Europe
+|       | Civilization                                   | Atari SA          | N-Gage | 2006 | Europe
+|       | Colin McRae Rally 2005                         | Nokia             | N-Gage | 2004 | Europe
+|       | Crash Nitro Kart                               | Nokia             | N-Gage | 2004 | Europe
+|       | Elder Scrolls Travels: Shadowkey, The          | Nokia             | N-Gage | 2004 | Europe
+|       | FIFA Football 2004                             | EA Sports         | N-Gage | 2003 | Europe
+|       | FIFA Football 2005                             | Nokia             | N-Gage | 2004 | Europe
+|       | Flo Boarding                                   | Nokia             | N-Gage | 2003 | Europe
+|       | Glimmerati                                     | Nokia             | N-Gage | 2005 | Europe
+|       | High Seize                                     | Nokia             | N-Gage | 2005 | Europe
+|       | King of Fighters Extreme, The                  | Nokia             | N-Gage | 2005 | Europe
+|       | Marcel Desailly Pro Soccer                     | Gameloft          | N-Gage | 2004 | Europe
+|       | Mile High Pinball                              | Nokia             | N-Gage | 2005 | Europe
+|       | MLB Slam!                                      | Nokia             | N-Gage | 2003 | Europe
+|       | MotoGP                                         | Nokia             | N-Gage | 2003 | Europe
+|       | One                                            | Nokia             | N-Gage | 2005 | Europe
+|       | Operation Shadow                               | Nokia             | N-Gage | 2004 | Europe
+|       | Pandemonium!                                   | Eidos Interactive | N-Gage | 2003 | Europe
+|       | Pathway to Glory                               | Nokia             | N-Gage | 2004 | Europe
+|       | Pathway to Glory: Ikusa Islands                | Nokia             | N-Gage | 2005 | Europe
+|       | Pocket Kingdom: Own the World                  | Nokia             | N-Gage | 2003 | Europe
+|       | Puyo Pop                                       | Nokia             | N-Gage | 2003 | Europe
+|       | Puzzle Bobble VS                               | Nokia             | N-Gage | 2003 | Europe
+|       | Rayman 3                                       | Gameloft          | N-Gage | 2004 | Europe
+|       | Red Faction                                    | THQ               | N-Gage | 2003 | Europe
+|       | Requiem of Hell                                | Nokia             | N-Gage | 2004 | Europe
+|       | Rifts: Promise of Power                        | Nokia             | N-Gage | 2005 | Europe
+|       | Roots: Gates of Chaos, The                     | Cenega Publishing | N-Gage | 2005 | Europe
+|       | Sims Bustin' Out, The                          | EA Games          | N-Gage | 2004 | Europe
+|       | Snakes                                         | Nokia             | N-Gage | 2005 | Europe
+|       | SonicN                                         | Sega              | N-Gage | 2003 | Europe
+|       | Spider-Man 2                                   | Activision        | N-Gage | 2004 | Europe
+|       | SSX Out of Bounds                              | Nokia             | N-Gage | 2005 | Europe
+|       | Super Monkey Ball                              | Nokia             | N-Gage | 2003 | Europe
+|       | System Rush                                    | Nokia             | N-Gage | 2005 | Europe
+|       | Tiger Woods PGA Tour 2004                      | Nokia             | N-Gage | 2004 | Europe
+|       | Tom Clancy's Ghost Recon: Jungle Storm         | Nokia             | N-Gage | 2004 | Europe
+|       | Tom Clancy's Splinter Cell Team Stealth Action | Gameloft          | N-Gage | 2003 | Europe
+|       | Tom Clancy's Splinter Cell: Chaos Theory       | Nokia             | N-Gage | 2005 | Europe
+|       | Tomb Raider                                    | Eidos Interactive | N-Gage | 2003 | Europe
+|       | Tony Hawk's Pro Skater                         | Nokia             | N-Gage | 2003 | Europe
+|       | Virtua Tennis                                  | Nokia             | N-Gage | 2003 | Europe
+|       | Warhammer 40,000: Glory in Death               | Nokia             | N-Gage | 2006 | Europe
+|       | Worms World Party                              | Nokia             | N-Gage | 2005 | Europe
+|       | WWE Aftershock                                 | Nokia             | N-Gage | 2005 | Europe
+|       | X-Men Legends                                  | Nokia             | N-Gage | 2005 | Europe
+|       | X-Men Legends II: Rise of Apocalypse           | Activision        | N-Gage | 2005 | Europe
+|       | Xanadu Next                                    | Nokia             | N-Gage | 2005 | Europe

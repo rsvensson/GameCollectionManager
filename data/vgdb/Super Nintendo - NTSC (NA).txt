@@ -1,0 +1,728 @@
+|       | 2020 Super Baseball                                                                     | Tradewest                    | Super Nintendo | 1993 | North America
+|       | 3 Ninjas Kick Back                                                                      | Sony Imagesoft               | Super Nintendo | 1994 | North America
+|       | 7th Saga, The                                                                           | Enix America, Inc.           | Super Nintendo | 1993 | North America
+|       | A.S.P. Air Strike Patrol                                                                | Seta Corporation             | Super Nintendo | 1995 | North America
+|       | AAAHH!!! Real Monsters                                                                  | Viacom New Media             | Super Nintendo | 1995 | North America
+|       | ABC Monday Night Football                                                               | Data East                    | Super Nintendo | 1993 | North America
+|       | ACME Animation Factory                                                                  | SunSoft                      | Super Nintendo | 1994 | North America
+|       | ActRaiser                                                                               | Enix America, Inc.           | Super Nintendo | 1991 | North America
+|       | ActRaiser 2                                                                             | Enix America, Inc.           | Super Nintendo | 1993 | North America
+|       | Addams Family Values                                                                    | Ocean                        | Super Nintendo | 1995 | North America
+|       | Addams Family, The                                                                      | Ocean                        | Super Nintendo | 1992 | North America
+|       | Addams Family: Pugsley's Scavenger Hunt, The                                            | Ocean                        | Super Nintendo | 1993 | North America
+|       | Advanced Dungeons & Dragons: Eye of the Beholder                                        | Capcom                       | Super Nintendo | 1994 | North America
+|       | Adventures of Batman & Robin, The                                                       | Konami                       | Super Nintendo | 1994 | North America
+|       | Adventures of Dr. Franken, The                                                          | DTMC                         | Super Nintendo | 1993 | North America
+|       | Adventures of Kid Kleets, The                                                           | Ocean                        | Super Nintendo | 1994 | North America
+|       | Adventures of Mighty Max, The                                                           | Ocean                        | Super Nintendo | 1995 | North America
+|       | Adventures of Rocky and Bullwinkle and Friends, The                                     | THQ                          | Super Nintendo | 1993 | North America
+|       | Adventures of Yogi Bear                                                                 | Cybersoft                    | Super Nintendo | 1994 | North America
+|       | Aero Fighters                                                                           | Mc O'River                   | Super Nintendo | 1994 | North America
+|       | Aero The Acro-Bat                                                                       | SunSoft                      | Super Nintendo | 1993 | North America
+|       | Aero the Acro-Bat 2                                                                     | SunSoft                      | Super Nintendo | 1994 | North America
+|       | Aerobiz                                                                                 | Koei                         | Super Nintendo | 1993 | North America
+|       | Aerobiz Supersonic                                                                      | Koei                         | Super Nintendo | 1994 | North America
+|       | Air Cavalry                                                                             | Cybersoft                    | Super Nintendo | 1995 | North America
+|       | Al Unser Jr.'s Road to the Top                                                          | Software Toolworks           | Super Nintendo | 1994 | North America
+|       | Alien 3                                                                                 | LJN Ltd.                     | Super Nintendo | 1993 | North America
+|       | Alien vs. Predator                                                                      | Activision                   | Super Nintendo | 1993 | North America
+|       | American Gladiators                                                                     | GameTek                      | Super Nintendo | 1993 | North America
+|       | An American Tail: Fievel Goes West                                                      | Hudson                       | Super Nintendo | 1994 | North America
+|       | Andre Agassi Tennis                                                                     | TecMagik                     | Super Nintendo | 1994 | North America
+|       | Animaniacs                                                                              | Konami                       | Super Nintendo | 1994 | North America
+|       | Arcana                                                                                  | Hal                          | Super Nintendo | 1992 | North America
+|       | Ardy Lightfoot                                                                          | Titus Software               | Super Nintendo | 1994 | North America
+|       | Arkanoid: Doh It Again                                                                  | Nintendo                     | Super Nintendo | 1997 | North America
+|       | Art of Fighting                                                                         | Takara                       | Super Nintendo | 1993 | North America
+|       | Axelay                                                                                  | Konami                       | Super Nintendo | 1992 | North America
+|       | B.O.B.                                                                                  | Electronic Arts              | Super Nintendo | 1993 | North America
+|       | Ballz 3D                                                                                | Accolade                     | Super Nintendo | 1994 | North America
+|       | Barbie: Super Model                                                                     | Hi-Tech                      | Super Nintendo | 1993 | North America
+|       | Barkley: Shut Up and Jam!                                                               | Accolade                     | Super Nintendo | 1994 | North America
+|       | Bass Masters Classic                                                                    | Malibu                       | Super Nintendo | 1995 | North America
+|       | Bass Masters Classic: Pro Edition                                                       | Black Pearl                  | Super Nintendo | 1996 | North America
+|       | Bassin's Black Bass with Hank Parker                                                    | Hot-B                        | Super Nintendo | 1994 | North America
+|       | Batman Forever                                                                          | Acclaim                      | Super Nintendo | 1995 | North America
+|       | Batman Returns                                                                          | Konami                       | Super Nintendo | 1993 | North America
+|       | Battle Blaze                                                                            | Sammy Studios                | Super Nintendo | 1993 | North America
+|       | Battle Cars                                                                             | Namco                        | Super Nintendo | 1993 | North America
+|       | Battle Clash                                                                            | Nintendo                     | Super Nintendo | 1992 | North America
+|       | Battle Grand Prix                                                                       | Hudson Soft                  | Super Nintendo | 1993 | North America
+|       | Battletoads & Double Dragon                                                             | Tradewest                    | Super Nintendo | 1993 | North America
+|       | Battletoads in Battlemaniacs                                                            | Tradewest                    | Super Nintendo | 1993 | North America
+|       | Bazooka Blitzkrieg                                                                      | Bandai                       | Super Nintendo | 1992 | North America
+|       | Beavis and Butt-head                                                                    | Viacom New Media             | Super Nintendo | 1994 | North America
+|       | Bebe's Kids                                                                             | Motown Games                 | Super Nintendo | 1994 | North America
+|       | Beethoven: The Ultimate Canine Caper                                                    | Hi Tech Expressions          | Super Nintendo | 1993 | North America
+|       | Best of the Best: Championship Karate                                                   | Electro Brain                | Super Nintendo | 1992 | North America
+|       | Big Sky Trooper                                                                         | JVC Musical Industries, Inc. | Super Nintendo | 1995 | North America
+|       | Biker Mice From Mars                                                                    | Konami                       | Super Nintendo | 1994 | North America
+|       | Bill Laimbeer's Combat Basketball                                                       | Hudson Soft                  | Super Nintendo | 1991 | North America
+|       | Bill Walsh College Football                                                             | EA Sports                    | Super Nintendo | 1994 | North America
+|       | BioMetal                                                                                | Activision                   | Super Nintendo | 1993 | North America
+|       | Blackthorne                                                                             | Interplay                    | Super Nintendo | 1994 | North America
+|       | BlaZeon: The Bio-Cyborg Challenge                                                       | ATLUS                        | Super Nintendo | 1992 | North America
+|       | Blockbuster World Video Game Championship II: Donkey Kong Country Competition Cartridge | Nintendo                     | Super Nintendo | 1994 | North America
+|       | Blues Brothers, The                                                                     | Titus Software               | Super Nintendo | 1993 | North America
+|       | Bonkers                                                                                 | Capcom                       | Super Nintendo | 1994 | North America
+|       | Boogerman: A Pick and Flick Adventure                                                   | Interplay                    | Super Nintendo | 1995 | North America
+|       | Boxing Legends of the Ring                                                              | Electro Brain                | Super Nintendo | 1994 | North America
+|       | Brain Lord                                                                              | Enix America, Inc.           | Super Nintendo | 1994 | North America
+|       | Brainies, The                                                                           | Titus Software               | Super Nintendo | 1996 | North America
+|       | Bram Stoker's Dracula                                                                   | Sony Imagesoft               | Super Nintendo | 1993 | North America
+|       | Brandish                                                                                | Koei                         | Super Nintendo | 1995 | North America
+|       | Brawl Brothers                                                                          | Jaleco Entertainment         | Super Nintendo | 1993 | North America
+|       | BreakThru!                                                                              | Spectrum Holobyte            | Super Nintendo | 1994 | North America
+|       | Breath of Fire                                                                          | SquareSoft                   | Super Nintendo | 1994 | North America
+|       | Breath of Fire II                                                                       | Capcom                       | Super Nintendo | 1995 | North America
+|       | Brett Hull Hockey                                                                       | Accolade                     | Super Nintendo | 1994 | North America
+|       | Brett Hull Hockey 95                                                                    | Accolade                     | Super Nintendo | 1995 | North America
+|       | Bronkie the Bronchiasaurus                                                              | Raya Systems                 | Super Nintendo | 1995 | North America
+|       | Brunswick World Tournament of Champions                                                 | THQ                          | Super Nintendo | 1997 | North America
+|       | Brutal: Paws of Fury                                                                    | Cybersoft                    | Super Nintendo | 1994 | North America
+|       | Bubsy II                                                                                | Accolade                     | Super Nintendo | 1994 | North America
+|       | Bubsy in: Claws Encounters of the Furred Kind                                           | Accolade                     | Super Nintendo | 1993 | North America
+|       | Bugs Bunny: Rabbit Rampage                                                              | SunSoft                      | Super Nintendo | 1994 | North America
+|       | Bulls vs Blazers and the NBA Playoffs                                                   | EA Sports                    | Super Nintendo | 1992 | North America
+|       | Bust-A-Move                                                                             | Taito Corporation            | Super Nintendo | 1995 | North America
+|       | C2 - Clay Fighter 2: Judgment Clay                                                      | Interplay                    | Super Nintendo | 1995 | North America
+|       | Cacoma Knight in Bizyland                                                               | Seta Corporation             | Super Nintendo | 1993 | North America
+|       | Cal Ripken Jr. Baseball                                                                 | Mindscape Inc.               | Super Nintendo | 1992 | North America
+|       | California Games II                                                                     | DTMC                         | Super Nintendo | 1993 | North America
+|       | Cannondale Cup                                                                          | American Softworks           | Super Nintendo | 1994 | North America
+|       | Capcom's MVP Football                                                                   | Capcom                       | Super Nintendo | 1993 | North America
+|       | Capcom's Soccer Shootout                                                                | Capcom                       | Super Nintendo | 1994 | North America
+|       | Captain America and the Avengers                                                        | Mindscape Inc.               | Super Nintendo | 1993 | North America
+|       | Captain Commando                                                                        | Capcom                       | Super Nintendo | 1995 | North America
+|       | Captain Novolin                                                                         | Raya Systems                 | Super Nintendo | 1992 | North America
+|       | Carrier Aces                                                                            | Cybersoft                    | Super Nintendo | 1995 | North America
+|       | Casper                                                                                  | Natsume                      | Super Nintendo | 1996 | North America
+|       | Castlevania: Dracula X                                                                  | Konami                       | Super Nintendo | 1995 | North America
+|       | Champions World Class Soccer                                                            | Acclaim                      | Super Nintendo | 1994 | North America
+|       | Championship Pool                                                                       | Mindscape Inc.               | Super Nintendo | 1993 | North America
+|       | Championship Soccer '94                                                                 | Sony Imagesoft               | Super Nintendo | 1994 | North America
+|       | Chavez                                                                                  | American Softworks           | Super Nintendo | 1994 | North America
+|       | Chavez II                                                                               | American Softworks           | Super Nintendo | 1994 | North America
+|       | Chessmaster, The                                                                        | Mindscape Inc.               | Super Nintendo | 1991 | North America
+|       | Chester Cheetah: Too Cool to Fool                                                       | Kaneko                       | Super Nintendo | 1992 | North America
+|       | Chester Cheetah: Wild Wild Quest                                                        | Kaneko                       | Super Nintendo | 1994 | North America
+|       | Choplifter III                                                                          | Victor Interactive Software  | Super Nintendo | 1994 | North America
+|       | Chrono Trigger                                                                          | SquareSoft                   | Super Nintendo | 1995 | North America
+|       | Chuck Rock                                                                              | Sony Imagesoft               | Super Nintendo | 1992 | North America
+|       | ClayFighter                                                                             | Interplay                    | Super Nintendo | 1993 | North America
+|       | ClayFighter: Tournament Edition                                                         | Interplay                    | Super Nintendo | 1994 | North America
+|       | Claymates                                                                               | Interplay                    | Super Nintendo | 1994 | North America
+|       | Cliffhanger                                                                             | Sony Imagesoft               | Super Nintendo | 1993 | North America
+|       | Clue                                                                                    | Parker Bros.                 | Super Nintendo | 1992 | North America
+|       | College Football USA 97                                                                 | Black Pearl                  | Super Nintendo | 1996 | North America
+|       | College Slam                                                                            | Acclaim                      | Super Nintendo | 1996 | North America
+|       | Combatribes, The                                                                        | Technos                      | Super Nintendo | 1993 | North America
+|       | Congo's Caper                                                                           | Data East USA                | Super Nintendo | 1993 | North America
+|       | Contra III: The Alien Wars                                                              | Konami                       | Super Nintendo | 1992 | North America
+|       | Cool Spot                                                                               | Virgin Interactive           | Super Nintendo | 1993 | North America
+|       | Cool World                                                                              | Ocean                        | Super Nintendo | 1993 | North America
+|       | Cutthroat Island                                                                        | Acclaim                      | Super Nintendo | 1996 | North America
+|       | Cyber Spin                                                                              | Takara                       | Super Nintendo | 1992 | North America
+|       | Cybernator                                                                              | Konami                       | Super Nintendo | 1993 | North America
+|       | D-Force                                                                                 | Asmik Corporation of America | Super Nintendo | 1991 | North America
+|       | Daffy Duck: The Marvin Missions                                                         | SunSoft                      | Super Nintendo | 1993 | North America
+|       | Darius Twin                                                                             | Taito Corporation            | Super Nintendo | 1991 | North America
+|       | David Crane's Amazing Tennis                                                            | Absolute Entertainment       | Super Nintendo | 1992 | North America
+|       | Death and Return of Superman, The                                                       | SunSoft                      | Super Nintendo | 1994 | North America
+|       | Demolition Man                                                                          | Acclaim                      | Super Nintendo | 1995 | North America
+|       | Demon's Crest                                                                           | Capcom                       | Super Nintendo | 1994 | North America
+|       | Dennis the Menace                                                                       | Ocean                        | Super Nintendo | 1993 | North America
+|       | Desert Strike: Return to the Gulf                                                       | Electronic Arts              | Super Nintendo | 1992 | North America
+|       | Dig & Spike Volleyball                                                                  | Hudson Soft                  | Super Nintendo | 1993 | North America
+|       | Dinocity                                                                                | Irem                         | Super Nintendo | 1992 | North America
+|       | Dirt Trax FX                                                                            | Acclaim                      | Super Nintendo | 1995 | North America
+|       | Disney's Aladdin                                                                        | Capcom                       | Super Nintendo | 1993 | North America
+|       | Disney's Beauty and the Beast                                                           | Hudson                       | Super Nintendo | 1994 | North America
+|       | Disney's Goof Troop                                                                     | Capcom                       | Super Nintendo | 1993 | North America
+|       | Disney's Pinocchio                                                                      | Disney Interactive Studios   | Super Nintendo | 1996 | North America
+|       | Disney's The Jungle Book                                                                | Virgin Interactive           | Super Nintendo | 1994 | North America
+|       | Disney's Timon & Pumbaa's Jungle Games                                                  | THQ                          | Super Nintendo | 1997 | North America
+|       | Donkey Kong Country                                                                     | Nintendo                     | Super Nintendo | 1994 | North America
+|       | Donkey Kong Country 2: Diddy's Kong Quest                                               | Nintendo                     | Super Nintendo | 1995 | North America
+|       | Donkey Kong Country 3: Dixie Kong's Double Trouble                                      | Nintendo                     | Super Nintendo | 1996 | North America
+|       | Doom                                                                                    | Williams                     | Super Nintendo | 1995 | North America
+|       | Doom Troopers                                                                           | Playmates                    | Super Nintendo | 1995 | North America
+|       | Doomsday Warrior                                                                        | Renovation                   | Super Nintendo | 1993 | North America
+|       | Double Dragon V: The Shadow Falls                                                       | Tradewest                    | Super Nintendo | 1994 | North America
+|       | Dragon View                                                                             | Kemco                        | Super Nintendo | 1994 | North America
+|       | Dragon: The Bruce Lee Story                                                             | Acclaim                      | Super Nintendo | 1995 | North America
+|       | Dragon's Lair                                                                           | Data East                    | Super Nintendo | 1993 | North America
+|       | Drakkhen                                                                                | Seika Corp.                  | Super Nintendo | 1991 | North America
+|       | Dream T.V.                                                                              | Triffix                      | Super Nintendo | 1994 | North America
+|       | Dungeon Master                                                                          | JVC Digital Studios          | Super Nintendo | 1993 | North America
+|       | E.V.O.: Search for Eden                                                                 | Enix America, Inc.           | Super Nintendo | 1993 | North America
+|       | Earth Defense Force                                                                     | Jaleco Entertainment         | Super Nintendo | 1992 | North America
+|       | EarthBound                                                                              | Nintendo                     | Super Nintendo | 1995 | North America
+|       | Earthworm Jim                                                                           | Playmates                    | Super Nintendo | 1994 | North America
+|       | Earthworm Jim 2                                                                         | Playmates                    | Super Nintendo | 1995 | North America
+|       | Eek! The Cat                                                                            | Ocean                        | Super Nintendo | 1994 | North America
+|       | Elite Soccer                                                                            | GameTek                      | Super Nintendo | 1994 | North America
+|       | Emmitt Smith Football                                                                   | JVC Digital Studios          | Super Nintendo | 1995 | North America
+|       | Equinox                                                                                 | Sony Imagesoft               | Super Nintendo | 1994 | North America
+|       | ESPN Baseball Tonight                                                                   | Sony Imagesoft               | Super Nintendo | 1994 | North America
+|       | ESPN National Hockey Night                                                              | Sony Imagesoft               | Super Nintendo | 1994 | North America
+|       | ESPN Speedworld                                                                         | Sony Imagesoft               | Super Nintendo | 1994 | North America
+|       | ESPN Sunday Night NFL                                                                   | Sony Imagesoft               | Super Nintendo | 1994 | North America
+|       | Extra Innings                                                                           | Sony Imagesoft               | Super Nintendo | 1992 | North America
+|       | F-Zero                                                                                  | Nintendo                     | Super Nintendo | 1991 | North America
+|       | F1 Pole Position                                                                        | Ubisoft                      | Super Nintendo | 1993 | North America
+|       | F1 ROC II: Race of Champions                                                            | Seta Corporation             | Super Nintendo | 1994 | North America
+|       | F1 ROC: Race of Champions                                                               | Seta Corporation             | Super Nintendo | 1992 | North America
+|       | Faceball 2000                                                                           | Bullet Proof Software        | Super Nintendo | 1992 | North America
+|       | Family Dog                                                                              | Malibu                       | Super Nintendo | 1993 | North America
+|       | Family Feud                                                                             | GameTek                      | Super Nintendo | 1993 | North America
+|       | Fatal Fury                                                                              | Takara                       | Super Nintendo | 1993 | North America
+|       | Fatal Fury 2                                                                            | Takara                       | Super Nintendo | 1994 | North America
+|       | Fatal Fury Special                                                                      | Takara                       | Super Nintendo | 1995 | North America
+|       | FIFA International Soccer                                                               | Victor Interactive Software  | Super Nintendo | 1994 | North America
+|       | FIFA Soccer 96                                                                          | EA Sports                    | Super Nintendo | 1995 | North America
+|       | FIFA Soccer 97                                                                          | EA Sports                    | Super Nintendo | 1996 | North America
+|       | Fighter's History                                                                       | Data East                    | Super Nintendo | 1994 | North America
+|       | Final Fantasy II                                                                        | SquareSoft                   | Super Nintendo | 1991 | North America
+|       | Final Fantasy III                                                                       | SquareSoft                   | Super Nintendo | 1994 | North America
+|       | Final Fantasy: Mystic Quest                                                             | SquareSoft                   | Super Nintendo | 1992 | North America
+|       | Final Fight                                                                             | Capcom                       | Super Nintendo | 1991 | North America
+|       | Final Fight 2                                                                           | Capcom                       | Super Nintendo | 1993 | North America
+|       | Final Fight 3                                                                           | Capcom                       | Super Nintendo | 1996 | North America
+|       | Final Fight Guy                                                                         | Capcom                       | Super Nintendo | 1994 | North America
+|       | Firepower 2000                                                                          | SunSoft                      | Super Nintendo | 1992 | North America
+|       | Firestriker                                                                             | DTMC                         | Super Nintendo | 1994 | North America
+|       | First Samurai                                                                           | Kemco                        | Super Nintendo | 1993 | North America
+|       | Flashback: The Quest for Identity                                                       | U.S. Gold                    | Super Nintendo | 1994 | North America
+|       | Flintstones, The                                                                        | Ocean                        | Super Nintendo | 1995 | North America
+|       | Flintstones: The Treasure of Sierra Madrock, The                                        | Taito Corporation            | Super Nintendo | 1994 | North America
+|       | Football Fury                                                                           | American Sammy               | Super Nintendo | 1993 | North America
+|       | Foreman For Real                                                                        | Acclaim                      | Super Nintendo | 1995 | North America
+|       | Frank Thomas Big Hurt Baseball                                                          | Acclaim                      | Super Nintendo | 1995 | North America
+|       | Frantic Flea                                                                            | GameTek                      | Super Nintendo | 1996 | North America
+|       | Frogger                                                                                 | Majesco Games                | Super Nintendo | 1998 | North America
+|       | Full Throttle All-America Racing                                                        | Cybersoft                    | Super Nintendo | 1995 | North America
+|       | Fun 'N' Games                                                                           | Tradewest                    | Super Nintendo | 1994 | North America
+|       | Garry Kitchen's Super Battletank: War in the Gulf                                       | Absolute Entertainment       | Super Nintendo | 1992 | North America
+|       | Gemfire                                                                                 | Koei                         | Super Nintendo | 1992 | North America
+|       | Genghis Khan II: Clan of the Gray Wolf                                                  | Koei                         | Super Nintendo | 1993 | North America
+|       | George Foreman's KO Boxing                                                              | Acclaim                      | Super Nintendo | 1992 | North America
+|       | Ghoul Patrol                                                                            | JVC Musical Industries, Inc. | Super Nintendo | 1994 | North America
+|       | Goal!                                                                                   | Jaleco Entertainment         | Super Nintendo | 1992 | North America
+|       | Gods                                                                                    | Mindscape Inc.               | Super Nintendo | 1992 | North America
+|       | GP-1                                                                                    | ATLUS                        | Super Nintendo | 1993 | North America
+|       | GP-1 Part II                                                                            | ATLUS                        | Super Nintendo | 1994 | North America
+|       | Gradius III                                                                             | Konami                       | Super Nintendo | 1991 | North America
+|       | Great Circus Mystery, The                                                               | Capcom                       | Super Nintendo | 1994 | North America
+|       | Great Waldo Search, The                                                                 | THQ                          | Super Nintendo | 1993 | North America
+|       | GunForce                                                                                | Irem                         | Super Nintendo | 1992 | North America
+|       | Hagane                                                                                  | Hudson                       | Super Nintendo | 1995 | North America
+|       | HAL's Hole in One Golf                                                                  | Hal                          | Super Nintendo | 1991 | North America
+|       | HammerLock Wrestling                                                                    | Jaleco Entertainment         | Super Nintendo | 1994 | North America
+|       | Hardball III                                                                            | Accolade                     | Super Nintendo | 1994 | North America
+|       | Harley's Humongous Adventure                                                            | Hi Tech Expressions          | Super Nintendo | 1993 | North America
+|       | Harvest Moon                                                                            | Natsume                      | Super Nintendo | 1997 | North America
+|       | Head-On Soccer                                                                          | U.S. Gold                    | Super Nintendo | 1995 | North America
+|       | Hit the Ice                                                                             | Taito Corporation            | Super Nintendo | 1993 | North America
+|       | Home Alone                                                                              | THQ                          | Super Nintendo | 1991 | North America
+|       | Home Alone 2: Lost in New York                                                          | THQ                          | Super Nintendo | 1992 | North America
+|       | Home Improvement                                                                        | Absolute Entertainment       | Super Nintendo | 1994 | North America
+|       | Hook                                                                                    | Sony Imagesoft               | Super Nintendo | 1992 | North America
+|       | Hunt for Red October, The                                                               | Hi Tech Expressions          | Super Nintendo | 1993 | North America
+|       | Hurricanes                                                                              | U.S. Gold                    | Super Nintendo | 1994 | North America
+|       | Hyper V-Ball                                                                            | Mc O'River                   | Super Nintendo | 1994 | North America
+|       | HyperZone                                                                               | Hal                          | Super Nintendo | 1991 | North America
+|       | Ignition Factor, The                                                                    | Jaleco Entertainment         | Super Nintendo | 1995 | North America
+|       | Illusion of Gaia                                                                        | Nintendo                     | Super Nintendo | 1994 | North America
+|       | Imperium                                                                                | Vic Tokai                    | Super Nintendo | 1992 | North America
+|       | Incantation                                                                             | Titus Software               | Super Nintendo | 1996 | North America
+|       | Incredible Crash Dummies, The                                                           | LJN Ltd.                     | Super Nintendo | 1993 | North America
+|       | Incredible Hulk, The                                                                    | U.S. Gold                    | Super Nintendo | 1994 | North America
+|       | Indiana Jones' Greatest Adventures                                                      | JVC Digital Studios          | Super Nintendo | 1994 | North America
+|       | Inindo: Way of the Ninja                                                                | Koei                         | Super Nintendo | 1993 | North America
+|       | Inspector Gadget                                                                        | Hudson Soft                  | Super Nintendo | 1993 | North America
+|       | International Superstar Soccer                                                          | Konami                       | Super Nintendo | 1995 | North America
+|       | International Superstar Soccer Deluxe                                                   | Konami                       | Super Nintendo | 1995 | North America
+|       | International Tennis Tour                                                               | Taito Corporation            | Super Nintendo | 1993 | North America
+|       | Irem Skins Game, The                                                                    | Irem                         | Super Nintendo | 1992 | North America
+|       | Itchy & Scratchy Game, The                                                              | Acclaim                      | Super Nintendo | 1995 | North America
+|       | Izzy's Quest for the Olympic Rings                                                      | U.S. Gold                    | Super Nintendo | 1995 | North America
+|       | J.R.R. Tolkien's The Lord of the Rings: Volume 1                                        | Interplay                    | Super Nintendo | 1994 | North America
+|       | Jack Nicklaus Golf                                                                      | Tradewest                    | Super Nintendo | 1992 | North America
+|       | James Bond Jr.                                                                          | THQ                          | Super Nintendo | 1992 | North America
+|       | Jammit                                                                                  | GTE Entertainment            | Super Nintendo | 1994 | North America
+|       | Jeopardy!                                                                               | GameTek                      | Super Nintendo | 1992 | North America
+|       | Jeopardy! Deluxe Edition                                                                | GameTek                      | Super Nintendo | 1994 | North America
+|       | Jeopardy! Sports Edition                                                                | GameTek                      | Super Nintendo | 1994 | North America
+|       | Jetsons: Invasion of the Planet Pirates, The                                            | Taito Corporation            | Super Nintendo | 1994 | North America
+|       | Jim Lee's Wild C.A.T.S: Covert Action Teams                                             | Playmates                    | Super Nintendo | 1995 | North America
+|       | Jim Power: Lost Dimension in 3D                                                         | Electro Brain                | Super Nintendo | 1993 | North America
+|       | Jimmy Connors Pro Tennis Tour                                                           | Ubisoft                      | Super Nintendo | 1992 | North America
+|       | Jimmy Houston's Bass Tournament U.S.A.                                                  | American Sammy               | Super Nintendo | 1995 | North America
+|       | Joe & Mac                                                                               | Data East                    | Super Nintendo | 1992 | North America
+|       | Joe & Mac 2: Lost in the Tropics                                                        | Data East                    | Super Nintendo | 1994 | North America
+|       | John Madden Football                                                                    | Electronic Arts              | Super Nintendo | 1991 | North America
+|       | John Madden Football '93                                                                | Electronic Arts              | Super Nintendo | 1992 | North America
+|       | Judge Dredd                                                                             | Acclaim                      | Super Nintendo | 1995 | North America
+|       | Jungle Strike                                                                           | Electronic Arts              | Super Nintendo | 1995 | North America
+|       | Jurassic Park                                                                           | Ocean                        | Super Nintendo | 1993 | North America
+|       | Jurassic Park Part 2: The Chaos Continues                                               | Ocean                        | Super Nintendo | 1994 | North America
+|       | Justice League Task Force                                                               | SunSoft                      | Super Nintendo | 1995 | North America
+|       | Ka-blooey                                                                               | Kemco                        | Super Nintendo | 1992 | North America
+|       | Kawasaki Caribbean Challenge                                                            | GameTek                      | Super Nintendo | 1993 | North America
+|       | Kawasaki Superbike Challenge                                                            | Time Warner Interactive      | Super Nintendo | 1995 | North America
+|       | Ken Griffey Jr. Presents Major League Baseball                                          | Nintendo                     | Super Nintendo | 1994 | North America
+|       | Ken Griffey Jr.'s Winning Run                                                           | Nintendo                     | Super Nintendo | 1996 | North America
+|       | Kendo Rage                                                                              | Seta Corporation             | Super Nintendo | 1993 | North America
+|       | Kid Klown in Crazy Chase                                                                | Kemco                        | Super Nintendo | 1994 | North America
+|       | Killer Instinct                                                                         | Nintendo                     | Super Nintendo | 1995 | North America
+|       | King Arthur & the Knights of Justice                                                    | Enix Corporation             | Super Nintendo | 1995 | North America
+|       | King Arthur's World                                                                     | Jaleco Entertainment         | Super Nintendo | 1993 | North America
+|       | King of Dragons                                                                         | Capcom                       | Super Nintendo | 1994 | North America
+|       | King of the Monsters                                                                    | Takara                       | Super Nintendo | 1992 | North America
+|       | King of the Monsters 2                                                                  | Takara                       | Super Nintendo | 1994 | North America
+|       | Kirby Super Star                                                                        | Nintendo                     | Super Nintendo | 1996 | North America
+|       | Kirby's Avalanche                                                                       | Nintendo                     | Super Nintendo | 1995 | North America
+|       | Kirby's Dream Course                                                                    | Nintendo                     | Super Nintendo | 1995 | North America
+|       | Kirby's Dream Land 3                                                                    | Nintendo                     | Super Nintendo | 1997 | North America
+|       | Knights of the Round                                                                    | Capcom                       | Super Nintendo | 1994 | North America
+|       | Krusty's Super Fun House                                                                | Acclaim                      | Super Nintendo | 1992 | North America
+|       | Kyle Petty's No Fear Racing                                                             | Williams                     | Super Nintendo | 1995 | North America
+|       | Lagoon                                                                                  | Kemco                        | Super Nintendo | 1991 | North America
+|       | Lamborghini: American Challenge                                                         | Titus Software               | Super Nintendo | 1993 | North America
+|       | Last Action Hero                                                                        | Sony Imagesoft               | Super Nintendo | 1993 | North America
+|       | Lawnmower Man, The                                                                      | THQ                          | Super Nintendo | 1993 | North America
+|       | Legend                                                                                  | Seika Corp.                  | Super Nintendo | 1994 | North America
+|       | Legend of the Mystical Ninja, The                                                       | Konami                       | Super Nintendo | 1992 | North America
+|       | Legend of Zelda: A Link To The Past, The                                                | Nintendo                     | Super Nintendo | 1992 | North America
+|       | Lemmings                                                                                | SunSoft                      | Super Nintendo | 1992 | North America
+|       | Lemmings 2: The Tribes                                                                  | Psygnosis                    | Super Nintendo | 1994 | North America
+|       | Lester the Unlikely                                                                     | DTMC                         | Super Nintendo | 1994 | North America
+|       | Lethal Enforcers                                                                        | Konami                       | Super Nintendo | 1994 | North America
+|       | Lethal Weapon                                                                           | Ocean                        | Super Nintendo | 1992 | North America
+|       | Liberty or Death                                                                        | Koei                         | Super Nintendo | 1994 | North America
+|       | Lion King, The                                                                          | Virgin Interactive           | Super Nintendo | 1994 | North America
+|       | Lock On                                                                                 | Vic Tokai                    | Super Nintendo | 1993 | North America
+|       | Looney Tunes B-Ball                                                                     | SunSoft                      | Super Nintendo | 1995 | North America
+|       | Lord of Darkness                                                                        | Koei                         | Super Nintendo | 1994 | North America
+|       | Lost Vikings 2                                                                          | Interplay                    | Super Nintendo | 1997 | North America
+|       | Lost Vikings, The                                                                       | Interplay                    | Super Nintendo | 1993 | North America
+|       | Lufia & the Fortress of Doom                                                            | Taito Corporation            | Super Nintendo | 1993 | North America
+|       | Lufia II: Rise of the Sinistrals                                                        | Natsume                      | Super Nintendo | 1996 | North America
+|       | MACS: Multipurpose Arcade Combat Simulator                                              | Sculptured Software          | Super Nintendo | 1993 | North America
+|       | Madden NFL '94                                                                          | Electronic Arts              | Super Nintendo | 1993 | North America
+|       | Madden NFL 95                                                                           | EA Sports                    | Super Nintendo | 1994 | North America
+|       | Madden NFL 96                                                                           | EA Sports                    | Super Nintendo | 1995 | North America
+|       | Madden NFL 97                                                                           | EA Sports                    | Super Nintendo | 1996 | North America
+|       | Madden NFL 98                                                                           | Black Pearl                  | Super Nintendo | 1997 | North America
+|       | Magic Boy                                                                               | JVC Musical Industries, Inc. | Super Nintendo | 1996 | North America
+|       | Magic Sword                                                                             | Capcom                       | Super Nintendo | 1992 | North America
+|       | Magical Quest starring Mickey Mouse, The                                                | Capcom                       | Super Nintendo | 1992 | North America
+|       | Mario is Missing!                                                                       | Mindscape Inc.               | Super Nintendo | 1993 | North America
+|       | Mario Paint                                                                             | Nintendo                     | Super Nintendo | 1992 | North America
+|       | Mario's Early Years: Fun with Letters                                                   | Software Toolworks           | Super Nintendo | 1994 | North America
+|       | Mario's Early Years: Fun with Numbers                                                   | Software Toolworks           | Super Nintendo | 1994 | North America
+|       | Mario's Early Years: Preschool Fun                                                      | Mindscape Inc.               | Super Nintendo | 1994 | North America
+|       | Mario's Time Machine                                                                    | Mindscape Inc.               | Super Nintendo | 1993 | North America
+|       | Mark Davis' The Fishing Master                                                          | Natsume                      | Super Nintendo | 1996 | North America
+|       | Marvel Super Heroes in War of the Gems                                                  | Capcom                       | Super Nintendo | 1996 | North America
+|       | Mary Shelley's Frankenstein                                                             | Sony Imagesoft               | Super Nintendo | 1994 | North America
+|       | Mask, The                                                                               | Black Pearl                  | Super Nintendo | 1995 | North America
+|       | Math Blaster: Episode 1                                                                 | Davidson & Associates        | Super Nintendo | 1994 | North America
+|       | Maui Mallard in Cold Shadow                                                             | Nintendo                     | Super Nintendo | 1996 | North America
+|       | Mecarobot Golf                                                                          | Toho                         | Super Nintendo | 1993 | North America
+|       | MechWarrior                                                                             | Activision                   | Super Nintendo | 1993 | North America
+|       | MechWarrior 3050                                                                        | Activision                   | Super Nintendo | 1995 | North America
+|       | Mega Man 7                                                                              | Capcom                       | Super Nintendo | 1995 | North America
+|       | Mega Man Soccer                                                                         | Capcom                       | Super Nintendo | 1994 | North America
+|       | Mega Man X                                                                              | Capcom                       | Super Nintendo | 1994 | North America
+|       | Mega Man X2                                                                             | Capcom                       | Super Nintendo | 1995 | North America
+|       | Mega Man X3                                                                             | Capcom                       | Super Nintendo | 1996 | North America
+|       | Metal Combat: Falcon's Revenge                                                          | Nintendo                     | Super Nintendo | 1993 | North America
+|       | Metal Marines                                                                           | Namco                        | Super Nintendo | 1993 | North America
+|       | Metal Morph                                                                             | FCI, Inc.                    | Super Nintendo | 1994 | North America
+|       | Metal Warriors                                                                          | Konami                       | Super Nintendo | 1995 | North America
+|       | Michael Andretti's Indy Car Challenge                                                   | Bullet Proof Software        | Super Nintendo | 1994 | North America
+|       | Michael Jordan: Chaos in the Windy City                                                 | Electronic Arts              | Super Nintendo | 1994 | North America
+|       | Mickey Mania: The Timeless Adventures of Mickey Mouse                                   | Sony Imagesoft               | Super Nintendo | 1994 | North America
+|       | Mickey's Ultimate Challenge                                                             | Hi Tech Expressions          | Super Nintendo | 1994 | North America
+|       | Micro Machines                                                                          | Ocean                        | Super Nintendo | 1994 | North America
+|       | Midway Presents Arcade's Greatest Hits: The Atari Collection 1                          | Midway                       | Super Nintendo | 1997 | North America
+|       | Might and Magic III: Isles of Terra                                                     | FCI, Inc.                    | Super Nintendo | 1995 | North America
+|       | Mighty Morphin Power Rangers                                                            | Bandai                       | Super Nintendo | 1994 | North America
+|       | Mighty Morphin Power Rangers: The Fighting Edition                                      | Bandai                       | Super Nintendo | 1995 | North America
+|       | Mighty Morphin Power Rangers: The Movie                                                 | Bandai America Inc.          | Super Nintendo | 1995 | North America
+|       | Miracle Piano Teaching System, The                                                      | Software Toolworks           | Super Nintendo | 1991 | North America
+|       | MLBPA Baseball                                                                          | EA Sports                    | Super Nintendo | 1994 | North America
+|       | Mohawk and Headphone Jack                                                               | Black Pearl                  | Super Nintendo | 1996 | North America
+|       | Monopoly                                                                                | Parker Bros                  | Super Nintendo | 1992 | North America
+|       | Mortal Kombat                                                                           | Acclaim                      | Super Nintendo | 1993 | North America
+|       | Mortal Kombat 3                                                                         | Williams                     | Super Nintendo | 1995 | North America
+|       | Mortal Kombat II                                                                        | Acclaim                      | Super Nintendo | 1994 | North America
+|       | Mountain Bike Rally                                                                     | Life Fitness                 | Super Nintendo | 1994 | North America
+|       | Mountain Bike Rally / Speed Racer                                                       | Life Fitness                 | Super Nintendo | 1995 | North America
+|       | Mr. Do!                                                                                 | Black Pearl                  | Super Nintendo | 1996 | North America
+|       | Mr. Nutz                                                                                | Ocean                        | Super Nintendo | 1994 | North America
+|       | Ms. Pac-Man                                                                             | Midway                       | Super Nintendo | 1996 | North America
+|       | Musya                                                                                   | Seta Corporation             | Super Nintendo | 1992 | North America
+|       | Natsume Championship Wrestling                                                          | Natsume                      | Super Nintendo | 1994 | North America
+|       | NBA All-Star Challenge                                                                  | LJN Ltd.                     | Super Nintendo | 1992 | North America
+|       | NBA Give 'N Go                                                                          | Konami                       | Super Nintendo | 1995 | North America
+|       | NBA Hang Time                                                                           | Midway                       | Super Nintendo | 1996 | North America
+|       | NBA Jam                                                                                 | Acclaim                      | Super Nintendo | 1994 | North America
+|       | NBA Jam: Tournament Edition                                                             | Acclaim                      | Super Nintendo | 1995 | North America
+|       | NBA Live 95                                                                             | EA Sports                    | Super Nintendo | 1994 | North America
+|       | NBA Live 96                                                                             | Electronic Arts              | Super Nintendo | 1995 | North America
+|       | NBA Live 97                                                                             | EA Sports                    | Super Nintendo | 1996 | North America
+|       | NBA Live 98                                                                             | THQ                          | Super Nintendo | 1998 | North America
+|       | NBA Showdown                                                                            | EA Sports                    | Super Nintendo | 1993 | North America
+|       | NCAA Basketball                                                                         | Nintendo                     | Super Nintendo | 1992 | North America
+|       | NCAA Final Four Basketball                                                              | Mindscape Inc.               | Super Nintendo | 1995 | North America
+|       | NCAA Football                                                                           | Mindscape Inc.               | Super Nintendo | 1994 | North America
+|       | New Horizons                                                                            | Koei                         | Super Nintendo | 1994 | North America
+|       | Newman/Haas Indy Car featuring Nigel Mansell                                            | Acclaim                      | Super Nintendo | 1994 | North America
+|       | NFL Football                                                                            | Konami                       | Super Nintendo | 1993 | North America
+|       | NFL Quarterback Club                                                                    | LJN Ltd.                     | Super Nintendo | 1994 | North America
+|       | NFL Quarterback Club 96                                                                 | Acclaim                      | Super Nintendo | 1995 | North America
+|       | NHL '94                                                                                 | Electronic Arts              | Super Nintendo | 1993 | North America
+|       | NHL 95                                                                                  | EA Sports                    | Super Nintendo | 1994 | North America
+|       | NHL 96                                                                                  | EA Sports                    | Super Nintendo | 1995 | North America
+|       | NHL 97                                                                                  | EA Sports                    | Super Nintendo | 1996 | North America
+|       | NHL 98                                                                                  | EA Sports                    | Super Nintendo | 1997 | North America
+|       | NHL Stanley Cup                                                                         | Nintendo                     | Super Nintendo | 1993 | North America
+|       | NHLPA Hockey 93                                                                         | EA Sports                    | Super Nintendo | 1992 | North America
+|       | Nickelodeon GUTS                                                                        | Viacom New Media             | Super Nintendo | 1994 | North America
+|       | Nigel Mansell's World Championship Racing                                               | GameTek                      | Super Nintendo | 1993 | North America
+|       | Nightmare Busters                                                                       | Super Fighter Team           | Super Nintendo | 2013 | North America
+|       | Ninja Gaiden Trilogy                                                                    | Tecmo                        | Super Nintendo | 1995 | North America
+|       | Ninja Warriors                                                                          | Taito Corporation            | Super Nintendo | 1994 | North America
+|       | No Escape                                                                               | Sony Imagesoft               | Super Nintendo | 1994 | North America
+|       | Nobunaga's Ambition                                                                     | Koei                         | Super Nintendo | 1993 | North America
+|       | Nolan Ryan's Baseball                                                                   | Romstar                      | Super Nintendo | 1992 | North America
+|       | Nosferatu                                                                               | Seta Corporation             | Super Nintendo | 1995 | North America
+|       | Obitus                                                                                  | Bullet Proof Software        | Super Nintendo | 1994 | North America
+|       | Ogre Battle: The March of the Black Queen                                               | Enix America, Inc.           | Super Nintendo | 1995 | North America
+|       | Olympic Summer Games                                                                    | Black Pearl                  | Super Nintendo | 1996 | North America
+|       | On the Ball                                                                             | Taito Corporation            | Super Nintendo | 1992 | North America
+|       | Operation Europe: Path to Victory 1939-45                                               | Koei                         | Super Nintendo | 1994 | North America
+|       | Operation Logic Bomb: The Ultimate Search & Destroy                                     | Jaleco Entertainment         | Super Nintendo | 1993 | North America
+|       | Operation Thunderbolt                                                                   | Taito Corporation            | Super Nintendo | 1994 | North America
+|       | Oscar                                                                                   | Titus Software               | Super Nintendo | 1996 | North America
+|       | Out of This World                                                                       | Interplay                    | Super Nintendo | 1992 | North America
+|       | Out to Lunch                                                                            | Mindscape Inc.               | Super Nintendo | 1993 | North America
+|       | Outlander                                                                               | Mindscape Inc.               | Super Nintendo | 1993 | North America
+|       | P.T.O. II: Pacific Theater of Operations                                                | Koei                         | Super Nintendo | 1995 | North America
+|       | P.T.O.: Pacific Theater of Operations                                                   | Koei                         | Super Nintendo | 1993 | North America
+|       | Pac-Attack                                                                              | Namco                        | Super Nintendo | 1993 | North America
+|       | Pac-In-Time                                                                             | Namco                        | Super Nintendo | 1995 | North America
+|       | Pac-Man 2: The New Adventures                                                           | Namco                        | Super Nintendo | 1994 | North America
+|       | Packy and Marlon                                                                        | Raya Systems                 | Super Nintendo | 1995 | North America
+|       | Pagemaster, The                                                                         | Fox Interactive              | Super Nintendo | 1994 | North America
+|       | Paladin's Quest                                                                         | Enix America, Inc.           | Super Nintendo | 1993 | North America
+|       | Paperboy 2                                                                              | Mindscape Inc.               | Super Nintendo | 1991 | North America
+|       | Peace Keepers, The                                                                      | Jaleco Entertainment         | Super Nintendo | 1994 | North America
+|       | PGA European Tour                                                                       | Black Pearl                  | Super Nintendo | 1996 | North America
+|       | PGA Tour 96                                                                             | Black Pearl                  | Super Nintendo | 1996 | North America
+|       | PGA Tour Golf                                                                           | Electronic Arts              | Super Nintendo | 1992 | North America
+|       | Phalanx                                                                                 | Kemco                        | Super Nintendo | 1992 | North America
+|       | Phantom 2040                                                                            | Viacom New Media             | Super Nintendo | 1995 | North America
+|       | Pieces                                                                                  | ATLUS                        | Super Nintendo | 1994 | North America
+|       | Pilotwings                                                                              | Nintendo                     | Super Nintendo | 1991 | North America
+|       | Pinball Dreams                                                                          | GameTek                      | Super Nintendo | 1994 | North America
+|       | Pinball Fantasies                                                                       | GameTek                      | Super Nintendo | 1995 | North America
+|       | Pink Goes to Hollywood                                                                  | TecMagik                     | Super Nintendo | 1993 | North America
+|       | Pirates of Dark Water, The                                                              | SunSoft                      | Super Nintendo | 1994 | North America
+|       | Pit-Fighter                                                                             | THQ                          | Super Nintendo | 1992 | North America
+|       | Pitfall: The Mayan Adventure                                                            | Activision                   | Super Nintendo | 1994 | North America
+|       | Plok                                                                                    | Tradewest                    | Super Nintendo | 1993 | North America
+|       | Pocky & Rocky                                                                           | Natsume                      | Super Nintendo | 1993 | North America
+|       | Pocky & Rocky 2                                                                         | Natsume                      | Super Nintendo | 1994 | North America
+|       | Populous                                                                                | Acclaim                      | Super Nintendo | 1991 | North America
+|       | Porky Pig's Haunted Holiday                                                             | Acclaim                      | Super Nintendo | 1995 | North America
+|       | Power Instinct                                                                          | ATLUS                        | Super Nintendo | 1994 | North America
+|       | Power Moves                                                                             | Kaneko                       | Super Nintendo | 1993 | North America
+|       | Power Piggs of the Dark Age                                                             | Titus Software               | Super Nintendo | 1996 | North America
+|       | Prehistorik Man                                                                         | Titus Software               | Super Nintendo | 1996 | North America
+|       | Primal Rage                                                                             | Time Warner Interactive      | Super Nintendo | 1995 | North America
+|       | Prince of Persia                                                                        | Konami                       | Super Nintendo | 1992 | North America
+|       | Prince of Persia 2: The Shadow and the Flame                                            | Titus Software               | Super Nintendo | 1996 | North America
+|       | Pro Quarterback                                                                         | Tradewest                    | Super Nintendo | 1992 | North America
+|       | Pro Sport Hockey                                                                        | Jaleco Entertainment         | Super Nintendo | 1994 | North America
+|       | Push-Over                                                                               | Ocean                        | Super Nintendo | 1992 | North America
+|       | Q*bert 3                                                                                | NTVIC                        | Super Nintendo | 1992 | North America
+|       | R-Type III                                                                              | Jaleco Entertainment         | Super Nintendo | 1994 | North America
+|       | Race Drivin'                                                                            | THQ                          | Super Nintendo | 1992 | North America
+|       | Radical Rex                                                                             | Activision                   | Super Nintendo | 1994 | North America
+|       | Raiden Trad                                                                             | Electro Brain                | Super Nintendo | 1992 | North America
+|       | Rampart                                                                                 | Electronic Arts              | Super Nintendo | 1992 | North America
+|       | Ranma 1/2: Hard Battle                                                                  | DTMC                         | Super Nintendo | 1993 | North America
+|       | Rap Jam: Volume One                                                                     | Motown Games                 | Super Nintendo | 1995 | North America
+|       | Realm                                                                                   | Titus Software               | Super Nintendo | 1996 | North America
+|       | Redline F-1 Racer                                                                       | Absolute Entertainment       | Super Nintendo | 1993 | North America
+|       | Relief Pitcher                                                                          | Left Field Productions       | Super Nintendo | 1994 | North America
+|       | Ren & Stimpy Show: Buckeroo$!, The                                                      | THQ                          | Super Nintendo | 1995 | North America
+|       | Ren & Stimpy Show: Fire Dogs, The                                                       | THQ                          | Super Nintendo | 1994 | North America
+|       | Ren & Stimpy Show: Time Warp, The                                                       | THQ                          | Super Nintendo | 1994 | North America
+|       | Ren & Stimpy Show: Veediots!, The                                                       | THQ                          | Super Nintendo | 1993 | North America
+|       | Revolution X                                                                            | Acclaim                      | Super Nintendo | 1995 | North America
+|       | Rex Ronan: Experimental Surgeon                                                         | Raya Systems                 | Super Nintendo | 1994 | North America
+|       | Riddick Bowe Boxing                                                                     | Extreme Entertainment Group  | Super Nintendo | 1994 | North America
+|       | Rise of the Phoenix                                                                     | Koei                         | Super Nintendo | 1995 | North America
+|       | Rise of the Robots                                                                      | Acclaim                      | Super Nintendo | 1994 | North America
+|       | Rival Turf!                                                                             | Jaleco Entertainment         | Super Nintendo | 1992 | North America
+|       | Road Riot 4WD                                                                           | THQ                          | Super Nintendo | 1992 | North America
+|       | Road Runner's Death Valley Rally                                                        | SunSoft                      | Super Nintendo | 1992 | North America
+|       | RoboCop 3                                                                               | Ocean                        | Super Nintendo | 1992 | North America
+|       | RoboCop Versus The Terminator                                                           | Virgin Interactive           | Super Nintendo | 1993 | North America
+|       | Robotrek                                                                                | Enix America, Inc.           | Super Nintendo | 1994 | North America
+|       | Rock 'N Roll Racing                                                                     | Interplay                    | Super Nintendo | 1993 | North America
+|       | Rocketeer, The                                                                          | IGS                          | Super Nintendo | 1992 | North America
+|       | Rocko's Modern Life: Spunky's Dangerous Day                                             | Viacom New Media             | Super Nintendo | 1994 | North America
+|       | Rocky Rodent                                                                            | Irem                         | Super Nintendo | 1993 | North America
+|       | Roger Clemens' MVP Baseball                                                             | LJN Ltd.                     | Super Nintendo | 1992 | North America
+|       | Romance of the Three Kingdoms II                                                        | Koei                         | Super Nintendo | 1992 | North America
+|       | Romance of the Three Kingdoms III: Dragon of Destiny                                    | Koei                         | Super Nintendo | 1993 | North America
+|       | Romance of the Three Kingdoms IV: Wall of Fire                                          | Koei                         | Super Nintendo | 1995 | North America
+|       | RPM: Radical Psycho Machine Racing                                                      | Interplay                    | Super Nintendo | 1991 | North America
+|       | Run Saber                                                                               | ATLUS                        | Super Nintendo | 1993 | North America
+|       | Saban's Power Rangers Zeo: Battle Racers                                                | Bandai                       | Super Nintendo | 1996 | North America
+|       | Samurai Shodown                                                                         | Takara                       | Super Nintendo | 1994 | North America
+|       | Saturday Night Slam Masters                                                             | Capcom                       | Super Nintendo | 1994 | North America
+|       | Scooby-Doo Mystery                                                                      | Acclaim                      | Super Nintendo | 1995 | North America
+|       | seaQuest DSV                                                                            | Malibu                       | Super Nintendo | 1995 | North America
+|       | Secret of Evermore                                                                      | SquareSoft                   | Super Nintendo | 1995 | North America
+|       | Secret of Mana                                                                          | SquareSoft                   | Super Nintendo | 1993 | North America
+|       | Shadowrun                                                                               | Data East                    | Super Nintendo | 1993 | North America
+|       | Shanghai II: Dragon's Eye                                                               | Activision                   | Super Nintendo | 1993 | North America
+|       | Shaq Fu                                                                                 | Electronic Arts              | Super Nintendo | 1994 | North America
+|       | Shien's Revenge                                                                         | Vic Tokai                    | Super Nintendo | 1994 | North America
+|       | Sid Meier's Civilization                                                                | Koei                         | Super Nintendo | 1995 | North America
+|       | Side Pocket                                                                             | Data East                    | Super Nintendo | 1993 | North America
+|       | SimAnt                                                                                  | Maxis                        | Super Nintendo | 1993 | North America
+|       | SimCity                                                                                 | Nintendo                     | Super Nintendo | 1991 | North America
+|       | SimCity 2000                                                                            | Black Pearl                  | Super Nintendo | 1996 | North America
+|       | SimEarth: The Living Planet                                                             | FCI, Inc.                    | Super Nintendo | 1993 | North America
+|       | Simpsons: Bart's Nightmare, The                                                         | Acclaim                      | Super Nintendo | 1992 | North America
+|       | Sink or Swim                                                                            | Titus Software               | Super Nintendo | 1996 | North America
+|       | Skuljagger: Revolt of the Westicans                                                     | American Softworks           | Super Nintendo | 1992 | North America
+|       | Skyblazer                                                                               | Sony Imagesoft               | Super Nintendo | 1994 | North America
+|       | Smart Ball                                                                              | Sony Imagesoft               | Super Nintendo | 1992 | North America
+|       | Snow White in Happily Ever After                                                        | American Softworks           | Super Nintendo | 1994 | North America
+|       | Soldiers of Fortune                                                                     | Spectrum Holobyte            | Super Nintendo | 1993 | North America
+|       | Sonic Blast Man                                                                         | Taito Corporation            | Super Nintendo | 1993 | North America
+|       | Sonic Blast Man II                                                                      | Taito Corporation            | Super Nintendo | 1994 | North America
+|       | SOS                                                                                     | Vic Tokai                    | Super Nintendo | 1994 | North America
+|       | Soul Blazer                                                                             | Enix America, Inc.           | Super Nintendo | 1992 | North America
+|       | Space Ace                                                                               | Absolute Entertainment       | Super Nintendo | 1994 | North America
+|       | Space Football: One on One                                                              | Triffix                      | Super Nintendo | 1992 | North America
+|       | Space Invaders                                                                          | Nintendo                     | Super Nintendo | 1997 | North America
+|       | Space Megaforce                                                                         | Toho                         | Super Nintendo | 1992 | North America
+|       | Spanky's Quest                                                                          | Natsume                      | Super Nintendo | 1992 | North America
+|       | Sparkster                                                                               | Konami                       | Super Nintendo | 1994 | North America
+|       | Spectre                                                                                 | Cybersoft                    | Super Nintendo | 1994 | North America
+|       | Speed Racer in My Most Dangerous Adventures                                             | Accolade                     | Super Nintendo | 1995 | North America
+|       | Speedy Gonzales: Los Gatos Bandidos                                                     | Acclaim                      | Super Nintendo | 1995 | North America
+|       | Spider-Man                                                                              | LJN Ltd.                     | Super Nintendo | 1995 | North America
+|       | Spider-Man / X-Men: Arcade's Revenge                                                    | LJN Ltd.                     | Super Nintendo | 1992 | North America
+|       | Spider-Man & Venom: Maximum Carnage                                                     | LJN Ltd.                     | Super Nintendo | 1994 | North America
+|       | Spider-Man & Venom: Separation Anxiety                                                  | Acclaim                      | Super Nintendo | 1995 | North America
+|       | Spindizzy Worlds                                                                        | ASCII Entertainment          | Super Nintendo | 1993 | North America
+|       | Sporting News: Baseball, The                                                            | Hudson Soft                  | Super Nintendo | 1995 | North America
+|       | Sports Illustrated: Championship Football & Baseball                                    | Malibu                       | Super Nintendo | 1994 | North America
+|       | Star Fox                                                                                | Nintendo                     | Super Nintendo | 1993 | North America
+|       | Star Fox: Super Weekend                                                                 | Nintendo                     | Super Nintendo | 1993 | North America
+|       | Star Trek: Deep Space Nine - Crossroads of Time                                         | Playmates                    | Super Nintendo | 1995 | North America
+|       | Star Trek: Starfleet Academy Starship Bridge Simulator                                  | Interplay                    | Super Nintendo | 1994 | North America
+|       | Star Trek: The Next Generation: Future's Past                                           | Spectrum Holobyte            | Super Nintendo | 1994 | North America
+|       | Stargate                                                                                | Acclaim                      | Super Nintendo | 1995 | North America
+|       | Steel Talons                                                                            | Left Field Productions       | Super Nintendo | 1993 | North America
+|       | Sterling Sharpe: End 2 End                                                              | Jaleco Entertainment         | Super Nintendo | 1995 | North America
+|       | Stone Protectors                                                                        | Kemco                        | Super Nintendo | 1994 | North America
+|       | Street Combat                                                                           | Irem                         | Super Nintendo | 1993 | North America
+|       | Street Fighter Alpha 2                                                                  | Capcom                       | Super Nintendo | 1996 | North America
+|       | Street Fighter II                                                                       | Capcom                       | Super Nintendo | 1992 | North America
+|       | Street Fighter II Turbo                                                                 | Capcom                       | Super Nintendo | 1993 | North America
+|       | Street Hockey '95                                                                       | GTE Entertainment            | Super Nintendo | 1994 | North America
+|       | Street Racer                                                                            | Ubisoft                      | Super Nintendo | 1994 | North America
+|       | Strike Gunner S.T.G                                                                     | NTVIC                        | Super Nintendo | 1992 | North America
+|       | Stunt Race FX                                                                           | Nintendo                     | Super Nintendo | 1994 | North America
+|       | Sunset Riders                                                                           | Konami                       | Super Nintendo | 1993 | North America
+|       | Super Adventure Island                                                                  | Hudson                       | Super Nintendo | 1992 | North America
+|       | Super Adventure Island II                                                               | Hudson                       | Super Nintendo | 1994 | North America
+|       | Super Alfred Chicken                                                                    | Mindscape Inc.               | Super Nintendo | 1994 | North America
+|       | Super Aquatic Games Starring the Aquabats, The                                          | Seika Corp.                  | Super Nintendo | 1993 | North America
+|       | Super Baseball Simulator 1.000                                                          | Culture Brain                | Super Nintendo | 1991 | North America
+|       | Super Bases Loaded                                                                      | Jaleco Entertainment         | Super Nintendo | 1991 | North America
+|       | Super Bases Loaded 2                                                                    | Jaleco Entertainment         | Super Nintendo | 1994 | North America
+|       | Super Bases Loaded 3: License to Steal                                                  | Jaleco Entertainment         | Super Nintendo | 1995 | North America
+|       | Super Batter Up                                                                         | Namco                        | Super Nintendo | 1992 | North America
+|       | Super Battleship                                                                        | Mindscape Inc.               | Super Nintendo | 1993 | North America
+|       | Super Battletank 2                                                                      | Absolute Entertainment       | Super Nintendo | 1994 | North America
+|       | Super Black Bass                                                                        | Hot-B                        | Super Nintendo | 1993 | North America
+|       | Super Bomberman                                                                         | Hudson                       | Super Nintendo | 1993 | North America
+|       | Super Bomberman 2                                                                       | Hudson                       | Super Nintendo | 1994 | North America
+|       | Super Bonk                                                                              | Hudson                       | Super Nintendo | 1994 | North America
+|       | Super Bowling                                                                           | Technos                      | Super Nintendo | 1992 | North America
+|       | Super Buster Bros.                                                                      | Capcom                       | Super Nintendo | 1992 | North America
+|       | Super Caesars Palace                                                                    | Virgin Interactive           | Super Nintendo | 1993 | North America
+|       | Super Castlevania IV                                                                    | Konami                       | Super Nintendo | 1991 | North America
+|       | Super Chase H.Q.                                                                        | Taito Corporation            | Super Nintendo | 1993 | North America
+|       | Super Conflict: The Mideast                                                             | Vic Tokai                    | Super Nintendo | 1993 | North America
+|       | Super Copa                                                                              | American Softworks           | Super Nintendo | 1993 | North America
+|       | Super Double Dragon                                                                     | Tradewest                    | Super Nintendo | 1992 | North America
+|       | Super Ghouls 'n Ghosts                                                                  | Capcom                       | Super Nintendo | 1991 | North America
+|       | Super Goal! 2                                                                           | Jaleco Entertainment         | Super Nintendo | 1994 | North America
+|       | Super Godzilla                                                                          | Toho                         | Super Nintendo | 1994 | North America
+|       | Super High Impact                                                                       | Acclaim                      | Super Nintendo | 1993 | North America
+|       | Super James Pond                                                                        | American Softworks           | Super Nintendo | 1993 | North America
+|       | Super Mario All-Stars                                                                   | Nintendo                     | Super Nintendo | 1993 | North America
+|       | Super Mario All-Stars / Super Mario World                                               | Nintendo                     | Super Nintendo | 1994 | North America
+|       | Super Mario Kart                                                                        | Nintendo                     | Super Nintendo | 1992 | North America
+|       | Super Mario RPG: Legend of the Seven Stars                                              | Nintendo                     | Super Nintendo | 1996 | North America
+|       | Super Mario World                                                                       | Nintendo                     | Super Nintendo | 1991 | North America
+|       | Super Mario World 2: Yoshi's Island                                                     | Nintendo                     | Super Nintendo | 1995 | North America
+|       | Super Metroid                                                                           | Nintendo                     | Super Nintendo | 1994 | North America
+|       | Super Ninja Boy                                                                         | Culture Brain                | Super Nintendo | 1993 | North America
+|       | Super Noah's Ark 3D                                                                     | Wisdom Tree                  | Super Nintendo | 1994 | North America
+|       | Super Nova                                                                              | Taito Corporation            | Super Nintendo | 1993 | North America
+|       | Super Off Road                                                                          | Tradewest                    | Super Nintendo | 1991 | North America
+|       | Super Off Road: The Baja                                                                | Tradewest                    | Super Nintendo | 1993 | North America
+|       | Super Pinball: Behind the Mask                                                          | Nintendo                     | Super Nintendo | 1994 | North America
+|       | Super Play Action Football                                                              | Nintendo                     | Super Nintendo | 1992 | North America
+|       | Super Punch-Out!!                                                                       | Nintendo                     | Super Nintendo | 1994 | North America
+|       | Super Putty                                                                             | U.S. Gold                    | Super Nintendo | 1993 | North America
+|       | Super R-Type                                                                            | Irem                         | Super Nintendo | 1991 | North America
+|       | Super R.B.I. Baseball                                                                   | Time Warner Interactive      | Super Nintendo | 1995 | North America
+|       | Super Scope 6                                                                           | Nintendo                     | Super Nintendo | 1992 | North America
+|       | Super Slam Dunk                                                                         | Virgin Interactive           | Super Nintendo | 1993 | North America
+|       | Super Slap Shot                                                                         | Virgin Interactive           | Super Nintendo | 1993 | North America
+|       | Super Smash T.V.                                                                        | Acclaim                      | Super Nintendo | 1992 | North America
+|       | Super Soccer                                                                            | Nintendo                     | Super Nintendo | 1992 | North America
+|       | Super Soccer Champ                                                                      | Taito Corporation            | Super Nintendo | 1992 | North America
+|       | Super Solitaire                                                                         | Extreme Entertainment Group  | Super Nintendo | 1994 | North America
+|       | Super Star Wars                                                                         | JVC Digital Studios          | Super Nintendo | 1992 | North America
+|       | Super Star Wars: Return of the Jedi                                                     | Victor Interactive Software  | Super Nintendo | 1994 | North America
+|       | Super Star Wars: The Empire Strikes Back                                                | JVC Musical Industries, Inc. | Super Nintendo | 1993 | North America
+|       | Super Street Fighter II                                                                 | Capcom                       | Super Nintendo | 1994 | North America
+|       | Super Strike Eagle                                                                      | MicroProse                   | Super Nintendo | 1993 | North America
+|       | Super Tennis                                                                            | Nintendo                     | Super Nintendo | 1991 | North America
+|       | Super Troll Islands                                                                     | ASC Games                    | Super Nintendo | 1994 | North America
+|       | Super Turrican                                                                          | Seika Corp.                  | Super Nintendo | 1993 | North America
+|       | Super Turrican 2                                                                        | Ocean                        | Super Nintendo | 1995 | North America
+|       | Super Valis IV                                                                          | ATLUS                        | Super Nintendo | 1993 | North America
+|       | Super Widget                                                                            | ATLUS                        | Super Nintendo | 1993 | North America
+|       | Suzuka 8 Hours                                                                          | Namco                        | Super Nintendo | 1994 | North America
+|       | SWAT Kats: The Radical Squadron                                                         | Hudson Soft                  | Super Nintendo | 1995 | North America
+|       | Syndicate                                                                               | Ocean                        | Super Nintendo | 1995 | North America
+|       | T2: The Arcade Game                                                                     | Acclaim                      | Super Nintendo | 1994 | North America
+|       | Taz-Mania                                                                               | SunSoft                      | Super Nintendo | 1993 | North America
+|       | Tecmo Secret of the Stars                                                               | Tecmo                        | Super Nintendo | 1995 | North America
+|       | Tecmo Super Baseball                                                                    | Tecmo                        | Super Nintendo | 1994 | North America
+|       | Tecmo Super Bowl                                                                        | Tecmo                        | Super Nintendo | 1993 | North America
+|       | Tecmo Super Bowl II: Special Edition                                                    | Tecmo                        | Super Nintendo | 1995 | North America
+|       | Tecmo Super Bowl III: Final Edition                                                     | Tecmo                        | Super Nintendo | 1995 | North America
+|       | Tecmo Super NBA Basketball                                                              | Tecmo                        | Super Nintendo | 1993 | North America
+|       | Teenage Mutant Ninja Turtles IV: Turtles in Time                                        | Konami                       | Super Nintendo | 1992 | North America
+|       | Teenage Mutant Ninja Turtles: Tournament Fighters                                       | Konami                       | Super Nintendo | 1993 | North America
+|       | Terminator 2: Judgment Day                                                              | LJN Ltd.                     | Super Nintendo | 1993 | North America
+|       | Terminator, The                                                                         | Mindscape Inc.               | Super Nintendo | 1993 | North America
+|       | Test Drive II: The Duel                                                                 | Ballistic                    | Super Nintendo | 1992 | North America
+|       | Tetris & Dr. Mario                                                                      | Nintendo                     | Super Nintendo | 1994 | North America
+|       | Tetris 2                                                                                | Nintendo                     | Super Nintendo | 1994 | North America
+|       | Tetris Attack                                                                           | Nintendo                     | Super Nintendo | 1996 | North America
+|       | Thomas the Tank Engine & Friends                                                        | THQ                          | Super Nintendo | 1993 | North America
+|       | Thunder Spirits                                                                         | Seika Corp.                  | Super Nintendo | 1992 | North America
+|       | Tick, The                                                                               | Fox Interactive              | Super Nintendo | 1994 | North America
+|       | Time Cop                                                                                | JVC Musical Industries, Inc. | Super Nintendo | 1995 | North America
+|       | Time Slip                                                                               | Vic Tokai                    | Super Nintendo | 1993 | North America
+|       | Time Trax                                                                               | Malibu                       | Super Nintendo | 1994 | North America
+|       | Tin Star                                                                                | Nintendo                     | Super Nintendo | 1994 | North America
+|       | Tiny Toon Adventures: Buster Busts Loose!                                               | Konami                       | Super Nintendo | 1993 | North America
+|       | Tiny Toon Adventures: Wacky Sports Challenge                                            | Konami                       | Super Nintendo | 1994 | North America
+|       | TKO Super Championship Boxing                                                           | Sofel                        | Super Nintendo | 1992 | North America
+|       | TNN Bass Tournament of Champions                                                        | American Softworks           | Super Nintendo | 1994 | North America
+|       | Todd McFarlane's Spawn: The Video Game                                                  | Acclaim                      | Super Nintendo | 1995 | North America
+|       | Tom and Jerry                                                                           | Hi Tech Expressions          | Super Nintendo | 1993 | North America
+|       | Tommy Moe's Winter Extreme: Skiing & Snowboarding                                       | Electro Brain                | Super Nintendo | 1994 | North America
+|       | Tony Meola's Sidekicks Soccer                                                           | Electro Brain                | Super Nintendo | 1993 | North America
+|       | Top Gear                                                                                | Kemco                        | Super Nintendo | 1992 | North America
+|       | Top Gear 2                                                                              | Kemco                        | Super Nintendo | 1993 | North America
+|       | Top Gear 3000                                                                           | Kemco                        | Super Nintendo | 1995 | North America
+|       | Total Carnage                                                                           | Malibu                       | Super Nintendo | 1993 | North America
+|       | Toy Story                                                                               | Capcom                       | Super Nintendo | 1995 | North America
+|       | Toys                                                                                    | Absolute Entertainment       | Super Nintendo | 1993 | North America
+|       | Troddlers                                                                               | Seika Corp.                  | Super Nintendo | 1993 | North America
+|       | Troy Aikman NFL Football                                                                | Tradewest                    | Super Nintendo | 1994 | North America
+|       | True Golf Classics: Pebble Beach Golf Links                                             | T&E Soft                     | Super Nintendo | 1992 | North America
+|       | True Golf Classics: Waialae Country Club                                                | T&E Soft                     | Super Nintendo | 1991 | North America
+|       | True Lies                                                                               | LJN Ltd.                     | Super Nintendo | 1995 | North America
+|       | Tuff E Nuff                                                                             | Jaleco Entertainment         | Super Nintendo | 1993 | North America
+|       | Turn and Burn: No-Fly Zone                                                              | Absolute Entertainment       | Super Nintendo | 1994 | North America
+|       | Twisted Tales of Spike McFang, The                                                      | Bullet Proof Software        | Super Nintendo | 1994 | North America
+|       | U.N. Squadron                                                                           | Capcom                       | Super Nintendo | 1991 | North America
+|       | Ultima: Runes of Virtue II                                                              | Electronic Arts Victor       | Super Nintendo | 1994 | North America
+|       | Ultima: The Black Gate                                                                  | FCI, Inc.                    | Super Nintendo | 1994 | North America
+|       | Ultima: The False Prophet                                                               | FCI, Inc.                    | Super Nintendo | 1994 | North America
+|       | Ultimate Fighter                                                                        | Culture Brain                | Super Nintendo | 1994 | North America
+|       | Ultimate Mortal Kombat 3                                                                | Williams                     | Super Nintendo | 1996 | North America
+|       | Ultraman                                                                                | Bandai                       | Super Nintendo | 1991 | North America
+|       | Uncharted Waters                                                                        | Koei                         | Super Nintendo | 1993 | North America
+|       | Unholy Night: The Darkness Hunter                                                       | Retroism                     | Super Nintendo | 2017 | North America
+|       | Uniracers                                                                               | Nintendo                     | Super Nintendo | 1994 | North America
+|       | Untouchables, The                                                                       | Ocean                        | Super Nintendo | 1994 | North America
+|       | Urban Strike                                                                            | Black Pearl                  | Super Nintendo | 1995 | North America
+|       | Utopia: The Creation of a Nation                                                        | Jaleco Entertainment         | Super Nintendo | 1993 | North America
+|       | Vegas Stakes                                                                            | Nintendo                     | Super Nintendo | 1993 | North America
+|       | Virtual Bart                                                                            | Acclaim                      | Super Nintendo | 1994 | North America
+|       | Vortex                                                                                  | Electro Brain                | Super Nintendo | 1994 | North America
+|       | War 2410                                                                                | Advanced Productions         | Super Nintendo | 1995 | North America
+|       | War 3010: The Revolution                                                                | Advanced Productions Inc.    | Super Nintendo | 1996 | North America
+|       | Wario's Woods                                                                           | Nintendo                     | Super Nintendo | 1994 | North America
+|       | Warlock                                                                                 | Acclaim                      | Super Nintendo | 1995 | North America
+|       | WarpSpeed                                                                               | Accolade                     | Super Nintendo | 1992 | North America
+|       | Wayne Gretzky and the NHLPA All-Stars                                                   | Time Warner Interactive      | Super Nintendo | 1995 | North America
+|       | Wayne's World                                                                           | THQ                          | Super Nintendo | 1993 | North America
+|       | WCW Super Brawl Wrestling                                                               | FCI, Inc.                    | Super Nintendo | 1994 | North America
+|       | We're Back! A Dinosaur's Story                                                          | Hi-Tech                      | Super Nintendo | 1993 | North America
+|       | WeaponLord                                                                              | Namco                        | Super Nintendo | 1995 | North America
+|       | Wheel of Fortune                                                                        | GameTek                      | Super Nintendo | 1992 | North America
+|       | Wheel of Fortune: Deluxe Edition                                                        | GameTek                      | Super Nintendo | 1994 | North America
+|       | Where in the World is Carmen Sandiego?                                                  | Hi-Tech                      | Super Nintendo | 1993 | North America
+|       | Where in Time is Carmen Sandiego?                                                       | Hi-Tech                      | Super Nintendo | 1993 | North America
+|       | Whizz                                                                                   | Titus Software               | Super Nintendo | 1996 | North America
+|       | Wicked 18                                                                               | Bullet Proof Software        | Super Nintendo | 1993 | North America
+|       | Wild Guns                                                                               | Natsume                      | Super Nintendo | 1995 | North America
+|       | Wild Snake                                                                              | Spectrum Holobyte            | Super Nintendo | 1994 | North America
+|       | WildSnake                                                                               | Spectrum Holobyte            | Super Nintendo | 1994 | North America
+|       | Williams Arcade's Greatest Hits                                                         | Midway                       | Super Nintendo | 1996 | North America
+|       | Wing Commander                                                                          | Mindscape Inc.               | Super Nintendo | 1992 | North America
+|       | Wing Commander: The Secret Missions                                                     | Mindscape Inc.               | Super Nintendo | 1993 | North America
+|       | Wings 2: Aces High                                                                      | Namco                        | Super Nintendo | 1992 | North America
+|       | Winter Olympic Games: Lillehammer '94                                                   | U.S. Gold                    | Super Nintendo | 1994 | North America
+|       | Wizard of Oz, The                                                                       | Seta Corporation             | Super Nintendo | 1993 | North America
+|       | Wizardry V: Heart of the Maelstrom                                                      | Capcom                       | Super Nintendo | 1994 | North America
+|       | Wolfchild                                                                               | Virgin Interactive           | Super Nintendo | 1993 | North America
+|       | Wolfenstein 3D                                                                          | Imagineer                    | Super Nintendo | 1994 | North America
+|       | Wolverine: Adamantium Rage                                                              | LJN Ltd.                     | Super Nintendo | 1994 | North America
+|       | Wordtris                                                                                | Spectrum Holobyte            | Super Nintendo | 1992 | North America
+|       | World Cup USA 94                                                                        | U.S. Gold                    | Super Nintendo | 1994 | North America
+|       | World Heroes                                                                            | SunSoft                      | Super Nintendo | 1993 | North America
+|       | World Heroes 2                                                                          | Takara                       | Super Nintendo | 1994 | North America
+|       | World League Soccer                                                                     | Mindscape Inc.               | Super Nintendo | 1992 | North America
+|       | World Soccer '94: Road to Glory                                                         | ATLUS                        | Super Nintendo | 1993 | North America
+|       | WWF Raw                                                                                 | LJN Ltd.                     | Super Nintendo | 1994 | North America
+|       | WWF Royal Rumble                                                                        | LJN Ltd.                     | Super Nintendo | 1993 | North America
+|       | WWF Super Wrestlemania                                                                  | LJN Ltd.                     | Super Nintendo | 1992 | North America
+|       | WWF Wrestlemania: The Arcade Game                                                       | Acclaim                      | Super Nintendo | 1995 | North America
+|       | X-Kaliber 2097                                                                          | Activision                   | Super Nintendo | 1994 | North America
+|       | X-Men: Mutant Apocalypse                                                                | Capcom                       | Super Nintendo | 1994 | North America
+|       | X-Zone                                                                                  | Kemco                        | Super Nintendo | 1992 | North America
+|       | Xardion                                                                                 | Asmik Ace Entertainment, Inc | Super Nintendo | 1992 | North America
+|       | Yoshi's Cookie                                                                          | Bullet Proof Software        | Super Nintendo | 1993 | North America
+|       | Yoshi's Safari                                                                          | Nintendo                     | Super Nintendo | 1993 | North America
+|       | Young Merlin                                                                            | Virgin Interactive           | Super Nintendo | 1994 | North America
+|       | Ys III: Wanderers from Ys                                                               | American Sammy               | Super Nintendo | 1992 | North America
+|       | Zero the Kamikaze Squirrel                                                              | SunSoft                      | Super Nintendo | 1994 | North America
+|       | Zombies Ate My Neighbors                                                                | Konami                       | Super Nintendo | 1993 | North America
+|       | Zool: Ninja of the "Nth" Dimension                                                      | GameTek                      | Super Nintendo | 1994 | North America
+|       | Zoop                                                                                    | Viacom New Media             | Super Nintendo | 1995 | North America

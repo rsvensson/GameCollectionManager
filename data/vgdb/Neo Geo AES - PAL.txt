@@ -1,0 +1,3 @@
+|       | Kizuna Encounter | SNK         | Neo Geo AES | 1996 | Europe
+|       | Last Hope        | NG:DEV.TEAM | Neo Geo AES | 2006 | Europe
+|       | NEO XYX          | NG:DEV.TEAM | Neo Geo AES | 2013 | Europe

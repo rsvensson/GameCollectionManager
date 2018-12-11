@@ -1,0 +1,458 @@
+|       | 4-in-1 Fun Pak                                                 | Interplay                    | Game Boy | 1992 | Europe
+|       | 4-in-1 Funpak: Volume II                                       | Interplay                    | Game Boy | 1993 | Europe
+|       | Addams Family, The                                             | Ocean                        | Game Boy | 1992 | Europe
+|       | Addams Family: Pugsley's Scavenger Hunt, The                   | Ocean                        | Game Boy | 1993 | Europe
+|       | Adventure Island                                               | Hudson                       | Game Boy | 1992 | Europe
+|       | Adventure Island II                                            | Hudson                       | Game Boy | 1993 | Europe
+|       | Adventures of Lolo                                             | Nintendo                     | Game Boy | 1995 | Europe
+|       | Adventures Of Star Saver, The                                  | Taito Corporation            | Game Boy | 1992 | Europe
+|       | Aerostar                                                       | Vic Tokai                    | Game Boy | 1991 | Europe
+|       | Alfred Chicken                                                 | Mindscape                    | Game Boy | 1993 | Europe
+|       | Alien 3                                                        | LJN Ltd.                     | Game Boy | 1993 | Europe
+|       | Alien Olympics                                                 | Ocean                        | Game Boy | 1994 | Europe
+|       | Alleyway                                                       | Nintendo                     | Game Boy | 1990 | Europe
+|       | Altered Space: A 3-D Alien Adventure                           | Hi-Tech                      | Game Boy | 1991 | Europe
+|       | Amazing Penguin                                                | Natsume                      | Game Boy | 1991 | Europe
+|       | Amazing Spider-Man 2, The                                      | LJN Ltd.                     | Game Boy | 1992 | Europe
+|       | Amazing Spider-Man, The                                        | Nintendo                     | Game Boy | 1990 | Europe
+|       | Animaniacs                                                     | Konami                       | Game Boy | 1995 | Europe
+|       | Arcade Classic No. 1: Asteroids / Missile Command              | Nintendo                     | Game Boy | 1995 | Europe
+|       | Arcade Classic No. 2: Centipede / Millipede                    | Nintendo                     | Game Boy | 1995 | Europe
+|       | Arcade Classic No. 3: Galaga / Galaxian                        | Nintendo                     | Game Boy | 1995 | Europe
+|       | Arcade Classic No. 4: Defender / Joust                         | Nintendo                     | Game Boy | 1995 | Europe
+|       | Arcade Classics: Super Breakout / Battlezone                   | Black Pearl                  | Game Boy | 1996 | Europe
+|       | Asterix                                                        | Infogrames                   | Game Boy | 1993 | Europe
+|       | Asterix & Obelix                                               | Infogrames                   | Game Boy | 1995 | Europe
+|       | Asteroids                                                      | Accolade                     | Game Boy | 1992 | Europe
+|       | Attack of the Killer Tomatoes                                  | Nintendo                     | Game Boy | 1992 | Europe
+|       | Avenging Spirit                                                | Jaleco Entertainment         | Game Boy | 1992 | Europe
+|       | B.C. Kid                                                       | Hudson                       | Game Boy | 1992 | Europe
+|       | B.C. Kid 2                                                     | Hudson                       | Game Boy | 1994 | Europe
+|       | Baby T-Rex                                                     | Laser Beam Entertainment     | Game Boy | 1993 | Europe
+|       | Balloon Kid                                                    | Nintendo                     | Game Boy | 1991 | Europe
+|       | Barbie Game Girl                                               | Hi Tech Expressions          | Game Boy | 1992 | Europe
+|       | Bart Simpson's Escape From Camp Deadly                         | Acclaim                      | Game Boy | 1993 | Europe
+|       | Baseball                                                       | Nintendo                     | Game Boy | 1990 | Europe
+|       | Batman                                                         | SunSoft                      | Game Boy | 1990 | Europe
+|       | Batman Forever                                                 | Acclaim                      | Game Boy | 1995 | Europe
+|       | Batman: Return of the Joker                                    | SunSoft                      | Game Boy | 1992 | Europe
+|       | Batman: The Animated Series                                    | Konami                       | Game Boy | 1993 | Europe
+|       | Battle Arena Toshinden                                         | Takara                       | Game Boy | 1996 | Europe
+|       | Battle of Olympus, The                                         | Imagineer                    | Game Boy | 1993 | Europe
+|       | Battle Unit Zeoth                                              | Jaleco Entertainment         | Game Boy | 1991 | Europe
+|       | Battleship                                                     | Mindscape                    | Game Boy | 1992 | Europe
+|       | Battletoads                                                    | Tradewest                    | Game Boy | 1993 | Europe
+|       | Battletoads / Double Dragon                                    | Sony Imagesoft               | Game Boy | 1993 | Europe
+|       | Battletoads in Ragnarok's World                                | Tradewest                    | Game Boy | 1993 | Europe
+|       | Beavis and Butt-Head                                           | GT Interactive               | Game Boy | 1998 | Europe
+|       | Beethoven: The Ultimate Canine Caper                           | Hi Tech Expressions          | Game Boy | 1994 | Europe
+|       | Best of the Best: Championship Karate                          | Loriciels                    | Game Boy | 1992 | Europe
+|       | Bill & Ted's Excellent Game Boy Adventure                      | LJN Ltd.                     | Game Boy | 1991 | Europe
+|       | Bionic Commando                                                | Capcom                       | Game Boy | 1992 | Europe
+|       | Blades of Steel                                                | Palcom                       | Game Boy | 1991 | Europe
+|       | Blaster Master Jr.                                             | SunSoft                      | Game Boy | 1991 | Europe
+|       | Blues Brothers, The                                            | Titus Software               | Game Boy | 1993 | Europe
+|       | Blues Brothers: Jukebox Adventure, The                         | Titus Software               | Game Boy | 1994 | Europe
+|       | Bomb Jack                                                      | Infogrames                   | Game Boy | 1992 | Europe
+|       | Bomberman GB                                                   | Nintendo                     | Game Boy | 1998 | Europe
+|       | Boulder Dash                                                   | Nintendo                     | Game Boy | 1990 | Europe
+|       | Boxxle                                                         | FCI, Inc.                    | Game Boy | 1990 | Europe
+|       | Brain Bender                                                   | Gremlin Interactive          | Game Boy | 1991 | Europe
+|       | Brain Drain                                                    | Bandai                       | Game Boy | 1998 | Europe
+|       | Bram Stoker's Dracula                                          | Sony Imagesoft               | Game Boy | 1993 | Europe
+|       | Bubble Bobble                                                  | Taito Corporation            | Game Boy | 1991 | Europe
+|       | Bubble Bobble Part 2                                           | Natsume                      | Game Boy | 1993 | Europe
+|       | Bubble Ghost                                                   | FCI, Inc.                    | Game Boy | 1990 | Europe
+|       | Bubsy II                                                       | Telstar                      | Game Boy | 1994 | Europe
+|       | Bugs Bunny Crazy Castle, The                                   | Kemco                        | Game Boy | 1990 | Europe
+|       | Burai Fighter Deluxe                                           | Nintendo                     | Game Boy | 1991 | Europe
+|       | BurgerTime Deluxe                                              | Data East                    | Game Boy | 1991 | Europe
+|       | Bust-A-Move 2 Arcade Edition                                   | Acclaim                      | Game Boy | 1998 | Europe
+|       | Bust-A-Move 3 DX                                               | Taito Corporation            | Game Boy | 1998 | Europe
+|       | Caesars Palace                                                 | Ocean                        | Game Boy | 1991 | Europe
+|       | Casino FunPak                                                  | Interplay                    | Game Boy | 1995 | Europe
+|       | Casper                                                         | Laguna                       | Game Boy | 1996 | Europe
+|       | Castelian                                                      | The Sales Curve              | Game Boy | 1991 | Europe
+|       | Castle Quest                                                   | Hudson                       | Game Boy | 1993 | Europe
+|       | Castlevania II: Belmont's Revenge                              | Konami                       | Game Boy | 1992 | Europe
+|       | Castlevania Legends                                            | Konami                       | Game Boy | 1998 | Europe
+|       | Castlevania: The Adventure                                     | Konami                       | Game Boy | 1990 | Europe
+|       | Centipede                                                      | Accolade                     | Game Boy | 1992 | Europe
+|       | Chase H.Q.                                                     | Bandai                       | Game Boy | 1991 | Europe
+|       | Chessmaster, The                                               | Nintendo                     | Game Boy | 1992 | Europe
+|       | Choplifter II                                                  | JVC Musical Industries, Inc. | Game Boy | 1991 | Europe
+|       | Choplifter III                                                 | Ocean                        | Game Boy | 1994 | Europe
+|       | Chuck Rock                                                     | Sony Imagesoft               | Game Boy | 1993 | Europe
+|       | Cliffhanger                                                    | Sony Imagesoft               | Game Boy | 1993 | Europe
+|       | Cool Hand                                                      | Take-Two Interactive         | Game Boy | 1998 | Europe
+|       | Cool Spot                                                      | Virgin Interactive           | Game Boy | 1994 | Europe
+|       | Cool World                                                     | Ocean                        | Game Boy | 1993 | Europe
+|       | Cutthroat Island                                               | Acclaim                      | Game Boy | 1996 | Europe
+|       | Daffy Duck                                                     | SunSoft                      | Game Boy | 1995 | Europe
+|       | David Crane's The Rescue of Princess Blobette                  | Nintendo                     | Game Boy | 1991 | Europe
+|       | Days Of Thunder                                                | Mindscape                    | Game Boy | 1992 | Europe
+|       | Dennis                                                         | Ocean                        | Game Boy | 1994 | Europe
+|       | Desert Strike: Return to the Gulf                              | Ocean                        | Game Boy | 1995 | Europe
+|       | Dexterity                                                      | SNK                          | Game Boy | 1990 | Europe
+|       | Die Maus                                                       | Infogrames                   | Game Boy | 1997 | Europe
+|       | Die Schlumpfe                                                  | Infogrames                   | Game Boy | 1994 | Europe
+|       | Die Schlumpfe: Im Alptraumland                                 | Infogrames                   | Game Boy | 1997 | Europe
+|       | Die Schlumpfe: Im Alptraumland                                 | Infogrames                   | Game Boy | 1997 | Europe
+|       | Die Schlumpfe: Reisen Um Die Welt                              | Infogrames                   | Game Boy | 1995 | Europe
+|       | Dig Dug                                                        | Namco                        | Game Boy | 1992 | Europe
+|       | Disney Pinocchio                                               | Virgin Interactive           | Game Boy | 1996 | Europe
+|       | Disney's Aladdin                                               | Virgin Interactive           | Game Boy | 1994 | Europe
+|       | Disney's Darkwing Duck                                         | Capcom                       | Game Boy | 1993 | Europe
+|       | Disney's DuckTales                                             | Capcom                       | Game Boy | 1989 | Europe
+|       | Disney's DuckTales 2                                           | Capcom                       | Game Boy | 1993 | Europe
+|       | Disney's Hercules                                              | THQ                          | Game Boy | 1997 | Europe
+|       | Disney's Mulan                                                 | THQ                          | Game Boy | 1998 | Europe
+|       | Disney's Pocahontas                                            | THQ                          | Game Boy | 1996 | Europe
+|       | Disney's TaleSpin                                              | Bandai                       | Game Boy | 1993 | Europe
+|       | Disney's The Hunchback of Notre Dame                           | Disney Interactive Studios   | Game Boy | 1997 | Europe
+|       | Disney's The Jungle Book                                       | THQ                          | Game Boy | 1994 | Europe
+|       | Disney's The Lion King                                         | Virgin Interactive           | Game Boy | 1994 | Europe
+|       | Disney's The Little Mermaid                                    | Capcom                       | Game Boy | 1992 | Europe
+|       | Disney's Toy Story                                             | Black Pearl                  | Game Boy | 1996 | Europe
+|       | Donkey Kong                                                    | Nintendo                     | Game Boy | 1994 | Europe
+|       | Donkey Kong Land                                               | Nintendo                     | Game Boy | 1995 | Europe
+|       | Donkey Kong Land 2                                             | Nintendo                     | Game Boy | 1996 | Europe
+|       | Donkey Kong Land III                                           | Nintendo                     | Game Boy | 1997 | Europe
+|       | Double Dragon                                                  | Nintendo                     | Game Boy | 1990 | Europe
+|       | Double Dragon 3: The Arcade Game                               | Acclaim                      | Game Boy | 1992 | Europe
+|       | Double Dragon II                                               | Acclaim                      | Game Boy | 1991 | Europe
+|       | Dr. Franken                                                    | Elite Systems Ltd.           | Game Boy | 1992 | Europe
+|       | Dr. Franken II                                                 | Elite Systems Ltd.           | Game Boy | 1997 | Europe
+|       | Dr. Mario                                                      | Nintendo                     | Game Boy | 1991 | Europe
+|       | Dragon's Lair: The Legend                                      | Elite                        | Game Boy | 1991 | Europe
+|       | DragonHeart                                                    | Acclaim                      | Game Boy | 1996 | Europe
+|       | Dropzone                                                       | Mindscape                    | Game Boy | 1992 | Europe
+|       | Dynablaster                                                    | Hudson                       | Game Boy | 1991 | Europe
+|       | Earthworm Jim                                                  | Playmates                    | Game Boy | 1995 | Europe
+|       | Elevator Action                                                | Taito Corporation            | Game Boy | 1991 | Europe
+|       | F-1 Race                                                       | Nintendo                     | Game Boy | 1991 | Europe
+|       | F-15 Strike Eagle                                              | MicroProse                   | Game Boy | 1993 | Europe
+|       | F1 Pole Position                                               | Ubisoft                      | Game Boy | 1993 | Europe
+|       | Felix the Cat                                                  | Sony Electronics Inc.        | Game Boy | 1993 | Europe
+|       | Ferrari Grand Prix Challenge                                   | Acclaim                      | Game Boy | 1992 | Europe
+|       | Fidgetts, The                                                  | Elite                        | Game Boy | 1993 | Europe
+|       | FIFA 97                                                        | Black Pearl                  | Game Boy | 1997 | Europe
+|       | FIFA International Soccer                                      | Malibu                       | Game Boy | 1995 | Europe
+|       | FIFA Soccer 96                                                 | Black Pearl                  | Game Boy | 1995 | Europe
+|       | FIFA: Road to World Cup 98                                     | THQ                          | Game Boy | 1998 | Europe
+|       | Fighting Simulator: 2-in-1 Flying Warriors                     | Culture Brain                | Game Boy | 1992 | Europe
+|       | Fire Fighter                                                   | Mindscape                    | Game Boy | 1992 | Europe
+|       | Flash, The                                                     | THQ                          | Game Boy | 1991 | Europe
+|       | Flintstones, The                                               | Ocean                        | Game Boy | 1994 | Europe
+|       | Flintstones: King Rock Treasure Island, The                    | Taito Corporation            | Game Boy | 1993 | Europe
+|       | Football International                                         | Bandai                       | Game Boy | 1991 | Europe
+|       | Foreman For Real                                               | Acclaim                      | Game Boy | 1995 | Europe
+|       | Fortified Zone                                                 | Jaleco Entertainment         | Game Boy | 1991 | Europe
+|       | Fortress of Fear: Wizards & Warriors X                         | Nintendo                     | Game Boy | 1990 | Europe
+|       | Frank Thomas: Big Hurt Baseball                                | Acclaim                      | Game Boy | 1996 | Europe
+|       | Franky, Joe & Dirk: On The Tiles                               | Elite Systems Ltd.           | Game Boy | 1993 | Europe
+|       | Game & Watch Gallery                                           | Nintendo                     | Game Boy | 1997 | Europe
+|       | Game Boy Gallery                                               | Nintendo                     | Game Boy | 1995 | Europe
+|       | Garfield Labyrinth                                             | Kemco                        | Game Boy | 1993 | Europe
+|       | Gargoyle's Quest                                               | Capcom                       | Game Boy | 1991 | Europe
+|       | Gauntlet II                                                    | Mindscape                    | Game Boy | 1991 | Europe
+|       | Gear Works                                                     | Sony Imagesoft               | Game Boy | 1993 | Europe
+|       | George Foreman's KO Boxing                                     | Acclaim                      | Game Boy | 1992 | Europe
+|       | Ghostbusters II                                                | Activision                   | Game Boy | 1989 | Europe
+|       | Glucksrad                                                      | GameTek                      | Game Boy | 1990 | Europe
+|       | Goal!                                                          | Jaleco Entertainment         | Game Boy | 1993 | Europe
+|       | Godzilla                                                       | Nintendo                     | Game Boy | 1991 | Europe
+|       | Golf                                                           | Nintendo                     | Game Boy | 1990 | Europe
+|       | Golf Classic                                                   | Malibu                       | Game Boy | 1993 | Europe
+|       | Gremlins 2: The New Batch                                      | SunSoft                      | Game Boy | 1992 | Europe
+|       | Hammerin' Harry                                                | Irem                         | Game Boy | 1993 | Europe
+|       | Home Alone                                                     | THQ                          | Game Boy | 1991 | Europe
+|       | Home Alone 2: Lost in New York                                 | THQ                          | Game Boy | 1992 | Europe
+|       | Hook                                                           | Ocean                        | Game Boy | 1992 | Europe
+|       | Hugo 2                                                         | Laguna                       | Game Boy | 1997 | Europe
+|       | Humans, The                                                    | GameTek                      | Game Boy | 1993 | Europe
+|       | Hunt for Red October, The                                      | Hi-Tech                      | Game Boy | 1992 | Europe
+|       | Hyper Dunk                                                     | Konami                       | Game Boy | 1994 | Europe
+|       | Hyper Lode Runner                                              | Bandai                       | Game Boy | 1990 | Europe
+|       | Incredible Crash Dummies, The                                  | LJN Ltd.                     | Game Boy | 1992 | Europe
+|       | Indiana Jones and the Last Crusade                             | Ubisoft                      | Game Boy | 1994 | Europe
+|       | InfoGenius Productivity Pak: Berlitz French Translator         | GameTek                      | Game Boy | 1991 | Europe
+|       | InfoGenius Productivity Pak: Berlitz Spanish Translator        | GameTek                      | Game Boy | 1991 | Europe
+|       | InfoGenius Productivity Pak: Personal Organizer and Phone Book | GameTek                      | Game Boy | 1991 | Europe
+|       | International Superstar Soccer                                 | Konami                       | Game Boy | 1998 | Europe
+|       | Iron Man / X-O Manowar in Heavy Metal                          | Acclaim                      | Game Boy | 1996 | Europe
+|       | Itchy & Scratchy in Miniature Golf Madness                     | Acclaim                      | Game Boy | 1994 | Europe
+|       | Jack Nicklaus Golf                                             | Tradewest                    | Game Boy | 1992 | Europe
+|       | James Bond 007                                                 | Nintendo                     | Game Boy | 1998 | Europe
+|       | Jelly Boy                                                      | Ocean                        | Game Boy | 1994 | Europe
+|       | Jetsons: Robot Panic, The                                      | Taito Corporation            | Game Boy | 1993 | Europe
+|       | Jimmy Connors Tennis                                           | Ubisoft                      | Game Boy | 1993 | Europe
+|       | Joe & Mac: Caveman Ninja                                       | Elite                        | Game Boy | 1993 | Europe
+|       | Jordan vs Bird: One on One                                     | Electronic Arts              | Game Boy | 1992 | Europe
+|       | Judge Dredd                                                    | Acclaim                      | Game Boy | 1995 | Europe
+|       | Jungle Strike                                                  | Ocean                        | Game Boy | 1995 | Europe
+|       | Jurassic Park                                                  | Ocean                        | Game Boy | 1993 | Europe
+|       | Jurassic Park Part 2: The Chaos Continues                      | Ocean                        | Game Boy | 1995 | Europe
+|       | Ken Griffey Jr. Presents Major League Baseball                 | Nintendo                     | Game Boy | 1997 | Europe
+|       | Kid Dracula                                                    | Konami                       | Game Boy | 1993 | Europe
+|       | Kid Icarus: Of Myths and Monsters                              | Nintendo                     | Game Boy | 1992 | Europe
+|       | Killer Instinct                                                | Nintendo                     | Game Boy | 1995 | Europe
+|       | King of Fighters '95, The                                      | Laguna                       | Game Boy | 1997 | Europe
+|       | King of Fighters: Heat of Battle, The                          | Laguna                       | Game Boy | 1998 | Europe
+|       | King of the Zoo                                                | Nintendo                     | Game Boy | 1990 | Europe
+|       | Kirby's Block Ball                                             | Nintendo                     | Game Boy | 1995 | Europe
+|       | Kirby's Dream Land                                             | Nintendo                     | Game Boy | 1992 | Europe
+|       | Kirby's Dream Land 2                                           | Nintendo                     | Game Boy | 1995 | Europe
+|       | Kirby's Pinball Land                                           | Nintendo                     | Game Boy | 1993 | Europe
+|       | Kirby's Star Stacker                                           | Nintendo                     | Game Boy | 1997 | Europe
+|       | Klax                                                           | Mindscape                    | Game Boy | 1991 | Europe
+|       | Konami Golf                                                    | Konami                       | Game Boy | 1994 | Europe
+|       | Krusty's Fun House                                             | Acclaim                      | Game Boy | 1994 | Europe
+|       | Kung Fu Master                                                 | Nintendo                     | Game Boy | 1991 | Europe
+|       | Kwirk                                                          | Nintendo                     | Game Boy | 1990 | Europe
+|       | Lamborghini American Challenge                                 | Titus Software               | Game Boy | 1993 | Europe
+|       | Last Action Hero                                               | Sony Imagesoft               | Game Boy | 1993 | Europe
+|       | Lawnmower Man, The                                             | Sales Curve Interactive      | Game Boy | 1993 | Europe
+|       | Legend of Prince Valiant, The                                  | Ocean                        | Game Boy | 1991 | Europe
+|       | Legend of Zelda: Link's Awakening, The                         | Nintendo                     | Game Boy | 1993 | Europe
+|       | Lemmings                                                       | Ocean                        | Game Boy | 1993 | Europe
+|       | Lemmings 2: The Tribes                                         | Psygnosis                    | Game Boy | 1994 | Europe
+|       | Lethal Weapon                                                  | Ocean                        | Game Boy | 1993 | Europe
+|       | Lingo                                                          | Altron                       | Game Boy | 1994 | Europe
+|       | Litti's Summer Sports                                          | Interplay                    | Game Boy | 1992 | Europe
+|       | Lock n' Chase                                                  | Data East                    | Game Boy | 1990 | Europe
+|       | Looney Tunes                                                   | SunSoft                      | Game Boy | 1992 | Europe
+|       | Looney Tunes 2: Tasmanian Devil in Island Chase                | SunSoft                      | Game Boy | 1994 | Europe
+|       | LoopZ                                                          | Mindscape                    | Game Boy | 1991 | Europe
+|       | Lost World: Jurassic Park, The                                 | THQ                          | Game Boy | 1997 | Europe
+|       | Lucky Luke                                                     | Infogrames                   | Game Boy | 1996 | Europe
+|       | Lucle                                                          | Nintendo                     | Game Boy | 1995 | Europe
+|       | Mad Magazine's Official Spy vs. Spy                            | First Star Software          | Game Boy | 1992 | Europe
+|       | Madden 95                                                      | Malibu                       | Game Boy | 1994 | Europe
+|       | Madden 96                                                      | Black Pearl                  | Game Boy | 1995 | Europe
+|       | Magnetic Soccer                                                | Nintendo                     | Game Boy | 1992 | Europe
+|       | Marble Madness                                                 | Mindscape                    | Game Boy | 1992 | Europe
+|       | Mario & Yoshi                                                  | Nintendo                     | Game Boy | 1992 | Europe
+|       | Mario's Picross                                                | Nintendo                     | Game Boy | 1995 | Europe
+|       | Matthias Sammer Soccer                                         | Laguna                       | Game Boy | 1997 | Europe
+|       | Max                                                            | Infogrames                   | Game Boy | 1992 | Europe
+|       | McDonaldland                                                   | Ocean                        | Game Boy | 1992 | Europe
+|       | Mega Man II                                                    | Nintendo                     | Game Boy | 1992 | Europe
+|       | Mega Man III                                                   | Capcom                       | Game Boy | 1993 | Europe
+|       | Mega Man IV                                                    | Laguna                       | Game Boy | 1994 | Europe
+|       | Mega Man V                                                     | Capcom                       | Game Boy | 1994 | Europe
+|       | Mega Man: Dr. Wily's Revenge                                   | Nintendo                     | Game Boy | 1992 | Europe
+|       | Megalit                                                        | Takara                       | Game Boy | 1992 | Europe
+|       | Mercenary Force                                                | Nintendo                     | Game Boy | 1990 | Europe
+|       | Metroid II: Return of Samus                                    | Nintendo                     | Game Boy | 1992 | Europe
+|       | Mickey Mouse                                                   | Kemco                        | Game Boy | 1992 | Europe
+|       | Mickey Mouse V: Zauberstaebe!                                  | Nintendo                     | Game Boy | 1998 | Europe
+|       | Mickey's Dangerous Chase                                       | Capcom                       | Game Boy | 1992 | Europe
+|       | Mickey's Ultimate Challenge                                    | Hi Tech Expressions          | Game Boy | 1994 | Europe
+|       | Micro Machines                                                 | Ocean                        | Game Boy | 1995 | Europe
+|       | Micro Machines 2: Turbo Tournament                             | Ocean                        | Game Boy | 1996 | Europe
+|       | Mighty Morphin Power Rangers                                   | Bandai                       | Game Boy | 1994 | Europe
+|       | Mighty Morphin Power Rangers: The Movie                        | Bandai                       | Game Boy | 1995 | Europe
+|       | Milon's Secret Castle                                          | Hudson                       | Game Boy | 1993 | Europe
+|       | Missile Command                                                | Accolade                     | Game Boy | 1992 | Europe
+|       | Mole Mania                                                     | Nintendo                     | Game Boy | 1997 | Europe
+|       | Monopoly                                                       | Konami                       | Game Boy | 1992 | Europe
+|       | Monster Max                                                    | Titus Software               | Game Boy | 1994 | Europe
+|       | Monster Truck Wars                                             | Acclaim                      | Game Boy | 1994 | Europe
+|       | Montezuma's Return                                             | Take-Two Interactive         | Game Boy | 1998 | Europe
+|       | Mortal Kombat                                                  | Acclaim                      | Game Boy | 1994 | Europe
+|       | Mortal Kombat 3                                                | Acclaim                      | Game Boy | 1995 | Europe
+|       | Mortal Kombat I & II                                           | Acclaim                      | Game Boy | 1997 | Europe
+|       | Mortal Kombat II                                               | Acclaim                      | Game Boy | 1994 | Europe
+|       | Motocross Maniacs                                              | Konami                       | Game Boy | 1990 | Europe
+|       | Mr. Do!                                                        | Ocean                        | Game Boy | 1992 | Europe
+|       | Mr. Nutz                                                       | Ocean                        | Game Boy | 1994 | Europe
+|       | Ms. Pac-Man                                                    | Nintendo                     | Game Boy | 1993 | Europe
+|       | Muhammad Ali: Heavyweight Boxing                               | Virgin Interactive           | Game Boy | 1993 | Europe
+|       | Mystic Quest                                                   | SquareSoft                   | Game Boy | 1993 | Europe
+|       | Mystical Ninja Starring Goemon                                 | Konami                       | Game Boy | 1998 | Europe
+|       | Nail 'N Scale                                                  | Data East                    | Game Boy | 1992 | Europe
+|       | Navy Seals                                                     | Ocean                        | Game Boy | 1991 | Europe
+|       | NBA All-Star Challenge                                         | LJN Ltd.                     | Game Boy | 1991 | Europe
+|       | NBA All-Star Challenge 2                                       | LJN Ltd.                     | Game Boy | 1992 | Europe
+|       | NBA Jam                                                        | Acclaim                      | Game Boy | 1994 | Europe
+|       | NBA Jam: Tournament Edition                                    | Acclaim                      | Game Boy | 1995 | Europe
+|       | NBA Live 96                                                    | THQ                          | Game Boy | 1996 | Europe
+|       | Nemesis                                                        | Konami                       | Game Boy | 1991 | Europe
+|       | Nemesis II: The Return of the Hero                             | Konami                       | Game Boy | 1992 | Europe
+|       | NFL Quarterback Club                                           | LJN Ltd.                     | Game Boy | 1993 | Europe
+|       | NFL Quarterback Club 96                                        | Acclaim                      | Game Boy | 1995 | Europe
+|       | NFL Quarterback Club II                                        | LJN Ltd.                     | Game Boy | 1995 | Europe
+|       | NHL 96                                                         | Black Pearl                  | Game Boy | 1996 | Europe
+|       | NHL Hockey '95                                                 | EA Sports                    | Game Boy | 1995 | Europe
+|       | Nigel Mansell's World Championship Racing                      | Nintendo                     | Game Boy | 1992 | Europe
+|       | Ninja Boy                                                      | Culture Brain                | Game Boy | 1990 | Europe
+|       | Ninja Boy 2                                                    | Culture Brain                | Game Boy | 1993 | Europe
+|       | Nintendo World Cup                                             | Nintendo                     | Game Boy | 1991 | Europe
+|       | Oddworld Adventures                                            | GT Interactive               | Game Boy | 1998 | Europe
+|       | Olympic Summer Games: Atlanta 1996                             | Black Pearl                  | Game Boy | 1996 | Europe
+|       | Othello                                                        | Nintendo                     | Game Boy | 1990 | Europe
+|       | Ottos Ottifanten: Baby Brunos Alptraum                         | Infogrames                   | Game Boy | 1998 | Europe
+|       | Pac-In-Time                                                    | Namco                        | Game Boy | 1995 | Europe
+|       | Pac-Man                                                        | Namco                        | Game Boy | 1991 | Europe
+|       | Pac-Panic                                                      | Namco                        | Game Boy | 1995 | Europe
+|       | Pagemaster, The                                                | Virgin Interactive           | Game Boy | 1994 | Europe
+|       | Palamedes                                                      | Takara                       | Game Boy | 1991 | Europe
+|       | Pang                                                           | Hudson                       | Game Boy | 1993 | Europe
+|       | Paperboy                                                       | Mindscape                    | Game Boy | 1990 | Europe
+|       | Paperboy 2                                                     | Mindscape                    | Game Boy | 1992 | Europe
+|       | Parasol Stars: Rainbow Islands II                              | Ocean                        | Game Boy | 1991 | Europe
+|       | Parodius                                                       | Palcom                       | Game Boy | 1992 | Europe
+|       | PGA European Tour                                              | Malibu                       | Game Boy | 1995 | Europe
+|       | PGA Tour 96                                                    | Electronic Arts              | Game Boy | 1995 | Europe
+|       | Phantom Air Mission                                            | Activision                   | Game Boy | 1992 | Europe
+|       | Pierre le Chef is... Out to Lunch                              | Mindscape                    | Game Boy | 1993 | Europe
+|       | Pinball Deluxe                                                 | GameTek                      | Game Boy | 1995 | Europe
+|       | Pinball Dreams                                                 | GameTek                      | Game Boy | 1993 | Europe
+|       | Pinball Fantasies                                              | GameTek                      | Game Boy | 1995 | Europe
+|       | Pinball Mania                                                  | GameTek                      | Game Boy | 1995 | Europe
+|       | Pinball: Revenge of the Gator                                  | HAL Labs                     | Game Boy | 1990 | Europe
+|       | Pit-Fighter                                                    | THQ                          | Game Boy | 1992 | Europe
+|       | Pocket Bomberman                                               | Hudson                       | Game Boy | 1998 | Europe
+|       | Pokemon Blue Version                                           | Nintendo                     | Game Boy | 1999 | Europe
+|       | Pokemon Red Version                                            | Nintendo                     | Game Boy | 1999 | Europe
+|       | Pokemon Yellow Version: Special Pikachu Edition                | Nintendo                     | Game Boy | 2000 | Europe
+|       | Pop Up                                                         | Infogrames                   | Game Boy | 1992 | Europe
+|       | Pop'n TwinBee                                                  | Konami                       | Game Boy | 1994 | Europe
+|       | Popeye 2                                                       | Activision                   | Game Boy | 1994 | Europe
+|       | Populous                                                       | Anco Software                | Game Boy | 1993 | Europe
+|       | Power Racer                                                    | Tecmo                        | Game Boy | 1991 | Europe
+|       | Prehistorik Man                                                | Titus Software               | Game Boy | 1996 | Europe
+|       | Primal Rage                                                    | Time Warner Interactive      | Game Boy | 1995 | Europe
+|       | Prince Of Persia                                               | Mindscape                    | Game Boy | 1993 | Europe
+|       | Probotector                                                    | Palcom                       | Game Boy | 1992 | Europe
+|       | Probotector 2                                                  | Konami                       | Game Boy | 1995 | Europe
+|       | Prophecy: The Viking Child                                     | GameTek                      | Game Boy | 1993 | Europe
+|       | Q*bert                                                         | Jaleco Entertainment         | Game Boy | 1992 | Europe
+|       | Qix                                                            | Nintendo                     | Game Boy | 1990 | Europe
+|       | R-Type                                                         | Irem                         | Game Boy | 1991 | Europe
+|       | R-Type II                                                      | Irem                         | Game Boy | 1992 | Europe
+|       | Race Days                                                      | GameTek                      | Game Boy | 1994 | Europe
+|       | Race Drivin'                                                   | THQ                          | Game Boy | 1993 | Europe
+|       | Radar Mission                                                  | Nintendo                     | Game Boy | 1991 | Europe
+|       | Raging Fighter                                                 | Konami                       | Game Boy | 1993 | Europe
+|       | Rampart                                                        | Jaleco Entertainment         | Game Boy | 1993 | Europe
+|       | Ren & Stimpy Show: Veediots!, The                              | THQ                          | Game Boy | 1993 | Europe
+|       | Reservoir Rat                                                  | Take-Two Interactive         | Game Boy | 1999 | Europe
+|       | Riddick Bowe Boxing                                            | GameTek                      | Game Boy | 1994 | Europe
+|       | Road Rash                                                      | Ocean                        | Game Boy | 1996 | Europe
+|       | Robin Hood: Prince of Thieves                                  | Virgin Interactive           | Game Boy | 1993 | Europe
+|       | Robocop                                                        | Ocean                        | Game Boy | 1990 | Europe
+|       | RoboCop Versus The Terminator                                  | Interplay                    | Game Boy | 1994 | Europe
+|       | RodLand                                                        | Jaleco Entertainment         | Game Boy | 1993 | Europe
+|       | Samurai Shodown                                                | Takara                       | Game Boy | 1994 | Europe
+|       | Sea Battle                                                     | Infogrames                   | Game Boy | 1998 | Europe
+|       | seaQuest DSV                                                   | Malibu                       | Game Boy | 1995 | Europe
+|       | Sensible Soccer: European Champions                            | Sony Imagesoft               | Game Boy | 1993 | Europe
+|       | Shadow Warriors                                                | Tecmo                        | Game Boy | 1992 | Europe
+|       | Side Pocket                                                    | Data East                    | Game Boy | 1990 | Europe
+|       | Simpsons: Bart & the Beanstalk, The                            | Acclaim                      | Game Boy | 1994 | Europe
+|       | Simpsons: Bart vs. the Juggernauts, The                        | Acclaim                      | Game Boy | 1992 | Europe
+|       | Skate or Die: Bad 'N Rad                                       | Palcom                       | Game Boy | 1991 | Europe
+|       | Small Soldiers                                                 | THQ                          | Game Boy | 1998 | Europe
+|       | Sneaky Snakes                                                  | Tradewest                    | Game Boy | 1991 | Europe
+|       | Snoopy's Magic Show                                            | Kemco                        | Game Boy | 1990 | Europe
+|       | Snow Brothers                                                  | Capcom                       | Game Boy | 1992 | Europe
+|       | Soccer                                                         | GameTek                      | Game Boy | 1994 | Europe
+|       | Solar Striker                                                  | Nintendo                     | Game Boy | 1990 | Europe
+|       | Solitaire FunPak                                               | Interplay                    | Game Boy | 1994 | Europe
+|       | Solomon's Club                                                 | Tecmo                        | Game Boy | 1991 | Europe
+|       | Space Invaders                                                 | Nintendo                     | Game Boy | 1994 | Europe
+|       | Spanky's Quest                                                 | Taito Corporation            | Game Boy | 1992 | Europe
+|       | Speedball 2                                                    | Mindscape                    | Game Boy | 1992 | Europe
+|       | Speedy Gonzales                                                | SunSoft                      | Game Boy | 1993 | Europe
+|       | Spider-Man / X-Men: Arcade's Revenge                           | LJN Ltd.                     | Game Boy | 1994 | Europe
+|       | Spider-Man 3: Invasion of the Spider-Slayers                   | LJN Ltd.                     | Game Boy | 1993 | Europe
+|       | Spirit of F-1, The                                             | Konami                       | Game Boy | 1992 | Europe
+|       | Spirou                                                         | Infogrames                   | Game Boy | 1996 | Europe
+|       | Splitz                                                         | Imagineer                    | Game Boy | 1993 | Europe
+|       | Spot: The Video Game                                           | Hi Tech Expressions          | Game Boy | 1992 | Europe
+|       | Star Trek Generations: Beyond the Nexus                        | GameTek                      | Game Boy | 1995 | Europe
+|       | Star Trek: 25th Anniversary                                    | Palcom                       | Game Boy | 1992 | Europe
+|       | Star Trek: The Next Generation                                 | Absolute Entertainment       | Game Boy | 1993 | Europe
+|       | Star Wars                                                      | Nintendo                     | Game Boy | 1993 | Europe
+|       | Star Wars: The Empire Strikes Back                             | Ubisoft                      | Game Boy | 1992 | Europe
+|       | Stargate                                                       | Acclaim                      | Game Boy | 1995 | Europe
+|       | StarHawk                                                       | Accolade                     | Game Boy | 1993 | Europe
+|       | Street Fighter II                                              | Nintendo                     | Game Boy | 1995 | Europe
+|       | Street Racer                                                   | Ubisoft                      | Game Boy | 1996 | Europe
+|       | Sunsoft Grand Prix                                             | SunSoft                      | Game Boy | 1992 | Europe
+|       | Super Battletank                                               | GameTek                      | Game Boy | 1994 | Europe
+|       | Super Chase H.Q.                                               | Taito Corporation            | Game Boy | 1994 | Europe
+|       | Super Connard                                                  | Furrtek Software Engineering | Game Boy | 2013 | Europe
+|       | Super James Pond                                               | Ocean                        | Game Boy | 1992 | Europe
+|       | Super Kick Off                                                 | U.S. Gold                    | Game Boy | 1991 | Europe
+|       | Super Mario Land                                               | Nintendo                     | Game Boy | 1990 | Europe
+|       | Super Mario Land 2: 6 Golden Coins                             | Nintendo                     | Game Boy | 1993 | Europe
+|       | Super Mario Land 3: Wario Land                                 | Nintendo                     | Game Boy | 1994 | Europe
+|       | Super R.C. Pro-Am                                              | Nintendo                     | Game Boy | 1992 | Europe
+|       | Super Star Wars: Return of the Jedi                            | Black Pearl                  | Game Boy | 1995 | Europe
+|       | Superman                                                       | Titus Software               | Game Boy | 1997 | Europe
+|       | Swamp Thing                                                    | THQ                          | Game Boy | 1992 | Europe
+|       | Sword of Hope, The                                             | Kemco                        | Game Boy | 1991 | Europe
+|       | T2: The Arcade Game                                            | LJN Ltd.                     | Game Boy | 1993 | Europe
+|       | Tail 'Gator                                                    | Natsume                      | Game Boy | 1991 | Europe
+|       | Tamagotchi                                                     | Bandai                       | Game Boy | 1997 | Europe
+|       | Tarzan: Lord of the Jungle                                     | GameTek                      | Game Boy | 1994 | Europe
+|       | Taz-Mania                                                      | THQ                          | Game Boy | 1993 | Europe
+|       | Teenage Mutant Hero Turtles II: Back From the Sewers           | Konami                       | Game Boy | 1992 | Europe
+|       | Teenage Mutant Hero Turtles III: Radical Rescue                | Konami                       | Game Boy | 1993 | Europe
+|       | Teenage Mutant Hero Turtles: Fall of the Foot Clan             | Konami                       | Game Boy | 1990 | Europe
+|       | Tennis                                                         | Nintendo                     | Game Boy | 1990 | Europe
+|       | Terminator 2: Judgment Day                                     | LJN Ltd.                     | Game Boy | 1992 | Europe
+|       | Tesserae                                                       | GameTek                      | Game Boy | 1993 | Europe
+|       | Tetris                                                         | Nintendo                     | Game Boy | 1990 | Europe
+|       | Tetris 2                                                       | Nintendo                     | Game Boy | 1994 | Europe
+|       | Tetris Attack                                                  | Nintendo                     | Game Boy | 1996 | Europe
+|       | Tetris Blast                                                   | Nintendo                     | Game Boy | 1996 | Europe
+|       | Tetris Plus                                                    | Nintendo                     | Game Boy | 1996 | Europe
+|       | Tintin in Tibet                                                | Infogrames                   | Game Boy | 1994 | Europe
+|       | Tintin: Le Temple Du Soleil                                    | Infogrames                   | Game Boy | 1995 | Europe
+|       | Tiny Toon Adventures 2: Montana's Movie Madness                | Konami                       | Game Boy | 1993 | Europe
+|       | Tiny Toon Adventures: Babs' Big Break                          | Konami                       | Game Boy | 1992 | Europe
+|       | Tiny Toon Adventures: Wacky Sports                             | Konami                       | Game Boy | 1994 | Europe
+|       | Tip Off                                                        | Imagineer                    | Game Boy | 1993 | Europe
+|       | Titus the Fox                                                  | Titus Software               | Game Boy | 1993 | Europe
+|       | Tom & Jerry                                                    | Hi Tech Expressions          | Game Boy | 1992 | Europe
+|       | Tom & Jerry 2: The Movie                                       | Hi-Tech                      | Game Boy | 1993 | Europe
+|       | Top Gun: Guts and Glory                                        | Konami                       | Game Boy | 1993 | Europe
+|       | Top Ranking Tennis                                             | Nintendo                     | Game Boy | 1993 | Europe
+|       | Total Carnage                                                  | Malibu                       | Game Boy | 1994 | Europe
+|       | Track & Field                                                  | Konami                       | Game Boy | 1992 | Europe
+|       | Trax                                                           | Electro Brain                | Game Boy | 1991 | Europe
+|       | Trip World                                                     | SunSoft                      | Game Boy | 1993 | Europe
+|       | True Lies                                                      | LJN Ltd.                     | Game Boy | 1995 | Europe
+|       | Turok: Battle of the Bionosaurs                                | Acclaim                      | Game Boy | 1998 | Europe
+|       | Turrican                                                       | Accolade                     | Game Boy | 1991 | Europe
+|       | Un Indien Dans La Ville                                        | Titus Software               | Game Boy | 1995 | Europe
+|       | Universal Soldier                                              | Accolade                     | Game Boy | 1993 | Europe
+|       | Urban Strike                                                   | Black Pearl                  | Game Boy | 1996 | Europe
+|       | V-Rally Championship Edition                                   | Ocean                        | Game Boy | 1998 | Europe
+|       | Wario Blast: Featuring Bomberman!                              | Nintendo                     | Game Boy | 1994 | Europe
+|       | Wario Land II                                                  | Nintendo                     | Game Boy | 1998 | Europe
+|       | Waterworld                                                     | Ocean                        | Game Boy | 1995 | Europe
+|       | Wave Race                                                      | Nintendo                     | Game Boy | 1997 | Europe
+|       | WCW Wrestling: The Main Event                                  | FCI, Inc.                    | Game Boy | 1994 | Europe
+|       | Who Framed Roger Rabbit                                        | Capcom                       | Game Boy | 1991 | Europe
+|       | Winter Gold                                                    | U.S. Gold                    | Game Boy | 1994 | Europe
+|       | World Beach Volley: 1992 GB Cup                                | Taito Corporation            | Game Boy | 1992 | Europe
+|       | World Cup 98                                                   | THQ                          | Game Boy | 1998 | Europe
+|       | World Cup USA '94                                              | U.S. Gold                    | Game Boy | 1994 | Europe
+|       | World Heroes 2 Jet                                             | Takara                       | Game Boy | 1995 | Europe
+|       | Worms                                                          | Team 17                      | Game Boy | 1995 | Europe
+|       | WWF King of the Ring                                           | LJN Ltd.                     | Game Boy | 1994 | Europe
+|       | WWF Raw                                                        | LJN Ltd.                     | Game Boy | 1994 | Europe
+|       | WWF Superstars                                                 | LJN Ltd.                     | Game Boy | 1991 | Europe
+|       | WWF Superstars 2                                               | LJN Ltd.                     | Game Boy | 1993 | Europe
+|       | WWF War Zone                                                   | Acclaim                      | Game Boy | 1998 | Europe
+|       | Xenon 2                                                        | Mindscape                    | Game Boy | 1992 | Europe
+|       | Yogi Bear in Yogi Bear's Goldrush                              | Empire Interactive           | Game Boy | 1994 | Europe
+|       | Yoshi's Cookie                                                 | Nintendo                     | Game Boy | 1993 | Europe
+|       | Zen: Intergalactic Ninja                                       | Palcom                       | Game Boy | 1993 | Europe
+|       | Zool: Ninja of the "Nth" Dimension                             | Gremlin Interactive          | Game Boy | 1993 | Europe
+|       | Zoop                                                           | Viacom New Media             | Game Boy | 1995 | Europe

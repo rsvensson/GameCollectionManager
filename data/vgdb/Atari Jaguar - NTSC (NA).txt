@@ -1,0 +1,58 @@
+|       | Aircars                             | ICD, Inc.                  | Atari Jaguar | 1997 | North America
+|       | Alien vs. Predator                  | Atari Games (Midway)       | Atari Jaguar | 1994 | North America
+|       | Atari Karts                         | Atari Games (Midway)       | Atari Jaguar | 1995 | North America
+|       | Attack of the Mutant Penguins       | Atari Games (Midway)       | Atari Jaguar | 1996 | North America
+|       | Battlesphere                        | ScatoLogic                 | Atari Jaguar | 2013 | North America
+|       | Breakout 2000                       | Telegames, Inc.            | Atari Jaguar | 1996 | North America
+|       | Brutal Sports Football              | Atari Games (Midway)       | Atari Jaguar | 1994 | North America
+|       | Bubsy in Fractured Furry Tails      | Accolade                   | Atari Jaguar | 1994 | North America
+|       | Cannon Fodder                       | Virgin Interactive         | Atari Jaguar | 1995 | North America
+|       | Checkered Flag                      | Atari Games (Midway)       | Atari Jaguar | 1994 | North America
+|       | Club Drive                          | Atari                      | Atari Jaguar | 1994 | North America
+|       | Cybermorph                          | Atari Corporation          | Atari Jaguar | 1993 | North America
+|       | Defender 2000                       | Atari Games (Midway)       | Atari Jaguar | 1996 | North America
+|       | Doom                                | Atari Games (Midway)       | Atari Jaguar | 1994 | North America
+|       | Double Dragon V                     | Tradewest                  | Atari Jaguar | 1995 | North America
+|       | Dragon: The Bruce Lee Story         | Atari Games (Midway)       | Atari Jaguar | 1994 | North America
+|       | Evolution: Dino Dudes               | Atari                      | Atari Jaguar | 1994 | North America
+|       | Fever Pitch Soccer                  | Atari Games (Midway)       | Atari Jaguar | 1995 | North America
+|       | Fight For Life                      | Atari Games (Midway)       | Atari Jaguar | 1996 | North America
+|       | Flashback                           | U.S. Gold                  | Atari Jaguar | 1995 | North America
+|       | Flip Out!                           | Atari Games (Midway)       | Atari Jaguar | 1995 | North America
+|       | Hover Strike                        | Atari Games (Midway)       | Atari Jaguar | 1995 | North America
+|       | Hyper Force                         | Songbird Productions       | Atari Jaguar | 2000 | North America
+|       | I-War                               | Atari Games (Midway)       | Atari Jaguar | 1995 | North America
+|       | International Sensible Soccer       | Telegames, Inc.            | Atari Jaguar | 1995 | North America
+|       | Iron Soldier                        | Atari Games (Midway)       | Atari Jaguar | 1994 | North America
+|       | Iron Soldier 2                      | Telegames, Inc.            | Atari Jaguar | 1997 | North America
+|       | Kasumi Ninja                        | Atari Games (Midway)       | Atari Jaguar | 1994 | North America
+|       | Missile Command 3D                  | Atari Games (Midway)       | Atari Jaguar | 1995 | North America
+|       | NBA Jam Tournament Edition          | Atari Games (Midway)       | Atari Jaguar | 1996 | North America
+|       | Pinball Fantasies                   | 21st Century Entertainment | Atari Jaguar | 1995 | North America
+|       | Pitfall: The Mayan Adventure        | Atari Games (Midway)       | Atari Jaguar | 1995 | North America
+|       | Power Drive Rally                   | Time Warner Interactive    | Atari Jaguar | 1995 | North America
+|       | Protector                           | Songbird Productions       | Atari Jaguar | 1999 | North America
+|       | Protector Special Edition           | Songbird Productions       | Atari Jaguar | 2002 | North America
+|       | Raiden                              | Fabtek                     | Atari Jaguar | 1994 | North America
+|       | Rayman                              | Ubisoft                    | Atari Jaguar | 1995 | North America
+|       | Ruiner Pinball                      | Atari Games (Midway)       | Atari Jaguar | 1995 | North America
+|       | SkyHammer                           | Songbird Productions       | Atari Jaguar | 2013 | North America
+|       | Soccer Kid                          | Songbird Productions       | Atari Jaguar | 2000 | North America
+|       | SpaceWar 2000                       | B&C ComputerVisions        | Atari Jaguar | 2001 | North America
+|       | Super Burnout                       | Atari Games (Midway)       | Atari Jaguar | 1995 | North America
+|       | Supercross 3D                       | Atari Games (Midway)       | Atari Jaguar | 1995 | North America
+|       | Syndicate                           | Ocean                      | Atari Jaguar | 1995 | North America
+|       | Tempest 2000                        | Atari                      | Atari Jaguar | 1994 | North America
+|       | Theme Park                          | Ocean                      | Atari Jaguar | 1995 | North America
+|       | Total Carnage                       | Songbird Productions       | Atari Jaguar | 2013 | North America
+|       | Towers II: Plight of the Stargazer  | Telegames, Inc.            | Atari Jaguar | 1996 | North America
+|       | Trevor McFur in the Crescent Galaxy | Atari Games (Midway)       | Atari Jaguar | 1993 | North America
+|       | Troy Aikman NFL Football            | Williams                   | Atari Jaguar | 1995 | North America
+|       | Ultra Vortek                        | Atari Games (Midway)       | Atari Jaguar | 1995 | North America
+|       | Val D'Isere Skiing and Snowboarding | Atari Games (Midway)       | Atari Jaguar | 1994 | North America
+|       | White Men Can't Jump                | Atari Games (Midway)       | Atari Jaguar | 1995 | North America
+|       | Wolfenstein 3D                      | Atari Games (Midway)       | Atari Jaguar | 1994 | North America
+|       | Worms                               | Telegames, Inc.            | Atari Jaguar | 1998 | North America
+|       | Zero 5                              | Telegames, Inc.            | Atari Jaguar | 1997 | North America
+|       | Zool 2                              | Atari Games (Midway)       | Atari Jaguar | 1994 | North America
+|       | Zoop                                | Atari Games (Midway)       | Atari Jaguar | 1996 | North America

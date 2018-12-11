@@ -1,0 +1,47 @@
+|       | 3-D Tic-Tac-Toe                      | Atari, Inc.       | Atari 2600 | 1980 | Europe
+|       | Acid Drop                            | Salu              | Atari 2600 | 1992 | Europe
+|       | Action Man: Action Force             | Parker Brothers   | Atari 2600 | 1983 | Europe
+|       | Activision Decathlon, The            | Activision        | Atari 2600 | 1983 | Europe
+|       | Adventure                            | Atari, Inc.       | Atari 2600 | 1980 | Europe
+|       | Artillery Duel                       | Xonox             | Atari 2600 | 1983 | Europe
+|       | Asterix                              | Atari, Inc.       | Atari 2600 | 1983 | Europe
+|       | Asteroids                            | Atari Corporation | Atari 2600 | 1988 | Europe
+|       | Atom Smasher                         | Amsoft            | Atari 2600 | 1984 | Europe
+|       | Basketball                           | Atari Corporation | Atari 2600 | 1988 | Europe
+|       | BattleZone                           | Atari Corporation | Atari 2600 | 1988 | Europe
+|       | Bermuda                              | Rainbow Vision    | Atari 2600 | 1980 | Europe
+|       | Billard                              | Quelle            | Atari 2600 | 1988 | Europe
+|       | Bobby is Going Home                  | Bit Corp.         | Atari 2600 | 1983 | Europe
+|       | Bogey Blaster                        | Telegames         | Atari 2600 | 1988 | Europe
+|       | Carnival                             | CBS Electronics   | Atari 2600 | 1983 | Europe
+|       | Challenge                            | Funvision         | Atari 2600 | 1980 | Europe
+|       | Congo Bongo                          | Sega              | Atari 2600 | 1983 | Europe
+|       | Crystal Castles                      | Atari Corporation | Atari 2600 | 1987 | Europe
+|       | Deadly Discs                         | Telegames         | Atari 2600 | 1982 | Europe
+|       | Der flinke Architekt                 | Quelle            | Atari 2600 | 1983 | Europe
+|       | Die Ente und der Wolf                | Quelle            | Atari 2600 | 1983 | Europe
+|       | Dig Dug                              | Atari, Inc.       | Atari 2600 | 1983 | Europe
+|       | Donkey Kong                          | Coleco            | Atari 2600 | 1982 | Europe
+|       | Donkey Kong Junior                   | Atari, Inc.       | Atari 2600 | 1982 | Europe
+|       | Dschungel Boy                        | Activision        | Atari 2600 | 1982 | Europe
+|       | Fatal Run                            | Atari Corporation | Atari 2600 | 1990 | Europe
+|       | Firebug                              | Suntek            | Atari 2600 | 1983 | Europe
+|       | Ghostbusters II                      | Salu              | Atari 2600 | 1992 | Europe
+|       | Hen House, The                       | Suntek            | Atari 2600 | 1983 | Europe
+|       | Infiltrate                           | Apollo            | Atari 2600 | 1981 | Europe
+|       | Landung in der Normandie             | Quelle            | Atari 2600 | 1983 | Europe
+|       | Millipede                            | Atari Corporation | Atari 2600 | 1984 | Europe
+|       | Mission 3000 A.D.                    | Bit Corp.         | Atari 2600 | 1983 | Europe
+|       | Mr. Postman                          | Bit Corp.         | Atari 2600 | 1983 | Europe
+|       | My Golf                              | HES Interactive   | Atari 2600 | 1990 | Europe
+|       | Octopus                              | Carrere Video     | Atari 2600 | 1983 | Europe
+|       | Pick 'n Pile                         | Ubisoft           | Atari 2600 | 1990 | Europe
+|       | Plaque Attack                        | Activision        | Atari 2600 | 1983 | Europe
+|       | RealSports Soccer                    | Atari Corporation | Atari 2600 | 1983 | Europe
+|       | Schussel, der Polizistenschreck      | Quelle            | Atari 2600 | 1983 | Europe
+|       | Smurf: Rescue In Gargamel's Castle   | Coleco            | Atari 2600 | 1982 | Europe
+|       | Space Tunnel                         | Bit Corp.         | Atari 2600 | 1983 | Europe
+|       | Surfer's Paradise: But Danger Below! | Video Gems        | Atari 2600 | 1983 | Europe
+|       | Tanks War                            | Homevision        | Atari 2600 | 1982 | Europe
+|       | Wing War                             | Imagic            | Atari 2600 | 1983 | Europe
+|       | Zaxxon                               | Coleco            | Atari 2600 | 1983 | Europe

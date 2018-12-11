@@ -1,0 +1,137 @@
+|       | ABPA Backgammon                                 | Mattel                    | Intellivision | 1979 | North America
+|       | Advanced Dungeons & Dragons                     | Mattel                    | Intellivision | 1982 | North America
+|       | Advanced Dungeons & Dragons: Treasure of Tarmin | Mattel                    | Intellivision | 1982 | North America
+|       | Air Strike                                      | Mattel                    | Intellivision | 1982 | North America
+|       | All-Star Major League Baseball                  | Mattel                    | Intellivision | 1986 | North America
+|       | Armor Battle                                    | Mattel                    | Intellivision | 1979 | North America
+|       | Astrosmash                                      | Mattel                    | Intellivision | 1981 | North America
+|       | Atlantis                                        | Imagic                    | Intellivision | 1982 | North America
+|       | Auto Racing                                     | Mattel                    | Intellivision | 1979 | North America
+|       | B-17 Bomber                                     | Mattel                    | Intellivision | 1982 | North America
+|       | Basketball                                      | Sears                     | Intellivision | 1979 | North America
+|       | Beamrider                                       | Activision                | Intellivision | 1983 | North America
+|       | Beauty & the Beast                              | Imagic                    | Intellivision | 1982 | North America
+|       | Blackjack & Poker                               | Mattel                    | Intellivision | 1979 | North America
+|       | Blockade Runner                                 | Interphase                | Intellivision | 1984 | North America
+|       | Body Slam Super Pro Wrestling                   | Intellivision Productions | Intellivision | 1988 | North America
+|       | Bomb Squad                                      | Mattel                    | Intellivision | 1982 | North America
+|       | Boxing                                          | Mattel                    | Intellivision | 1980 | North America
+|       | Bump 'n' Jump                                   | Mattel                    | Intellivision | 1983 | North America
+|       | BurgerTime                                      | Mattel                    | Intellivision | 1982 | North America
+|       | Buzz Bombers                                    | Mattel                    | Intellivision | 1983 | North America
+|       | Carnival                                        | Coleco                    | Intellivision | 1982 | North America
+|       | Centipede                                       | Atari                     | Intellivision | 1983 | North America
+|       | Championship Tennis                             | INTV                      | Intellivision | 1986 | North America
+|       | Checkers                                        | Mattel                    | Intellivision | 1979 | North America
+|       | Chess                                           | Mattel                    | Intellivision | 1984 | North America
+|       | Chip Shot Super Pro Golf                        | Intellivision Productions | Intellivision | 1987 | North America
+|       | Commando                                        | INTV                      | Intellivision | 1987 | North America
+|       | Congo Bongo                                     | Sega                      | Intellivision | 1983 | North America
+|       | Defender                                        | Atari                     | Intellivision | 1983 | North America
+|       | Demon Attack                                    | Imagic                    | Intellivision | 1982 | North America
+|       | Dig Dug                                         | Intellivision Productions | Intellivision | 1987 | North America
+|       | Diner                                           | INTV                      | Intellivision | 1987 | North America
+|       | Donkey Kong                                     | Coleco                    | Intellivision | 1982 | North America
+|       | Donkey Kong Junior                              | Coleco                    | Intellivision | 1983 | North America
+|       | Dracula                                         | Imagic                    | Intellivision | 1983 | North America
+|       | Dragonfire                                      | Imagic                    | Intellivision | 1983 | North America
+|       | Dreadnaught Factor, The                         | Activision                | Intellivision | 1983 | North America
+|       | Duncan's Thin Ice                               | Mattel                    | Intellivision | 1983 | North America
+|       | Easter Eggs                                     | Mattel                    | Intellivision | 1981 | North America
+|       | Electric Company: Math Fun, The                 | Mattel                    | Intellivision | 1979 | North America
+|       | Electric Company: Word Fun, The                 | Mattel                    | Intellivision | 1980 | North America
+|       | Fathom                                          | Imagic                    | Intellivision | 1983 | North America
+|       | Frog Bog                                        | Mattel                    | Intellivision | 1982 | North America
+|       | Frogger                                         | Parker Brothers           | Intellivision | 1983 | North America
+|       | Go for the Gold                                 | Mattel                    | Intellivision | 1981 | North America
+|       | Golf                                            | Sears                     | Intellivision | 1980 | North America
+|       | Grid Shock                                      | Mattel                    | Intellivision | 1982 | North America
+|       | Happy Trails                                    | Activision                | Intellivision | 1983 | North America
+|       | Hard Hat                                        | Mattel                    | Intellivision | 1979 | North America
+|       | Hockey                                          | Sears                     | Intellivision | 1979 | North America
+|       | Horse Racing                                    | Mattel                    | Intellivision | 1979 | North America
+|       | Hover Force                                     | INTV                      | Intellivision | 1986 | North America
+|       | Ice Trek                                        | Imagic                    | Intellivision | 1983 | North America
+|       | Jetsons' Ways With Words, The                   | Mattel                    | Intellivision | 1983 | North America
+|       | King of the Mountain                            | Mattel                    | Intellivision | 1982 | North America
+|       | Kool-Aid Man                                    | Mattel                    | Intellivision | 1983 | North America
+|       | Lady Bug                                        | Coleco                    | Intellivision | 1983 | North America
+|       | Land Battle                                     | Mattel                    | Intellivision | 1982 | North America
+|       | Las Vegas Poker & Blackjack                     | Mattel                    | Intellivision | 1979 | North America
+|       | Las Vegas Roulette                              | Mattel                    | Intellivision | 1979 | North America
+|       | Learning Fun I                                  | INTV                      | Intellivision | 1987 | North America
+|       | Learning Fun II                                 | INTV                      | Intellivision | 1987 | North America
+|       | Lock 'n' Chase                                  | Mattel                    | Intellivision | 1982 | North America
+|       | Loco-Motion                                     | Mattel                    | Intellivision | 1982 | North America
+|       | Major League Baseball                           | Mattel                    | Intellivision | 1980 | North America
+|       | Masters of the Universe: The Power of He-Man    | Mattel                    | Intellivision | 1983 | North America
+|       | Melody Blaster                                  | Mattel                    | Intellivision | 1983 | North America
+|       | Microsurgeon                                    | Imagic                    | Intellivision | 1982 | North America
+|       | Mind Strike                                     | Mattel                    | Intellivision | 1983 | North America
+|       | Mission X                                       | Mattel                    | Intellivision | 1982 | North America
+|       | Moto-Cross                                      | Mattel                    | Intellivision | 1983 | North America
+|       | Mountain Madness Super Pro Skiing               | Intellivision Productions | Intellivision | 1988 | North America
+|       | Mouse Trap                                      | Coleco                    | Intellivision | 1982 | North America
+|       | Mr. Basic Meets Bits 'N Bites                   | Mattel                    | Intellivision | 1983 | North America
+|       | NASL Soccer                                     | Mattel                    | Intellivision | 1979 | North America
+|       | NFL Football                                    | Mattel                    | Intellivision | 1979 | North America
+|       | Night Stalker                                   | Mattel                    | Intellivision | 1982 | North America
+|       | Nova Blast                                      | Imagic                    | Intellivision | 1983 | North America
+|       | Pac-Man                                         | Atari                     | Intellivision | 1983 | North America
+|       | PBA Bowling                                     | Mattel                    | Intellivision | 1981 | North America
+|       | Pinball                                         | Mattel                    | Intellivision | 1983 | North America
+|       | Pitfall!                                        | Activision                | Intellivision | 1982 | North America
+|       | Pole Position                                   | INTV                      | Intellivision | 1988 | North America
+|       | Popeye                                          | Parker Brothers           | Intellivision | 1983 | North America
+|       | Q*bert                                          | Parker Brothers           | Intellivision | 1983 | North America
+|       | Reversi                                         | Mattel                    | Intellivision | 1981 | North America
+|       | River Raid                                      | Activision                | Intellivision | 1983 | North America
+|       | Royal Dealer                                    | Mattel                    | Intellivision | 1982 | North America
+|       | SafeCracker                                     | Imagic                    | Intellivision | 1983 | North America
+|       | Santa's Helper                                  | Mattel                    | Intellivision | 1983 | North America
+|       | Scooby Doo's Maze Chase                         | Mattel                    | Intellivision | 1983 | North America
+|       | Sea Battle                                      | Mattel                    | Intellivision | 1980 | North America
+|       | Sewer Sam                                       | Interphase                | Intellivision | 1984 | North America
+|       | Shark! Shark!                                   | Mattel                    | Intellivision | 1982 | North America
+|       | Sharp Shot                                      | Mattel                    | Intellivision | 1982 | North America
+|       | Skiing                                          | Sears                     | Intellivision | 1980 | North America
+|       | Slam Dunk Super Pro Basketball                  | Intellivision Productions | Intellivision | 1987 | North America
+|       | Slap Shot: Super Pro Hockey                     | INTV                      | Intellivision | 1987 | North America
+|       | Snafu                                           | Mattel                    | Intellivision | 1981 | North America
+|       | Space Armada                                    | Mattel                    | Intellivision | 1981 | North America
+|       | Space Battle                                    | Mattel                    | Intellivision | 1979 | North America
+|       | Space Hawk                                      | Mattel                    | Intellivision | 1981 | North America
+|       | Space Spartans                                  | Mattel                    | Intellivision | 1982 | North America
+|       | Spiker! Super Pro Volleyball                    | INTV                      | Intellivision | 1989 | North America
+|       | Stadium Mud Buggies                             | INTV                      | Intellivision | 1989 | North America
+|       | Stampede                                        | Activision                | Intellivision | 1982 | North America
+|       | Star Strike                                     | Mattel                    | Intellivision | 1981 | North America
+|       | Star Wars: The Empire Strikes Back              | Parker Brothers           | Intellivision | 1983 | North America
+|       | Street                                          | Mattel                    | Intellivision | 1981 | North America
+|       | Sub Hunt                                        | Mattel                    | Intellivision | 1982 | North America
+|       | Super Cobra                                     | Parker Brothers           | Intellivision | 1983 | North America
+|       | Super Pro Decathlon                             | INTV                      | Intellivision | 1988 | North America
+|       | Super Pro Football                              | INTV                      | Intellivision | 1986 | North America
+|       | Super Soccer                                    | Mattel                    | Intellivision | 1983 | North America
+|       | Swords & Serpents                               | Imagic                    | Intellivision | 1982 | North America
+|       | Tennis                                          | Mattel                    | Intellivision | 1980 | North America
+|       | Thunder Castle                                  | INTV                      | Intellivision | 1986 | North America
+|       | Tower of Doom                                   | Intellivision Productions | Intellivision | 1987 | North America
+|       | Triple Action                                   | Mattel                    | Intellivision | 1981 | North America
+|       | Triple Challenge                                | INTV                      | Intellivision | 1987 | North America
+|       | Tron Deadly Discs                               | Mattel                    | Intellivision | 1982 | North America
+|       | Tron: Maze-a-Tron                               | Mattel                    | Intellivision | 1982 | North America
+|       | Tron: Solar Sailer                              | Mattel                    | Intellivision | 1982 | North America
+|       | Tropical Trouble                                | Imagic                    | Intellivision | 1983 | North America
+|       | Truckin'                                        | Imagic                    | Intellivision | 1983 | North America
+|       | Turbo                                           | Coleco                    | Intellivision | 1983 | North America
+|       | Tutankham                                       | Parker Brothers           | Intellivision | 1983 | North America
+|       | Utopia                                          | Mattel                    | Intellivision | 1981 | North America
+|       | Vectron                                         | Mattel                    | Intellivision | 1982 | North America
+|       | Venture                                         | Coleco                    | Intellivision | 1982 | North America
+|       | White Water!                                    | Imagic                    | Intellivision | 1983 | North America
+|       | World Championship Baseball                     | Mattel                    | Intellivision | 1986 | North America
+|       | World Cup Football                              | Nice Ideas                | Intellivision | 1985 | North America
+|       | World Series Major League Baseball              | Mattel                    | Intellivision | 1983 | North America
+|       | Worm Whomper                                    | Activision                | Intellivision | 1983 | North America
+|       | Zaxxon                                          | Coleco                    | Intellivision | 1983 | North America

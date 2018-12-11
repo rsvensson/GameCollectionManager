@@ -1,0 +1,33 @@
+|       | Air-Sea Battle             | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Alpha Beam with Ernie      | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Asteroids                  | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Battlezone                 | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Berzerk                    | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Big Bird's Egg Catch       | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Centipede                  | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Circus Atari               | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Cookie Monster Munch       | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Defender                   | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Demons To Diamonds         | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | E.T. The Extra Terrestrial | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Galaxian                   | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Golf                       | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Haunted House              | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Joust                      | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Jungle Hunt                | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Math Gran Prix             | Atari, Inc. | Atari 2600 | 1982 | Japan
+|       | Missile Command            | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Pac-Man                    | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Phoenix                    | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Raiders of the Lost Ark    | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | RealSports Baseball        | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | RealSports Soccer          | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | RealSports Tennis          | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | RealSports Volleyball      | Atari, Inc. | Atari 2600 | 1982 | Japan
+|       | Space Invaders             | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Starmaster                 | Activision  | Atari 2600 | 1982 | Japan
+|       | Swordquest: EarthWorld     | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Swordquest: FireWorld      | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Vanguard                   | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Warlords                   | Atari, Inc. | Atari 2600 | 1983 | Japan
+|       | Yars' Revenge              | Atari, Inc. | Atari 2600 | 1983 | Japan

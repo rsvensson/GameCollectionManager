@@ -1,0 +1,529 @@
+|       | 18 Wheeler: American Pro Trucker                                       | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | 21: TwoOne                                                             | Princess Soft                 | Sega Dreamcast | 2001 | Japan
+|       | Advanced Daisenryaku 2001                                              | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Advanced Daisenryaku: Europe no Arashi - Doitsu Dengeki Sakusen        | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Aero Dancing F                                                         | CRI                           | Sega Dreamcast | 2000 | Japan
+|       | Aero Dancing F: Todoroki Tsubasa no Hatsu Hikou                        | CRI                           | Sega Dreamcast | 2000 | Japan
+|       | Aero Dancing featuring Blue Impulse                                    | CRI                           | Sega Dreamcast | 1999 | Japan
+|       | Aero Dancing i                                                         | CRI                           | Sega Dreamcast | 2001 | Japan
+|       | Aero Dancing i: Jikai Sakuma de Machite Masen                          | CRI                           | Sega Dreamcast | 2001 | Japan
+|       | Aero Dancing: Torodoki Taichou no Himitsu Disc                         | CRI                           | Sega Dreamcast | 2000 | Japan
+|       | After... Wasureenu Kizuna                                              | Pione Soft                    | Sega Dreamcast | 2004 | Japan
+|       | Aikagi                                                                 | NEC Interchannel              | Sega Dreamcast | 2003 | Japan
+|       | Air                                                                    | NEC Interchannel              | Sega Dreamcast | 2001 | Japan
+|       | AirForce Delta                                                         | Konami                        | Sega Dreamcast | 1999 | Japan
+|       | Akihabara Dennou Kumi Peta Pies!                                       | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Alabama Meets Will Vi                                                  | Will                          | Sega Dreamcast | 1999 | Japan
+|       | Alice's Mom's Rescue                                                   | HUCAST                        | Sega Dreamcast | 2015 | Japan
+|       | Angel Present                                                          | NEC Interchannel              | Sega Dreamcast | 2001 | Japan
+|       | Angel Wish                                                             | Pione Soft                    | Sega Dreamcast | 2005 | Japan
+|       | Animastar                                                              | Aki Corp.                     | Sega Dreamcast | 2000 | Japan
+|       | Aoi Hagane no Kihei: Space Griffon                                     | Panther Software              | Sega Dreamcast | 1999 | Japan
+|       | Atsumare! GuruGuru Onsen                                               | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Atsumare! GuruGuru Onsen BB                                            | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Bakumatsu Rouman Dai Ni Maku: Gekka no Kenshi Final Edition            | SNK                           | Sega Dreamcast | 2000 | Japan
+|       | Bakuretsu Muteki Bangaioh                                              | ESP Software                  | Sega Dreamcast | 1999 | Japan
+|       | Baldr Force EXE                                                        | Alchemist                     | Sega Dreamcast | 2004 | Japan
+|       | BassRush Dream                                                         | Visco                         | Sega Dreamcast | 2000 | Japan
+|       | Battle Beaster                                                         | Studio Wonder Effect          | Sega Dreamcast | 2001 | Japan
+|       | Berserk Millennium Falcon Wasurebano No Akira - Trial Version          | ASCII Entertainment           | Sega Dreamcast | 1999 | Japan
+|       | Berserk: Millennium Falcon Hen Wasurebana no Shou                      | ASCII Entertainment           | Sega Dreamcast | 1999 | Japan
+|       | BikkuriMan 2000 Viva!  Festival!                                       | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | BioHazard 2                                                            | Capcom                        | Sega Dreamcast | 1999 | Japan
+|       | BioHazard 3: Last Escape                                               | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | BioHazard Code: Veronica Kanzenban                                     | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | BioHazard Code: Veronica Trial Edition                                 | Capcom                        | Sega Dreamcast | 1999 | Japan
+|       | BioHazard: Code Veronica                                               | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Black/Matrix AD                                                        | NEC Interchannel              | Sega Dreamcast | 1999 | Japan
+|       | Blue Sky Blue                                                          | Reindeer                      | Sega Dreamcast | 2003 | Japan
+|       | Blue Stinger                                                           | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Blue Submarine No. 6: Saigetsu Fumahito- Time and Tide                 | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Boko Yume no Tatsujin                                                  | Fujicom                       | Sega Dreamcast | 2002 | Japan
+|       | Boku no Tennis Jinsei                                                  | Bimboosoft                    | Sega Dreamcast | 2001 | Japan
+|       | Boku to Bokura no Natsu                                                | Kid                           | Sega Dreamcast | 2002 | Japan
+|       | Boku, Doraemon                                                         | Sega Toys                     | Sega Dreamcast | 2001 | Japan
+|       | Bomber Hehhe                                                           | Fujicom                       | Sega Dreamcast | 2002 | Japan
+|       | Border Down                                                            | G.Rev                         | Sega Dreamcast | 2003 | Japan
+|       | Bounty Hunter Sarah: Holy Mountain no Teiou                            | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | Buggy Heat                                                             | CRI                           | Sega Dreamcast | 1999 | Japan
+|       | Cafe Little Wish: Mahou no Recipe                                      | Princess Soft                 | Sega Dreamcast | 2003 | Japan
+|       | Canaria: Kono Omoi o Uta ni Nosete                                     | NEC Interchannel              | Sega Dreamcast | 2001 | Japan
+|       | Candy Stripe                                                           | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Canvas                                                                 | NEC Interchannel              | Sega Dreamcast | 2001 | Japan
+|       | Capcom vs. SNK 2: Millionaire Fighting 2001                            | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | Capcom vs. SNK: Millennium Fight 2000                                  | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Capcom vs. SNK: Millennium Fight 2000 Pro                              | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | Card Captor Sakura: Tomoyo no Video Daisakusen                         | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Card of Destiny: Hikari to Yami no Tougoumono                          | Abel Software                 | Sega Dreamcast | 2002 | Japan
+|       | Carrier                                                                | Jaleco Entertainment          | Sega Dreamcast | 2000 | Japan
+|       | Castle Fantasia: Seima Taisen                                          | Studio e-go                   | Sega Dreamcast | 2002 | Japan
+|       | Chaos Field                                                            | MileStone Inc.                | Sega Dreamcast | 2004 | Japan
+|       | Charge 'n Blast                                                        | Sims                          | Sega Dreamcast | 2000 | Japan
+|       | Cherry Blossom                                                         | Takuyo                        | Sega Dreamcast | 2004 | Japan
+|       | Chocolat: Maid Cafe Curio                                              | Alchemist                     | Sega Dreamcast | 2003 | Japan
+|       | Chou-Hatsumei Boy Kanipan: Bousou Robot no Nazo!?                      | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Choukousenki Kikaioh                                                   | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Christmas Seaman                                                       | DigiToys                      | Sega Dreamcast | 1999 | Japan
+|       | ChuChu Rocket!                                                         | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Cleopatra Fortune                                                      | Altron                        | Sega Dreamcast | 2001 | Japan
+|       | Climax Landers                                                         | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Close to: Inori no Oka                                                 | Kid                           | Sega Dreamcast | 2001 | Japan
+|       | Comic Party                                                            | Aqua Plus                     | Sega Dreamcast | 2001 | Japan
+|       | Communication Logic Battle Daisessen                                   | Fortyfive                     | Sega Dreamcast | 2000 | Japan
+|       | Confidential Mission                                                   | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Cool Boarders Burrrn                                                   | UEP Systems                   | Sega Dreamcast | 1999 | Japan
+|       | Cool Cool Toon                                                         | SNK                           | Sega Dreamcast | 2000 | Japan
+|       | Cosmic Smash                                                           | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | CR Hissatsu Shigotonin Pachitte Chonmage @ VPACHI                      | Hack Berry                    | Sega Dreamcast | 2001 | Japan
+|       | Crazy Taxi                                                             | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Crazy Taxi 2                                                           | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Culdcept II                                                            | Media Factory                 | Sega Dreamcast | 2001 | Japan
+|       | D no Shokutaku 2                                                       | WARP                          | Sega Dreamcast | 1999 | Japan
+|       | D+Vine [Luv]                                                           | Princess Soft                 | Sega Dreamcast | 2001 | Japan
+|       | D2 Shock                                                               | WARP                          | Sega Dreamcast | 1999 | Japan
+|       | Dance Dance Revolution 2nd Mix: Dreamcast Edtion                       | Konami                        | Sega Dreamcast | 2000 | Japan
+|       | Dance Dance Revolution Club Version Dreamcast Edition                  | Konami                        | Sega Dreamcast | 2000 | Japan
+|       | Dancing Blade Katteni Momotenshi II: Tears of Eden                     | Konami                        | Sega Dreamcast | 1999 | Japan
+|       | Dancing Blade: Katteni Momotenshi!                                     | Konami                        | Sega Dreamcast | 1999 | Japan
+|       | Daytona USA 2001                                                       | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Dead or Alive 2                                                        | Tecmo                         | Sega Dreamcast | 2000 | Japan
+|       | Death Crimson 2                                                        | Ecole                         | Sega Dreamcast | 1999 | Japan
+|       | Death Crimson OX                                                       | Ecole                         | Sega Dreamcast | 2001 | Japan
+|       | Dejiko no Maibura                                                      | Isao                          | Sega Dreamcast | 2000 | Japan
+|       | Dengen Tenshi Taisen Mahjong: Shangri-La                               | Marvelous                     | Sega Dreamcast | 1999 | Japan
+|       | Dennou Senki Virtual On: Oratorio Tangram                              | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Denpa Shounen-teki Kenshou Seikatsu: Nasubi no Heya                    | Hudson                        | Sega Dreamcast | 1999 | Japan
+|       | Densha de Go! 2                                                        | Taito Corporation             | Sega Dreamcast | 2000 | Japan
+|       | Derby Tsuku 2                                                          | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Derby Tsuku: Derby Uma o Tsukurou!                                     | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | deSpiria                                                               | ATLUS                         | Sega Dreamcast | 2000 | Japan
+|       | Di Gi Charat Fantasy                                                   | Broccoli                      | Sega Dreamcast | 2001 | Japan
+|       | Digital Keiba Shinbun My Track Man                                     | Shouei                        | Sega Dreamcast | 1999 | Japan
+|       | Dino Crisis                                                            | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Doguu Senki: Haou                                                      | Victor Interactive Software   | Sega Dreamcast | 2000 | Japan
+|       | Doki Doki Idol Star Seeker Remix                                       | G.Rev                         | Sega Dreamcast | 2002 | Japan
+|       | Dori-P Passport Trial                                                  | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Dousoukai 2: Again & Refrain                                           | NEC Interchannel              | Sega Dreamcast | 2002 | Japan
+|       | Dream Passport                                                         | Sega                          | Sega Dreamcast | 1998 | Japan
+|       | Dream Studio                                                           | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Dreamcast Promotion Disc                                               | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | DreamFlyer                                                             | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | DUX                                                                    | HUCAST                        | Sega Dreamcast | 2009 | Japan
+|       | Dynamite Deka 2                                                        | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Ecco the Dolphin: Defender of the Future                               | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Eisei Meijin III: Game Creator Yoshimura Nobuhiro no Zunou             | Konami                        | Sega Dreamcast | 1999 | Japan
+|       | El Dorado Gate Volume 1                                                | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | El Dorado Gate Volume 2                                                | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | El Dorado Gate Volume 3                                                | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | El Dorado Gate Volume 4                                                | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | El Dorado Gate Volume 5                                                | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | El Dorado Gate Volume 6                                                | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | El Dorado Gate Volume 7                                                | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | Elemental Gimmick Gear                                                 | Hudson                        | Sega Dreamcast | 1999 | Japan
+|       | Elysion                                                                | NEC Interchannel              | Sega Dreamcast | 2002 | Japan
+|       | Erde: Nezu no Izuki no Shita de                                        | Kid                           | Sega Dreamcast | 2003 | Japan
+|       | Es                                                                     | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Espion-Age-Nts                                                         | NEC Interchannel              | Sega Dreamcast | 1999 | Japan
+|       | Eternal Arcadia                                                        | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Eve Zero: The Ark of the Matter                                        | NetVillage                    | Sega Dreamcast | 2001 | Japan
+|       | Ever17: The Out of Infinity                                            | Kid                           | Sega Dreamcast | 2002 | Japan
+|       | Exodus Guilty Neos                                                     | Abel Software                 | Sega Dreamcast | 2001 | Japan
+|       | Extra Cawaii!                                                          | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | F1 World Grand Prix                                                    | Video System                  | Sega Dreamcast | 1999 | Japan
+|       | F1 World Grand Prix II                                                 | Video System                  | Sega Dreamcast | 2000 | Japan
+|       | F355 Challenge                                                         | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Fast Striker                                                           | NG:DEV.TEAM                   | Sega Dreamcast | 2010 | Japan
+|       | Fighting Vipers 2                                                      | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Fire ProWrestling D                                                    | Spike                         | Sega Dreamcast | 2001 | Japan
+|       | First Kiss * Monogatari 2                                              | Broccoli                      | Sega Dreamcast | 2002 | Japan
+|       | Fish Eyes Wild                                                         | Victor Interactive Software   | Sega Dreamcast | 2001 | Japan
+|       | For Symphony: With All One's Heart                                     | Takuyo                        | Sega Dreamcast | 2003 | Japan
+|       | Fragrance Tale                                                         | Takuyo                        | Sega Dreamcast | 2001 | Japan
+|       | Frame Gride                                                            | From Software                 | Sega Dreamcast | 1999 | Japan
+|       | Frame Gride Test Operation Disc                                        | From Software                 | Sega Dreamcast | 1999 | Japan
+|       | Fushigi no Dungeon: Furai no Shiren Gaiden - Onna Kenshi Asuka Kenzan! | Sega                          | Sega Dreamcast | 2002 | Japan
+|       | Gaia Master Kessen!: Seikiou Densetsu                                  | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | Gakkyuou Yamazaki: Yamazaki Oukoku Oofun Araso                         | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Ganbare Nippon! Olympic 2000                                           | Konami                        | Sega Dreamcast | 2000 | Japan
+|       | Garou: Mark of the Wolves                                              | SNK                           | Sega Dreamcast | 2001 | Japan
+|       | Get Bass                                                               | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Get Bass 2                                                             | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Get!! Colonies                                                         | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Ghost Blade                                                            | HUCAST                        | Sega Dreamcast | 2015 | Japan
+|       | Giant Gram 2000: All-Japan Pro Wrestling 3                             | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Giant Gram: All Japan ProWrestling 2                                   | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Giga Wing                                                              | Capcom                        | Sega Dreamcast | 1999 | Japan
+|       | Giga Wing 2                                                            | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | Godzilla Generations                                                   | Sega                          | Sega Dreamcast | 1998 | Japan
+|       | Godzilla Generations Maximum Impact                                    | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Golem no Maigo                                                         | Caramel Pot                   | Sega Dreamcast | 2000 | Japan
+|       | Golf Shiyouyo                                                          | Bottom Up                     | Sega Dreamcast | 1999 | Japan
+|       | Golf Shiyouyo 2: Aratanaru Chousen                                     | SoftMax                       | Sega Dreamcast | 2001 | Japan
+|       | Golf Shiyouyo Adventure Hen                                            | SoftMax                       | Sega Dreamcast | 2000 | Japan
+|       | Golf Shiyouyo Kouryaku Pack                                            | SoftMax                       | Sega Dreamcast | 2000 | Japan
+|       | Grandia II                                                             | Game Arts                     | Sega Dreamcast | 2000 | Japan
+|       | Grandia II Demo                                                        | Game Arts                     | Sega Dreamcast | 2000 | Japan
+|       | Grauen no Torikago Kapitel 1: Keiyaku                                  | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Grauen no Torikago Kapitel 2: Torikago                                 | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Grauen no Torikago Kapitel 3: Kansei                                   | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Grauen no Torikago Kapitel 4: Kaikou                                   | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Grauen no Torikago Kapitel 5: Shoukuzai                                | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Grauen no Torikago Kapitel 6: Senritsu                                 | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Guilty Gear X                                                          | Sammy Studios                 | Sega Dreamcast | 2000 | Japan
+|       | Gunbird 2                                                              | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Gundam Battle Online                                                   | Bandai                        | Sega Dreamcast | 2001 | Japan
+|       | Gunspike                                                               | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Guruguru Onsen 2                                                       | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Guruguru Onsen 3                                                       | Sega                          | Sega Dreamcast | 2002 | Japan
+|       | Happy Breeding                                                         | Princess Soft                 | Sega Dreamcast | 2003 | Japan
+|       | Happy Lesson                                                           | Datam Polystar                | Sega Dreamcast | 2001 | Japan
+|       | Happy Lesson: First Lesson                                             | Datam Polystar                | Sega Dreamcast | 2000 | Japan
+|       | Harusame Youbi                                                         | NEC Interchannel              | Sega Dreamcast | 2001 | Japan
+|       | Heavy Metal: Geomatrix                                                 | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | Hello Kitty no Magical Block                                           | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Hello Kitty no Onnaru Mail                                             | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Hello Kitty no Waku Waku Quiz                                          | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Hello Kitty: Lovely Fruit Park                                         | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Himitsu: Tadagaita Natsu                                               | Starfish                      | Sega Dreamcast | 2001 | Japan
+|       | Hitachi SH-4 Demo Disc                                                 | Hitachi                       | Sega Dreamcast | 1999 | Japan
+|       | House of the Dead 2, The                                               | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Hundred Swords                                                         | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Idol Janshi o Tsukucchaou                                              | Jaleco Entertainment          | Sega Dreamcast | 1999 | Japan
+|       | Ikaruga                                                                | ESP Software                  | Sega Dreamcast | 2002 | Japan
+|       | Illbleed                                                               | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Imperial no Taka: Fighter of Zero                                      | Global A                      | Sega Dreamcast | 2000 | Japan
+|       | Incoming: Ginrui Saishuu Kessen                                        | Imagineer                     | Sega Dreamcast | 1998 | Japan
+|       | Inoue Ryoko: Last Scene                                                | Datam Polystar                | Sega Dreamcast | 2001 | Japan
+|       | Inoue Ryoko: Roommate                                                  | Datam Polystar                | Sega Dreamcast | 2001 | Japan
+|       | Interlude                                                              | NEC Interchannel              | Sega Dreamcast | 2003 | Japan
+|       | Iris                                                                   | Kid                           | Sega Dreamcast | 2003 | Japan
+|       | Izumo                                                                  | Shinbyou Planning             | Sega Dreamcast | 2004 | Japan
+|       | J.League Pro Soccer Club o Tsukurou!                                   | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | J.League Spectacle Soccer                                              | Sega                          | Sega Dreamcast | 2002 | Japan
+|       | Jet Coaster Dream                                                      | Bottom Up                     | Sega Dreamcast | 1999 | Japan
+|       | Jet Coaster Dream 2                                                    | Bimboosoft                    | Sega Dreamcast | 2000 | Japan
+|       | Jet Set Radio                                                          | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Jikkyou Powerful Pro Yakyuu Dreamcast Edition                          | Konami                        | Sega Dreamcast | 2000 | Japan
+|       | Jinsei Game for Dreamcast                                              | Takara                        | Sega Dreamcast | 2000 | Japan
+|       | Jissen Pachi-Slot Hisshouhou!@VPACHI Kingdom                           | MaxBet                        | Sega Dreamcast | 2000 | Japan
+|       | Jojo no Kimyouna Bouken: Miraihe no Isan                               | Capcom                        | Sega Dreamcast | 1999 | Japan
+|       | JRA PAT for Dreamcast                                                  | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | July                                                                   | Fortyfive                     | Sega Dreamcast | 1998 | Japan
+|       | Kaen Seibo: The Virgin on Megiddo                                      | Hiromi                        | Sega Dreamcast | 2001 | Japan
+|       | Kaitou Apricot                                                         | Takuyo                        | Sega Dreamcast | 2003 | Japan
+|       | Kanon                                                                  | NEC Interchannel              | Sega Dreamcast | 2000 | Japan
+|       | Karous                                                                 | MileStone Inc.                | Sega Dreamcast | 2007 | Japan
+|       | Kaze no Uta                                                            | Kyarara                       | Sega Dreamcast | 2004 | Japan
+|       | Kidou Senkan Nadesico: Nadesico the Mission                            | ESP Software                  | Sega Dreamcast | 1999 | Japan
+|       | Kidou Senshi Gundam Gaiden: Colony no Ochichita Chide...               | Bandai                        | Sega Dreamcast | 1999 | Japan
+|       | Kidou Senshi Gundam: Ghiren no Yabou - Zeon no Keifu                   | Bandai                        | Sega Dreamcast | 2000 | Japan
+|       | Kidou Senshi Gundam: Giren no Yabou- Zeon no Keifu                     | Bandai                        | Sega Dreamcast | 2000 | Japan
+|       | Kidou Senshi Gundam: Renpou vs. Zeon DX                                | Bandai                        | Sega Dreamcast | 2002 | Japan
+|       | Kimi ga Nozomu Eien                                                    | Atypical Alchemists Associate | Sega Dreamcast | 2002 | Japan
+|       | King of Fighters '99 Evolution, The                                    | SNK                           | Sega Dreamcast | 2000 | Japan
+|       | King of Fighters 2000, The                                             | Playmore                      | Sega Dreamcast | 2002 | Japan
+|       | King of Fighters 2001, The                                             | Playmore                      | Sega Dreamcast | 2002 | Japan
+|       | King of Fighters 2002, The                                             | Playmore                      | Sega Dreamcast | 2003 | Japan
+|       | King of Fighters Dream Match 1999, The                                 | SNK                           | Sega Dreamcast | 1999 | Japan
+|       | Kita e. Photo Memories                                                 | Hudson                        | Sega Dreamcast | 1999 | Japan
+|       | Kita e. White Illumination                                             | Hudson                        | Sega Dreamcast | 1999 | Japan
+|       | Kitaihei Gold                                                          | NetVillage                    | Sega Dreamcast | 1999 | Japan
+|       | Kiteretsu Shounen's Gangagan                                           | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Konohana 2: Todoke Kanai Requiem                                       | Success                       | Sega Dreamcast | 2002 | Japan
+|       | Konohana: True Report                                                  | Success                       | Sega Dreamcast | 2001 | Japan
+|       | Kuon no Kizuna: Sairinsho                                              | Fog                           | Sega Dreamcast | 2000 | Japan
+|       | KYOTEI for Dreamcast                                                   | KYOTEI                        | Sega Dreamcast | 2000 | Japan
+|       | L.O.L.: Lack of Love                                                   | ASCII Entertainment           | Sega Dreamcast | 2000 | Japan
+|       | Lake Masters PRO for Dreamcast Plus!                                   | Dazz                          | Sega Dreamcast | 2000 | Japan
+|       | Langrisser Millennium                                                  | Nippon Computer System        | Sega Dreamcast | 1999 | Japan
+|       | Le Mans 24 Hours                                                       | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Love Hina: Smile Again                                                 | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Love Hina: Totsuzen no Engeji Happening                                | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Ma-Gi: Marginal                                                        | Princess Soft                 | Sega Dreamcast | 2003 | Japan
+|       | Maboroshi Tsukiyo                                                      | Sims                          | Sega Dreamcast | 1999 | Japan
+|       | Macross M3                                                             | Shoeisha                      | Sega Dreamcast | 2001 | Japan
+|       | Magic: The Gathering                                                   | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Mahjong Taikai II Special                                              | Koei                          | Sega Dreamcast | 1999 | Japan
+|       | Majo no Ochakai                                                        | NEC Interchannel              | Sega Dreamcast | 2003 | Japan
+|       | Maken X                                                                | ATLUS                         | Sega Dreamcast | 1999 | Japan
+|       | Marie to Elie Atelier                                                  | Kool Kizz                     | Sega Dreamcast | 2001 | Japan
+|       | Marionette Company                                                     | Micro Cabin                   | Sega Dreamcast | 1999 | Japan
+|       | Marionette Company 2 Chu!                                              | Micro Cabin                   | Sega Dreamcast | 2000 | Japan
+|       | Marionette Handler                                                     | Micronet                      | Sega Dreamcast | 1999 | Japan
+|       | Marionette Handler 2                                                   | Micronet                      | Sega Dreamcast | 2000 | Japan
+|       | Mars Matrix                                                            | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Marvel vs. Capcom 2: New Age of Heroes                                 | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Marvel vs. Capcom: Clash of Super Heroes                               | Capcom                        | Sega Dreamcast | 1999 | Japan
+|       | Mei * Puru                                                             | Princess Soft                 | Sega Dreamcast | 2002 | Japan
+|       | Memories Off 2nd                                                       | Kid                           | Sega Dreamcast | 2001 | Japan
+|       | Memories Off Complete                                                  | Kid                           | Sega Dreamcast | 2000 | Japan
+|       | Mercurius Pretty: End of the Century                                   | NEC Interchannel              | Sega Dreamcast | 2000 | Japan
+|       | Metal Wolf                                                             | Princess Soft                 | Sega Dreamcast | 2002 | Japan
+|       | Milk-DC                                                                | APC-Project                   | Sega Dreamcast | 2002 | Japan
+|       | Milky Season                                                           | Kid                           | Sega Dreamcast | 2002 | Japan
+|       | Miss Moonlight                                                         | Naxat Soft                    | Sega Dreamcast | 2001 | Japan
+|       | Missing Parts 2: The Tantei Stories                                    | Fog                           | Sega Dreamcast | 2002 | Japan
+|       | Missing Parts 3                                                        | Fog                           | Sega Dreamcast | 2003 | Japan
+|       | Missing Parts: The Tantei Stories                                      | Fog                           | Sega Dreamcast | 2002 | Japan
+|       | Mizuiro                                                                | NEC Interchannel              | Sega Dreamcast | 2002 | Japan
+|       | Moekan: Moekko Company                                                 | Princess Soft                 | Sega Dreamcast | 2003 | Japan
+|       | Moekan: Moekko Company                                                 | Princess Soft                 | Sega Dreamcast | 2003 | Japan
+|       | Moero! Justice Gakuen                                                  | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Monaco Grand Prix Racing Simulation 2                                  | Ubisoft                       | Sega Dreamcast | 1999 | Japan
+|       | Morita no Saikyou Reversi                                              | Random House                  | Sega Dreamcast | 1999 | Japan
+|       | Morita no Saikyou Shogi                                                | Random House                  | Sega Dreamcast | 1999 | Japan
+|       | Motto Pro Yakyuu Team o Tsukurou!                                      | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Mr. Driller                                                            | Namco                         | Sega Dreamcast | 2000 | Japan
+|       | Musapey's Choco Marker                                                 | Ecole                         | Sega Dreamcast | 2002 | Japan
+|       | My Merry May                                                           | Kid                           | Sega Dreamcast | 2002 | Japan
+|       | My Merry Maybe                                                         | Kid                           | Sega Dreamcast | 2003 | Japan
+|       | Nakoruru: Anohito Kara no Okurimono                                    | Kool Kizz                     | Sega Dreamcast | 2002 | Japan
+|       | Nanatsu no Hikan: Senritsu no Bishou                                   | Koei                          | Sega Dreamcast | 2000 | Japan
+|       | Napple Tale: Arsia in Daydream                                         | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Neo Golden Logres                                                      | Success                       | Sega Dreamcast | 2000 | Japan
+|       | NEO XYX                                                                | NG:DEV.TEAM                   | Sega Dreamcast | 2014 | Japan
+|       | Neppachi II@VPACHI: CR Harenchi Gauken                                 | Daikoku                       | Sega Dreamcast | 2000 | Japan
+|       | Neppachi III@VPACHI: CR do Konjou Gale 2 - CR do Konjou Gale H         | Daikoku                       | Sega Dreamcast | 2000 | Japan
+|       | Neppachi IV@VPACHI: CR Aa! Hana no Ouendan 3                           | Falcon                        | Sega Dreamcast | 2000 | Japan
+|       | Neppachi V@VPACHI: CR Monster House                                    | Daikoku                       | Sega Dreamcast | 2000 | Japan
+|       | Neppachi VI@VPACHI                                                     | Daikoku                       | Sega Dreamcast | 2001 | Japan
+|       | Neppachi: 10 Ren Chande Las Vegas Ryokou                               | Daikoku                       | Sega Dreamcast | 1999 | Japan
+|       | Net Versus Chess                                                       | Atmark                        | Sega Dreamcast | 2001 | Japan
+|       | Net Versus Hanafuda                                                    | Atmark                        | Sega Dreamcast | 2001 | Japan
+|       | Net Versus Igo                                                         | Atmark                        | Sega Dreamcast | 2001 | Japan
+|       | Net Versus Mahjong                                                     | Atmark                        | Sega Dreamcast | 2001 | Japan
+|       | Net Versus Renju Gomoku Narabe                                         | Atmark                        | Sega Dreamcast | 2001 | Japan
+|       | Net Versus Reversi                                                     | Atmark                        | Sega Dreamcast | 2001 | Japan
+|       | Net Versus Shogi                                                       | Atmark                        | Sega Dreamcast | 2001 | Japan
+|       | Netto de Para                                                          | Takuyo                        | Sega Dreamcast | 2000 | Japan
+|       | Netto de Tennis                                                        | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Netto Golf                                                             | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Never7: The End of Infinity                                            | Kid                           | Sega Dreamcast | 2000 | Japan
+|       | Nijyuei                                                                | Princess Soft                 | Sega Dreamcast | 2002 | Japan
+|       | Nippon Pro Mahjong Renmei Dankurai Nintei : Heisei Mahjong-Shou        | Micronet                      | Sega Dreamcast | 2000 | Japan
+|       | Nippon Pro Mahjong Renmei Kounin: Tetsuman Menkyo Minnaten             | Naxat Soft                    | Sega Dreamcast | 1999 | Japan
+|       | Nishikaze no Kyoushikyouku: The Rhapsody of Zephyr                     | SoftMax                       | Sega Dreamcast | 2001 | Japan
+|       | Nobunaga no Yabou: Reppuuden                                           | Koei                          | Sega Dreamcast | 1999 | Japan
+|       | Nobunaga no Yabou: Shouseiroku with Power-Up Kit                       | Koei                          | Sega Dreamcast | 1999 | Japan
+|       | NOMURA Home Trade                                                      | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | O-to-i-re: Dreamcast Sequencer                                         | Waka Mfg                      | Sega Dreamcast | 1999 | Japan
+|       | Ogami Ichiro Funtouki: Sakura Taisen Kayou Show - Benitokage Yori      | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Omoide ni Kawaru-Kimi: Memories Off                                    | Kid                           | Sega Dreamcast | 2002 | Japan
+|       | Onsei Ninshiki Mahjong: Jarman                                         | Visit                         | Sega Dreamcast | 2000 | Japan
+|       | Orange Pocket                                                          | Pione Soft                    | Sega Dreamcast | 2004 | Japan
+|       | Ouka Houshin                                                           | ESP Software                  | Sega Dreamcast | 1999 | Japan
+|       | OutTrigger                                                             | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Pachi-Slot Teiou: Dream Slot - Heiwa SP                                | Media Entertainment           | Sega Dreamcast | 2001 | Japan
+|       | Pachi-Slot Teiou: Dream Slot Olympia SP                                | Media Entertainment           | Sega Dreamcast | 2001 | Japan
+|       | Pachinko no Dendou: CR Nanashi                                         | Micro Cabin                   | Sega Dreamcast | 2001 | Japan
+|       | Pandora no Yume                                                        | NEC Interchannel              | Sega Dreamcast | 2002 | Japan
+|       | Panzer Front                                                           | ASCII Entertainment           | Sega Dreamcast | 1999 | Japan
+|       | Patisserie Nanyanko                                                    | Pione Soft                    | Sega Dreamcast | 2004 | Japan
+|       | Pen Pen TriIcelon                                                      | General Entertainment         | Sega Dreamcast | 1998 | Japan
+|       | Phantasy Star Online                                                   | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Phantasy Star Online Ver. 2                                            | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Pia Carrot e Youkoso!! 2                                               | NEC Interchannel              | Sega Dreamcast | 2003 | Japan
+|       | Pia Carrot e Youkoso!! 2.5                                             | NEC Interchannel              | Sega Dreamcast | 2001 | Japan
+|       | Pia Carrot e Youkoso!! 3                                               | NEC Interchannel              | Sega Dreamcast | 2003 | Japan
+|       | Pier Solar HD                                                          | Watermelon                    | Sega Dreamcast | 2015 | Japan
+|       | Pizzicato Polka: Suisei Genya                                          | Kid                           | Sega Dreamcast | 2004 | Japan
+|       | Plus Plum                                                              | Takuyo                        | Sega Dreamcast | 1999 | Japan
+|       | Pocke-Kano: Yumi - Shuzika - Fumio                                     | Datam Polystar                | Sega Dreamcast | 2000 | Japan
+|       | Pop'n Music                                                            | Konami                        | Sega Dreamcast | 1999 | Japan
+|       | Pop'n Music 2                                                          | Konami                        | Sega Dreamcast | 1999 | Japan
+|       | Pop'n Music 3 Append Disc                                              | Konami                        | Sega Dreamcast | 2000 | Japan
+|       | Pop'n Music 4 Append Disc                                              | Konami                        | Sega Dreamcast | 2000 | Japan
+|       | Power Jet Racing 2001                                                  | CRI                           | Sega Dreamcast | 2001 | Japan
+|       | Power Smash 2                                                          | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Power Smash SAMPLE                                                     | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Power Stone                                                            | Capcom                        | Sega Dreamcast | 1999 | Japan
+|       | Power Stone 2                                                          | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Princess Holiday: Korogaru Ringo Tei Senya Ichiya                      | Atypical Alchemists Associate | Sega Dreamcast | 2003 | Japan
+|       | Princess Maker Collection                                              | NineLives                     | Sega Dreamcast | 2001 | Japan
+|       | Prism Heart                                                            | Kid                           | Sega Dreamcast | 2001 | Japan
+|       | Prismaticallization                                                    | Arc System Works              | Sega Dreamcast | 2000 | Japan
+|       | Pro Mahjong Kiwame D                                                   | Athena                        | Sega Dreamcast | 2000 | Japan
+|       | Pro Yakyuu Team de Asobou                                              | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Pro Yakyuu Team de Asobou Net!                                         | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Pro Yakyuu Team o Tsukurou!                                            | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Pro Yakyuu Team o Tsukurou! & Asobou!                                  | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Psychic Force 2012                                                     | Taito Corporation             | Sega Dreamcast | 1999 | Japan
+|       | Psyvariar 2: The Will to Fabricate                                     | Success                       | Sega Dreamcast | 2004 | Japan
+|       | Puyo Puyo DA                                                           | Compile                       | Sega Dreamcast | 1999 | Japan
+|       | Puyo Puyo Fever                                                        | Sega                          | Sega Dreamcast | 2004 | Japan
+|       | Puyo Puyo~n                                                            | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Puzzle Bobble 4                                                        | CyberFront                    | Sega Dreamcast | 2000 | Japan
+|       | Quiz Aa Megami-Sama Tatakau Tsubasa to Tomoni                          | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Radirgy                                                                | MileStone Inc.                | Sega Dreamcast | 2006 | Japan
+|       | Rainbow Cotton                                                         | Success                       | Sega Dreamcast | 2000 | Japan
+|       | Rayman: Kaizokufune Kara no Dasshutsu!                                 | Ubisoft                       | Sega Dreamcast | 2000 | Japan
+|       | Re-Volt                                                                | Acclaim Japan                 | Sega Dreamcast | 2000 | Japan
+|       | Ready 2 Rumble Boxing                                                  | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Real Sound: Kaze no Regret                                             | WARP                          | Sega Dreamcast | 1999 | Japan
+|       | Record of Lodoss War: Advent of Cardice                                | ESP Software                  | Sega Dreamcast | 2000 | Japan
+|       | Redline Racer                                                          | Ubisoft                       | Sega Dreamcast | 1999 | Japan
+|       | Redux: Dark Matters                                                    | HUCAST                        | Sega Dreamcast | 2014 | Japan
+|       | Renai Adventure: Bittersweet Fools, The                                | D3Publisher                   | Sega Dreamcast | 2002 | Japan
+|       | Renai Chu! Happy Perfect                                               | GN Software                   | Sega Dreamcast | 2003 | Japan
+|       | Rent A Hero No. 1                                                      | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Revive... Sosei                                                        | Data East                     | Sega Dreamcast | 1999 | Japan
+|       | Rez                                                                    | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Ring                                                                   | Asmik Ace Entertainment, Inc  | Sega Dreamcast | 2000 | Japan
+|       | Roommania #203                                                         | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Roommate Asami: Okusama wa Joshikousei Director's Edition              | Datam Polystar                | Sega Dreamcast | 2002 | Japan
+|       | Roommate Novel: Sato Yuka                                              | Datam Polystar                | Sega Dreamcast | 2000 | Japan
+|       | Run=Dim as BlackSoul                                                   | Idea Factory                  | Sega Dreamcast | 2001 | Japan
+|       | Rune Caster                                                            | Vision Games                  | Sega Dreamcast | 2000 | Japan
+|       | Rune Jade                                                              | Hudson                        | Sega Dreamcast | 2000 | Japan
+|       | Sakura Momoko Gekijou: Kojikoji                                        | Marvelous Entertainment       | Sega Dreamcast | 2000 | Japan
+|       | Sakura Taisen                                                          | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Sakura Taisen 2                                                        | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Sakura Taisen 3: Paris wa Moeteiru ka                                  | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Sakura Taisen 4                                                        | Sega                          | Sega Dreamcast | 2002 | Japan
+|       | Sakura Taisen Complete Box                                             | Sega                          | Sega Dreamcast | 2002 | Japan
+|       | Sakura Taisen Hanagumi Taisen Columns 2                                | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Sakura Taisen Online: Paris no Nagai Hibi                              | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Sakura Taisen: Kinematron Hanagumi Mail                                | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Samba de Amigo                                                         | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Samba de Amigo Ver. 2000                                               | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | San Goku Shi VI                                                        | Koei                          | Sega Dreamcast | 1999 | Japan
+|       | San Goku Shi VI with Power-Up Kit                                      | Koei                          | Sega Dreamcast | 2000 | Japan
+|       | Seaman                                                                 | Vivarium                      | Sega Dreamcast | 1999 | Japan
+|       | Seaman: Kindan no Pet 2001                                             | Vivarium                      | Sega Dreamcast | 2000 | Japan
+|       | Sega Extreme Sports                                                    | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Sega GT Homologation Special                                           | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Sega Marine Fishing                                                    | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Sega Professional Tennis: Power Smash                                  | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Sega Rally Championship 2                                              | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Sega Sports NBA 2K                                                     | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Sega Sports NBA 2K1                                                    | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Sega Sports NBA 2K2                                                    | Sega                          | Sega Dreamcast | 2002 | Japan
+|       | Sega Sports NFL 2K                                                     | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Sega Sports NFL 2K1                                                    | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Sega Sports NFL 2K2                                                    | Sega                          | Sega Dreamcast | 2002 | Japan
+|       | Sega Sports NHL 2K2                                                    | Sega                          | Sega Dreamcast | 2002 | Japan
+|       | Sega Tetris                                                            | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Segagaga                                                               | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Seirai Hata RayBlade                                                   | WinkySoft                     | Sega Dreamcast | 2000 | Japan
+|       | Seitai Heiki Expendable                                                | Imagineer                     | Sega Dreamcast | 1999 | Japan
+|       | Sekai Fushigi Hakken! Troya                                            | TBS                           | Sega Dreamcast | 1999 | Japan
+|       | Sengoku Turb                                                           | NEC Interchannel              | Sega Dreamcast | 1999 | Japan
+|       | Sengoku Turb F.I.D                                                     | NEC Interchannel              | Sega Dreamcast | 1999 | Japan
+|       | Sentimental Graffiti 2                                                 | NEC Interchannel              | Sega Dreamcast | 2000 | Japan
+|       | Sentimental Graffiti: Yakusoku                                         | NEC Interchannel              | Sega Dreamcast | 2003 | Japan
+|       | Seventh Cross                                                          | NEC Interchannel              | Sega Dreamcast | 1998 | Japan
+|       | Shanghai: Dynasty                                                      | Success                       | Sega Dreamcast | 2000 | Japan
+|       | Shenmue II                                                             | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Shenmue: Isshou Yokosuka                                               | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Shikigami no Shiro II                                                  | MediaQuest                    | Sega Dreamcast | 2004 | Japan
+|       | Shin Honkaku Hanafuda                                                  | Altron                        | Sega Dreamcast | 1999 | Japan
+|       | Shin Nippon Pro Wrestling: Toukon Retsuden 4                           | Tomy Corporation              | Sega Dreamcast | 1999 | Japan
+|       | Shinkisekai Evolution                                                  | ESP Software                  | Sega Dreamcast | 1999 | Japan
+|       | Shinkisekai Evolution 2                                                | ESP Software                  | Sega Dreamcast | 1999 | Japan
+|       | Shinri Game, The                                                       | Visit                         | Sega Dreamcast | 2001 | Japan
+|       | Shinseiki Evangelion: Ayanami Ikusei Keikaku                           | Broccoli                      | Sega Dreamcast | 2002 | Japan
+|       | Shinseiki Evangelion: Typing E-Keikaku                                 | Gainax                        | Sega Dreamcast | 2001 | Japan
+|       | Shinseiki Evangelion: Typing Hokan Keikaku                             | Gainax                        | Sega Dreamcast | 2001 | Japan
+|       | Shirotsume Souwa: Episode of the Clovers                               | NEC Interchannel              | Sega Dreamcast | 2003 | Japan
+|       | Shutoko Battle                                                         | Genki                         | Sega Dreamcast | 1999 | Japan
+|       | Shutoko Battle 2                                                       | Genki                         | Sega Dreamcast | 2000 | Japan
+|       | Silent Scope                                                           | Konami                        | Sega Dreamcast | 2000 | Japan
+|       | Simple 2000 Series Vol. 1: The Renai Adventure: Bitter Sweet Fools     | D3Publisher                   | Sega Dreamcast | 2002 | Japan
+|       | Simple 2000 Series Vol. 2: The Renai Simulation: Natsuiro Celebration  | D3Publisher                   | Sega Dreamcast | 2002 | Japan
+|       | Simple 2000 Series Vol. 3: The Renai Simulation 2: Fureai              | D3Publisher                   | Sega Dreamcast | 2002 | Japan
+|       | Simple 2000 Series Vol. 4: The Renai Adventure: Okaeri!                | D3Publisher                   | Sega Dreamcast | 2002 | Japan
+|       | Sister Princess Premium Edition                                        | Media Works                   | Sega Dreamcast | 2002 | Japan
+|       | Snow                                                                   | NEC Interchannel              | Sega Dreamcast | 2003 | Japan
+|       | Soccer Tsuku Tokudai Gou 2: J.League Pro Soccer Club o Tsukurou!       | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Soccer Tsuku Tokudai Gou J.League Pro Soccer Club o Tsukurou!          | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Sonic Adventure                                                        | Sega                          | Sega Dreamcast | 1998 | Japan
+|       | Sonic Adventure 2                                                      | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Sonic Adventure 2 The Trial                                            | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Sonic Shuffle                                                          | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Sorcerian: Shichisei Mahou no Shito                                    | Victor Interactive Software   | Sega Dreamcast | 2000 | Japan
+|       | SoulCalibur                                                            | Namco                         | Sega Dreamcast | 1999 | Japan
+|       | Space Channel 5                                                        | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Space Channel 5 Part 2                                                 | Sega                          | Sega Dreamcast | 2002 | Japan
+|       | Spawn: In the Demon's Hand                                             | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Speed Devils                                                           | Ubisoft                       | Sega Dreamcast | 1999 | Japan
+|       | Spirit of Speed 1937                                                   | Acclaim Japan                 | Sega Dreamcast | 2001 | Japan
+|       | Sports Jam                                                             | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | ST Station Passport                                                    | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Star Gladiator 2: Nightmare of Blisten                                 | Capcom                        | Sega Dreamcast | 1999 | Japan
+|       | Street Fighter III: 3rd Strike                                         | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Street Fighter III: W Impact                                           | Capcom                        | Sega Dreamcast | 1999 | Japan
+|       | Street Fighter Zero 3: Saikyooryuu Doujou                              | Capcom                        | Sega Dreamcast | 1999 | Japan
+|       | Sturmwind                                                              | redspotgames                  | Sega Dreamcast | 2013 | Japan
+|       | Suigetsu Mayoi-Gokoro                                                  | Kid                           | Sega Dreamcast | 2004 | Japan
+|       | Suika                                                                  | Princess Soft                 | Sega Dreamcast | 2002 | Japan
+|       | Sunrise Eiyuutan                                                       | Sunrise Interactive           | Sega Dreamcast | 1999 | Japan
+|       | Super Euro Soccer 2000                                                 | Imagineer                     | Sega Dreamcast | 2000 | Japan
+|       | Super Magnetic NiuNiu                                                  | Genki                         | Sega Dreamcast | 2000 | Japan
+|       | Super Producers                                                        | Hudson                        | Sega Dreamcast | 1999 | Japan
+|       | Super Puzzle Fighter II X for Matching Service                         | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | Super Robot Taisen Alpha for Dreamcast                                 | Banpresto                     | Sega Dreamcast | 2001 | Japan
+|       | Super Runabout                                                         | Climax Entertainment          | Sega Dreamcast | 2000 | Japan
+|       | Super Speed Racing                                                     | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Super Street Fighter II X: Grand Master Challenge                      | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Sweet Season                                                           | Takuyo                        | Sega Dreamcast | 2003 | Japan
+|       | Sydney 2000                                                            | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Taisen Net Gimmick: Capcom & Psikyo All Stars                          | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | Tako no Marine                                                         | Micro Cabin                   | Sega Dreamcast | 2002 | Japan
+|       | Tamakyuu                                                               | NEC Interchannel              | Sega Dreamcast | 2004 | Japan
+|       | Tanaka Torahiko no Uru Toraryuu Shogi                                  | Arc System Works              | Sega Dreamcast | 1999 | Japan
+|       | Tantei Shinshi Dash!                                                   | Abel Software                 | Sega Dreamcast | 2000 | Japan
+|       | Tenohirao, Taiyouni                                                    | Princess Soft                 | Sega Dreamcast | 2004 | Japan
+|       | Tentama: 1st Sunnyside                                                 | Kid                           | Sega Dreamcast | 2001 | Japan
+|       | Tetris 4D                                                              | Bullet Proof Software         | Sega Dreamcast | 1998 | Japan
+|       | Tokusatsu Bouken Katsugeki Super Hero Retsuden                         | Banpresto                     | Sega Dreamcast | 2000 | Japan
+|       | Tokyo Bus Annai                                                        | Fortyfive                     | Sega Dreamcast | 1999 | Japan
+|       | Tokyo Bus Annai: Bijin Bug Guide Tenjou Pack                           | Fortyfive                     | Sega Dreamcast | 2000 | Japan
+|       | Tomb Raider 4: The Last Revelation                                     | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Totsugeki! Teketeke!! Toy Ranger                                       | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Toyota Digital Catalog - Celsior                                       | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Toyota Doricatch Series - Celica                                       | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Toyota Doricatch Series - Estima                                       | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Toyota Doricatch Series - FunCargo                                     | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Toyota Doricatch Series - Gaia                                         | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Toyota Doricatch Series - Hilux Surf                                   | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Toyota Doricatch Series - Land Cruiser 100/Cygnus                      | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Toyota Doricatch Series - Land Cruiser Prado                           | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Treasure Strike                                                        | Kid                           | Sega Dreamcast | 2000 | Japan
+|       | Tricolore Crise                                                        | Victor Interactive Software   | Sega Dreamcast | 2000 | Japan
+|       | Triggerheart Exelica                                                   | Warashi                       | Sega Dreamcast | 2007 | Japan
+|       | Trizeal                                                                | Triangle Service              | Sega Dreamcast | 2005 | Japan
+|       | Tsuki wa Higashi ni Ha wa Nishi na: Operation Sanctuary                | Alchemist                     | Sega Dreamcast | 2004 | Japan
+|       | Twinkle Star Sprites                                                   | SNK                           | Sega Dreamcast | 2000 | Japan
+|       | Typing of the Date                                                     | Hudson                        | Sega Dreamcast | 2001 | Japan
+|       | Typing of the Dead, The                                                | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Ultimate Fighting Championship                                         | Capcom                        | Sega Dreamcast | 2001 | Japan
+|       | Under Defeat                                                           | G.Rev                         | Sega Dreamcast | 2006 | Japan
+|       | Undercover AD2025 Kei                                                  | Pulse Entertainment           | Sega Dreamcast | 2000 | Japan
+|       | Utau * Tumbling Dice                                                   | Reindeer                      | Sega Dreamcast | 2004 | Japan
+|       | Vampire Chronicle for Matching Service                                 | Capcom                        | Sega Dreamcast | 2000 | Japan
+|       | Vermilion Desert                                                       | Riverhillsoft                 | Sega Dreamcast | 1999 | Japan
+|       | Vigilante 8: 2nd Battle                                                | Syscom                        | Sega Dreamcast | 2000 | Japan
+|       | Virtua Athlete 2K                                                      | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Virtua Cop 2                                                           | Sega                          | Sega Dreamcast | 2000 | Japan
+|       | Virtua Fighter 3tb                                                     | Sega                          | Sega Dreamcast | 1998 | Japan
+|       | Virtua Striker 2 Ver. 2000.1                                           | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Weakness Hero Torauman                                                 | Fortyfive                     | Sega Dreamcast | 2002 | Japan
+|       | Web Mystery: Yochi Yume o Kenru Neko                                   | Mebius                        | Sega Dreamcast | 1999 | Japan
+|       | What's Shenmue                                                         | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Wind -a breath of heart-                                               | Atypical Alchemists Associate | Sega Dreamcast | 2003 | Japan
+|       | Winning Post 4 Program 2000                                            | Koei                          | Sega Dreamcast | 2000 | Japan
+|       | World Neverland 2 Plus                                                 | Riverhillsoft                 | Sega Dreamcast | 2000 | Japan
+|       | World Neverland Plus: Orurudo Oukoku Monogatari                        | Riverhillsoft                 | Sega Dreamcast | 1999 | Japan
+|       | World Series Baseball 2K1                                              | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | World Series Baseball 2K2                                              | Sega                          | Sega Dreamcast | 2002 | Japan
+|       | WWF Royal Rumble                                                       | Yuke's                        | Sega Dreamcast | 2001 | Japan
+|       | Yoshia no Oka de Nekoronde...                                          | Naxat Soft                    | Sega Dreamcast | 2001 | Japan
+|       | Yu Suzuki Game Works Vol. 1                                            | Sega                          | Sega Dreamcast | 2001 | Japan
+|       | Yukawa Moto Senmu no Okatara Ikushi                                    | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Yuki Gatari                                                            | Takuyo                        | Sega Dreamcast | 2002 | Japan
+|       | Yukyu Gensokyoku 3: Perpetual Blue                                     | Media Works                   | Sega Dreamcast | 1999 | Japan
+|       | Yume no Tsubasa: Fate of Heart                                         | Kid                           | Sega Dreamcast | 2001 | Japan
+|       | Yume Uma Ken '99 Internet                                              | Shangri-La                    | Sega Dreamcast | 1999 | Japan
+|       | Zero Gunner 2                                                          | Psikyo                        | Sega Dreamcast | 2001 | Japan
+|       | Zombie Revenge                                                         | Sega                          | Sega Dreamcast | 1999 | Japan
+|       | Zusar Vasar                                                            | Real Vision                   | Sega Dreamcast | 2000 | Japan

@@ -1,0 +1,891 @@
+| Owned | Title                                                                                                    | Publisher                              | System           | Year | Region
+|-------+----------------------------------------------------------------------------------------------------------+----------------------------------------+------------------+------+--------------
+|       | 007: Everything or Nothing                                                                               | EA Games                               | Game Boy Advance | 2003 | Europe
+|       | 007: NightFire                                                                                           | Electronic Arts                        | Game Boy Advance | 2003 | Europe
+|       | 2 Games In 1: Disney Princess + Disney's The Lion King                                                   | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | 2 Games In 1: Disney's Baren Bruder + Disney's Konig der Lowen                                           | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | 2 Games In 1: Disney's Brother Bear / Disney Princess                                                    | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | 2 Games in 1: Finding Nemo / Monsters, Inc.                                                              | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | 2 Games In 1: Finding Nemo / The Incredibles                                                             | THQ                                    | Game Boy Advance | 2007 | Europe
+|       | 2 Games in 1: GT Advance 3: Pro Concept Racing + MotoGP                                                  | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | 2 Games In 1: LEGO Knights' Kingdom + LEGO Bionicle                                                      | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | 2 Games in 1: Scooby-Doo and the Cyber Chase + Scooby-Doo! Mystery Mayhem                                | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | 2 Games in 1: Sonic Advance + Sonic Battle                                                               | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | 2 Games in 1: Sonic Advance + Sonic Pinball Party                                                        | Sega                                   | Game Boy Advance | 2005 | Europe
+|       | 2 Games In 1: Sonic Pinball Party / Columns Crown                                                        | Sega                                   | Game Boy Advance | 2006 | Europe
+|       | 2 Games In 1: Sonic Pinball Party + Sonic Battle                                                         | Sega                                   | Game Boy Advance | 2005 | Europe
+|       | 2 Games In 1: SpongeBob SquarePants: SuperSponge / Revenge of the Flying Dutchman                        | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | 2 Games In 1: SpongeBob SquarePants: SuperSponge / Rugrats Go Wild                                       | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | 2 Games In 1: The SpongeBob SquarePants Movie / SpongeBob SquarePants and Friends in Freeze Frame Frenzy | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | 2 In 1 Game Pack: Shrek 2 / Shark Tale                                                                   | Activision                             | Game Boy Advance | 2005 | Europe
+|       | 2 In 1 Game Pack: Spider-Man / Spider-Man 2                                                              | Activision                             | Game Boy Advance | 2005 | Europe
+|       | 2 In 1: Asterix & Obelix Jetzt Geht's Rund! + Asterix & Obelix XXL                                       | Atari SA                               | Game Boy Advance | 2005 | Europe
+|       | 2 Jeux En 1: Titeuf: Ze Gag Machine / Titeuf: Mega Compet                                                | Atari SA                               | Game Boy Advance | 2005 | Europe
+|       | 3 Games in 1: Tak and the Power of Juju / SpongeBob SquarePants: SuperSponge / Rugrats: I Gotta Go Party | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | A Sound of Thunder                                                                                       | Bam Entertainment                      | Game Boy Advance | 2004 | Europe
+|       | Ace Combat Advance                                                                                       | Atari SA                               | Game Boy Advance | 2006 | Europe
+|       | Ace Lightning                                                                                            | BBC Multimedia                         | Game Boy Advance | 2002 | Europe
+|       | Action Man: Robot Atak                                                                                   | Atari SA                               | Game Boy Advance | 2004 | Europe
+|       | Advance Guardian Heroes                                                                                  | Ubisoft                                | Game Boy Advance | 2005 | Europe
+|       | Advance Wars                                                                                             | Nintendo                               | Game Boy Advance | 2002 | Europe
+|       | Advance Wars 2: Black Hole Rising                                                                        | Nintendo                               | Game Boy Advance | 2003 | Europe
+|       | Adventures of Jimmy Neutron Boy Genius vs. Jimmy Negatron, The                                           | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Adventures of Jimmy Neutron Boy Genius: Attack of the Twonkies, The                                      | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Adventures of Jimmy Neutron Boy Genius: Jet Fusion, The                                                  | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Aero the Acro-bat                                                                                        | Zoo Digital Publishing                 | Game Boy Advance | 2003 | Europe
+|       | Agassi Tennis Generation 2002                                                                            | Cryo Interactive                       | Game Boy Advance | 2003 | Europe
+|       | Agent Hugo: Roborumble                                                                                   | ITE Media                              | Game Boy Advance | 2007 | Europe
+|       | Aggressive Inline                                                                                        | Acclaim                                | Game Boy Advance | 2002 | Europe
+|       | Alex Rider: Stormbreaker                                                                                 | THQ                                    | Game Boy Advance | 2006 | Europe
+|       | Alexander Zickler Total Soccer 2002                                                                      | Ubisoft                                | Game Boy Advance | 2001 | Europe
+|       | Alexandra Ledermann                                                                                      | Ubisoft                                | Game Boy Advance | 2005 | Europe
+|       | Alexandra Ledermann: Aventures au Galop                                                                  | Ubisoft                                | Game Boy Advance | 2007 | Europe
+|       | Alien Hominid                                                                                            | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Alienators: Evolution Continues                                                                          | Activision                             | Game Boy Advance | 2001 | Europe
+|       | All Grown Up! Express Yourself                                                                           | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Altered Beast: Guardian of the Realms                                                                    | Sega                                   | Game Boy Advance | 2003 | Europe
+|       | An American Tail: Fievel's Gold Rush                                                                     | Conspiracy Entertainment               | Game Boy Advance | 2002 | Europe
+|       | Animal Snap: Rescue Them 2 By 2                                                                          | Ignition Entertainment                 | Game Boy Advance | 2003 | Europe
+|       | Animaniacs: Lights, Camera, Action!                                                                      | Ignition Entertainment                 | Game Boy Advance | 2005 | Europe
+|       | Ant Bully, The                                                                                           | Midway                                 | Game Boy Advance | 2006 | Europe
+|       | Antz Extreme Racing                                                                                      | LSP                                    | Game Boy Advance | 2002 | Europe
+|       | Armoured Assault                                                                                         | Majesco                                | Game Boy Advance | 2003 | Europe
+|       | Army Men Advance                                                                                         | 3DO                                    | Game Boy Advance | 2001 | Europe
+|       | Army Men: Operation Green                                                                                | 3DO                                    | Game Boy Advance | 2002 | Europe
+|       | Around the World in 80 Days                                                                              | Hip Games                              | Game Boy Advance | 2004 | Europe
+|       | Arthur and the Minimoys                                                                                  | Atari SA                               | Game Boy Advance | 2007 | Europe
+|       | Asterix & Obelix XXL                                                                                     | Atari SA                               | Game Boy Advance | 2004 | Europe
+|       | Asterix & Obelix: Paf! Par Toutatis!                                                                     | Infogrames                             | Game Boy Advance | 2002 | Europe
+|       | Astro Boy: Omega Factor                                                                                  | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Atari Anniversary Advance                                                                                | Infogrames                             | Game Boy Advance | 2003 | Europe
+|       | Atomic Betty                                                                                             | Atari SA                               | Game Boy Advance | 2006 | Europe
+|       | ATV: Quad Power Racing                                                                                   | Liquid Games                           | Game Boy Advance | 2002 | Europe
+|       | ATV: Thunder Ridge Riders                                                                                | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Avatar: The Legend of Aang                                                                               | THQ                                    | Game Boy Advance | 2007 | Europe
+|       | Avatar: The Legend of Aang - The Burning Earth                                                           | THQ                                    | Game Boy Advance | 2007 | Europe
+|       | Babar to the Rescue                                                                                      | The Game Factory                       | Game Boy Advance | 2006 | Europe
+|       | Back to Stone                                                                                            | Neko Entertainment                     | Game Boy Advance | 2007 | Europe
+|       | BackTrack                                                                                                | Telegames                              | Game Boy Advance | 2001 | Europe
+|       | Baldur's Gate: Dark Alliance                                                                             | Destination Software                   | Game Boy Advance | 2004 | Europe
+|       | Ballistic: Ecks vs. Sever II                                                                             | Bam Entertainment                      | Game Boy Advance | 2002 | Europe
+|       | Banjo-Kazooie: Grunty's Revenge                                                                          | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Banjo-Pilot                                                                                              | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Barbie and the Magic of Pegasus                                                                          | VU Games                               | Game Boy Advance | 2005 | Europe
+|       | Barbie as the Princess and the Pauper                                                                    | VU Games                               | Game Boy Advance | 2004 | Europe
+|       | Barbie Diaries: High School Mystery, The                                                                 | Activision                             | Game Boy Advance | 2006 | Europe
+|       | Barbie Horse Adventures                                                                                  | VU Games                               | Game Boy Advance | 2003 | Europe
+|       | Barbie in The 12 Dancing Princesses                                                                      | Activision                             | Game Boy Advance | 2006 | Europe
+|       | Barbie Software: Groovy Games                                                                            | VU Games                               | Game Boy Advance | 2002 | Europe
+|       | Barbie Superpack 2 in 1: Secret Agent / Groovy Games                                                     | VU Games                               | Game Boy Advance | 2005 | Europe
+|       | Batman Begins                                                                                            | EA Games                               | Game Boy Advance | 2005 | Europe
+|       | Batman: Vengeance                                                                                        | Ubisoft                                | Game Boy Advance | 2001 | Europe
+|       | Battlebots: Beyond the Battlebox                                                                         | Sierra Entertainment                   | Game Boy Advance | 2003 | Europe
+|       | Best Friends: Hunde & Katzen                                                                             | DTP Entertainment                      | Game Boy Advance | 2006 | Europe
+|       | Beyblade G-Revolution                                                                                    | Atari SA                               | Game Boy Advance | 2004 | Europe
+|       | Beyblade VForce: Ultimate Blader Jam                                                                     | Atari SA                               | Game Boy Advance | 2003 | Europe
+|       | Bibi Blocksberg: Der Magische Hexenkreis                                                                 | Kiddinx                                | Game Boy Advance | 2005 | Europe
+|       | Bibi und Tina: Ferien auf dem Martinshof                                                                 | Kiddinx                                | Game Boy Advance | 2006 | Europe
+|       | Big Mutha Truckers                                                                                       | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Bionicle                                                                                                 | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Bionicle Heroes                                                                                          | Eidos Interactive                      | Game Boy Advance | 2006 | Europe
+|       | Bionicle: Matoran Adventures                                                                             | Electronic Arts                        | Game Boy Advance | 2002 | Europe
+|       | Bionicle: Maze of Shadows                                                                                | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Black Belt Challenge                                                                                     | Xicat Interactive                      | Game Boy Advance | 2002 | Europe
+|       | Blackthorne                                                                                              | Blizzard Classic Arcade                | Game Boy Advance | 2003 | Europe
+|       | Blue Angelo: Angels from the Shrine                                                                      | Shibuya Interactive                    | Game Boy Advance | 2005 | Europe
+|       | Board Game Classics: Chess & Draughts & Backgammon                                                       | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Boktai 2: Solar Boy Django                                                                               | Konami                                 | Game Boy Advance | 2005 | Europe
+|       | Boktai: The Sun Is in Your Hand                                                                          | Konami                                 | Game Boy Advance | 2004 | Europe
+|       | Bomberman Max 2: Blue Advance                                                                            | Sierra Entertainment                   | Game Boy Advance | 2003 | Europe
+|       | Bomberman Max 2: Red Advance                                                                             | Sierra Entertainment                   | Game Boy Advance | 2003 | Europe
+|       | Bomberman Tournament                                                                                     | Activision                             | Game Boy Advance | 2001 | Europe
+|       | Boulder Dash EX                                                                                          | Kemco                                  | Game Boy Advance | 2003 | Europe
+|       | Boxing Fever                                                                                             | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Bratz                                                                                                    | Ubisoft                                | Game Boy Advance | 2003 | Europe
+|       | Bratz: Babyz                                                                                             | THQ                                    | Game Boy Advance | 2006 | Europe
+|       | Bratz: Forever Diamondz                                                                                  | THQ                                    | Game Boy Advance | 2006 | Europe
+|       | Bratz: Rock Angelz                                                                                       | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Breath of Fire                                                                                           | Ubisoft                                | Game Boy Advance | 2001 | Europe
+|       | Breath of Fire II                                                                                        | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Brick Em' All                                                                                            | 505 Game Street                        | Game Boy Advance | 2006 | Europe
+|       | Britney's Dance Beat                                                                                     | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Broken Sword: The Shadow of the Templars                                                                 | Bam Entertainment                      | Game Boy Advance | 2002 | Europe
+|       | Bruce Lee: Return of the Legend                                                                          | Universal Interactive                  | Game Boy Advance | 2003 | Europe
+|       | Bubble Bobble: Old & New                                                                                 | Empire Interactive                     | Game Boy Advance | 2003 | Europe
+|       | Buffy the Vampire Slayer: Wrath of the Darkhul King                                                      | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Butt Ugly Martians: B.K.M. Battles                                                                       | VU Games                               | Game Boy Advance | 2002 | Europe
+|       | Cabbage Patch Kids: The Patch Puppy Rescue                                                               | D3Publisher                            | Game Boy Advance | 2006 | Europe
+|       | Cabela's Big Game Hunter 2005 Adventures                                                                 | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Caesars Palace Advance: Millenium Gold Edition                                                           | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | CandyLand & Chutes and Ladders & Original Memory Game                                                    | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Care Bears: Care Quest                                                                                   | The Game Factory                       | Game Boy Advance | 2006 | Europe
+|       | Carrera Power Slide                                                                                      | Stadlbauer                             | Game Boy Advance | 2003 | Europe
+|       | Cars                                                                                                     | THQ                                    | Game Boy Advance | 2006 | Europe
+|       | Cartoon Network Block Party / Speedway                                                                   | THQ                                    | Game Boy Advance | 2006 | Europe
+|       | Casper                                                                                                   | Microids                               | Game Boy Advance | 2002 | Europe
+|       | Castlevania                                                                                              | Konami                                 | Game Boy Advance | 2001 | Europe
+|       | Castlevania Double Pack                                                                                  | Konami                                 | Game Boy Advance | 2006 | Europe
+|       | Castlevania: Aria of Sorrow                                                                              | Konami                                 | Game Boy Advance | 2003 | Europe
+|       | Castlevania: Harmony of Dissonance                                                                       | Konami                                 | Game Boy Advance | 2002 | Europe
+|       | Castleween                                                                                               | Wanadoo                                | Game Boy Advance | 2003 | Europe
+|       | Cat in the Hat, The                                                                                      | Knowledge Adventure Inc.               | Game Boy Advance | 2004 | Europe
+|       | Catwoman                                                                                                 | EA Games                               | Game Boy Advance | 2004 | Europe
+|       | Catz                                                                                                     | Ubisoft                                | Game Boy Advance | 2006 | Europe
+|       | Centipede / Breakout / Warlords                                                                          | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Charlie and the Chocolate Factory                                                                        | Global Star Software                   | Game Boy Advance | 2005 | Europe
+|       | Charlotte's Web                                                                                          | Sega                                   | Game Boy Advance | 2007 | Europe
+|       | Chessmaster                                                                                              | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Chicken Shoot                                                                                            | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Chicken Shoot 2                                                                                          | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Chronicles of Narnia: The Lion, The Witch and The Wardrobe, The                                          | Disney Interactive Studios             | Game Boy Advance | 2005 | Europe
+|       | ChuChu Rocket!                                                                                           | Infogrames                             | Game Boy Advance | 2001 | Europe
+|       | Classic NES Series: Bomberman                                                                            | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Classic NES Series: Castlevania                                                                          | Nintendo                               | Game Boy Advance | 2005 | Europe
+|       | Classic NES Series: Donkey Kong                                                                          | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Classic NES Series: Dr. Mario                                                                            | Nintendo                               | Game Boy Advance | 2005 | Europe
+|       | Classic NES Series: Excitebike                                                                           | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Classic NES Series: Ice Climber                                                                          | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Classic NES Series: Metroid                                                                              | Nintendo                               | Game Boy Advance | 2005 | Europe
+|       | Classic NES Series: Pac-Man                                                                              | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Classic NES Series: Super Mario Bros.                                                                    | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Classic NES Series: Xevious                                                                              | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Cocoto Kart Racer                                                                                        | BigBen Interactive                     | Game Boy Advance | 2005 | Europe
+|       | Cocoto Platform Jumper                                                                                   | BigBen Interactive                     | Game Boy Advance | 2007 | Europe
+|       | Colin McRae Rally 2.0                                                                                    | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Columns Crown                                                                                            | Sega                                   | Game Boy Advance | 2001 | Europe
+|       | Columns Crown / ChuChu Rocket!                                                                           | Sega                                   | Game Boy Advance | 2008 | Europe
+|       | Comix Zone                                                                                               | Sega                                   | Game Boy Advance | 2002 | Europe
+|       | Connect Four / Perfection / Trouble                                                                      | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Contra Advance: The Alien Wars EX                                                                        | Konami                                 | Game Boy Advance | 2003 | Europe
+|       | Crash & Spyro Superpack Volume 1                                                                         | VU Games                               | Game Boy Advance | 2005 | Europe
+|       | Crash Bandicoot 2: N-Tranced                                                                             | Universal Interactive                  | Game Boy Advance | 2003 | Europe
+|       | Crash Bandicoot Fusion                                                                                   | VU Games                               | Game Boy Advance | 2004 | Europe
+|       | Crash Bandicoot XS                                                                                       | Universal Interactive                  | Game Boy Advance | 2002 | Europe
+|       | Crash Nitro Kart                                                                                         | Universal Interactive                  | Game Boy Advance | 2003 | Europe
+|       | Crash of the Titans                                                                                      | Sierra Entertainment                   | Game Boy Advance | 2007 | Europe
+|       | Crazy Chase                                                                                              | Kemco                                  | Game Boy Advance | 2002 | Europe
+|       | Crazy Frog Racer                                                                                         | Digital Jesters                        | Game Boy Advance | 2005 | Europe
+|       | Crazy Taxi: Catch a Ride                                                                                 | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Creatures                                                                                                | Swing! Deutschland                     | Game Boy Advance | 2002 | Europe
+|       | Crouching Tiger, Hidden Dragon                                                                           | Ubisoft                                | Game Boy Advance | 2003 | Europe
+|       | Cruis'n Velocity                                                                                         | Midway                                 | Game Boy Advance | 2002 | Europe
+|       | CT Special Forces                                                                                        | LSP                                    | Game Boy Advance | 2002 | Europe
+|       | CT Special Forces 3: BioTerror                                                                           | LSP                                    | Game Boy Advance | 2004 | Europe
+|       | CT Special Forces: Back to Hell                                                                          | LSP                                    | Game Boy Advance | 2003 | Europe
+|       | Curious George                                                                                           | Namco                                  | Game Boy Advance | 2006 | Europe
+|       | Daredevil                                                                                                | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Dark Arena                                                                                               | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Dave Mirra Freestyle BMX 2                                                                               | Acclaim                                | Game Boy Advance | 2002 | Europe
+|       | Dave Mirra Freestyle BMX 3                                                                               | Acclaim                                | Game Boy Advance | 2002 | Europe
+|       | David Beckham Soccer                                                                                     | Rage Software                          | Game Boy Advance | 2002 | Europe
+|       | Davis Cup                                                                                                | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Dead to Rights                                                                                           | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | Deadly Skies                                                                                             | Konami                                 | Game Boy Advance | 2002 | Europe
+|       | Defender of the Crown                                                                                    | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | Defender: For All Mankind                                                                                | Midway                                 | Game Boy Advance | 2003 | Europe
+|       | Demon Driver: Time to Burn Some Rubber                                                                   | Ignition Entertainment                 | Game Boy Advance | 2003 | Europe
+|       | Denki Blocks!                                                                                            | Rage Software                          | Game Boy Advance | 2001 | Europe
+|       | Dexter's Laboratory: Chess Challenge                                                                     | Bam Entertainment                      | Game Boy Advance | 2002 | Europe
+|       | Dexter's Laboratory: Deesaster Strikes!                                                                  | Bam Entertainment                      | Game Boy Advance | 2001 | Europe
+|       | Die Biene Maja: Klatschmohnwiese in Gefahr                                                               | Midway                                 | Game Boy Advance | 2006 | Europe
+|       | Die Biene Maja: Suesses Gold                                                                             | Midway                                 | Game Boy Advance | 2005 | Europe
+|       | Die Wilden Fussball Kerle: Entscheidung im Teufelstopf                                                   | Kiddinx                                | Game Boy Advance | 2006 | Europe
+|       | Die Wilden Fussball Kerle: Gefahr im Wilde Kerle Land                                                    | Kiddinx                                | Game Boy Advance | 2007 | Europe
+|       | Digimon Battle Spirit                                                                                    | Bandai                                 | Game Boy Advance | 2003 | Europe
+|       | Digimon Battle Spirit 2                                                                                  | Bandai                                 | Game Boy Advance | 2004 | Europe
+|       | Digimon Racing                                                                                           | Bandai                                 | Game Boy Advance | 2004 | Europe
+|       | Dinotopia: The Timestone Pirates                                                                         | TDK Mediactive                         | Game Boy Advance | 2002 | Europe
+|       | Disney Princess                                                                                          | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Disney Princess: Royal Adventure                                                                         | Buena Vista Games                      | Game Boy Advance | 2006 | Europe
+|       | Disney Sports: Basketball                                                                                | Konami                                 | Game Boy Advance | 2003 | Europe
+|       | Disney Sports: Football                                                                                  | Konami                                 | Game Boy Advance | 2003 | Europe
+|       | Disney Sports: Motocross                                                                                 | Konami                                 | Game Boy Advance | 2003 | Europe
+|       | Disney Sports: Skateboarding                                                                             | Konami                                 | Game Boy Advance | 2003 | Europe
+|       | Disney Sports: Snowboarding                                                                              | Konami                                 | Game Boy Advance | 2003 | Europe
+|       | Disney's Aladdin                                                                                         | Capcom                                 | Game Boy Advance | 2004 | Europe
+|       | Disney's American Dragon: Jake Long                                                                      | Buena Vista Games                      | Game Boy Advance | 2006 | Europe
+|       | Disney's Atlantis: The Lost Empire                                                                       | THQ                                    | Game Boy Advance | 2001 | Europe
+|       | Disney's Brother Bear                                                                                    | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Disney's Chicken Little                                                                                  | Buena Vista Interactive                | Game Boy Advance | 2006 | Europe
+|       | Disney's Cinderella: Magical Dreams                                                                      | Buena Vista Interactive                | Game Boy Advance | 2005 | Europe
+|       | Disney's Donald Duck Advance                                                                             | Ubisoft                                | Game Boy Advance | 2001 | Europe
+|       | Disney's Extreme Skate Adventure                                                                         | Activision                             | Game Boy Advance | 2003 | Europe
+|       | Disney's Herbie: Fully Loaded                                                                            | Buena Vista Interactive                | Game Boy Advance | 2005 | Europe
+|       | Disney's Home on the Range                                                                               | Disney Interactive Studios             | Game Boy Advance | 2004 | Europe
+|       | Disney's Kim Possible                                                                                    | Buena Vista Interactive                | Game Boy Advance | 2003 | Europe
+|       | Disney's Kim Possible 2: Drakken's Demise                                                                | Buena Vista Interactive                | Game Boy Advance | 2006 | Europe
+|       | Disney's Lilo & Stitch                                                                                   | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Disney's Lilo & Stitch 2                                                                                 | Buena Vista Interactive                | Game Boy Advance | 2004 | Europe
+|       | Disney's Magical Quest 2 Starring Mickey and Minnie                                                      | Capcom                                 | Game Boy Advance | 2003 | Europe
+|       | Disney's Magical Quest 3 Starring Mickey and Donald                                                      | Capcom                                 | Game Boy Advance | 2004 | Europe
+|       | Disney's Magical Quest Starring Mickey & Minnie                                                          | Nintendo                               | Game Boy Advance | 2002 | Europe
+|       | Disney's Meet the Robinsons                                                                              | Disney Interactive Studios             | Game Boy Advance | 2007 | Europe
+|       | Disney's Party                                                                                           | Hudson                                 | Game Boy Advance | 2003 | Europe
+|       | Disney's Peter Pan: Return to Neverland                                                                  | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Disney's Piglet's Big Game                                                                               | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Disney's Tarzan: Return to the Jungle                                                                    | Activision                             | Game Boy Advance | 2002 | Europe
+|       | Disney's The Jungle Book 2                                                                               | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Disney's The Lion King                                                                                   | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Disney's The Little Mermaid: Magic in Two Kingdoms                                                       | Buena Vista Games                      | Game Boy Advance | 2006 | Europe
+|       | Disney's Treasure Planet                                                                                 | Ubisoft                                | Game Boy Advance | 2003 | Europe
+|       | Disney's Winnie the Pooh's Rumbly Tumbly Adventure                                                       | Ubisoft                                | Game Boy Advance | 2005 | Europe
+|       | Disney's Winnie the Pooh's Rumbly Tumbly Adventure / Rayman 3                                            | Ubisoft                                | Game Boy Advance | 2006 | Europe
+|       | Disney/Pixar Finding Nemo                                                                                | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Disney/Pixar Finding Nemo: The Continuing Adventures                                                     | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | Disney/Pixar Monsters, Inc.                                                                              | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Disney/Pixar Ratatouille                                                                                 | THQ                                    | Game Boy Advance | 2007 | Europe
+|       | DK: King of Swing                                                                                        | Nintendo                               | Game Boy Advance | 2005 | Europe
+|       | Dogz                                                                                                     | Ubisoft                                | Game Boy Advance | 2005 | Europe
+|       | Dogz 2                                                                                                   | Ubisoft                                | Game Boy Advance | 2007 | Europe
+|       | Dogz Fashion                                                                                             | Ubisoft                                | Game Boy Advance | 2006 | Europe
+|       | Dokapon: Monster Hunter!                                                                                 | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Donkey Kong Country                                                                                      | Nintendo                               | Game Boy Advance | 2003 | Europe
+|       | Donkey Kong Country 2                                                                                    | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Donkey Kong Country 3                                                                                    | Nintendo                               | Game Boy Advance | 2005 | Europe
+|       | Doom                                                                                                     | Activision                             | Game Boy Advance | 2001 | Europe
+|       | Doom II                                                                                                  | Activision                             | Game Boy Advance | 2002 | Europe
+|       | Dora the Explorer: Super Star Adventures                                                                 | The Game Factory                       | Game Boy Advance | 2006 | Europe
+|       | Double Game!: Monster Trucks & Quad Desert Fury                                                          | Majesco                                | Game Boy Advance | 2006 | Europe
+|       | Downforce                                                                                                | Titus Software                         | Game Boy Advance | 2002 | Europe
+|       | Dr. Mario / Puzzle League                                                                                | Nintendo                               | Game Boy Advance | 2005 | Europe
+|       | Dr. Muto                                                                                                 | Midway                                 | Game Boy Advance | 2002 | Europe
+|       | Dr. Sudoku                                                                                               | Mastiff                                | Game Boy Advance | 2006 | Europe
+|       | Dragon Ball Z: Supersonic Warriors                                                                       | Atari SA                               | Game Boy Advance | 2004 | Europe
+|       | Dragon Ball Z: Taiketsu                                                                                  | Atari SA                               | Game Boy Advance | 2004 | Europe
+|       | Dragon Ball Z: The Legacy of Goku                                                                        | Infogrames                             | Game Boy Advance | 2002 | Europe
+|       | Dragon Ball Z: The Legacy of Goku II                                                                     | Infogrames                             | Game Boy Advance | 2003 | Europe
+|       | Dragon Ball: Advanced Adventure                                                                          | Bandai                                 | Game Boy Advance | 2005 | Europe
+|       | Dragon's Rock                                                                                            | East Entertainment Media               | Game Boy Advance | 2006 | Europe
+|       | DreamWorks & Aardman Flushed Away                                                                        | D3Publisher                            | Game Boy Advance | 2006 | Europe
+|       | Dreamworks Madagascar: Operation Penguin                                                                 | Activision                             | Game Boy Advance | 2005 | Europe
+|       | DreamWorks Shark Tale                                                                                    | Activision                             | Game Boy Advance | 2004 | Europe
+|       | DRIV3R                                                                                                   | Atari SA                               | Game Boy Advance | 2005 | Europe
+|       | Driven                                                                                                   | Bam Entertainment                      | Game Boy Advance | 2001 | Europe
+|       | Driver 2 Advance                                                                                         | Atari SA                               | Game Boy Advance | 2002 | Europe
+|       | Drome Racers                                                                                             | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Droopy's Tennis Open                                                                                     | LSP                                    | Game Boy Advance | 2002 | Europe
+|       | Duel Masters 2: Kajudo Showdown                                                                          | Atari SA                               | Game Boy Advance | 2005 | Europe
+|       | Duel Masters 2: Kirifuda Shoubu Version                                                                  | Takara                                 | Game Boy Advance | 2005 | Europe
+|       | Duel Masters: Sempai Legends                                                                             | Atari SA                               | Game Boy Advance | 2004 | Europe
+|       | Duel Masters: Shadow of the Code                                                                         | Atari SA                               | Game Boy Advance | 2005 | Europe
+|       | Duke Nukem Advance                                                                                       | Take-Two Interactive                   | Game Boy Advance | 2002 | Europe
+|       | Dungeons & Dragons: Eye of the Beholder                                                                  | Infogrames                             | Game Boy Advance | 2002 | Europe
+|       | Dynasty Warriors Advance                                                                                 | Nintendo                               | Game Boy Advance | 2005 | Europe
+|       | E.T. The 20th Anniversary                                                                                | NewKidCo                               | Game Boy Advance | 2002 | Europe
+|       | Earthworm Jim                                                                                            | Interplay                              | Game Boy Advance | 2001 | Europe
+|       | Earthworm Jim 2                                                                                          | Sierra Entertainment                   | Game Boy Advance | 2002 | Europe
+|       | Ecks vs. Sever                                                                                           | Bam Entertainment                      | Game Boy Advance | 2001 | Europe
+|       | Ed, Edd n Eddy: Jawbreakers!                                                                             | Bam Entertainment                      | Game Boy Advance | 2002 | Europe
+|       | Ed, Edd n Eddy: The Mis-Edventures                                                                       | Midway                                 | Game Boy Advance | 2005 | Europe
+|       | Eggo Mania                                                                                               | Kemco                                  | Game Boy Advance | 2002 | Europe
+|       | Elf: The Movie                                                                                           | Crave                                  | Game Boy Advance | 2005 | Europe
+|       | Eragon                                                                                                   | Sierra Entertainment                   | Game Boy Advance | 2006 | Europe
+|       | ESPN Final Round Golf                                                                                    | Konami                                 | Game Boy Advance | 2001 | Europe
+|       | ESPN Great Outdoor Games Bass 2002                                                                       | Konami                                 | Game Boy Advance | 2002 | Europe
+|       | ESPN International Winter Sports                                                                         | Konami                                 | Game Boy Advance | 2002 | Europe
+|       | ESPN Winter X-Games Snowboarding 2                                                                       | Konami                                 | Game Boy Advance | 2002 | Europe
+|       | ESPN X-Games Skateboarding                                                                               | Konami                                 | Game Boy Advance | 2001 | Europe
+|       | European Super League                                                                                    | Virgin Interactive                     | Game Boy Advance | 2001 | Europe
+|       | Extreme Ghostbusters: Code Ecto-1                                                                        | LSP                                    | Game Boy Advance | 2002 | Europe
+|       | F-14 Tomcat                                                                                              | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | F-Zero: GP Legend                                                                                        | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | F-Zero: Maximum Velocity                                                                                 | Nintendo                               | Game Boy Advance | 2001 | Europe
+|       | F1 2002                                                                                                  | EA Sports                              | Game Boy Advance | 2002 | Europe
+|       | Fairly Oddparents! Clash with the Anti-World, The                                                        | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Fairly OddParents! Shadow Showdown, The                                                                  | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Fantastic 4                                                                                              | Activision                             | Game Boy Advance | 2005 | Europe
+|       | Fantastic 4: Flame on                                                                                    | Activision                             | Game Boy Advance | 2005 | Europe
+|       | FIFA 06                                                                                                  | Electronic Arts                        | Game Boy Advance | 2005 | Europe
+|       | FIFA 07                                                                                                  | EA Sports                              | Game Boy Advance | 2006 | Europe
+|       | FIFA Football 2003                                                                                       | Electronic Arts                        | Game Boy Advance | 2002 | Europe
+|       | FIFA Football 2004                                                                                       | EA Sports                              | Game Boy Advance | 2003 | Europe
+|       | FIFA Football 2005                                                                                       | Electronic Arts                        | Game Boy Advance | 2004 | Europe
+|       | FIFA World Cup: Germany 2006                                                                             | Electronic Arts                        | Game Boy Advance | 2006 | Europe
+|       | FightBox                                                                                                 | BBC Multimedia                         | Game Boy Advance | 2004 | Europe
+|       | Fila Decathalon                                                                                          | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Final Fantasy I & II: Dawn of Souls                                                                      | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Final Fantasy IV Advance                                                                                 | Nintendo                               | Game Boy Advance | 2006 | Europe
+|       | Final Fantasy Tactics Advance                                                                            | Square Enix                            | Game Boy Advance | 2003 | Europe
+|       | Final Fantasy V Advance                                                                                  | Nintendo                               | Game Boy Advance | 2007 | Europe
+|       | Final Fantasy VI Advance                                                                                 | Nintendo                               | Game Boy Advance | 2007 | Europe
+|       | Final Fight One                                                                                          | Capcom                                 | Game Boy Advance | 2001 | Europe
+|       | Finding Nemo / Finding Nemo: The Continuing Adventures                                                   | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Fire Emblem                                                                                              | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Fire Emblem: The Sacred Stones                                                                           | Nintendo                               | Game Boy Advance | 2005 | Europe
+|       | Fire Pro Wrestling                                                                                       | Bam Entertainment                      | Game Boy Advance | 2001 | Europe
+|       | Flintstones: Big Trouble in Bedrock, The                                                                 | Swing! Deutschland                     | Game Boy Advance | 2002 | Europe
+|       | Football Mania                                                                                           | Electronic Arts                        | Game Boy Advance | 2002 | Europe
+|       | Ford Racing 3                                                                                            | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Fortress                                                                                                 | Majesco                                | Game Boy Advance | 2001 | Europe
+|       | Foster's Home for Imaginary Friends                                                                      | Crave                                  | Game Boy Advance | 2006 | Europe
+|       | Franklin the Turtle                                                                                      | The Game Factory                       | Game Boy Advance | 2006 | Europe
+|       | Franklin's Great Adventures                                                                              | The Game Factory                       | Game Boy Advance | 2006 | Europe
+|       | Freekstyle                                                                                               | Zoo Digital Publishing                 | Game Boy Advance | 2003 | Europe
+|       | Freestyle Scooter                                                                                        | Crave                                  | Game Boy Advance | 2001 | Europe
+|       | Frogger Advance: The Great Quest                                                                         | Konami                                 | Game Boy Advance | 2002 | Europe
+|       | Frogger's Adventures 2: The Lost Wand                                                                    | Konami                                 | Game Boy Advance | 2003 | Europe
+|       | Frogger's Adventures: Temple of the Frog Advance                                                         | Konami                                 | Game Boy Advance | 2001 | Europe
+|       | Funny Cards                                                                                              | 505 Game Street                        | Game Boy Advance | 2006 | Europe
+|       | Gadget Racers                                                                                            | Zoo Digital Publishing                 | Game Boy Advance | 2003 | Europe
+|       | Game & Watch Gallery Advance                                                                             | Nintendo                               | Game Boy Advance | 2002 | Europe
+|       | Game of Life & Yahtzee & Payday, The                                                                     | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Garfield and His Nine Lives                                                                              | The Game Factory                       | Game Boy Advance | 2006 | Europe
+|       | Garfield: The Search For Pooky                                                                           | KE Media                               | Game Boy Advance | 2004 | Europe
+|       | Gauntlet / Rampart                                                                                       | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Gekido Advance: Kintaro's Revenge                                                                        | Zoo Digital Publishing                 | Game Boy Advance | 2002 | Europe
+|       | Ghost Rider                                                                                              | 2K Games                               | Game Boy Advance | 2007 | Europe
+|       | Glory Days: The Essence of War                                                                           | Flashpoint Games                       | Game Boy Advance | 2005 | Europe
+|       | Go! Go! Beckham! Adventure on Soccer Island                                                              | Rage Software                          | Game Boy Advance | 2002 | Europe
+|       | Godzilla: Domination                                                                                     | Atari SA                               | Game Boy Advance | 2002 | Europe
+|       | Golden Nugget Casino / Texas Hold 'Em Double Pack                                                        | Majesco                                | Game Boy Advance | 2005 | Europe
+|       | Golden Sun                                                                                               | Nintendo                               | Game Boy Advance | 2002 | Europe
+|       | Golden Sun: The Lost Age                                                                                 | Nintendo                               | Game Boy Advance | 2003 | Europe
+|       | Gradius Advance                                                                                          | Konami                                 | Game Boy Advance | 2001 | Europe
+|       | Grand Theft Auto                                                                                         | Rockstar Games                         | Game Boy Advance | 2004 | Europe
+|       | Gremlins: Stripe vs Gizmo                                                                                | Wanadoo                                | Game Boy Advance | 2002 | Europe
+|       | GT Advance 2: Rally Racing                                                                               | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | GT Advance 3: Pro Concept Racing                                                                         | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | GT Advance Championship Racing                                                                           | THQ                                    | Game Boy Advance | 2001 | Europe
+|       | GT Racers                                                                                                | Liquid Games                           | Game Boy Advance | 2006 | Europe
+|       | Guilty Gear X Advance Edition                                                                            | Sammy Studios                          | Game Boy Advance | 2002 | Europe
+|       | Gunstar Future Heroes                                                                                    | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Hamtaro: Ham Ham Heartbreak                                                                              | Nintendo                               | Game Boy Advance | 2003 | Europe
+|       | Hamtaro: Ham-Ham Games                                                                                   | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Hamtaro: Rainbow Rescue                                                                                  | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Happy Feet                                                                                               | Warner Bros. Interactive Entertainment | Game Boy Advance | 2006 | Europe
+|       | Hardcore Pool                                                                                            | Neko Entertainment                     | Game Boy Advance | 2003 | Europe
+|       | Harlem Globetrotters: World Tour                                                                         | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Harry Potter and the Chamber of Secrets                                                                  | EA Games                               | Game Boy Advance | 2002 | Europe
+|       | Harry Potter and the Goblet of Fire                                                                      | Electronic Arts                        | Game Boy Advance | 2005 | Europe
+|       | Harry Potter and the Order of the Phoenix                                                                | EA Games                               | Game Boy Advance | 2007 | Europe
+|       | Harry Potter and the Philosopher's Stone                                                                 | Electronic Arts                        | Game Boy Advance | 2001 | Europe
+|       | Harry Potter and the Prisoner of Azkaban                                                                 | EA Games                               | Game Boy Advance | 2004 | Europe
+|       | Harry Potter: Quidditch World Cup                                                                        | Electronic Arts                        | Game Boy Advance | 2003 | Europe
+|       | Harvest Moon: Friends of Mineral Town                                                                    | Ubisoft                                | Game Boy Advance | 2004 | Europe
+|       | Heidi: The Game                                                                                          | East Entertainment Media               | Game Boy Advance | 2005 | Europe
+|       | Hello Kitty: Happy Party Pals                                                                            | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Hey Arnold! The Movie                                                                                    | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Hi Hi Puffy AmiYumi: Kaznapped!                                                                          | D3Publisher                            | Game Boy Advance | 2006 | Europe
+|       | High Heat Major League Baseball 2002                                                                     | 3DO                                    | Game Boy Advance | 2001 | Europe
+|       | Hobbit: The Prelude to the Lord of the Rings, The                                                        | Sierra Entertainment                   | Game Boy Advance | 2003 | Europe
+|       | Hot Potato!                                                                                              | Bam Entertainment                      | Game Boy Advance | 2001 | Europe
+|       | Hot Wheels: All Out                                                                                      | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Hot Wheels: Burnin' Rubber                                                                               | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Hot Wheels: Stunt Track Challenge / Hot Wheels: World Race                                               | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Hot Wheels: Velocity X                                                                                   | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Hot Wheels: World Race                                                                                   | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Hugo 2in1: Bukkazoom! / The Evil Mirror                                                                  | ITE Media                              | Game Boy Advance | 2005 | Europe
+|       | Hugo Bukkazoom!                                                                                          | Namco                                  | Game Boy Advance | 2003 | Europe
+|       | Hugo: The Evil Mirror                                                                                    | ITE Media                              | Game Boy Advance | 2002 | Europe
+|       | Ice Age                                                                                                  | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Ice Age 2: The Meltdown                                                                                  | Sierra Entertainment                   | Game Boy Advance | 2006 | Europe
+|       | Ice Nine                                                                                                 | Bam Entertainment                      | Game Boy Advance | 2005 | Europe
+|       | IK+                                                                                                      | Ignition Entertainment                 | Game Boy Advance | 2003 | Europe
+|       | Incredible Hulk, The                                                                                     | Universal Interactive                  | Game Boy Advance | 2003 | Europe
+|       | Incredibles, The                                                                                         | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | Incredibles: Rise of the Underminer, The                                                                 | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Inspector Gadget Racing                                                                                  | LSP                                    | Game Boy Advance | 2003 | Europe
+|       | Inspector Gadget: Advance Mission                                                                        | LSP                                    | Game Boy Advance | 2001 | Europe
+|       | International Karate Advanced                                                                            | Studio 3                               | Game Boy Advance | 2001 | Europe
+|       | International Superstar Soccer                                                                           | Konami                                 | Game Boy Advance | 2001 | Europe
+|       | International Superstar Soccer Advance                                                                   | Konami                                 | Game Boy Advance | 2003 | Europe
+|       | Invader                                                                                                  | Xicat Interactive                      | Game Boy Advance | 2002 | Europe
+|       | Iridion 3D                                                                                               | Interplay                              | Game Boy Advance | 2001 | Europe
+|       | Iridion II                                                                                               | VU Games                               | Game Boy Advance | 2003 | Europe
+|       | It's Mr Pants                                                                                            | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Jackie Chan Adventures: Legend of the Dark Hand                                                          | Activision                             | Game Boy Advance | 2001 | Europe
+|       | James Pond: Codename Robocod                                                                             | Play It                                | Game Boy Advance | 2005 | Europe
+|       | Jazz Jackrabbit                                                                                          | Jaleco Entertainment                   | Game Boy Advance | 2003 | Europe
+|       | Jet Set Radio                                                                                            | Sega                                   | Game Boy Advance | 2004 | Europe
+|       | Jimmy Neutron: Boy Genius                                                                                | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Juka and the Monophonic Menace                                                                           | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Jurassic Park III: Dino Attack                                                                           | Konami                                 | Game Boy Advance | 2002 | Europe
+|       | Jurassic Park III: Park Builder                                                                          | Konami                                 | Game Boy Advance | 2001 | Europe
+|       | Jurassic Park III: The DNA Factor                                                                        | Konami                                 | Game Boy Advance | 2001 | Europe
+|       | Justice League Heroes: The Flash                                                                         | Eidos Interactive                      | Game Boy Advance | 2006 | Europe
+|       | Justice League: Injustice for All                                                                        | Midway                                 | Game Boy Advance | 2002 | Europe
+|       | Kao the Kangaroo                                                                                         | Titus Software                         | Game Boy Advance | 2001 | Europe
+|       | Karnaaj Rally                                                                                            | Jaleco Entertainment                   | Game Boy Advance | 2003 | Europe
+|       | Kelly Slater's Pro Surfer                                                                                | Activision                             | Game Boy Advance | 2002 | Europe
+|       | Kid Paddle                                                                                               | Atari SA                               | Game Boy Advance | 2005 | Europe
+|       | kill.switch                                                                                              | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | Killer 3D Pool                                                                                           | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | King Kong: The Official Game of the Movie                                                                | Ubisoft                                | Game Boy Advance | 2005 | Europe
+|       | King of Fighters EX: Neo Blood, The                                                                      | Sammy Studios                          | Game Boy Advance | 2002 | Europe
+|       | King of Fighters EX2: Howling Blood, The                                                                 | Acclaim                                | Game Boy Advance | 2003 | Europe
+|       | Kingdom Hearts: Chain of Memories                                                                        | Square Enix                            | Game Boy Advance | 2005 | Europe
+|       | Kirby & The Amazing Mirror                                                                               | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Kirby: Nightmare in Dream Land                                                                           | Nintendo                               | Game Boy Advance | 2003 | Europe
+|       | Klonoa: Empire of Dreams                                                                                 | Infogrames                             | Game Boy Advance | 2002 | Europe
+|       | Koala Brothers: Outback Adventures, The                                                                  | The Game Factory                       | Game Boy Advance | 2006 | Europe
+|       | Konami Collector's Series: Arcade Classics                                                               | Konami                                 | Game Boy Advance | 2002 | Europe
+|       | Konami Krazy Racers                                                                                      | Konami                                 | Game Boy Advance | 2001 | Europe
+|       | Kong: King of Atlantis                                                                                   | THQ                                    | Game Boy Advance | 2006 | Europe
+|       | Kong: The Animated Series                                                                                | Bam Entertainment                      | Game Boy Advance | 2003 | Europe
+|       | Kuru Kuru Kururin                                                                                        | Nintendo                               | Game Boy Advance | 2001 | Europe
+|       | L'Aigle de Guerre                                                                                        | Nintendo                               | Game Boy Advance | 2001 | Europe
+|       | Lady Sia                                                                                                 | TDK Core                               | Game Boy Advance | 2001 | Europe
+|       | Land Before Time, The                                                                                    | Conspiracy Entertainment               | Game Boy Advance | 2002 | Europe
+|       | Land Before Time: Into the Mysterious Beyond, The                                                        | The Game Factory                       | Game Boy Advance | 2006 | Europe
+|       | Lara Croft - Tomb Raider: Legend                                                                         | Eidos Interactive                      | Game Boy Advance | 2006 | Europe
+|       | Lara Croft - Tomb Raider: The Prophecy                                                                   | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Legend of Spyro: A New Beginning, The                                                                    | Sierra Entertainment                   | Game Boy Advance | 2006 | Europe
+|       | Legend of Spyro: The Eternal Night, The                                                                  | Sierra Entertainment                   | Game Boy Advance | 2007 | Europe
+|       | Legend of Zelda: A Link to the Past, The                                                                 | Nintendo                               | Game Boy Advance | 2003 | Europe
+|       | Legend of Zelda: The Minish Cap, The                                                                     | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Legends of Wrestling II                                                                                  | Acclaim                                | Game Boy Advance | 2002 | Europe
+|       | LEGO Bionicle                                                                                            | Lego Media                             | Game Boy Advance | 2001 | Europe
+|       | LEGO Island 2: The Brickster's Revenge                                                                   | Lego Media                             | Game Boy Advance | 2001 | Europe
+|       | LEGO Knights' Kingdom                                                                                    | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | LEGO Racers 2                                                                                            | Lego Media                             | Game Boy Advance | 2001 | Europe
+|       | LEGO Star Wars II: The Original Trilogy                                                                  | LucasArts                              | Game Boy Advance | 2006 | Europe
+|       | LEGO Star Wars: The Video Game                                                                           | Eidos Interactive                      | Game Boy Advance | 2005 | Europe
+|       | Lemony Snicket's A Series of Unfortunate Events                                                          | Activision                             | Game Boy Advance | 2004 | Europe
+|       | Lizzie McGuire                                                                                           | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Looney Tunes: Back in Action                                                                             | Electronic Arts                        | Game Boy Advance | 2004 | Europe
+|       | Looney Tunes: Double Pack - Dizzy Driving / Acme Antics                                                  | THQ                                    | Game Boy Advance | 2006 | Europe
+|       | Lord of the Rings: The Fellowship of the Ring, The                                                       | Universal Interactive                  | Game Boy Advance | 2002 | Europe
+|       | Lord of the Rings: The Return of the King, The                                                           | Electronic Arts                        | Game Boy Advance | 2003 | Europe
+|       | Lord of the Rings: The Third Age, The                                                                    | EA Games                               | Game Boy Advance | 2004 | Europe
+|       | Lord of the Rings: The Two Towers, The                                                                   | Electronic Arts                        | Game Boy Advance | 2002 | Europe
+|       | Lost Vikings, The                                                                                        | Blizzard Entertainment                 | Game Boy Advance | 2003 | Europe
+|       | Lucky Luke: Wanted!                                                                                      | Infogrames                             | Game Boy Advance | 2001 | Europe
+|       | Madagascar                                                                                               | Activision                             | Game Boy Advance | 2005 | Europe
+|       | Majesco's Sport Pack                                                                                     | Majesco                                | Game Boy Advance | 2006 | Europe
+|       | Maniac Racers Advance                                                                                    | Konami                                 | Game Boy Advance | 2002 | Europe
+|       | Manic Miner                                                                                              | Jester Interactive                     | Game Boy Advance | 2002 | Europe
+|       | Marble Madness / Klax                                                                                    | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Marcel Desailly: Football Advance                                                                        | Ubisoft                                | Game Boy Advance | 2001 | Europe
+|       | March of the Penguins                                                                                    | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Mario & Luigi: Superstar Saga                                                                            | Nintendo                               | Game Boy Advance | 2003 | Europe
+|       | Mario Golf: Advance Tour                                                                                 | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Mario Kart: Super Circuit                                                                                | Nintendo                               | Game Boy Advance | 2001 | Europe
+|       | Mario Party Advance                                                                                      | Nintendo                               | Game Boy Advance | 2005 | Europe
+|       | Mario Power Tennis                                                                                       | Nintendo                               | Game Boy Advance | 2005 | Europe
+|       | Mario vs. Donkey Kong                                                                                    | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Marvel: Ultimate Alliance                                                                                | Activision                             | Game Boy Advance | 2006 | Europe
+|       | Marvel's The Invincible Iron Man                                                                         | Activision                             | Game Boy Advance | 2003 | Europe
+|       | Mary-Kate and Ashley: Girls Night Out                                                                    | Acclaim                                | Game Boy Advance | 2002 | Europe
+|       | Mary-Kate and Ashley: Sweet 16 - Licensed to Drive                                                       | Acclaim                                | Game Boy Advance | 2002 | Europe
+|       | Mat Hoffman's Pro BMX                                                                                    | Activision                             | Game Boy Advance | 2001 | Europe
+|       | Mat Hoffman's Pro BMX 2                                                                                  | Activision                             | Game Boy Advance | 2002 | Europe
+|       | Matchbox Crosstown Heroes                                                                                | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Matchbox Missions: Air, Land and Sea Rescue / Emergency Response                                         | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Max Payne                                                                                                | Rockstar Games                         | Game Boy Advance | 2004 | Europe
+|       | Maya the Bee: The Great Adventure                                                                        | Acclaim                                | Game Boy Advance | 2002 | Europe
+|       | Mech Platoon                                                                                             | Kemco                                  | Game Boy Advance | 2001 | Europe
+|       | Medabots AX: Metabee Ver.                                                                                | Natsume                                | Game Boy Advance | 2003 | Europe
+|       | Medabots AX: Rokusho Ver.                                                                                | Natsume                                | Game Boy Advance | 2003 | Europe
+|       | Medabots: Metabee                                                                                        | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Medabots: Rokusho                                                                                        | Natsume                                | Game Boy Advance | 2002 | Europe
+|       | Medal of Honor: Infiltrator                                                                              | Electronic Arts                        | Game Boy Advance | 2003 | Europe
+|       | Medal of Honor: Underground                                                                              | Zoo Digital Publishing                 | Game Boy Advance | 2003 | Europe
+|       | Mega Man & Bass                                                                                          | Capcom                                 | Game Boy Advance | 2003 | Europe
+|       | Mega Man Battle Network                                                                                  | Capcom                                 | Game Boy Advance | 2001 | Europe
+|       | Mega Man Battle Network 2                                                                                | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Mega Man Battle Network 3 Blue                                                                           | Capcom                                 | Game Boy Advance | 2003 | Europe
+|       | Mega Man Battle Network 3 White                                                                          | Capcom                                 | Game Boy Advance | 2003 | Europe
+|       | Mega Man Battle Network 4: Blue Moon                                                                     | Capcom                                 | Game Boy Advance | 2004 | Europe
+|       | Mega Man Battle Network 4: Red Sun                                                                       | Capcom                                 | Game Boy Advance | 2004 | Europe
+|       | Mega Man Battle Network 5: Team Colonel                                                                  | Capcom                                 | Game Boy Advance | 2005 | Europe
+|       | Mega Man Battle Network 5: Team Protoman                                                                 | Capcom                                 | Game Boy Advance | 2005 | Europe
+|       | Mega Man Battle Network 6: Cybeast Falzar                                                                | Capcom                                 | Game Boy Advance | 2006 | Europe
+|       | Mega Man Battle Network 6: Cybeast Gregar                                                                | Capcom                                 | Game Boy Advance | 2006 | Europe
+|       | Mega Man Zero                                                                                            | Capcom                                 | Game Boy Advance | 2002 | Europe
+|       | Mega Man Zero 2                                                                                          | Capcom                                 | Game Boy Advance | 2003 | Europe
+|       | Mega Man Zero 3                                                                                          | Capcom                                 | Game Boy Advance | 2004 | Europe
+|       | Mega Man Zero 4                                                                                          | Capcom                                 | Game Boy Advance | 2005 | Europe
+|       | Mega Man: Battle Chip Challenge                                                                          | Capcom                                 | Game Boy Advance | 2004 | Europe
+|       | Meine Tierarztpraxis                                                                                     | DTP Entertainment                      | Game Boy Advance | 2006 | Europe
+|       | Men in Black: The Series                                                                                 | Crave                                  | Game Boy Advance | 2001 | Europe
+|       | Metal Slug Advance                                                                                       | Ignition Entertainment                 | Game Boy Advance | 2004 | Europe
+|       | Metroid Fusion                                                                                           | Nintendo                               | Game Boy Advance | 2002 | Europe
+|       | Metroid: Zero Mission                                                                                    | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Micro Machines                                                                                           | Atari SA                               | Game Boy Advance | 2003 | Europe
+|       | Midnight Club: Street Racing                                                                             | Rebellion                              | Game Boy Advance | 2002 | Europe
+|       | Midway's Greatest Arcade Hits                                                                            | Midway                                 | Game Boy Advance | 2001 | Europe
+|       | Mike Tyson Boxing                                                                                        | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Millipede & Super Breakout & Lunar Lander                                                                | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Minority Report                                                                                          | Activision                             | Game Boy Advance | 2002 | Europe
+|       | Mission: Impossible: Operation Surma                                                                     | Atari SA                               | Game Boy Advance | 2003 | Europe
+|       | Monopoly                                                                                                 | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | Monster Force                                                                                            | Universal Interactive                  | Game Boy Advance | 2002 | Europe
+|       | Monster House                                                                                            | THQ                                    | Game Boy Advance | 2006 | Europe
+|       | Monster Jam: Maximum Destruction                                                                         | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Monster Trucks                                                                                           | Majesco                                | Game Boy Advance | 2004 | Europe
+|       | Monster Trucks Mayhem                                                                                    | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Monster! Bass Fishing                                                                                    | CokeM Interactive                      | Game Boy Advance | 2003 | Europe
+|       | Moorhuhn 3: ...Es Gibt Huhn!                                                                             | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Morning Adventure, The                                                                                   | Virtual Toys                           | Game Boy Advance | 2003 | Europe
+|       | Mortal Kombat Advance                                                                                    | Midway                                 | Game Boy Advance | 2002 | Europe
+|       | Mortal Kombat: Deadly Alliance                                                                           | Midway                                 | Game Boy Advance | 2003 | Europe
+|       | Moto Racer Advance                                                                                       | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | MotoGP                                                                                                   | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Mr Nutz                                                                                                  | Infogrames                             | Game Boy Advance | 2001 | Europe
+|       | Mr. Driller 2                                                                                            | Infogrames                             | Game Boy Advance | 2004 | Europe
+|       | Ms. Pac-Man Maze Madness                                                                                 | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | Mummy, The                                                                                               | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Muppet Pinball Mayhem                                                                                    | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Muppets: On With The Show!, The                                                                          | TDK Mediactive                         | Game Boy Advance | 2003 | Europe
+|       | MX 2002 featuring Ricky Carmichael                                                                       | THQ                                    | Game Boy Advance | 2001 | Europe
+|       | My Animal Centre in Africa                                                                               | Koch Media                             | Game Boy Advance | 2006 | Europe
+|       | My Pet Hotel                                                                                             | DTP Entertainment                      | Game Boy Advance | 2006 | Europe
+|       | Namco Museum                                                                                             | Infogrames                             | Game Boy Advance | 2001 | Europe
+|       | Namco Museum 50th Anniversary                                                                            | Namco                                  | Game Boy Advance | 2006 | Europe
+|       | NBA Jam 2002                                                                                             | Acclaim                                | Game Boy Advance | 2002 | Europe
+|       | Need for Speed Carbon: Own the City                                                                      | Electronic Arts                        | Game Boy Advance | 2006 | Europe
+|       | Need for Speed Underground                                                                               | Electronic Arts                        | Game Boy Advance | 2004 | Europe
+|       | Need for Speed Underground 2                                                                             | Electronic Arts                        | Game Boy Advance | 2004 | Europe
+|       | Need for Speed: Most Wanted                                                                              | Electronic Arts                        | Game Boy Advance | 2005 | Europe
+|       | Need for Speed: Porsche Unleashed                                                                        | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | NES Classics: The Legend of Zelda                                                                        | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | NES Classics: Zelda II: The Adventure of Link                                                            | Nintendo                               | Game Boy Advance | 2005 | Europe
+|       | NGT: Next Generation Tennis                                                                              | Wanadoo                                | Game Boy Advance | 2002 | Europe
+|       | Nickelodeon Barnyard                                                                                     | THQ                                    | Game Boy Advance | 2006 | Europe
+|       | Nickelodeon Danny Phantom: The Ultimate Enemy                                                            | THQ                                    | Game Boy Advance | 2006 | Europe
+|       | Nickelodeon Danny Phantom: Urban Jungle                                                                  | THQ                                    | Game Boy Advance | 2007 | Europe
+|       | Nickelodeon Rugrats Go Wild                                                                              | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | NickToons Racing                                                                                         | Infogrames                             | Game Boy Advance | 2002 | Europe
+|       | Ninja Cop                                                                                                | Konami                                 | Game Boy Advance | 2003 | Europe
+|       | No Rules: Get Phat                                                                                       | TDK Core                               | Game Boy Advance | 2001 | Europe
+|       | Noddy: A Day in Toyland                                                                                  | The Game Factory                       | Game Boy Advance | 2006 | Europe
+|       | Oddworld: Munch's Oddysee                                                                                | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Onimusha Tactics                                                                                         | Capcom                                 | Game Boy Advance | 2003 | Europe
+|       | Open Season                                                                                              | Ubisoft                                | Game Boy Advance | 2006 | Europe
+|       | Ottifanten Pinball                                                                                       | Trend Verlag                           | Game Boy Advance | 2005 | Europe
+|       | Over the Hedge                                                                                           | Activision                             | Game Boy Advance | 2006 | Europe
+|       | Over the Hedge: Hammy Goes Nuts                                                                          | Activision                             | Game Boy Advance | 2006 | Europe
+|       | Pac-Man Collection                                                                                       | Infogrames                             | Game Boy Advance | 2001 | Europe
+|       | Pac-Man Pinball Advance                                                                                  | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Pac-Man World                                                                                            | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | Pac-Man World 2                                                                                          | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Paperboy / Rampage                                                                                       | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Payback                                                                                                  | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | Penny Racers                                                                                             | Crave                                  | Game Boy Advance | 2001 | Europe
+|       | Peter Pan: The Motion Picture Event                                                                      | Atari SA                               | Game Boy Advance | 2004 | Europe
+|       | Pferd & Pony: Best Friends: Mein Pferd                                                                   | DTP Entertainment                      | Game Boy Advance | 2007 | Europe
+|       | Pferd & Pony: Lass Uns Reiten 2                                                                          | DTP Entertainment                      | Game Boy Advance | 2005 | Europe
+|       | Pferd & Pony: Mein Gestut                                                                                | DTP Entertainment                      | Game Boy Advance | 2006 | Europe
+|       | Pferd & Pony: Mein Pferdehof                                                                             | DTP Entertainment                      | Game Boy Advance | 2003 | Europe
+|       | Pferd & Pony: Mein Pferdehof & Lass uns Reiten 2                                                         | DTP Entertainment                      | Game Boy Advance | 2007 | Europe
+|       | Phalanx                                                                                                  | Kemco                                  | Game Boy Advance | 2001 | Europe
+|       | Phantasy Star Collection                                                                                 | Atari SA                               | Game Boy Advance | 2003 | Europe
+|       | Pinball Advance                                                                                          | Digital Worldwide                      | Game Boy Advance | 2002 | Europe
+|       | Pinball Challenge Deluxe                                                                                 | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Pinball of the Dead, The                                                                                 | Sega                                   | Game Boy Advance | 2003 | Europe
+|       | Pinball Tycoon                                                                                           | Ignition Entertainment                 | Game Boy Advance | 2003 | Europe
+|       | Pink Panther: Pinkadelic Pursuit                                                                         | Wanadoo                                | Game Boy Advance | 2002 | Europe
+|       | Pinky and the Brain: The Master Plan                                                                     | Swing! Deutschland                     | Game Boy Advance | 2002 | Europe
+|       | Pinobee: Wings of Adventure                                                                              | Activision                             | Game Boy Advance | 2001 | Europe
+|       | Pippa Funnell: Stable Adventure                                                                          | Ubisoft                                | Game Boy Advance | 2005 | Europe
+|       | Pirates of the Caribbean: Dead Man's Chest                                                               | Buena Vista Interactive                | Game Boy Advance | 2006 | Europe
+|       | Pirates of the Caribbean: The Curse of the Black Pearl                                                   | TDK Mediactive                         | Game Boy Advance | 2003 | Europe
+|       | Pitfall: The Lost Expedition                                                                             | Activision                             | Game Boy Advance | 2004 | Europe
+|       | Pitfall: The Mayan Adventure                                                                             | Interplay                              | Game Boy Advance | 2001 | Europe
+|       | Pixeline i Pixieland                                                                                     | Krea Medie A/S                         | Game Boy Advance | 2008 | Europe
+|       | Planet Monsters                                                                                          | Titus Software                         | Game Boy Advance | 2002 | Europe
+|       | Planet of the Apes                                                                                       | Ubisoft                                | Game Boy Advance | 2001 | Europe
+|       | Pocket Music                                                                                             | Rage Software                          | Game Boy Advance | 2002 | Europe
+|       | Pokemon Emerald Version                                                                                  | Nintendo                               | Game Boy Advance | 2005 | Europe
+|       | Pokemon FireRed Version                                                                                  | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Pokemon LeafGreen Version                                                                                | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Pokemon Mystery Dungeon: Red Rescue Team                                                                 | Nintendo                               | Game Boy Advance | 2006 | Europe
+|       | Pokemon Pinball: Ruby & Sapphire                                                                         | Nintendo                               | Game Boy Advance | 2003 | Europe
+|       | Pokemon Ruby Version                                                                                     | Nintendo                               | Game Boy Advance | 2003 | Europe
+|       | Pokemon Sapphire Version                                                                                 | Nintendo                               | Game Boy Advance | 2003 | Europe
+|       | Polar Express, The                                                                                       | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | Polarium Advance                                                                                         | Nintendo                               | Game Boy Advance | 2006 | Europe
+|       | Polly Pocket! Super Splash Island                                                                        | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Pong & Asteroids & Yars' Revenge                                                                         | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Pop Idol                                                                                                 | Codemasters                            | Game Boy Advance | 2003 | Europe
+|       | Popeye: Rush for Spinach                                                                                 | Atari SA                               | Game Boy Advance | 2006 | Europe
+|       | Postman Pat and the Greendale Rocket                                                                     | The Game Factory                       | Game Boy Advance | 2007 | Europe
+|       | Power Rangers S.P.D.                                                                                     | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Power Rangers: Dino Thunder                                                                              | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | Power Rangers: Ninja Storm                                                                               | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Power Rangers: Time Force                                                                                | THQ                                    | Game Boy Advance | 2001 | Europe
+|       | Powerpuff Girls: Him and Seek, The                                                                       | Bam Entertainment                      | Game Boy Advance | 2002 | Europe
+|       | Powerpuff Girls: Mojo Jojo A-Go-Go, The                                                                  | Bam Entertainment                      | Game Boy Advance | 2001 | Europe
+|       | Prehistorik Man                                                                                          | THQ                                    | Game Boy Advance | 2001 | Europe
+|       | Premier Action Soccer                                                                                    | East Entertainment Media               | Game Boy Advance | 2006 | Europe
+|       | Premier Manager 2003-04                                                                                  | Zoo Digital Publishing                 | Game Boy Advance | 2003 | Europe
+|       | Premier Manager 2004-2005                                                                                | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | Premier Manager 2005-2006                                                                                | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Prince of Persia: The Sands of Time                                                                      | Ubisoft                                | Game Boy Advance | 2003 | Europe
+|       | Prince of Persia: The Sands of Time & Lara Croft - Tomb Raider: The Prophecy                             | Ubisoft                                | Game Boy Advance | 2006 | Europe
+|       | Princess Natasha                                                                                         | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Pro Beach Soccer                                                                                         | Wanadoo                                | Game Boy Advance | 2003 | Europe
+|       | Pro Tennis WTA Tour                                                                                      | Konami                                 | Game Boy Advance | 2002 | Europe
+|       | Punch King                                                                                               | Acclaim                                | Game Boy Advance | 2002 | Europe
+|       | Puyo Pop                                                                                                 | Sega                                   | Game Boy Advance | 2002 | Europe
+|       | Puyo Pop Fever                                                                                           | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | R-Type III: The Third Lightning                                                                          | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | Racing Fever                                                                                             | Neko Entertainment                     | Game Boy Advance | 2005 | Europe
+|       | Racing Gears Advance                                                                                     | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | Rampage: Puzzle Attack                                                                                   | Midway                                 | Game Boy Advance | 2001 | Europe
+|       | Rapala Pro Fishing                                                                                       | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Rayman 3                                                                                                 | Ubisoft                                | Game Boy Advance | 2003 | Europe
+|       | Rayman Advance                                                                                           | Ubisoft                                | Game Boy Advance | 2001 | Europe
+|       | Rayman Raving Rabbids                                                                                    | Ubisoft                                | Game Boy Advance | 2006 | Europe
+|       | Rayman: 10th Anniversary Collection                                                                      | Ubisoft                                | Game Boy Advance | 2005 | Europe
+|       | Rayman: Hoodlum's Revenge                                                                                | Ubisoft                                | Game Boy Advance | 2005 | Europe
+|       | Ready 2 Rumble Boxing: Round 2                                                                           | Midway                                 | Game Boy Advance | 2001 | Europe
+|       | Rebelstar: Tactical Command                                                                              | Atari SA                               | Game Boy Advance | 2006 | Europe
+|       | Reign of Fire                                                                                            | Bam Entertainment                      | Game Boy Advance | 2002 | Europe
+|       | Revenge of Shinobi, The                                                                                  | Sega                                   | Game Boy Advance | 2003 | Europe
+|       | Revenge of the Smurfs, The                                                                               | Infogrames                             | Game Boy Advance | 2002 | Europe
+|       | Ripping Friends: The World's Most Manly Men!, The                                                        | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Risk / Battleship / Clue                                                                                 | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Road Rash: Jailbreak                                                                                     | Electronic Arts                        | Game Boy Advance | 2003 | Europe
+|       | Robot Wars: Advanced Destruction                                                                         | BBC Multimedia                         | Game Boy Advance | 2001 | Europe
+|       | Robot Wars: Extreme Destruction                                                                          | BBC Multimedia                         | Game Boy Advance | 2002 | Europe
+|       | Robotech: The Macross Saga                                                                               | TDK Mediactive                         | Game Boy Advance | 2002 | Europe
+|       | Robots                                                                                                   | Sierra Entertainment                   | Game Boy Advance | 2005 | Europe
+|       | Rock 'Em Sock 'Em Robots                                                                                 | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Rock 'N Roll Racing                                                                                      | Blizzard Classic Arcade                | Game Boy Advance | 2003 | Europe
+|       | Rocket Power: Dream Scheme                                                                               | THQ                                    | Game Boy Advance | 2001 | Europe
+|       | Rocky                                                                                                    | Rage Software                          | Game Boy Advance | 2003 | Europe
+|       | Roland Garros: French Open 2002                                                                          | Wanadoo                                | Game Boy Advance | 2002 | Europe
+|       | Rugrats: Castle Capers                                                                                   | THQ                                    | Game Boy Advance | 2001 | Europe
+|       | Rugrats: I Gotta Go Party                                                                                | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Sabre Wulf                                                                                               | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | Sabrina the Teenage Witch: Potion Commotion                                                              | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Salt Lake 2002                                                                                           | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Samurai Jack: The Amulet of Time                                                                         | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Santa Claus Jr. Advance                                                                                  | JoWooD Entertainment AG                | Game Boy Advance | 2002 | Europe
+|       | Santa Claus Saves the Earth                                                                              | Telegames                              | Game Boy Advance | 2002 | Europe
+|       | Scooby-Doo                                                                                               | THQ                                    | Game Boy Advance | 2001 | Europe
+|       | Scooby-Doo 2: Monsters Unleashed                                                                         | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | Scooby-Doo and the Cyber Chase                                                                           | Ubisoft                                | Game Boy Advance | 2001 | Europe
+|       | Scooby-Doo! Mystery Mayhem                                                                               | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Scooby-Doo! Unmasked                                                                                     | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Scorpion King: Sword of Osiris, The                                                                      | Universal Interactive                  | Game Boy Advance | 2002 | Europe
+|       | Scrabble                                                                                                 | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Scrabble Scramble!                                                                                       | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Scurge: Hive                                                                                             | SouthPeak Games                        | Game Boy Advance | 2006 | Europe
+|       | Sea World Adventure Parks: Shamu's Deep Sea Adventures                                                   | Activision                             | Game Boy Advance | 2006 | Europe
+|       | Secret Agent Barbie                                                                                      | VU Games                               | Game Boy Advance | 2002 | Europe
+|       | Sega Arcade Gallery                                                                                      | Sega                                   | Game Boy Advance | 2003 | Europe
+|       | Sega Rally Championship                                                                                  | Sega                                   | Game Boy Advance | 2003 | Europe
+|       | Sega Smash Pack                                                                                          | Atari SA                               | Game Boy Advance | 2003 | Europe
+|       | Serious Sam Advance                                                                                      | Global Star Software                   | Game Boy Advance | 2004 | Europe
+|       | Shaman King: Master of Spirits                                                                           | Konami                                 | Game Boy Advance | 2005 | Europe
+|       | Shaman King: Master of Spirits 2                                                                         | Konami                                 | Game Boy Advance | 2006 | Europe
+|       | Shaun Palmer's Pro Snowboarder                                                                           | Activision                             | Game Boy Advance | 2001 | Europe
+|       | Sheep                                                                                                    | Capcom                                 | Game Boy Advance | 2013 | Europe
+|       | Shinchan Contra los Munecos de Shock Gahn                                                                | Atari SA                               | Game Boy Advance | 2006 | Europe
+|       | Shinchan: Aventuras en Cineland                                                                          | Atari SA                               | Game Boy Advance | 2005 | Europe
+|       | Shining Force: Resurrection of the Dark Dragon                                                           | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | Shining Soul                                                                                             | Atari SA                               | Game Boy Advance | 2003 | Europe
+|       | Shining Soul II                                                                                          | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | Shrek 2                                                                                                  | Activision                             | Game Boy Advance | 2004 | Europe
+|       | Shrek 2: Beg for Mercy                                                                                   | Activision                             | Game Boy Advance | 2004 | Europe
+|       | Shrek Smash n' Crash Racing                                                                              | Activision                             | Game Boy Advance | 2007 | Europe
+|       | Shrek Super Slam                                                                                         | Activision                             | Game Boy Advance | 2005 | Europe
+|       | Shrek Swamp Kart Speedway                                                                                | TDK Mediactive                         | Game Boy Advance | 2002 | Europe
+|       | Shrek the Third                                                                                          | Activision                             | Game Boy Advance | 2007 | Europe
+|       | Shrek: Hassle at the Castle                                                                              | TDK Mediactive                         | Game Boy Advance | 2002 | Europe
+|       | Shrek: Reekin' Havoc                                                                                     | TDK Mediactive                         | Game Boy Advance | 2003 | Europe
+|       | Sigma Star Saga                                                                                          | Atari SA                               | Game Boy Advance | 2006 | Europe
+|       | Silent Scope                                                                                             | Konami                                 | Game Boy Advance | 2002 | Europe
+|       | SimCity 2000                                                                                             | Zoo Digital Publishing                 | Game Boy Advance | 2003 | Europe
+|       | Simpsons: Road Rage, The                                                                                 | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Sims 2, The                                                                                              | Electronic Arts                        | Game Boy Advance | 2005 | Europe
+|       | Sims 2: Pets, The                                                                                        | EA Games                               | Game Boy Advance | 2006 | Europe
+|       | Sims Bustin' Out, The                                                                                    | EA Games                               | Game Boy Advance | 2003 | Europe
+|       | Sitting Ducks                                                                                            | LSP                                    | Game Boy Advance | 2003 | Europe
+|       | Sky Dancers                                                                                              | Crave                                  | Game Boy Advance | 2006 | Europe
+|       | Smashing Drive                                                                                           | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Smuggler's Run                                                                                           | Rebellion                              | Game Boy Advance | 2002 | Europe
+|       | Snood                                                                                                    | Destination Software                   | Game Boy Advance | 2001 | Europe
+|       | Snood 2: On Vacation                                                                                     | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Soccer Kid                                                                                               | Telegames, Inc.                        | Game Boy Advance | 2002 | Europe
+|       | Sonic Advance                                                                                            | Sega                                   | Game Boy Advance | 2002 | Europe
+|       | Sonic Advance + ChuChu Rocket!                                                                           | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Sonic Advance 2                                                                                          | Infogrames                             | Game Boy Advance | 2003 | Europe
+|       | Sonic Advance 3                                                                                          | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | Sonic Battle                                                                                             | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | Sonic Pinball Party                                                                                      | Sega                                   | Game Boy Advance | 2003 | Europe
+|       | Sorry! / Aggravation / Scrabble Junior                                                                   | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Space Channel 5: Ulala's Cosmic Attack                                                                   | Atari SA                               | Game Boy Advance | 2003 | Europe
+|       | Space Invaders                                                                                           | Activision                             | Game Boy Advance | 2002 | Europe
+|       | Speedball 2                                                                                              | Wanadoo                                | Game Boy Advance | 2002 | Europe
+|       | Spider-Man 2                                                                                             | Activision                             | Game Boy Advance | 2004 | Europe
+|       | Spider-Man 3                                                                                             | Activision                             | Game Boy Advance | 2007 | Europe
+|       | Spider-Man: Battle for New York                                                                          | Activision                             | Game Boy Advance | 2007 | Europe
+|       | Spider-Man: Mysterio's Menace                                                                            | Activision                             | Game Boy Advance | 2001 | Europe
+|       | Spider-Man: The Movie                                                                                    | Activision                             | Game Boy Advance | 2002 | Europe
+|       | Spirit: Stallion of the Cimarron                                                                         | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Spongebob and Friends: Battle for Volcano Island                                                         | THQ                                    | Game Boy Advance | 2007 | Europe
+|       | SpongeBob SquarePants and Friends in Freeze Frame Frenzy                                                 | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | SpongeBob SquarePants and Friends: Unite!                                                                | THQ                                    | Game Boy Advance | 2006 | Europe
+|       | SpongeBob SquarePants Movie, The                                                                         | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Spongebob SquarePants: Battle for Bikini Bottom                                                          | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | SpongeBob SquarePants: Battle for Bikini Bottom / Jimmy Neutron Boy Genius                               | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | SpongeBob SquarePants: Creature from the Krusty Krab                                                     | THQ                                    | Game Boy Advance | 2006 | Europe
+|       | SpongeBob SquarePants: Lights, Camera, Pants!                                                            | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | SpongeBob Squarepants: Revenge of the Flying Dutchman                                                    | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | SpongeBob Squarepants: SuperSponge                                                                       | THQ                                    | Game Boy Advance | 2001 | Europe
+|       | Spy Hunter                                                                                               | Midway                                 | Game Boy Advance | 2002 | Europe
+|       | Spy Hunter / Super Sprint                                                                                | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Spy Kids 3-D: Game Over                                                                                  | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Spyro 2: Season of Flame                                                                                 | Sierra Entertainment                   | Game Boy Advance | 2002 | Europe
+|       | Spyro Adventure                                                                                          | VU Games                               | Game Boy Advance | 2003 | Europe
+|       | Spyro: Fusion                                                                                            | VU Games                               | Game Boy Advance | 2004 | Europe
+|       | Spyro: Season of Ice                                                                                     | Sierra Entertainment                   | Game Boy Advance | 2001 | Europe
+|       | SSX 3                                                                                                    | Electronic Arts                        | Game Boy Advance | 2003 | Europe
+|       | SSX Tricky                                                                                               | Electronic Arts                        | Game Boy Advance | 2002 | Europe
+|       | Stadium Games                                                                                            | Crave                                  | Game Boy Advance | 2003 | Europe
+|       | Star Wars Episode II: Attack of the Clones                                                               | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Star Wars Episode III: Revenge of the Sith                                                               | Ubisoft                                | Game Boy Advance | 2005 | Europe
+|       | Star Wars Trilogy: Apprentice of the Force                                                               | Ubisoft                                | Game Boy Advance | 2004 | Europe
+|       | Star Wars: Flight of the Falcon                                                                          | THQ                                    | Game Boy Advance | 2003 | Europe
+|       | Star Wars: Jedi Power Battles                                                                            | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Star Wars: The New Droid Army                                                                            | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Star X                                                                                                   | Bam Entertainment                      | Game Boy Advance | 2002 | Europe
+|       | Starsky & Hutch                                                                                          | Empire Interactive                     | Game Boy Advance | 2003 | Europe
+|       | Steel Empire                                                                                             | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Strawberry Shortcake: Ice Cream Island Riding Camp                                                       | The Game Factory                       | Game Boy Advance | 2006 | Europe
+|       | Street Fighter Alpha 3                                                                                   | Capcom                                 | Game Boy Advance | 2002 | Europe
+|       | Street Jam Basketball                                                                                    | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | Street Racing Syndicate                                                                                  | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Strike Force Hydra                                                                                       | Ignition Entertainment                 | Game Boy Advance | 2003 | Europe
+|       | Stuart Little 2                                                                                          | Activision                             | Game Boy Advance | 2002 | Europe
+|       | Stuntman                                                                                                 | Atari SA                               | Game Boy Advance | 2003 | Europe
+|       | Sudoku Fever                                                                                             | Take-Two Interactive                   | Game Boy Advance | 2006 | Europe
+|       | Sum of All Fears, The                                                                                    | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Super Bubble Pop                                                                                         | Jaleco Entertainment                   | Game Boy Advance | 2003 | Europe
+|       | Super Bust-A-Move                                                                                        | Ubisoft                                | Game Boy Advance | 2001 | Europe
+|       | Super Dodge Ball Advance                                                                                 | Ubisoft                                | Game Boy Advance | 2001 | Europe
+|       | Super Dropzone: Intergalactic Rescue Mission                                                             | Ignition Entertainment                 | Game Boy Advance | 2003 | Europe
+|       | Super Ghouls 'n Ghosts                                                                                   | Capcom                                 | Game Boy Advance | 2002 | Europe
+|       | Super Mario Advance                                                                                      | Nintendo                               | Game Boy Advance | 2001 | Europe
+|       | Super Mario Advance 4: Super Mario Bros. 3                                                               | Nintendo                               | Game Boy Advance | 2003 | Europe
+|       | Super Mario Ball                                                                                         | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Super Mario World: Super Mario Advance 2                                                                 | Nintendo                               | Game Boy Advance | 2002 | Europe
+|       | Super Monkey Ball Jr.                                                                                    | Sega                                   | Game Boy Advance | 2003 | Europe
+|       | Super Puzzle Fighter II                                                                                  | Capcom                                 | Game Boy Advance | 2003 | Europe
+|       | Super Robot Taisen: Original Generation                                                                  | 505 Games                              | Game Boy Advance | 2007 | Europe
+|       | Super Street Fighter II Turbo: Revival                                                                   | Capcom                                 | Game Boy Advance | 2001 | Europe
+|       | Superman Returns: Fortress of Solitude                                                                   | EA Games                               | Game Boy Advance | 2006 | Europe
+|       | Superman: Countdown To Apokolips                                                                         | Atari SA                               | Game Boy Advance | 2003 | Europe
+|       | Surf's Up                                                                                                | Ubisoft                                | Game Boy Advance | 2007 | Europe
+|       | Sword of Mana                                                                                            | Nintendo                               | Game Boy Advance | 2004 | Europe
+|       | Tak 2: The Staff of Dreams                                                                               | THQ                                    | Game Boy Advance | 2005 | Europe
+|       | Tak and the Power of Juju                                                                                | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | Tak: The Great Juju Challenge                                                                            | THQ                                    | Game Boy Advance | 2006 | Europe
+|       | Tales of Phantasia                                                                                       | Nintendo                               | Game Boy Advance | 2006 | Europe
+|       | Tang Tang                                                                                                | Take-Two Interactive                   | Game Boy Advance | 2001 | Europe
+|       | Taxi 3                                                                                                   | Ubisoft                                | Game Boy Advance | 2003 | Europe
+|       | Teenage Mutant Ninja Turtles                                                                             | Konami                                 | Game Boy Advance | 2003 | Europe
+|       | Teenage Mutant Ninja Turtles 2: Battle Nexus                                                             | Konami                                 | Game Boy Advance | 2004 | Europe
+|       | Teenage Mutant Ninja Turtles: Double Pack                                                                | Konami                                 | Game Boy Advance | 2006 | Europe
+|       | Tekken Advance                                                                                           | Infogrames                             | Game Boy Advance | 2002 | Europe
+|       | Tennis Masters Series 2003                                                                               | Microids                               | Game Boy Advance | 2002 | Europe
+|       | Terminator 3: Rise of the Machines                                                                       | Atari SA                               | Game Boy Advance | 2003 | Europe
+|       | Tetris Worlds                                                                                            | THQ                                    | Game Boy Advance | 2001 | Europe
+|       | Thunderbirds                                                                                             | VU Games                               | Game Boy Advance | 2004 | Europe
+|       | Thunderbirds: International Rescue                                                                       | SCi                                    | Game Boy Advance | 2001 | Europe
+|       | Tiger Woods PGA Tour 2004                                                                                | Electronic Arts                        | Game Boy Advance | 2003 | Europe
+|       | Tiger Woods PGA Tour Golf                                                                                | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Tim Burton's The Nightmare Before Christmas: The Pumpkin King                                            | Buena Vista Interactive                | Game Boy Advance | 2005 | Europe
+|       | Tiny Toon Adventures: Buster's Bad Dream                                                                 | Conspiracy Entertainment               | Game Boy Advance | 2002 | Europe
+|       | Tiny Toon Adventures: Wacky Stackers                                                                     | Conspiracy Entertainment               | Game Boy Advance | 2002 | Europe
+|       | Tir et But: Edition Champions du Monde                                                                   | Titus Software                         | Game Boy Advance | 2002 | Europe
+|       | Titeuf: Mega Compet                                                                                      | Atari SA                               | Game Boy Advance | 2004 | Europe
+|       | Titeuf: Ze Gag Machine                                                                                   | Infogrames                             | Game Boy Advance | 2002 | Europe
+|       | TMNT: Teenage Mutant Ninja Turtles                                                                       | Ubisoft                                | Game Boy Advance | 2007 | Europe
+|       | TOCA World Touring Cars                                                                                  | Ubisoft                                | Game Boy Advance | 2003 | Europe
+|       | Tokyo Xtreme Racer Advance                                                                               | Liquid Games                           | Game Boy Advance | 2006 | Europe
+|       | Tom and Jerry in Infurnal Escape                                                                         | Ubisoft                                | Game Boy Advance | 2003 | Europe
+|       | Tom and Jerry Tales                                                                                      | Eidos Interactive                      | Game Boy Advance | 2006 | Europe
+|       | Tom and Jerry: The Magic Ring                                                                            | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Tom Clancy's Rainbow Six: Rogue Spear                                                                    | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Tom Clancy's Splinter Cell                                                                               | Ubisoft                                | Game Boy Advance | 2003 | Europe
+|       | Tom Clancy's Splinter Cell: Pandora Tomorrow                                                             | Ubisoft                                | Game Boy Advance | 2004 | Europe
+|       | Tony Hawk's American Sk8land                                                                             | Activision                             | Game Boy Advance | 2005 | Europe
+|       | Tony Hawk's Downhill Jam                                                                                 | Activision                             | Game Boy Advance | 2006 | Europe
+|       | Tony Hawk's Pro Skater 2                                                                                 | Activision                             | Game Boy Advance | 2001 | Europe
+|       | Tony Hawk's Pro Skater 3                                                                                 | Activision                             | Game Boy Advance | 2002 | Europe
+|       | Tony Hawk's Pro Skater 4                                                                                 | Activision                             | Game Boy Advance | 2002 | Europe
+|       | Tony Hawk's Underground                                                                                  | Activision                             | Game Boy Advance | 2003 | Europe
+|       | Tony Hawk's Underground 2                                                                                | Activision                             | Game Boy Advance | 2004 | Europe
+|       | Top Gear GT Championship                                                                                 | Kemco                                  | Game Boy Advance | 2001 | Europe
+|       | Top Gear Rally                                                                                           | Kemco                                  | Game Boy Advance | 2003 | Europe
+|       | Top Spin 2                                                                                               | 2K Sports                              | Game Boy Advance | 2006 | Europe
+|       | Total Soccer Manager                                                                                     | Ubisoft                                | Game Boy Advance | 2001 | Europe
+|       | Totally Spies!                                                                                           | Atari SA                               | Game Boy Advance | 2006 | Europe
+|       | Totally Spies! 2: Undercover                                                                             | Atari SA                               | Game Boy Advance | 2006 | Europe
+|       | Trickstar                                                                                                | Oxygen Interactive                     | Game Boy Advance | 2006 | Europe
+|       | Tringo                                                                                                   | Liquid Games                           | Game Boy Advance | 2006 | Europe
+|       | Trollz: Hair Affair!                                                                                     | Ubisoft                                | Game Boy Advance | 2006 | Europe
+|       | Tron 2.0: Killer App                                                                                     | Buena Vista Interactive                | Game Boy Advance | 2004 | Europe
+|       | Turok: Evolution                                                                                         | Acclaim                                | Game Boy Advance | 2002 | Europe
+|       | Tweety & The Magic Gems                                                                                  | Kemco                                  | Game Boy Advance | 2001 | Europe
+|       | Ty the Tasmanian Tiger 2: Bush Rescue                                                                    | EA Games                               | Game Boy Advance | 2004 | Europe
+|       | Ultimate Brain Games                                                                                     | Telegames                              | Game Boy Advance | 2003 | Europe
+|       | Ultimate Spider-Man                                                                                      | Activision                             | Game Boy Advance | 2005 | Europe
+|       | Ultimate Winter Games                                                                                    | Telegames                              | Game Boy Advance | 2004 | Europe
+|       | Uno & Skip-Bo                                                                                            | Jack of All Games                      | Game Boy Advance | 2006 | Europe
+|       | Uno 52                                                                                                   | Zoo Digital Publishing                 | Game Boy Advance | 2007 | Europe
+|       | Uno Free Fall                                                                                            | Zoo Digital Publishing                 | Game Boy Advance | 2007 | Europe
+|       | Urban Yeti!                                                                                              | Telegames                              | Game Boy Advance | 2002 | Europe
+|       | Urbz: Sims in the City, The                                                                              | EA Games                               | Game Boy Advance | 2004 | Europe
+|       | USA Racer                                                                                                | Davilex                                | Game Boy Advance | 2002 | Europe
+|       | V-Rally 3                                                                                                | Atari SA                               | Game Boy Advance | 2002 | Europe
+|       | V.I.P.                                                                                                   | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Van Helsing                                                                                              | Sierra Entertainment                   | Game Boy Advance | 2004 | Europe
+|       | Virtua Tennis                                                                                            | Sega                                   | Game Boy Advance | 2003 | Europe
+|       | Virtual Kasparov                                                                                         | Titus Software                         | Game Boy Advance | 2002 | Europe
+|       | W.I.T.C.H.                                                                                               | Disney Interactive Studios             | Game Boy Advance | 2005 | Europe
+|       | Wade Hixton's Counter Punch                                                                              | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | Wario Land 4                                                                                             | Nintendo                               | Game Boy Advance | 2001 | Europe
+|       | Wario Ware, Inc: Minigame Mania                                                                          | Nintendo                               | Game Boy Advance | 2003 | Europe
+|       | Whac-A-Mole                                                                                              | Zoo Digital Publishing                 | Game Boy Advance | 2006 | Europe
+|       | Who Wants to Be a Millionaire: Junior                                                                    | Zoo Digital Publishing                 | Game Boy Advance | 2005 | Europe
+|       | Who Wants to be a Millionaire?                                                                           | Zoo Digital Publishing                 | Game Boy Advance | 2002 | Europe
+|       | Who Wants to be a Millionaire? 2nd Edition                                                               | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | Wild Thornberrys: Chimp Chase, The                                                                       | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | Wild, The                                                                                                | Buena Vista Games                      | Game Boy Advance | 2006 | Europe
+|       | Wing Commander: Prophecy                                                                                 | Destination Software                   | Game Boy Advance | 2003 | Europe
+|       | Wings                                                                                                    | Zoo Digital Publishing                 | Game Boy Advance | 2004 | Europe
+|       | Winter Spiele                                                                                            | East Entertainment Media               | Game Boy Advance | 2006 | Europe
+|       | Winter Spiele                                                                                            | East Entertainment Media               | Game Boy Advance | 2006 | Europe
+|       | WinX Club                                                                                                | Konami                                 | Game Boy Advance | 2006 | Europe
+|       | WinX Club: Quest for the Codex                                                                           | Konami                                 | Game Boy Advance | 2006 | Europe
+|       | Wolfenstein 3D                                                                                           | Bam Entertainment                      | Game Boy Advance | 2002 | Europe
+|       | Woody Woodpecker in Crazy Castle 5                                                                       | Kemco                                  | Game Boy Advance | 2002 | Europe
+|       | World Championship Poker                                                                                 | Play It!                               | Game Boy Advance | 2005 | Europe
+|       | World Poker Tour                                                                                         | 2K Sports                              | Game Boy Advance | 2006 | Europe
+|       | World Tennis Stars                                                                                       | Ignition Entertainment                 | Game Boy Advance | 2004 | Europe
+|       | Worms Blast                                                                                              | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | Worms World Party                                                                                        | Ubisoft                                | Game Boy Advance | 2002 | Europe
+|       | WWE Road to WrestleMania X8                                                                              | THQ                                    | Game Boy Advance | 2002 | Europe
+|       | WWE Survivor Series                                                                                      | THQ                                    | Game Boy Advance | 2004 | Europe
+|       | WWF Road to Wrestlemania                                                                                 | THQ                                    | Game Boy Advance | 2001 | Europe
+|       | X-Bladez: Inline Skater                                                                                  | Crave                                  | Game Boy Advance | 2002 | Europe
+|       | X-Men 2: Wolverine's Revenge                                                                             | Activision                             | Game Boy Advance | 2003 | Europe
+|       | X-Men: Reign of Apocalypse                                                                               | Activision                             | Game Boy Advance | 2001 | Europe
+|       | X-Men: The Official Game                                                                                 | Activision                             | Game Boy Advance | 2006 | Europe
+|       | xXx                                                                                                      | Activision                             | Game Boy Advance | 2002 | Europe
+|       | Yggdra Union: We'll Never Fight Alone                                                                    | 505 Games                              | Game Boy Advance | 2007 | Europe
+|       | Yoshi's Island: Super Mario Advance 3                                                                    | Nintendo                               | Game Boy Advance | 2002 | Europe
+|       | Yoshi's Universal Gravitation                                                                            | Nintendo                               | Game Boy Advance | 2005 | Europe
+|       | Yu Yu Hakusho - Ghost Files: Spirit Detective                                                            | Atari SA                               | Game Boy Advance | 2005 | Europe
+|       | Yu Yu Hakusho - Ghost Files: Tournament Tactics                                                          | Atari SA                               | Game Boy Advance | 2005 | Europe
+|       | Yu-Gi-Oh! Day of the Duelist: World Championship Tournament 2005                                         | Konami                                 | Game Boy Advance | 2005 | Europe
+|       | Yu-Gi-Oh! Destiny Board Traveler                                                                         | Konami                                 | Game Boy Advance | 2005 | Europe
+|       | Yu-Gi-Oh! Double Pack                                                                                    | Konami                                 | Game Boy Advance | 2006 | Europe
+|       | Yu-Gi-Oh! Dungeon Dice Monsters                                                                          | Konami                                 | Game Boy Advance | 2003 | Europe
+|       | Yu-Gi-Oh! GX: Duel Academy                                                                               | Konami                                 | Game Boy Advance | 2006 | Europe
+|       | Yu-Gi-Oh! Reshef of Destruction                                                                          | Konami                                 | Game Boy Advance | 2004 | Europe
+|       | Yu-Gi-Oh! The Eternal Duelist Soul                                                                       | Konami                                 | Game Boy Advance | 2003 | Europe
+|       | Yu-Gi-Oh! The Sacred Cards                                                                               | Konami                                 | Game Boy Advance | 2004 | Europe
+|       | Yu-Gi-Oh! Ultimate Masters Edition: World Championship Tournament 2006                                   | Konami                                 | Game Boy Advance | 2006 | Europe
+|       | Yu-Gi-Oh! World Championship Tournament 2004                                                             | Konami                                 | Game Boy Advance | 2004 | Europe
+|       | Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel                                               | Konami                                 | Game Boy Advance | 2003 | Europe
+|       | Zapper                                                                                                   | Infogrames                             | Game Boy Advance | 2003 | Europe
+|       | Zidane: Football Generation 2002                                                                         | Cryo Interactive                       | Game Boy Advance | 2002 | Europe
+|       | Zone of the Enders: The Fist of Mars                                                                     | Konami                                 | Game Boy Advance | 2002 | Europe
+|       | ZooCube                                                                                                  | Acclaim                                | Game Boy Advance | 2002 | Europe
+|       | Zooo: Action Puzzle Game                                                                                 | Ignition Entertainment                 | Game Boy Advance | 2005 | Europe

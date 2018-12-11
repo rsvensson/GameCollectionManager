@@ -1,0 +1,197 @@
+|       | Aa Harimanada                                            | Sega                        | Game Gear | 1993 | Japan
+|       | Addams Family, The                                       | Acclaim Japan               | Game Gear | 1994 | Japan
+|       | Aerial Assault                                           | Sega                        | Game Gear | 1992 | Japan
+|       | Alien 3                                                  | Acclaim Japan               | Game Gear | 1994 | Japan
+|       | Alien Syndrome                                           | Sims                        | Game Gear | 1992 | Japan
+|       | Ariel: Crystal Densetsu                                  | Sega                        | Game Gear | 1991 | Japan
+|       | Ax Battler: Golden Axe Densetsu                          | Sega                        | Game Gear | 1991 | Japan
+|       | Ayrton Senna's Super Monaco GP II                        | Sega                        | Game Gear | 1992 | Japan
+|       | Baku Baku Animal: Sekai Shiiku Gakari Senshuken          | Sega                        | Game Gear | 1996 | Japan
+|       | Bare Knuckle II: Shitou heno Chingonka                   | Sega                        | Game Gear | 1993 | Japan
+|       | Bare Knuckle: Ikari no Tekken                            | Sega                        | Game Gear | 1992 | Japan
+|       | Batman Forever                                           | Acclaim Japan               | Game Gear | 1995 | Japan
+|       | Batman Returns                                           | Sega                        | Game Gear | 1992 | Japan
+|       | Battletoads                                              | Sega                        | Game Gear | 1994 | Japan
+|       | Berlin no Kabe                                           | Kaneko                      | Game Gear | 1991 | Japan
+|       | Bishoujo Senshi Sailor Moon S                            | Bandai                      | Game Gear | 1995 | Japan
+|       | Buster Ball                                              | Riverhillsoft               | Game Gear | 1992 | Japan
+|       | Buster Fight                                             | Sega                        | Game Gear | 1994 | Japan
+|       | Car Licence                                              | Mitsubishi Chemical         | Game Gear | 1995 | Japan
+|       | Chuck Rock                                               | Sega                        | Game Gear | 1992 | Japan
+|       | Columns                                                  | Sega                        | Game Gear | 1990 | Japan
+|       | Crayon Shin-Chan: Taiketsu! Quantum Panic!!              | Bandai                      | Game Gear | 1995 | Japan
+|       | Devilish                                                 | Genki                       | Game Gear | 1991 | Japan
+|       | Disney's Aladdin                                         | Sega                        | Game Gear | 1994 | Japan
+|       | Donald Duck no 4-tsu no Hihou                            | Sega                        | Game Gear | 1993 | Japan
+|       | Donald Duck no Lucky Dime                                | Sega                        | Game Gear | 1991 | Japan
+|       | Donald no Magical World                                  | Sega                        | Game Gear | 1994 | Japan
+|       | Doraemon: Nora no Suke no Yabou                          | Sega                        | Game Gear | 1993 | Japan
+|       | Doraemon: Wakuwaku Pocket Paradise                       | Sega                        | Game Gear | 1996 | Japan
+|       | Dragon Crystal: Tsurani no Meikyuu                       | Sega                        | Game Gear | 1990 | Japan
+|       | Dunk Kids                                                | Sega                        | Game Gear | 1994 | Japan
+|       | Dynamite Headdy                                          | Sega                        | Game Gear | 1994 | Japan
+|       | Ecco the Dolphin                                         | Sega                        | Game Gear | 1994 | Japan
+|       | Ecco the Dolphin 2                                       | Sega                        | Game Gear | 1995 | Japan
+|       | Eternal Legend: Eien no Densetsu                         | Sega                        | Game Gear | 1991 | Japan
+|       | Faceball 2000                                            | Riverhillsoft               | Game Gear | 1993 | Japan
+|       | Fantasy Zone Gear: OpaOpa Jr. no Bouken                  | Sanritsu                    | Game Gear | 1991 | Japan
+|       | FIFA International Soccer                                | Electronic Arts Victor      | Game Gear | 1995 | Japan
+|       | Foreman For Real                                         | Acclaim Japan               | Game Gear | 1995 | Japan
+|       | Fray: Shuugyouhen                                        | Micro Cabin                 | Game Gear | 1991 | Japan
+|       | Fred Couples Golf                                        | Sega                        | Game Gear | 1994 | Japan
+|       | From TV Animation: Slam Dunk: Shouri heno Starting 5     | Bandai                      | Game Gear | 1994 | Japan
+|       | G-LOC Air Battle                                         | Sega                        | Game Gear | 1990 | Japan
+|       | G-Sonic                                                  | Sega                        | Game Gear | 1996 | Japan
+|       | Galaga '91                                               | Namco                       | Game Gear | 1991 | Japan
+|       | Gamble Panic                                             | Sega                        | Game Gear | 1995 | Japan
+|       | Gambler Jiko Chuushinha                                  | Sega                        | Game Gear | 1992 | Japan
+|       | Ganbare Gorby!                                           | Sega                        | Game Gear | 1991 | Japan
+|       | Garou Densetsu Special                                   | Takara                      | Game Gear | 1994 | Japan
+|       | Gear Stadium                                             | Namco                       | Game Gear | 1991 | Japan
+|       | Gear Stadium Heiseiban                                   | Namco                       | Game Gear | 1995 | Japan
+|       | GG Aleste                                                | Compile                     | Game Gear | 1991 | Japan
+|       | GG Aleste II                                             | Sega                        | Game Gear | 1993 | Japan
+|       | GG Portrait: Pai Chan                                    | Sega                        | Game Gear | 1996 | Japan
+|       | GG Portrait: Yuki Akira                                  | Sega                        | Game Gear | 1996 | Japan
+|       | GG Shinobi II, The                                       | Sega                        | Game Gear | 1992 | Japan
+|       | GG Shinobi, The                                          | Sega                        | Game Gear | 1991 | Japan
+|       | Godzilla: Kaijuu no Daishingeki                          | Sega                        | Game Gear | 1995 | Japan
+|       | GP Rider                                                 | Sega                        | Game Gear | 1994 | Japan
+|       | Griffin                                                  | Nippon Telenet              | Game Gear | 1991 | Japan
+|       | Gunstar Heroes                                           | Sega                        | Game Gear | 1995 | Japan
+|       | Halley Wars                                              | Taito Corporation           | Game Gear | 1991 | Japan
+|       | Head Buster                                              | NCS                         | Game Gear | 1991 | Japan
+|       | Heavyweight Champ                                        | Sims                        | Game Gear | 1991 | Japan
+|       | Honoo no Doukyuuji: Dodge Danpei                         | Sega                        | Game Gear | 1992 | Japan
+|       | Hyokkori Hyoutan Jima: Hyoutan Jima no Daibouken         | Sega                        | Game Gear | 1992 | Japan
+|       | Hyper Pro Yakyuu '92                                     | Sega                        | Game Gear | 1992 | Japan
+|       | In the Wake of Vampire                                   | Sims                        | Game Gear | 1992 | Japan
+|       | Incredible Crash Dummies: Slick Bouya no Daichousen, The | Acclaim Japan               | Game Gear | 1994 | Japan
+|       | J.League GG Pro Striker '94                              | Sega                        | Game Gear | 1994 | Japan
+|       | J.League Soccer: Dream Eleven                            | Sega                        | Game Gear | 1995 | Japan
+|       | Joe Montana Football                                     | Sega                        | Game Gear | 1992 | Japan
+|       | Junction                                                 | Micronet                    | Game Gear | 1991 | Japan
+|       | Jurassic Park                                            | Sega                        | Game Gear | 1993 | Japan
+|       | Kaitou Saint Tail                                        | Sega                        | Game Gear | 1996 | Japan
+|       | Kenyuu Densetsu Yaiba                                    | Sega                        | Game Gear | 1994 | Japan
+|       | Kick & Rush                                              | Sims                        | Game Gear | 1993 | Japan
+|       | Kinetic Connection                                       | Sega                        | Game Gear | 1991 | Japan
+|       | Kishin Douji Zenki                                       | Sega                        | Game Gear | 1995 | Japan
+|       | Kuni-Chan no Game Tengoku                                | Sega                        | Game Gear | 1991 | Japan
+|       | Kuni-Chan no Game Tengoku Part 2                         | Sega                        | Game Gear | 1992 | Japan
+|       | Lemmings                                                 | Sega                        | Game Gear | 1993 | Japan
+|       | Lion King, The                                           | Sega                        | Game Gear | 1995 | Japan
+|       | Lunar: Sanposuru Gakuen                                  | Game Arts                   | Game Gear | 1996 | Japan
+|       | Madou Monogatari A: DokiDoki Bake~shon                   | Compile                     | Game Gear | 1995 | Japan
+|       | Madou Monogatari I: 3-tsu no Madouryoku                  | Sega                        | Game Gear | 1993 | Japan
+|       | Madou Monogatari II: Arles 16-Sai                        | Sega                        | Game Gear | 1994 | Japan
+|       | Madou Monogatari III: Kyuukyoku Joou-Sama                | Sega                        | Game Gear | 1994 | Japan
+|       | Magical * Taruruuto-kun                                  | Tsukuda Ideal               | Game Gear | 1991 | Japan
+|       | Magical Puzzle Popils                                    | Tengen                      | Game Gear | 1991 | Japan
+|       | Mahou Kishi Rayearth                                     | Sega                        | Game Gear | 1994 | Japan
+|       | Mahou Kishi Rayearth 2: Making of Magic Knight           | Sega                        | Game Gear | 1995 | Japan
+|       | Mappy                                                    | Namco                       | Game Gear | 1991 | Japan
+|       | Megami Tensei Gaiden: Last Bible                         | Sega                        | Game Gear | 1994 | Japan
+|       | Megami Tensei Gaiden: Last Bible Special                 | Sega                        | Game Gear | 1995 | Japan
+|       | Mickey Mouse no Castle Illusion                          | Sega                        | Game Gear | 1991 | Japan
+|       | Mickey Mouse no Mahou no Crystal                         | Sega                        | Game Gear | 1993 | Japan
+|       | Mickey Mouse: Densetsu no Oukoku                         | Sega                        | Game Gear | 1995 | Japan
+|       | Moldorian: Hikari to Yami no Kyoudai                     | Sega                        | Game Gear | 1994 | Japan
+|       | Monster World II: Dragon no Wana                         | Sega                        | Game Gear | 1992 | Japan
+|       | Mortal Kombat II: Kyuukyoku Jinken                       | Acclaim Japan               | Game Gear | 1994 | Japan
+|       | Mortal Kombat: Shinken Kourin Densetsu                   | Acclaim Japan               | Game Gear | 1993 | Japan
+|       | Nazo Puyo                                                | Sega                        | Game Gear | 1993 | Japan
+|       | Nazo Puyo 2                                              | Sega                        | Game Gear | 1993 | Japan
+|       | Nazo Puyo: Arle no Roux                                  | Sega                        | Game Gear | 1994 | Japan
+|       | NBA Jam                                                  | Acclaim Japan               | Game Gear | 1994 | Japan
+|       | NBA Jam Tournament Edition                               | Acclaim Japan               | Game Gear | 1995 | Japan
+|       | NFL Quarterback Club '95                                 | Acclaim Japan               | Game Gear | 1995 | Japan
+|       | Ninja Gaiden                                             | Sega                        | Game Gear | 1991 | Japan
+|       | Ninku                                                    | Sega                        | Game Gear | 1995 | Japan
+|       | Ninku 2: Tenkuuryuu e no Michi                           | Sega                        | Game Gear | 1995 | Japan
+|       | Ninku Gaiden: Hiroyuki Daikatsugeki                      | Sega                        | Game Gear | 1995 | Japan
+|       | Nomo Hideo no World Series Baseball                      | Sega                        | Game Gear | 1995 | Japan
+|       | Olympic Gold                                             | Sega                        | Game Gear | 1992 | Japan
+|       | OutRun                                                   | Sega                        | Game Gear | 1991 | Japan
+|       | Pac-Man                                                  | Namco                       | Game Gear | 1991 | Japan
+|       | Panzer Dragoon Mini                                      | Sega                        | Game Gear | 1996 | Japan
+|       | Pengo                                                    | Sega                        | Game Gear | 1990 | Japan
+|       | Pet Club: Inu Dai Suki!                                  | Sega                        | Game Gear | 1996 | Japan
+|       | Pet Club: Neko Dai Suki!                                 | Sega                        | Game Gear | 1996 | Japan
+|       | Phantasy Star Adventure                                  | Sega                        | Game Gear | 1992 | Japan
+|       | Phantasy Star Gaiden                                     | Sega                        | Game Gear | 1992 | Japan
+|       | Pocket Jansou                                            | Namco                       | Game Gear | 1992 | Japan
+|       | Pop Breaker                                              | Micro Cabin                 | Game Gear | 1991 | Japan
+|       | Popeye no Beach Volleyball                               | Technos                     | Game Gear | 1994 | Japan
+|       | Pro Yakyuu '91, The                                      | Sega                        | Game Gear | 1991 | Japan
+|       | Pro Yakyuu GG League                                     | Sega                        | Game Gear | 1993 | Japan
+|       | Pro Yakyuu GG League '94                                 | Sega                        | Game Gear | 1994 | Japan
+|       | Psychic World                                            | Sega                        | Game Gear | 1991 | Japan
+|       | Putt & Putter                                            | Sega                        | Game Gear | 1991 | Japan
+|       | Puyo Puyo                                                | Sega                        | Game Gear | 1993 | Japan
+|       | Puyo Puyo Tsuu                                           | Compile                     | Game Gear | 1994 | Japan
+|       | Puzzle & Action: Ichidant-R GG                           | Sega                        | Game Gear | 1994 | Japan
+|       | Puzzle & Action: Tant-R                                  | Sega                        | Game Gear | 1994 | Japan
+|       | Puzzle Bobble                                            | Taito Corporation           | Game Gear | 1996 | Japan
+|       | Quiz Gear Fight!!, The                                   | Sega                        | Game Gear | 1995 | Japan
+|       | Rastan Saga                                              | Taito Corporation           | Game Gear | 1991 | Japan
+|       | Riddick Bowe Boxing                                      | Micronet                    | Game Gear | 1994 | Japan
+|       | Ristar the Shooting Star                                 | Sega                        | Game Gear | 1995 | Japan
+|       | RoboCop 3                                                | Acclaim Japan               | Game Gear | 1994 | Japan
+|       | Royal Stone: Hirakareshi Toki no Tobira                  | Sega                        | Game Gear | 1995 | Japan
+|       | Ryu Kyu                                                  | Face                        | Game Gear | 1991 | Japan
+|       | Sadam Crusader: Harukanaru Oukoku                        | Sega                        | Game Gear | 1992 | Japan
+|       | Samurai Spirits                                          | Takara                      | Game Gear | 1994 | Japan
+|       | Sassou Shounen Eiyuuden Coca-Cola Kid                    | Sega                        | Game Gear | 1994 | Japan
+|       | Scratch Golf                                             | Vic Tokai                   | Game Gear | 1994 | Japan
+|       | SD Gundam: Winner's History                              | Bandai                      | Game Gear | 1995 | Japan
+|       | Shanghai II                                              | SunSoft                     | Game Gear | 1990 | Japan
+|       | Shikinjou                                                | SunSoft                     | Game Gear | 1991 | Japan
+|       | Shining Force Gaiden II: Jashin no Kakusei               | Sega                        | Game Gear | 1993 | Japan
+|       | Shining Force Gaiden: Ensei Jaishin no Kuni e            | Sega                        | Game Gear | 1992 | Japan
+|       | Shining Force Gaiden: Final Conflict                     | Sega                        | Game Gear | 1995 | Japan
+|       | Simpsons: Bart vs. the World, The                        | Acclaim Japan               | Game Gear | 1994 | Japan
+|       | Skweek                                                   | Victor Interactive Software | Game Gear | 1991 | Japan
+|       | Smash T.V.                                               | Acclaim Japan               | Game Gear | 1994 | Japan
+|       | Sonic & Tails                                            | Sega                        | Game Gear | 1993 | Japan
+|       | Sonic & Tails 2                                          | Sega                        | Game Gear | 1994 | Japan
+|       | Sonic Drift                                              | Sega                        | Game Gear | 1994 | Japan
+|       | Sonic Drift 2                                            | Sega                        | Game Gear | 1995 | Japan
+|       | Sonic Labyrinth                                          | Sega                        | Game Gear | 1995 | Japan
+|       | Sonic the Hedgehog                                       | Sega                        | Game Gear | 1991 | Japan
+|       | Sonic the Hedgehog 2                                     | Sega                        | Game Gear | 1992 | Japan
+|       | Soukoban                                                 | Riverhillsoft               | Game Gear | 1990 | Japan
+|       | Space Harrier                                            | Sega                        | Game Gear | 1991 | Japan
+|       | Stargate                                                 | Acclaim Japan               | Game Gear | 1995 | Japan
+|       | Super Columns                                            | Sega                        | Game Gear | 1995 | Japan
+|       | Super Golf                                               | Sigma Ent. Inc.             | Game Gear | 1991 | Japan
+|       | Super Momotarou Dentetsu III                             | Hudson                      | Game Gear | 1995 | Japan
+|       | Super Monaco GP                                          | Sega                        | Game Gear | 1990 | Japan
+|       | Sylvan Tale                                              | Sega                        | Game Gear | 1995 | Japan
+|       | T2: The Arcade Game                                      | Acclaim Japan               | Game Gear | 1994 | Japan
+|       | Tails Adventures                                         | Sega                        | Game Gear | 1995 | Japan
+|       | Tails no Sky Patrol                                      | Sega                        | Game Gear | 1995 | Japan
+|       | Taisen Mahjong Haopai                                    | Sega                        | Game Gear | 1990 | Japan
+|       | Taisen Mahjong Haopai 2                                  | Sega                        | Game Gear | 1993 | Japan
+|       | Taisenkei: Daisenryaku G                                 | SystemSoft                  | Game Gear | 1991 | Japan
+|       | Taito Chase H.Q.                                         | Sega                        | Game Gear | 1991 | Japan
+|       | Tama and Friends Sanchoume Kouen: Tamalympics            | Sega                        | Game Gear | 1995 | Japan
+|       | Tarot no Yakata: House of Tarot                          | Sega                        | Game Gear | 1991 | Japan
+|       | Tatakae! Pro Yakyuu Twin League                          | Sega                        | Game Gear | 1995 | Japan
+|       | Tempo Jr.                                                | Sega                        | Game Gear | 1995 | Japan
+|       | Terminator 2: Judgement Day                              | Acclaim Japan               | Game Gear | 1994 | Japan
+|       | Tom and Jerry: The Movie                                 | Sega                        | Game Gear | 1993 | Japan
+|       | Torarete Tamaruka!?                                      | Sega                        | Game Gear | 1994 | Japan
+|       | True Lies                                                | Acclaim Japan               | Game Gear | 1995 | Japan
+|       | Ultimate Soccer                                          | Sega                        | Game Gear | 1993 | Japan
+|       | Virtua Fighter Mini                                      | Sega                        | Game Gear | 1996 | Japan
+|       | Wagyan Land                                              | Namco                       | Game Gear | 1991 | Japan
+|       | Wimbledon                                                | Sega                        | Game Gear | 1993 | Japan
+|       | Winter Olympics                                          | Sega                        | Game Gear | 1994 | Japan
+|       | Wonder Boy                                               | Sega                        | Game Gear | 1990 | Japan
+|       | Woody Pop                                                | Sega                        | Game Gear | 1991 | Japan
+|       | World Derby                                              | CRI                         | Game Gear | 1994 | Japan
+|       | Yuu Yuu Hakusho II: Gekitou! Nanakyou no Tatakai         | Sega                        | Game Gear | 1994 | Japan
+|       | Yuu Yuu Hakusho: Horobishi Mono no Gyakushuu             | Sega                        | Game Gear | 1994 | Japan
+|       | Zan Gear                                                 | Nippon Telenet              | Game Gear | 1990 | Japan
+|       | Zool no Yume Bouken                                      | Infocom (JP)                | Game Gear | 1994 | Japan

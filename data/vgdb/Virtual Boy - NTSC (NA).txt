@@ -1,0 +1,14 @@
+|       | 3-D Tetris              | Nintendo  | Virtual Boy | 1996 | North America
+|       | Galactic Pinball        | Nintendo  | Virtual Boy | 1995 | North America
+|       | Golf                    | Nintendo  | Virtual Boy | 1995 | North America
+|       | Jack Bros.              | ATLUS     | Virtual Boy | 1995 | North America
+|       | Mario Clash             | Nintendo  | Virtual Boy | 1995 | North America
+|       | Mario's Tennis          | Nintendo  | Virtual Boy | 1995 | North America
+|       | Nester's Funky Bowling  | Nintendo  | Virtual Boy | 1996 | North America
+|       | Panic Bomber            | Hudson    | Virtual Boy | 1995 | North America
+|       | Red Alarm               | Nintendo  | Virtual Boy | 1995 | North America
+|       | Teleroboxer             | Nintendo  | Virtual Boy | 1995 | North America
+|       | Vertical Force          | Nintendo  | Virtual Boy | 1995 | North America
+|       | Virtual Boy Wario Land  | Nintendo  | Virtual Boy | 1995 | North America
+|       | Virtual League Baseball | Kemco     | Virtual Boy | 1995 | North America
+|       | Waterworld              | Ocean     | Virtual Boy | 1995 | North America

@@ -1,0 +1,637 @@
+|       | 2 Games in 1! Archer Maclean's Mercury / Mercury Meltdown                          | Ignition Entertainment                 | PlayStation Portable | 2010 | North America
+|       | 2010 FIFA World Cup South Africa                                                   | EA Sports                              | PlayStation Portable | 2010 | North America
+|       | 300: March to Glory                                                                | Warner Bros. Interactive Entertainment | PlayStation Portable | 2007 | North America
+|       | 3rd Birthday, The                                                                  | Square Enix                            | PlayStation Portable | 2011 | North America
+|       | 50 Cent: Bulletproof G Unit Edition                                                | Vivendi Games                          | PlayStation Portable | 2006 | North America
+|       | 7 Wonders of the Ancient World                                                     | MumboJumbo                             | PlayStation Portable | 2007 | North America
+|       | Ace Combat X: Skies of Deception                                                   | Namco Bandai Games America             | PlayStation Portable | 2006 | North America
+|       | Ace Combat: Joint Assault                                                          | Namco Bandai Games America             | PlayStation Portable | 2010 | North America
+|       | Activision Hits Remixed                                                            | Activision                             | PlayStation Portable | 2006 | North America
+|       | Adventures to Go!                                                                  | Natsume                                | PlayStation Portable | 2009 | North America
+|       | Aedis Eclipse: Generation of Chaos                                                 | NIS America                            | PlayStation Portable | 2007 | North America
+|       | After Burner: Black Falcon                                                         | Sega                                   | PlayStation Portable | 2007 | North America
+|       | Air Conflicts: Aces of World War II                                                | Graffiti Entertainment                 | PlayStation Portable | 2009 | North America
+|       | Alien Syndrome                                                                     | Sega                                   | PlayStation Portable | 2007 | North America
+|       | Aliens vs. Predator: Requiem                                                       | Sierra Entertainment                   | PlayStation Portable | 2007 | North America
+|       | Ape Escape Academy                                                                 | SCEA                                   | PlayStation Portable | 2006 | North America
+|       | Ape Escape: On the Loose                                                           | SCEA                                   | PlayStation Portable | 2005 | North America
+|       | Archer Maclean's Mercury                                                           | Ignition Entertainment                 | PlayStation Portable | 2005 | North America
+|       | Armored Core 3 Portable                                                            | From Software                          | PlayStation Portable | 2009 | North America
+|       | Armored Core: Formula Front - Extreme Battle                                       | Agetec Inc.                            | PlayStation Portable | 2005 | North America
+|       | Armored Core: Last Raven Portable                                                  | From Software                          | PlayStation Portable | 2010 | North America
+|       | Armored Core: Silent Line Portable                                                 | From Software                          | PlayStation Portable | 2010 | North America
+|       | Army of Two: The 40th Day                                                          | Electronic Arts                        | PlayStation Portable | 2010 | North America
+|       | Assassin's Creed: Bloodlines                                                       | Ubisoft                                | PlayStation Portable | 2009 | North America
+|       | Astonishia Story                                                                   | Ubisoft                                | PlayStation Portable | 2006 | North America
+|       | Astro Boy: The Video Game                                                          | D3Publisher                            | PlayStation Portable | 2009 | North America
+|       | Atari Classics Evolved                                                             | Atari                                  | PlayStation Portable | 2007 | North America
+|       | ATV Offroad Fury Pro                                                               | SCEA                                   | PlayStation Portable | 2006 | North America
+|       | ATV Offroad Fury: Blazin' Trails                                                   | SCEA                                   | PlayStation Portable | 2005 | North America
+|       | Avatar: The Last Airbender                                                         | THQ                                    | PlayStation Portable | 2006 | North America
+|       | B-Boy                                                                              | Evolved Games                          | PlayStation Portable | 2008 | North America
+|       | Bakugan: Defenders of the Core                                                     | Activision                             | PlayStation Portable | 2010 | North America
+|       | BattleZone                                                                         | Atari                                  | PlayStation Portable | 2006 | North America
+|       | Beaterator                                                                         | Rockstar Games                         | PlayStation Portable | 2009 | North America
+|       | Ben 10 Ultimate Alien: Cosmic Destruction                                          | D3Publisher                            | PlayStation Portable | 2010 | North America
+|       | Ben 10: Alien Force                                                                | D3Publisher                            | PlayStation Portable | 2008 | North America
+|       | Ben 10: Alien Force Vilgax Attacks                                                 | D3Publisher                            | PlayStation Portable | 2009 | North America
+|       | Ben 10: Protector of Earth                                                         | D3Publisher                            | PlayStation Portable | 2007 | North America
+|       | Beowulf                                                                            | Ubisoft                                | PlayStation Portable | 2007 | North America
+|       | Beta Bloc                                                                          | Essential Games                        | PlayStation Portable | 2009 | North America
+|       | Bigs 2, The                                                                        | 2K Sports                              | PlayStation Portable | 2009 | North America
+|       | Bigs, The                                                                          | 2K Sports                              | PlayStation Portable | 2007 | North America
+|       | Blade Dancer: Lineage of Light                                                     | NIS America                            | PlayStation Portable | 2006 | North America
+|       | BlazBlue: Calamity Trigger Portable                                                | Aksys Games                            | PlayStation Portable | 2010 | North America
+|       | BlazBlue: Continuum Shift II                                                       | Aksys Games                            | PlayStation Portable | 2011 | North America
+|       | Blazing Souls: Accelate                                                            | Aksys Games                            | PlayStation Portable | 2010 | North America
+|       | Blitz: Overtime                                                                    | Midway                                 | PlayStation Portable | 2006 | North America
+|       | Blokus Portable: Steambot Championship                                             | Majesco Games                          | PlayStation Portable | 2008 | North America
+|       | Blood Bowl                                                                         | Focus Home Interactive                 | PlayStation Portable | 2010 | North America
+|       | Bomberman                                                                          | Konami                                 | PlayStation Portable | 2006 | North America
+|       | Bomberman Land                                                                     | Hudson Entertainment                   | PlayStation Portable | 2008 | North America
+|       | Bounty Hounds                                                                      | Namco Bandai Games America             | PlayStation Portable | 2006 | North America
+|       | Brave Story: New Traveler                                                          | Xseed Games                            | PlayStation Portable | 2007 | North America
+|       | Brave: A Warrior's Tale                                                            | Evolved Games                          | PlayStation Portable | 2009 | North America
+|       | Brooktown High                                                                     | Konami                                 | PlayStation Portable | 2007 | North America
+|       | Brothers in Arms: D-Day                                                            | Ubisoft                                | PlayStation Portable | 2006 | North America
+|       | Brunswick Pro Bowling                                                              | Crave                                  | PlayStation Portable | 2007 | North America
+|       | Bubble Bobble Evolution                                                            | Codemasters                            | PlayStation Portable | 2006 | North America
+|       | Burnout Dominator                                                                  | Electronic Arts                        | PlayStation Portable | 2007 | North America
+|       | Burnout Legends                                                                    | EA Games                               | PlayStation Portable | 2005 | North America
+|       | Bust-A-Move Deluxe                                                                 | Majesco Games                          | PlayStation Portable | 2006 | North America
+|       | Buzz! Master Quiz                                                                  | SCEA                                   | PlayStation Portable | 2008 | North America
+|       | Buzz! Quiz World                                                                   | SCEA                                   | PlayStation Portable | 2009 | North America
+|       | Cabela's African Safari                                                            | Activision Value                       | PlayStation Portable | 2006 | North America
+|       | Cabela's Dangerous Hunts Ultimate Challenge                                        | Activision                             | PlayStation Portable | 2006 | North America
+|       | Cabela's Legendary Adventures                                                      | Activision                             | PlayStation Portable | 2008 | North America
+|       | Cabela's North American Adventures                                                 | Activision                             | PlayStation Portable | 2010 | North America
+|       | Cake Mania: Baker's Challenge                                                      | Destineer                              | PlayStation Portable | 2008 | North America
+|       | Call of Duty: Roads to Victory                                                     | Activision                             | PlayStation Portable | 2007 | North America
+|       | Capcom Classics Collection Reloaded                                                | Capcom                                 | PlayStation Portable | 2006 | North America
+|       | Capcom Classics Collection Remixed                                                 | Capcom                                 | PlayStation Portable | 2006 | North America
+|       | Capcom Classics Collection Remixed / Capcom Classics Collection Reloaded Dual Pack | Capcom                                 | PlayStation Portable | 2011 | North America
+|       | Capcom Puzzle World                                                                | Capcom                                 | PlayStation Portable | 2007 | North America
+|       | Carol Vorderman's Sudoku                                                           | Eidos Interactive                      | PlayStation Portable | 2007 | North America
+|       | Cars                                                                               | THQ                                    | PlayStation Portable | 2006 | North America
+|       | Cars 2: The Video Game                                                             | SCEA                                   | PlayStation Portable | 2011 | North America
+|       | Cars Race-O-Rama                                                                   | THQ                                    | PlayStation Portable | 2009 | North America
+|       | Castlevania: The Dracula X Chronicles                                              | Konami                                 | PlayStation Portable | 2007 | North America
+|       | Chameleon                                                                          | Tommo                                  | PlayStation Portable | 2008 | North America
+|       | Chessmaster: The Art of Learning                                                   | Ubisoft                                | PlayStation Portable | 2008 | North America
+|       | Chili Con Carnage                                                                  | Eidos Interactive                      | PlayStation Portable | 2007 | North America
+|       | CID The Dummy                                                                      | Oxygen Interactive                     | PlayStation Portable | 2009 | North America
+|       | Class of Heroes                                                                    | ATLUS                                  | PlayStation Portable | 2009 | North America
+|       | Class of Heroes 2                                                                  | MonkeyPaw Games                        | PlayStation Portable | 2013 | North America
+|       | Class of Heroes 3                                                                  | MonkeyPaw Games                        | PlayStation Portable | 2017 | North America
+|       | Cloudy With a Chance of Meatballs                                                  | Ubisoft                                | PlayStation Portable | 2009 | North America
+|       | Code Lyoko: Quest for Infinity                                                     | The Game Factory                       | PlayStation Portable | 2008 | North America
+|       | Coded Arms                                                                         | Konami                                 | PlayStation Portable | 2005 | North America
+|       | Coded Arms: Contagion                                                              | Konami                                 | PlayStation Portable | 2007 | North America
+|       | Con, The                                                                           | SCEA                                   | PlayStation Portable | 2005 | North America
+|       | Crash of the Titans                                                                | Sierra Entertainment                   | PlayStation Portable | 2007 | North America
+|       | Crash Tag Team Racing                                                              | VU Games                               | PlayStation Portable | 2005 | North America
+|       | Crash: Mind Over Mutant                                                            | Activision Blizzard                    | PlayStation Portable | 2008 | North America
+|       | Crazy Taxi: Fare Wars                                                              | Sega                                   | PlayStation Portable | 2007 | North America
+|       | Crimson Gem Saga                                                                   | ATLUS                                  | PlayStation Portable | 2009 | North America
+|       | Crisis Core: Final Fantasy VII                                                     | Square Enix                            | PlayStation Portable | 2008 | North America
+|       | Crush                                                                              | Sega                                   | PlayStation Portable | 2007 | North America
+|       | Cube                                                                               | D3Publisher                            | PlayStation Portable | 2007 | North America
+|       | Dante's Inferno                                                                    | Electronic Arts                        | PlayStation Portable | 2010 | North America
+|       | Darkstalkers Chronicle: The Chaos Tower                                            | Capcom                                 | PlayStation Portable | 2005 | North America
+|       | Dave Mirra BMX Challenge                                                           | Crave                                  | PlayStation Portable | 2006 | North America
+|       | Daxter                                                                             | SCEA                                   | PlayStation Portable | 2006 | North America
+|       | Dead Head Fred                                                                     | D3Publisher                            | PlayStation Portable | 2007 | North America
+|       | Dead or Alive Paradise                                                             | Tecmo                                  | PlayStation Portable | 2010 | North America
+|       | Dead to Rights: Reckoning                                                          | Namco                                  | PlayStation Portable | 2005 | North America
+|       | Death Jr.                                                                          | Konami                                 | PlayStation Portable | 2005 | North America
+|       | Death Jr. II: Root of Evil                                                         | Konami                                 | PlayStation Portable | 2006 | North America
+|       | Def Jam: Fight for NY: The Takeover                                                | EA Games                               | PlayStation Portable | 2006 | North America
+|       | Despicable Me                                                                      | D3Publisher                            | PlayStation Portable | 2010 | North America
+|       | Despicable Me: The Game                                                            | D3Publisher                            | PlayStation Portable | 2010 | North America
+|       | Diner Dash: Sizzle & Serve                                                         | Eidos Interactive                      | PlayStation Portable | 2007 | North America
+|       | DiRT 2                                                                             | Codemasters                            | PlayStation Portable | 2009 | North America
+|       | Disgaea 2: Dark Hero Days                                                          | NIS America                            | PlayStation Portable | 2009 | North America
+|       | Disgaea Infinite                                                                   | NIS America                            | PlayStation Portable | 2010 | North America
+|       | Disgaea: Afternoon of Darkness                                                     | NIS America                            | PlayStation Portable | 2007 | North America
+|       | Disney Hannah Montana: Rock Out the Show                                           | Disney Interactive Studios             | PlayStation Portable | 2009 | North America
+|       | Dissidia 012: Duodecim Final Fantasy                                               | Square Enix                            | PlayStation Portable | 2011 | North America
+|       | Dissidia: Final Fantasy                                                            | Square Enix                            | PlayStation Portable | 2009 | North America
+|       | DJ Max Fever                                                                       | PM Studios Inc.                        | PlayStation Portable | 2009 | North America
+|       | DJ Max Portable 3                                                                  | PM Studios Inc.                        | PlayStation Portable | 2010 | North America
+|       | Double Rivals Attack Pack!                                                         | Sega                                   | PlayStation Portable | 2011 | North America
+|       | Double Super Hero Pack!                                                            | Sega                                   | PlayStation Portable | 2011 | North America
+|       | Downstream Panic!                                                                  | Atari                                  | PlayStation Portable | 2008 | North America
+|       | Dragon Ball Z: Shin Budokai                                                        | Atari                                  | PlayStation Portable | 2006 | North America
+|       | Dragon Ball Z: Shin Budokai - Another Road                                         | Atari                                  | PlayStation Portable | 2007 | North America
+|       | Dragon Ball Z: Tenkaichi Tag Team                                                  | Namco Bandai Games                     | PlayStation Portable | 2010 | North America
+|       | Dragon Ball: Evolution                                                             | Namco Bandai Games America             | PlayStation Portable | 2009 | North America
+|       | Dragoneer's Aria                                                                   | NIS America                            | PlayStation Portable | 2007 | North America
+|       | Driver '76                                                                         | Ubisoft                                | PlayStation Portable | 2007 | North America
+|       | DT Carnage                                                                         | Agetec Inc.                            | PlayStation Portable | 2009 | North America
+|       | Dual Pack: Hot Shots Golf: Open Tee / Hot Shots Golf: Get A Grip                   | SCEA                                   | PlayStation Portable | 2012 | North America
+|       | Dual Pack: Patapon / LocoRoco                                                      | SCEA                                   | PlayStation Portable | 2012 | North America
+|       | Dual Pack: Secret Agent Clank / Daxter                                             | SCEA                                   | PlayStation Portable | 2011 | North America
+|       | Dual Pack: Syphon Filter: Dark Mirror / SOCOM: U.S. Navy SEALs Fireteam Bravo      | SCEA                                   | PlayStation Portable | 2011 | North America
+|       | Dual Pack: Syphon Filter: Logan's Shadow / Killzone: Liberation                    | SCEA                                   | PlayStation Portable | 2011 | North America
+|       | Dungeon Explorer: Warriors of Ancient Arts                                         | Hudson Entertainment                   | PlayStation Portable | 2008 | North America
+|       | Dungeon Maker II: The Hidden War                                                   | UFO Interactive                        | PlayStation Portable | 2008 | North America
+|       | Dungeon Maker: Hunting Ground                                                      | Xseed Games                            | PlayStation Portable | 2007 | North America
+|       | Dungeon Siege: Throne of Agony                                                     | Take-Two Interactive                   | PlayStation Portable | 2006 | North America
+|       | Dungeons & Dragons Tactics                                                         | Atari                                  | PlayStation Portable | 2007 | North America
+|       | Dynasty Warriors                                                                   | Koei                                   | PlayStation Portable | 2005 | North America
+|       | Dynasty Warriors Vol. 2                                                            | Koei                                   | PlayStation Portable | 2006 | North America
+|       | Dynasty Warriors: Strikeforce                                                      | Koei                                   | PlayStation Portable | 2009 | North America
+|       | EA Replay                                                                          | Electronic Arts                        | PlayStation Portable | 2006 | North America
+|       | Eragon                                                                             | Vivendi Games                          | PlayStation Portable | 2006 | North America
+|       | Every Extend Extra                                                                 | Buena Vista Games                      | PlayStation Portable | 2006 | North America
+|       | Exit                                                                               | Ubisoft                                | PlayStation Portable | 2006 | North America
+|       | EyePet                                                                             | SCEA                                   | PlayStation Portable | 2010 | North America
+|       | EyePet Adventures                                                                  | SCEA                                   | PlayStation Portable | 2017 | North America
+|       | F1 2009                                                                            | Codemasters                            | PlayStation Portable | 2009 | North America
+|       | Fading Shadows                                                                     | Agetec Inc.                            | PlayStation Portable | 2008 | North America
+|       | Family Guy                                                                         | 2K Games                               | PlayStation Portable | 2006 | North America
+|       | Fast and the Furious, The                                                          | Namco Bandai Games America             | PlayStation Portable | 2007 | North America
+|       | Fat Princess: Fistful of Cake                                                      | SCEA                                   | PlayStation Portable | 2010 | North America
+|       | Fate/Extra                                                                         | Aksys Games                            | PlayStation Portable | 2011 | North America
+|       | Field Commander                                                                    | Sony Online Entertainment              | PlayStation Portable | 2006 | North America
+|       | FIFA 07 Soccer                                                                     | EA Sports                              | PlayStation Portable | 2006 | North America
+|       | FIFA Soccer                                                                        | Electronic Arts                        | PlayStation Portable | 2005 | North America
+|       | FIFA Soccer 06                                                                     | EA Sports                              | PlayStation Portable | 2005 | North America
+|       | FIFA Soccer 08                                                                     | EA Sports                              | PlayStation Portable | 2007 | North America
+|       | FIFA Soccer 09                                                                     | EA Sports                              | PlayStation Portable | 2008 | North America
+|       | FIFA Soccer 10                                                                     | Electronic Arts                        | PlayStation Portable | 2009 | North America
+|       | FIFA Soccer 11                                                                     | Electronic Arts                        | PlayStation Portable | 2010 | North America
+|       | FIFA Soccer 12                                                                     | Electronic Arts                        | PlayStation Portable | 2011 | North America
+|       | FIFA Soccer 13                                                                     | EA Sports                              | PlayStation Portable | 2012 | North America
+|       | FIFA Street 2                                                                      | EA Sports Big                          | PlayStation Portable | 2006 | North America
+|       | FIFA World Cup: Germany 2006                                                       | Electronic Arts                        | PlayStation Portable | 2006 | North America
+|       | Fight Night Round 3                                                                | EA Sports                              | PlayStation Portable | 2006 | North America
+|       | Final Fantasy 20th Anniversary                                                     | Square Enix                            | PlayStation Portable | 2007 | North America
+|       | Final Fantasy II                                                                   | Square Enix                            | PlayStation Portable | 2007 | North America
+|       | Final Fantasy IV: The Complete Collection                                          | Square Enix                            | PlayStation Portable | 2011 | North America
+|       | Final Fantasy Tactics: The War of the Lions                                        | Square Enix                            | PlayStation Portable | 2007 | North America
+|       | Final Fantasy VII: Advent Children                                                 | Square Enix                            | PlayStation Portable | 2006 | North America
+|       | FlatOut: Head On                                                                   | Empire Interactive                     | PlayStation Portable | 2008 | North America
+|       | Ford Bold Moves Street Racing                                                      | Eidos Interactive                      | PlayStation Portable | 2006 | North America
+|       | Ford Racing: Off Road                                                              | Empire Interactive                     | PlayStation Portable | 2008 | North America
+|       | Frantix: A Puzzle Adventure                                                        | Sony Online Entertainment              | PlayStation Portable | 2005 | North America
+|       | Frogger Helmet Chaos                                                               | Konami                                 | PlayStation Portable | 2005 | North America
+|       | From Russia With Love                                                              | Electronic Arts                        | PlayStation Portable | 2006 | North America
+|       | Full Auto 2: Battlelines                                                           | Sega                                   | PlayStation Portable | 2007 | North America
+|       | G-Force                                                                            | Disney Interactive Studios             | PlayStation Portable | 2009 | North America
+|       | G.I. Joe: The Rise of Cobra                                                        | Electronic Arts                        | PlayStation Portable | 2009 | North America
+|       | Gangs of London                                                                    | SCEA                                   | PlayStation Portable | 2006 | North America
+|       | Generation of Chaos                                                                | NIS America                            | PlayStation Portable | 2006 | North America
+|       | Ghost in the Shell: Stand Alone Complex                                            | Bandai                                 | PlayStation Portable | 2005 | North America
+|       | Ghost Rider                                                                        | 2K Games                               | PlayStation Portable | 2007 | North America
+|       | Ghostbusters: The Video Game                                                       | Atari                                  | PlayStation Portable | 2009 | North America
+|       | Gitaroo Man Lives!                                                                 | Koei                                   | PlayStation Portable | 2006 | North America
+|       | Gladiator Begins                                                                   | Aksys Games                            | PlayStation Portable | 2010 | North America
+|       | Go! Sudoku                                                                         | Ubisoft                                | PlayStation Portable | 2006 | North America
+|       | God of War: Chains of Olympus                                                      | SCEA                                   | PlayStation Portable | 2008 | North America
+|       | God of War: Ghost of Sparta                                                        | SCEA                                   | PlayStation Portable | 2010 | North America
+|       | Godfather: Mob Wars, The                                                           | Electronic Arts                        | PlayStation Portable | 2006 | North America
+|       | Gods Eater Burst                                                                   | D3Publisher                            | PlayStation Portable | 2011 | North America
+|       | Gradius Collection                                                                 | Konami                                 | PlayStation Portable | 2006 | North America
+|       | Gran Turismo                                                                       | SCEA                                   | PlayStation Portable | 2009 | North America
+|       | Grand Theft Auto: Chinatown Wars                                                   | Rockstar Games                         | PlayStation Portable | 2009 | North America
+|       | Grand Theft Auto: Liberty City Stories                                             | Rockstar Games                         | PlayStation Portable | 2005 | North America
+|       | Grand Theft Auto: Vice City Stories                                                | Rockstar Games                         | PlayStation Portable | 2006 | North America
+|       | Gretzky NHL                                                                        | SCEA                                   | PlayStation Portable | 2005 | North America
+|       | Gretzky NHL 06                                                                     | SCEA                                   | PlayStation Portable | 2005 | North America
+|       | GripShift                                                                          | Sony Platform Publishing               | PlayStation Portable | 2005 | North America
+|       | Growlanser: Wayfarer of Time                                                       | ATLUS                                  | PlayStation Portable | 2012 | North America
+|       | Guilty Gear Judgment                                                               | Majesco Games                          | PlayStation Portable | 2006 | North America
+|       | Guilty Gear XX Accent Core Plus                                                    | Aksys Games                            | PlayStation Portable | 2009 | North America
+|       | Gun Showdown                                                                       | Activision                             | PlayStation Portable | 2006 | North America
+|       | Gungnir                                                                            | ATLUS                                  | PlayStation Portable | 2012 | North America
+|       | Gunpey                                                                             | Namco Bandai Games America             | PlayStation Portable | 2006 | North America
+|       | Gurumin: A Monstrous Adventure                                                     | Mastiff                                | PlayStation Portable | 2007 | North America
+|       | Hakuoki: Demon of the Fleeting Blossom                                             | Aksys Games                            | PlayStation Portable | 2012 | North America
+|       | Hakuoki: Warriors of the Shinsengumi                                               | Aksys Games                            | PlayStation Portable | 2013 | North America
+|       | Half-Minute Hero                                                                   | Xseed Games                            | PlayStation Portable | 2009 | North America
+|       | Hammerin' Hero                                                                     | ATLUS                                  | PlayStation Portable | 2009 | North America
+|       | Hannspree Ten Kate Honda: SBK Superbike World Championship                         | Valcon Games                           | PlayStation Portable | 2008 | North America
+|       | Hard Rock Casino                                                                   | Crave                                  | PlayStation Portable | 2007 | North America
+|       | Harry Potter and the Goblet of Fire                                                | Electronic Arts                        | PlayStation Portable | 2005 | North America
+|       | Harry Potter and the Half-Blood Prince                                             | EA Games                               | PlayStation Portable | 2009 | North America
+|       | Harry Potter and the Order of the Phoenix                                          | EA Games                               | PlayStation Portable | 2007 | North America
+|       | Harvest Moon: Boy & Girl                                                           | Natsume                                | PlayStation Portable | 2007 | North America
+|       | Harvest Moon: Hero of Leaf Valley                                                  | Natsume                                | PlayStation Portable | 2010 | North America
+|       | Harvey Birdman: Attorney at Law                                                    | Capcom                                 | PlayStation Portable | 2008 | North America
+|       | Heatseeker                                                                         | Codemasters                            | PlayStation Portable | 2007 | North America
+|       | Hellboy: The Science of Evil                                                       | Konami                                 | PlayStation Portable | 2008 | North America
+|       | Hexyz Force                                                                        | ATLUS                                  | PlayStation Portable | 2010 | North America
+|       | HGI Ultimate Team Play                                                             | Virtual Heroes, Inc.                   | PlayStation Portable | 2009 | North America
+|       | History Egypt: Engineering an Empire                                               | Koch Media                             | PlayStation Portable | 2010 | North America
+|       | Holy Invasion of Privacy, Badman! What Did I Do to Deserve This?                   | NIS America                            | PlayStation Portable | 2010 | North America
+|       | Hot Brain                                                                          | Midway                                 | PlayStation Portable | 2007 | North America
+|       | Hot Pixel                                                                          | Atari                                  | PlayStation Portable | 2007 | North America
+|       | Hot Shots Golf: Open Tee                                                           | SCEA                                   | PlayStation Portable | 2005 | North America
+|       | Hot Shots Golf: Open Tee 2                                                         | SCEA                                   | PlayStation Portable | 2008 | North America
+|       | Hot Shots Tennis: Get a Grip                                                       | SCEA                                   | PlayStation Portable | 2010 | North America
+|       | Hot Wheels: Ultimate Racing                                                        | DSI Games                              | PlayStation Portable | 2007 | North America
+|       | Hustle: Detroit Streets, The                                                       | Activision Value                       | PlayStation Portable | 2005 | North America
+|       | IL-2 Sturmovik: Birds of Prey                                                      | 505 Games                              | PlayStation Portable | 2009 | North America
+|       | Indiana Jones and the Staff of Kings                                               | LucasArts                              | PlayStation Portable | 2009 | North America
+|       | Infected                                                                           | Majesco Games                          | PlayStation Portable | 2005 | North America
+|       | Innocent Life: A Futuristic Harvest Moon                                           | Natsume                                | PlayStation Portable | 2007 | North America
+|       | Invizimals                                                                         | SCEA                                   | PlayStation Portable | 2010 | North America
+|       | Invizimals: Shadow Zone                                                            | SCEA                                   | PlayStation Portable | 2011 | North America
+|       | Iron Man                                                                           | Sega                                   | PlayStation Portable | 2008 | North America
+|       | Iron Man 2                                                                         | Sega                                   | PlayStation Portable | 2010 | North America
+|       | Jackass the Game                                                                   | Red Mile Entertainment                 | PlayStation Portable | 2007 | North America
+|       | Jak and Daxter: The Lost Frontier                                                  | SCEA                                   | PlayStation Portable | 2009 | North America
+|       | James Cameron's Avatar: The Game                                                   | Ubisoft                                | PlayStation Portable | 2009 | North America
+|       | Jeanne d'Arc                                                                       | SCEA                                   | PlayStation Portable | 2007 | North America
+|       | Jikandia: The Timeless Land                                                        | Aksys Games                            | PlayStation Portable | 2011 | North America
+|       | Juiced 2: Hot Import Nights                                                        | THQ                                    | PlayStation Portable | 2007 | North America
+|       | Juiced: Eliminator                                                                 | THQ                                    | PlayStation Portable | 2006 | North America
+|       | Justice League Heroes                                                              | Warner Bros. Interactive Entertainment | PlayStation Portable | 2006 | North America
+|       | Kao Challengers                                                                    | Namco                                  | PlayStation Portable | 2006 | North America
+|       | Kenka Bancho: Badass Rumble                                                        | ATLUS                                  | PlayStation Portable | 2009 | North America
+|       | Killzone: Liberation                                                               | SCEA                                   | PlayStation Portable | 2006 | North America
+|       | King of Fighters Collection: The Orochi Saga, The                                  | SNK Playmore                           | PlayStation Portable | 2008 | North America
+|       | Kingdom Hearts: Birth by Sleep                                                     | Square Enix                            | PlayStation Portable | 2010 | North America
+|       | Kingdom of Paradise                                                                | SCEA                                   | PlayStation Portable | 2005 | North America
+|       | Knights in the Nightmare                                                           | ATLUS                                  | PlayStation Portable | 2010 | North America
+|       | Legend of Heroes: A Tear of Vermillion, The                                        | Bandai                                 | PlayStation Portable | 2005 | North America
+|       | Legend of the Dragon                                                               | The Game Factory                       | PlayStation Portable | 2007 | North America
+|       | LEGO Batman: The Videogame                                                         | Warner Bros. Interactive Entertainment | PlayStation Portable | 2008 | North America
+|       | LEGO Harry Potter: Years 1-4                                                       | Warner Bros. Interactive Entertainment | PlayStation Portable | 2010 | North America
+|       | LEGO Harry Potter: Years 5-7                                                       | Warner Bros. Interactive Entertainment | PlayStation Portable | 2011 | North America
+|       | LEGO Indiana Jones 2: The Adventure Continues                                      | LucasArts                              | PlayStation Portable | 2009 | North America
+|       | LEGO Indiana Jones: The Original Adventures                                        | LucasArts                              | PlayStation Portable | 2008 | North America
+|       | LEGO Pirates of the Caribbean: The Video Game                                      | Disney Interactive Studios             | PlayStation Portable | 2011 | North America
+|       | LEGO Star Wars II: The Original Trilogy                                            | LucasArts                              | PlayStation Portable | 2006 | North America
+|       | LEGO Star Wars III: The Clone Wars                                                 | LucasArts                              | PlayStation Portable | 2011 | North America
+|       | Lemmings                                                                           | SCEA                                   | PlayStation Portable | 2006 | North America
+|       | LittleBigPlanet                                                                    | SCEA                                   | PlayStation Portable | 2009 | North America
+|       | LocoRoco                                                                           | SCEA                                   | PlayStation Portable | 2006 | North America
+|       | LocoRoco 2                                                                         | SCEA                                   | PlayStation Portable | 2009 | North America
+|       | Lord of Arcana                                                                     | Square Enix                            | PlayStation Portable | 2011 | North America
+|       | Lord of the Rings: Aragorn's Quest, The                                            | Warner Bros. Interactive Entertainment | PlayStation Portable | 2010 | North America
+|       | Lord of the Rings: Tactics, The                                                    | EA Games                               | PlayStation Portable | 2005 | North America
+|       | Lumines                                                                            | Ubisoft                                | PlayStation Portable | 2005 | North America
+|       | Lumines II                                                                         | Buena Vista Games                      | PlayStation Portable | 2006 | North America
+|       | Lunar: Silver Star Harmony                                                         | Xseed Games                            | PlayStation Portable | 2010 | North America
+|       | Luxor: Pharaoh's Challenge                                                         | MumboJumbo                             | PlayStation Portable | 2007 | North America
+|       | Luxor: The Wrath of Set                                                            | MumboJumbo                             | PlayStation Portable | 2006 | North America
+|       | M.A.C.H. Modified Air Combat Heroes                                                | VU Games                               | PlayStation Portable | 2007 | North America
+|       | Madden NFL 06                                                                      | EA Sports                              | PlayStation Portable | 2005 | North America
+|       | Madden NFL 07                                                                      | EA Sports                              | PlayStation Portable | 2006 | North America
+|       | Madden NFL 08                                                                      | EA Sports                              | PlayStation Portable | 2007 | North America
+|       | Madden NFL 09                                                                      | Electronic Arts                        | PlayStation Portable | 2008 | North America
+|       | Madden NFL 10                                                                      | Electronic Arts                        | PlayStation Portable | 2009 | North America
+|       | Madden NFL 11                                                                      | Electronic Arts                        | PlayStation Portable | 2010 | North America
+|       | Madden NFL 12                                                                      | EA Sports                              | PlayStation Portable | 2011 | North America
+|       | Major League Baseball 2K10                                                         | 2K Sports                              | PlayStation Portable | 2010 | North America
+|       | Major League Baseball 2K11                                                         | 2K Sports                              | PlayStation Portable | 2011 | North America
+|       | Major League Baseball 2K12                                                         | Take-Two Interactive                   | PlayStation Portable | 2012 | North America
+|       | Major League Baseball 2K6                                                          | 2K Sports                              | PlayStation Portable | 2006 | North America
+|       | Major League Baseball 2K7                                                          | 2K Sports                              | PlayStation Portable | 2007 | North America
+|       | Major League Baseball 2K8                                                          | 2K Sports                              | PlayStation Portable | 2008 | North America
+|       | Major League Baseball 2K9                                                          | 2K Sports                              | PlayStation Portable | 2009 | North America
+|       | Mana Khemia: Student Alliance                                                      | NIS America                            | PlayStation Portable | 2009 | North America
+|       | Manhunt 2                                                                          | Rockstar Games                         | PlayStation Portable | 2007 | North America
+|       | Marvel Nemesis: Rise of the Imperfects                                             | EA Games                               | PlayStation Portable | 2005 | North America
+|       | Marvel Super Hero Squad                                                            | THQ                                    | PlayStation Portable | 2009 | North America
+|       | Marvel Trading Card Game                                                           | Konami                                 | PlayStation Portable | 2007 | North America
+|       | Marvel: Ultimate Alliance                                                          | Activision                             | PlayStation Portable | 2006 | North America
+|       | Marvel: Ultimate Alliance 2                                                        | Activision                             | PlayStation Portable | 2009 | North America
+|       | Me & My Katamari                                                                   | Namco                                  | PlayStation Portable | 2006 | North America
+|       | Medal of Honor Heroes                                                              | EA Games                               | PlayStation Portable | 2006 | North America
+|       | Medal of Honor Heroes 2                                                            | Electronic Arts                        | PlayStation Portable | 2007 | North America
+|       | MediEvil: Resurrection                                                             | SCEA                                   | PlayStation Portable | 2005 | North America
+|       | Mega Man Dual Pack                                                                 | Capcom                                 | PlayStation Portable | 2011 | North America
+|       | Mega Man Maverick Hunter X                                                         | Capcom                                 | PlayStation Portable | 2006 | North America
+|       | Mega Man Powered Up                                                                | Capcom                                 | PlayStation Portable | 2006 | North America
+|       | Megamind: The Blue Defender                                                        | THQ                                    | PlayStation Portable | 2010 | North America
+|       | Mercury Meltdown                                                                   | Ignition Entertainment                 | PlayStation Portable | 2006 | North America
+|       | Metal Gear Acid                                                                    | Konami                                 | PlayStation Portable | 2005 | North America
+|       | Metal Gear Acid 2                                                                  | Konami                                 | PlayStation Portable | 2006 | North America
+|       | Metal Gear Solid: Digital Graphic Novel                                            | Konami                                 | PlayStation Portable | 2006 | North America
+|       | Metal Gear Solid: Peace Walker                                                     | Konami                                 | PlayStation Portable | 2010 | North America
+|       | Metal Gear Solid: Portable Ops                                                     | Konami                                 | PlayStation Portable | 2006 | North America
+|       | Metal Gear Solid: Portable Ops Plus                                                | Konami                                 | PlayStation Portable | 2007 | North America
+|       | Metal Slug Anthology                                                               | SNK Playmore                           | PlayStation Portable | 2007 | North America
+|       | Metal Slug XX                                                                      | ATLUS                                  | PlayStation Portable | 2010 | North America
+|       | Miami Vice: The Game                                                               | Vivendi Games                          | PlayStation Portable | 2006 | North America
+|       | Michael Jackson The Experience                                                     | Ubisoft                                | PlayStation Portable | 2010 | North America
+|       | Micro Machines V4                                                                  | Codemasters                            | PlayStation Portable | 2006 | North America
+|       | Midnight Club 3: DUB Edition                                                       | Rockstar Games                         | PlayStation Portable | 2005 | North America
+|       | Midnight Club: LA Remix                                                            | Rockstar Games                         | PlayStation Portable | 2008 | North America
+|       | Midway Arcade Treasures: Extended Play                                             | Midway                                 | PlayStation Portable | 2005 | North America
+|       | Military History: Commander - Europe at War                                        | Koch Media                             | PlayStation Portable | 2010 | North America
+|       | Mimana Iyar Chronicle                                                              | Aksys Games                            | PlayStation Portable | 2010 | North America
+|       | Mind Quiz                                                                          | Ubisoft                                | PlayStation Portable | 2006 | North America
+|       | MLB                                                                                | SCEA                                   | PlayStation Portable | 2005 | North America
+|       | MLB 06: The Show                                                                   | SCEA                                   | PlayStation Portable | 2006 | North America
+|       | MLB 07: The Show                                                                   | SCEA                                   | PlayStation Portable | 2007 | North America
+|       | MLB 08: The Show                                                                   | SCEA                                   | PlayStation Portable | 2008 | North America
+|       | MLB 09: The Show                                                                   | SCEA                                   | PlayStation Portable | 2009 | North America
+|       | MLB 10: The Show                                                                   | SCEA                                   | PlayStation Portable | 2010 | North America
+|       | MLB 11: The Show                                                                   | SCEA                                   | PlayStation Portable | 2011 | North America
+|       | ModNation Racers                                                                   | SCEA                                   | PlayStation Portable | 2010 | North America
+|       | Monster Hunter Freedom                                                             | Capcom                                 | PlayStation Portable | 2006 | North America
+|       | Monster Hunter Freedom 2                                                           | Capcom                                 | PlayStation Portable | 2007 | North America
+|       | Monster Hunter Freedom 2 + Monster Hunter Freedom Unite UMD Dual Pack              | Capcom                                 | PlayStation Portable | 2011 | North America
+|       | Monster Hunter Freedom Dual Pack                                                   | Capcom                                 | PlayStation Portable | 2011 | North America
+|       | Monster Hunter Freedom Unite                                                       | Capcom                                 | PlayStation Portable | 2009 | North America
+|       | Monster Jam: Path of Destruction                                                   | Activision                             | PlayStation Portable | 2010 | North America
+|       | Monster Jam: Urban Assault                                                         | Activision                             | PlayStation Portable | 2008 | North America
+|       | Monster Kingdom: Jewel Summoner                                                    | ATLUS                                  | PlayStation Portable | 2007 | North America
+|       | Mortal Kombat: Unchained                                                           | Midway                                 | PlayStation Portable | 2006 | North America
+|       | MotoGP                                                                             | Namco Bandai Games                     | PlayStation Portable | 2006 | North America
+|       | MotorStorm Arctic Edge                                                             | SCEA                                   | PlayStation Portable | 2009 | North America
+|       | MTX Mototrax                                                                       | Activision                             | PlayStation Portable | 2006 | North America
+|       | MVP Baseball                                                                       | Electronic Arts                        | PlayStation Portable | 2005 | North America
+|       | MX vs. ATV Reflex                                                                  | THQ                                    | PlayStation Portable | 2009 | North America
+|       | MX vs. ATV Unleashed: On the Edge                                                  | THQ                                    | PlayStation Portable | 2006 | North America
+|       | MX vs. ATV Untamed                                                                 | THQ                                    | PlayStation Portable | 2007 | North America
+|       | My Spanish Coach                                                                   | Ubisoft                                | PlayStation Portable | 2008 | North America
+|       | Myst                                                                               | Midway                                 | PlayStation Portable | 2009 | North America
+|       | Mytran Wars                                                                        | Deep Silver                            | PlayStation Portable | 2009 | North America
+|       | N+                                                                                 | Atari                                  | PlayStation Portable | 2008 | North America
+|       | Namco Museum Battle Collection                                                     | Namco                                  | PlayStation Portable | 2005 | North America
+|       | Napoleon Dynamite: The Game                                                        | Crave                                  | PlayStation Portable | 2007 | North America
+|       | Naruto Shippuden: Kizuna Drive                                                     | Namco Bandai Games America             | PlayStation Portable | 2011 | North America
+|       | Naruto Shippuden: Legends: Akatsuki Rising                                         | Namco Bandai Games America             | PlayStation Portable | 2009 | North America
+|       | Naruto Shippuden: Ultimate Ninja Heroes 3                                          | Namco Bandai Games                     | PlayStation Portable | 2010 | North America
+|       | Naruto Shippuden: Ultimate Ninja Impact                                            | Namco Bandai Games                     | PlayStation Portable | 2011 | North America
+|       | Naruto: Ultimate Ninja Heroes                                                      | Namco Bandai Games America             | PlayStation Portable | 2007 | North America
+|       | Naruto: Ultimate Ninja Heroes 2: The Phantom Fortress                              | Namco Bandai Games                     | PlayStation Portable | 2008 | North America
+|       | NASCAR                                                                             | EA Games                               | PlayStation Portable | 2006 | North America
+|       | NBA                                                                                | SCEA                                   | PlayStation Portable | 2005 | North America
+|       | NBA 06                                                                             | SCEA Sports Studio                     | PlayStation Portable | 2005 | North America
+|       | NBA 07                                                                             | SCEA                                   | PlayStation Portable | 2006 | North America
+|       | NBA 08                                                                             | SCEA                                   | PlayStation Portable | 2007 | North America
+|       | NBA 09 The Inside                                                                  | SCEA                                   | PlayStation Portable | 2008 | North America
+|       | NBA 10 The Inside                                                                  | SCEA                                   | PlayStation Portable | 2009 | North America
+|       | NBA 2K10                                                                           | 2K Sports                              | PlayStation Portable | 2009 | North America
+|       | NBA 2K11                                                                           | 2K Sports                              | PlayStation Portable | 2010 | North America
+|       | NBA 2K12                                                                           | 2K Sports                              | PlayStation Portable | 2011 | North America
+|       | NBA 2K13                                                                           | 2K Sports                              | PlayStation Portable | 2012 | North America
+|       | NBA Ballers: Rebound                                                               | Midway                                 | PlayStation Portable | 2006 | North America
+|       | NBA Live 06                                                                        | EA Sports                              | PlayStation Portable | 2005 | North America
+|       | NBA Live 07                                                                        | EA Sports                              | PlayStation Portable | 2006 | North America
+|       | NBA Live 08                                                                        | EA Sports                              | PlayStation Portable | 2007 | North America
+|       | NBA Live 09                                                                        | EA Sports                              | PlayStation Portable | 2008 | North America
+|       | NBA Live 10                                                                        | EA Sports                              | PlayStation Portable | 2009 | North America
+|       | NBA Street Showdown                                                                | EA Sports Big                          | PlayStation Portable | 2005 | North America
+|       | NCAA Football 07                                                                   | EA Sports                              | PlayStation Portable | 2006 | North America
+|       | NCAA Football 09                                                                   | Electronic Arts                        | PlayStation Portable | 2008 | North America
+|       | NCAA Football 10                                                                   | Electronic Arts                        | PlayStation Portable | 2009 | North America
+|       | Need for Speed Carbon: Own the City                                                | EA Games                               | PlayStation Portable | 2006 | North America
+|       | Need for Speed Most Wanted 5-1-0                                                   | Electronic Arts                        | PlayStation Portable | 2005 | North America
+|       | Need for Speed ProStreet                                                           | EA Games                               | PlayStation Portable | 2008 | North America
+|       | Need for Speed Undercover                                                          | Electronic Arts                        | PlayStation Portable | 2008 | North America
+|       | Need for Speed Underground Rivals                                                  | EA Games                               | PlayStation Portable | 2005 | North America
+|       | Need for Speed: Shift                                                              | EA Games                               | PlayStation Portable | 2009 | North America
+|       | Neopets Petpet Adventures: The Wand of Wishing                                     | SCEA                                   | PlayStation Portable | 2006 | North America
+|       | Neverland Card Battles                                                             | Yuke's Company of America              | PlayStation Portable | 2008 | North America
+|       | NFL Street 2 Unleashed                                                             | EA Sports Big                          | PlayStation Portable | 2005 | North America
+|       | NFL Street 3                                                                       | EA Sports                              | PlayStation Portable | 2006 | North America
+|       | NHL 07                                                                             | EA Sports                              | PlayStation Portable | 2006 | North America
+|       | NHRA: Countdown to the Championship 2007                                           | THQ                                    | PlayStation Portable | 2007 | North America
+|       | Obscure: The Aftermath                                                             | Ignition Entertainment                 | PlayStation Portable | 2009 | North America
+|       | Online Chess Kingdoms                                                              | Konami                                 | PlayStation Portable | 2006 | North America
+|       | Open Season                                                                        | Ubisoft                                | PlayStation Portable | 2006 | North America
+|       | OutRun 2006: Coast 2 Coast                                                         | Sega                                   | PlayStation Portable | 2006 | North America
+|       | Over the Hedge: Hammy Goes Nuts                                                    | Activision                             | PlayStation Portable | 2006 | North America
+|       | Pac-Man World 3                                                                    | Namco                                  | PlayStation Portable | 2005 | North America
+|       | Pac-Man World Rally                                                                | Namco Bandai Games America             | PlayStation Portable | 2006 | North America
+|       | Pangya Fantasy Golf                                                                | Tomy Corporation                       | PlayStation Portable | 2009 | North America
+|       | PaRappa the Rapper                                                                 | SCEA                                   | PlayStation Portable | 2007 | North America
+|       | Patapon                                                                            | SCEA                                   | PlayStation Portable | 2008 | North America
+|       | Patapon 2                                                                          | SCEA                                   | PlayStation Portable | 2009 | North America
+|       | Patapon 3                                                                          | SCEA                                   | PlayStation Portable | 2011 | North America
+|       | Payout Poker & Casino                                                              | Namco                                  | PlayStation Portable | 2006 | North America
+|       | PDC World Championship Darts 2008                                                  | O-Games                                | PlayStation Portable | 2009 | North America
+|       | Peter Jackson's King Kong: The Official Game of the Movie                          | Ubisoft                                | PlayStation Portable | 2005 | North America
+|       | Petz: Dogz Family                                                                  | Ubisoft                                | PlayStation Portable | 2009 | North America
+|       | Petz: Hamsterz Bunch                                                               | Ubisoft                                | PlayStation Portable | 2009 | North America
+|       | Petz: Saddle Club                                                                  | Ubisoft                                | PlayStation Portable | 2009 | North America
+|       | Phantasy Star Defender's Pack!                                                     | Sega                                   | PlayStation Portable | 2011 | North America
+|       | Phantasy Star Portable                                                             | Sega                                   | PlayStation Portable | 2009 | North America
+|       | Phantasy Star Portable 2                                                           | Sega                                   | PlayStation Portable | 2010 | North America
+|       | Phantom Brave: The Hermuda Triangle                                                | NIS America                            | PlayStation Portable | 2011 | North America
+|       | Pimp My Ride                                                                       | Activision                             | PlayStation Portable | 2007 | North America
+|       | Pinball Hall of Fame: The Gottlieb Collection                                      | Crave                                  | PlayStation Portable | 2005 | North America
+|       | Pinball Hall of Fame: The Williams Collection                                      | Crave                                  | PlayStation Portable | 2008 | North America
+|       | Pinball Heroes: Wipeout HD                                                         | SCEA                                   | PlayStation Portable | 2010 | North America
+|       | Pipe Mania                                                                         | Empire Interactive                     | PlayStation Portable | 2008 | North America
+|       | Pirates of the Caribbean: At World's End                                           | Disney Interactive Studios             | PlayStation Portable | 2007 | North America
+|       | Pirates of the Caribbean: Dead Man's Chest                                         | Buena Vista Games                      | PlayStation Portable | 2006 | North America
+|       | PixelJunk Monsters Deluxe                                                          | SCEA                                   | PlayStation Portable | 2009 | North America
+|       | Platypus                                                                           | MumboJumbo                             | PlayStation Portable | 2006 | North America
+|       | Pocket Pool                                                                        | Eidos Interactive                      | PlayStation Portable | 2007 | North America
+|       | Pocket Racers                                                                      | Konami                                 | PlayStation Portable | 2006 | North America
+|       | PoPoLoCrois                                                                        | Agetec Inc.                            | PlayStation Portable | 2005 | North America
+|       | Power Stone Collection                                                             | Capcom                                 | PlayStation Portable | 2006 | North America
+|       | PQ: Practical Intelligence Quotient                                                | D3Publisher                            | PlayStation Portable | 2006 | North America
+|       | PQ2: Practical Intelligence Quotient                                               | D3Publisher                            | PlayStation Portable | 2007 | North America
+|       | Prince of Persia Revelations                                                       | Ubisoft                                | PlayStation Portable | 2005 | North America
+|       | Prince of Persia Rival Swords                                                      | Ubisoft                                | PlayStation Portable | 2007 | North America
+|       | Prince of Persia: The Forgotten Sands                                              | Ubisoft                                | PlayStation Portable | 2010 | North America
+|       | Prinny 2: Dawn of Operation Panties, Dood!                                         | NIS America                            | PlayStation Portable | 2011 | North America
+|       | Prinny: Can I Really Be the Hero?                                                  | NIS America                            | PlayStation Portable | 2009 | North America
+|       | Pro Evolution Soccer 2008                                                          | Konami                                 | PlayStation Portable | 2008 | North America
+|       | Pro Evolution Soccer 2009                                                          | Konami                                 | PlayStation Portable | 2008 | North America
+|       | Pro Evolution Soccer 2010                                                          | Konami                                 | PlayStation Portable | 2009 | North America
+|       | Pro Evolution Soccer 2011                                                          | Konami                                 | PlayStation Portable | 2010 | North America
+|       | Pro Evolution Soccer 2012                                                          | Konami                                 | PlayStation Portable | 2011 | North America
+|       | Pro Evolution Soccer 2013                                                          | Konami                                 | PlayStation Portable | 2012 | North America
+|       | Pro Evolution Soccer 2014                                                          | Konami                                 | PlayStation Portable | 2017 | North America
+|       | ProStroke Golf - World Tour 2007                                                   | Oxygen Interactive                     | PlayStation Portable | 2007 | North America
+|       | Pursuit Force                                                                      | SCEA                                   | PlayStation Portable | 2006 | North America
+|       | Pursuit Force: Extreme Justice                                                     | SCEA                                   | PlayStation Portable | 2008 | North America
+|       | Puzzle Challenge: Crosswords And More!                                             | Crave                                  | PlayStation Portable | 2006 | North America
+|       | Puzzle Chronicles                                                                  | Konami                                 | PlayStation Portable | 2010 | North America
+|       | Puzzle Guzzle                                                                      | Agetec Inc.                            | PlayStation Portable | 2008 | North America
+|       | Puzzle Quest: Challenge of the Warlords                                            | D3Publisher                            | PlayStation Portable | 2007 | North America
+|       | Puzzle Scape                                                                       | Got Game Entertainment                 | PlayStation Portable | 2007 | North America
+|       | R-Type Command                                                                     | ATLUS                                  | PlayStation Portable | 2008 | North America
+|       | Race Driver 2006                                                                   | Codemasters                            | PlayStation Portable | 2006 | North America
+|       | Ragnarok Tactics                                                                   | Aksys Games                            | PlayStation Portable | 2012 | North America
+|       | Rainbow Islands Evolution                                                          | Ignition Entertainment                 | PlayStation Portable | 2008 | North America
+|       | Rapala Pro Bass Fishing                                                            | Activision                             | PlayStation Portable | 2010 | North America
+|       | Rapala Trophies                                                                    | Activision                             | PlayStation Portable | 2006 | North America
+|       | Ratatouille                                                                        | THQ                                    | PlayStation Portable | 2007 | North America
+|       | Ratchet & Clank: Size Matters                                                      | SCEA                                   | PlayStation Portable | 2007 | North America
+|       | Red Star, The                                                                      | XS Games                               | PlayStation Portable | 2010 | North America
+|       | Reel Fishing: The Great Outdoors                                                   | SVG Distribution                       | PlayStation Portable | 2006 | North America
+|       | Rengoku II: The Stairway to H.E.A.V.E.N.                                           | Konami                                 | PlayStation Portable | 2006 | North America
+|       | Rengoku: The Tower of Purgatory                                                    | Konami                                 | PlayStation Portable | 2005 | North America
+|       | Resistance: Retribution                                                            | SCEA                                   | PlayStation Portable | 2009 | North America
+|       | Ridge Racer                                                                        | Namco                                  | PlayStation Portable | 2005 | North America
+|       | Riviera: The Promised Land                                                         | ATLUS                                  | PlayStation Portable | 2007 | North America
+|       | Rock Band Unplugged                                                                | Electronic Arts                        | PlayStation Portable | 2009 | North America
+|       | Rocky Balboa                                                                       | Ubisoft                                | PlayStation Portable | 2007 | North America
+|       | Rush                                                                               | Midway                                 | PlayStation Portable | 2006 | North America
+|       | Samurai Shodown Anthology                                                          | SNK Playmore                           | PlayStation Portable | 2009 | North America
+|       | Samurai Warriors: State of War                                                     | Koei                                   | PlayStation Portable | 2006 | North America
+|       | SBK Superbike World Championship                                                   | Conspiracy Entertainment               | PlayStation Portable | 2009 | North America
+|       | Scarface: Money. Power. Respect.                                                   | Vivendi Games                          | PlayStation Portable | 2006 | North America
+|       | Scrabble                                                                           | Electronic Arts                        | PlayStation Portable | 2009 | North America
+|       | Secret Agent Clank                                                                 | SCEA                                   | PlayStation Portable | 2008 | North America
+|       | Secret Saturdays: Beasts of the 5th Sun, The                                       | D3Publisher                            | PlayStation Portable | 2009 | North America
+|       | Sega Fun Pack: Sonic Rivals 2 / Genesis Collection                                 | Sega                                   | PlayStation Portable | 2009 | North America
+|       | Sega Genesis Collection                                                            | Sega                                   | PlayStation Portable | 2006 | North America
+|       | Sega Rally Revo                                                                    | Sega                                   | PlayStation Portable | 2007 | North America
+|       | Shadow of Destiny                                                                  | Konami                                 | PlayStation Portable | 2010 | North America
+|       | Shaun White Snowboarding                                                           | Ubisoft                                | PlayStation Portable | 2008 | North America
+|       | Shepherd's Crossing                                                                | Graffiti Entertainment                 | PlayStation Portable | 2010 | North America
+|       | Shin Megami Tensei: Persona                                                        | ATLUS                                  | PlayStation Portable | 2009 | North America
+|       | Shin Megami Tensei: Persona 2 - Innocent Sin                                       | ATLUS                                  | PlayStation Portable | 2011 | North America
+|       | Shin Megami Tensei: Persona 3 Portable                                             | ATLUS                                  | PlayStation Portable | 2010 | North America
+|       | Shrek Smash n' Crash Racing                                                        | Activision                             | PlayStation Portable | 2006 | North America
+|       | Shrek the Third                                                                    | Activision                             | PlayStation Portable | 2007 | North America
+|       | Sid Meier's Pirates!                                                               | 2K Games                               | PlayStation Portable | 2007 | North America
+|       | Silent Hill Experience, The                                                        | Konami                                 | PlayStation Portable | 2006 | North America
+|       | Silent Hill: Origins                                                               | Konami                                 | PlayStation Portable | 2007 | North America
+|       | Silent Hill: Shattered Memories                                                    | Konami                                 | PlayStation Portable | 2010 | North America
+|       | Simpsons Game, The                                                                 | EA Games                               | PlayStation Portable | 2007 | North America
+|       | Sims 2, The                                                                        | Electronic Arts                        | PlayStation Portable | 2005 | North America
+|       | Sims 2: Castaway, The                                                              | Electronic Arts                        | PlayStation Portable | 2007 | North America
+|       | Smart Bomb                                                                         | Eidos Interactive                      | PlayStation Portable | 2005 | North America
+|       | Smash Court Tennis 3                                                               | Namco Bandai Games America             | PlayStation Portable | 2007 | North America
+|       | SNK Arcade Classics Vol. 1                                                         | SNK Playmore                           | PlayStation Portable | 2008 | North America
+|       | Snoopy vs. the Red Baron                                                           | Namco Bandai Games America             | PlayStation Portable | 2006 | North America
+|       | SOCOM: U.S. Navy SEALs Fireteam Bravo                                              | SCEA                                   | PlayStation Portable | 2005 | North America
+|       | SOCOM: U.S. Navy SEALs Fireteam Bravo 2                                            | SCEA                                   | PlayStation Portable | 2006 | North America
+|       | SOCOM: U.S. Navy SEALs Fireteam Bravo 3                                            | SCEA                                   | PlayStation Portable | 2010 | North America
+|       | SOCOM: U.S. Navy SEALs Tactical Strike                                             | SCEA                                   | PlayStation Portable | 2007 | North America
+|       | Sonic Rivals                                                                       | Sega                                   | PlayStation Portable | 2006 | North America
+|       | Sonic Rivals 2                                                                     | Sega                                   | PlayStation Portable | 2007 | North America
+|       | SoulCalibur: Broken Destiny                                                        | Namco Bandai Games America             | PlayStation Portable | 2009 | North America
+|       | Space Invaders Extreme                                                             | Square Enix                            | PlayStation Portable | 2008 | North America
+|       | Spectral Souls: Resurrection of the Ethereal Empires                               | NIS America                            | PlayStation Portable | 2006 | North America
+|       | Spelling Challenges and More!                                                      | Crave                                  | PlayStation Portable | 2007 | North America
+|       | Spider-Man 2                                                                       | Activision                             | PlayStation Portable | 2005 | North America
+|       | Spider-Man 3                                                                       | Activision                             | PlayStation Portable | 2007 | North America
+|       | Spider-Man: Friend or Foe                                                          | Activision                             | PlayStation Portable | 2007 | North America
+|       | Spider-Man: Web of Shadows                                                         | Activision                             | PlayStation Portable | 2008 | North America
+|       | Split/Second                                                                       | Disney Interactive Studios             | PlayStation Portable | 2010 | North America
+|       | SpongeBob Squarepants: The Yellow Avenger                                          | THQ                                    | PlayStation Portable | 2006 | North America
+|       | SpongeBob's Truth or Square                                                        | THQ                                    | PlayStation Portable | 2009 | North America
+|       | SSX On Tour                                                                        | EA Sports Big                          | PlayStation Portable | 2005 | North America
+|       | Stacked with Daniel Negreanu                                                       | Myelin Media                           | PlayStation Portable | 2006 | North America
+|       | Star Ocean: First Departure                                                        | Square Enix                            | PlayStation Portable | 2008 | North America
+|       | Star Ocean: Second Evolution                                                       | Square Enix                            | PlayStation Portable | 2009 | North America
+|       | Star Trek: Tactical Assault                                                        | Bethesda Softworks                     | PlayStation Portable | 2006 | North America
+|       | Star Wars Battlefront: Elite Squadron                                              | LucasArts                              | PlayStation Portable | 2009 | North America
+|       | Star Wars Battlefront: Renegade Squadron                                           | LucasArts                              | PlayStation Portable | 2007 | North America
+|       | Star Wars The Clone Wars: Republic Heroes                                          | LucasArts                              | PlayStation Portable | 2009 | North America
+|       | Star Wars: Battlefront II                                                          | LucasArts                              | PlayStation Portable | 2005 | North America
+|       | Star Wars: Lethal Alliance                                                         | Ubisoft                                | PlayStation Portable | 2006 | North America
+|       | Star Wars: The Force Unleashed                                                     | LucasArts                              | PlayStation Portable | 2008 | North America
+|       | Steambot Chronicles: Battle Tournament                                             | ATLUS                                  | PlayStation Portable | 2009 | North America
+|       | Steel Horizon                                                                      | Konami                                 | PlayStation Portable | 2007 | North America
+|       | Street Fighter Alpha 3 MAX                                                         | Capcom                                 | PlayStation Portable | 2006 | North America
+|       | Street Supremacy                                                                   | Konami                                 | PlayStation Portable | 2006 | North America
+|       | Super Collapse! 3                                                                  | MumboJumbo                             | PlayStation Portable | 2007 | North America
+|       | Super Monkey Ball Adventure                                                        | Sega                                   | PlayStation Portable | 2006 | North America
+|       | Surf's Up                                                                          | Ubisoft                                | PlayStation Portable | 2007 | North America
+|       | SWAT: Target Liberty                                                               | Sierra Entertainment                   | PlayStation Portable | 2007 | North America
+|       | Sweet Fuse: At Your Side                                                           | Aksys Games                            | PlayStation Portable | 2013 | North America
+|       | Syphon Filter: Dark Mirror                                                         | SCEA                                   | PlayStation Portable | 2006 | North America
+|       | Syphon Filter: Logan's Shadow                                                      | SCEA                                   | PlayStation Portable | 2007 | North America
+|       | Tactics Ogre: Let Us Cling Together                                                | Square Enix                            | PlayStation Portable | 2011 | North America
+|       | Taito Legends Power-Up                                                             | Destineer                              | PlayStation Portable | 2007 | North America
+|       | Tales of the World: Radiant Mythology                                              | Namco Bandai Games America             | PlayStation Portable | 2007 | North America
+|       | Tekken 6                                                                           | Namco Bandai Games America             | PlayStation Portable | 2009 | North America
+|       | Tekken: Dark Resurrection                                                          | Namco Bandai Games America             | PlayStation Portable | 2006 | North America
+|       | Tenchu: Shadow Assassins                                                           | Ubisoft                                | PlayStation Portable | 2009 | North America
+|       | Test Drive Unlimited                                                               | Atari                                  | PlayStation Portable | 2007 | North America
+|       | Thrillville                                                                        | LucasArts                              | PlayStation Portable | 2006 | North America
+|       | Thrillville: Off the Rails                                                         | LucasArts                              | PlayStation Portable | 2007 | North America
+|       | Tiger Woods PGA Tour                                                               | EA Sports                              | PlayStation Portable | 2005 | North America
+|       | Tiger Woods PGA Tour 06                                                            | EA Sports                              | PlayStation Portable | 2005 | North America
+|       | Tiger Woods PGA Tour 07                                                            | EA Sports                              | PlayStation Portable | 2006 | North America
+|       | Tiger Woods PGA Tour 08                                                            | EA Sports                              | PlayStation Portable | 2007 | North America
+|       | Tiger Woods PGA Tour 09                                                            | Electronic Arts                        | PlayStation Portable | 2008 | North America
+|       | Tiger Woods PGA Tour 10                                                            | Electronic Arts                        | PlayStation Portable | 2009 | North America
+|       | TMNT                                                                               | Ubisoft                                | PlayStation Portable | 2007 | North America
+|       | TNA Impact: Cross the Line                                                         | SouthPeak Games                        | PlayStation Portable | 2010 | North America
+|       | Tokobot                                                                            | Tecmo                                  | PlayStation Portable | 2005 | North America
+|       | Tom Clancy's EndWar                                                                | Ubisoft                                | PlayStation Portable | 2008 | North America
+|       | Tom Clancy's Ghost Recon Advanced Warfighter 2                                     | Ubisoft                                | PlayStation Portable | 2007 | North America
+|       | Tom Clancy's Ghost Recon Predator                                                  | Ubisoft                                | PlayStation Portable | 2010 | North America
+|       | Tom Clancy's Rainbow Six Vegas                                                     | Ubisoft                                | PlayStation Portable | 2007 | North America
+|       | Tom Clancy's Splinter Cell Essentials                                              | Ubisoft                                | PlayStation Portable | 2006 | North America
+|       | Tomb Raider: Anniversary                                                           | Eidos Interactive                      | PlayStation Portable | 2007 | North America
+|       | Tomb Raider: Legend                                                                | Eidos Interactive                      | PlayStation Portable | 2006 | North America
+|       | Tony Hawk's Project 8                                                              | Activision                             | PlayStation Portable | 2006 | North America
+|       | Tony Hawk's Underground 2 Remix                                                    | Activision                             | PlayStation Portable | 2005 | North America
+|       | Toy Story 3                                                                        | Disney Interactive Studios             | PlayStation Portable | 2010 | North America
+|       | Transformers: Revenge of the Fallen                                                | Activision                             | PlayStation Portable | 2009 | North America
+|       | Transformers: The Game                                                             | Activision                             | PlayStation Portable | 2007 | North America
+|       | Traxxpad                                                                           | Eidos Interactive                      | PlayStation Portable | 2007 | North America
+|       | TRON: Evolution                                                                    | Disney Interactive Studios             | PlayStation Portable | 2010 | North America
+|       | Twisted Metal: Head-On                                                             | SCEA                                   | PlayStation Portable | 2005 | North America
+|       | UEFA Champions League 2006-2007                                                    | EA Sports                              | PlayStation Portable | 2007 | North America
+|       | UEFA EURO 2008: Austria-Switzerland                                                | Electronic Arts                        | PlayStation Portable | 2008 | North America
+|       | UFC Undisputed 2010                                                                | THQ                                    | PlayStation Portable | 2010 | North America
+|       | Ultimate Block Party                                                               | Conspiracy Entertainment               | PlayStation Portable | 2005 | North America
+|       | Ultimate Board Game Collection                                                     | Valcon Games                           | PlayStation Portable | 2007 | North America
+|       | Ultimate Ghosts 'n Goblins                                                         | Capcom                                 | PlayStation Portable | 2006 | North America
+|       | Undead Knights                                                                     | Tecmo                                  | PlayStation Portable | 2009 | North America
+|       | Untold Legends: Brotherhood of the Blade                                           | Sony Online Entertainment              | PlayStation Portable | 2005 | North America
+|       | Untold Legends: The Warrior's Code                                                 | Sony Online Entertainment              | PlayStation Portable | 2006 | North America
+|       | Up                                                                                 | THQ                                    | PlayStation Portable | 2009 | North America
+|       | Valhalla Knights                                                                   | Xseed Games                            | PlayStation Portable | 2007 | North America
+|       | Valhalla Knights 2                                                                 | Xseed Games                            | PlayStation Portable | 2008 | North America
+|       | Valhalla Knights 2: Battle Stance                                                  | Xseed Games                            | PlayStation Portable | 2010 | North America
+|       | Valkyria Chronicles II                                                             | Sega                                   | PlayStation Portable | 2010 | North America
+|       | Valkyrie Profile: Lenneth                                                          | Square Enix                            | PlayStation Portable | 2006 | North America
+|       | Viewtiful Joe: Red Hot Rumble                                                      | Capcom                                 | PlayStation Portable | 2006 | North America
+|       | Virtua Tennis 3                                                                    | Sega                                   | PlayStation Portable | 2007 | North America
+|       | Virtua Tennis: World Tour                                                          | Sega                                   | PlayStation Portable | 2005 | North America
+|       | WALL-E                                                                             | THQ                                    | PlayStation Portable | 2008 | North America
+|       | Warhammer 40,000: Squad Command                                                    | THQ                                    | PlayStation Portable | 2007 | North America
+|       | Warhammer: Battle for Atluma                                                       | Namco Bandai Games America             | PlayStation Portable | 2006 | North America
+|       | Warriors of the Lost Empire                                                        | UFO Interactive                        | PlayStation Portable | 2007 | North America
+|       | Warriors Orochi                                                                    | Koei                                   | PlayStation Portable | 2008 | North America
+|       | Warriors Orochi 2                                                                  | Koei                                   | PlayStation Portable | 2009 | North America
+|       | Warriors, The                                                                      | Rockstar Games                         | PlayStation Portable | 2007 | North America
+|       | What Did I Do to Deserve This, My Lord!? 2                                         | NIS America                            | PlayStation Portable | 2010 | North America
+|       | Wild ARMs XF                                                                       | Xseed Games                            | PlayStation Portable | 2008 | North America
+|       | Winning Eleven: Pro Evolution Soccer 2007                                          | Konami                                 | PlayStation Portable | 2007 | North America
+|       | Winx Club: Join the Club                                                           | Konami                                 | PlayStation Portable | 2007 | North America
+|       | Wipeout Pulse                                                                      | SCEA                                   | PlayStation Portable | 2008 | North America
+|       | Wipeout Pure                                                                       | SCEA                                   | PlayStation Portable | 2005 | North America
+|       | World Championship Cards                                                           | Crave                                  | PlayStation Portable | 2008 | North America
+|       | World Championship Poker 2: Featuring Howard Lederer                               | Crave                                  | PlayStation Portable | 2005 | North America
+|       | World Championship Poker: Featuring Howard Lederer - All In                        | Crave                                  | PlayStation Portable | 2006 | North America
+|       | World Poker Tour                                                                   | 2K Sports                              | PlayStation Portable | 2006 | North America
+|       | World Series of Poker                                                              | Activision                             | PlayStation Portable | 2005 | North America
+|       | World Series of Poker 2008: Battle for the Bracelets                               | Activision                             | PlayStation Portable | 2007 | North America
+|       | World Series of Poker: Tournament of Champions - 2007 Edition                      | Activision                             | PlayStation Portable | 2006 | North America
+|       | World Soccer Winning Eleven 9                                                      | Konami                                 | PlayStation Portable | 2006 | North America
+|       | World Tour Soccer                                                                  | SCEA                                   | PlayStation Portable | 2005 | North America
+|       | World Tour Soccer 06                                                               | SCEA                                   | PlayStation Portable | 2006 | North America
+|       | Worms: Open Warfare                                                                | THQ                                    | PlayStation Portable | 2006 | North America
+|       | Worms: Open Warfare 2                                                              | THQ                                    | PlayStation Portable | 2007 | North America
+|       | WRC: FIA World Rally Championship                                                  | Namco Bandai Games America             | PlayStation Portable | 2006 | North America
+|       | WTF: Work Time Fun                                                                 | D3Publisher                            | PlayStation Portable | 2006 | North America
+|       | WWE All Stars                                                                      | THQ                                    | PlayStation Portable | 2011 | North America
+|       | WWE SmackDown vs. Raw 2006                                                         | THQ                                    | PlayStation Portable | 2005 | North America
+|       | WWE SmackDown vs. Raw 2007                                                         | THQ                                    | PlayStation Portable | 2006 | North America
+|       | WWE SmackDown vs. Raw 2008                                                         | THQ                                    | PlayStation Portable | 2007 | North America
+|       | WWE SmackDown vs. Raw 2009                                                         | THQ                                    | PlayStation Portable | 2008 | North America
+|       | WWE SmackDown vs. Raw 2010                                                         | THQ                                    | PlayStation Portable | 2009 | North America
+|       | WWE SmackDown vs. Raw 2011                                                         | THQ                                    | PlayStation Portable | 2010 | North America
+|       | X-Men Legends II: Rise of Apocalypse                                               | Activision                             | PlayStation Portable | 2005 | North America
+|       | X-Men Origins: Wolverine                                                           | Activision                             | PlayStation Portable | 2009 | North America
+|       | Xiaolin Showdown                                                                   | Konami                                 | PlayStation Portable | 2006 | North America
+|       | Yggdra Union: We'll Never Fight Alone                                              | ATLUS                                  | PlayStation Portable | 2008 | North America
+|       | Ys I & II Chronicles                                                               | Xseed Games                            | PlayStation Portable | 2011 | North America
+|       | Ys Seven                                                                           | Xseed Games                            | PlayStation Portable | 2010 | North America
+|       | Ys: The Ark of Napishtim                                                           | Konami                                 | PlayStation Portable | 2006 | North America
+|       | Ys: The Oath in Felghana                                                           | Xseed Games                            | PlayStation Portable | 2010 | North America
+|       | Yu-Gi-Oh! 5D's Tag Force 4                                                         | Konami                                 | PlayStation Portable | 2009 | North America
+|       | Yu-Gi-Oh! 5D's Tag Force 5                                                         | Konami                                 | PlayStation Portable | 2010 | North America
+|       | Yu-Gi-Oh! GX Tag Force                                                             | Konami                                 | PlayStation Portable | 2006 | North America
+|       | Yu-Gi-Oh! GX Tag Force 2                                                           | Konami                                 | PlayStation Portable | 2007 | North America
+|       | Z.H.P. Unlosing Ranger vs Darkdeath Evilman                                        | NIS America                            | PlayStation Portable | 2010 | North America

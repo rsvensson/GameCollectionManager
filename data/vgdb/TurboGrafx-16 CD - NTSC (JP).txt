@@ -1,0 +1,395 @@
+|       | 1552 Tenka Tairan                                         | ASK                                   | TurboGrafx-16 CD | 1993 | Japan
+|       | 3x3 Eyes: Sanjiyan Henjyo                                 | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | A.III: A-Ressha de Ikou III                               | Artdink                               | TurboGrafx-16 CD | 1993 | Japan
+|       | Advanced V.G.                                             | TGL                                   | TurboGrafx-16 CD | 1994 | Japan
+|       | Adventure Quiz Capcom World: Hatena no Daibouken          | Hudson                                | TurboGrafx-16 CD | 1992 | Japan
+|       | Ai Cho Aniki                                              | NCS                                   | TurboGrafx-16 CD | 1995 | Japan
+|       | Akiyama Jin No Suugaku Mystery                            | NHK                                   | TurboGrafx-16 CD | 1994 | Japan
+|       | Akumajou Dracula X: Chi no Rondo                          | Konami                                | TurboGrafx-16 CD | 1993 | Japan
+|       | Alnam no Kiba: Juuzoku Juuni Shinto Densetsu              | Right Stuff                           | TurboGrafx-16 CD | 1994 | Japan
+|       | Alshark                                                   | Victor Interactive Software           | TurboGrafx-16 CD | 1994 | Japan
+|       | Alzadick: Summer Carnival `92                             | Naxat Soft                            | TurboGrafx-16 CD | 1992 | Japan
+|       | Anesan                                                    | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | Aoki Ookami to Shiroki Mejika: Genchou Hishi              | Koei                                  | TurboGrafx-16 CD | 1993 | Japan
+|       | Asuka 120% Maxima: Burning Fest. Maxima                   | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | Atlas: Renaissance Voyager, The                           | Artdink                               | TurboGrafx-16 CD | 1994 | Japan
+|       | Aurora Quest: Otaku no Seiza in Another World             | Pack-In-Video                         | TurboGrafx-16 CD | 1993 | Japan
+|       | Auto Crusher Palladium                                    | Pack-In-Video                         | TurboGrafx-16 CD | 1994 | Japan
+|       | Avenger                                                   | Laser Soft                            | TurboGrafx-16 CD | 1990 | Japan
+|       | Babel                                                     | Nippon Telenet                        | TurboGrafx-16 CD | 1992 | Japan
+|       | Baby Jo: The Super Hero                                   | Micro World                           | TurboGrafx-16 CD | 1992 | Japan
+|       | Bakuden Unbalance Zone                                    | Sony Music Entertainment Incorporated | TurboGrafx-16 CD | 1994 | Japan
+|       | Bakushou Yoshimoto Shingeki                               | Hudson                                | TurboGrafx-16 CD | 1994 | Japan
+|       | Basted                                                    | NEC Avenue                            | TurboGrafx-16 CD | 1994 | Japan
+|       | Bazaru de Gozaru No Game Degozaru                         | NEC Interchannel                      | TurboGrafx-16 CD | 1996 | Japan
+|       | Bikkuriman Daijikai                                       | Hudson                                | TurboGrafx-16 CD | 1988 | Japan
+|       | Bishoujo Senshi Sailor Moon                               | Banpresto                             | TurboGrafx-16 CD | 1994 | Japan
+|       | Bishoujo Senshi Sailor Moon Collection                    | Banpresto                             | TurboGrafx-16 CD | 1994 | Japan
+|       | Black Hole Assault                                        | Micronet                              | TurboGrafx-16 CD | 1993 | Japan
+|       | Blood Gear                                                | Hudson                                | TurboGrafx-16 CD | 1994 | Japan
+|       | Bomberman: Panic Bomber                                   | Hudson                                | TurboGrafx-16 CD | 1994 | Japan
+|       | Bonanza Bros.                                             | NEC Interchannel                      | TurboGrafx-16 CD | 1992 | Japan
+|       | Brandish                                                  | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Browning                                                  | Nippon Telenet                        | TurboGrafx-16 CD | 1992 | Japan
+|       | Builderland                                               | Micro World                           | TurboGrafx-16 CD | 1992 | Japan
+|       | Burai II: Yami Koutei no Gyakushuu                        | Riverhillsoft                         | TurboGrafx-16 CD | 1992 | Japan
+|       | Burai: Hachigyoku no Yuushi Densetsu                      | Riverhillsoft                         | TurboGrafx-16 CD | 1991 | Japan
+|       | CAL II                                                    | NEC Interchannel                      | TurboGrafx-16 CD | 1993 | Japan
+|       | CAL III: Kanketsuhen                                      | NEC Avenue                            | TurboGrafx-16 CD | 1994 | Japan
+|       | Card Angels                                               | Fujicom                               | TurboGrafx-16 CD | 1994 | Japan
+|       | Carmen Sandiego o Oe! Sekaihen                            | Pack-In-Video                         | TurboGrafx-16 CD | 1990 | Japan
+|       | CD Battle Hikari no Yuushatachi                           | King Records                          | TurboGrafx-16 CD | 1993 | Japan
+|       | CD Denjin: Rockabilly Tengoku                             | Hudson                                | TurboGrafx-16 CD | 1993 | Japan
+|       | CD Hanafuda Bishoujo Fan Club                             | Games Express                         | TurboGrafx-16 CD | 1994 | Japan
+|       | CD Mahjong Bishoujo Chuushinha                            | Games Express                         | TurboGrafx-16 CD | 1993 | Japan
+|       | Championship Rally                                        | Intec                                 | TurboGrafx-16 CD | 1993 | Japan
+|       | Chiki Chiki Boys                                          | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Cho Aniki                                                 | NCS                                   | TurboGrafx-16 CD | 1992 | Japan
+|       | Chou Eiyuu Densetsu: Dynastic Hero                        | Hudson Soft                           | TurboGrafx-16 CD | 1994 | Japan
+|       | Choujikuu Yousai Macross 2036                             | NCS                                   | TurboGrafx-16 CD | 1992 | Japan
+|       | Choujikuu Yousai Macross: Eien no Love Song               | NCS                                   | TurboGrafx-16 CD | 1992 | Japan
+|       | Cobra II: Densetsu no Otoko                               | Hudson                                | TurboGrafx-16 CD | 1991 | Japan
+|       | Cobra Kuroryuuou no Densetsu                              | Hudson                                | TurboGrafx-16 CD | 1989 | Japan
+|       | Color Wars                                                | Coconuts Japan                        | TurboGrafx-16 CD | 1992 | Japan
+|       | Cosmic Fantasy 2: Bouken Shounen Ban                      | Nippon Telenet                        | TurboGrafx-16 CD | 1991 | Japan
+|       | Cosmic Fantasy 3: Bouken Shounen Rei                      | Nippon Telenet                        | TurboGrafx-16 CD | 1992 | Japan
+|       | Cosmic Fantasy 4: Ginga Shounen Densetsu                  | Nippon Telenet                        | TurboGrafx-16 CD | 1994 | Japan
+|       | Cosmic Fantasy 4: Ginga Shounen Densetsu                  | Nippon Telenet                        | TurboGrafx-16 CD | 1994 | Japan
+|       | Cosmic Fantasy Visual Shuu                                | Nippon Telenet                        | TurboGrafx-16 CD | 1993 | Japan
+|       | Cosmic Fantasy: Bouken Shounen Yuu                        | Nippon Telenet                        | TurboGrafx-16 CD | 1990 | Japan
+|       | Cotton: Fantastic Night Dreams                            | Hudson                                | TurboGrafx-16 CD | 1993 | Japan
+|       | Crest of Wolf                                             | Hudson                                | TurboGrafx-16 CD | 1993 | Japan
+|       | Cyber City Oedo 808                                       | NCS                                   | TurboGrafx-16 CD | 1991 | Japan
+|       | Daisenpuu Custom                                          | NEC Interchannel                      | TurboGrafx-16 CD | 1991 | Japan
+|       | Daisenryaku II Campaign-Han                               | Micro Cabin                           | TurboGrafx-16 CD | 1992 | Japan
+|       | Davis Cup Tennis, The                                     | Micro World                           | TurboGrafx-16 CD | 1992 | Japan
+|       | De-Ja                                                     | NEC Interchannel                      | TurboGrafx-16 CD | 1996 | Japan
+|       | Dead of the Brain 1 & 2                                   | NEC Interchannel                      | TurboGrafx-16 CD | 1999 | Japan
+|       | Death Bringer: The Knight of Darkness                     | Nippon Telenet                        | TurboGrafx-16 CD | 1990 | Japan
+|       | Dekoboko Densetsu: Hashiru Wagamanma                      | Nippon Telenet                        | TurboGrafx-16 CD | 1990 | Japan
+|       | Denno Tenshi: Digital Angel                               | Tokuma Shoten                         | TurboGrafx-16 CD | 1994 | Japan
+|       | Digital Comic - Patlabor: Chapter of Griffon              | Riverhillsoft                         | TurboGrafx-16 CD | 1993 | Japan
+|       | Doraemon: Nobita no Dorabian Night                        | Hudson                                | TurboGrafx-16 CD | 1992 | Japan
+|       | Double Dragon II: The Revenge                             | Naxat Soft                            | TurboGrafx-16 CD | 1993 | Japan
+|       | Doukyuusei                                                | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | Download 2                                                | NEC Interchannel                      | TurboGrafx-16 CD | 1991 | Japan
+|       | Downtown Nekketsu Koushinkyoku: Soreyuke Daiundoukai      | Naxat Soft                            | TurboGrafx-16 CD | 1992 | Japan
+|       | Downtown Nekketsu Monogatari                              | Naxat Soft                            | TurboGrafx-16 CD | 1993 | Japan
+|       | Dragon Ball Z: Idainaru Goku Densetsu                     | Bandai                                | TurboGrafx-16 CD | 1994 | Japan
+|       | Dragon Half                                               | Micro Cabin                           | TurboGrafx-16 CD | 1994 | Japan
+|       | Dragon Knight & Graffiti                                  | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | Dragon Knight II                                          | NEC Interchannel                      | TurboGrafx-16 CD | 1992 | Japan
+|       | Dragon Knight III                                         | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Dragon Slayer: Eiyuu Densetsu                             | Hudson                                | TurboGrafx-16 CD | 1991 | Japan
+|       | Dragon Slayer: Eiyuu Densetsu II                          | Hudson                                | TurboGrafx-16 CD | 1992 | Japan
+|       | Dungeon Explorer II                                       | Hudson                                | TurboGrafx-16 CD | 1993 | Japan
+|       | Dungeon Master: Theron's Quest                            | Victor Interactive Software           | TurboGrafx-16 CD | 1992 | Japan
+|       | Efera & Jiliora: The Emblem From Darkness                 | Brain Grey                            | TurboGrafx-16 CD | 1991 | Japan
+|       | Eikan wa Kimi ni: Koukou Yakyuu Zenkoku Taikai            | Artdink                               | TurboGrafx-16 CD | 1994 | Japan
+|       | Eiyuu San Goku Shi                                        | Irem                                  | TurboGrafx-16 CD | 1993 | Japan
+|       | Emerald Dragon                                            | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Exile II: Janen no Jishou                                 | Nippon Telenet                        | TurboGrafx-16 CD | 1992 | Japan
+|       | Exile: Toki no Hazama e                                   | Nippon Telenet                        | TurboGrafx-16 CD | 1991 | Japan
+|       | F1 Circus Special: Pole To Win                            | Nichibutsu                            | TurboGrafx-16 CD | 1992 | Japan
+|       | F1 Team Simulation: Project F                             | Nippon Telenet                        | TurboGrafx-16 CD | 1992 | Japan
+|       | Faceball                                                  | Riverhillsoft                         | TurboGrafx-16 CD | 1993 | Japan
+|       | Farjius no Jakoutei: Neo Metal Fantasy                    | Human Entertainment                   | TurboGrafx-16 CD | 1992 | Japan
+|       | Faussete Amour                                            | Naxat Soft                            | TurboGrafx-16 CD | 1993 | Japan
+|       | Fiend Hunter                                              | Right Stuff                           | TurboGrafx-16 CD | 1993 | Japan
+|       | Fighting Street                                           | Hudson                                | TurboGrafx-16 CD | 1988 | Japan
+|       | Final Zone II                                             | Nippon Telenet                        | TurboGrafx-16 CD | 1990 | Japan
+|       | Flash Hiders                                              | Right Stuff                           | TurboGrafx-16 CD | 1993 | Japan
+|       | Forgotten Worlds                                          | NEC Interchannel                      | TurboGrafx-16 CD | 1992 | Japan
+|       | Formation Soccer '95: Della Serie A                       | Human Entertainment                   | TurboGrafx-16 CD | 1995 | Japan
+|       | Fray CD:  Xak Gaiden                                      | Micro Cabin                           | TurboGrafx-16 CD | 1994 | Japan
+|       | Fushigi no Umi Nadia: The Secret of Blue Water            | Hudson                                | TurboGrafx-16 CD | 1993 | Japan
+|       | Gain Ground SX                                            | NEC Interchannel                      | TurboGrafx-16 CD | 1992 | Japan
+|       | Galaxy Keiji Gayvan                                       | Intec                                 | TurboGrafx-16 CD | 1993 | Japan
+|       | Gambler Jiko Chuushinha                                   | Hudson                                | TurboGrafx-16 CD | 1989 | Japan
+|       | Gambler Jiko Chuushinha: Mahjong Puzzle Collection        | Taito Corporation                     | TurboGrafx-16 CD | 1992 | Japan
+|       | Garou Densetsu 2: Aratanaru Tatakai                       | Hudson                                | TurboGrafx-16 CD | 1994 | Japan
+|       | Garou Densetsu Special                                    | Hudson                                | TurboGrafx-16 CD | 1994 | Japan
+|       | Gate of Thunder                                           | Hudson Soft                           | TurboGrafx-16 CD | 1992 | Japan
+|       | Genocide                                                  | Brain Grey                            | TurboGrafx-16 CD | 1992 | Japan
+|       | Gensou Tairiku Auleria                                    | Taito Corporation                     | TurboGrafx-16 CD | 1993 | Japan
+|       | Ginga Fukei Densetsu Sapphire                             | Hudson                                | TurboGrafx-16 CD | 1995 | Japan
+|       | Ginga Ojousama Densetsu Yuna                              | Hudson                                | TurboGrafx-16 CD | 1992 | Japan
+|       | Ginga Ojousama Densetsu Yuna 2: Eien no Princess          | Hudson                                | TurboGrafx-16 CD | 1995 | Japan
+|       | Go! Go! Birdie Chance                                     | NEC Interchannel                      | TurboGrafx-16 CD | 1996 | Japan
+|       | God Panic: Shijou Saikyou Gundan                          | Teichiku Records                      | TurboGrafx-16 CD | 1992 | Japan
+|       | Godzilla: Bakutou Retsuden                                | Toho                                  | TurboGrafx-16 CD | 1994 | Japan
+|       | Golden Axe                                                | Telenet Japan                         | TurboGrafx-16 CD | 1990 | Japan
+|       | Gotzendiener                                              | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Gradius II: Gofer no Yabou                                | Konami                                | TurboGrafx-16 CD | 1992 | Japan
+|       | GS Mikami                                                 | Banpresto                             | TurboGrafx-16 CD | 1994 | Japan
+|       | Gulclight TDF 2                                           | Pack-In-Video                         | TurboGrafx-16 CD | 1991 | Japan
+|       | Hatsukoi Monogatari                                       | Tokuma Shoten                         | TurboGrafx-16 CD | 1994 | Japan
+|       | Hawk F-123                                                | Pack-In-Video                         | TurboGrafx-16 CD | 1992 | Japan
+|       | Hellfire S                                                | NEC Interchannel                      | TurboGrafx-16 CD | 1991 | Japan
+|       | Hi-Leg Fantasy                                            | Games Express                         | TurboGrafx-16 CD | 1994 | Japan
+|       | High Grenadier                                            | Nippon Telenet                        | TurboGrafx-16 CD | 1991 | Japan
+|       | Hihou Densetsu Chris no Bouken                            | Pack-In-Video                         | TurboGrafx-16 CD | 1991 | Japan
+|       | Himitsu no Hanazono                                       | Tokuma Shoten                         | TurboGrafx-16 CD | 1993 | Japan
+|       | Horror Story                                              | NEC Interchannel                      | TurboGrafx-16 CD | 1993 | Japan
+|       | Human Sports Festival                                     | Human Entertainment                   | TurboGrafx-16 CD | 1992 | Japan
+|       | Hyaku Monogatari: Hontoni Atta Kowai Hanashi              | Hudson                                | TurboGrafx-16 CD | 1995 | Japan
+|       | Hyper Catalog Demo Disc                                   | Shogakukan                            | TurboGrafx-16 CD | 1992 | Japan
+|       | Hyper Catalog Demo Disc 2                                 | Shogakukan                            | TurboGrafx-16 CD | 1993 | Japan
+|       | Hyper Catalog Demo Disc 3                                 | Shogakukan                            | TurboGrafx-16 CD | 1993 | Japan
+|       | Hyper Catalog Demo Disc 4                                 | Shogakukan                            | TurboGrafx-16 CD | 1993 | Japan
+|       | Hyper Dyne Side Arms Special                              | NEC Interchannel                      | TurboGrafx-16 CD | 1989 | Japan
+|       | Hyper Wars                                                | Hudson                                | TurboGrafx-16 CD | 1994 | Japan
+|       | Iga Ninden Gaou                                           | Nichibutsu                            | TurboGrafx-16 CD | 1993 | Japan
+|       | Image Fight II                                            | Irem                                  | TurboGrafx-16 CD | 1992 | Japan
+|       | Inoue Mami: Kono Hoshi ni Tatta Hitori no Kimi            | Hudson                                | TurboGrafx-16 CD | 1992 | Japan
+|       | Insanity                                                  | Aetherbyte                            | TurboGrafx-16 CD | 2009 | Japan
+|       | IQ Panic                                                  | IGS (Japan)                           | TurboGrafx-16 CD | 1992 | Japan
+|       | J.B. Harold Satsujin Club                                 | Hudson                                | TurboGrafx-16 CD | 1990 | Japan
+|       | J.League Tremendous Soccer '94                            | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Jack Nicklaus' World Golf Tour                            | Victor Interactive Software           | TurboGrafx-16 CD | 1990 | Japan
+|       | Janshin Densetsu: Quest of Jongmaster                     | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | Jantei Monogatari                                         | Nippon Telenet                        | TurboGrafx-16 CD | 1990 | Japan
+|       | Jantei Monogatari 2: Uchuu Tantei Deiban                  | ATLUS                                 | TurboGrafx-16 CD | 1992 | Japan
+|       | Jantei Monogatari 2: Uchuu Tantei Deiban                  | ATLUS                                 | TurboGrafx-16 CD | 1992 | Japan
+|       | Jantei Monogatari 3: Saver Angel                          | ATLUS                                 | TurboGrafx-16 CD | 1993 | Japan
+|       | Jim Power                                                 | Micro World                           | TurboGrafx-16 CD | 1993 | Japan
+|       | Juuouki                                                   | NEC Interchannel                      | TurboGrafx-16 CD | 1989 | Japan
+|       | Kabuki Ittou Ryoudan                                      | Hudson                                | TurboGrafx-16 CD | 1995 | Japan
+|       | Kagami no Kuni no Legend                                  | Victor Interactive Software           | TurboGrafx-16 CD | 1989 | Japan
+|       | Kaizou Chounin Shubibinman 3: Ikai no Princess            | NCS                                   | TurboGrafx-16 CD | 1992 | Japan
+|       | Kakutou Haou Densetsu Algunos                             | Intec                                 | TurboGrafx-16 CD | 1994 | Japan
+|       | Kawa no Nushi Tsuri: Shizenha                             | Pack-In-Video                         | TurboGrafx-16 CD | 1992 | Japan
+|       | Kazekiri                                                  | Naxat Soft                            | TurboGrafx-16 CD | 1994 | Japan
+|       | Kiaidan 00                                                | Nippon Telenet                        | TurboGrafx-16 CD | 1992 | Japan
+|       | Kick Boxing, The                                          | Micro World                           | TurboGrafx-16 CD | 1992 | Japan
+|       | Kisou Louga                                               | Kogado Studio                         | TurboGrafx-16 CD | 1993 | Japan
+|       | Kisou Louga II: The Ends of Shangrila                     | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | KO Seiki Beast Sanjuushi: Gaia Fukkatsu Kanketsuhen       | Pack-In-Video                         | TurboGrafx-16 CD | 1994 | Japan
+|       | Kuusou Kagaku Sekai Gulliver Boy                          | Hudson                                | TurboGrafx-16 CD | 1995 | Japan
+|       | L-Dis                                                     | NCS                                   | TurboGrafx-16 CD | 1991 | Japan
+|       | Lady Phantom                                              | Laser Soft                            | TurboGrafx-16 CD | 1991 | Japan
+|       | Langrisser: Hikari no Matsuei                             | NCS                                   | TurboGrafx-16 CD | 1993 | Japan
+|       | Laplace no Ma                                             | Human Entertainment                   | TurboGrafx-16 CD | 1993 | Japan
+|       | Last Armageddon                                           | Brain Grey                            | TurboGrafx-16 CD | 1990 | Japan
+|       | Legend of Xanadu: Kaze no Densetsu Xanadu                 | Falcom                                | TurboGrafx-16 CD | 1994 | Japan
+|       | Legend of Xanadu: Kaze no Densetsu Xanadu II              | Falcom                                | TurboGrafx-16 CD | 1995 | Japan
+|       | Legion                                                    | Nippon Telenet                        | TurboGrafx-16 CD | 1990 | Japan
+|       | Lemmings                                                  | SunSoft                               | TurboGrafx-16 CD | 1992 | Japan
+|       | Linda Cube                                                | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | Lodoss Tou Senki                                          | Hudson                                | TurboGrafx-16 CD | 1992 | Japan
+|       | Lodoss Tou Senki II                                       | Hudson                                | TurboGrafx-16 CD | 1994 | Japan
+|       | Loom                                                      | Victor Interactive Software           | TurboGrafx-16 CD | 1992 | Japan
+|       | Lord of Wars                                              | SystemSoft                            | TurboGrafx-16 CD | 1991 | Japan
+|       | Mad Stalker: Full Metal Force                             | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Madou Monogatari I: Honoo no Sotsuenko                    | NEC Interchannel                      | TurboGrafx-16 CD | 1996 | Japan
+|       | Magical Saurs Tour                                        | Victor Interactive Software           | TurboGrafx-16 CD | 1990 | Japan
+|       | Magicoal                                                  | NEC Interchannel                      | TurboGrafx-16 CD | 1993 | Japan
+|       | Mahjong Clinic Special                                    | Naxat Soft                            | TurboGrafx-16 CD | 1993 | Japan
+|       | Mahjong Lemon Angel                                       | Naxat Soft                            | TurboGrafx-16 CD | 1994 | Japan
+|       | Mahjong on the Beach                                      | NEC Interchannel                      | TurboGrafx-16 CD | 1993 | Japan
+|       | Mahjong Sword: Princess Quest Gaiden                      | Naxat Soft                            | TurboGrafx-16 CD | 1995 | Japan
+|       | Mahjong Vanilla Syndrome                                  | Nichibutsu                            | TurboGrafx-16 CD | 1991 | Japan
+|       | Mamono Hunter Youko: Makai Kara no Tenkousei              | NCS                                   | TurboGrafx-16 CD | 1992 | Japan
+|       | Mamono Hunter Youko: Tooki Yobigoe                        | NCS                                   | TurboGrafx-16 CD | 1993 | Japan
+|       | Manhole, The                                              | SunSoft                               | TurboGrafx-16 CD | 1991 | Japan
+|       | Martial Champion                                          | Konami                                | TurboGrafx-16 CD | 1993 | Japan
+|       | Mashou Denki La Valeur                                    | Kogado Studio                         | TurboGrafx-16 CD | 1991 | Japan
+|       | Master of Monsters                                        | Micro Cabin                           | TurboGrafx-16 CD | 1991 | Japan
+|       | Mateki Densetsu Astralius                                 | IGS (Japan)                           | TurboGrafx-16 CD | 1991 | Japan
+|       | Megami Tengoku: Megami Paradise                           | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Meikyuu no Elfeene                                        | Nippon Telenet                        | TurboGrafx-16 CD | 1990 | Japan
+|       | Metal Angel                                               | Pack-In-Video                         | TurboGrafx-16 CD | 1993 | Japan
+|       | Metal Angel 2                                             | Pack-In-Video                         | TurboGrafx-16 CD | 1995 | Japan
+|       | Metamor Jupiter                                           | NEC Interchannel                      | TurboGrafx-16 CD | 1993 | Japan
+|       | Might and Magic                                           | NEC Interchannel                      | TurboGrafx-16 CD | 1992 | Japan
+|       | Might and Magic III: Isles of Terra                       | Hudson                                | TurboGrafx-16 CD | 1993 | Japan
+|       | Minesweeper                                               | Pack-In-Video                         | TurboGrafx-16 CD | 1992 | Japan
+|       | Mirai Shounen Conan                                       | Nippon Telenet                        | TurboGrafx-16 CD | 1992 | Japan
+|       | Mitsubachi Gakuen                                         | Hudson                                | TurboGrafx-16 CD | 1990 | Japan
+|       | Monster Maker: Yami no Ryuukishi                          | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Moonlight Lady                                            | NEC Interchannel                      | TurboGrafx-16 CD | 1993 | Japan
+|       | Moto Roader MC                                            | NCS                                   | TurboGrafx-16 CD | 1992 | Japan
+|       | Motteke Tamago                                            | Naxat Soft                            | TurboGrafx-16 CD | 1997 | Japan
+|       | Mugen Senshi Valis                                        | Nippon Telenet                        | TurboGrafx-16 CD | 1992 | Japan
+|       | Mystic Formula                                            | Micro Cabin                           | TurboGrafx-16 CD | 1993 | Japan
+|       | Naritore The Sugoroku '92                                 | Nippon Telenet                        | TurboGrafx-16 CD | 1991 | Japan
+|       | Nekketsu Koukou Dodge Ball-Bu: CD Soccer-hen              | Naxat Soft                            | TurboGrafx-16 CD | 1991 | Japan
+|       | Nekketsu Legend Baseballer                                | Pack-In-Video                         | TurboGrafx-16 CD | 1995 | Japan
+|       | Nemurenu Yoru no Chiisana Ohanashi                        | NEC Interchannel                      | TurboGrafx-16 CD | 1993 | Japan
+|       | Neo Nectaris                                              | Hudson                                | TurboGrafx-16 CD | 1994 | Japan
+|       | Nexzr                                                     | Naxat Soft                            | TurboGrafx-16 CD | 1992 | Japan
+|       | Nishimura Kyoutarou: Hokutosei no Onna                    | Naxat Soft                            | TurboGrafx-16 CD | 1990 | Japan
+|       | No Ri Ko                                                  | Hudson                                | TurboGrafx-16 CD | 1988 | Japan
+|       | Nobunaga no Yabou: Bushou Fuuunroku                       | Koei                                  | TurboGrafx-16 CD | 1993 | Japan
+|       | Nobunaga no Yabou: Zenkokuban                             | Koei                                  | TurboGrafx-16 CD | 1993 | Japan
+|       | Pachiokun 3: Pachi-Slot & Pachinko                        | Coconuts Japan                        | TurboGrafx-16 CD | 1994 | Japan
+|       | Pachiokun: Maboroshi no Densetsu                          | Coconuts Japan                        | TurboGrafx-16 CD | 1991 | Japan
+|       | Pachiokun: Warau Uchuu                                    | Coconuts Japan                        | TurboGrafx-16 CD | 1992 | Japan
+|       | Pastel Lime                                               | Naxat Soft                            | TurboGrafx-16 CD | 1992 | Japan
+|       | PC-Engine CD-ROM2                                         | Hudson                                | TurboGrafx-16 CD | 1988 | Japan
+|       | Police Connection                                         | Nippon Telenet                        | TurboGrafx-16 CD | 1993 | Japan
+|       | Pomping World                                             | Hudson                                | TurboGrafx-16 CD | 1991 | Japan
+|       | Pop'n Magic                                               | Nippon Telenet                        | TurboGrafx-16 CD | 1992 | Japan
+|       | Popful Mail: Magical Fantasy Adventure                    | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Populous: The Promised Lands                              | Hudson                                | TurboGrafx-16 CD | 1991 | Japan
+|       | Power Golf 2: Golfer                                      | Hudson                                | TurboGrafx-16 CD | 1994 | Japan
+|       | Prince of Persia                                          | Riverhillsoft                         | TurboGrafx-16 CD | 1991 | Japan
+|       | Princess Maker 1                                          | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | Princess Maker 2                                          | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | Princess Minerva                                          | Riverhillsoft                         | TurboGrafx-16 CD | 1994 | Japan
+|       | Private eye dol                                           | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | Pro Yakyuu Super '94, The                                 | Intec                                 | TurboGrafx-16 CD | 1994 | Japan
+|       | Pro Yakyuu Super, The                                     | Intec                                 | TurboGrafx-16 CD | 1992 | Japan
+|       | Pro Yakyuu, The                                           | Intec                                 | TurboGrafx-16 CD | 1990 | Japan
+|       | Psychic Detective Series Vol. 3: Aya                      | DataWest                              | TurboGrafx-16 CD | 1992 | Japan
+|       | Psychic Detective Series Vol. 4: Orgel                    | DataWest                              | TurboGrafx-16 CD | 1993 | Japan
+|       | Psychic Storm                                             | Nippon Telenet                        | TurboGrafx-16 CD | 1992 | Japan
+|       | Puyo Puyo CD                                              | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Puyo Puyo CD Tsuu                                         | NEC Interchannel                      | TurboGrafx-16 CD | 1996 | Japan
+|       | Quiz Avenue                                               | NEC Interchannel                      | TurboGrafx-16 CD | 1991 | Japan
+|       | Quiz Avenue II                                            | NEC Interchannel                      | TurboGrafx-16 CD | 1991 | Japan
+|       | Quiz Avenue III                                           | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Quiz Caravan Cult Q                                       | Hudson                                | TurboGrafx-16 CD | 1993 | Japan
+|       | Quiz de Gakuensai                                         | Naxat Soft                            | TurboGrafx-16 CD | 1993 | Japan
+|       | Quiz Marugoto The World                                   | ATLUS                                 | TurboGrafx-16 CD | 1991 | Japan
+|       | Quiz Marugoto The World II                                | ATLUS                                 | TurboGrafx-16 CD | 1992 | Japan
+|       | Quiz no Hoshi                                             | SunSoft                               | TurboGrafx-16 CD | 1992 | Japan
+|       | Quiz Tonosama no Yabou                                    | Hudson                                | TurboGrafx-16 CD | 1992 | Japan
+|       | R-Type Complete CD                                        | Irem                                  | TurboGrafx-16 CD | 1991 | Japan
+|       | Rainbow Islands                                           | NEC Interchannel                      | TurboGrafx-16 CD | 1993 | Japan
+|       | Ranma 1/2                                                 | NCS                                   | TurboGrafx-16 CD | 1990 | Japan
+|       | Ranma 1/2: Datou, Ganso Musabetsu Kakutou-ryuu!           | NCS                                   | TurboGrafx-16 CD | 1992 | Japan
+|       | Ranma 1/2: Toraware no Hanayome                           | NCS                                   | TurboGrafx-16 CD | 1991 | Japan
+|       | Rayxanber II                                              | DataWest                              | TurboGrafx-16 CD | 1991 | Japan
+|       | RayXanbeR III                                             | DataWest                              | TurboGrafx-16 CD | 1992 | Japan
+|       | Red Alert                                                 | Nippon Telenet                        | TurboGrafx-16 CD | 1989 | Japan
+|       | Renny Blaster                                             | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | Rising Sun                                                | Victor Interactive Software           | TurboGrafx-16 CD | 1992 | Japan
+|       | Road Spirits                                              | Pack-In-Video                         | TurboGrafx-16 CD | 1991 | Japan
+|       | Rom Rom Karaoke Vol. 1: Suteki ni Standard                | NEC Interchannel                      | TurboGrafx-16 CD | 1989 | Japan
+|       | Rom Rom Karaoke Vol. 2: Nattoku Idol                      | NEC Interchannel                      | TurboGrafx-16 CD | 1989 | Japan
+|       | Rom Rom Karaoke Vol. 3: Yappashi Band                     | NEC Interchannel                      | TurboGrafx-16 CD | 1989 | Japan
+|       | Rom Rom Karaoke Vol. 4: Choito Otona!?                    | NEC Interchannel                      | TurboGrafx-16 CD | 1990 | Japan
+|       | Rom Rom Karaoke Vol. 5: Karaoke Mako no Uchi              | NEC Interchannel                      | TurboGrafx-16 CD | 1990 | Japan
+|       | Rom Rom Stadium                                           | NCS                                   | TurboGrafx-16 CD | 1989 | Japan
+|       | Rom2 Karaoke Volume 1                                     | Victor Interactive Software           | TurboGrafx-16 CD | 1990 | Japan
+|       | Rom2 Karaoke Volume 2                                     | Victor Interactive Software           | TurboGrafx-16 CD | 1990 | Japan
+|       | Rom2 Karaoke Volume 3                                     | Victor Interactive Software           | TurboGrafx-16 CD | 1990 | Japan
+|       | Rom2 Karaoke Volume 4                                     | Victor Interactive Software           | TurboGrafx-16 CD | 1990 | Japan
+|       | Rom2 Karaoke Volume 5                                     | Victor Interactive Software           | TurboGrafx-16 CD | 1990 | Japan
+|       | Ruin: Kami no Isan                                        | Victor Interactive Software           | TurboGrafx-16 CD | 1993 | Japan
+|       | Ryuuko no Ken                                             | Hudson                                | TurboGrafx-16 CD | 1994 | Japan
+|       | San Goku Shi III                                          | Koei                                  | TurboGrafx-16 CD | 1993 | Japan
+|       | San Goku Shi: Eiketsu Tenka ni Nozumu                     | Naxat Soft                            | TurboGrafx-16 CD | 1991 | Japan
+|       | Seirei Senshi Spriggan                                    | Naxat Soft                            | TurboGrafx-16 CD | 1991 | Japan
+|       | Seiryuu Densetsu Monbit                                   | Hudson                                | TurboGrafx-16 CD | 1991 | Japan
+|       | Seisenshi Denshou: Jantaku no Kishi                       | Nichibutsu                            | TurboGrafx-16 CD | 1994 | Japan
+|       | Seiya Monogatari: AnEarth Fantasy Stories                 | Hudson                                | TurboGrafx-16 CD | 1995 | Japan
+|       | Sengoku Kantou San Goku Shi                               | Intec                                 | TurboGrafx-16 CD | 1991 | Japan
+|       | Sexy Idol Mahjong                                         | Nichibutsu                            | TurboGrafx-16 CD | 1993 | Japan
+|       | Sexy Idol Mahjong Fashion Monogatori                      | Nichibutsu                            | TurboGrafx-16 CD | 1994 | Japan
+|       | Sexy Idol Mahjong: Yakyuuken no Uta                       | Nichibutsu                            | TurboGrafx-16 CD | 1995 | Japan
+|       | Shadow of the Beast: Mashou no Okite                      | Victor Interactive Software           | TurboGrafx-16 CD | 1992 | Japan
+|       | Shanghai II                                               | Hudson                                | TurboGrafx-16 CD | 1990 | Japan
+|       | Shanghai III: Dragon's Eye                                | ASK                                   | TurboGrafx-16 CD | 1992 | Japan
+|       | Shapeshifter: Makai Eiyuuden                              | Victor Interactive Software           | TurboGrafx-16 CD | 1992 | Japan
+|       | Sherlock Holmes no Tantei Kouza                           | Victor Interactive Software           | TurboGrafx-16 CD | 1991 | Japan
+|       | Sherlock Holmes no Tantei Kouza 2                         | Victor Interactive Software           | TurboGrafx-16 CD | 1993 | Japan
+|       | Shin Megami Tensei                                        | ATLUS                                 | TurboGrafx-16 CD | 1993 | Japan
+|       | Shin Nippon Pro Wrestling '94: Battlefield in Tokyo Dome  | Fujicom                               | TurboGrafx-16 CD | 1994 | Japan
+|       | Shin Onryu Senki                                          | Fujicom                               | TurboGrafx-16 CD | 1995 | Japan
+|       | Shogi Database Kiyuu                                      | Seta Corporation                      | TurboGrafx-16 CD | 1995 | Japan
+|       | SimEarth: The Living Planet                               | Hudson                                | TurboGrafx-16 CD | 1993 | Japan
+|       | Slime World                                               | Micro World                           | TurboGrafx-16 CD | 1992 | Japan
+|       | Slot Gambler                                              | Nichibutsu                            | TurboGrafx-16 CD | 1995 | Japan
+|       | Snatcher CD-ROMantic                                      | Konami                                | TurboGrafx-16 CD | 1992 | Japan
+|       | Snatcher Pilot Disk                                       | Konami                                | TurboGrafx-16 CD | 1992 | Japan
+|       | Sol Bianca                                                | NCS                                   | TurboGrafx-16 CD | 1990 | Japan
+|       | Sol: Moonarge                                             | Irem                                  | TurboGrafx-16 CD | 1994 | Japan
+|       | Solid Force                                               | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | Sorcerian                                                 | Victor Interactive Software           | TurboGrafx-16 CD | 1992 | Japan
+|       | Sotsugyou II: Neo Generation                              | Riverhillsoft                         | TurboGrafx-16 CD | 1994 | Japan
+|       | Sotsugyou Shashin Miki                                    | Coconuts Japan                        | TurboGrafx-16 CD | 1994 | Japan
+|       | Sotsugyou: Graduation                                     | NEC Interchannel                      | TurboGrafx-16 CD | 1993 | Japan
+|       | Space Invaders: The Original Game                         | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | Splash Lake                                               | NEC Interchannel                      | TurboGrafx-16 CD | 1991 | Japan
+|       | Spriggan Mark 2: Re-Terraform Project                     | Naxat Soft                            | TurboGrafx-16 CD | 1992 | Japan
+|       | Star Breaker                                              | Ray Force                             | TurboGrafx-16 CD | 1994 | Japan
+|       | Star Mobile                                               | Naxat Soft                            | TurboGrafx-16 CD | 1992 | Japan
+|       | Star Parodier                                             | Hudson                                | TurboGrafx-16 CD | 1992 | Japan
+|       | Startling Odyssey                                         | Ray Force                             | TurboGrafx-16 CD | 1993 | Japan
+|       | Startling Odyssey II: Maryuu Sensou                       | Ray Force                             | TurboGrafx-16 CD | 1994 | Japan
+|       | Steam-Heart's                                             | TGL                                   | TurboGrafx-16 CD | 1996 | Japan
+|       | Strider Hiryu                                             | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Summer Carnival '93: Nexzr Special                        | Naxat Soft                            | TurboGrafx-16 CD | 1993 | Japan
+|       | Super Albatross                                           | Nippon Telenet                        | TurboGrafx-16 CD | 1989 | Japan
+|       | Super CD-ROM2 Taiken Soft-shuu                            | Hudson                                | TurboGrafx-16 CD | 1991 | Japan
+|       | Super Daisenryaku                                         | Micro Cabin                           | TurboGrafx-16 CD | 1990 | Japan
+|       | Super Darius                                              | NEC Interchannel                      | TurboGrafx-16 CD | 1990 | Japan
+|       | Super Darius II                                           | NEC Interchannel                      | TurboGrafx-16 CD | 1993 | Japan
+|       | Super Mahjong Taikai                                      | Koei                                  | TurboGrafx-16 CD | 1992 | Japan
+|       | Super Raiden                                              | Hudson                                | TurboGrafx-16 CD | 1992 | Japan
+|       | Super Real Mahjong P II-III Custom                        | Naxat Soft                            | TurboGrafx-16 CD | 1994 | Japan
+|       | Super Real Mahjong P IV Custom                            | Naxat Soft                            | TurboGrafx-16 CD | 1993 | Japan
+|       | Super Real Mahjong P V Custom                             | Naxat Soft                            | TurboGrafx-16 CD | 1995 | Japan
+|       | Super Real Mahjong Special                                | Naxat Soft                            | TurboGrafx-16 CD | 1992 | Japan
+|       | Super Schwarzschild                                       | Kogado Studio                         | TurboGrafx-16 CD | 1991 | Japan
+|       | Super Schwarzschild 2                                     | Kogado Studio                         | TurboGrafx-16 CD | 1992 | Japan
+|       | Sword Master                                              | Right Stuff                           | TurboGrafx-16 CD | 1993 | Japan
+|       | Sylphia                                                   | Tonkin House                          | TurboGrafx-16 CD | 1993 | Japan
+|       | Tadaima Yuusha Boshuuchuu                                 | Human Entertainment                   | TurboGrafx-16 CD | 1993 | Japan
+|       | Taiheiki                                                  | Intec                                 | TurboGrafx-16 CD | 1991 | Japan
+|       | Tanjou Debut                                              | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Tecmo World Cup Super Soccer                              | Media Rings                           | TurboGrafx-16 CD | 1992 | Japan
+|       | Tekipaki Working Love                                     | NEC Interchannel                      | TurboGrafx-16 CD | 1997 | Japan
+|       | Tenchi Muyou! Ryououki                                    | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | Tenchi o Kurau                                            | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Tengai Makyou II: Manji Maru                              | Hudson                                | TurboGrafx-16 CD | 1992 | Japan
+|       | Tengai Makyou: Fuun Kabuki Den                            | Hudson                                | TurboGrafx-16 CD | 1993 | Japan
+|       | Tengai Makyou: Ziria                                      | Hudson                                | TurboGrafx-16 CD | 1989 | Japan
+|       | Tenshi no Uta                                             | Nippon Telenet                        | TurboGrafx-16 CD | 1991 | Japan
+|       | Tenshi no Uta II: Datenshi no Sentaku                     | Nippon Telenet                        | TurboGrafx-16 CD | 1993 | Japan
+|       | Terraforming                                              | Naxat Soft                            | TurboGrafx-16 CD | 1992 | Japan
+|       | Tokimeki Memorial                                         | Konami                                | TurboGrafx-16 CD | 1994 | Japan
+|       | Top o Nerae ! Gun Buster Vol.1                            | Riverhillsoft                         | TurboGrafx-16 CD | 1992 | Japan
+|       | Top o Nerae ! Gun Buster Vol.2                            | Riverhillsoft                         | TurboGrafx-16 CD | 1993 | Japan
+|       | Travel Epule                                              | Nippon Telenet                        | TurboGrafx-16 CD | 1992 | Japan
+|       | Travellers! Densetsu o Buttobase                          | Victor Interactive Software           | TurboGrafx-16 CD | 1994 | Japan
+|       | TV Show, The                                              | Right Stuff                           | TurboGrafx-16 CD | 1995 | Japan
+|       | Uchuu Senkan Yamato                                       | Human Entertainment                   | TurboGrafx-16 CD | 1992 | Japan
+|       | Ultrabox 2-gou                                            | Victor Interactive Software           | TurboGrafx-16 CD | 1990 | Japan
+|       | Ultrabox 3-gou                                            | Victor Interactive Software           | TurboGrafx-16 CD | 1990 | Japan
+|       | Ultrabox 4-gou                                            | NCS                                   | TurboGrafx-16 CD | 1991 | Japan
+|       | Ultrabox 5-gou                                            | Victor Interactive Software           | TurboGrafx-16 CD | 1991 | Japan
+|       | Ultrabox 6-gou                                            | Victor Interactive Software           | TurboGrafx-16 CD | 1992 | Japan
+|       | Ultrabox Soukangou                                        | Victor Interactive Software           | TurboGrafx-16 CD | 1990 | Japan
+|       | Urusei Yatsura: Stay With You                             | Hudson                                | TurboGrafx-16 CD | 1990 | Japan
+|       | Valis II                                                  | Nippon Telenet                        | TurboGrafx-16 CD | 1989 | Japan
+|       | Valis III                                                 | Nippon Telenet                        | TurboGrafx-16 CD | 1990 | Japan
+|       | Valis IV                                                  | Laser Soft                            | TurboGrafx-16 CD | 1991 | Japan
+|       | Valis Visual Shuu                                         | Nippon Telenet                        | TurboGrafx-16 CD | 1993 | Japan
+|       | Vasteel                                                   | Human Entertainment                   | TurboGrafx-16 CD | 1990 | Japan
+|       | Vasteel 2                                                 | Human Entertainment                   | TurboGrafx-16 CD | 1994 | Japan
+|       | Virgin Dream                                              | Tokuma Shoten                         | TurboGrafx-16 CD | 1996 | Japan
+|       | Winds of Thunder                                          | Hudson                                | TurboGrafx-16 CD | 1993 | Japan
+|       | Wizardry I + II                                           | Naxat Soft                            | TurboGrafx-16 CD | 1993 | Japan
+|       | Wizardry III + IV                                         | Naxat Soft                            | TurboGrafx-16 CD | 1994 | Japan
+|       | Wizardry V: Heart of the Maelstrom                        | Naxat Soft                            | TurboGrafx-16 CD | 1992 | Japan
+|       | Wonder Boy III: Monster Lair                              | Hudson                                | TurboGrafx-16 CD | 1989 | Japan
+|       | World Heroes 2                                            | Hudson                                | TurboGrafx-16 CD | 1994 | Japan
+|       | Wrestle Angels: Double Impact                             | NEC Interchannel                      | TurboGrafx-16 CD | 1995 | Japan
+|       | Wrestling Universe: Fire Pro Joshi - Doumu Chou Taisen    | Human Entertainment                   | TurboGrafx-16 CD | 1995 | Japan
+|       | Xak I + II                                                | Nippon Telenet                        | TurboGrafx-16 CD | 1992 | Japan
+|       | Xak III: The Eternal Recurrence                           | NEC Interchannel                      | TurboGrafx-16 CD | 1994 | Japan
+|       | Yamamura Misa Suspense: Kinsenka Kei Ezara Satsujin Jiken | Naxat Soft                            | TurboGrafx-16 CD | 1992 | Japan
+|       | Yami no Ketsuzoku: Harakanaru Kioku                       | Naxat Soft                            | TurboGrafx-16 CD | 1993 | Japan
+|       | Yawara!                                                   | Sofix                                 | TurboGrafx-16 CD | 1992 | Japan
+|       | Yawara! 2                                                 | Sofix                                 | TurboGrafx-16 CD | 1994 | Japan
+|       | Yokoyama Mitsuteru Shin San Goku Shi: : Tenka wa Ware ni  | Naxat Soft                            | TurboGrafx-16 CD | 1992 | Japan
+|       | Ys I + II                                                 | Hudson                                | TurboGrafx-16 CD | 1989 | Japan
+|       | Ys III: Wanderers from Ys                                 | Hudson                                | TurboGrafx-16 CD | 1991 | Japan
+|       | Ys IV: The Dawn of Ys                                     | Hudson                                | TurboGrafx-16 CD | 1993 | Japan
+|       | Yuu Yuu Hakusho Yamishoubu!! Ankoku Bujutsukai            | Banpresto                             | TurboGrafx-16 CD | 1993 | Japan
+|       | Zan: Youen no Jidai                                       | Taito Corporation                     | TurboGrafx-16 CD | 1991 | Japan
+|       | Zero 4 Champ II                                           | Media Rings                           | TurboGrafx-16 CD | 1993 | Japan
+|       | Zero Wing                                                 | Naxat Soft                            | TurboGrafx-16 CD | 1992 | Japan

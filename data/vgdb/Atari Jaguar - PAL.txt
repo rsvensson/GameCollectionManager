@@ -1,0 +1,13 @@
+|       | Alien vs. Predator            | Atari Corporation       | Atari Jaguar | 1994 | Europe
+|       | Another World                 | Retro Gaming Connexion  | Atari Jaguar | 2013 | Europe
+|       | Atari Karts                   | Atari Corporation       | Atari Jaguar | 1995 | Europe
+|       | Attack of the Mutant Penguins | Atari Corporation       | Atari Jaguar | 1995 | Europe
+|       | Elansar                       | RGCD                    | Atari Jaguar | 2013 | Europe
+|       | Fight For Life                | Atari Corporation       | Atari Jaguar | 1996 | Europe
+|       | I-War                         | Atari Corporation       | Atari Jaguar | 1995 | Europe
+|       | Missile Command 3D            | Atari Corporation       | Atari Jaguar | 1995 | Europe
+|       | NBA Jam Tournament Edition    | Acclaim                 | Atari Jaguar | 1995 | Europe
+|       | Power Drive Rally             | Time Warner Interactive | Atari Jaguar | 1995 | Europe
+|       | Ruiner Pinball                | High Voltage Software   | Atari Jaguar | 1995 | Europe
+|       | Supercross 3D                 | Atari Corporation       | Atari Jaguar | 1995 | Europe
+|       | Zoop                          | Atari Corporation       | Atari Jaguar | 1995 | Europe
