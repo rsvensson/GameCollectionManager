@@ -10,38 +10,40 @@ from pathlib import Path
 import csv
 
 
-def readTextFile(infile):
+def _readTextFile(infile):
     try:
         with open(infile, 'r', encoding='utf8') as f:
             lines = f.readlines()
     except FileNotFoundError:
-        print("No such file: {}\nAborting.")
-        exit(2)
+        raise FileNotFoundError
+#        print("No such file: {}\nAborting.")
+#        exit(2)
 
     if len(lines) == 0:
-        print("Input file is empty! Aborting.")
-        exit(3)
+        raise IOError
+#        print("Input file is empty! Aborting.")
+#        exit(3)
 
     gamedata = []
 
     # Extract the info we want
     for i, line in enumerate(lines):
-        if "|" not in line:
-            print("Line {} in input file is not a valid VGDB.io text file (e.g it doesn't have any '|' characters):".format(i))
-            print(line + "\n")
-            print("Example line from a valid text file:")
-            print("|       | Battlezone                 | Atari, Inc. | Atari 2600 | 1983 | Japan")
-            exit(4)
+#        if "|" not in line:
+#            print("Line {} in input file is not a valid VGDB.io text file (e.g it doesn't have any '|' characters):".format(i))
+#            print(line + "\n")
+#            print("Example line from a valid text file:")
+#            print("|       | Battlezone                 | Atari, Inc. | Atari 2600 | 1983 | Japan")
+#            exit(4)
 
         temp = line.split("|")
 
-        if len(temp) is not 7:
-            print("Line {} in input file malformed:".format(i))
-            print(line + "\n")
-            print("Example line from a valid text file:")
-            print("|       | Battlezone                 | Atari, Inc. | Atari 2600 | 1983 | Japan")
-            print("(Whitespace is not important, but it must consist of six segments separated by '|' characters.")
-            exit(5)
+#        if len(temp) is not 7:
+#            print("Line {} in input file malformed:".format(i))
+#            print(line + "\n")
+#            print("Example line from a valid text file:")
+#            print("|       | Battlezone                 | Atari, Inc. | Atari 2600 | 1983 | Japan")
+#            print("(Whitespace is not important, but it must consist of six segments separated by '|' characters.")
+#            exit(5)
 
         for i, row in enumerate(temp):
             temp[i] = row.strip()
@@ -53,8 +55,10 @@ def readTextFile(infile):
     return gamedata
 
 
-def createCSV(gamedata, outfile):
+def createCSV(infile, outfile):
     dialect = "excel-tab" if outfile.suffix[1:] == "tsv" else "excel"
+
+    gamedata = _readTextFile(infile)
 
     with open(outfile, 'w', encoding='utf8') as f:
         headers = ["Platform", "Name", "Region", "Code", "Game", "Box", "Manual", "Year", "Comment"]
@@ -70,7 +74,7 @@ def createCSV(gamedata, outfile):
             writer.writerow(row)
 
 
-def main():
+def main(self):
     if len(argv) <= 2:
         print("{}: Converts a vgdb.io plain text game list into csv format\n".format(Path(argv[0]).name))
         print("Usage: {} <input file (.txt)> <output file (.csv/.tsv)>".format(Path(argv[0]).name))
@@ -82,8 +86,4 @@ def main():
         print("Invalid output file suffix. Only '.csv' and '.csv' allowed.")
         exit(1)
 
-    createCSV(readTextFile(infile), outfile)
-
-
-if __name__ == "__main__":
-    main()
+    self.createCSV(self.readTextFile(infile), outfile)

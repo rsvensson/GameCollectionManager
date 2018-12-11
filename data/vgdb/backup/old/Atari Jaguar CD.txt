@@ -1,0 +1,14 @@
+|       | Baldies                              | Atari Corporation       | Atari Jaguar CD | 1995 | North America
+|       | Battlemorph                          | Atari Corporation       | Atari Jaguar CD | 1995 | North America
+|       | Blue Lightning                       | Atari Corporation       | Atari Jaguar CD | 1995 | North America
+|       | Brain Dead 13                        | ReadySoft               | Atari Jaguar CD | 1996 | North America
+|       | Dragon's Lair                        | ReadySoft               | Atari Jaguar CD | 1995 | North America
+|       | Highlander: The Last of the MacLeods | Atari Corporation       | Atari Jaguar CD | 1995 | North America
+|       | Hover Strike: Unconquered Lands      | Atari Corporation       | Atari Jaguar CD | 1995 | North America
+|       | Iron Soldier 2                       | Telegames               | Atari Jaguar CD | 1997 | North America
+|       | Myst                                 | Atari Corporation       | Atari Jaguar CD | 1995 | North America
+|       | Primal Rage                          | Time Warner Interactive | Atari Jaguar CD | 1995 | North America
+|       | Space Ace                            | ReadySoft               | Atari Jaguar CD | 1996 | North America
+|       | Vid Grid                             | Atari Corporation       | Atari Jaguar CD | 1995 | North America
+|       | Virtual Light Machine                | Atari Corporation       | Atari Jaguar CD | 1995 | North America
+|       | World Tour Racing                    | Telegames               | Atari Jaguar CD | 1997 | North America

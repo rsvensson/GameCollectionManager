@@ -1,5 +1,3 @@
-| Owned | Title                                                                                                    | Publisher                              | System           | Year | Region
-|-------+----------------------------------------------------------------------------------------------------------+----------------------------------------+------------------+------+--------------
 |       | 007: Everything or Nothing                                                                               | EA Games                               | Game Boy Advance | 2003 | Europe
 |       | 007: NightFire                                                                                           | Electronic Arts                        | Game Boy Advance | 2003 | Europe
 |       | 2 Games In 1: Disney Princess + Disney's The Lion King                                                   | THQ                                    | Game Boy Advance | 2004 | Europe

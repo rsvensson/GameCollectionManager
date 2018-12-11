@@ -1,0 +1,86 @@
+|       | A.P.B.                                     | Atari                | Atari Lynx | 1991 | North America
+|       | Awesome Golf                               | Atari                | Atari Lynx | 1991 | North America
+|       | Baseball Heroes                            | Atari                | Atari Lynx | 1992 | North America
+|       | Basketbrawl                                | Atari                | Atari Lynx | 1992 | North America
+|       | Batman Returns                             | Atari                | Atari Lynx | 1992 | North America
+|       | Battlewheels                               | Atari                | Atari Lynx | 1992 | North America
+|       | Battlezone 2000                            | Atari                | Atari Lynx | 1994 | North America
+|       | Bill and Ted's Excellent Adventure         | Atari                | Atari Lynx | 1989 | North America
+|       | Blockout                                   | Atari                | Atari Lynx | 1991 | North America
+|       | Blue Lightning                             | Atari                | Atari Lynx | 1989 | North America
+|       | Bubble Trouble                             | Telegames, Inc.      | Atari Lynx | 1991 | North America
+|       | California Games                           | Atari                | Atari Lynx | 1989 | North America
+|       | Championship Rally                         | Songbird Productions | Atari Lynx | 2013 | North America
+|       | Checkered Flag                             | Atari                | Atari Lynx | 1991 | North America
+|       | Chip's Challenge                           | Atari                | Atari Lynx | 1989 | North America
+|       | Crystal Mines II                           | Atari                | Atari Lynx | 1990 | North America
+|       | CyberVirus                                 | Songbird Productions | Atari Lynx | 2002 | North America
+|       | Desert Strike: Return to the Gulf          | Telegames, Inc.      | Atari Lynx | 1992 | North America
+|       | Dinolympics                                | Atari                | Atari Lynx | 1992 | North America
+|       | Dirty Larry: Renegade Cop                  | Atari                | Atari Lynx | 1992 | North America
+|       | Double Dragon                              | Telegames, Inc.      | Atari Lynx | 1993 | North America
+|       | Dracula: The Undead                        | Atari                | Atari Lynx | 1991 | North America
+|       | Electrocop                                 | Atari                | Atari Lynx | 1989 | North America
+|       | European Soccer Challenge                  | Telegames, Inc.      | Atari Lynx | 1993 | North America
+|       | Fat Bobby                                  | Telegames, Inc.      | Atari Lynx | 1997 | North America
+|       | Fidelity Ultimate Chess Challenge          | Telegames, Inc.      | Atari Lynx | 1992 | North America
+|       | Gates of Zendocon                          | Atari                | Atari Lynx | 1993 | North America
+|       | Gauntlet: The Third Encounter              | Atari                | Atari Lynx | 1990 | North America
+|       | Gordo 106                                  | Atari                | Atari Lynx | 1991 | North America
+|       | Hard Drivin'                               | Atari Games (Midway) | Atari Lynx | 1991 | North America
+|       | Hockey                                     | Atari                | Atari Lynx | 1992 | North America
+|       | Hydra                                      | Tengen               | Atari Lynx | 1992 | North America
+|       | Hyperdrome                                 | Telegames, Inc.      | Atari Lynx | 1999 | North America
+|       | Ishido: The Way of Stones                  | Atari                | Atari Lynx | 1991 | North America
+|       | Jimmy Connors' Tennis                      | Atari                | Atari Lynx | 1993 | North America
+|       | Joust                                      | Shadowsoft, Inc.     | Atari Lynx | 1992 | North America
+|       | Klax                                       | Atari                | Atari Lynx | 1990 | North America
+|       | Krazy Ace Miniature Golf                   | Telegames, Inc.      | Atari Lynx | 1993 | North America
+|       | Kung Food                                  | Atari                | Atari Lynx | 1992 | North America
+|       | Lemmings                                   | Atari                | Atari Lynx | 1993 | North America
+|       | Lexis                                      | Songbird Productions | Atari Lynx | 1999 | North America
+|       | Lynx Casino                                | Atari                | Atari Lynx | 1992 | North America
+|       | Malibu Bikini Volleyball                   | Atari                | Atari Lynx | 1990 | North America
+|       | Ms. Pac-Man                                | Atari                | Atari Lynx | 1990 | North America
+|       | NFL Football                               | Atari                | Atari Lynx | 1992 | North America
+|       | Ninja Gaiden                               | Atari                | Atari Lynx | 1991 | North America
+|       | Ninja Gaiden III: The Ancient Ship of Doom | Tecmo                | Atari Lynx | 1991 | North America
+|       | Pac-Land                                   | Atari                | Atari Lynx | 1991 | North America
+|       | Paperboy                                   | Atari                | Atari Lynx | 1990 | North America
+|       | Pinball Jam                                | Atari                | Atari Lynx | 1992 | North America
+|       | Pit-Fighter                                | Atari                | Atari Lynx | 1992 | North America
+|       | Ponx                                       | Songbird Productions | Atari Lynx | 1999 | North America
+|       | Power Factor                               | Atari                | Atari Lynx | 1992 | North America
+|       | Qix                                        | Telegames, Inc.      | Atari Lynx | 1992 | North America
+|       | Raiden                                     | Telegames, Inc.      | Atari Lynx | 1997 | North America
+|       | Rampage                                    | Atari                | Atari Lynx | 1992 | North America
+|       | Rampart                                    | Atari                | Atari Lynx | 1991 | North America
+|       | Remnant                                    | Songbird Productions | Atari Lynx | 2013 | North America
+|       | RoadBlasters                               | Atari                | Atari Lynx | 1990 | North America
+|       | Robo-Squash                                | Atari                | Atari Lynx | 1990 | North America
+|       | Robotron: 2084                             | Shadowsoft, Inc.     | Atari Lynx | 1991 | North America
+|       | Rygar                                      | Atari                | Atari Lynx | 1990 | North America
+|       | S.I.M.I.S.                                 | Bastian Schick       | Atari Lynx | 1998 | North America
+|       | S.T.U.N. Runner                            | Atari                | Atari Lynx | 1991 | North America
+|       | Scrapyard Dog                              | Atari                | Atari Lynx | 1991 | North America
+|       | Shadow of the Beast                        | Atari                | Atari Lynx | 1992 | North America
+|       | Shanghai                                   | Atari                | Atari Lynx | 1990 | North America
+|       | Steel Talons                               | Atari                | Atari Lynx | 1992 | North America
+|       | Super Asteroids & Missile Command          | Atari                | Atari Lynx | 1994 | North America
+|       | Super Off Road                             | Telegames, Inc.      | Atari Lynx | 1991 | North America
+|       | Super Skweek                               | Atari                | Atari Lynx | 1991 | North America
+|       | Switchblade II                             | Atari                | Atari Lynx | 1992 | North America
+|       | Todd's Adventures in Slime World           | Atari                | Atari Lynx | 1992 | North America
+|       | Toki                                       | Atari                | Atari Lynx | 1992 | North America
+|       | Tournament Cyberball 2072                  | Atari                | Atari Lynx | 1989 | North America
+|       | Turbo Sub                                  | Atari                | Atari Lynx | 1991 | North America
+|       | Viking Child                               | Atari                | Atari Lynx | 1991 | North America
+|       | Warbirds                                   | Atari                | Atari Lynx | 1991 | North America
+|       | World Class Soccer                         | Atari                | Atari Lynx | 1992 | North America
+|       | Xenophobe                                  | Atari                | Atari Lynx | 1992 | North America
+|       | Xybots                                     | Atari                | Atari Lynx | 1991 | North America
+|       | Zaku                                       | Super Fighter Team   | Atari Lynx | 2009 | North America
+|       | Zarlor Mercenary                           | Atari                | Atari Lynx | 1990 | North America
+|       | A.P.B.       | Atari Corporation | Atari Lynx | 1991 | Europe
+|       | Awesome Golf | Atari Corporation | Atari Lynx | 1991 | Europe
+|       | T-Tris       | Bastian Schick    | Atari Lynx | 1996 | Europe

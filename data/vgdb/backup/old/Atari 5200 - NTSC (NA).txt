@@ -1,0 +1,72 @@
+|       | Adventure II                              | AtariAge              | Atari 5200 | 2007 | North America
+|       | Astro Chase                               | Parker Bros           | Atari 5200 | 1983 | North America
+|       | Ballblazer                                | Atari                 | Atari 5200 | 1986 | North America
+|       | Beamrider                                 | Activision            | Atari 5200 | 1984 | North America
+|       | Berzerk                                   | Atari                 | Atari 5200 | 1983 | North America
+|       | Blue Print                                | CBS Electronics       | Atari 5200 | 1983 | North America
+|       | Bounty Bob Strikes Back!                  | Big Five Software     | Atari 5200 | 1984 | North America
+|       | Buck Rogers: Planet of Zoom               | CBS Electronics       | Atari 5200 | 1983 | North America
+|       | Centipede                                 | Atari                 | Atari 5200 | 1982 | North America
+|       | Choplifter!                               | Atari                 | Atari 5200 | 1984 | North America
+|       | Congo Bongo                               | Sega                  | Atari 5200 | 1984 | North America
+|       | Countermeasure                            | Atari                 | Atari 5200 | 1984 | North America
+|       | Decathlon                                 | Activision            | Atari 5200 | 1984 | North America
+|       | Defender                                  | Atari                 | Atari 5200 | 1983 | North America
+|       | Diagnostic Cartridge                      | Atari, Inc.           | Atari 5200 | 1982 | North America
+|       | Dig Dug                                   | Atari                 | Atari 5200 | 1983 | North America
+|       | Dreadnought Factor, The                   | Atari                 | Atari 5200 | 1983 | North America
+|       | Frogger                                   | Parker Bros           | Atari 5200 | 1983 | North America
+|       | Frogger II: Threeedeep!                   | Parker Bros           | Atari 5200 | 1984 | North America
+|       | Galaxian                                  | Atari                 | Atari 5200 | 1982 | North America
+|       | Gorf                                      | CBS Electronics       | Atari 5200 | 1983 | North America
+|       | Gremlins                                  | Atari                 | Atari 5200 | 1987 | North America
+|       | Gyruss                                    | Parker Bros           | Atari 5200 | 1984 | North America
+|       | H.E.R.O.                                  | Activision            | Atari 5200 | 1984 | North America
+|       | James Bond 007                            | Parker Bros           | Atari 5200 | 1984 | North America
+|       | Joust                                     | Atari                 | Atari 5200 | 1983 | North America
+|       | Jungle Hunt                               | Atari                 | Atari 5200 | 1983 | North America
+|       | K-Razy Shoot-out                          | CBS Electronics       | Atari 5200 | 1983 | North America
+|       | Kaboom!                                   | Activision            | Atari 5200 | 1983 | North America
+|       | Kangaroo                                  | Atari                 | Atari 5200 | 1983 | North America
+|       | Keystone Kapers                           | Activision            | Atari 5200 | 1984 | North America
+|       | Mario Bros.                               | Atari                 | Atari 5200 | 1983 | North America
+|       | Megamania                                 | Activision            | Atari 5200 | 1983 | North America
+|       | Meteorites                                | Electra               | Atari 5200 | 1984 | North America
+|       | Miner 2049er                              | Big Five Software     | Atari 5200 | 1983 | North America
+|       | Missile Command                           | Atari                 | Atari 5200 | 1982 | North America
+|       | Montezuma's Revenge: Featuring Panama Joe | Parker Bros           | Atari 5200 | 1983 | North America
+|       | Moon Patrol                               | Atari                 | Atari 5200 | 1983 | North America
+|       | Mountain King                             | CBS Electronics       | Atari 5200 | 1984 | North America
+|       | Mr. Do!'s Castle                          | Parker Bros           | Atari 5200 | 1984 | North America
+|       | Ms. Pac-Man                               | Atari                 | Atari 5200 | 1983 | North America
+|       | Pac-Man                                   | Atari                 | Atari 5200 | 1982 | North America
+|       | Pengo                                     | Atari                 | Atari 5200 | 1983 | North America
+|       | Pitfall II: Lost Caverns                  | Activision            | Atari 5200 | 1984 | North America
+|       | Pitfall!                                  | Activision            | Atari 5200 | 1983 | North America
+|       | Pole Position                             | Atari                 | Atari 5200 | 1983 | North America
+|       | Popeye                                    | Parker Bros           | Atari 5200 | 1983 | North America
+|       | Q*bert                                    | Parker Bros           | Atari 5200 | 1983 | North America
+|       | Qix                                       | Atari                 | Atari 5200 | 1982 | North America
+|       | Quest for Quintana Roo                    | Sunrise Software Inc. | Atari 5200 | 1984 | North America
+|       | RealSports Baseball                       | Atari                 | Atari 5200 | 1983 | North America
+|       | RealSports Football                       | Midway                | Atari 5200 | 1983 | North America
+|       | RealSports Soccer                         | Midway                | Atari 5200 | 1983 | North America
+|       | RealSports Tennis                         | Atari                 | Atari 5200 | 1983 | North America
+|       | Rescue on Fractalus                       | Atari                 | Atari 5200 | 1986 | North America
+|       | River Raid                                | Activision            | Atari 5200 | 1983 | North America
+|       | Robotron: 2084                            | Atari                 | Atari 5200 | 1983 | North America
+|       | Space Dungeon                             | Atari                 | Atari 5200 | 1983 | North America
+|       | Space Invaders                            | Atari                 | Atari 5200 | 1982 | North America
+|       | Space Shuttle                             | Activision            | Atari 5200 | 1984 | North America
+|       | Space Shuttle: A Journey Into Space       | Activision            | Atari 5200 | 1984 | North America
+|       | Star Raiders                              | Atari                 | Atari 5200 | 1982 | North America
+|       | Star Trek: Strategic Operations Simulator | Sega                  | Atari 5200 | 1983 | North America
+|       | Star Wars: Death Star Battle              | Parker Bros           | Atari 5200 | 1983 | North America
+|       | Star Wars: The Arcade Game                | Parker Bros           | Atari 5200 | 1983 | North America
+|       | Super Breakout                            | Atari                 | Atari 5200 | 1982 | North America
+|       | Super Cobra                               | Parker Bros           | Atari 5200 | 1983 | North America
+|       | Vanguard                                  | Atari                 | Atari 5200 | 1984 | North America
+|       | Wizard of Wor                             | CBS Electronics       | Atari 5200 | 1981 | North America
+|       | Zaxxon                                    | Sega                  | Atari 5200 | 1983 | North America
+|       | Zenji                                     | Activision            | Atari 5200 | 1984 | North America
+|       | Zone Ranger                               | Activision            | Atari 5200 | 1984 | North America

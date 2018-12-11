@@ -1,0 +1,56 @@
+|       | 3D Crazy Coaster              | GCE            | Vectrex | 1983 | North America
+|       | 3D Mine Storm                 | GCE            | Vectrex | 1983 | North America
+|       | 3D Narrow Escape              | GCE            | Vectrex | 1983 | North America
+|       | AnimAction                    | GCE            | Vectrex | 1983 | North America
+|       | Armor..Attack                 | GCE            | Vectrex | 1982 | North America
+|       | Art Master                    | GCE            | Vectrex | 1983 | North America
+|       | Bedlam                        | GCE            | Vectrex | 1982 | North America
+|       | Berzerk                       | GCE            | Vectrex | 1982 | North America
+|       | Blitz!                        | GCE            | Vectrex | 1982 | North America
+|       | Clean Sweep                   | GCE            | Vectrex | 1982 | North America
+|       | Cosmic Chasm                  | GCE            | Vectrex | 1982 | North America
+|       | Fortress of Narzod            | GCE            | Vectrex | 1982 | North America
+|       | Heads-Up                      | GCE            | Vectrex | 1983 | North America
+|       | Hyperchase                    | GCE            | Vectrex | 1982 | North America
+|       | Melody Master                 | GCE            | Vectrex | 1983 | North America
+|       | MineStorm                     | GCE            | Vectrex | 1982 | North America
+|       | Pitchers Duel                 | CGE Services   | Vectrex | 2007 | North America
+|       | Polar Rescue                  | GCE            | Vectrex | 1983 | North America
+|       | Pole Position                 | GCE            | Vectrex | 1983 | North America
+|       | Rip Off                       | GCE            | Vectrex | 1982 | North America
+|       | Scramble                      | GCE            | Vectrex | 1982 | North America
+|       | Solar Quest                   | GCE            | Vectrex | 1982 | North America
+|       | Space Wars                    | GCE            | Vectrex | 1982 | North America
+|       | Spike                         | GCE            | Vectrex | 1982 | North America
+|       | Spinball                      | Milton Bradley | Vectrex | 1983 | North America
+|       | Star Castle                   | GCE            | Vectrex | 1983 | North America
+|       | Star Trek: The Motion Picture | GCE            | Vectrex | 1982 | North America
+|       | Starhawk                      | GCE            | Vectrex | 1982 | North America
+|       | Web Wars                      | GCE            | Vectrex | 1982 | North America
+|       | Armor..Attack      | Milton Bradley | Vectrex | 1983 | Europe
+|       | Bedlam             | Milton Bradley | Vectrex | 1983 | Europe
+|       | Berzerk            | Milton Bradley | Vectrex | 1983 | Europe
+|       | Blitz!             | Milton Bradley | Vectrex | 1983 | Europe
+|       | Clean Sweep        | Milton Bradley | Vectrex | 1983 | Europe
+|       | Cosmic Chasm       | Milton Bradley | Vectrex | 1983 | Europe
+|       | Flipper Pinball    | Milton Bradley | Vectrex | 1983 | Europe
+|       | Fortress of Narzod | Milton Bradley | Vectrex | 1983 | Europe
+|       | Hyperchase         | Milton Bradley | Vectrex | 1983 | Europe
+|       | MineStorm          | Milton Bradley | Vectrex | 1983 | Europe
+|       | Rip Off            | Milton Bradley | Vectrex | 1983 | Europe
+|       | Scramble           | Milton Bradley | Vectrex | 1983 | Europe
+|       | Soccer Football    | Milton Bradley | Vectrex | 1983 | Europe
+|       | Solar Quest        | Milton Bradley | Vectrex | 1983 | Europe
+|       | Space Wars         | Milton Bradley | Vectrex | 1983 | Europe
+|       | Spike              | Milton Bradley | Vectrex | 1983 | Europe
+|       | Star Ship          | Milton Bradley | Vectrex | 1983 | Europe
+|       | Starhawk           | Milton Bradley | Vectrex | 1983 | Europe
+|       | Web Warp           | Milton Bradley | Vectrex | 1983 | Europe
+|       | Armor..Attack | Bandai    | Vectrex | 1982 | Japan
+|       | Berzerk       | Bandai    | Vectrex | 1982 | Japan
+|       | Cosmic Chasm  | Bandai    | Vectrex | 1982 | Japan
+|       | Harmagedon    | Bandai    | Vectrex | 1982 | Japan
+|       | Rip Off       | Bandai    | Vectrex | 1982 | Japan
+|       | Scramble Wars | Bandai    | Vectrex | 1982 | Japan
+|       | Solar Quest   | Bandai    | Vectrex | 1982 | Japan
+|       | Space Wars    | Bandai    | Vectrex | 1982 | Japan

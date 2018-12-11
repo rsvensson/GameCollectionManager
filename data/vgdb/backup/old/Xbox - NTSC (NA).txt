@@ -1,0 +1,891 @@
+|       | 007: Everything or Nothing                                                | EA Games                               | Xbox   | 2004 | North America
+|       | 007: NightFire                                                            | Electronic Arts                        | Xbox   | 2002 | North America
+|       | 187 Ride or Die                                                           | Ubisoft                                | Xbox   | 2005 | North America
+|       | 2 Games In 1: Shrek 2 / Shark Tale                                        | Activision                             | Xbox   | 2005 | North America
+|       | 2 in 1 Combo Pack: Sonic Heroes / Super Monkey Ball Deluxe                | Sega                                   | Xbox   | 2013 | North America
+|       | 2 in 1 Combo Pack: Sonic Mega Collection Plus / Super Monkey Ball Deluxe  | Sega                                   | Xbox   | 2013 | North America
+|       | 2002 FIFA World Cup                                                       | EA Sports                              | Xbox   | 2002 | North America
+|       | 25 to Life                                                                | Eidos Interactive                      | Xbox   | 2006 | North America
+|       | 4x4 EVO 2                                                                 | Gathering                              | Xbox   | 2001 | North America
+|       | 50 Cent: Bulletproof                                                      | VU Games                               | Xbox   | 2005 | North America
+|       | Advent Rising                                                             | Majesco Games                          | Xbox   | 2005 | North America
+|       | Aeon Flux                                                                 | Majesco Games                          | Xbox   | 2005 | North America
+|       | Aggressive Inline                                                         | Acclaim                                | Xbox   | 2002 | North America
+|       | AirForce Delta Storm                                                      | Konami                                 | Xbox   | 2001 | North America
+|       | Alias                                                                     | Acclaim                                | Xbox   | 2004 | North America
+|       | Aliens Versus Predator: Extinction                                        | EA Games                               | Xbox   | 2003 | North America
+|       | All-Star Baseball 2003                                                    | Acclaim                                | Xbox   | 2002 | North America
+|       | All-Star Baseball 2004                                                    | Acclaim                                | Xbox   | 2003 | North America
+|       | All-Star Baseball 2005                                                    | Acclaim                                | Xbox   | 2004 | North America
+|       | Alter Echo                                                                | THQ                                    | Xbox   | 2003 | North America
+|       | America's Army: Rise of a Soldier                                         | Ubisoft                                | Xbox   | 2005 | North America
+|       | American Chopper                                                          | Activision Value                       | Xbox   | 2004 | North America
+|       | American Chopper 2: Full Throttle                                         | Activision Value                       | Xbox   | 2005 | North America
+|       | AMF Bowling 2004                                                          | Mud Duck Productions                   | Xbox   | 2003 | North America
+|       | AMF Xtreme Bowling                                                        | Bethesda Softworks                     | Xbox   | 2006 | North America
+|       | Amped 2                                                                   | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Amped: Freestyle Snowboarding                                             | Microsoft Game Studios                 | Xbox   | 2001 | North America
+|       | And 1 Streetball                                                          | Ubisoft                                | Xbox   | 2006 | North America
+|       | Antz Extreme Racing                                                       | Empire Interactive                     | Xbox   | 2002 | North America
+|       | Apex                                                                      | Atari                                  | Xbox   | 2003 | North America
+|       | Aquaman: Battle for Atlantis                                              | TDK Mediactive                         | Xbox   | 2003 | North America
+|       | Arctic Thunder                                                            | Midway                                 | Xbox   | 2001 | North America
+|       | Area 51                                                                   | Midway                                 | Xbox   | 2005 | North America
+|       | Arena Football                                                            | EA Sports                              | Xbox   | 2006 | North America
+|       | Armed and Dangerous                                                       | LucasArts                              | Xbox   | 2003 | North America
+|       | Army Men: Major Malfunction                                               | Global Star Software                   | Xbox   | 2006 | North America
+|       | Army Men: Sarge's War                                                     | Global Star Software                   | Xbox   | 2004 | North America
+|       | Arx Fatalis                                                               | DreamCatcher Interactive               | Xbox   | 2003 | North America
+|       | Atari Anthology                                                           | Atari                                  | Xbox   | 2004 | North America
+|       | ATV Quad Power Racing 2                                                   | Acclaim                                | Xbox   | 2003 | North America
+|       | Auto Modellista                                                           | Capcom                                 | Xbox   | 2004 | North America
+|       | Avatar: The Last Airbender                                                | THQ                                    | Xbox   | 2006 | North America
+|       | Azurik: Rise of Perathia                                                  | Microsoft Game Studios                 | Xbox   | 2001 | North America
+|       | Backyard Wrestling 2: There Goes the Neighborhood                         | Eidos Interactive                      | Xbox   | 2004 | North America
+|       | Backyard Wrestling: Don't Try This at Home                                | Eidos Interactive                      | Xbox   | 2003 | North America
+|       | Bad Boys: Miami Takedown                                                  | Crave                                  | Xbox   | 2004 | North America
+|       | Baldur's Gate: Dark Alliance                                              | Interplay                              | Xbox   | 2002 | North America
+|       | Baldur's Gate: Dark Alliance II                                           | Interplay                              | Xbox   | 2004 | North America
+|       | Barbie Horse Adventures: Wild Horse Rescue                                | Universal Interactive                  | Xbox   | 2003 | North America
+|       | Bard's Tale, The                                                          | InXile Entertainment                   | Xbox   | 2004 | North America
+|       | Bass Pro Shops: Trophy Bass 2007                                          | Vivendi Games                          | Xbox   | 2006 | North America
+|       | Bass Pro Shops: Trophy Hunter 2007                                        | Vivendi Games                          | Xbox   | 2006 | North America
+|       | Batman Begins                                                             | EA Games                               | Xbox   | 2005 | North America
+|       | Batman: Dark Tomorrow                                                     | Kemco                                  | Xbox   | 2003 | North America
+|       | Batman: Rise of Sin Tzu                                                   | Ubisoft                                | Xbox   | 2003 | North America
+|       | Batman: Vengeance                                                         | Ubisoft                                | Xbox   | 2001 | North America
+|       | Battle Engine Aquila                                                      | Atari                                  | Xbox   | 2003 | North America
+|       | Battlefield 2: Modern Combat                                              | EA Games                               | Xbox   | 2005 | North America
+|       | Battlestar Galactica                                                      | VU Games                               | Xbox   | 2003 | North America
+|       | Beat Down: Fists of Vengeance                                             | Capcom                                 | Xbox   | 2005 | North America
+|       | Beyond Good & Evil                                                        | Ubisoft                                | Xbox   | 2003 | North America
+|       | Bible Game, The                                                           | Crave                                  | Xbox   | 2005 | North America
+|       | Bicycle Casino                                                            | Activision Value                       | Xbox   | 2004 | North America
+|       | Big Bumpin'                                                               | King Games                             | Xbox   | 2006 | North America
+|       | Big Mutha Truckers                                                        | Empire Interactive                     | Xbox   | 2003 | North America
+|       | Big Mutha Truckers 2                                                      | THQ                                    | Xbox   | 2005 | North America
+|       | Bionicle                                                                  | EA Games                               | Xbox   | 2003 | North America
+|       | Black                                                                     | EA Games                               | Xbox   | 2006 | North America
+|       | Black Stone: Magic & Steel                                                | Xicat Interactive                      | Xbox   | 2003 | North America
+|       | Blade II                                                                  | Activision                             | Xbox   | 2002 | North America
+|       | Blazing Angels: Squadrons of WWII                                         | Ubisoft                                | Xbox   | 2006 | North America
+|       | Blinx 2: Masters of Time & Space                                          | Microsoft Game Studios                 | Xbox   | 2004 | North America
+|       | Blinx: The Time Sweeper                                                   | Microsoft Game Studios                 | Xbox   | 2002 | North America
+|       | Blitz: The League                                                         | Midway                                 | Xbox   | 2005 | North America
+|       | Blood Omen 2                                                              | Eidos Interactive                      | Xbox   | 2002 | North America
+|       | Blood Wake                                                                | Microsoft Game Studios                 | Xbox   | 2001 | North America
+|       | BloodRayne                                                                | Majesco Games                          | Xbox   | 2002 | North America
+|       | BloodRayne 2                                                              | Majesco Games                          | Xbox   | 2004 | North America
+|       | Bloody Roar Extreme                                                       | Konami                                 | Xbox   | 2003 | North America
+|       | BlowOut                                                                   | Majesco Games                          | Xbox   | 2003 | North America
+|       | BMX XXX                                                                   | Acclaim                                | Xbox   | 2002 | North America
+|       | Breakdown                                                                 | Namco                                  | Xbox   | 2004 | North America
+|       | Breeders' Cup World Thoroughbred Championships                            | Bethesda Softworks                     | Xbox   | 2005 | North America
+|       | Broken Sword: The Sleeping Dragon                                         | The Adventure Company                  | Xbox   | 2003 | North America
+|       | Brothers in Arms: Earned in Blood                                         | Ubisoft                                | Xbox   | 2005 | North America
+|       | Brothers in Arms: Road to Hill 30                                         | Ubisoft                                | Xbox   | 2005 | North America
+|       | Bruce Lee: Quest of the Dragon                                            | Universal Interactive                  | Xbox   | 2002 | North America
+|       | Brute Force                                                               | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Buffy the Vampire Slayer                                                  | Electronic Arts                        | Xbox   | 2002 | North America
+|       | Buffy the Vampire Slayer: Chaos Bleeds                                    | Sierra Entertainment                   | Xbox   | 2003 | North America
+|       | Burnout                                                                   | Acclaim                                | Xbox   | 2002 | North America
+|       | Burnout 2: Point of Impact                                                | Acclaim                                | Xbox   | 2003 | North America
+|       | Burnout 3: Takedown                                                       | EA Games                               | Xbox   | 2004 | North America
+|       | Burnout Revenge                                                           | Electronic Arts                        | Xbox   | 2005 | North America
+|       | Cabela's Big Game Hunter 2005 Adventures                                  | Activision Value                       | Xbox   | 2004 | North America
+|       | Cabela's Dangerous Hunts                                                  | Activision                             | Xbox   | 2003 | North America
+|       | Cabela's Dangerous Hunts 2                                                | Activision                             | Xbox   | 2005 | North America
+|       | Cabela's Deer Hunt 2005 Season                                            | Activision                             | Xbox   | 2004 | North America
+|       | Cabela's Deer Hunt: 2004 Season                                           | Activision                             | Xbox   | 2003 | North America
+|       | Cabela's Outdoor Adventures                                               | Activision                             | Xbox   | 2005 | North America
+|       | Call of Cthulhu: Dark Corners of the Earth                                | 2K Games                               | Xbox   | 2005 | North America
+|       | Call of Duty 2: Big Red One                                               | Activision                             | Xbox   | 2005 | North America
+|       | Call of Duty 3                                                            | Activision                             | Xbox   | 2006 | North America
+|       | Call of Duty: Finest Hour                                                 | Activision                             | Xbox   | 2004 | North America
+|       | Capcom Classics Collection                                                | Capcom                                 | Xbox   | 2005 | North America
+|       | Capcom Classics Collection Vol. 2                                         | Capcom                                 | Xbox   | 2006 | North America
+|       | Capcom Fighting Evolution                                                 | Capcom                                 | Xbox   | 2005 | North America
+|       | Capcom vs. SNK 2 EO                                                       | Capcom                                 | Xbox   | 2003 | North America
+|       | Carmen Sandiego: The Secret of the Stolen Drums                           | Bam Entertainment                      | Xbox   | 2004 | North America
+|       | Cars                                                                      | THQ                                    | Xbox   | 2006 | North America
+|       | Carve                                                                     | Global Star Software                   | Xbox   | 2004 | North America
+|       | Castlevania: Curse of Darkness                                            | Konami                                 | Xbox   | 2005 | North America
+|       | Catwoman                                                                  | EA Games                               | Xbox   | 2004 | North America
+|       | Cel Damage                                                                | Electronic Arts                        | Xbox   | 2001 | North America
+|       | Championship Bowling                                                      | Evolved Games                          | Xbox   | 2006 | North America
+|       | Charlie and the Chocolate Factory                                         | Global Star Software                   | Xbox   | 2005 | North America
+|       | Chase: Hollywood Stunt Driver                                             | Bam Entertainment                      | Xbox   | 2002 | North America
+|       | Chessmaster                                                               | Ubisoft                                | Xbox   | 2004 | North America
+|       | Chicago Enforcer                                                          | Kemco                                  | Xbox   | 2005 | North America
+|       | Chicken Little                                                            | Buena Vista Games                      | Xbox   | 2005 | North America
+|       | Chronicles of Narnia: The Lion, The Witch and The Wardrobe, The           | Buena Vista Games                      | Xbox   | 2005 | North America
+|       | Chronicles of Riddick: Escape From Butcher Bay, The                       | VU Games                               | Xbox   | 2004 | North America
+|       | Circus Maximus: Chariot Wars                                              | Encore Software, Inc.                  | Xbox   | 2002 | North America
+|       | Classified: The Sentinel Crisis                                           | Global Star Software                   | Xbox   | 2006 | North America
+|       | Close Combat: First to Fight                                              | 2K Games                               | Xbox   | 2005 | North America
+|       | Codename: Kids Next Door: Operation V.I.D.E.O.G.A.M.E.                    | Global Star Software                   | Xbox   | 2005 | North America
+|       | Cold Fear                                                                 | Ubisoft                                | Xbox   | 2005 | North America
+|       | Cold War                                                                  | DreamCatcher Interactive               | Xbox   | 2005 | North America
+|       | Colin McRae Rally 04                                                      | Codemasters                            | Xbox   | 2004 | North America
+|       | Colin McRae Rally 2005                                                    | Codemasters                            | Xbox   | 2004 | North America
+|       | Colin McRae Rally 3                                                       | Codemasters                            | Xbox   | 2003 | North America
+|       | College Hoops 2K6                                                         | 2K Sports                              | Xbox   | 2005 | North America
+|       | College Hoops 2K7                                                         | 2K Sports                              | Xbox   | 2006 | North America
+|       | Combat Elite: WWII Paratroopers                                           | SouthPeak Games                        | Xbox   | 2005 | North America
+|       | Combat: Task Force 121                                                    | Groove Games                           | Xbox   | 2005 | North America
+|       | Commandos 2: Men of Courage                                               | Eidos Interactive                      | Xbox   | 2002 | North America
+|       | Commandos Strike Force                                                    | Eidos Interactive                      | Xbox   | 2006 | North America
+|       | Conflict: Desert Storm                                                    | Gotham Games                           | Xbox   | 2002 | North America
+|       | Conflict: Desert Storm II - Back to Baghdad                               | Gotham Games                           | Xbox   | 2003 | North America
+|       | Conflict: Global Terror                                                   | 2K Games                               | Xbox   | 2005 | North America
+|       | Conflict: Vietnam                                                         | Global Star Software                   | Xbox   | 2004 | North America
+|       | Conker: Live & Reloaded                                                   | Microsoft Game Studios                 | Xbox   | 2005 | North America
+|       | Constantine                                                               | THQ                                    | Xbox   | 2005 | North America
+|       | Corvette                                                                  | TDK Mediactive                         | Xbox   | 2003 | North America
+|       | Counter-Strike                                                            | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Crash 'N' Burn                                                            | Eidos Interactive                      | Xbox   | 2004 | North America
+|       | Crash Bandicoot: The Wrath of Cortex                                      | VU Games                               | Xbox   | 2002 | North America
+|       | Crash Nitro Kart                                                          | Universal Interactive                  | Xbox   | 2003 | North America
+|       | Crash Superpack - Crash Nitro Kart / Crash Bandicoot: The Wrath of Cortex | VU Games                               | Xbox   | 2013 | North America
+|       | Crash Tag Team Racing                                                     | VU Games                               | Xbox   | 2005 | North America
+|       | Crash Twinsanity                                                          | VU Games                               | Xbox   | 2004 | North America
+|       | Crazy Taxi 3: High Roller                                                 | Sega                                   | Xbox   | 2002 | North America
+|       | Crime Life: Gang Wars                                                     | Konami                                 | Xbox   | 2005 | North America
+|       | Crimson Sea                                                               | Koei                                   | Xbox   | 2002 | North America
+|       | Crimson Skies: High Road to Revenge                                       | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Crouching Tiger, Hidden Dragon                                            | Ubisoft                                | Xbox   | 2003 | North America
+|       | Crusty Demons                                                             | Evolved Games                          | Xbox   | 2006 | North America
+|       | CSI: Crime Scene Investigation                                            | Ubisoft                                | Xbox   | 2004 | North America
+|       | Curious George                                                            | Namco                                  | Xbox   | 2006 | North America
+|       | Curse: The Eye of Isis                                                    | DreamCatcher Interactive               | Xbox   | 2003 | North America
+|       | Da Vinci Code, The                                                        | 2K Games                               | Xbox   | 2006 | North America
+|       | Dai Senryaku VII: Modern Military Tactics                                 | Kemco                                  | Xbox   | 2005 | North America
+|       | Dakar 2: The World's Ultimate Rally                                       | Acclaim                                | Xbox   | 2003 | North America
+|       | Dance Dance Revolution Ultramix                                           | Konami                                 | Xbox   | 2003 | North America
+|       | Dance Dance Revolution Ultramix 2                                         | Konami                                 | Xbox   | 2004 | North America
+|       | Dance Dance Revolution Ultramix 3                                         | Konami                                 | Xbox   | 2005 | North America
+|       | Dance Dance Revolution Ultramix 4                                         | Konami                                 | Xbox   | 2006 | North America
+|       | Dark Summit                                                               | Radical Entertainment                  | Xbox   | 2001 | North America
+|       | Darkwatch                                                                 | Capcom                                 | Xbox   | 2005 | North America
+|       | Dave Mirra Freestyle BMX 2                                                | Acclaim                                | Xbox   | 2001 | North America
+|       | Dead Man's Hand                                                           | Atari                                  | Xbox   | 2004 | North America
+|       | Dead or Alive 3                                                           | Tecmo                                  | Xbox   | 2001 | North America
+|       | Dead or Alive Ultimate                                                    | Tecmo                                  | Xbox   | 2004 | North America
+|       | Dead or Alive: Xtreme Beach Volleyball                                    | Tecmo                                  | Xbox   | 2003 | North America
+|       | Dead to Rights                                                            | Namco                                  | Xbox   | 2002 | North America
+|       | Dead to Rights II                                                         | Namco                                  | Xbox   | 2005 | North America
+|       | Deathrow                                                                  | Ubisoft                                | Xbox   | 2002 | North America
+|       | Def Jam: Fight for NY                                                     | EA Games                               | Xbox   | 2004 | North America
+|       | Defender                                                                  | Midway                                 | Xbox   | 2002 | North America
+|       | Delta Force: Black Hawk Down                                              | NovaLogic                              | Xbox   | 2005 | North America
+|       | Destroy All Humans!                                                       | THQ                                    | Xbox   | 2005 | North America
+|       | Destroy All Humans! 2                                                     | THQ                                    | Xbox   | 2006 | North America
+|       | Deus Ex: Invisible War                                                    | Eidos Interactive                      | Xbox   | 2003 | North America
+|       | Digimon Rumble Arena 2                                                    | Bandai                                 | Xbox   | 2004 | North America
+|       | Digimon World 4                                                           | Bandai                                 | Xbox   | 2005 | North America
+|       | Dino Crisis 3                                                             | Capcom                                 | Xbox   | 2003 | North America
+|       | Dinotopia: The Sunstone Odyssey                                           | TDK Mediactive                         | Xbox   | 2003 | North America
+|       | Disney's Extreme Skate Adventure                                          | Activision                             | Xbox   | 2003 | North America
+|       | Doom 3                                                                    | Activision                             | Xbox   | 2005 | North America
+|       | Doom 3: Resurrection of Evil                                              | Activision                             | Xbox   | 2005 | North America
+|       | Dr. Muto                                                                  | Midway                                 | Xbox   | 2002 | North America
+|       | Dr. Seuss' The Cat in the Hat                                             | VU Games                               | Xbox   | 2003 | North America
+|       | Dragon Ball Z: Sagas                                                      | Atari                                  | Xbox   | 2005 | North America
+|       | Dragon's Lair 3D                                                          | Ubisoft                                | Xbox   | 2002 | North America
+|       | Drake of the 99 Dragons                                                   | Majesco Games                          | Xbox   | 2003 | North America
+|       | Dreamfall: The Longest Journey                                            | Aspyr                                  | Xbox   | 2006 | North America
+|       | DRIV3R                                                                    | Atari                                  | Xbox   | 2004 | North America
+|       | Driver: Parallel Lines                                                    | Atari                                  | Xbox   | 2006 | North America
+|       | Dukes of Hazzard: Return of the General Lee, The                          | Ubisoft                                | Xbox   | 2004 | North America
+|       | Dungeons & Dragons Heroes                                                 | Atari                                  | Xbox   | 2003 | North America
+|       | Dynasty Warriors 3                                                        | Koei                                   | Xbox   | 2002 | North America
+|       | Dynasty Warriors 4                                                        | Koei                                   | Xbox   | 2003 | North America
+|       | Dynasty Warriors 5                                                        | Koei                                   | Xbox   | 2005 | North America
+|       | Ed, Edd n Eddy: The Mis-Edventures                                        | Midway                                 | Xbox   | 2005 | North America
+|       | Egg Mania: Eggstreme Madness                                              | Kemco                                  | Xbox   | 2002 | North America
+|       | Elder Scrolls III: Morrowind - Game of the Year Edition, The              | Bethesda Softworks                     | Xbox   | 2003 | North America
+|       | Elder Scrolls III: Morrowind, The                                         | Bethesda Softworks                     | Xbox   | 2002 | North America
+|       | Enclave                                                                   | Conspiracy Entertainment               | Xbox   | 2002 | North America
+|       | Enter the Matrix                                                          | Atari                                  | Xbox   | 2003 | North America
+|       | Eragon                                                                    | Sierra Entertainment                   | Xbox   | 2006 | North America
+|       | ESPN College Hoops                                                        | Sega                                   | Xbox   | 2003 | North America
+|       | ESPN College Hoops 2K5                                                    | Sega                                   | Xbox   | 2004 | North America
+|       | ESPN International Winter Sports 2002                                     | Konami                                 | Xbox   | 2002 | North America
+|       | ESPN Major League Baseball                                                | Sega                                   | Xbox   | 2004 | North America
+|       | ESPN MLS ExtraTime 2002                                                   | Konami                                 | Xbox   | 2002 | North America
+|       | ESPN NBA 2K5                                                              | Sega                                   | Xbox   | 2004 | North America
+|       | ESPN NBA 2Night 2002                                                      | Konami                                 | Xbox   | 2002 | North America
+|       | ESPN NBA Basketball                                                       | Sega                                   | Xbox   | 2003 | North America
+|       | ESPN NFL 2K5                                                              | Sega                                   | Xbox   | 2004 | North America
+|       | ESPN NFL Football                                                         | Sega                                   | Xbox   | 2003 | North America
+|       | ESPN NFL PrimeTime 2002                                                   | Konami                                 | Xbox   | 2002 | North America
+|       | ESPN NHL 2K5                                                              | Sega                                   | Xbox   | 2004 | North America
+|       | ESPN NHL Hockey                                                           | Sega                                   | Xbox   | 2003 | North America
+|       | ESPN Winter X-Games Snowboarding 2002                                     | Konami                                 | Xbox   | 2002 | North America
+|       | Evil Dead: A Fistful of Boomstick                                         | THQ                                    | Xbox   | 2003 | North America
+|       | Evil Dead: Regeneration                                                   | THQ                                    | Xbox   | 2005 | North America
+|       | F1 2001                                                                   | Electronic Arts                        | Xbox   | 2001 | North America
+|       | Fable                                                                     | Microsoft Game Studios                 | Xbox   | 2004 | North America
+|       | Fairly OddParents! Breakin' Da Rules, The                                 | THQ                                    | Xbox   | 2003 | North America
+|       | Fallout: Brotherhood of Steel                                             | Interplay                              | Xbox   | 2004 | North America
+|       | Family Guy                                                                | 2K Games                               | Xbox   | 2006 | North America
+|       | Fantastic 4                                                               | Activision                             | Xbox   | 2005 | North America
+|       | Far Cry Instincts                                                         | Ubisoft                                | Xbox   | 2005 | North America
+|       | Far Cry Instincts Evolution                                               | Ubisoft                                | Xbox   | 2006 | North America
+|       | Fatal Frame                                                               | Tecmo                                  | Xbox   | 2002 | North America
+|       | Fatal Frame II: Crimson Butterfly Director's Cut                          | Tecmo                                  | Xbox   | 2004 | North America
+|       | FIFA 07 Soccer                                                            | EA Sports                              | Xbox   | 2006 | North America
+|       | FIFA Soccer 06                                                            | EA Sports                              | Xbox   | 2005 | North America
+|       | FIFA Soccer 2003                                                          | EA Sports                              | Xbox   | 2002 | North America
+|       | FIFA Soccer 2004                                                          | EA Sports                              | Xbox   | 2003 | North America
+|       | FIFA Soccer 2005                                                          | EA Sports                              | Xbox   | 2004 | North America
+|       | FIFA Street                                                               | EA Sports Big                          | Xbox   | 2005 | North America
+|       | FIFA Street 2                                                             | EA Sports Big                          | Xbox   | 2006 | North America
+|       | FIFA World Cup: Germany 2006                                              | Electronic Arts                        | Xbox   | 2006 | North America
+|       | Fight Club                                                                | VU Games                               | Xbox   | 2004 | North America
+|       | Fight Night 2004                                                          | EA Sports                              | Xbox   | 2004 | North America
+|       | Fight Night Round 2                                                       | EA Sports                              | Xbox   | 2005 | North America
+|       | Fight Night Round 3                                                       | EA Sports                              | Xbox   | 2006 | North America
+|       | Final Fight: Streetwise                                                   | Capcom                                 | Xbox   | 2006 | North America
+|       | Finding Nemo                                                              | THQ                                    | Xbox   | 2003 | North America
+|       | Fire Blade                                                                | Midway                                 | Xbox   | 2002 | North America
+|       | FlatOut                                                                   | Empire Interactive                     | Xbox   | 2005 | North America
+|       | FlatOut 2                                                                 | Vivendi Games                          | Xbox   | 2006 | North America
+|       | Ford Bold Moves Street Racing                                             | Eidos Interactive                      | Xbox   | 2006 | North America
+|       | Ford Mustang: The Legend Lives                                            | 2K Games                               | Xbox   | 2005 | North America
+|       | Ford Racing 2                                                             | Take-Two Interactive                   | Xbox   | 2003 | North America
+|       | Ford Racing 3                                                             | 2K Games                               | Xbox   | 2005 | North America
+|       | Ford vs. Chevy                                                            | Global Star Software                   | Xbox   | 2005 | North America
+|       | Forgotten Realms: Demon Stone                                             | Atari                                  | Xbox   | 2004 | North America
+|       | Forza Motorsport                                                          | Microsoft Game Studios                 | Xbox   | 2005 | North America
+|       | Freaky Flyers                                                             | Midway                                 | Xbox   | 2003 | North America
+|       | Freedom Fighters                                                          | EA Games                               | Xbox   | 2003 | North America
+|       | Freestyle Metal X                                                         | Midway                                 | Xbox   | 2003 | North America
+|       | Freestyle Street Soccer                                                   | Acclaim                                | Xbox   | 2004 | North America
+|       | Frogger Beyond                                                            | Konami                                 | Xbox   | 2002 | North America
+|       | Frogger: Ancient Shadow                                                   | Konami                                 | Xbox   | 2005 | North America
+|       | From Russia With Love                                                     | Electronic Arts                        | Xbox   | 2005 | North America
+|       | Full Spectrum Warrior                                                     | THQ                                    | Xbox   | 2004 | North America
+|       | Full Spectrum Warrior: Ten Hammers                                        | THQ                                    | Xbox   | 2006 | North America
+|       | Furious Karting                                                           | Atari                                  | Xbox   | 2003 | North America
+|       | Futurama                                                                  | VU Games                               | Xbox   | 2003 | North America
+|       | Future Tactics: The Uprising                                              | Crave                                  | Xbox   | 2004 | North America
+|       | Fuzion Frenzy                                                             | Microsoft Game Studios                 | Xbox   | 2001 | North America
+|       | Galleon: Islands of Mystery                                               | ATLUS                                  | Xbox   | 2004 | North America
+|       | Gauntlet Dark Legacy                                                      | Midway                                 | Xbox   | 2002 | North America
+|       | Gauntlet: Seven Sorrows                                                   | Midway                                 | Xbox   | 2005 | North America
+|       | Genma Onimusha                                                            | Capcom                                 | Xbox   | 2002 | North America
+|       | Gladiator: Sword of Vengeance                                             | Acclaim                                | Xbox   | 2003 | North America
+|       | Gladius                                                                   | LucasArts                              | Xbox   | 2003 | North America
+|       | Goblin Commander: Unleash the Horde                                       | Jaleco Entertainment                   | Xbox   | 2003 | North America
+|       | Godfather: The Game, The                                                  | Electronic Arts                        | Xbox   | 2006 | North America
+|       | Godzilla: Destroy All Monsters Melee                                      | Atari                                  | Xbox   | 2003 | North America
+|       | Godzilla: Save the Earth                                                  | Atari                                  | Xbox   | 2004 | North America
+|       | GoldenEye: Rogue Agent                                                    | EA Games                               | Xbox   | 2004 | North America
+|       | Grabbed by the Ghoulies                                                   | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Grand Theft Auto Double Pack                                              | Rockstar Games                         | Xbox   | 2003 | North America
+|       | Grand Theft Auto III                                                      | Rockstar Games                         | Xbox   | 2003 | North America
+|       | Grand Theft Auto: San Andreas                                             | Rockstar Games                         | Xbox   | 2005 | North America
+|       | Grand Theft Auto: The Trilogy                                             | Rockstar Games                         | Xbox   | 2005 | North America
+|       | Grand Theft Auto: Vice City                                               | Rockstar Games                         | Xbox   | 2003 | North America
+|       | Gravity Games Bike: Street Vert Dirt                                      | Midway                                 | Xbox   | 2002 | North America
+|       | Great Escape, The                                                         | Gotham Games                           | Xbox   | 2003 | North America
+|       | Greg Hastings' Tournament Paintball                                       | Activision                             | Xbox   | 2004 | North America
+|       | Greg Hastings' Tournament Paintball Max'd                                 | Activision                             | Xbox   | 2005 | North America
+|       | Grooverider Slot Car Thunder                                              | Encore Software, Inc.                  | Xbox   | 2003 | North America
+|       | Group S Challenge                                                         | Capcom                                 | Xbox   | 2003 | North America
+|       | Guilty Gear X2 #Reload                                                    | Majesco Games                          | Xbox   | 2004 | North America
+|       | Gun                                                                       | Activision                             | Xbox   | 2005 | North America
+|       | Gun Metal                                                                 | Majesco Games                          | Xbox   | 2002 | North America
+|       | GunGriffon: Allied Strike                                                 | Tecmo                                  | Xbox   | 2004 | North America
+|       | GunValkyrie                                                               | Sega                                   | Xbox   | 2002 | North America
+|       | Guy Game, The                                                             | Gathering                              | Xbox   | 2004 | North America
+|       | Half-Life 2                                                               | Electronic Arts                        | Xbox   | 2005 | North America
+|       | Halo 2                                                                    | Microsoft Game Studios                 | Xbox   | 2004 | North America
+|       | Halo 2 Multiplayer Map Pack                                               | Microsoft Game Studios                 | Xbox   | 2005 | North America
+|       | Halo Triple Pack                                                          | Microsoft Game Studios                 | Xbox   | 2005 | North America
+|       | Halo: Combat Evolved                                                      | Microsoft Game Studios                 | Xbox   | 2001 | North America
+|       | Harry Potter and the Chamber of Secrets                                   | EA Games                               | Xbox   | 2002 | North America
+|       | Harry Potter and the Goblet of Fire                                       | Electronic Arts                        | Xbox   | 2005 | North America
+|       | Harry Potter and the Prisoner of Azkaban                                  | EA Games                               | Xbox   | 2004 | North America
+|       | Harry Potter and the Sorcerer's Stone                                     | EA Games                               | Xbox   | 2003 | North America
+|       | Harry Potter: Quidditch World Cup                                         | Electronic Arts                        | Xbox   | 2003 | North America
+|       | Haunted Mansion, The                                                      | TDK Mediactive                         | Xbox   | 2003 | North America
+|       | Headhunter: Redemption                                                    | Sega                                   | Xbox   | 2004 | North America
+|       | Heroes of the Pacific                                                     | Ubisoft                                | Xbox   | 2005 | North America
+|       | High Heat Major League Baseball 2004                                      | 3DO                                    | Xbox   | 2003 | North America
+|       | High Rollers Casino                                                       | Bethesda Softworks                     | Xbox   | 2004 | North America
+|       | Hitman 2: Silent Assassin                                                 | Eidos Interactive                      | Xbox   | 2002 | North America
+|       | Hitman: Blood Money                                                       | Eidos Interactive                      | Xbox   | 2006 | North America
+|       | Hitman: Contracts                                                         | Eidos Interactive                      | Xbox   | 2004 | North America
+|       | Hobbit, The                                                               | Sierra Entertainment                   | Xbox   | 2003 | North America
+|       | Hot Wheels: Stunt Track Challenge                                         | THQ                                    | Xbox   | 2004 | North America
+|       | House of the Dead III, The                                                | Sega                                   | Xbox   | 2002 | North America
+|       | Hulk                                                                      | Universal Interactive                  | Xbox   | 2003 | North America
+|       | Hummer Badlands                                                           | 2K Games                               | Xbox   | 2006 | North America
+|       | Hunter: The Reckoning                                                     | Interplay                              | Xbox   | 2002 | North America
+|       | Hunter: The Reckoning Redeemer                                            | VU Games                               | Xbox   | 2003 | North America
+|       | Hustle: Detroit Streets, The                                              | Activision Value                       | Xbox   | 2006 | North America
+|       | I-Ninja                                                                   | Namco                                  | Xbox   | 2003 | North America
+|       | Ice Age 2: The Meltdown                                                   | Vivendi Games                          | Xbox   | 2006 | North America
+|       | IHRA Drag Racing 2004                                                     | Bethesda Softworks                     | Xbox   | 2003 | North America
+|       | IHRA Drag Racing: Sportsman Edition                                       | Bethesda Softworks                     | Xbox   | 2006 | North America
+|       | IHRA Professional Drag Racing 2005                                        | Bethesda Softworks                     | Xbox   | 2004 | North America
+|       | Incredible Hulk: Ultimate Destruction, The                                | VU Games                               | Xbox   | 2005 | North America
+|       | Incredibles, The                                                          | THQ                                    | Xbox   | 2004 | North America
+|       | Incredibles: Rise of the Underminer, The                                  | THQ                                    | Xbox   | 2005 | North America
+|       | Indiana Jones and the Emperor's Tomb                                      | LucasArts                              | Xbox   | 2003 | North America
+|       | Indigo Prophecy                                                           | Atari                                  | Xbox   | 2005 | North America
+|       | IndyCar Series                                                            | Codemasters                            | Xbox   | 2003 | North America
+|       | IndyCar Series 2005                                                       | Codemasters                            | Xbox   | 2004 | North America
+|       | Inside Pitch 2003                                                         | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Intellivision Lives!                                                      | Crave                                  | Xbox   | 2004 | North America
+|       | Iron Phoenix                                                              | Sega                                   | Xbox   | 2005 | North America
+|       | Italian Job, The                                                          | Eidos Interactive                      | Xbox   | 2003 | North America
+|       | Jade Empire                                                               | Microsoft Game Studios                 | Xbox   | 2005 | North America
+|       | James Bond 007: Agent Under Fire                                          | Electronic Arts                        | Xbox   | 2002 | North America
+|       | James Cameron's Dark Angel                                                | Sierra Entertainment                   | Xbox   | 2002 | North America
+|       | Jaws Unleashed                                                            | Majesco Games                          | Xbox   | 2006 | North America
+|       | JSRF: Jet Set Radio Future                                                | Sega                                   | Xbox   | 2002 | North America
+|       | Judge Dredd: Dredd VS Death                                               | Evolved Games                          | Xbox   | 2005 | North America
+|       | Juiced                                                                    | THQ                                    | Xbox   | 2005 | North America
+|       | Jurassic Park: Operation Genesis                                          | VU Games                               | Xbox   | 2003 | North America
+|       | Just Cause                                                                | Eidos Interactive                      | Xbox   | 2006 | North America
+|       | Justice League Heroes                                                     | Warner Bros. Interactive Entertainment | Xbox   | 2006 | North America
+|       | Kabuki Warriors                                                           | Crave                                  | Xbox   | 2001 | North America
+|       | Kakuto Chojin                                                             | Microsoft Game Studios                 | Xbox   | 2002 | North America
+|       | Karaoke Revolution                                                        | Konami                                 | Xbox   | 2004 | North America
+|       | Karaoke Revolution Party                                                  | Konami                                 | Xbox   | 2005 | North America
+|       | Kelly Slater's Pro Surfer                                                 | Activision                             | Xbox   | 2002 | North America
+|       | Kill Switch                                                               | Namco                                  | Xbox   | 2003 | North America
+|       | King Arthur                                                               | Konami                                 | Xbox   | 2004 | North America
+|       | King of Fighters 02/03, The                                               | SNK                                    | Xbox   | 2005 | North America
+|       | King of Fighters NeoWave, The                                             | SNK Playmore                           | Xbox   | 2006 | North America
+|       | Kingdom Under Fire: Heroes                                                | Microsoft Game Studios                 | Xbox   | 2005 | North America
+|       | Kingdom Under Fire: The Crusaders                                         | Microsoft Game Studios                 | Xbox   | 2004 | North America
+|       | Knight's Apprentice, Memorick's Adventures                                | XS Games                               | Xbox   | 2004 | North America
+|       | Knockout Kings 2002                                                       | Electronic Arts                        | Xbox   | 2002 | North America
+|       | Kung Fu Chaos                                                             | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | L.A. Rush                                                                 | Midway                                 | Xbox   | 2005 | North America
+|       | Land of the Dead: Road to Fiddler's Green                                 | Groove Games                           | Xbox   | 2005 | North America
+|       | Legacy of Kain: Defiance                                                  | Eidos Interactive                      | Xbox   | 2003 | North America
+|       | Legend of Spyro: A New Beginning, The                                     | Sierra Entertainment                   | Xbox   | 2006 | North America
+|       | Legends of Wrestling                                                      | Acclaim                                | Xbox   | 2002 | North America
+|       | Legends of Wrestling II                                                   | Acclaim                                | Xbox   | 2002 | North America
+|       | LEGO Star Wars II: The Original Trilogy                                   | LucasArts                              | Xbox   | 2006 | North America
+|       | LEGO Star Wars: The Video Game                                            | Eidos Interactive                      | Xbox   | 2005 | North America
+|       | Leisure Suit Larry: Magna Cum Laude                                       | VU Games                               | Xbox   | 2004 | North America
+|       | Lemony Snicket's A Series of Unfortunate Events                           | Activision                             | Xbox   | 2004 | North America
+|       | Links 2004                                                                | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Loons: The Fight for Fame                                                 | Atari                                  | Xbox   | 2002 | North America
+|       | Lord of the Rings: The Fellowship of the Ring, The                        | Black Label Games                      | Xbox   | 2002 | North America
+|       | Lord of the Rings: The Return of the King, The                            | EA Games                               | Xbox   | 2003 | North America
+|       | Lord of the Rings: The Third Age, The                                     | EA Games                               | Xbox   | 2004 | North America
+|       | Lord of the Rings: The Two Towers, The                                    | EA Games                               | Xbox   | 2002 | North America
+|       | LucasArts Xbox Experience                                                 | LucasArts                              | Xbox   | 2003 | North America
+|       | Mace Griffin Bounty Hunter                                                | VU Games                               | Xbox   | 2003 | North America
+|       | Mad Dash Racing                                                           | Eidos Interactive                      | Xbox   | 2001 | North America
+|       | Madagascar                                                                | Activision                             | Xbox   | 2005 | North America
+|       | Madden NFL 06                                                             | EA Sports                              | Xbox   | 2005 | North America
+|       | Madden NFL 07                                                             | EA Sports                              | Xbox   | 2006 | North America
+|       | Madden NFL 08                                                             | EA Sports                              | Xbox   | 2007 | North America
+|       | Madden NFL 09                                                             | Electronic Arts                        | Xbox   | 2008 | North America
+|       | Madden NFL 2002                                                           | EA Sports                              | Xbox   | 2001 | North America
+|       | Madden NFL 2003                                                           | EA Sports                              | Xbox   | 2002 | North America
+|       | Madden NFL 2004                                                           | EA Sports                              | Xbox   | 2003 | North America
+|       | Madden NFL 2005                                                           | EA Sports                              | Xbox   | 2004 | North America
+|       | Mafia                                                                     | Gathering                              | Xbox   | 2004 | North America
+|       | Magic: The Gathering - Battlegrounds                                      | Atari                                  | Xbox   | 2003 | North America
+|       | Major League Baseball 2K5                                                 | Take-Two Interactive                   | Xbox   | 2005 | North America
+|       | Major League Baseball 2K5: World Series Edition                           | 2K Sports                              | Xbox   | 2005 | North America
+|       | Major League Baseball 2K6                                                 | 2K Sports                              | Xbox   | 2006 | North America
+|       | Major League Baseball 2K7                                                 | 2K Sports                              | Xbox   | 2007 | North America
+|       | Malice                                                                    | Mud Duck Productions                   | Xbox   | 2004 | North America
+|       | Manhunt                                                                   | Rockstar Games                         | Xbox   | 2004 | North America
+|       | Marc Ecko's Getting Up: Contents Under Pressure                           | Atari SA                               | Xbox   | 2006 | North America
+|       | Marvel Nemesis: Rise of the Imperfects                                    | EA Games                               | Xbox   | 2005 | North America
+|       | Marvel vs. Capcom 2                                                       | Capcom                                 | Xbox   | 2003 | North America
+|       | Marvel: Ultimate Alliance                                                 | Activision                             | Xbox   | 2006 | North America
+|       | Mat Hoffman's Pro BMX 2                                                   | Activision                             | Xbox   | 2002 | North America
+|       | Matrix: Path of Neo, The                                                  | Atari                                  | Xbox   | 2005 | North America
+|       | Max Payne                                                                 | Rockstar Games                         | Xbox   | 2001 | North America
+|       | Max Payne 2: The Fall of Max Payne                                        | Rockstar Games                         | Xbox   | 2003 | North America
+|       | Maximum Chase                                                             | Majesco Games                          | Xbox   | 2003 | North America
+|       | MechAssault                                                               | Microsoft Game Studios                 | Xbox   | 2002 | North America
+|       | MechAssault 2: Lone Wolf                                                  | Microsoft Game Studios                 | Xbox   | 2004 | North America
+|       | MechAssault 2: Lone Wolf Demo + OutRun 2 Demo / Xbox Live Arcade          | Microsoft Game Studios                 | Xbox   | 2004 | North America
+|       | Medal of Honor Frontline                                                  | EA Games                               | Xbox   | 2002 | North America
+|       | Medal of Honor: European Assault                                          | Electronic Arts                        | Xbox   | 2005 | North America
+|       | Medal of Honor: Rising Sun                                                | EA Games                               | Xbox   | 2003 | North America
+|       | Mega Man Anniversary Collection                                           | Capcom                                 | Xbox   | 2005 | North America
+|       | Men of Valor                                                              | VU Games                               | Xbox   | 2004 | North America
+|       | Mercenaries: Playground of Destruction                                    | LucasArts                              | Xbox   | 2005 | North America
+|       | Metal Arms: Glitch in the System                                          | VU Games                               | Xbox   | 2003 | North America
+|       | Metal Dungeon                                                             | Xicat Interactive                      | Xbox   | 2002 | North America
+|       | Metal Gear Solid 2: Substance                                             | Konami                                 | Xbox   | 2002 | North America
+|       | Metal Slug 3                                                              | SNK                                    | Xbox   | 2004 | North America
+|       | Metal Slug 4 & 5                                                          | SNK Playmore                           | Xbox   | 2005 | North America
+|       | Midnight Club 3: DUB Edition                                              | Rockstar Games                         | Xbox   | 2005 | North America
+|       | Midnight Club 3: DUB Edition Remix                                        | Rockstar Games                         | Xbox   | 2006 | North America
+|       | Midnight Club II                                                          | Rockstar Games                         | Xbox   | 2003 | North America
+|       | Midtown Madness 3                                                         | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Midway Arcade Treasures                                                   | Midway                                 | Xbox   | 2003 | North America
+|       | Midway Arcade Treasures 2                                                 | Midway                                 | Xbox   | 2004 | North America
+|       | Midway Arcade Treasures 3                                                 | Midway                                 | Xbox   | 2005 | North America
+|       | Mike Tyson Heavyweight Boxing                                             | Codemasters                            | Xbox   | 2002 | North America
+|       | Minority Report: Everybody Runs                                           | Activision                             | Xbox   | 2002 | North America
+|       | Mission: Impossible: Operation Surma                                      | Atari                                  | Xbox   | 2003 | North America
+|       | MLB Slugfest 20-03                                                        | Midway                                 | Xbox   | 2002 | North America
+|       | MLB Slugfest 20-04                                                        | Midway                                 | Xbox   | 2003 | North America
+|       | MLB SlugFest 2006                                                         | Midway                                 | Xbox   | 2006 | North America
+|       | MLB SlugFest: Loaded                                                      | Midway                                 | Xbox   | 2004 | North America
+|       | Mojo!                                                                     | Crave                                  | Xbox   | 2003 | North America
+|       | Monopoly Party!                                                           | Atari                                  | Xbox   | 2002 | North America
+|       | Monster 4X4: World Circuit                                                | Ubisoft                                | Xbox   | 2006 | North America
+|       | Monster Garage                                                            | Activision Value                       | Xbox   | 2004 | North America
+|       | Mortal Kombat: Armageddon                                                 | Midway                                 | Xbox   | 2006 | North America
+|       | Mortal Kombat: Deadly Alliance                                            | Midway                                 | Xbox   | 2002 | North America
+|       | Mortal Kombat: Deception                                                  | Midway                                 | Xbox   | 2004 | North America
+|       | Mortal Kombat: Shaolin Monks                                              | Midway                                 | Xbox   | 2005 | North America
+|       | Motocross Mania 3                                                         | 2K Games                               | Xbox   | 2005 | North America
+|       | MotoGP                                                                    | THQ                                    | Xbox   | 2002 | North America
+|       | MotoGP 2                                                                  | THQ                                    | Xbox   | 2003 | North America
+|       | MotoGP 3: Ultimate Racing Technology                                      | THQ                                    | Xbox   | 2005 | North America
+|       | Motor Trend presents Lotus Challenge                                      | Xicat Interactive                      | Xbox   | 2003 | North America
+|       | MTV Music Generator 3: This Is the Remix                                  | Codemasters                            | Xbox   | 2004 | North America
+|       | MTV's Celebrity Deathmatch                                                | Gotham Games                           | Xbox   | 2003 | North America
+|       | MTX Mototrax                                                              | Activision                             | Xbox   | 2004 | North America
+|       | Murakumo: Renegade Mech Pursuit                                           | Ubisoft                                | Xbox   | 2003 | North America
+|       | MVP 06 NCAA Baseball                                                      | EA Sports                              | Xbox   | 2006 | North America
+|       | MVP Baseball 2003                                                         | EA Sports                              | Xbox   | 2003 | North America
+|       | MVP Baseball 2004                                                         | EA Sports                              | Xbox   | 2004 | North America
+|       | MVP Baseball 2005                                                         | EA Sports                              | Xbox   | 2013 | North America
+|       | MX 2002 featuring Ricky Carmichael                                        | THQ                                    | Xbox   | 2001 | North America
+|       | MX Superfly                                                               | THQ                                    | Xbox   | 2002 | North America
+|       | MX Unleashed                                                              | THQ                                    | Xbox   | 2004 | North America
+|       | MX vs. ATV Unleashed                                                      | THQ                                    | Xbox   | 2005 | North America
+|       | MX World Tour Featuring Jamie Little                                      | Crave                                  | Xbox   | 2005 | North America
+|       | Myst III: Exile                                                           | Ubisoft                                | Xbox   | 2002 | North America
+|       | Myst IV: Revelation                                                       | Ubisoft                                | Xbox   | 2005 | North America
+|       | Namco Museum                                                              | Namco                                  | Xbox   | 2002 | North America
+|       | Namco Museum 50th Anniversary                                             | Namco                                  | Xbox   | 2005 | North America
+|       | NARC                                                                      | Midway                                 | Xbox   | 2005 | North America
+|       | NASCAR 06: Total Team Control                                             | EA Sports                              | Xbox   | 2005 | North America
+|       | NASCAR 07                                                                 | EA Sports                              | Xbox   | 2006 | North America
+|       | NASCAR 2005: Chase for the Cup                                            | EA Games                               | Xbox   | 2004 | North America
+|       | NASCAR Heat 2002                                                          | Infogrames                             | Xbox   | 2001 | North America
+|       | NASCAR Thunder 2002                                                       | EA Sports                              | Xbox   | 2001 | North America
+|       | NASCAR Thunder 2003                                                       | EA Sports                              | Xbox   | 2002 | North America
+|       | NASCAR Thunder 2004                                                       | EA Games                               | Xbox   | 2003 | North America
+|       | NBA 2K2                                                                   | Sega                                   | Xbox   | 2002 | North America
+|       | NBA 2K3                                                                   | Sega                                   | Xbox   | 2002 | North America
+|       | NBA 2K6                                                                   | 2K Sports                              | Xbox   | 2005 | North America
+|       | NBA 2K7                                                                   | 2K Sports                              | Xbox   | 2006 | North America
+|       | NBA Ballers                                                               | Midway                                 | Xbox   | 2004 | North America
+|       | NBA Ballers: Phenom                                                       | Midway                                 | Xbox   | 2006 | North America
+|       | NBA Inside Drive 2002                                                     | Microsoft Game Studios                 | Xbox   | 2002 | North America
+|       | NBA Inside Drive 2003                                                     | Microsoft Game Studios                 | Xbox   | 2002 | North America
+|       | NBA Inside Drive 2004                                                     | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | NBA Jam                                                                   | Acclaim                                | Xbox   | 2003 | North America
+|       | NBA Live 06                                                               | EA Sports                              | Xbox   | 2005 | North America
+|       | NBA Live 07                                                               | EA Sports                              | Xbox   | 2006 | North America
+|       | NBA Live 2002                                                             | Electronic Arts                        | Xbox   | 2001 | North America
+|       | NBA Live 2003                                                             | Electronic Arts                        | Xbox   | 2002 | North America
+|       | NBA Live 2004                                                             | EA Sports                              | Xbox   | 2003 | North America
+|       | NBA Live 2005                                                             | EA Sports                              | Xbox   | 2004 | North America
+|       | NBA Starting Five                                                         | Konami                                 | Xbox   | 2002 | North America
+|       | NBA Street V3                                                             | EA Sports Big                          | Xbox   | 2005 | North America
+|       | NBA Street Vol. 2                                                         | Electronic Arts                        | Xbox   | 2003 | North America
+|       | NCAA College Basketball 2K3                                               | Sega                                   | Xbox   | 2002 | North America
+|       | NCAA College Football 2K3                                                 | Sega                                   | Xbox   | 2002 | North America
+|       | NCAA Football 06                                                          | EA Sports                              | Xbox   | 2005 | North America
+|       | NCAA Football 07                                                          | EA Sports                              | Xbox   | 2006 | North America
+|       | NCAA Football 08                                                          | EA Sports                              | Xbox   | 2007 | North America
+|       | NCAA Football 2003                                                        | EA Sports                              | Xbox   | 2002 | North America
+|       | NCAA Football 2004                                                        | EA Sports                              | Xbox   | 2003 | North America
+|       | NCAA Football 2005                                                        | EA Sports                              | Xbox   | 2004 | North America
+|       | NCAA Football 2005 / Topspin                                              | Microsoft Game Studios                 | Xbox   | 2005 | North America
+|       | NCAA March Madness 06                                                     | EA Sports                              | Xbox   | 2005 | North America
+|       | NCAA March Madness 2004                                                   | Electronic Arts                        | Xbox   | 2003 | North America
+|       | NCAA March Madness 2005                                                   | EA Sports                              | Xbox   | 2004 | North America
+|       | Need for Speed Carbon                                                     | EA Games                               | Xbox   | 2006 | North America
+|       | Need for Speed Most Wanted                                                | Electronic Arts                        | Xbox   | 2005 | North America
+|       | Need for Speed Underground                                                | Electronic Arts                        | Xbox   | 2003 | North America
+|       | Need for Speed Underground 2                                              | Electronic Arts                        | Xbox   | 2004 | North America
+|       | Need for Speed: Hot Pursuit 2                                             | Electronic Arts                        | Xbox   | 2002 | North America
+|       | New Legends                                                               | THQ                                    | Xbox   | 2002 | North America
+|       | NFL 2K2                                                                   | Sega                                   | Xbox   | 2002 | North America
+|       | NFL 2K3                                                                   | Sega                                   | Xbox   | 2002 | North America
+|       | NFL Blitz 20-02                                                           | Midway                                 | Xbox   | 2002 | North America
+|       | NFL Blitz 20-03                                                           | Midway                                 | Xbox   | 2002 | North America
+|       | NFL Blitz Pro                                                             | Midway                                 | Xbox   | 2003 | North America
+|       | NFL Fever 2002                                                            | Microsoft Game Studios                 | Xbox   | 2001 | North America
+|       | NFL Fever 2003                                                            | Microsoft Game Studios                 | Xbox   | 2002 | North America
+|       | NFL Fever 2004                                                            | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | NFL Head Coach                                                            | EA Sports                              | Xbox   | 2006 | North America
+|       | NFL Street                                                                | EA Sports                              | Xbox   | 2004 | North America
+|       | NFL Street 2                                                              | EA Sports Big                          | Xbox   | 2004 | North America
+|       | NHL 06                                                                    | EA Sports                              | Xbox   | 2005 | North America
+|       | NHL 07                                                                    | EA Sports                              | Xbox   | 2006 | North America
+|       | NHL 2002                                                                  | EA Sports                              | Xbox   | 2001 | North America
+|       | NHL 2003                                                                  | EA Sports                              | Xbox   | 2002 | North America
+|       | NHL 2004                                                                  | EA Sports                              | Xbox   | 2003 | North America
+|       | NHL 2005                                                                  | EA Sports                              | Xbox   | 2004 | North America
+|       | NHL 2K3                                                                   | Sega                                   | Xbox   | 2002 | North America
+|       | NHL 2K6                                                                   | 2K Sports                              | Xbox   | 2005 | North America
+|       | NHL 2K7                                                                   | 2K Sports                              | Xbox   | 2006 | North America
+|       | NHL Hitz 20-02                                                            | Midway                                 | Xbox   | 2001 | North America
+|       | NHL Hitz 20-03                                                            | Midway                                 | Xbox   | 2002 | North America
+|       | NHL Hitz Pro                                                              | Midway                                 | Xbox   | 2003 | North America
+|       | NHL Rivals 2004                                                           | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Nickelodeon Party Blast                                                   | Infogrames                             | Xbox   | 2002 | North America
+|       | Nightcaster                                                               | Microsoft Game Studios                 | Xbox   | 2002 | North America
+|       | Nightcaster II: Equinox                                                   | Jaleco Entertainment                   | Xbox   | 2002 | North America
+|       | Ninja Gaiden                                                              | Tecmo                                  | Xbox   | 2004 | North America
+|       | Ninja Gaiden Black                                                        | Tecmo                                  | Xbox   | 2005 | North America
+|       | Obscure                                                                   | DreamCatcher Interactive               | Xbox   | 2005 | North America
+|       | Oddworld: Munch's Oddysee                                                 | Microsoft Game Studios                 | Xbox   | 2001 | North America
+|       | Oddworld: Stranger's Wrath                                                | EA Games                               | Xbox   | 2005 | North America
+|       | Open Season                                                               | Ubisoft                                | Xbox   | 2006 | North America
+|       | Operation Flashpoint: Elite                                               | Codemasters                            | Xbox   | 2005 | North America
+|       | Otogi 2: Immortal Warriors                                                | Sega                                   | Xbox   | 2004 | North America
+|       | Otogi: Myth of Demons                                                     | Sega                                   | Xbox   | 2003 | North America
+|       | Outlaw Golf                                                               | Simon & Schuster                       | Xbox   | 2002 | North America
+|       | Outlaw Golf & SeaBlade Bundle                                             | Simon & Schuster                       | Xbox   | 2013 | North America
+|       | Outlaw Golf 2                                                             | Global Star Software                   | Xbox   | 2004 | North America
+|       | Outlaw Golf: 9 Holes Of X-Mas                                             | Simon & Schuster                       | Xbox   | 2002 | North America
+|       | Outlaw Golf: 9 More Holes Of X-Mas                                        | Simon & Schuster                       | Xbox   | 2003 | North America
+|       | Outlaw Golf: Holiday Golf                                                 | Simon & Schuster                       | Xbox   | 2002 | North America
+|       | Outlaw Tennis                                                             | Global Star Software                   | Xbox   | 2005 | North America
+|       | Outlaw Volleyball                                                         | Simon & Schuster                       | Xbox   | 2003 | North America
+|       | Outlaw Volleyball: Red Hot                                                | Simon & Schuster                       | Xbox   | 2003 | North America
+|       | OutRun 2                                                                  | Microsoft Game Studios                 | Xbox   | 2004 | North America
+|       | OutRun 2006: Coast 2 Coast                                                | Sega                                   | Xbox   | 2006 | North America
+|       | Over the Hedge                                                            | Activision                             | Xbox   | 2006 | North America
+|       | Pac-Man World 2                                                           | Namco                                  | Xbox   | 2002 | North America
+|       | Pac-Man World 3                                                           | Namco                                  | Xbox   | 2005 | North America
+|       | Painkiller: Hell Wars                                                     | DreamCatcher Interactive               | Xbox   | 2006 | North America
+|       | Panzer Dragoon Orta                                                       | Sega                                   | Xbox   | 2003 | North America
+|       | Pariah                                                                    | Groove Games                           | Xbox   | 2005 | North America
+|       | Payout Poker & Casino                                                     | Namco                                  | Xbox   | 2005 | North America
+|       | Peter Jackson's King Kong: The Official Game of the Movie                 | Ubisoft                                | Xbox   | 2005 | North America
+|       | Phantasy Star Online Episode I & II                                       | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Phantom Crash                                                             | Phantagram                             | Xbox   | 2002 | North America
+|       | Phantom Dust                                                              | Majesco Games                          | Xbox   | 2005 | North America
+|       | Pinball Hall of Fame: The Gottlieb Collection                             | Crave                                  | Xbox   | 2004 | North America
+|       | Pirates of the Caribbean                                                  | Bethesda Softworks                     | Xbox   | 2003 | North America
+|       | Pirates: The Legend of Black Kat                                          | Electronic Arts                        | Xbox   | 2002 | North America
+|       | Pitfall: The Lost Expedition                                              | Activision                             | Xbox   | 2004 | North America
+|       | Playboy: The Mansion                                                      | Arush Entertainment                    | Xbox   | 2005 | North America
+|       | Pocketbike Racer                                                          | King Games                             | Xbox   | 2006 | North America
+|       | Power Drome                                                               | Mud Duck Productions                   | Xbox   | 2004 | North America
+|       | Predator: Concrete Jungle                                                 | VU Games                               | Xbox   | 2005 | North America
+|       | Prince of Persia: The Sands of Time                                       | Ubisoft                                | Xbox   | 2003 | North America
+|       | Prince of Persia: The Two Thrones                                         | Ubisoft                                | Xbox   | 2005 | North America
+|       | Prince of Persia: Warrior Within                                          | Ubisoft                                | Xbox   | 2004 | North America
+|       | Prisoner of War                                                           | Codemasters                            | Xbox   | 2002 | North America
+|       | Pro Cast Sports Fishing                                                   | Capcom                                 | Xbox   | 2003 | North America
+|       | Pro Fishing Challenge                                                     | ATLUS                                  | Xbox   | 2004 | North America
+|       | Pro Race Driver                                                           | Codemasters                            | Xbox   | 2003 | North America
+|       | Project Gotham Racing                                                     | Microsoft Game Studios                 | Xbox   | 2001 | North America
+|       | Project Gotham Racing 2                                                   | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Project: Snowblind                                                        | Eidos Interactive                      | Xbox   | 2005 | North America
+|       | ProStroke Golf - World Tour 2007                                          | Oxygen Interactive                     | Xbox   | 2006 | North America
+|       | Psi-Ops: The Mindgate Conspiracy                                          | Midway                                 | Xbox   | 2004 | North America
+|       | Psychonauts                                                               | Majesco Games                          | Xbox   | 2005 | North America
+|       | Pulse Racer                                                               | Jaleco Entertainment                   | Xbox   | 2003 | North America
+|       | Pump It Up: Exceed                                                        | Mastiff                                | Xbox   | 2005 | North America
+|       | Punisher, The                                                             | THQ                                    | Xbox   | 2005 | North America
+|       | Pure Pinball                                                              | XS Games                               | Xbox   | 2004 | North America
+|       | Quantum Redshift                                                          | Microsoft Game Studios                 | Xbox   | 2002 | North America
+|       | R: Racing Evolution                                                       | Namco                                  | Xbox   | 2003 | North America
+|       | RalliSport Challenge                                                      | Microsoft Game Studios                 | Xbox   | 2002 | North America
+|       | RalliSport Challenge 2                                                    | Microsoft Game Studios                 | Xbox   | 2004 | North America
+|       | Rally Fusion: Race of Champions                                           | Activision                             | Xbox   | 2002 | North America
+|       | Rapala Pro Fishing                                                        | Activision Value                       | Xbox   | 2004 | North America
+|       | Ratatouille                                                               | THQ                                    | Xbox   | 2007 | North America
+|       | Rayman 3: Hoodlum Havoc                                                   | Ubisoft                                | Xbox   | 2003 | North America
+|       | Rayman Arena                                                              | Ubisoft                                | Xbox   | 2002 | North America
+|       | Raze's Hell                                                               | Majesco Games                          | Xbox   | 2005 | North America
+|       | Real World Golf                                                           | Mad Catz                               | Xbox   | 2006 | North America
+|       | Red Dead Revolver                                                         | Rockstar Games                         | Xbox   | 2004 | North America
+|       | Red Faction II                                                            | THQ                                    | Xbox   | 2003 | North America
+|       | Red Ninja: End of Honor                                                   | VU Games                               | Xbox   | 2005 | North America
+|       | RedCard 20-03                                                             | Midway                                 | Xbox   | 2002 | North America
+|       | Reign of Fire                                                             | Bam Entertainment                      | Xbox   | 2002 | North America
+|       | Reservoir Dogs                                                            | Eidos Interactive                      | Xbox   | 2006 | North America
+|       | Return to Castle Wolfenstein: Tides of War                                | Activision                             | Xbox   | 2003 | North America
+|       | RLH: Run Like Hell                                                        | Interplay                              | Xbox   | 2003 | North America
+|       | RoadKill                                                                  | Midway                                 | Xbox   | 2003 | North America
+|       | Robin Hood: Defender of the Crown                                         | Capcom                                 | Xbox   | 2003 | North America
+|       | RoboCop                                                                   | Titus Software                         | Xbox   | 2003 | North America
+|       | Robotech: Battlecry                                                       | TDK Mediactive                         | Xbox   | 2002 | North America
+|       | Robotech: Invasion                                                        | Global Star Software                   | Xbox   | 2004 | North America
+|       | Robots                                                                    | VU Games                               | Xbox   | 2005 | North America
+|       | Rocky                                                                     | Ubisoft                                | Xbox   | 2002 | North America
+|       | Rocky: Legends                                                            | Ubisoft                                | Xbox   | 2004 | North America
+|       | Rogue Ops                                                                 | Kemco                                  | Xbox   | 2003 | North America
+|       | Rogue Trooper                                                             | Eidos Interactive                      | Xbox   | 2006 | North America
+|       | Rollercoaster Tycoon                                                      | Atari                                  | Xbox   | 2003 | North America
+|       | Room Zoom: Race for Impact                                                | Jaleco Entertainment                   | Xbox   | 2004 | North America
+|       | Rugby 06                                                                  | Electronic Arts                        | Xbox   | 2006 | North America
+|       | Rugby 2005                                                                | EA Sports                              | Xbox   | 2005 | North America
+|       | Samurai Shodown V                                                         | SNK                                    | Xbox   | 2006 | North America
+|       | Samurai Warriors                                                          | Koei                                   | Xbox   | 2004 | North America
+|       | Scaler                                                                    | Global Star Software                   | Xbox   | 2004 | North America
+|       | Scarface: The World Is Yours                                              | Vivendi Games                          | Xbox   | 2006 | North America
+|       | Scooby-Doo! Mystery Mayhem                                                | THQ                                    | Xbox   | 2004 | North America
+|       | Scooby-Doo! Night of 100 Frights                                          | THQ                                    | Xbox   | 2003 | North America
+|       | Scooby-Doo! Unmasked                                                      | THQ                                    | Xbox   | 2005 | North America
+|       | Scrapland                                                                 | Enlight Software                       | Xbox   | 2005 | North America
+|       | Sea World: Shamu's Deep Sea Adventures                                    | Activision                             | Xbox   | 2005 | North America
+|       | Seablade                                                                  | Simon &amp; Schuster                   | Xbox   | 2002 | North America
+|       | Second Sight                                                              | Codemasters                            | Xbox   | 2004 | North America
+|       | Secret Weapons Over Normandy                                              | LucasArts                              | Xbox   | 2003 | North America
+|       | Sega GT 2002                                                              | Sega                                   | Xbox   | 2002 | North America
+|       | Sega GT 2002 / JSRF: Jet Set Radio Future                                 | Sega                                   | Xbox   | 2002 | North America
+|       | Sega GT Online                                                            | Sega                                   | Xbox   | 2004 | North America
+|       | Sega Soccer Slam                                                          | Sega                                   | Xbox   | 2002 | North America
+|       | Serious Sam                                                               | Gotham Games                           | Xbox   | 2002 | North America
+|       | Serious Sam II                                                            | 2K Games                               | Xbox   | 2005 | North America
+|       | Shadow Ops: Red Mercury                                                   | Atari                                  | Xbox   | 2004 | North America
+|       | Shadow the Hedgehog                                                       | Sega                                   | Xbox   | 2005 | North America
+|       | Shark Tale                                                                | Activision                             | Xbox   | 2004 | North America
+|       | Shattered Union                                                           | 2K Games                               | Xbox   | 2005 | North America
+|       | ShellShock: Nam '67                                                       | Eidos Interactive                      | Xbox   | 2004 | North America
+|       | Shenmue II                                                                | Microsoft Game Studios                 | Xbox   | 2002 | North America
+|       | Showdown: Legends of Wrestling                                            | Acclaim                                | Xbox   | 2004 | North America
+|       | Shrek                                                                     | TDK Mediactive                         | Xbox   | 2001 | North America
+|       | Shrek 2                                                                   | Activision                             | Xbox   | 2004 | North America
+|       | Shrek SuperSlam                                                           | Activision                             | Xbox   | 2005 | North America
+|       | Shrek: Super Party                                                        | TDK Mediactive                         | Xbox   | 2002 | North America
+|       | Sid Meier's Pirates!                                                      | 2K Games                               | Xbox   | 2005 | North America
+|       | Silent Hill 2: Restless Dreams                                            | Konami                                 | Xbox   | 2001 | North America
+|       | Silent Hill 4: The Room                                                   | Konami                                 | Xbox   | 2004 | North America
+|       | Silent Scope Complete                                                     | Konami                                 | Xbox   | 2004 | North America
+|       | Simpsons: Hit & Run, The                                                  | VU Games                               | Xbox   | 2003 | North America
+|       | Simpsons: Road Rage, The                                                  | Electronic Arts                        | Xbox   | 2001 | North America
+|       | Sims 2, The                                                               | Electronic Arts                        | Xbox   | 2005 | North America
+|       | Sims Bustin' Out, The                                                     | EA Games                               | Xbox   | 2003 | North America
+|       | Sims, The                                                                 | EA Games                               | Xbox   | 2003 | North America
+|       | Smashing Drive                                                            | Namco                                  | Xbox   | 2002 | North America
+|       | Sneak King                                                                | King Games                             | Xbox   | 2006 | North America
+|       | Sneakers                                                                  | Microsoft Game Studios                 | Xbox   | 2002 | North America
+|       | Sniper Elite                                                              | Namco                                  | Xbox   | 2005 | North America
+|       | Soldier of Fortune II: Double Helix                                       | Activision                             | Xbox   | 2003 | North America
+|       | Sonic Heroes                                                              | Sega                                   | Xbox   | 2004 | North America
+|       | Sonic Mega Collection Plus                                                | Sega                                   | Xbox   | 2004 | North America
+|       | Sonic Riders                                                              | Sega                                   | Xbox   | 2006 | North America
+|       | SoulCalibur II                                                            | Namco                                  | Xbox   | 2003 | North America
+|       | Spartan: Total Warrior                                                    | Sega                                   | Xbox   | 2005 | North America
+|       | Spawn: Armageddon                                                         | Namco                                  | Xbox   | 2003 | North America
+|       | Special Forces: Nemesis Strike                                            | Hip Games                              | Xbox   | 2005 | North America
+|       | Speed Kings                                                               | Acclaim                                | Xbox   | 2003 | North America
+|       | Sphinx and the Cursed Mummy                                               | THQ                                    | Xbox   | 2003 | North America
+|       | Spider-Man                                                                | Activision                             | Xbox   | 2002 | North America
+|       | Spider-Man 2                                                              | Activision                             | Xbox   | 2004 | North America
+|       | Spikeout: Battle Street                                                   | Sega                                   | Xbox   | 2005 | North America
+|       | Splashdown                                                                | Atari                                  | Xbox   | 2002 | North America
+|       | Splat Renegade Paintball                                                  | Take-Two Interactive                   | Xbox   | 2005 | North America
+|       | SpongeBob SquarePants Movie, The                                          | THQ                                    | Xbox   | 2004 | North America
+|       | Spongebob SquarePants: Battle for Bikini Bottom                           | THQ                                    | Xbox   | 2003 | North America
+|       | SpongeBob SquarePants: Lights, Camera, Pants!                             | THQ                                    | Xbox   | 2005 | North America
+|       | Spy Hunter                                                                | Midway                                 | Xbox   | 2002 | North America
+|       | Spy Hunter 2                                                              | Midway                                 | Xbox   | 2003 | North America
+|       | Spy Hunter: Nowhere to Run                                                | Midway                                 | Xbox   | 2006 | North America
+|       | Spy vs. Spy                                                               | Global Star Software                   | Xbox   | 2005 | North America
+|       | Spyro: A Hero's Tail                                                      | VU Games                               | Xbox   | 2004 | North America
+|       | SSX 3                                                                     | EA Sports Big                          | Xbox   | 2003 | North America
+|       | SSX On Tour                                                               | EA Sports Big                          | Xbox   | 2005 | North America
+|       | SSX Tricky                                                                | EA Sports Big                          | Xbox   | 2001 | North America
+|       | Stacked with Daniel Negreanu                                              | Myelin Media                           | Xbox   | 2006 | North America
+|       | Stake: Fortune Fighters                                                   | Metro3D                                | Xbox   | 2003 | North America
+|       | Star Trek: Shattered Universe                                             | TDK Mediactive                         | Xbox   | 2004 | North America
+|       | Star Wars Episode III: Revenge of the Sith                                | LucasArts                              | Xbox   | 2005 | North America
+|       | Star Wars Jedi Knight II: Jedi Outcast                                    | LucasArts                              | Xbox   | 2002 | North America
+|       | Star Wars Jedi Knight: Jedi Academy                                       | LucasArts                              | Xbox   | 2003 | North America
+|       | Star Wars Starfighter: Special Edition                                    | LucasArts                              | Xbox   | 2001 | North America
+|       | Star Wars: Battlefront                                                    | LucasArts                              | Xbox   | 2004 | North America
+|       | Star Wars: Battlefront II                                                 | LucasArts                              | Xbox   | 2005 | North America
+|       | Star Wars: Jedi Starfighter                                               | LucasArts                              | Xbox   | 2002 | North America
+|       | Star Wars: Knights of the Old Republic                                    | LucasArts                              | Xbox   | 2003 | North America
+|       | Star Wars: Knights of the Old Republic II: The Sith Lords                 | LucasArts                              | Xbox   | 2004 | North America
+|       | Star Wars: Obi-Wan                                                        | LucasArts                              | Xbox   | 2001 | North America
+|       | Star Wars: Republic Commando                                              | LucasArts                              | Xbox   | 2005 | North America
+|       | Star Wars: The Clone Wars                                                 | LucasArts                              | Xbox   | 2003 | North America
+|       | Star Wars: The Clone Wars / Tetris Worlds                                 | Microsoft Game Studios                 | Xbox   | 2013 | North America
+|       | Starsky & Hutch                                                           | Gotham Games                           | Xbox   | 2003 | North America
+|       | State of Emergency                                                        | Rockstar Games                         | Xbox   | 2003 | North America
+|       | Steel Battalion                                                           | Capcom                                 | Xbox   | 2002 | North America
+|       | Steel Battalion: Line of Contact                                          | Capcom                                 | Xbox   | 2004 | North America
+|       | Still Life                                                                | The Adventure Company                  | Xbox   | 2005 | North America
+|       | Stolen                                                                    | Hip Games                              | Xbox   | 2005 | North America
+|       | Street Fighter Anniversary Collection                                     | Capcom                                 | Xbox   | 2005 | North America
+|       | Street Hoops                                                              | Activision                             | Xbox   | 2002 | North America
+|       | Street Racing Syndicate                                                   | Namco                                  | Xbox   | 2004 | North America
+|       | Strike Force Bowling                                                      | Crave                                  | Xbox   | 2004 | North America
+|       | Stubbs the Zombie in Rebel Without a Pulse                                | Aspyr                                  | Xbox   | 2005 | North America
+|       | Sudeki                                                                    | Microsoft Game Studios                 | Xbox   | 2004 | North America
+|       | Suffering, The                                                            | Midway                                 | Xbox   | 2004 | North America
+|       | Suffering: Ties That Bind, The                                            | Midway                                 | Xbox   | 2005 | North America
+|       | Super Bubble Pop                                                          | Jaleco Entertainment                   | Xbox   | 2002 | North America
+|       | Super Monkey Ball Deluxe                                                  | Sega                                   | Xbox   | 2005 | North America
+|       | Superman Returns                                                          | EA Games                               | Xbox   | 2006 | North America
+|       | Superman: The Man of Steel                                                | Atari                                  | Xbox   | 2002 | North America
+|       | SVC Chaos: SNK vs. Capcom                                                 | SNK                                    | Xbox   | 2004 | North America
+|       | SWAT: Global Strike Team                                                  | Sierra Entertainment                   | Xbox   | 2003 | North America
+|       | SX Superstar                                                              | Acclaim                                | Xbox   | 2003 | North America
+|       | Syberia                                                                   | XS Games                               | Xbox   | 2003 | North America
+|       | Syberia II                                                                | XS Games                               | Xbox   | 2004 | North America
+|       | Taito Legends                                                             | Sega                                   | Xbox   | 2005 | North America
+|       | Tak 2: The Staff of Dreams                                                | THQ                                    | Xbox   | 2004 | North America
+|       | Tak: The Great Juju Challenge                                             | THQ                                    | Xbox   | 2005 | North America
+|       | Tao Feng: Fist of the Lotus                                               | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Taz Wanted                                                                | Atari                                  | Xbox   | 2002 | North America
+|       | Tecmo Classic Arcade                                                      | Tecmo                                  | Xbox   | 2005 | North America
+|       | Teen Titans                                                               | THQ                                    | Xbox   | 2006 | North America
+|       | Teenage Mutant Ninja Turtles                                              | Konami                                 | Xbox   | 2003 | North America
+|       | Teenage Mutant Ninja Turtles 2: Battle Nexus                              | Konami                                 | Xbox   | 2004 | North America
+|       | Teenage Mutant Ninja Turtles 3: Mutant Nightmare                          | Konami                                 | Xbox   | 2005 | North America
+|       | Tenchu: Return From Darkness                                              | Activision                             | Xbox   | 2004 | North America
+|       | Tennis Masters Series 2003                                                | Hip Games                              | Xbox   | 2003 | North America
+|       | Terminator 3: Rise of the Machines                                        | Atari                                  | Xbox   | 2003 | North America
+|       | Terminator 3: The Redemption                                              | Atari                                  | Xbox   | 2004 | North America
+|       | Terminator: Dawn of Fate, The                                             | Atari                                  | Xbox   | 2002 | North America
+|       | Test Drive                                                                | Atari                                  | Xbox   | 2002 | North America
+|       | Test Drive Off-Road Wide Open                                             | Atari                                  | Xbox   | 2001 | North America
+|       | Test Drive: Eve of Destruction                                            | Atari                                  | Xbox   | 2004 | North America
+|       | Tetris Worlds                                                             | THQ                                    | Xbox   | 2002 | North America
+|       | Thief: Deadly Shadows                                                     | Eidos Interactive                      | Xbox   | 2004 | North America
+|       | Thing, The                                                                | VU Games                               | Xbox   | 2002 | North America
+|       | Thrillville                                                               | LucasArts                              | Xbox   | 2006 | North America
+|       | Tiger Woods PGA Tour 06                                                   | EA Sports                              | Xbox   | 2005 | North America
+|       | Tiger Woods PGA Tour 07                                                   | EA Sports                              | Xbox   | 2006 | North America
+|       | Tiger Woods PGA Tour 2003                                                 | Electronic Arts                        | Xbox   | 2002 | North America
+|       | Tiger Woods PGA Tour 2004                                                 | EA Sports                              | Xbox   | 2003 | North America
+|       | Tiger Woods PGA Tour 2005                                                 | EA Sports                              | Xbox   | 2004 | North America
+|       | Tim Burton's The Nightmare Before Christmas: Oogie's Revenge              | Buena Vista Games                      | Xbox   | 2005 | North America
+|       | TimeSplitters 2                                                           | Eidos Interactive                      | Xbox   | 2002 | North America
+|       | TimeSplitters: Future Perfect                                             | EA Games                               | Xbox   | 2005 | North America
+|       | TMNT: Mutant Melee                                                        | Konami                                 | Xbox   | 2005 | North America
+|       | TOCA Race Driver 2 with Colin McRae Rally 04                              | Codemasters                            | Xbox   | 2004 | North America
+|       | TOCA Race Driver 2: The Ultimate Racing Simulator                         | Codemasters                            | Xbox   | 2004 | North America
+|       | TOCA Race Driver 3: The Ultimate Racing Simulator                         | Codemasters                            | Xbox   | 2006 | North America
+|       | ToeJam & Earl III: Mission to Earth                                       | Sega                                   | Xbox   | 2002 | North America
+|       | Tom & Jerry in War of the Whiskers                                        | NewKidCo                               | Xbox   | 2003 | North America
+|       | Tom Clancy's Classic Trilogy: Ghost Recon / Splinter Cell / Rainbow Six 3 | Ubisoft                                | Xbox   | 2004 | North America
+|       | Tom Clancy's Ghost Recon                                                  | Ubisoft                                | Xbox   | 2002 | North America
+|       | Tom Clancy's Ghost Recon 2                                                | Ubisoft                                | Xbox   | 2004 | North America
+|       | Tom Clancy's Ghost Recon 2: Summit Strike                                 | Ubisoft                                | Xbox   | 2005 | North America
+|       | Tom Clancy's Ghost Recon Advanced Warfighter                              | Ubisoft                                | Xbox   | 2006 | North America
+|       | Tom Clancy's Ghost Recon: Island Thunder                                  | Ubisoft                                | Xbox   | 2003 | North America
+|       | Tom Clancy's Rainbow Six 3                                                | Ubisoft                                | Xbox   | 2003 | North America
+|       | Tom Clancy's Rainbow Six 3 Companion Disc                                 | Ubisoft                                | Xbox   | 2003 | North America
+|       | Tom Clancy's Rainbow Six 3: Black Arrow                                   | Ubisoft                                | Xbox   | 2004 | North America
+|       | Tom Clancy's Rainbow Six Critical Hour                                    | Ubisoft                                | Xbox   | 2006 | North America
+|       | Tom Clancy's Rainbow Six: Lockdown                                        | Ubisoft                                | Xbox   | 2005 | North America
+|       | Tom Clancy's Splinter Cell                                                | Ubisoft                                | Xbox   | 2002 | North America
+|       | Tom Clancy's Splinter Cell Chaos Theory                                   | Ubisoft                                | Xbox   | 2005 | North America
+|       | Tom Clancy's Splinter Cell Double Agent                                   | Ubisoft                                | Xbox   | 2006 | North America
+|       | Tom Clancy's Splinter Cell Pandora Tomorrow                               | Ubisoft                                | Xbox   | 2004 | North America
+|       | Tomb Raider: Legend                                                       | Eidos Interactive                      | Xbox   | 2006 | North America
+|       | Tony Hawk's American Wasteland                                            | Activision                             | Xbox   | 2005 | North America
+|       | Tony Hawk's Pro Skater 2x                                                 | Activision                             | Xbox   | 2001 | North America
+|       | Tony Hawk's Pro Skater 3                                                  | Activision                             | Xbox   | 2002 | North America
+|       | Tony Hawk's Pro Skater 4                                                  | Activision                             | Xbox   | 2002 | North America
+|       | Tony Hawk's Project 8                                                     | Activision                             | Xbox   | 2006 | North America
+|       | Tony Hawk's Underground                                                   | Activision                             | Xbox   | 2003 | North America
+|       | Tony Hawk's Underground 2                                                 | Activision                             | Xbox   | 2004 | North America
+|       | Top Gear RPM Tuning                                                       | Kemco                                  | Xbox   | 2005 | North America
+|       | Top Spin                                                                  | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Torino 2006 - The Official Video Game of the XX Olympic Winter Games      | 2K Sports                              | Xbox   | 2006 | North America
+|       | Tork: Prehistoric Punk                                                    | Ubisoft                                | Xbox   | 2005 | North America
+|       | Total Immersion Racing                                                    | Empire Interactive                     | Xbox   | 2002 | North America
+|       | Total Overdose: A Gunslinger's Tale in Mexico                             | Eidos Interactive                      | Xbox   | 2005 | North America
+|       | Totaled!                                                                  | Majesco Games                          | Xbox   | 2002 | North America
+|       | Toxic Grind                                                               | THQ                                    | Xbox   | 2002 | North America
+|       | TransWorld Snowboarding                                                   | Atari                                  | Xbox   | 2002 | North America
+|       | TransWorld Surf                                                           | Atari                                  | Xbox   | 2001 | North America
+|       | Trigger Man                                                               | Crave                                  | Xbox   | 2004 | North America
+|       | Triple Play 2002                                                          | Electronic Arts                        | Xbox   | 2002 | North America
+|       | Trivial Pursuit Unhinged                                                  | Atari                                  | Xbox   | 2004 | North America
+|       | Tron 2.0: Killer App                                                      | Buena Vista Interactive                | Xbox   | 2004 | North America
+|       | True Crime: New York City                                                 | Activision                             | Xbox   | 2005 | North America
+|       | True Crime: Streets of LA                                                 | Activision                             | Xbox   | 2003 | North America
+|       | Turok: Evolution                                                          | Acclaim                                | Xbox   | 2002 | North America
+|       | Ty the Tasmanian Tiger                                                    | EA Games                               | Xbox   | 2002 | North America
+|       | Ty the Tasmanian Tiger 2: Bush Rescue                                     | EA Games                               | Xbox   | 2004 | North America
+|       | Ty the Tasmanian Tiger 3: Night of the Quinkan                            | Activision Value                       | Xbox   | 2005 | North America
+|       | UEFA Euro 2004: Portugal                                                  | Electronic Arts                        | Xbox   | 2004 | North America
+|       | UFC: Tapout 2                                                             | TDK Mediactive                         | Xbox   | 2003 | North America
+|       | Ultimate Beach Soccer                                                     | DreamCatcher Interactive               | Xbox   | 2003 | North America
+|       | Ultimate Fighting Championship: Tapout                                    | Crave                                  | Xbox   | 2002 | North America
+|       | Ultimate Spider-Man                                                       | Activision                             | Xbox   | 2005 | North America
+|       | Ultra Bust-A-Move                                                         | Majesco Games                          | Xbox   | 2004 | North America
+|       | Unreal Championship                                                       | Atari                                  | Xbox   | 2002 | North America
+|       | Unreal Championship 2: The Liandri Conflict                               | Midway                                 | Xbox   | 2005 | North America
+|       | Unreal II: The Awakening                                                  | Atari                                  | Xbox   | 2004 | North America
+|       | Urban Chaos: Riot Response                                                | Eidos Interactive                      | Xbox   | 2006 | North America
+|       | Urbz: Sims in the City, The                                               | EA Games                               | Xbox   | 2004 | North America
+|       | V-Rally 3                                                                 | Atari                                  | Xbox   | 2003 | North America
+|       | Van Helsing                                                               | VU Games                               | Xbox   | 2004 | North America
+|       | Vexx                                                                      | Acclaim                                | Xbox   | 2003 | North America
+|       | Vietcong: Purple Haze                                                     | Gathering                              | Xbox   | 2004 | North America
+|       | Virtual Pool: Tournament Edition                                          | Global Star Software                   | Xbox   | 2005 | North America
+|       | Volvo: Drive for Life                                                     | Microsoft Game Studios                 | Xbox   | 2013 | North America
+|       | Voodoo Vince                                                              | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Wakeboarding Unleashed Featuring Shaun Murray                             | Activision                             | Xbox   | 2003 | North America
+|       | Wallace & Gromit in Project Zoo                                           | Bam Entertainment                      | Xbox   | 2003 | North America
+|       | Wallace & Gromit: Curse of the Were-Rabbit                                | Konami                                 | Xbox   | 2005 | North America
+|       | Warpath                                                                   | Groove Games                           | Xbox   | 2006 | North America
+|       | Warriors, The                                                             | Rockstar Games                         | Xbox   | 2005 | North America
+|       | Whacked!                                                                  | Microsoft Game Studios                 | Xbox   | 2002 | North America
+|       | Whiplash                                                                  | Eidos Interactive                      | Xbox   | 2003 | North America
+|       | Whiteout                                                                  | Konami                                 | Xbox   | 2002 | North America
+|       | WinBack 2: Project Poseidon                                               | Koei                                   | Xbox   | 2006 | North America
+|       | Wings of War                                                              | Gathering                              | Xbox   | 2004 | North America
+|       | Without Warning                                                           | Capcom                                 | Xbox   | 2005 | North America
+|       | World Championship Poker                                                  | Crave                                  | Xbox   | 2004 | North America
+|       | World Championship Poker 2: Featuring Howard Lederer                      | Crave                                  | Xbox   | 2005 | North America
+|       | World Championship Pool 2004                                              | Jaleco Entertainment                   | Xbox   | 2003 | North America
+|       | World Poker Tour                                                          | 2K Sports                              | Xbox   | 2005 | North America
+|       | World Racing                                                              | TDK Mediactive                         | Xbox   | 2003 | North America
+|       | World Racing 2                                                            | Evolved Games                          | Xbox   | 2006 | North America
+|       | World Series Baseball                                                     | Sega                                   | Xbox   | 2002 | North America
+|       | World Series Baseball 2K3                                                 | Sega                                   | Xbox   | 2003 | North America
+|       | World Series of Poker                                                     | Activision Value                       | Xbox   | 2005 | North America
+|       | World Soccer Winning Eleven 8 International                               | Konami                                 | Xbox   | 2005 | North America
+|       | World Soccer Winning Eleven 9                                             | Konami                                 | Xbox   | 2006 | North America
+|       | World War II Combat: Iwo Jima                                             | Groove Games                           | Xbox   | 2006 | North America
+|       | World War II Combat: Road to Berlin                                       | Groove Games                           | Xbox   | 2006 | North America
+|       | Worms 3D                                                                  | Sega                                   | Xbox   | 2005 | North America
+|       | Worms 4: Mayhem                                                           | Majesco Games                          | Xbox   | 2005 | North America
+|       | Worms Forts: Under Siege                                                  | Sega                                   | Xbox   | 2005 | North America
+|       | Wrath Unleashed                                                           | LucasArts                              | Xbox   | 2004 | North America
+|       | Wreckless: The Yakuza Missions                                            | Activision                             | Xbox   | 2002 | North America
+|       | WTA Tour Tennis                                                           | Konami                                 | Xbox   | 2002 | North America
+|       | WWE Raw 2                                                                 | THQ                                    | Xbox   | 2003 | North America
+|       | WWE WrestleMania 21                                                       | THQ                                    | Xbox   | 2005 | North America
+|       | WWF Raw                                                                   | THQ                                    | Xbox   | 2002 | North America
+|       | X-Men Legends                                                             | Activision                             | Xbox   | 2004 | North America
+|       | X-Men Legends II: Rise of Apocalypse                                      | Activision                             | Xbox   | 2005 | North America
+|       | X-Men: Next Dimension                                                     | Activision                             | Xbox   | 2002 | North America
+|       | X-Men: The Official Game                                                  | Activision                             | Xbox   | 2006 | North America
+|       | X2: Wolverine's Revenge                                                   | Activision                             | Xbox   | 2003 | North America
+|       | Xbox Exhibition                                                           | Microsoft Game Studios                 | Xbox   | 2013 | North America
+|       | Xbox Exhibition Volume 2                                                  | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Xbox Exhibition Volume 3                                                  | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Xbox Exhibition Volume 4                                                  | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | Xbox Exhibition Volume 5                                                  | Microsoft Game Studios                 | Xbox   | 2004 | North America
+|       | Xbox Exhibition Volume 6                                                  | Microsoft Game Studios                 | Xbox   | 2004 | North America
+|       | Xbox Live Arcade                                                          | Microsoft Game Studios                 | Xbox   | 2004 | North America
+|       | Xbox Music Mixer                                                          | Microsoft Game Studios                 | Xbox   | 2003 | North America
+|       | XGRA: Extreme-G Racing Association                                        | Acclaim                                | Xbox   | 2003 | North America
+|       | Xiaolin Showdown                                                          | Konami                                 | Xbox   | 2006 | North America
+|       | XIII                                                                      | Ubisoft                                | Xbox   | 2003 | North America
+|       | Xyanide                                                                   | Playlogic                              | Xbox   | 2006 | North America
+|       | Yager                                                                     | Kemco                                  | Xbox   | 2004 | North America
+|       | Yourself!Fitness                                                          | Respondesign                           | Xbox   | 2004 | North America
+|       | Yu-Gi-Oh! The Dawn of Destiny                                             | Konami                                 | Xbox   | 2004 | North America
+|       | Zapper: One Wicked Cricket!                                               | Infogrames                             | Xbox   | 2002 | North America
+|       | Zathura                                                                   | 2K Games                               | Xbox   | 2005 | North America

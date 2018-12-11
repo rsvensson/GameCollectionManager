@@ -1,0 +1,108 @@
+|       | Ace of Aces                  | Atari                  | Atari 7800 | 1988 | North America
+|       | Alien Brigade                | Atari                  | Atari 7800 | 1990 | North America
+|       | Asteroids                    | Atari                  | Atari 7800 | 1986 | North America
+|       | Ballblazer                   | Atari                  | Atari 7800 | 1988 | North America
+|       | Barnyard Blaster             | Atari                  | Atari 7800 | 1988 | North America
+|       | Basketbrawl                  | Atari                  | Atari 7800 | 1990 | North America
+|       | Centipede                    | Atari                  | Atari 7800 | 1987 | North America
+|       | Choplifter!                  | Atari                  | Atari 7800 | 1987 | North America
+|       | Commando                     | Atari                  | Atari 7800 | 1990 | North America
+|       | Crack'ed                     | Atari                  | Atari 7800 | 1988 | North America
+|       | Crossbow                     | Atari                  | Atari 7800 | 1988 | North America
+|       | Dark Chambers                | Atari                  | Atari 7800 | 1988 | North America
+|       | Desert Falcon                | Atari                  | Atari 7800 | 1987 | North America
+|       | Dig Dug                      | Atari                  | Atari 7800 | 1987 | North America
+|       | Donkey Kong                  | Atari                  | Atari 7800 | 1988 | North America
+|       | Donkey Kong Junior           | Atari                  | Atari 7800 | 1988 | North America
+|       | Double Dragon                | Activision             | Atari 7800 | 1989 | North America
+|       | F-18 Hornet                  | Absolute Entertainment | Atari 7800 | 1988 | North America
+|       | Fatal Run                    | Atari                  | Atari 7800 | 1991 | North America
+|       | Fight Night                  | Atari                  | Atari 7800 | 1988 | North America
+|       | Food Fight                   | Atari                  | Atari 7800 | 1986 | North America
+|       | Galaga                       | Atari                  | Atari 7800 | 1987 | North America
+|       | Hat Trick                    | Atari                  | Atari 7800 | 1987 | North America
+|       | Ikari Warriors               | Atari                  | Atari 7800 | 1990 | North America
+|       | Impossible Mission           | Atari                  | Atari 7800 | 1986 | North America
+|       | Jinks                        | Atari                  | Atari 7800 | 1989 | North America
+|       | Joust                        | Atari                  | Atari 7800 | 1986 | North America
+|       | Karateka                     | Atari                  | Atari 7800 | 1988 | North America
+|       | KLAX                         | ResQsoft Productions   | Atari 7800 | 2002 | North America
+|       | Kung Fu Master               | Absolute Entertainment | Atari 7800 | 1989 | North America
+|       | Mario Bros.                  | Atari                  | Atari 7800 | 1987 | North America
+|       | Mat Mania Challenge          | Atari                  | Atari 7800 | 1990 | North America
+|       | Mean 18 Golf                 | Atari                  | Atari 7800 | 1989 | North America
+|       | Meltdown                     | Atari                  | Atari 7800 | 1990 | North America
+|       | Midnight Mutants             | Atari                  | Atari 7800 | 1990 | North America
+|       | Motor Psycho                 | Atari                  | Atari 7800 | 1990 | North America
+|       | Ms. Pac-Man                  | Atari                  | Atari 7800 | 1987 | North America
+|       | Ninja Golf                   | Atari                  | Atari 7800 | 1990 | North America
+|       | One-on-One Basketball        | Atari                  | Atari 7800 | 1987 | North America
+|       | Pete Rose Baseball           | Absolute Entertainment | Atari 7800 | 1989 | North America
+|       | Planet Smashers              | Atari                  | Atari 7800 | 1990 | North America
+|       | Pole Position II             | Atari                  | Atari 7800 | 1987 | North America
+|       | Rampage                      | Activision             | Atari 7800 | 1989 | North America
+|       | RealSports Baseball          | Atari                  | Atari 7800 | 1988 | North America
+|       | Robotron: 2084               | Atari                  | Atari 7800 | 1987 | North America
+|       | Scrapyard Dog                | Atari                  | Atari 7800 | 1991 | North America
+|       | Summer Games                 | Atari                  | Atari 7800 | 1987 | North America
+|       | Super Huey UH-IX             | Atari                  | Atari 7800 | 1988 | North America
+|       | Super Skateboardin'          | Absolute Entertainment | Atari 7800 | 1988 | North America
+|       | Tank Command                 | Froggo                 | Atari 7800 | 1988 | North America
+|       | Title Match Pro Wrestling    | Absolute Entertainment | Atari 7800 | 1989 | North America
+|       | Tomcat F-14 Flight Simulator | Absolute Entertainment | Atari 7800 | 1989 | North America
+|       | Touchdown Football           | Atari                  | Atari 7800 | 1988 | North America
+|       | Tower Toppler                | Atari                  | Atari 7800 | 1988 | North America
+|       | Water Ski                    | Froggo                 | Atari 7800 | 1988 | North America
+|       | Winter Games                 | Atari                  | Atari 7800 | 1987 | North America
+|       | Xenophobe                    | Atari                  | Atari 7800 | 1989 | North America
+|       | Xevious                      | Atari                  | Atari 7800 | 1987 | North America
+|       | Ace of Aces                  | Atari                  | Atari 7800 | 1988 | Europe
+|       | Alien Brigade                | Atari                  | Atari 7800 | 1990 | Europe
+|       | Asteroids                    | Atari                  | Atari 7800 | 1986 | Europe
+|       | Ballblazer                   | Atari                  | Atari 7800 | 1988 | Europe
+|       | Barnyard Blaster             | Atari                  | Atari 7800 | 1988 | Europe
+|       | Basketbrawl                  | Atari                  | Atari 7800 | 1990 | Europe
+|       | Centipede                    | Atari                  | Atari 7800 | 1987 | Europe
+|       | Choplifter!                  | Atari                  | Atari 7800 | 1987 | Europe
+|       | Commando                     | Atari                  | Atari 7800 | 1990 | Europe
+|       | Crack'ed                     | Atari                  | Atari 7800 | 1988 | Europe
+|       | Crossbow                     | Atari                  | Atari 7800 | 1988 | Europe
+|       | Dark Chambers                | Atari                  | Atari 7800 | 1988 | Europe
+|       | Desert Falcon                | Atari                  | Atari 7800 | 1987 | Europe
+|       | Dig Dug                      | Atari                  | Atari 7800 | 1987 | Europe
+|       | Donkey Kong                  | Atari                  | Atari 7800 | 1988 | Europe
+|       | Donkey Kong Junior           | Atari                  | Atari 7800 | 1988 | Europe
+|       | Double Dragon                | Activision             | Atari 7800 | 1989 | Europe
+|       | F-18 Hornet                  | Absolute Entertainment | Atari 7800 | 1988 | Europe
+|       | Fatal Run                    | Atari                  | Atari 7800 | 1991 | Europe
+|       | Fight Night                  | Atari                  | Atari 7800 | 1988 | Europe
+|       | Food Fight                   | Atari                  | Atari 7800 | 1986 | Europe
+|       | Galaga                       | Atari                  | Atari 7800 | 1987 | Europe
+|       | Hat Trick                    | Atari                  | Atari 7800 | 1987 | Europe
+|       | Ikari Warriors               | Atari                  | Atari 7800 | 1990 | Europe
+|       | Impossible Mission           | Atari                  | Atari 7800 | 1986 | Europe
+|       | Jinks                        | Atari                  | Atari 7800 | 1989 | Europe
+|       | Joust                        | Atari                  | Atari 7800 | 1986 | Europe
+|       | Karateka                     | Atari                  | Atari 7800 | 1988 | Europe
+|       | Kung Fu Master               | Absolute Entertainment | Atari 7800 | 1989 | Europe
+|       | Mario Bros.                  | Atari                  | Atari 7800 | 1987 | Europe
+|       | Mat Mania Challenge          | Atari                  | Atari 7800 | 1990 | Europe
+|       | Mean 18 Golf                 | Atari                  | Atari 7800 | 1989 | Europe
+|       | Meltdown                     | Atari                  | Atari 7800 | 1990 | Europe
+|       | Midnight Mutants             | Atari                  | Atari 7800 | 1990 | Europe
+|       | Motor Psycho                 | Atari                  | Atari 7800 | 1990 | Europe
+|       | Ms. Pac-Man                  | Atari                  | Atari 7800 | 1987 | Europe
+|       | Ninja Golf                   | Atari                  | Atari 7800 | 1990 | Europe
+|       | One-on-One Basketball        | Atari                  | Atari 7800 | 1987 | Europe
+|       | Pete Rose Baseball           | Absolute Entertainment | Atari 7800 | 1989 | Europe
+|       | Planet Smashers              | Atari                  | Atari 7800 | 1990 | Europe
+|       | Pole Position II             | Atari                  | Atari 7800 | 1987 | Europe
+|       | Scrapyard Dog                | Atari                  | Atari 7800 | 1991 | Europe
+|       | Sentinel                     | Atari Corporation      | Atari 7800 | 1991 | Europe
+|       | Super Huey UH-IX             | Atari                  | Atari 7800 | 1988 | Europe
+|       | Super Skateboardin'          | Absolute Entertainment | Atari 7800 | 1988 | Europe
+|       | Title Match Pro Wrestling    | Absolute Entertainment | Atari 7800 | 1989 | Europe
+|       | Tomcat F-14 Flight Simulator | Absolute Entertainment | Atari 7800 | 1989 | Europe
+|       | Tower Toppler                | Atari                  | Atari 7800 | 1988 | Europe
+|       | Xenophobe                    | Atari                  | Atari 7800 | 1989 | Europe
+|       | Xevious                      | Atari                  | Atari 7800 | 1987 | Europe

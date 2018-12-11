@@ -5,13 +5,13 @@ from database import Database
 from widgets.tabwidgets import *
 from widgets.inputwindow import InputWindow
 from widgets.importwindow import ImportWindow
-from overview import Overview
+from widgets.overview import Overview
 
 from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget,\
     QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget
 from PySide2.QtGui import QIcon
 
-_VERSION = "0.0.10"
+_VERSION = "0.0.11"
 
 
 class MainWindow(QMainWindow):
@@ -177,6 +177,10 @@ class MainWindow(QMainWindow):
                     rows.append(index.row())
                 self.tableWidgetList[currentTab-1].deleteData(rows)
 
+    def importToDatabase(self):
+        self.importWindow = ImportWindow()
+        self.importWindow.exec_()
+
     # noinspection PyCallByClass,PyTypeChecker
     def buttonActions(self, action):
         addAct = QAction(QIcon().fromTheme("document-new"), "&Add to collection", self)
@@ -201,6 +205,7 @@ class MainWindow(QMainWindow):
         impAct = QAction(QIcon.fromTheme("list-add"), "&Import games to database", self)
         impAct.setShortcut("Ctrl+I")
         impAct.setToolTip("Import games to database")
+        impAct.triggered.connect(self.importToDatabase)
 
         ownAct = QAction("Hide games not in collection", self)
         ownAct.setCheckable(True)
