@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from PySide2.QtWidgets import QDialog, QLabel, QCheckBox, QHBoxLayout, QVBoxLayout
+from PySide2.QtWidgets import QDialog, QLabel, QCheckBox, QHBoxLayout, QVBoxLayout, QDesktopWidget
 
 
 class ImportWindow(QDialog):
@@ -19,4 +19,17 @@ class ImportWindow(QDialog):
 
         self.vbox = QVBoxLayout()
         self.vbox.addLayout(self.hboxAll, 0)
+
+        self.setLayout(self.vbox)
+        self.setWindowTitle("Import games")
+        self.setFixedSize(500, 280)
+        self._center()
+
+    def _center(self):
+        """Centers window on screen"""
+
+        qr = self.frameGeometry()
+        cp = QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
 

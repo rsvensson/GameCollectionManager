@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 
 from pathlib import Path
-from mainwindow import createWindow
-import cProfile
+from widgets.mainwindow import createWindow
 
 
 def main():
