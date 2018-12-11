@@ -2,11 +2,13 @@
 
 import sys
 from database import Database
-from widgets import *
+from widgets.tabwidgets import *
+from widgets.inputwindow import InputWindow
+from widgets.importwindow import ImportWindow
 from overview import Overview
 
 from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget,\
-    QAction, QMenu, QApplication, QMessageBox
+    QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget
 from PySide2.QtGui import QIcon
 
 _VERSION = "0.0.10"
@@ -21,6 +23,9 @@ class MainWindow(QMainWindow):
 
         # 'Add to collection' window
         self.addWindow = None
+
+        # 'Import games' window
+        self.importWindow = None
 
         # Tables and their databases
         self.gamesDB = Database(gamesPath)
@@ -47,10 +52,11 @@ class MainWindow(QMainWindow):
 
         self.overview = Overview(self.tableWidgetList)
 
-        self.randomizer = Randomizer(self.gamesTableWidget.getData())
+        self.randomizer = Randomizer(self.gamesTableWidget.getOwnedItems())
         self.randomizer.consoleList.itemClicked.connect(self.updateStatusbar)
         self.randomizer.btnAll.clicked.connect(self.updateStatusbar)
         self.randomizer.btnNone.clicked.connect(self.updateStatusbar)
+
 
         # MainWindow layout
 
@@ -66,6 +72,7 @@ class MainWindow(QMainWindow):
         self.fileMenu = self.menuBar().addMenu(self.tr("&File"))
         self.fileMenu.addAction(self.buttonActions("add"))
         self.fileMenu.addAction(self.buttonActions("open"))
+        self.fileMenu.addAction(self.buttonActions("import"))
         self.fileMenu.insertSeparator(self.buttonActions("exit"))
         self.fileMenu.addAction(self.buttonActions("exit"))
         self.viewMenu = self.menuBar().addMenu(self.tr("&View"))
@@ -191,6 +198,10 @@ class MainWindow(QMainWindow):
         opnAct.setShortcut("Ctrl+O")
         opnAct.setToolTip("Open a csv file for reading")
 
+        impAct = QAction(QIcon.fromTheme("list-add"), "&Import games to database", self)
+        impAct.setShortcut("Ctrl+I")
+        impAct.setToolTip("Import games to database")
+
         ownAct = QAction("Hide games not in collection", self)
         ownAct.setCheckable(True)
         ownAct.setChecked(True)
@@ -205,7 +216,7 @@ class MainWindow(QMainWindow):
         exitAct.setToolTip("Exit application")
         exitAct.triggered.connect(self.close)
 
-        act = {"add": addAct, "del": delAct, "open": opnAct,
+        act = {"add": addAct, "del": delAct, "open": opnAct, "import": impAct,
                "owned": ownAct,
                "about": aboutAct, "exit": exitAct}
 
@@ -279,7 +290,7 @@ class MainWindow(QMainWindow):
             return
 
         if not self.isFiltering and 0 < currentTab < 4:
-            numItems = self.tableWidgetList[currentTab-1].getOwned()
+            numItems = self.tableWidgetList[currentTab-1].getOwnedCount()
             if self.tableWidgetList[currentTab-1].isHideNotOwned():
                 self.statusBar().showMessage("{} {} in collection.".format(numItems, itemType[currentTab-1]))
             else:

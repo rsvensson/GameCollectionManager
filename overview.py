@@ -121,7 +121,7 @@ class Overview(QWidget):
         for i, table in enumerate(self.tables):
             self.lblTables.append(QLabel())
             self.lblTables[i].setText("Number of {}: {}".format(table.objectName(),
-                                                                table.getOwned()))
+                                                                table.getOwnedCount()))
 
             for row in table.getData():
                 for col in row:
@@ -144,4 +144,4 @@ class Overview(QWidget):
                     self.accessoryData[platform] = table.searchTableData(key="Platform", value=platform)
 
         for table in self.tables:
-            self.totalItems += table.getOwned()
+            self.totalItems += table.getOwnedCount()
