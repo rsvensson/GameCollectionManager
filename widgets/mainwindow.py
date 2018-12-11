@@ -68,6 +68,7 @@ class MainWindow(QMainWindow):
         self.toolbar = self.addToolBar("Exit")
         self.toolbar.addAction(self.buttonActions("exit"))
         self.toolbar.addAction(self.buttonActions("add"))
+        self.toolbar.addAction(self.buttonActions(("import")))
 
         self.fileMenu = self.menuBar().addMenu(self.tr("&File"))
         self.fileMenu.addAction(self.buttonActions("add"))
