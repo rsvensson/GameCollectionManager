@@ -3,14 +3,16 @@ from pathlib import Path
 from PySide2.QtWidgets import QDialog, QLabel, QCheckBox, QHBoxLayout, QVBoxLayout, QDesktopWidget,\
     QPushButton
 
-from tools.text2csv import createCSV
+from tools.text2csv import createGameData
 
 
 class ImportWindow(QDialog):
-    def __init__(self):
+    def __init__(self, currentdb):
         super().__init__()
 
-        self.platformListPaths = Path("data/vgdb/*.txt")
+        self.gamesdata = []
+
+        self.platformListPath = Path("data/vgdb/")
         self.platformList = dict()
 
         self.setContentsMargins(5, 5, 5, 5)
@@ -19,8 +21,10 @@ class ImportWindow(QDialog):
         self.all.setObjectName("All")
 
         self.btnCancel = QPushButton("Cancel")
+        self.btnCancel.clicked.connect(self.close)
         self.btnOK = QPushButton("OK")
-        self.btnOK.clicked.connect(self.doImport)
+        self.btnOK.clicked.connect(self._doImport)
+        self.btnOK.clicked.connect(self.accept)
 
         self.hboxAll = QHBoxLayout()
         self.hboxAll.addWidget(self.lblAll, 0)
@@ -49,5 +53,14 @@ class ImportWindow(QDialog):
         qr.moveCenter(cp)
         self.move(qr.topLeft())
 
-    def doImport(self):
-        print("Not implemented yet")
+    def _doImport(self):
+        if self.all.isChecked():
+            newData = []
+            for file in self.platformListPath.iterdir():
+                newData.append(createGameData(file))
+            for lst in newData:
+                for game in lst:
+                    self.gamesdata.append(game)
+
+    def returnData(self):
+        return self.gamesdata

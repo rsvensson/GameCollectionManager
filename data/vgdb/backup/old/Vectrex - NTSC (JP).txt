@@ -1,8 +1,0 @@
-|       | Armor..Attack | Bandai    | Vectrex | 1982 | Japan
-|       | Berzerk       | Bandai    | Vectrex | 1982 | Japan
-|       | Cosmic Chasm  | Bandai    | Vectrex | 1982 | Japan
-|       | Harmagedon    | Bandai    | Vectrex | 1982 | Japan
-|       | Rip Off       | Bandai    | Vectrex | 1982 | Japan
-|       | Scramble Wars | Bandai    | Vectrex | 1982 | Japan
-|       | Solar Quest   | Bandai    | Vectrex | 1982 | Japan
-|       | Space Wars    | Bandai    | Vectrex | 1982 | Japan

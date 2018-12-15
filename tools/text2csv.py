@@ -8,6 +8,7 @@ into csv data that can be used with GCM.
 from sys import argv, exit
 from pathlib import Path
 import csv
+from collections import OrderedDict
 
 
 def _readTextFile(infile):
@@ -15,75 +16,42 @@ def _readTextFile(infile):
         with open(infile, 'r', encoding='utf8') as f:
             lines = f.readlines()
     except FileNotFoundError:
-        raise FileNotFoundError
-#        print("No such file: {}\nAborting.")
-#        exit(2)
+        raise FileNotFoundError("No such file: {}".format(infile))
 
     if len(lines) == 0:
-        raise IOError
-#        print("Input file is empty! Aborting.")
-#        exit(3)
+        raise IOError("File {} is empty!".format(infile))
 
     gamedata = []
 
     # Extract the info we want
     for i, line in enumerate(lines):
-#        if "|" not in line:
-#            print("Line {} in input file is not a valid VGDB.io text file (e.g it doesn't have any '|' characters):".format(i))
-#            print(line + "\n")
-#            print("Example line from a valid text file:")
-#            print("|       | Battlezone                 | Atari, Inc. | Atari 2600 | 1983 | Japan")
-#            exit(4)
+        if "|" not in line:
+            raise TypeError("Line {} in file {} is missing '|' delimiters.".format(i, infile))
+        else:
+            temp = line.split("|")
 
-        temp = line.split("|")
-
-#        if len(temp) is not 7:
-#            print("Line {} in input file malformed:".format(i))
-#            print(line + "\n")
-#            print("Example line from a valid text file:")
-#            print("|       | Battlezone                 | Atari, Inc. | Atari 2600 | 1983 | Japan")
-#            print("(Whitespace is not important, but it must consist of six segments separated by '|' characters.")
-#            exit(5)
-
-        for i, row in enumerate(temp):
-            temp[i] = row.strip()
-        gamedata.append({"Name": temp[2],
-                         "Platform": temp[4],
-                         "Region": temp[6],
-                         "Year": temp[5]})
+        if len(temp) is not 7:
+            raise TypeError("Line {} in file {} malformed:\n{}".format(i, infile, temp))
+        else:
+            for i, row in enumerate(temp):
+                temp[i] = row.strip()
+            gamedata.append({"Name": temp[2],
+                             "Platform": temp[4],
+                             "Region": temp[6],
+                             "Year": temp[5]})
 
     return gamedata
 
 
-def createCSV(infile, outfile):
-    dialect = "excel-tab" if outfile.suffix[1:] == "tsv" else "excel"
+def createGameData(infile):
+    filedata = _readTextFile(infile)
+    gamedata = []
 
-    gamedata = _readTextFile(infile)
+    for game in filedata:
+        gamedata.append(OrderedDict({"Platform": game["Platform"], "Name": game["Name"],
+                                     "Region": game["Region"], "Code": "",
+                                     "Game": "No", "Box": "No",
+                                     "Manual": "No", "Year": game["Year"],
+                                     "Comment": ""}))
 
-    with open(outfile, 'w', encoding='utf8') as f:
-        headers = ["Platform", "Name", "Region", "Code", "Game", "Box", "Manual", "Year", "Comment"]
-        writer = csv.DictWriter(f, fieldnames=headers, dialect=dialect)
-        writer.writeheader()
-
-        for game in gamedata:
-            row = {"Platform": game["Platform"], "Name": game["Name"],
-                   "Region": game["Region"], "Code": "",
-                   "Game": "No", "Box": "No",
-                   "Manual": "No", "Year": game["Year"],
-                   "Comment": ""}
-            writer.writerow(row)
-
-
-def main(self):
-    if len(argv) <= 2:
-        print("{}: Converts a vgdb.io plain text game list into csv format\n".format(Path(argv[0]).name))
-        print("Usage: {} <input file (.txt)> <output file (.csv/.tsv)>".format(Path(argv[0]).name))
-        exit()
-
-    infile = Path(argv[1])
-    outfile = Path(argv[2])
-    if outfile.suffix[1:] not in ["csv", "tsv"]:
-        print("Invalid output file suffix. Only '.csv' and '.csv' allowed.")
-        exit(1)
-
-    self.createCSV(self.readTextFile(infile), outfile)
+    return gamedata

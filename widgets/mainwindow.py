@@ -78,6 +78,7 @@ class MainWindow(QMainWindow):
         self.fileMenu.addAction(self.buttonActions("exit"))
         self.viewMenu = self.menuBar().addMenu(self.tr("&View"))
         self.viewMenu.addAction(self.buttonActions("owned"))
+        self.viewMenu.addAction(self.buttonActions("delnotowned"))
         self.helpMenu = self.menuBar().addMenu(self.tr("&Help"))
         self.helpMenu.addAction(self.buttonActions("about"))
 
@@ -164,7 +165,7 @@ class MainWindow(QMainWindow):
 
         if 0 < currentTab < 4:
             msgBox = QMessageBox()
-            msgBox.setWindowTitle("Delete item")
+            msgBox.setWindowTitle("Delete items")
             msgBox.setText("Are you sure?")
             msgBox.setIcon(QMessageBox.Warning)
             msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
@@ -178,9 +179,27 @@ class MainWindow(QMainWindow):
                     rows.append(index.row())
                 self.tableWidgetList[currentTab-1].deleteData(rows)
 
+    def deleteNotOwned(self):
+        currentTab = self.tab.currentIndex()
+
+        if 0 < currentTab < 4:
+            msgBox = QMessageBox()
+            msgBox.setWindowTitle("Remove not owned items")
+            msgBox.setText("Are you sure?")
+            msgBox.setIcon(QMessageBox.Warning)
+            msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
+            msgBox.setDefaultButton(QMessageBox.Cancel)
+            ok = msgBox.exec_()
+
+            if ok == QMessageBox.Ok:
+                self.tableWidgetList[currentTab-1].deleteNotOwned()
+
     def importToDatabase(self):
-        self.importWindow = ImportWindow()
-        self.importWindow.exec_()
+        self.importWindow = ImportWindow(self.gamesTableWidget.getData())
+        if self.importWindow.exec_() == QDialog.Accepted:
+            data = self.importWindow.returnData()
+            self.gamesTableWidget.addData(data)
+
 
     # noinspection PyCallByClass,PyTypeChecker
     def buttonActions(self, action):
@@ -213,6 +232,10 @@ class MainWindow(QMainWindow):
         ownAct.setChecked(True)
         ownAct.triggered.connect(self.toggleOwnedFilter)
 
+        delNotOwned = QAction(QIcon().fromTheme("edit-delete"), "Remove items not in collection", self)
+        delNotOwned.setToolTip("Remove items that are not owned from database")
+        delNotOwned.triggered.connect(self.deleteNotOwned)
+
         aboutAct = QAction(QIcon.fromTheme("help-about"), "Abou&t", self)
         aboutAct.setToolTip("About Game Collection Manager")
         aboutAct.triggered.connect(self.about)
@@ -223,7 +246,7 @@ class MainWindow(QMainWindow):
         exitAct.triggered.connect(self.close)
 
         act = {"add": addAct, "del": delAct, "open": opnAct, "import": impAct,
-               "owned": ownAct,
+               "owned": ownAct, "delnotowned": delNotOwned,
                "about": aboutAct, "exit": exitAct}
 
         return act.get(action)
@@ -259,15 +282,26 @@ class MainWindow(QMainWindow):
 
         if 0 < currentTab < 4:
             self.searchBox.setEnabled(True)
-            if filterText is not "":
-                rowCount = self.tableWidgetList[currentTab-1].searchTable(filterText)
-                self.statusBar().showMessage("Found {} {}.".format(rowCount,
+            if self.tableWidgetList[currentTab-1].getDataLength() < 10000:
+                if filterText is not "":
+                    rowCount = self.tableWidgetList[currentTab-1].searchTable(filterText)
+                    self.statusBar().showMessage("Found {} {}.".format(rowCount,
                                                                    self.tableWidgetList[currentTab-1].objectName()))
-                self.isFiltering = True
-            else:
-                self.isFiltering = False
-                self.updateStatusbar()
-                self.tableWidgetList[currentTab-1].searchTable("")
+                    self.isFiltering = True
+                else:
+                    self.isFiltering = False
+                    self.updateStatusbar()
+                    self.tableWidgetList[currentTab-1].searchTable("")
+            elif self.searchBox.returnPressed:
+                if filterText is not "":
+                    rowCount = self.tableWidgetList[currentTab - 1].searchTable(filterText)
+                    self.statusBar().showMessage("Found {} {}.".format(rowCount,
+                                                                           self.tableWidgetList[currentTab - 1].objectName()))
+                    self.isFiltering = True
+                else:
+                    self.isFiltering = False
+                    self.updateStatusbar()
+                    self.tableWidgetList[currentTab - 1].searchTable("")
         else:
             self.searchBox.setEnabled(False)
 

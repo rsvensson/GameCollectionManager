@@ -284,7 +284,12 @@ class Table(QTableWidget):
         self.updated.emit()
 
     def addData(self, newData):
-        self._tableData.append(newData)
+        if isinstance(newData, list):
+            for data in newData:
+                self._tableData.append(data)
+        elif isinstance(newData, OrderedDict):
+            self._tableData.append(newData)
+
         self._updateTable()
 
     def deleteData(self, rows):
@@ -303,8 +308,21 @@ class Table(QTableWidget):
 
         self._updateTable()
 
+    def deleteNotOwned(self):
+        count = 0
+        for row in self._items:
+            for col in row:
+                if col == "In collection" and not row[col]:
+                    del self._tableData[row["Row"] - count]
+                    count += 1
+
+        self._updateTable()
+
     def getData(self):
         return self._tableData
+
+    def getDataLength(self):
+        return len(self._tableData)
 
     def getOwnedCount(self):
         """Returns number of owned items in table."""
