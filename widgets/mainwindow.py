@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import sys
-from database import Database
+from csvdatabase import Database
 from widgets.tabwidgets import *
 from widgets.inputwindow import InputWindow
 from widgets.importwindow import ImportWindow
@@ -11,7 +11,7 @@ from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget,\
     QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget
 from PySide2.QtGui import QIcon
 
-_VERSION = "0.0.11"
+_VERSION = "0.0.12"
 
 
 class MainWindow(QMainWindow):
@@ -35,6 +35,7 @@ class MainWindow(QMainWindow):
         self.gamesTableWidget = Table(self.gamesDB)
         self.gamesTableWidget.setObjectName("games")
         self.gamesTableWidget.updated.connect(self.updateStatusbar)
+        self.gameTableView = SqlTable()
         self.consolesTableWidget = Table(self.consolesDB)
         self.consolesTableWidget.setObjectName("consoles")
         self.gamesTableWidget.updated.connect(self.updateStatusbar)
@@ -95,7 +96,7 @@ class MainWindow(QMainWindow):
 
         # Tab layout. TODO: Maybe move to a separate class?
         self.tab.addTab(self.overview.layout, "Overview")
-        self.tab.addTab(self.gamesTableWidget, "Games")
+        self.tab.addTab(self.gameTableView, "Games")
         self.tab.addTab(self.consolesTableWidget, "Consoles")
         self.tab.addTab(self.accessoriesTableWidget, "Accessories")
         self.tab.addTab(self.randomizer.layout, "Randomizer")
@@ -221,6 +222,10 @@ class MainWindow(QMainWindow):
         opnAct = QAction(QIcon.fromTheme("document-open"), "&Open csv file", self)
         opnAct.setShortcut("Ctrl+O")
         opnAct.setToolTip("Open a csv file for reading")
+
+        savAct = QAction(QIcon.fromTheme("document-save"), "&Save tables", self)
+        savAct.setShortcut("Ctrl+S")
+        savAct.setToolTip("Saves the tables to the database")
 
         impAct = QAction(QIcon.fromTheme("list-add"), "&Import games to database", self)
         impAct.setShortcut("Ctrl+I")

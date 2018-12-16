@@ -25,14 +25,14 @@ with filename.open('r', encoding='utf8') as f:
     for row in reader:
         data.append(row)
 
-for row in data:
+for i, row in enumerate(data):
     newData = row.__class__()
     for key, val in row.items():
         if key == "Owned":
             continue
         newData[key] = val
-        if key == afterColumn:
-            newData[columnName] = value
+        #if key == afterColumn:
+        #    newData[columnName] = value
 
     row.clear()
     row.update(newData)

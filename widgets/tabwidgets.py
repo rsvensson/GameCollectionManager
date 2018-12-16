@@ -1,10 +1,12 @@
 from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout,\
     QTableWidget, QTableWidgetItem, QPushButton, QLabel,\
-    QListWidget, QAbstractItemView
+    QListWidget, QAbstractItemView, QTableView, QMessageBox
+from PySide2.QtSql import QSqlTableModel, QSqlDatabase
 from PySide2.QtGui import QColor, QFont
 from PySide2.QtCore import Qt, Signal
 from collections import OrderedDict
 from random import randint
+import sqlite3
 
 
 class Randomizer(QWidget):
@@ -121,8 +123,9 @@ class Table(QTableWidget):
     resized = Signal()
 
     def __init__(self, tableDB):
-        """tableDB: A 'Database' (csv/tsv) object"""
-
+        """
+        tableDB: A 'Database' (csv/tsv) object
+        """
         super().__init__()
 
         self._tableDB = tableDB
@@ -353,6 +356,10 @@ class Table(QTableWidget):
         self.resized.emit()
         return super().resizeEvent(event)
 
+    def saveData(self):
+        self._tableDB.connect()
+        self._updateTable()
+
     def searchTable(self, text):
         """Searches the table for 'text'. Rows not matching 'text' are hidden.
            If self._hideNotOwned is True, then also filter out the not owned items.
@@ -431,7 +438,10 @@ class Table(QTableWidget):
            Returns the number of matches."""
 
         matchCount = 0
-        keys = self._tableData[0].keys()
+        if len(self._tableData) < 1:  # Empty table
+            return 0
+        else:
+            keys = self._tableData[0].keys()
 
         # Searches for specific value in specific key
         if not key == "" and not value == "":
@@ -470,3 +480,38 @@ class Table(QTableWidget):
 
     def isHideNotOwned(self):
         return self._hideNotOwned
+
+
+class SqlTable(QTableView):
+    def __init__(self):
+        super().__init__()
+
+        db = QSqlDatabase.addDatabase("QSQLITE")
+        db.setDatabaseName("games.db")
+        if not db.open():
+            QMessageBox.critical(None, "Database Error", db.lastError().text())
+        self.db = db
+        self.model = QSqlTableModel(self, self.db)
+        self.model.setTable("games")
+        self.model.setEditStrategy(QSqlTableModel.OnManualSubmit)
+        self.model.select()
+        self.model.setHeaderData(0, Qt.Horizontal, "Platform")
+        self.model.setHeaderData(1, Qt.Horizontal, "Name")
+        self.model.setHeaderData(2, Qt.Horizontal, "Region")
+        self.model.setHeaderData(3, Qt.Horizontal, "Code")
+        self.model.setHeaderData(4, Qt.Horizontal, "Game")
+        self.model.setHeaderData(5, Qt.Horizontal, "Box")
+        self.model.setHeaderData(6, Qt.Horizontal, "Manual")
+        self.model.setHeaderData(7, Qt.Horizontal, "Year")
+        self.model.setHeaderData(8, Qt.Horizontal, "Comment")
+
+        self.setModel(self.model)
+
+    def _populateTable(self):
+
+        pass
+
+    def searchTable(self, term):
+        items = self.findItems(term, Qt.MatchContains)
+        for item in items:
+            print(item.text())
