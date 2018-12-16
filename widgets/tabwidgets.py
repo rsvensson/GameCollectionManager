@@ -1,8 +1,8 @@
 from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout,\
     QTableWidget, QTableWidgetItem, QPushButton, QLabel,\
-    QListWidget, QAbstractItemView, QTableView, QMessageBox
+    QListWidget, QAbstractItemView, QTableView, QMessageBox, QItemDelegate, QCheckBox
 from PySide2.QtSql import QSqlTableModel, QSqlDatabase
-from PySide2.QtGui import QColor, QFont
+from PySide2.QtGui import QColor, QFont, QPainter
 from PySide2.QtCore import Qt, Signal
 from collections import OrderedDict
 from random import randint
@@ -482,6 +482,42 @@ class Table(QTableWidget):
         return self._hideNotOwned
 
 
+class TableModel(QSqlTableModel):
+    """
+    Subclassing QSqlTableModel to be able to have checkboxes in our cells
+    Adapted from https://stackoverflow.com/questions/48193325/checkbox-in-qlistview-using-qsqltablemodel
+    """
+    def __init__(self, *args, **kwargs):
+        QSqlTableModel.__init__(self, *args, **kwargs)
+        self.checkableData = {}
+
+    def flags(self, index):
+        fl = QSqlTableModel.flags(self, index)
+        # if index.column() == 1:
+        if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
+            fl |= Qt.ItemIsUserCheckable
+        return fl
+
+    def data(self, index, role=Qt.DisplayRole):
+        if role == Qt.CheckStateRole and (self.flags(index)&Qt.ItemIsUserCheckable != Qt.NoItemFlags):
+            if index.row() not in self.checkableData.keys():
+                # Need to work out logic for checking contents and setting checkbox accordingly
+                if self.data(index) == "Yes":
+                    self.setData(index, Qt.Checked, Qt.CheckStateRole)
+                elif self.data(index) == "No":
+                    self.setData(index, Qt.Unchecked, Qt.CheckStateRole)
+            return self.checkableData[index.row()]
+        else:
+            return QSqlTableModel.data(self, index, role)
+
+    def setData(self, index, value, role=Qt.EditRole):
+        if role == Qt.CheckStateRole and (self.flags(index)&Qt.ItemIsUserCheckable != Qt.NoItemFlags):
+            self.checkableData[index.row()] = value
+            self.dataChanged.emit(index, index, (role,))
+            return True
+        return QSqlTableModel.setData(self, index, value, role)
+
+
 class SqlTable(QTableView):
     """
     Re-implementation of Table using SQLITE rather than CSV
@@ -502,7 +538,7 @@ class SqlTable(QTableView):
             QMessageBox.critical(None, "Database Error", db.lastError().text())
         self.db = db
 
-        self.model = QSqlTableModel(self, self.db)
+        self.model = TableModel(self, self.db)
         self.model.setTable(tableName)
         self.model.setEditStrategy(QSqlTableModel.OnFieldChange)
         self.model.select()
@@ -533,37 +569,42 @@ class SqlTable(QTableView):
             self.model.setHeaderData(6, Qt.Horizontal, "Manual")
             self.model.setHeaderData(7, Qt.Horizontal, "Year")
             self.model.setHeaderData(8, Qt.Horizontal, "Comment")
+
         self.model.setSort(0, Qt.AscendingOrder)  # Sort by platform
         self.setModel(self.model)
 
         # Settings for columns
         self.horizontalHeader().setStretchLastSection(True)
-        for i in range(self.model.columnCount()):
-            if self.model.headerData(i, Qt.Horizontal) == "Platform":
-                self.setColumnWidth(i, 100)
-            elif self.model.headerData(i, Qt.Horizontal) == "Name":
-                self.setColumnWidth(i, 300)
-            elif self.model.headerData(i, Qt.Horizontal) == "Region":
-                self.setColumnWidth(i, 85)
-            elif self.model.headerData(i, Qt.Horizontal) in ("Code", "Country", "Serial number"):
-                self.setColumnWidth(i, 140)
-            elif self.model.headerData(i, Qt.Horizontal) == "Year":
-                self.setColumnWidth(i, 40)
-            elif self.model.headerData(i, Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
-                self.setColumnWidth(i, 70)
+        for column in range(self.model.columnCount()):
+            if self.model.headerData(column, Qt.Horizontal) == "Platform":
+                self.setColumnWidth(column, 100)
+            elif self.model.headerData(column, Qt.Horizontal) == "Name":
+                self.setColumnWidth(column, 300)
+            elif self.model.headerData(column, Qt.Horizontal) == "Region":
+                self.setColumnWidth(column, 85)
+            elif self.model.headerData(column, Qt.Horizontal) in ("Code", "Country", "Serial number"):
+                self.setColumnWidth(column, 140)
+            elif self.model.headerData(column, Qt.Horizontal) == "Year":
+                self.setColumnWidth(column, 40)
+            elif self.model.headerData(column, Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
+                self.setColumnWidth(column, 70)
 
         # Put checkboxes in relevant columns
-        for row in range(self.model.rowCount()):
-            for column in range(self.model.columnCount()):
-                if self.model.headerData(column, Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
-                    if self.model.data(self.model.index(row, column)) == "Yes":
-                        pass
-                    elif self.model.data(self.model.index(row, column)) == "No":
-                        pass
+        #for row in range(self.model.rowCount()):
+        #    for column in range(self.model.columnCount()):
+        #        if self.model.headerData(column, Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
+        #            if self.model.data(self.model.index(row, column)) == "Yes":
+        #                self.model.setData(self.model.index(row, column), "Yes")
+        #            elif self.model.data(self.model.index(row, column)) == "No":
+        #                pass
 
         self.resizeRowsToContents()
 
     def resizeEvent(self, event):
+        """
+        Currently doesn't seem to trigger when pressing window manager minimize/maximize button
+        """
+
         self.resized.emit()
         return super().resizeEvent(event)
 
