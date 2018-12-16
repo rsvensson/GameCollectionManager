@@ -5,9 +5,12 @@ import sqlite3
 
 con = sqlite3.connect("collection.db")
 cur = con.cursor()
-cur.execute('CREATE TABLE games (ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Comment);')
-cur.execute('CREATE TABLE consoles (ID, Platform, Name, Region, Country, "Serial number", Console, Box, Manual, Year, Comment);')
-cur.execute('CREATE TABLE accessories (ID, Platform, Name, Region, Country, Accessory, Box, Manual, Year, Comment);')
+cur.execute('CREATE TABLE games (ID int, Platform, Name,'
+            'Region, Code, Game, Box, Manual, Year int, Comment);')
+cur.execute('CREATE TABLE consoles (ID int, Platform, Name,'
+            'Region, Country, "Serial number", Console, Box, Manual, Year int, Comment);')
+cur.execute('CREATE TABLE accessories (ID int, Platform, Name, Region, Country,'
+            'Accessory, Box, Manual, Year int, Comment);')
 
 with open("gamesdb.tsv", 'r', encoding='utf8') as f:
     dr = csv.DictReader(f, dialect="excel-tab")
