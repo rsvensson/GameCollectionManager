@@ -480,3 +480,94 @@ class Table(QTableWidget):
 
     def isHideNotOwned(self):
         return self._hideNotOwned
+
+
+class SqlTable(QTableView):
+    """
+    Re-implementation of Table using SQLITE rather than CSV
+    """
+
+    resized = Signal()
+
+    def __init__(self, tableName):
+        super().__init__()
+
+        self.resized.connect(self.resizeRowsToContents)
+
+        assert tableName in ("games", "consoles", "accessories")
+
+        db = QSqlDatabase.addDatabase("QSQLITE")
+        db.setDatabaseName("data/db/collection.db")
+        if not db.open():
+            QMessageBox.critical(None, "Database Error", db.lastError().text())
+        self.db = db
+
+        self.model = QSqlTableModel(self, self.db)
+        self.model.setTable(tableName)
+        self.model.setEditStrategy(QSqlTableModel.OnFieldChange)
+        self.model.select()
+        self.model.removeColumn(0)  # Don't show the ID field
+
+        self.model.setHeaderData(0, Qt.Horizontal, "Platform")
+        self.model.setHeaderData(1, Qt.Horizontal, "Name")
+        self.model.setHeaderData(2, Qt.Horizontal, "Region")
+        if tableName == "games":
+            self.model.setHeaderData(3, Qt.Horizontal, "Code")
+            self.model.setHeaderData(4, Qt.Horizontal, "Game")
+            self.model.setHeaderData(5, Qt.Horizontal, "Box")
+            self.model.setHeaderData(6, Qt.Horizontal, "Manual")
+            self.model.setHeaderData(7, Qt.Horizontal, "Year")
+            self.model.setHeaderData(8, Qt.Horizontal, "Comment")
+        elif tableName == "consoles":
+            self.model.setHeaderData(3, Qt.Horizontal, "Country")
+            self.model.setHeaderData(4, Qt.Horizontal, "Serial number")
+            self.model.setHeaderData(5, Qt.Horizontal, "Console")
+            self.model.setHeaderData(6, Qt.Horizontal, "Box")
+            self.model.setHeaderData(7, Qt.Horizontal, "Manual")
+            self.model.setHeaderData(8, Qt.Horizontal, "Year")
+            self.model.setHeaderData(9, Qt.Horizontal, "Comment")
+        elif tableName == "accessories":
+            self.model.setHeaderData(3, Qt.Horizontal, "Country")
+            self.model.setHeaderData(4, Qt.Horizontal, "Accessory")
+            self.model.setHeaderData(5, Qt.Horizontal, "Box")
+            self.model.setHeaderData(6, Qt.Horizontal, "Manual")
+            self.model.setHeaderData(7, Qt.Horizontal, "Year")
+            self.model.setHeaderData(8, Qt.Horizontal, "Comment")
+        self.model.setSort(0, Qt.AscendingOrder)  # Sort by platform
+        self.setModel(self.model)
+
+        # Settings for columns
+        self.horizontalHeader().setStretchLastSection(True)
+        for i in range(self.model.columnCount()):
+            if self.model.headerData(i, Qt.Horizontal) == "Platform":
+                self.setColumnWidth(i, 100)
+            elif self.model.headerData(i, Qt.Horizontal) == "Name":
+                self.setColumnWidth(i, 300)
+            elif self.model.headerData(i, Qt.Horizontal) == "Region":
+                self.setColumnWidth(i, 85)
+            elif self.model.headerData(i, Qt.Horizontal) in ("Code", "Country", "Serial number"):
+                self.setColumnWidth(i, 140)
+            elif self.model.headerData(i, Qt.Horizontal) == "Year":
+                self.setColumnWidth(i, 40)
+            elif self.model.headerData(i, Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
+                self.setColumnWidth(i, 70)
+
+        # Put checkboxes in relevant columns
+        for row in range(self.model.rowCount()):
+            for column in range(self.model.columnCount()):
+                if self.model.headerData(column, Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
+                    if self.model.data(self.model.index(row, column)) == "Yes":
+                        pass
+                    elif self.model.data(self.model.index(row, column)) == "No":
+                        pass
+
+        self.resizeRowsToContents()
+
+    def resizeEvent(self, event):
+        self.resized.emit()
+        return super().resizeEvent(event)
+
+    def searchTable(self, term):
+        items = self.findItems(term, Qt.MatchContains)
+        for item in items:
+            print(item.text())

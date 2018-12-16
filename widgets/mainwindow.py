@@ -35,12 +35,15 @@ class MainWindow(QMainWindow):
         self.gamesTableWidget = Table(self.gamesDB)
         self.gamesTableWidget.setObjectName("games")
         self.gamesTableWidget.updated.connect(self.updateStatusbar)
+        self.gamesTableView = SqlTable("games")
         self.consolesTableWidget = Table(self.consolesDB)
         self.consolesTableWidget.setObjectName("consoles")
-        self.gamesTableWidget.updated.connect(self.updateStatusbar)
+        self.consolesTableWidget.updated.connect(self.updateStatusbar)
+        self.consolesTableView = SqlTable("consoles")
         self.accessoriesTableWidget = Table(self.accessoriesDB)
         self.accessoriesTableWidget.setObjectName("accessories")
-        self.gamesTableWidget.updated.connect(self.updateStatusbar)
+        self.accessoriesTableWidget.updated.connect(self.updateStatusbar)
+        self.accessoriesTableView = SqlTable("accessories")
 
         self.tableWidgetList = [self.gamesTableWidget,
                                 self.consolesTableWidget,
@@ -95,9 +98,9 @@ class MainWindow(QMainWindow):
 
         # Tab layout. TODO: Maybe move to a separate class?
         self.tab.addTab(self.overview.layout, "Overview")
-        self.tab.addTab(self.gamesTableWidget, "Games")
-        self.tab.addTab(self.consolesTableWidget, "Consoles")
-        self.tab.addTab(self.accessoriesTableWidget, "Accessories")
+        self.tab.addTab(self.gamesTableView, "Games")
+        self.tab.addTab(self.consolesTableView, "Consoles")
+        self.tab.addTab(self.accessoriesTableView, "Accessories")
         self.tab.addTab(self.randomizer.layout, "Randomizer")
         self.tab.currentChanged.connect(self.filterTable)
         self.tab.currentChanged.connect(self.updateStatusbar)
