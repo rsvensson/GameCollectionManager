@@ -480,38 +480,3 @@ class Table(QTableWidget):
 
     def isHideNotOwned(self):
         return self._hideNotOwned
-
-
-class SqlTable(QTableView):
-    def __init__(self):
-        super().__init__()
-
-        db = QSqlDatabase.addDatabase("QSQLITE")
-        db.setDatabaseName("games.db")
-        if not db.open():
-            QMessageBox.critical(None, "Database Error", db.lastError().text())
-        self.db = db
-        self.model = QSqlTableModel(self, self.db)
-        self.model.setTable("games")
-        self.model.setEditStrategy(QSqlTableModel.OnManualSubmit)
-        self.model.select()
-        self.model.setHeaderData(0, Qt.Horizontal, "Platform")
-        self.model.setHeaderData(1, Qt.Horizontal, "Name")
-        self.model.setHeaderData(2, Qt.Horizontal, "Region")
-        self.model.setHeaderData(3, Qt.Horizontal, "Code")
-        self.model.setHeaderData(4, Qt.Horizontal, "Game")
-        self.model.setHeaderData(5, Qt.Horizontal, "Box")
-        self.model.setHeaderData(6, Qt.Horizontal, "Manual")
-        self.model.setHeaderData(7, Qt.Horizontal, "Year")
-        self.model.setHeaderData(8, Qt.Horizontal, "Comment")
-
-        self.setModel(self.model)
-
-    def _populateTable(self):
-
-        pass
-
-    def searchTable(self, term):
-        items = self.findItems(term, Qt.MatchContains)
-        for item in items:
-            print(item.text())

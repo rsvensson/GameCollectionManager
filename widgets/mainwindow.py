@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import sys
-from csvdatabase import Database
+from database import Database
 from widgets.tabwidgets import *
 from widgets.inputwindow import InputWindow
 from widgets.importwindow import ImportWindow
@@ -35,7 +35,6 @@ class MainWindow(QMainWindow):
         self.gamesTableWidget = Table(self.gamesDB)
         self.gamesTableWidget.setObjectName("games")
         self.gamesTableWidget.updated.connect(self.updateStatusbar)
-        self.gameTableView = SqlTable()
         self.consolesTableWidget = Table(self.consolesDB)
         self.consolesTableWidget.setObjectName("consoles")
         self.gamesTableWidget.updated.connect(self.updateStatusbar)
@@ -96,7 +95,7 @@ class MainWindow(QMainWindow):
 
         # Tab layout. TODO: Maybe move to a separate class?
         self.tab.addTab(self.overview.layout, "Overview")
-        self.tab.addTab(self.gameTableView, "Games")
+        self.tab.addTab(self.gamesTableWidget, "Games")
         self.tab.addTab(self.consolesTableWidget, "Consoles")
         self.tab.addTab(self.accessoriesTableWidget, "Accessories")
         self.tab.addTab(self.randomizer.layout, "Randomizer")
