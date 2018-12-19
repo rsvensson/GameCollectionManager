@@ -1,12 +1,13 @@
 from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout,\
     QTableWidget, QTableWidgetItem, QPushButton, QLabel,\
     QListWidget, QAbstractItemView, QTableView, QMessageBox
-from PySide2.QtSql import QSqlTableModel, QSqlDatabase, QSqlQuery
-from PySide2.QtGui import QColor, QFont, QPainter
+from PySide2.QtSql import QSqlTableModel, QSqlDatabase, QSqlQuery, QSqlDriver
+from PySide2.QtGui import QColor, QFont
 from PySide2.QtCore import Qt, Signal
 from collections import OrderedDict
 from random import randint
-import sqlite3
+
+from widgets.models import TableModel
 
 
 class Randomizer(QWidget):
@@ -482,97 +483,6 @@ class Table(QTableWidget):
         return self._hideNotOwned
 
 
-class TableModel(QSqlTableModel):
-    """
-    Subclassing QSqlTableModel to be able to have checkboxes in our cells
-    Adapted from https://stackoverflow.com/questions/48193325/checkbox-in-qlistview-using-qsqltablemodel
-    with additional info from
-    http://www.wouterspekkink.org/software/q-sopra/technical/c++/qt/2018/01/19/qsltablemodels-booleans-and-check-boxes.html
-    """
-    def __init__(self, *args, **kwargs):
-        QSqlTableModel.__init__(self, *args, **kwargs)
-        self.checkableData = {}
-
-    def flags(self, index):
-        if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
-            return QSqlTableModel.flags(self, index) | Qt.ItemIsUserCheckable
-        else:
-            return QSqlTableModel.flags(self, index)
-
-    def data(self, index, role=Qt.DisplayRole):
-        if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
-            if role == Qt.CheckStateRole:
-                query = QSqlQuery()
-                table = self.tableName()
-                id = index.row()
-                item = self.headerData(index.column(), Qt.Horizontal)
-                query.prepare("SELECT :item FROM '{}' WHERE ID=:id".format(table))
-                query.bindValue(":item", item)
-                query.bindValue(":id", id)
-                query.exec_()
-                query.first()
-                game = query.value(0)
-                print(game)
-
-                if game == "Yes":
-                    return Qt.Checked
-                elif game == "No":
-                    return Qt.Unchecked
-            else:
-                return ""
-        elif role == Qt.ToolTipRole:
-            return QSqlTableModel.data(self, index, Qt.DisplayRole)
-        else:
-            return QSqlTableModel.data(self, index)
-
-        #if role == Qt.CheckStateRole and (self.flags(index)&Qt.ItemIsUserCheckable != Qt.NoItemFlags):
-        #    if index.row() not in self.checkableData.keys():
-        #        # Need to work out logic for checking contents and setting checkbox accordingly
-        #        if self.data(index) == "Yes":
-        #            print(self.data(index))
-        #            self.setData(index, Qt.Checked, Qt.CheckStateRole)
-        #        elif self.data(index) == "No":
-        #            print(self.data(index))
-        #            self.setData(index, Qt.Unchecked, Qt.CheckStateRole)
-        #    return self.checkableData[index.row()]
-        # else:
-        #    return QSqlTableModel.data(self, index, role)
-
-    def setData(self, index, value, role=Qt.EditRole):
-        if (self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual")
-                and role == Qt.CheckStateRole):
-            if value == Qt.Checked:
-                query = QSqlQuery()
-                id = index.row() + 1
-                table = self.tableName()
-                item = self.headerData(index.column(), Qt.Horizontal)
-                query.prepare("UPDATE '{}' SET :item='Yes' WHERE ID=:id".format(table))
-                query.bindValue(":id", id)
-                query.bindValue(":item", item)
-                query.exec_()
-                del query
-                return True
-            elif value == Qt.Unchecked:
-                query = QSqlQuery()
-                id = index.row()
-                table = self.tableName()
-                item = self.headerData(index.column(), Qt.Horizontal)
-                query.prepare("UPDATE '{}' SET :item='No' WHERE ID=:id".format(table))
-                query.bindValue(":id", id)
-                query.bindValue(":item", item)
-                query.exec_()
-                del query
-                return True
-        return QSqlTableModel.setData(index, value, role)
-
-    #def setData(self, index, value, role=Qt.EditRole):
-    #    if role == Qt.CheckStateRole and (self.flags(index)&Qt.ItemIsUserCheckable != Qt.NoItemFlags):
-    #        self.checkableData[index.row()] = value
-    #        self.dataChanged.emit(index, index, (role,))
-    #        return True
-    #    return QSqlTableModel.setData(self, index, value, role)
-
-
 class SqlTable(QTableView):
     """
     Re-implementation of Table using SQLITE rather than CSV
@@ -598,7 +508,7 @@ class SqlTable(QTableView):
         self.model.setEditStrategy(QSqlTableModel.OnFieldChange)
         self.model.select()
         self.model.removeColumn(0)  # Don't show the ID field
-
+        self.model.fetchMore()
         self.model.setHeaderData(0, Qt.Horizontal, "Platform")
         self.model.setHeaderData(1, Qt.Horizontal, "Name")
         self.model.setHeaderData(2, Qt.Horizontal, "Region")
@@ -663,18 +573,17 @@ class SqlTable(QTableView):
         self.resized.emit()
         return super().resizeEvent(event)
 
-    def test(self):
+    def test(self, ids=[0,1,2,3,4,5], item="Game", table="games"):
         query = QSqlQuery()
-        table = self.model.tableName()
-        id = 12
-        item = "Game"
-        query.prepare("SELECT :item FROM '{}' WHERE ID=12".format(table))
-        query.bindValue(":item", item)
-        query.exec_()
-        query.first()
-        game = query.value(0)
-        print(query.lastError().text())
-        print(game)
+        for id in ids:
+            # print(id, item, table)
+            query.prepare("SELECT Game FROM games WHERE ID=400".format(table))
+            # query.bindValue(":item", item)
+            # query.bindValue(":id", id)
+            query.exec_()
+            query.first()
+            print(query.value(0))
+            print(query.lastError().text())
 
     def searchTable(self, term):
         items = self.findItems(term, Qt.MatchContains)
