@@ -8,6 +8,7 @@ from collections import OrderedDict
 from random import randint
 
 from widgets.models import TableModel
+from widgets.delegates import CheckboxDelegate
 
 
 class Randomizer(QWidget):
@@ -515,23 +516,32 @@ class SqlTable(QTableView):
         if tableName == "games":
             self.model.setHeaderData(3, Qt.Horizontal, "Code")
             self.model.setHeaderData(4, Qt.Horizontal, "Game")
+            self.setItemDelegateForColumn(4, CheckboxDelegate("Game", parent=self))
             self.model.setHeaderData(5, Qt.Horizontal, "Box")
+            self.setItemDelegateForColumn(5, CheckboxDelegate("Box", parent=self))
             self.model.setHeaderData(6, Qt.Horizontal, "Manual")
+            self.setItemDelegateForColumn(6, CheckboxDelegate("Manual", parent=self))
             self.model.setHeaderData(7, Qt.Horizontal, "Year")
             self.model.setHeaderData(8, Qt.Horizontal, "Comment")
         elif tableName == "consoles":
             self.model.setHeaderData(3, Qt.Horizontal, "Country")
             self.model.setHeaderData(4, Qt.Horizontal, "Serial number")
             self.model.setHeaderData(5, Qt.Horizontal, "Console")
+            self.setItemDelegateForColumn(5, CheckboxDelegate("Console", parent=self))
             self.model.setHeaderData(6, Qt.Horizontal, "Box")
+            self.setItemDelegateForColumn(6, CheckboxDelegate("Box", parent=self))
             self.model.setHeaderData(7, Qt.Horizontal, "Manual")
+            self.setItemDelegateForColumn(7, CheckboxDelegate("Manual", parent=self))
             self.model.setHeaderData(8, Qt.Horizontal, "Year")
             self.model.setHeaderData(9, Qt.Horizontal, "Comment")
         elif tableName == "accessories":
             self.model.setHeaderData(3, Qt.Horizontal, "Country")
             self.model.setHeaderData(4, Qt.Horizontal, "Accessory")
+            self.setItemDelegateForColumn(4, CheckboxDelegate("Accessory", parent=self))
             self.model.setHeaderData(5, Qt.Horizontal, "Box")
+            self.setItemDelegateForColumn(5, CheckboxDelegate("Box", parent=self))
             self.model.setHeaderData(6, Qt.Horizontal, "Manual")
+            self.setItemDelegateForColumn(6, CheckboxDelegate("Manual", parent=self))
             self.model.setHeaderData(7, Qt.Horizontal, "Year")
             self.model.setHeaderData(8, Qt.Horizontal, "Comment")
 
@@ -553,15 +563,6 @@ class SqlTable(QTableView):
                 self.setColumnWidth(column, 40)
             elif self.model.headerData(column, Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
                 self.setColumnWidth(column, 70)
-
-        # Put checkboxes in relevant columns
-        #for row in range(self.model.rowCount()):
-        #    for column in range(self.model.columnCount()):
-        #        if self.model.headerData(column, Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
-        #            if self.model.data(self.model.index(row, column)) == "Yes":
-        #                self.model.setData(self.model.index(row, column), "Yes")
-        #            elif self.model.data(self.model.index(row, column)) == "No":
-        #                pass
 
         self.resizeRowsToContents()
 
