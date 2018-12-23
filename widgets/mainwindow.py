@@ -31,19 +31,23 @@ class MainWindow(QMainWindow):
         self.gamesDB = Database(gamesPath)
         self.consolesDB = Database(consolesPath)
         self.accessoriesDB = Database(accessoriesPath)
+        self.db = QSqlDatabase.addDatabase("QSQLITE")
+        self.db.setDatabaseName("data/db/collection.db")
+        if not self.db.open():
+            QMessageBox.critical(None, "Database Error", db.lastError().text())
 
         self.gamesTableWidget = Table(self.gamesDB)
         self.gamesTableWidget.setObjectName("games")
         self.gamesTableWidget.updated.connect(self.updateStatusbar)
-        self.gamesTableView = SqlTable("games")
+        self.gamesTableView = SqlTable("games", self.db)
         self.consolesTableWidget = Table(self.consolesDB)
         self.consolesTableWidget.setObjectName("consoles")
         self.consolesTableWidget.updated.connect(self.updateStatusbar)
-        self.consolesTableView = SqlTable("consoles")
+        self.consolesTableView = SqlTable("consoles", self.db)
         self.accessoriesTableWidget = Table(self.accessoriesDB)
         self.accessoriesTableWidget.setObjectName("accessories")
         self.accessoriesTableWidget.updated.connect(self.updateStatusbar)
-        self.accessoriesTableView = SqlTable("accessories")
+        self.accessoriesTableView = SqlTable("accessories", self.db)
 
         self.tableWidgetList = [self.gamesTableWidget,
                                 self.consolesTableWidget,

@@ -12,24 +12,25 @@ class TableModel(QSqlTableModel):
         QSqlTableModel.__init__(self, *args, **kwargs)
 
     def flags(self, index):
-        if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
+        if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
+                                                              "Box", "Manual"):
             return QSqlTableModel.flags(self, index) | Qt.ItemIsUserCheckable
-        else:
-            return QSqlTableModel.flags(self, index)
+        return QSqlTableModel.flags(self, index)
 
     def data(self, index, role=Qt.DisplayRole):
         """
         TODO: Figure out why bindValue isn't working but format is
         """
-        if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
-            if role == Qt.CheckStateRole:
+        if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
+                                                              "Box", "Manual"):
+            if role == Qt.CheckStateRole and (self.flags(index) & Qt.ItemIsUserCheckable != Qt.NoItemFlags):
                 query = QSqlQuery()
                 table = self.tableName()
-                id = index.row()
+                itemId = index.row()
                 item = self.headerData(index.column(), Qt.Horizontal)
-                query.prepare("SELECT {} FROM {} WHERE ID={}".format(item, table, id))
-                #query.bindValue(":item", item)
-                #query.bindValue(":id", id)
+                query.prepare("SELECT {} FROM {} WHERE ID={}".format(item, table, itemId))
+                query.bindValue(":item", item)
+                query.bindValue(":itemId", itemId)
                 query.exec_()
                 query.first()
                 result = query.value(0)
@@ -44,36 +45,41 @@ class TableModel(QSqlTableModel):
                 return ""
         elif role == Qt.ToolTipRole:
             return QSqlTableModel.data(self, index, Qt.DisplayRole)
-        else:
-            return QSqlTableModel.data(self, index, role)
 
-    def setData(self, index, value, role):
-        """
-        TODO: Figure out why it doesn't actually change the table data
-        """
-        if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
-            if role == Qt.CheckStateRole:
+        return QSqlTableModel.data(self, index, role)
+
+    def setData(self, index, value, role=Qt.EditRole):
+        
+        # TODO: Figure out why it doesn't actually change the table data
+        # Even commenting out the whole method won't allow me to save the data,
+        # so it's unlikely to be an issue in the method itself.
+        
+        if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
+                                                              "Box", "Manual"):
+            if role == Qt.CheckStateRole and (self.flags(index) & Qt.ItemIsUserCheckable != Qt.NoItemFlags):
+            #if role == Qt.CheckStateRole:
                 if value == Qt.Checked:
                     query = QSqlQuery()
-                    id = index.row()
                     table = self.tableName()
+                    itemId = index.row()
                     item = self.headerData(index.column(), Qt.Horizontal)
-                    query.prepare("UPDATE {} SET {}=Yes WHERE ID={}".format(table, item, id))
-                    #query.bindValue(":id", id)
+                    query.prepare("UPDATE {} SET {}=Yes WHERE ID={}".format(table, item, itemId))
+                    #query.bindValue(":itemId", itemId)
                     #query.bindValue(":item", item)
                     query.exec_()
-                    del query
                     print("Test")
+                    del query
                     return True
                 elif value == Qt.Unchecked:
                     query = QSqlQuery()
-                    id = index.row()
                     table = self.tableName()
+                    itemId = index.row()
                     item = self.headerData(index.column(), Qt.Horizontal)
-                    query.prepare("UPDATE {} SET {}=No WHERE ID={}".format(table, item, id))
+                    query.prepare("UPDATE {} SET {}=No WHERE ID={}".format(table, item, itemId))
                     #query.bindValue(":id", id)
                     #query.bindValue(":item", item)
                     query.exec_()
                     del query
                     return True
+        print("Bajs")
         return QSqlTableModel.setData(self, index, value, role)

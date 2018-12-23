@@ -1,7 +1,7 @@
 from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout,\
     QTableWidget, QTableWidgetItem, QPushButton, QLabel,\
     QListWidget, QAbstractItemView, QTableView, QMessageBox
-from PySide2.QtSql import QSqlTableModel, QSqlDatabase, QSqlQuery, QSqlDriver
+from PySide2.QtSql import QSqlTableModel, QSqlDatabase, QSqlQuery
 from PySide2.QtGui import QColor, QFont
 from PySide2.QtCore import Qt, Signal
 from collections import OrderedDict
@@ -486,69 +486,65 @@ class Table(QTableWidget):
 
 class SqlTable(QTableView):
     """
-    Re-implementation of Table using SQLITE rather than CSV
+    Re-implementation of Table class using SQLITE rather than CSV
     """
 
     resized = Signal()
 
-    def __init__(self, tableName):
+    def __init__(self, tableName, db):
         super().__init__()
 
         self.resized.connect(self.resizeRowsToContents)
 
         assert tableName in ("games", "consoles", "accessories")
 
-        db = QSqlDatabase.addDatabase("QSQLITE")
-        db.setDatabaseName("data/db/collection.db")
-        if not db.open():
-            QMessageBox.critical(None, "Database Error", db.lastError().text())
         self.db = db
 
         self.model = TableModel(self, self.db)
         self.model.setTable(tableName)
         self.model.setEditStrategy(QSqlTableModel.OnFieldChange)
         self.model.select()
-        self.model.removeColumn(0)  # Don't show the ID field
-        self.model.fetchMore()
-        self.model.setHeaderData(0, Qt.Horizontal, "Platform")
-        self.model.setHeaderData(1, Qt.Horizontal, "Name")
-        self.model.setHeaderData(2, Qt.Horizontal, "Region")
+
+        self.model.setHeaderData(0, Qt.Horizontal, "ID")
+        self.model.setHeaderData(1, Qt.Horizontal, "Platform")
+        self.model.setHeaderData(2, Qt.Horizontal, "Name")
+        self.model.setHeaderData(3, Qt.Horizontal, "Region")
         if tableName == "games":
-            self.model.setHeaderData(3, Qt.Horizontal, "Code")
-            self.model.setHeaderData(4, Qt.Horizontal, "Game")
-            self.setItemDelegateForColumn(4, CheckboxDelegate("Game", parent=self))
-            self.model.setHeaderData(5, Qt.Horizontal, "Box")
-            self.setItemDelegateForColumn(5, CheckboxDelegate("Box", parent=self))
-            self.model.setHeaderData(6, Qt.Horizontal, "Manual")
-            self.setItemDelegateForColumn(6, CheckboxDelegate("Manual", parent=self))
-            self.model.setHeaderData(7, Qt.Horizontal, "Year")
-            self.model.setHeaderData(8, Qt.Horizontal, "Comment")
-        elif tableName == "consoles":
-            self.model.setHeaderData(3, Qt.Horizontal, "Country")
-            self.model.setHeaderData(4, Qt.Horizontal, "Serial number")
-            self.model.setHeaderData(5, Qt.Horizontal, "Console")
-            self.setItemDelegateForColumn(5, CheckboxDelegate("Console", parent=self))
+            self.model.setHeaderData(4, Qt.Horizontal, "Code")
+            self.model.setHeaderData(5, Qt.Horizontal, "Game")
+            self.setItemDelegateForColumn(5, CheckboxDelegate("Game", parent=self))
             self.model.setHeaderData(6, Qt.Horizontal, "Box")
             self.setItemDelegateForColumn(6, CheckboxDelegate("Box", parent=self))
             self.model.setHeaderData(7, Qt.Horizontal, "Manual")
             self.setItemDelegateForColumn(7, CheckboxDelegate("Manual", parent=self))
             self.model.setHeaderData(8, Qt.Horizontal, "Year")
             self.model.setHeaderData(9, Qt.Horizontal, "Comment")
+        elif tableName == "consoles":
+            self.model.setHeaderData(4, Qt.Horizontal, "Country")
+            self.model.setHeaderData(5, Qt.Horizontal, "Serial number")
+            self.model.setHeaderData(6, Qt.Horizontal, "Console")
+            self.setItemDelegateForColumn(6, CheckboxDelegate("Console", parent=self))
+            self.model.setHeaderData(7, Qt.Horizontal, "Box")
+            self.setItemDelegateForColumn(7, CheckboxDelegate("Box", parent=self))
+            self.model.setHeaderData(8, Qt.Horizontal, "Manual")
+            self.setItemDelegateForColumn(8, CheckboxDelegate("Manual", parent=self))
+            self.model.setHeaderData(9, Qt.Horizontal, "Year")
+            self.model.setHeaderData(10, Qt.Horizontal, "Comment")
         elif tableName == "accessories":
-            self.model.setHeaderData(3, Qt.Horizontal, "Country")
-            self.model.setHeaderData(4, Qt.Horizontal, "Accessory")
-            self.setItemDelegateForColumn(4, CheckboxDelegate("Accessory", parent=self))
-            self.model.setHeaderData(5, Qt.Horizontal, "Box")
-            self.setItemDelegateForColumn(5, CheckboxDelegate("Box", parent=self))
-            self.model.setHeaderData(6, Qt.Horizontal, "Manual")
-            self.setItemDelegateForColumn(6, CheckboxDelegate("Manual", parent=self))
-            self.model.setHeaderData(7, Qt.Horizontal, "Year")
-            self.model.setHeaderData(8, Qt.Horizontal, "Comment")
+            self.model.setHeaderData(4, Qt.Horizontal, "Country")
+            self.model.setHeaderData(5, Qt.Horizontal, "Accessory")
+            self.setItemDelegateForColumn(5, CheckboxDelegate("Accessory", parent=self))
+            self.model.setHeaderData(6, Qt.Horizontal, "Box")
+            self.setItemDelegateForColumn(6, CheckboxDelegate("Box", parent=self))
+            self.model.setHeaderData(7, Qt.Horizontal, "Manual")
+            self.setItemDelegateForColumn(7, CheckboxDelegate("Manual", parent=self))
+            self.model.setHeaderData(8, Qt.Horizontal, "Year")
+            self.model.setHeaderData(9, Qt.Horizontal, "Comment")
 
-        self.model.setSort(0, Qt.AscendingOrder)  # Sort by platform
+        self.model.setSort(1, Qt.AscendingOrder)  # Sort by platform
         self.setModel(self.model)
 
-        # Settings for columns
+        # Column widths
         self.horizontalHeader().setStretchLastSection(True)
         for column in range(self.model.columnCount()):
             if self.model.headerData(column, Qt.Horizontal) == "Platform":
@@ -564,6 +560,8 @@ class SqlTable(QTableView):
             elif self.model.headerData(column, Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
                 self.setColumnWidth(column, 70)
 
+        self.verticalHeader().setVisible(False)  # Don't show row headers
+        self.setColumnHidden(0, True)  # Don't show ID field
         self.resizeRowsToContents()
 
     def resizeEvent(self, event):
