@@ -34,9 +34,12 @@ class CheckboxDelegate(QStyledItemDelegate):
         QStyledItemDelegate.paint(self, painter, viewItemOption, index)
 
     def editorEvent(self, event, model, option, index):
+        """
+        Currently only checked items has CheckStateRole for some reason
+        """
         flags = Qt.ItemFlags(model.flags(index))
         # Make sure the item is checkable
-        if not (flags and Qt.ItemIsUserCheckable) or not (flags & Qt.ItemIsEnabled):
+        if not (flags & Qt.ItemIsUserCheckable) or not (flags & Qt.ItemIsEnabled):
             return False
         # Make sure we have a check state
         value = index.data(Qt.CheckStateRole)
@@ -50,8 +53,10 @@ class CheckboxDelegate(QStyledItemDelegate):
                                            QRect(option.rect.x() + (2 * textMargin), option.rect.y(),
                                                  option.rect.width() - (2 * textMargin),
                                                  option.rect.height()))
+            # Handle mouse event
             if not checkRect.contains(event.pos()):
                 return False
+        # And key press event
         elif event.type() == QEvent.KeyPress:
             if event.key() is not Qt.Key_Space and event.key() is not Qt.Key_Select:
                 return False
