@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-from PySide2.QtCore import Qt
+from PySide2.QtCore import Qt, Signal, QModelIndex
+from PySide2.QtGui import QFont, QColor
 from PySide2.QtSql import QSqlTableModel, QSqlQuery
 
 
@@ -8,8 +9,16 @@ class TableModel(QSqlTableModel):
     Subclassing QSqlTableModel to be able to have checkboxes in our cells
     http://www.wouterspekkink.org/software/q-sopra/technical/c++/qt/2018/01/19/qsltablemodels-booleans-and-check-boxes.html
     """
+
+    fetched = Signal()
+
     def __init__(self, *args, **kwargs):
         QSqlTableModel.__init__(self, *args, **kwargs)
+
+    def fetchMore(self, parent=QModelIndex()):
+        # So we can detect when more items has been fetched and resize rows. Not working yet.
+        self.fetched.emit()
+        return super().fetchMore(parent)
 
     def flags(self, index):
         result = QSqlTableModel.flags(self, index)
@@ -22,9 +31,9 @@ class TableModel(QSqlTableModel):
         """
         TODO: Figure out why bindValue isn't working but format is
         """
+        # Handle setting our checkboxes
         if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
                                                               "Box", "Manual"):
-            #if role == Qt.CheckStateRole and (self.flags(index) & Qt.ItemIsUserCheckable != Qt.NoItemFlags):
             if role == Qt.CheckStateRole:
                 query = QSqlQuery()
                 table = self.tableName()
@@ -44,6 +53,25 @@ class TableModel(QSqlTableModel):
 
             else:
                 return QSqlTableModel.data(self, index, role)
+        # Bold fonts
+        elif role == Qt.FontRole and self.headerData(index.column(), Qt.Horizontal) in ("Region",
+                                                                                        "Country"):
+            font = QFont()
+            font.setBold(True)
+            return font
+        # Set foreground color
+        elif role == Qt.ForegroundRole and self.headerData(index.column(), Qt.Horizontal) == "Region":
+            if index.data() in ("PAL", "Europe"):
+                return QColor(255, 255, 0)
+            elif index.data() in ("NTSC (JP)", "Japan"):
+                return QColor(255, 0, 0)
+            elif index.data() in ("NTSC (NA)", "North America"):
+                return QColor(0, 0, 255)
+        # Set text alignment
+        elif role == Qt.TextAlignmentRole \
+                and self.headerData(index.column(), Qt.Horizontal) in ("Region", "Country"):
+            return Qt.AlignCenter
+        # Display the cell data in tooltip
         elif role == Qt.ToolTipRole:
             return QSqlTableModel.data(self, index, Qt.DisplayRole)
 
@@ -52,7 +80,6 @@ class TableModel(QSqlTableModel):
     def setData(self, index, value, role=Qt.EditRole):
         if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
                                                               "Box", "Manual"):
-            #if role == Qt.CheckStateRole and (self.flags(index) & Qt.ItemIsUserCheckable != Qt.NoItemFlags):
             if role == Qt.CheckStateRole:
                 if value == Qt.Checked:
                     query = QSqlQuery()
