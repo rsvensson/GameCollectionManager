@@ -602,8 +602,9 @@ class SqlTable(QTableView):
             "Console" if self.model.tableName() == "consoles" else "Accessory"
 
         query = QSqlQuery()
-        query.exec_("SELECT * FROM {} WHERE Platform='{}'".format(
-            self.model.tableName(), platform))
+        query.exec_("SELECT * FROM {} WHERE Platform='{}'"
+                    "AND ({}='Yes' OR Box='Yes' OR Manual='Yes')".format(
+            self.model.tableName(), platform, item))
         while query.next():
             count += 1
 

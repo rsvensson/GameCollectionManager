@@ -130,9 +130,13 @@ class MainWindow(QMainWindow):
 
         # Main layout
         self.centralWidget.setLayout(self.mainGrid)
-        self.resize(1024, 768)
-        self.center()
-        self.setWindowTitle("Game Collection Manager")
+        winSize = QApplication.desktop().availableGeometry()
+        if winSize.width() <= 768 or winSize.height() <= 1024:
+            self.showMaximized()
+        else:
+            self.resize(1024, 768)
+            self.center()
+        self.setWindowTitle("Game Collection Manager - {}".format(_VERSION))
         self.show()
 
         self.statusBar().showMessage("")
