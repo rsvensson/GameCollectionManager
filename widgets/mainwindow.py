@@ -145,27 +145,32 @@ class MainWindow(QMainWindow):
 
     def addToCollection(self):
         platforms = set()
+        platforms |= self.gamesTableView.platforms()
+        platforms |= self.consolesTableView.platforms()
+        platforms |= self.accessoriesTableView.platforms()
 
-        for row in self.gamesTableWidget.getData():
-            for col in row:
-                if col == "Platform":
-                    platforms.add(row[col])
+        while True:
+            self.addWindow = InputWindow(sorted(platforms, key=str.lower))
+            if self.addWindow.exec_() == QDialog.Accepted:
+                data = self.addWindow.returnData()
 
-        self.addWindow = InputWindow(sorted(platforms, key=str.lower))
-        if self.addWindow.exec_() == QDialog.Accepted:
-            data = self.addWindow.returnData()
-
-            if "Game" in data.keys() and data['Name'] is not "":
-                self.gamesTableWidget.addData(data)
-                self.tab.setCurrentIndex(1)
-            elif "Console" in data.keys() and data['Name'] is not "":
-                self.consolesTableWidget.addData(data)
-                self.tab.setCurrentIndex(2)
-            elif "Accessory" in data.keys() and data['Name'] is not "":
-                self.accessoriesTableWidget.addData(data)
-                self.tab.setCurrentIndex(3)
-        else:
-            return
+                if "Game" in data.keys() and data['Name'] is not "":
+                    self.gamesTableView.addData(data)
+                    self.tab.setCurrentIndex(1)
+                elif "Console" in data.keys() and data['Name'] is not "":
+                    self.consolesTableView.addData(data)
+                    self.tab.setCurrentIndex(2)
+                elif "Accessory" in data.keys() and data['Name'] is not "":
+                    self.accessoriesTableView.addData(data)
+                    self.tab.setCurrentIndex(3)
+                else:
+                    msgBox = QMessageBox()
+                    msgBox.setIcon(QMessageBox.Information)
+                    msgBox.setWindowTitle("Invalid name")
+                    msgBox.setText("Name cannot be empty")
+                    msgBox.exec_()
+            else:
+                return
 
     def deleteFromCollection(self):
         currentTab = self.tab.currentIndex()
@@ -327,7 +332,6 @@ class MainWindow(QMainWindow):
         self.updateStatusbar()
 
     def updateStatusbar(self):
-        # TODO: Move the resizeRowsToContents methods somewhere better
         currentTab = self.tab.currentIndex()
         itemType = ["games", "consoles", "accessories"]
 
@@ -349,6 +353,7 @@ class MainWindow(QMainWindow):
                                                                                             self.tableWidgetList[currentTab-1].objectName(),
                                                                                             numItems,
                                                                                             self.tableWidgetList[currentTab-1].objectName()))
+
 
 def createWindow(games, consoles, accessories):
     app = QApplication(sys.argv)

@@ -1,7 +1,7 @@
 from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout,\
     QTableWidget, QTableWidgetItem, QPushButton, QLabel,\
     QListWidget, QAbstractItemView, QTableView, QMessageBox
-from PySide2.QtSql import QSqlTableModel, QSqlDatabase, QSqlQuery
+from PySide2.QtSql import QSqlTableModel, QSqlDatabase, QSqlQuery, QSqlRecord
 from PySide2.QtGui import QColor, QFont
 from PySide2.QtCore import Qt, Signal
 from collections import OrderedDict
@@ -541,7 +541,6 @@ class SqlTable(QTableView):
             self.model.setHeaderData(8, Qt.Horizontal, "Year")
             self.model.setHeaderData(9, Qt.Horizontal, "Comment")
 
-        self.model.setSort(1, Qt.AscendingOrder)  # Sort by platform
         self.setModel(self.model)
 
         # Column widths
@@ -561,8 +560,51 @@ class SqlTable(QTableView):
                 self.setColumnWidth(column, 70)
 
         self.verticalHeader().setVisible(False)  # Don't show row headers
+        #self.setSortingEnabled(True)
+        self.sortByColumn(1, Qt.AscendingOrder)  # Sort by platform
         self.setColumnHidden(0, True)  # Don't show ID field
         self.resizeRowsToContents()
+
+    def addData(self, dataDict):
+        itemID = self.model.rowCount()
+        newRecord = self.model.record()
+        newRecord.setValue("ID", itemID)
+        newRecord.setValue("Platform", dataDict["Platform"])
+        newRecord.setValue("Name", dataDict["Name"])
+        newRecord.setValue("Region", dataDict["Region"])
+        if self.model.tableName() == "games":
+            newRecord.setValue("Code", dataDict["Code"])
+            newRecord.setValue("Game", dataDict["Game"])
+        elif self.model.tableName() == "consoles":
+            newRecord.setValue("Country", dataDict["Country"])
+            newRecord.setValue("Serial number", dataDict["Serial number"])
+            newRecord.setValue("Console", dataDict["Console"])
+        elif self.model.tableName() == "accessories":
+            newRecord.setValue("Country", dataDict["Country"])
+            newRecord.setValue("Accessory", dataDict["Accessory"])
+        newRecord.setValue("Box", dataDict["Box"])
+        newRecord.setValue("Manual", dataDict["Manual"])
+        newRecord.setValue("Year", dataDict["Year"])
+        newRecord.setValue("Comment", dataDict["Comment"])
+
+        if not self.model.insertRecord(-1, newRecord):
+            msgBox = QMessageBox()
+            msgBox.setIcon(QMessageBox.Information)
+            msgBox.setWindowTitle("Error")
+            msgBox.setText("Error adding to database: " + self.model.query().lastError().text())
+            msgBox.exec_()
+
+        self.sortByColumn(1, Qt.AscendingOrder)
+
+    def platforms(self):
+        platforms = set()
+
+        query = QSqlQuery()
+        query.exec_("SELECT Platform FROM {}".format(self.model.tableName()))
+        while query.next():
+            platforms.add(query.value(0))
+
+        return platforms
 
     def resizeEvent(self, event):
         """
@@ -572,17 +614,8 @@ class SqlTable(QTableView):
         self.resized.emit()
         return super().resizeEvent(event)
 
-    def test(self, ids=[0,1,2,3,4,5], item="Game", table="games"):
-        query = QSqlQuery()
-        for id in ids:
-            # print(id, item, table)
-            query.prepare("SELECT Game FROM games WHERE ID=400".format(table))
-            # query.bindValue(":item", item)
-            # query.bindValue(":id", id)
-            query.exec_()
-            query.first()
-            print(query.value(0))
-            print(query.lastError().text())
+    def test(self):
+        pass
 
     def searchTable(self, term):
         items = self.findItems(term, Qt.MatchContains)

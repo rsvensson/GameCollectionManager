@@ -23,44 +23,38 @@ class InputWindow(QDialog):
         self.dataType.addItems(self.dataTypes)
         self.dataType.currentIndexChanged.connect(self._changeWidgets)
 
-        self.nameLabel = QLabel()
-        self.nameLabel.setText("Name\t ")
+        self.nameLabel = QLabel("Name\t ")
         self.name = QLineEdit()
 
-        self.platformLabel = QLabel()
-        self.platformLabel.setText("Platform\t ")
+        self.platformLabel = QLabel("Platform\t ")
         self.platform = QComboBox()
         self.platform.addItems(platforms if len(platforms) > 0 else " ")
         self.platform.addItem("New")
         self.platform.currentIndexChanged.connect(self._addPlatform)
 
-        self.regionLabel = QLabel()
-        self.regionLabel.setText("Region\t ")
+        self.regionLabel = QLabel("Region\t ")
         self.region = QLineEdit()
 
-        self.countryLabel = QLabel()
-        self.countryLabel.setText("Country\t ")
+        self.countryLabel = QLabel("Country\t ")
         self.country = QLineEdit()
         self.country.setEnabled(False)
 
-        self.codeLabel = QLabel()
-        self.codeLabel.setText("Code\t ")
+        self.codeLabel = QLabel("Code\t ")
         self.code = QLineEdit()
 
-        self.itemLabel = QLabel()
-        self.itemLabel.setText("Game")
+        self.itemLabel = QLabel("Game")
         self.item = QCheckBox()
 
-        self.boxLabel = QLabel()
-        self.boxLabel.setText("Box")
+        self.boxLabel = QLabel("Box")
         self.box = QCheckBox()
 
-        self.manualLabel = QLabel()
-        self.manualLabel.setText("Manual")
+        self.manualLabel = QLabel("Manual")
         self.manual = QCheckBox()
 
-        self.commentLabel = QLabel()
-        self.commentLabel.setText("Comment ")
+        self.yearLabel = QLabel("Year\t ")
+        self.year = QLineEdit()
+
+        self.commentLabel = QLabel("Comment")
         self.comment = QLineEdit()
 
         self.okButton = QPushButton()
@@ -84,6 +78,7 @@ class InputWindow(QDialog):
         self.hboxCode = QHBoxLayout()
         self.hboxCode.addStretch()
         self.hboxBoxMan = QHBoxLayout()
+        self.hboxYear = QHBoxLayout()
         self.hboxComment = QHBoxLayout()
         self.hboxComment.addStretch()
         self.hboxBtn = QHBoxLayout()
@@ -99,6 +94,8 @@ class InputWindow(QDialog):
         self.hboxRegion.addWidget(self.region, 1)
         self.hboxCode.addWidget(self.codeLabel, 0)
         self.hboxCode.addWidget(self.code, 1)
+        self.hboxYear.addWidget(self.yearLabel, 0)
+        self.hboxYear.addWidget(self.year, 1)
         self.hboxComment.addWidget(self.commentLabel, 0)
         self.hboxComment.addWidget(self.comment, 1)
         self.hboxBoxMan.addStretch(10)
@@ -119,9 +116,10 @@ class InputWindow(QDialog):
         self.vbox.addLayout(self.hboxPlatform, 2)
         self.vbox.addLayout(self.hboxRegion, 3)
         self.vbox.addLayout(self.hboxCode, 4)
-        self.vbox.addLayout(self.hboxComment, 5)
-        self.vbox.addLayout(self.hboxBoxMan, 6)
-        self.vbox.addLayout(self.hboxBtn, 7)
+        self.vbox.addLayout(self.hboxYear, 5)
+        self.vbox.addLayout(self.hboxComment, 6)
+        self.vbox.addLayout(self.hboxBoxMan, 7)
+        self.vbox.addLayout(self.hboxBtn, 8)
 
         self.setLayout(self.vbox)
 
@@ -176,6 +174,7 @@ class InputWindow(QDialog):
                                 ('Game', '{}'.format('Yes' if self.item.isChecked() else 'No')),
                                 ('Box', '{}'.format('Yes' if self.box.isChecked() else 'No')),
                                 ('Manual', '{}'.format('Yes' if self.manual.isChecked() else 'No')),
+                                ('Year', '{}'.format(self.year.text())),
                                 ('Comment', '{}'.format(self.comment.text()))])
 
         elif self.dataType.currentIndex() == 1:
@@ -187,6 +186,7 @@ class InputWindow(QDialog):
                                 ('Console', '{}'.format('Yes' if self.item.isChecked() else 'No')),
                                 ('Box', '{}'.format('Yes' if self.box.isChecked() else 'No')),
                                 ('Manual', '{}'.format('Yes' if self.manual.isChecked() else 'No')),
+                                ('Year', '{}'.format(self.year.text())),
                                 ('Comment', '{}'.format(self.comment.text()))])
 
         elif self.dataType.currentIndex() == 2:
@@ -197,6 +197,7 @@ class InputWindow(QDialog):
                                 ('Accessory', '{}'.format('Yes' if self.item.isChecked() else 'No')),
                                 ('Box', '{}'.format('Yes' if self.box.isChecked() else 'No')),
                                 ('Manual', '{}'.format('Yes' if self.manual.isChecked() else 'No')),
+                                ('Year', '{}'.format(self.year.text())),
                                 ('Comment', '{}'.format(self.comment.text()))])
         if data['Platform'] == "" or data['Platform'].isspace():
                 msgBox = QMessageBox()
