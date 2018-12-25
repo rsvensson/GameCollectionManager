@@ -623,6 +623,20 @@ class SqlTable(QTableView):
 
         return count
 
+    def ownedItems(self):
+        items = []
+        item = "Game" if self.model.tableName() == "games" else\
+            "Console" if self.model.tableName() == "consoles" else "Accessory"
+
+        query = QSqlQuery()
+        query.exec_("SELECT Platform, Name FROM {} WHERE {}='Yes' OR Box='Yes' OR Manual='Yes'".format(
+            self.model.tableName(), item))
+        while query.next():
+            items.append(dict(Platform=query.value(0), Name=query.value(1)))
+
+        return items
+
+
     def platforms(self):
         platforms = set()
 

@@ -63,7 +63,7 @@ class MainWindow(QMainWindow):
         #self.overview = Overview(self.tableWidgetList)
         self.overview = Overview(self.tableViewList)
 
-        self.randomizer = Randomizer(self.gamesTableWidget.getOwnedItems())
+        self.randomizer = Randomizer(self.gamesTableView.ownedItems())
         self.randomizer.consoleList.itemClicked.connect(self.updateStatusbar)
         self.randomizer.btnAll.clicked.connect(self.updateStatusbar)
         self.randomizer.btnNone.clicked.connect(self.updateStatusbar)
