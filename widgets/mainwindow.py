@@ -174,8 +174,8 @@ class MainWindow(QMainWindow):
                     msgBox.setWindowTitle("Invalid name")
                     msgBox.setText("Name cannot be empty")
                     msgBox.exec_()
-            else:
-                return
+                    continue
+            break
 
     def deleteFromCollection(self):
         currentTab = self.tab.currentIndex()
@@ -191,10 +191,10 @@ class MainWindow(QMainWindow):
 
             if ok == QMessageBox.Ok:
                 rows = []
-                indexes = self.tableWidgetList[currentTab-1].selectedItems()
+                indexes = self.tableViewList[currentTab-1].selectedIndexes()
                 for index in indexes:
                     rows.append(index.row())
-                self.tableWidgetList[currentTab-1].deleteData(rows)
+                self.tableViewList[currentTab-1].deleteData(rows)
 
     def deleteNotOwned(self):
         currentTab = self.tab.currentIndex()
@@ -225,11 +225,11 @@ class MainWindow(QMainWindow):
         addAct.setToolTip("Add to collection")
         addAct.triggered.connect(self.addToCollection)
 
-        delText = "&Delete item"
+        delText = "&Delete row"
 
         currentTab = self.tab.currentIndex()
         if 0 < currentTab < 4:
-            if len(self.tableWidgetList[currentTab-1].selectedItems()) > 1:
+            if len(self.tableViewList[currentTab-1].selectedIndexes()) > 1:
                 delText += "s"
         delAct = QAction(QIcon().fromTheme("edit-delete"), delText, self)
         delAct.setToolTip("Delete from collection")
@@ -299,19 +299,19 @@ class MainWindow(QMainWindow):
         """Filters table contents based on user input"""
 
         currentTab = self.tab.currentIndex()
-        filterText = self.searchBox.text()
+        searchText = self.searchBox.text()
 
         if 0 < currentTab < 4:
             self.searchBox.setEnabled(True)
-            self.tableViewList[currentTab - 1].filterTable(filterText)
-            if filterText is not "":
+            self.tableViewList[currentTab - 1].filterTable(searchText)
+            if searchText is not "":
                 self.statusBar().showMessage("Found {} {}.".format(self.tableViewList[currentTab-1].model.rowCount(),
                                                                    self.tableViewList[currentTab-1].model.tableName()))
             else:
                 self.updateStatusbar()
             """if self.tableWidgetList[currentTab-1].getDataLength() < 10000:
-                if filterText is not "":
-                    rowCount = self.tableWidgetList[currentTab-1].searchTable(filterText)
+                if searchText is not "":
+                    rowCount = self.tableWidgetList[currentTab-1].searchTable(searchText)
                     self.statusBar().showMessage("Found {} {}.".format(rowCount,
                                                                    self.tableWidgetList[currentTab-1].objectName()))
                     self.isFiltering = True
@@ -320,8 +320,8 @@ class MainWindow(QMainWindow):
                     self.updateStatusbar()
                     self.tableWidgetList[currentTab-1].searchTable("")
             elif self.searchBox.returnPressed:
-                if filterText is not "":
-                    rowCount = self.tableWidgetList[currentTab - 1].searchTable(filterText)
+                if searchText is not "":
+                    rowCount = self.tableWidgetList[currentTab - 1].searchTable(searchText)
                     self.statusBar().showMessage("Found {} {}.".format(rowCount,
                                                                            self.tableWidgetList[currentTab - 1].objectName()))
                     self.isFiltering = True

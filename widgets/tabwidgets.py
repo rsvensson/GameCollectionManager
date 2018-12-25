@@ -3,7 +3,7 @@ from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout,\
     QListWidget, QAbstractItemView, QTableView, QMessageBox
 from PySide2.QtSql import QSqlTableModel, QSqlDatabase, QSqlQuery, QSqlRecord
 from PySide2.QtGui import QColor, QFont
-from PySide2.QtCore import Qt, Signal
+from PySide2.QtCore import Qt, Signal, QModelIndex
 from collections import OrderedDict
 from random import randint
 
@@ -559,11 +559,12 @@ class SqlTable(QTableView):
             elif self.model.headerData(column, Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
                 self.setColumnWidth(column, 70)
 
-        self.verticalHeader().setVisible(False)  # Don't show row headers
         #self.setSortingEnabled(True)
-        self.sortByColumn(1, Qt.AscendingOrder)  # Sort by platform
+        #self.model.setFilter("1=1 ORDER BY Platform ASC, Name ASC")  # Sort by platform
+        self.verticalHeader().setVisible(False)  # Don't show row headers
         self.setColumnHidden(0, True)  # Don't show ID field
         self.resizeRowsToContents()
+        self.model.fetched.connect(self.resizeRowsToContents)
 
     def addData(self, dataDict):
         itemID = self.model.rowCount()
@@ -587,14 +588,30 @@ class SqlTable(QTableView):
         newRecord.setValue("Year", dataDict["Year"])
         newRecord.setValue("Comment", dataDict["Comment"])
 
-        if not self.model.insertRecord(-1, newRecord):
-            msgBox = QMessageBox()
-            msgBox.setIcon(QMessageBox.Information)
-            msgBox.setWindowTitle("Error")
-            msgBox.setText("Error adding to database: " + self.model.query().lastError().text())
-            msgBox.exec_()
+        #if not self.model.insertRecord(-1, newRecord):
+        #    msgBox = QMessageBox()
+        #    msgBox.setIcon(QMessageBox.Information)
+        #    msgBox.setWindowTitle("Error")
+        #    msgBox.setText("Error adding to database: " + self.model.query().lastError().text())
+        #    msgBox.exec_()
 
-        self.sortByColumn(1, Qt.AscendingOrder)
+        self.model.insertRecord(-1, newRecord)
+        self.filterTable("")
+
+    def deleteData(self, rows):
+        for row in rows:
+            self.model.removeRows(row, 1, parent=QModelIndex())
+        self.model.select()
+
+    def filterTable(self, filterText):
+        if filterText == "":
+            self.model.setFilter("1=1 ORDER BY Platform ASC, Name ASC")
+            self.resizeRowsToContents()
+            return
+
+        filter = "Name LIKE '%{}%'".format(filterText)
+        self.model.setFilter(filter)
+        self.resizeRowsToContents()
 
     def itemsInPlatform(self, platform):
         count = 0
@@ -602,7 +619,7 @@ class SqlTable(QTableView):
             "Console" if self.model.tableName() == "consoles" else "Accessory"
 
         query = QSqlQuery()
-        query.exec_("SELECT * FROM {} WHERE Platform='{}'"
+        query.exec_("SELECT Name FROM {} WHERE Platform='{}'"
                     "AND ({}='Yes' OR Box='Yes' OR Manual='Yes')".format(
             self.model.tableName(), platform, item))
         while query.next():
@@ -616,7 +633,7 @@ class SqlTable(QTableView):
             "Console" if self.model.tableName() == "consoles" else "Accessory"
 
         query = QSqlQuery()
-        query.exec_("SELECT * FROM {} WHERE {}='Yes' OR Box='Yes' OR Manual='Yes'".format(
+        query.exec_("SELECT Name FROM {} WHERE {}='Yes' OR Box='Yes' OR Manual='Yes'".format(
             self.model.tableName(), item))
         while query.next():
             count += 1
@@ -657,8 +674,3 @@ class SqlTable(QTableView):
 
     def test(self):
         pass
-
-    def searchTable(self, term):
-        items = self.findItems(term, Qt.MatchContains)
-        for item in items:
-            print(item.text())
