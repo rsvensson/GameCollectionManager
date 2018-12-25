@@ -50,7 +50,6 @@ class TableModel(QSqlTableModel):
                     return Qt.Checked
                 elif result == "No":
                     return Qt.Unchecked
-
             else:
                 return QSqlTableModel.data(self, index, role)
         # Bold fonts

@@ -93,14 +93,12 @@ class MainWindow(QMainWindow):
         self.helpMenu.addAction(self.buttonActions("about"))
 
         # Search stuff
-        self.searchLabel = QLabel()
-        self.searchLabel.setText("Search")
+        self.searchLabel = QLabel("Search")
         self.searchBox = QLineEdit()
         self.searchBox.setEnabled(False)
         self.searchBox.setClearButtonEnabled(True)
-        self.searchBox.textChanged.connect(self.filterTable)
-        self.advSearchBtn = QPushButton()
-        self.advSearchBtn.setText("Advanced search")
+        self.searchBox.textChanged.connect(self.search)
+        self.advSearchBtn = QPushButton("Advanced search")
         self.advSearchBtn.setToolTip("Doesn't actually work yet")
 
         # Tab layout.
@@ -109,7 +107,7 @@ class MainWindow(QMainWindow):
         self.tab.addTab(self.consolesTableView, "Consoles")
         self.tab.addTab(self.accessoriesTableView, "Accessories")
         self.tab.addTab(self.randomizer.layout, "Randomizer")
-        self.tab.currentChanged.connect(self.filterTable)
+        self.tab.currentChanged.connect(self.search)
         self.tab.currentChanged.connect(self.updateStatusbar)
 
         self.tabGrid = QGridLayout()
@@ -297,7 +295,7 @@ class MainWindow(QMainWindow):
 
         self.updateStatusbar()
 
-    def filterTable(self):
+    def search(self):
         """Filters table contents based on user input"""
 
         currentTab = self.tab.currentIndex()
@@ -305,7 +303,13 @@ class MainWindow(QMainWindow):
 
         if 0 < currentTab < 4:
             self.searchBox.setEnabled(True)
-            if self.tableWidgetList[currentTab-1].getDataLength() < 10000:
+            self.tableViewList[currentTab - 1].filterTable(filterText)
+            if filterText is not "":
+                self.statusBar().showMessage("Found {} {}.".format(self.tableViewList[currentTab-1].model.rowCount(),
+                                                                   self.tableViewList[currentTab-1].model.tableName()))
+            else:
+                self.updateStatusbar()
+            """if self.tableWidgetList[currentTab-1].getDataLength() < 10000:
                 if filterText is not "":
                     rowCount = self.tableWidgetList[currentTab-1].searchTable(filterText)
                     self.statusBar().showMessage("Found {} {}.".format(rowCount,
@@ -324,7 +328,7 @@ class MainWindow(QMainWindow):
                 else:
                     self.isFiltering = False
                     self.updateStatusbar()
-                    self.tableWidgetList[currentTab - 1].searchTable("")
+                    self.tableWidgetList[currentTab - 1].searchTable("")"""
         else:
             self.searchBox.setEnabled(False)
 
@@ -344,22 +348,21 @@ class MainWindow(QMainWindow):
 
         if currentTab == 0:
             self.statusBar().showMessage("")
+        elif 0 < currentTab < 4:
+            numItems = self.tableWidgetList[currentTab-1].getOwnedCount()
+            if self.tableWidgetList[currentTab-1].isHideNotOwned():
+                self.statusBar().showMessage("{} {} in collection.".format(numItems, itemType[currentTab-1]))
+            else:
+                self.statusBar().showMessage("Showing {} {} ({} {} in collection).".format(self.tableWidgetList[currentTab-1].rowCount(),
+                                                                                        self.tableWidgetList[currentTab-1].objectName(),
+                                                                                        numItems,
+                                                                                        self.tableWidgetList[currentTab-1].objectName()))
         elif currentTab == 4:
             platforms = self.randomizer.consoleList.selectedItems()
             self.statusBar().showMessage("Select platforms to randomize from.")
             if len(platforms) > 0:
                 self.statusBar().showMessage("Selecting from {} games.".format(self.randomizer.getGameCount()))
             return
-
-        if not self.isFiltering and 0 < currentTab < 4:
-            numItems = self.tableWidgetList[currentTab-1].getOwnedCount()
-            if self.tableWidgetList[currentTab-1].isHideNotOwned():
-                self.statusBar().showMessage("{} {} in collection.".format(numItems, itemType[currentTab-1]))
-            else:
-                self.statusBar().showMessage("Showing {} {} ({} {} in collection).".format(self.tableWidgetList[currentTab-1].rowCount(),
-                                                                                            self.tableWidgetList[currentTab-1].objectName(),
-                                                                                            numItems,
-                                                                                            self.tableWidgetList[currentTab-1].objectName()))
 
 
 def createWindow(games, consoles, accessories):
