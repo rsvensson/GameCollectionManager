@@ -117,16 +117,13 @@ class Overview(QWidget):
 
     def _extractData(self):
         tempPlatforms = set()
+        for table in self.tables:
+            tempPlatforms |= table.platforms()
 
         for i, table in enumerate(self.tables):
             self.lblTables.append(QLabel())
-            self.lblTables[i].setText("Number of {}: {}".format(table.objectName(),
-                                                                table.getOwnedCount()))
-
-            for row in table.getData():
-                for col in row:
-                    if col == "Platform":
-                        tempPlatforms.add(row[col])
+            self.lblTables[i].setText("Number of {}: {}".format(table.model.tableName(),
+                                                                table.ownedCount()))
 
         # Counts how many items each platform has and puts it into a dictionary
         self.platforms = sorted(tempPlatforms, key=str.lower)
@@ -136,12 +133,12 @@ class Overview(QWidget):
             self.accessoryData[platform] = 0
         for table in self.tables:
             for platform in self.platforms:
-                if table.objectName() == "games":
-                    self.gamesData[platform] = table.searchTableData(key="Platform", value=platform)
-                elif table.objectName() == "consoles":
-                    self.consoleData[platform] = table.searchTableData(key="Platform", value=platform)
-                elif table.objectName() == "accessories":
-                    self.accessoryData[platform] = table.searchTableData(key="Platform", value=platform)
+                if table.model.tableName() == "games":
+                    self.gamesData[platform] = table.itemsInPlatform(platform)
+                elif table.model.tableName() == "consoles":
+                    self.consoleData[platform] = table.itemsInPlatform(platform)
+                elif table.model.tableName() == "accessories":
+                    self.accessoryData[platform] = table.itemsInPlatform(platform)
 
         for table in self.tables:
-            self.totalItems += table.getOwnedCount()
+            self.totalItems += table.ownedCount()

@@ -34,7 +34,7 @@ class MainWindow(QMainWindow):
         self.db = QSqlDatabase.addDatabase("QSQLITE")
         self.db.setDatabaseName("data/db/collection.db")
         if not self.db.open():
-            QMessageBox.critical(None, "Database Error", db.lastError().text())
+            QMessageBox.critical(None, "Database Error", self.db.lastError().text())
 
         self.gamesTableWidget = Table(self.gamesDB)
         self.gamesTableWidget.setObjectName("games")
@@ -52,18 +52,21 @@ class MainWindow(QMainWindow):
         self.tableWidgetList = [self.gamesTableWidget,
                                 self.consolesTableWidget,
                                 self.accessoriesTableWidget]
+        self.tableViewList = [self.gamesTableView,
+                              self.consolesTableView,
+                              self.accessoriesTableView]
 
         # Hide not owned items by default
         for table in self.tableWidgetList:
             table.setHideNotOwned(True)
 
-        self.overview = Overview(self.tableWidgetList)
+        #self.overview = Overview(self.tableWidgetList)
+        self.overview = Overview(self.tableViewList)
 
         self.randomizer = Randomizer(self.gamesTableWidget.getOwnedItems())
         self.randomizer.consoleList.itemClicked.connect(self.updateStatusbar)
         self.randomizer.btnAll.clicked.connect(self.updateStatusbar)
         self.randomizer.btnNone.clicked.connect(self.updateStatusbar)
-
 
         # MainWindow layout
 
@@ -100,7 +103,7 @@ class MainWindow(QMainWindow):
         self.advSearchBtn.setText("Advanced search")
         self.advSearchBtn.setToolTip("Doesn't actually work yet")
 
-        # Tab layout. TODO: Maybe move to a separate class?
+        # Tab layout.
         self.tab.addTab(self.overview.layout, "Overview")
         self.tab.addTab(self.gamesTableView, "Games")
         self.tab.addTab(self.consolesTableView, "Consoles")

@@ -596,6 +596,32 @@ class SqlTable(QTableView):
 
         self.sortByColumn(1, Qt.AscendingOrder)
 
+    def itemsInPlatform(self, platform):
+        count = 0
+        item = "Game" if self.model.tableName() == "games" else\
+            "Console" if self.model.tableName() == "consoles" else "Accessory"
+
+        query = QSqlQuery()
+        query.exec_("SELECT * FROM {} WHERE Platform='{}'".format(
+            self.model.tableName(), platform))
+        while query.next():
+            count += 1
+
+        return count
+
+    def ownedCount(self):
+        count = 0
+        item = "Game" if self.model.tableName() == "games" else\
+            "Console" if self.model.tableName() == "consoles" else "Accessory"
+
+        query = QSqlQuery()
+        query.exec_("SELECT * FROM {} WHERE {}='Yes' OR Box='Yes' OR Manual='Yes'".format(
+            self.model.tableName(), item))
+        while query.next():
+            count += 1
+
+        return count
+
     def platforms(self):
         platforms = set()
 
