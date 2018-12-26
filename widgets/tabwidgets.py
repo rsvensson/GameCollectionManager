@@ -550,9 +550,9 @@ class SqlTable(QTableView):
                 self.setColumnWidth(column, 100)
             elif self.model.headerData(column, Qt.Horizontal) == "Name":
                 self.setColumnWidth(column, 300)
-            elif self.model.headerData(column, Qt.Horizontal) == "Region":
+            elif self.model.headerData(column, Qt.Horizontal) in ("Region", "Country"):
                 self.setColumnWidth(column, 85)
-            elif self.model.headerData(column, Qt.Horizontal) in ("Code", "Country", "Serial number"):
+            elif self.model.headerData(column, Qt.Horizontal) in ("Code", "Serial number"):
                 self.setColumnWidth(column, 140)
             elif self.model.headerData(column, Qt.Horizontal) == "Year":
                 self.setColumnWidth(column, 40)
