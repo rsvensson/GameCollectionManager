@@ -128,13 +128,13 @@ class MainWindow(QMainWindow):
 
         # Main layout
         self.centralWidget.setLayout(self.mainGrid)
-        winSize = QApplication.desktop().availableGeometry()
-        if winSize.width() <= 768 or winSize.height() <= 1024:
+        gSize = QApplication.desktop().availableGeometry()
+        if gSize.width() <= 1280 or gSize.height() <= 768:
             self.showMaximized()
         else:
-            self.resize(1024, 768)
+            self.resize(1280, 768)
             self.center()
-        self.setWindowTitle("Game Collection Manager - {}".format(_VERSION))
+        self.setWindowTitle("Game Collection Manager v{}".format(_VERSION))
         self.show()
 
         self.statusBar().showMessage("")
@@ -149,11 +149,17 @@ class MainWindow(QMainWindow):
         self.updateStatusbar()
 
     def addToCollection(self):
+        """
+        Adds data to the collection using InputWindow
+        """
+
+        # Get all the platforms in the collection for InputWindow's platform spinbox
         platforms = set()
         platforms |= self.gamesTableView.platforms()
         platforms |= self.consolesTableView.platforms()
         platforms |= self.accessoriesTableView.platforms()
 
+        # Loop until user enters valid data
         while True:
             self.addWindow = InputWindow(sorted(platforms, key=str.lower))
             if self.addWindow.exec_() == QDialog.Accepted:
@@ -197,6 +203,10 @@ class MainWindow(QMainWindow):
                 self.tableViewList[currentTab-1].deleteData(rows)
 
     def deleteNotOwned(self):
+        """
+        Deletes items in table that are not owned. Not owned items are items that
+        don't have either the item itself, the box, or the manual.
+        """
         currentTab = self.tab.currentIndex()
 
         if 0 < currentTab < 4:
@@ -212,6 +222,11 @@ class MainWindow(QMainWindow):
                 self.tableWidgetList[currentTab-1].deleteNotOwned()
 
     def importToDatabase(self):
+        """
+        Imports all games from selected platforms into database as not owned.
+        This is to make it easier for the user to quickly go through the games
+        in a platform and check which games they own.
+        """
         self.importWindow = ImportWindow(self.gamesTableWidget.getData())
         if self.importWindow.exec_() == QDialog.Accepted:
             data = self.importWindow.returnData()

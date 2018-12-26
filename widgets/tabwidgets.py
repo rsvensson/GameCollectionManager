@@ -567,6 +567,14 @@ class SqlTable(QTableView):
         self.model.fetched.connect(self.resizeRowsToContents)
 
     def addData(self, dataDict):
+        """
+        Adds data to the SQL database
+        :param dataDict: dictionary of the data to be added
+        """
+
+        # TODO: Checkboxes issue
+        # The checkboxes' values gets put at the bottom of the table,
+        # while the bottom row's checkbox values is put in the new row.
         itemID = self.model.rowCount()
         newRecord = self.model.record()
         newRecord.setValue("ID", itemID)
@@ -599,21 +607,51 @@ class SqlTable(QTableView):
         self.filterTable("")
 
     def deleteData(self, rows):
+        """
+        Deletes rows from SQL database
+        :param rows: Rows to delete
+        """
+
         for row in rows:
             self.model.removeRows(row, 1, parent=QModelIndex())
         self.model.select()
 
     def filterTable(self, filterText):
+        """
+        Filters the table based on search strings
+        :param filterText: The text to filter
+        """
+
+        # Reset filtering to default if filterText is empty
         if filterText == "":
             self.model.setFilter("1=1 ORDER BY Platform ASC, Name ASC")
             self.resizeRowsToContents()
             return
 
-        filter = "Name LIKE '%{}%'".format(filterText)
-        self.model.setFilter(filter)
+        if self.model.tableName() == "games":
+            f = "Platform LIKE '%{}%' " \
+                "OR Name LIKE '%{}%' " \
+                "OR Code LIKE '%{}%' " \
+                "OR Comment LIKE '%{}%'".format(filterText, filterText, filterText, filterText)
+        elif self.model.tableName() == "consoles":
+            f = "Platform LIKE '%{}%' " \
+                "OR Name LIKE '%{}%' " \
+                "OR `Serial number` LIKE '%{}%' " \
+                "OR Comment LIKE '%{}%'".format(filterText, filterText, filterText, filterText)
+        elif self.model.tableName() == "accessories":
+            f = "Platform LIKE '%{}%' " \
+                "OR Name LIKE '%{}%' " \
+                "OR Comment LIKE '%{}%'".format(filterText, filterText, filterText)
+        self.model.setFilter(f)
         self.resizeRowsToContents()
 
     def itemsInPlatform(self, platform):
+        """
+        Counts how many items are in a platform
+        :param platform: Platform to count items for
+        :return: (int) Item count
+        """
+
         count = 0
         item = "Game" if self.model.tableName() == "games" else\
             "Console" if self.model.tableName() == "consoles" else "Accessory"
@@ -628,6 +666,12 @@ class SqlTable(QTableView):
         return count
 
     def ownedCount(self):
+        """
+        Counts how many items in the table that are owned. An owned item is one that
+        has either the item itself, the box, or the manual.
+        :return: (int) Item count
+        """
+
         count = 0
         item = "Game" if self.model.tableName() == "games" else\
             "Console" if self.model.tableName() == "consoles" else "Accessory"
@@ -641,6 +685,12 @@ class SqlTable(QTableView):
         return count
 
     def ownedItems(self):
+        """
+        Fetches all items in the table that are owned. An owned item is one that
+        has either the item itself, the box, or the manual.
+        :return: (list) List of items
+        """
+
         items = []
         item = "Game" if self.model.tableName() == "games" else\
             "Console" if self.model.tableName() == "consoles" else "Accessory"
@@ -655,6 +705,11 @@ class SqlTable(QTableView):
 
 
     def platforms(self):
+        """
+        Fetches the platforms that are currently in the table.
+        :return: (set) Platforms in table
+        """
+
         platforms = set()
 
         query = QSqlQuery()
