@@ -564,37 +564,63 @@ class SqlTable(QTableView):
         self.verticalHeader().setVisible(False)  # Don't show row headers
         self.setColumnHidden(0, True)  # Don't show ID field
         self.resizeRowsToContents()
-        self.model.fetched.connect(self.resizeRowsToContents)
+        self.model.fetched.connect(self.resizeRowsToContents)  # Not working
 
-    def addData(self, dataDict):
+    def addData(self, newData):
         """
         Adds data to the SQL database
-        :param dataDict: dictionary of the data to be added
+        :param newData: (dictionary or list of dictionaries) The data to be added
         """
 
         # TODO: Checkboxes issue
         # The checkboxes' values gets put at the bottom of the table,
         # while the bottom row's checkbox values is put in the new row.
-        itemID = self.model.rowCount()
-        newRecord = self.model.record()
-        newRecord.setValue("ID", itemID)
-        newRecord.setValue("Platform", dataDict["Platform"])
-        newRecord.setValue("Name", dataDict["Name"])
-        newRecord.setValue("Region", dataDict["Region"])
-        if self.model.tableName() == "games":
-            newRecord.setValue("Code", dataDict["Code"])
-            newRecord.setValue("Game", dataDict["Game"])
-        elif self.model.tableName() == "consoles":
-            newRecord.setValue("Country", dataDict["Country"])
-            newRecord.setValue("Serial number", dataDict["Serial number"])
-            newRecord.setValue("Console", dataDict["Console"])
-        elif self.model.tableName() == "accessories":
-            newRecord.setValue("Country", dataDict["Country"])
-            newRecord.setValue("Accessory", dataDict["Accessory"])
-        newRecord.setValue("Box", dataDict["Box"])
-        newRecord.setValue("Manual", dataDict["Manual"])
-        newRecord.setValue("Year", dataDict["Year"])
-        newRecord.setValue("Comment", dataDict["Comment"])
+
+        if isinstance(newData, list):
+            for data in newData:
+                itemID = self.model.rowCount()
+                newRecord = self.model.record()
+                newRecord.setValue("ID", itemID)
+                newRecord.setValue("Platform", data["Platform"])
+                newRecord.setValue("Name", data["Name"])
+                newRecord.setValue("Region", data["Region"])
+                if self.model.tableName() == "games":
+                    newRecord.setValue("Code", data["Code"])
+                    newRecord.setValue("Game", data["Game"])
+                elif self.model.tableName() == "consoles":
+                    newRecord.setValue("Country", data["Country"])
+                    newRecord.setValue("Serial number", data["Serial number"])
+                    newRecord.setValue("Console", data["Console"])
+                elif self.model.tableName() == "accessories":
+                    newRecord.setValue("Country", data["Country"])
+                    newRecord.setValue("Accessory", data["Accessory"])
+                newRecord.setValue("Box", data["Box"])
+                newRecord.setValue("Manual", data["Manual"])
+                newRecord.setValue("Year", data["Year"])
+                newRecord.setValue("Comment", data["Comment"])
+                self.model.insertRecord(-1, newRecord)
+        elif isinstance(newData, OrderedDict):
+            itemID = self.model.rowCount()
+            newRecord = self.model.record()
+            newRecord.setValue("ID", itemID)
+            newRecord.setValue("Platform", newData["Platform"])
+            newRecord.setValue("Name", newData["Name"])
+            newRecord.setValue("Region", newData["Region"])
+            if self.model.tableName() == "games":
+                newRecord.setValue("Code", newData["Code"])
+                newRecord.setValue("Game", newData["Game"])
+            elif self.model.tableName() == "consoles":
+                newRecord.setValue("Country", newData["Country"])
+                newRecord.setValue("Serial number", newData["Serial number"])
+                newRecord.setValue("Console", newData["Console"])
+            elif self.model.tableName() == "accessories":
+                newRecord.setValue("Country", newData["Country"])
+                newRecord.setValue("Accessory", newData["Accessory"])
+            newRecord.setValue("Box", newData["Box"])
+            newRecord.setValue("Manual", newData["Manual"])
+            newRecord.setValue("Year", newData["Year"])
+            newRecord.setValue("Comment", newData["Comment"])
+            self.model.insertRecord(-1, newRecord)
 
         #if not self.model.insertRecord(-1, newRecord):
         #    msgBox = QMessageBox()
@@ -603,7 +629,6 @@ class SqlTable(QTableView):
         #    msgBox.setText("Error adding to database: " + self.model.query().lastError().text())
         #    msgBox.exec_()
 
-        self.model.insertRecord(-1, newRecord)
         self.filterTable("")
 
     def deleteData(self, rows):

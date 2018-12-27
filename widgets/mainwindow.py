@@ -230,8 +230,7 @@ class MainWindow(QMainWindow):
         self.importWindow = ImportWindow(self.gamesTableWidget.getData())
         if self.importWindow.exec_() == QDialog.Accepted:
             data = self.importWindow.returnData()
-            self.gamesTableWidget.addData(data)
-
+            self.gamesTableView.addData(data)
 
     # noinspection PyCallByClass,PyTypeChecker
     def buttonActions(self, action):
