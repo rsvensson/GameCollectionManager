@@ -8,7 +8,7 @@ from widgets.overview import Overview
 from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget,\
     QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget
 from PySide2.QtGui import QIcon
-from PySide2.QtSql import QSqlDatabase
+from PySide2.QtSql import QSqlDatabase, QSql
 
 _VERSION = "0.0.13"
 
@@ -253,9 +253,12 @@ class MainWindow(QMainWindow):
         exitAct.setToolTip("Exit application")
         exitAct.triggered.connect(self.close)
 
+        infoAct = QAction("Print info", self)
+        infoAct.triggered.connect(self.info)
+
         act = {"add": addAct, "del": delAct, "open": opnAct, "import": impAct,
                "owned": ownAct, "delnotowned": delNotOwned,
-               "about": aboutAct, "exit": exitAct}
+               "about": aboutAct, "exit": exitAct, "info": infoAct}
 
         return act.get(action)
 
@@ -276,11 +279,24 @@ class MainWindow(QMainWindow):
         addAct = cmenu.addAction(self.buttonActions("add"))
         if 0 < currentTab < 4:
             delAct = cmenu.addAction(self.buttonActions("del"))
+            infoAct = cmenu.addAction(self.buttonActions("info"))
         opnAct = cmenu.addAction(self.buttonActions("open"))
         exitAct = cmenu.addAction(self.buttonActions("exit"))
         action = cmenu.exec_(self.mapToGlobal(event.pos()))
 
         self.updateStatusbar()
+
+    def info(self):
+        currentTab = self.tab.currentIndex()
+        indexes = self.tableViewList[currentTab-1].selectedIndexes()
+        table = self.tableViewList[currentTab-1].model.tableName()
+        names = [index.data() for index in indexes]
+        query = QSqlQuery()
+        for name in names:
+            query.exec_("SELECT ID FROM {} WHERE Name='{}'".format(table, name))
+            query.first()
+            print(query.lastError().text())
+            self.tableViewList[currentTab-1].rowInfo(query.value(0))
 
     def search(self):
         """Filters table contents based on user input"""

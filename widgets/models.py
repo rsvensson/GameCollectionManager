@@ -1,7 +1,46 @@
 #!/usr/bin/env python
-from PySide2.QtCore import Qt, Signal, QModelIndex
+from PySide2.QtCore import Qt, Signal, QModelIndex, QSortFilterProxyModel
 from PySide2.QtGui import QFont, QColor
 from PySide2.QtSql import QSqlTableModel, QSqlQuery
+
+
+class CheckableSortFilterProxyModel(QSortFilterProxyModel):
+    def __init__(self, parent=None):
+        QSortFilterProxyModel.__init__(self, parent=parent)
+
+        self.yesNoColumns = []
+
+    def setParameters(self, checkboxCols):
+        self.yesNoColumns.clear()
+
+        if len(self.yesNoColumns) > 0:
+            for col in checkboxCols:
+                self.yesNoColumns.append(col)
+
+    def data(self, index, role=Qt.DisplayRole):
+        if index.column() in self.yesNoColumns and (role == Qt.CheckStateRole or role == Qt.DisplayRole):
+            if role == Qt.CheckStateRole:
+                if index.data(Qt.EditRole) == "Yes":
+                    return Qt.Checked
+                elif index.data(Qt.EditRole) == "No":
+                    return Qt.Unchecked
+            elif role == Qt.DisplayRole:
+                return QSortFilterProxyModel.data(self, index, role)
+        else:
+            return QSortFilterProxyModel.data(self, index, role)
+
+    def setData(self, index, value, role=Qt.EditRole):
+        if index.column() in self.yesNoColumns and role == Qt.CheckStateRole:
+            data = 1 if value == Qt.Checked else 0
+            return QSortFilterProxyModel.setData(index, data, Qt.EditRole)
+        else:
+            return QSortFilterProxyModel.setData(index, value, role)
+
+    def flags(self, index):
+        if index.column() in self.yesNoColumns:
+            return Qt.ItemIsUserCheckable | Qt.ItemIsSelectable | Qt.ItemIsEnabled
+        else:
+            return QSortFilterProxyModel.flags(index)
 
 
 class TableModel(QSqlTableModel):
@@ -13,7 +52,7 @@ class TableModel(QSqlTableModel):
     fetched = Signal()
 
     def __init__(self, *args, **kwargs):
-        QSqlTableModel.__init__(self, *args, **kwargs)
+        super().__init__(*args, **kwargs)
 
     def fetchMore(self, parent=QModelIndex()):
         # So we can detect when more items has been fetched and resize rows. Not working yet.
@@ -21,85 +60,61 @@ class TableModel(QSqlTableModel):
         return super().fetchMore(parent)
 
     def flags(self, index):
-        result = QSqlTableModel.flags(self, index)
         if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
                                                               "Box", "Manual"):
-            result |= Qt.ItemIsUserCheckable
-        return result
+            return Qt.ItemIsUserCheckable | Qt.ItemIsSelectable | Qt.ItemIsEnabled
+        else:
+            return super().flags(index)
 
     def data(self, index, role=Qt.DisplayRole):
-        """
-        TODO: Figure out why bindValue isn't working but format is
-        """
         # Handle setting our checkboxes
-        if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
-                                                              "Box", "Manual"):
-            if role == Qt.CheckStateRole:
-                query = QSqlQuery()
-                table = self.tableName()
-                itemID = index.row()
-                item = self.headerData(index.column(), Qt.Horizontal)
-                query.prepare("SELECT {} FROM {} WHERE ID={}".format(item, table, itemID))
-                query.bindValue(":item", item)
-                query.bindValue(":itemID", itemID)
-                query.exec_()
-                query.first()
-                result = query.value(0)
+        if (role == Qt.CheckStateRole or role == Qt.DisplayRole)\
+            and self.headerData(index.column(), Qt.Horizontal) in\
+                ("Game", "Console", "Accessory", "Box", "Manual"):
 
-                if result == "Yes":
+            if role == Qt.CheckStateRole:
+                if index.data(Qt.EditRole) == "Yes":
                     return Qt.Checked
-                elif result == "No":
+                elif index.data(Qt.EditRole) == "No":
                     return Qt.Unchecked
-            else:
-                return QSqlTableModel.data(self, index, role)
+            elif role == Qt.DisplayRole:
+                return super().data(index, role)
         # Bold fonts
-        elif role == Qt.FontRole and self.headerData(index.column(), Qt.Horizontal) in ("Region",
-                                                                                        "Country"):
+        elif role == Qt.FontRole and self.headerData(index.column(), Qt.Horizontal) in \
+                ("Region", "Country", "Game", "Console", "Accessory", "Box", "Manual"):
             font = QFont()
             font.setBold(True)
             return font
         # Set foreground color
-        elif role == Qt.ForegroundRole and self.headerData(index.column(), Qt.Horizontal) == "Region":
-            if index.data() in ("PAL", "Europe"):
-                return QColor(255, 255, 0)
-            elif index.data() in ("NTSC (JP)", "Japan"):
-                return QColor(255, 0, 0)
-            elif index.data() in ("NTSC (NA)", "North America"):
-                return QColor(0, 0, 255)
+        elif role == Qt.ForegroundRole:
+            if self.headerData(index.column(), Qt.Horizontal) == "Region":
+                if index.data() in ("PAL", "Europe"):
+                    return QColor(255, 255, 0)
+                elif index.data() in ("NTSC (JP)", "Japan"):
+                    return QColor(255, 0, 0)
+                elif index.data() in ("NTSC (NA)", "North America"):
+                    return QColor(0, 0, 255)
+            elif self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
+                                                                    "Box", "Manual"):
+                if index.data(Qt.EditRole) == "Yes":
+                    return QColor(0, 255, 0)
+                elif index.data(Qt.EditRole) == "No":
+                    return QColor(255, 0, 0)
         # Set text alignment
         elif role == Qt.TextAlignmentRole \
                 and self.headerData(index.column(), Qt.Horizontal) in ("Region", "Country"):
             return Qt.AlignCenter
         # Display the cell data in tooltip
         elif role == Qt.ToolTipRole:
-            return QSqlTableModel.data(self, index, Qt.DisplayRole)
+            return super().data(index, Qt.DisplayRole)
 
-        return QSqlTableModel.data(self, index, role)
+        return super().data(index, role)
 
     def setData(self, index, value, role=Qt.EditRole):
-        if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
-                                                              "Box", "Manual"):
-            if role == Qt.CheckStateRole:
-                if value == Qt.Checked:
-                    query = QSqlQuery()
-                    table = self.tableName()
-                    itemID = index.row()
-                    item = self.headerData(index.column(), Qt.Horizontal)
-                    query.prepare("UPDATE {} SET {}='Yes' WHERE ID={}".format(table, item, itemID))
-                    #query.bindValue(":itemID", itemID)
-                    #query.bindValue(":item", item)
-                    query.exec_()
-                    del query
-                    return True
-                elif value == Qt.Unchecked:
-                    query = QSqlQuery()
-                    table = self.tableName()
-                    itemID = index.row()
-                    item = self.headerData(index.column(), Qt.Horizontal)
-                    query.prepare("UPDATE {} SET {}='No' WHERE ID={}".format(table, item, itemID))
-                    #query.bindValue(":id", id)
-                    #query.bindValue(":item", item)
-                    query.exec_()
-                    del query
-                    return True
-        return QSqlTableModel.setData(self, index, value, role)
+        if role == Qt.CheckStateRole\
+                and self.headerData(index.column(), Qt.Horizontal) in \
+                ("Game", "Console", "Accessory", "Box", "Manual"):
+            data = "Yes" if value == Qt.Checked else "No"
+            return super().setData(index, data, Qt.EditRole)
+        else:
+            return super().setData(index, value, role)

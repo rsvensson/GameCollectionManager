@@ -36,32 +36,32 @@ class Table(QTableView):
         if tableName == "games":
             self.model.setHeaderData(4, Qt.Horizontal, "Code")
             self.model.setHeaderData(5, Qt.Horizontal, "Game")
-            self.setItemDelegateForColumn(5, CheckboxDelegate("Game", parent=self))
+            #self.setItemDelegateForColumn(5, CheckboxDelegate("Game", parent=self))
             self.model.setHeaderData(6, Qt.Horizontal, "Box")
-            self.setItemDelegateForColumn(6, CheckboxDelegate("Box", parent=self))
+            #self.setItemDelegateForColumn(6, CheckboxDelegate("Box", parent=self))
             self.model.setHeaderData(7, Qt.Horizontal, "Manual")
-            self.setItemDelegateForColumn(7, CheckboxDelegate("Manual", parent=self))
+            #self.setItemDelegateForColumn(7, CheckboxDelegate("Manual", parent=self))
             self.model.setHeaderData(8, Qt.Horizontal, "Year")
             self.model.setHeaderData(9, Qt.Horizontal, "Comment")
         elif tableName == "consoles":
             self.model.setHeaderData(4, Qt.Horizontal, "Country")
             self.model.setHeaderData(5, Qt.Horizontal, "Serial number")
             self.model.setHeaderData(6, Qt.Horizontal, "Console")
-            self.setItemDelegateForColumn(6, CheckboxDelegate("Console", parent=self))
+            #self.setItemDelegateForColumn(6, CheckboxDelegate("Console", parent=self))
             self.model.setHeaderData(7, Qt.Horizontal, "Box")
-            self.setItemDelegateForColumn(7, CheckboxDelegate("Box", parent=self))
+            #self.setItemDelegateForColumn(7, CheckboxDelegate("Box", parent=self))
             self.model.setHeaderData(8, Qt.Horizontal, "Manual")
-            self.setItemDelegateForColumn(8, CheckboxDelegate("Manual", parent=self))
+            #self.setItemDelegateForColumn(8, CheckboxDelegate("Manual", parent=self))
             self.model.setHeaderData(9, Qt.Horizontal, "Year")
             self.model.setHeaderData(10, Qt.Horizontal, "Comment")
         elif tableName == "accessories":
             self.model.setHeaderData(4, Qt.Horizontal, "Country")
             self.model.setHeaderData(5, Qt.Horizontal, "Accessory")
-            self.setItemDelegateForColumn(5, CheckboxDelegate("Accessory", parent=self))
+            #self.setItemDelegateForColumn(5, CheckboxDelegate("Accessory", parent=self))
             self.model.setHeaderData(6, Qt.Horizontal, "Box")
-            self.setItemDelegateForColumn(6, CheckboxDelegate("Box", parent=self))
+            #self.setItemDelegateForColumn(6, CheckboxDelegate("Box", parent=self))
             self.model.setHeaderData(7, Qt.Horizontal, "Manual")
-            self.setItemDelegateForColumn(7, CheckboxDelegate("Manual", parent=self))
+            #self.setItemDelegateForColumn(7, CheckboxDelegate("Manual", parent=self))
             self.model.setHeaderData(8, Qt.Horizontal, "Year")
             self.model.setHeaderData(9, Qt.Horizontal, "Comment")
 
@@ -100,15 +100,15 @@ class Table(QTableView):
         # The checkboxes' values gets put at the bottom of the table,
         # while the bottom row's checkbox values is put in the new row.
 
-        # table = self.model.tableName()
-        # query = QSqlQuery()
-        # query.exec_("SELECT COUNT(*) FROM {}".format(table))
-        # query.first()
-        # itemID = query.value(0)
+        table = self.model.tableName()
+        query = QSqlQuery()
+        query.exec_("SELECT COUNT(*) FROM {}".format(table))
+        query.first()
+        itemID = query.value(0)
 
         if isinstance(newData, list):
             for data in newData:
-                """if table == "games":
+                if table == "games":
                     query.exec_("INSERT INTO {} "
                                 "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Comment) "
                                 "VALUES "
@@ -133,37 +133,16 @@ class Table(QTableView):
                                 "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
                         table, itemID, data["Platform"], data["Name"], data["Region"], data["Country"],
                         data["Accessory"], data["Box"], data["Manual"], data["Year"], data["Comment"])
-                    )"""
+                    )
 
-                itemID = self.model.rowCount()
-                newRecord = self.model.record()
-                newRecord.setValue("ID", int(itemID))
-                newRecord.setValue("Platform", data["Platform"])
-                newRecord.setValue("Name", data["Name"])
-                newRecord.setValue("Region", data["Region"])
-                if self.model.tableName() == "games":
-                    newRecord.setValue("Code", data["Code"])
-                    newRecord.setValue("Game", data["Game"])
-                elif self.model.tableName() == "consoles":
-                    newRecord.setValue("Country", data["Country"])
-                    newRecord.setValue("Serial number", data["Serial number"])
-                    newRecord.setValue("Console", data["Console"])
-                elif self.model.tableName() == "accessories":
-                    newRecord.setValue("Country", data["Country"])
-                    newRecord.setValue("Accessory", data["Accessory"])
-                newRecord.setValue("Box", data["Box"])
-                newRecord.setValue("Manual", data["Manual"])
-                newRecord.setValue("Year", data["Year"])
-                newRecord.setValue("Comment", data["Comment"])
-                self.model.insertRecord(-1, newRecord)
         elif isinstance(newData, OrderedDict):
-            """if table == "games":
+            if table == "games":
                 query.exec_("INSERT INTO {} "
                             "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Comment) "
                             "VALUES "
                             "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
-                    table, itemID, data["Platform"], data["Name"], data["Region"], data["Code"],
-                    data["Game"], data["Box"], data["Manual"], data["Year"], data["Comment"])
+                    table, itemID, newData["Platform"], newData["Name"], newData["Region"], newData["Code"],
+                    newData["Game"], newData["Box"], newData["Manual"], newData["Year"], newData["Comment"])
                 )
             elif table == "consoles":
                 query.exec_("INSERT INTO {} "
@@ -171,47 +150,18 @@ class Table(QTableView):
                             "Year, Comment) "
                             "VALUES "
                             "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
-                    table, itemID, data["Platform"], data["Name"], data["Region"], data["Country"],
-                    data["Serial number"], data["Console"], data["Box"], data["Manual"], data["Year"],
-                    data["Comment"])
+                    table, itemID, newData["Platform"], newData["Name"], newData["Region"], newData["Country"],
+                    newData["Serial number"], newData["Console"], newData["Box"], newData["Manual"], newData["Year"],
+                    newData["Comment"])
                 )
             elif table == "accessories":
                 query.exec_("INSERT INTO {} "
                             "(ID, Platform, Name, Region, Country, Accessory, Box, Manual, Year, Comment) "
                             "VALUES "
                             "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
-                    table, itemID, data["Platform"], data["Name"], data["Region"], data["Country"],
-                    data["Accessory"], data["Box"], data["Manual"], data["Year"], data["Comment"])
-                )"""
-
-            itemID = self.model.rowCount()
-            newRecord = self.model.record()
-            newRecord.setValue("ID", int(itemID))
-            newRecord.setValue("Platform", newData["Platform"])
-            newRecord.setValue("Name", newData["Name"])
-            newRecord.setValue("Region", newData["Region"])
-            if self.model.tableName() == "games":
-                newRecord.setValue("Code", newData["Code"])
-                newRecord.setValue("Game", newData["Game"])
-            elif self.model.tableName() == "consoles":
-                newRecord.setValue("Country", newData["Country"])
-                newRecord.setValue("Serial number", newData["Serial number"])
-                newRecord.setValue("Console", newData["Console"])
-            elif self.model.tableName() == "accessories":
-                newRecord.setValue("Country", newData["Country"])
-                newRecord.setValue("Accessory", newData["Accessory"])
-            newRecord.setValue("Box", newData["Box"])
-            newRecord.setValue("Manual", newData["Manual"])
-            newRecord.setValue("Year", newData["Year"])
-            newRecord.setValue("Comment", newData["Comment"])
-            self.model.insertRecord(-1, newRecord)
-
-        #if not self.model.insertRecord(-1, newRecord):
-        #    msgBox = QMessageBox()
-        #    msgBox.setIcon(QMessageBox.Information)
-        #    msgBox.setWindowTitle("Error")
-        #    msgBox.setText("Error adding to database: " + self.model.query().lastError().text())
-        #    msgBox.exec_()
+                    table, itemID, newData["Platform"], newData["Name"], newData["Region"], newData["Country"],
+                    newData["Accessory"], newData["Box"], newData["Manual"], newData["Year"], newData["Comment"])
+                )
 
         self.filterTable("")
 
@@ -349,6 +299,15 @@ class Table(QTableView):
 
         self.resized.emit()
         return super().resizeEvent(event)
+
+    def rowInfo(self, row):
+        table = self.model.tableName()
+        query = QSqlQuery()
+        query.exec_("SELECT * FROM {} WHERE ID={}".format(table, row))
+        query.first()
+        length = 11 if table == "consoles" else 10
+        for i in range(length):
+            print(query.value(i))
 
     def setHideNotOwned(self, on):
         self.hideNotOwned = on
