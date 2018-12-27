@@ -101,13 +101,13 @@ class Table(QTableView):
         # while the bottom row's checkbox values is put in the new row.
 
         table = self.model.tableName()
-        query = QSqlQuery()
-        query.exec_("SELECT COUNT(*) FROM {}".format(table))
-        query.first()
-        itemID = query.value(0)
 
         if isinstance(newData, list):
             for data in newData:
+                query = QSqlQuery()
+                query.exec_("SELECT COUNT(*) FROM {}".format(table))
+                query.first()
+                itemID = query.value(0)
                 if table == "games":
                     query.exec_("INSERT INTO {} "
                                 "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Comment) "
@@ -136,6 +136,10 @@ class Table(QTableView):
                     )
 
         elif isinstance(newData, OrderedDict):
+            query = QSqlQuery()
+            query.exec_("SELECT COUNT(*) FROM {}".format(table))
+            query.first()
+            itemID = query.value(0)
             if table == "games":
                 query.exec_("INSERT INTO {} "
                             "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Comment) "
@@ -187,7 +191,9 @@ class Table(QTableView):
         while query.next():
             rows.append(query.value(0))
 
-        self.deleteData(rows)
+        for row in rows:
+            query.exec_("DELETE FROM {} WHERE ID={}".format(self.model.tableName(), row))
+        self.model.select()
 
     def filterTable(self, filterText):
         """
