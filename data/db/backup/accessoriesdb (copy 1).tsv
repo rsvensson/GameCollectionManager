@@ -1,5 +1,5 @@
-Platform	Accessory	Region	Country	Box	Manual	Comment
-3DS	Circle Pad Pro	??	??	--	Yes	The one that came with Resident Evil: Revelations
+Platform	Name	Region	Country	Box	Manual	Comment
+Nintendo 3DS	Circle Pad Pro	??	??	--	Yes	The one that came with Resident Evil: Revelations
 Atari ST	TAC-2 Joystick x2	??	??	No	No	The white version
 GB/GBC	AC Adapter	PAL	Europe	No	No	Manufactured by Big Ben
 GB/GBC	Action Replay Xtreme	PAL	??	Yes	Yes	French instruction book and box.
@@ -17,8 +17,8 @@ Mega Drive	Mega Drive controller	PAL	1650	No	No	With white start button
 Mega Drive	Mega Drive controller x2	--	--	No	No	Third party 6-button pads
 Mega Drive	Mega Everdrive X7	--	--	Yes	Yes	Mega-ED v2.01 11.11.2014
 Mega Drive	Pro Action Replay 1	PAL	--	Yes	Yes	German release. Box and instructions in german, code book in english. Includes registration card.
-NDS	Acekard 2i	??	??	Yes	Yes	Flashcart for NDS. Includes the MicroSD card reader.
-NDS	R4DS	??	??	Yes	Yes	Flashcart for NDS. Includes the MicroSD card reader, cartridge dust case and strap.
+Nintendo DS	Acekard 2i	??	??	Yes	Yes	Flashcart for NDS. Includes the MicroSD card reader.
+Nintendo DS	R4DS	??	??	Yes	Yes	Flashcart for NDS. Includes the MicroSD card reader, cartridge dust case and strap.
 NES/FC	FDSstick	--	--	No	No	Disk Drive emulator for Famicom Disk System
 NES/FC	Famicom Disk System RAM Adapter	NTSC	JPN	No	No	Ram adapter only, no disk drive. Has a 4.7k resistor array installed on the PRG data lines to fix glitchy graphics on some systems.
 NES/FC	Famicom Everdrive N8	--	KRI-KZ	No	No	White shell

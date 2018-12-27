@@ -1,5 +1,7 @@
-Platform	Console	Region	Country	Serial number	Box	Manual	Comment
+Platform	Name	Region	Country	Serial number	Box	Manual	Comment
 Atari ST	Atari 1040STfm	PAL	SCN	A183 P4005803 K	No	No	"I have exchanged the floppy drive because the original one died. I had to cut off the plastic piece that fit around the old drive's eject button to be able to access the new drive's button. Has the number ""1"" stamped in the middle-left center part of the bottom sticker."
+Gakken	Gakken Trojan Horse	??	??	--	Yes	Yes	Game & Watch clone
+Gamecube	Nintendo Gamecube	PAL	SCN	DEH10674411	Yes	Yes	Black. Pre 2004-version with Digital Out port.
 GB/GBC	Nintendo Game Boy	PAL	??	G18622468	No	No	Gray. White backlight with bivert mod and glass screen protector.
 GB/GBC	Nintendo Game Boy Color	PAL	SCN	CH12558704	No	No	Transparent (Atomic Purple)
 GB/GBC	Nintendo Game Boy Color	PAL	SCN	CH21568378	No	No	Yellow. Replaced screen protector.
@@ -7,8 +9,6 @@ GB/GBC	Nintendo Game Boy Pocket	PAL	SCN	??	No	No	Black. From my childhood. Repla
 GB/GBC	Nintendo Game Boy Pocket	PAL	SCN	MH16905442	Yes	Yes	Limited Swedish Edition No. 1597/3000. Includes certificate.
 GB/GBC	Nintendo Game Boy Pocket	PAL	SCN	MH16947233	No	No	Clear/Transparent case.
 GB/GBC	Nintendo Game Boy Pocket	PAL	SCN	MH17200028	No	No	Yellow
-Gakken	Gakken Trojan Horse	??	??	--	Yes	Yes	Game & Watch clone
-Gamecube	Nintendo Gamecube	PAL	SCN	DEH10674411	Yes	Yes	Black. Pre 2004-version with Digital Out port.
 Mega Drive	Sega Mega Drive	PAL	??	??	No	No	Has been region modded with the one-switch mod
 NES/FC	Nintendo Entertainment System	NTSC	USA	N17142503	No	No	Pin 4 on the lock-out chip has been cut to make it region free.
 NES/FC	Nintendo Entertainment System	PAL B	SCN	PE262596	No	No	Pin 4 on the lock-out chip has been cut to make it region free. New connector. Early model with smooth surface on both the top and bottom part.
