@@ -15,7 +15,7 @@ class Table(QTableView):
     resized = Signal()
 
     def __init__(self, tableName, db):
-        super().__init__()
+        super(Table, self).__init__()
 
         self.resized.connect(self.resizeRowsToContents)
 
@@ -323,7 +323,7 @@ class Randomizer(QWidget):
        gamesData: Raw table data in list of orderedDicts"""
 
     def __init__(self, gamesData):
-        super().__init__()
+        super(Randomizer, self).__init__()
 
         self.gamesData = gamesData
 

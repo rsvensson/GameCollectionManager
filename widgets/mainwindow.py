@@ -8,7 +8,7 @@ from widgets.overview import Overview
 from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget,\
     QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget
 from PySide2.QtGui import QIcon
-from PySide2.QtSql import QSqlDatabase, QSql
+from PySide2.QtSql import QSqlDatabase
 
 _VERSION = "0.0.13"
 

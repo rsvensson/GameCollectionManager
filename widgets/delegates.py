@@ -16,7 +16,7 @@ class CheckboxDelegate(QStyledItemDelegate):
         :param parent: Parent widget
         """
 
-        QStyledItemDelegate.__init__(self, parent=parent)
+        super(CheckboxDelegate, self).__init__(parent=parent)
         self.header = header
 
     def paint(self, painter, option, index):
@@ -31,7 +31,7 @@ class CheckboxDelegate(QStyledItemDelegate):
                                                      option.rect.width() - (2 * textMargin),
                                                      option.rect.height())))
             viewItemOption.rect = newRect
-        QStyledItemDelegate.paint(self, painter, viewItemOption, index)
+        super().paint(painter, viewItemOption, index)
 
     def editorEvent(self, event, model, option, index):
         """

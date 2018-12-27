@@ -52,7 +52,7 @@ class TableModel(QSqlTableModel):
     fetched = Signal()
 
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+        super(TableModel, self).__init__(*args, **kwargs)
 
     def fetchMore(self, parent=QModelIndex()):
         # So we can detect when more items has been fetched and resize rows. Not working yet.
@@ -78,7 +78,10 @@ class TableModel(QSqlTableModel):
                 elif index.data(Qt.EditRole) == "No":
                     return Qt.Unchecked
             elif role == Qt.DisplayRole:
+                # Display text next to checkboxes
                 return super().data(index, role)
+                # No text
+                # return ""
         # Bold fonts
         elif role == Qt.FontRole and self.headerData(index.column(), Qt.Horizontal) in \
                 ("Region", "Country", "Game", "Console", "Accessory", "Box", "Manual"):

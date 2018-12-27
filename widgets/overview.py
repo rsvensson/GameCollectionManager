@@ -21,13 +21,11 @@ class MplCanvas(FigureCanvas):
 
         self.computeInitialFigure()
 
-        FigureCanvas.__init__(self, self.fig)
+        super(MplCanvas, self).__init__(self.fig)
         self.setParent(parent)
 
-        FigureCanvas.setSizePolicy(self,
-                                   QSizePolicy.Expanding,
-                                   QSizePolicy.Expanding)
-        FigureCanvas.updateGeometry(self)
+        super().setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+        super().updateGeometry()
 
     def computeInitialFigure(self):
         pass
@@ -36,7 +34,7 @@ class MplCanvas(FigureCanvas):
 class CollectionDataCanvas(MplCanvas):
     """Collection data-specific matplotlib class"""
     def __init__(self, data, ylabel, *args, **kwargs):
-        MplCanvas.__init__(self, ylabel, *args, **kwargs)
+        super(CollectionDataCanvas, self).__init__(ylabel, *args, **kwargs)
 
     def computeInitialFigure(self):
 
@@ -80,7 +78,7 @@ class Overview(QWidget):
        hideNotOwned: bool passed in so we can use table search method properly"""
 
     def __init__(self, tables):
-        super().__init__()
+        super(Overview, self).__init__()
 
         self.tables = tables
 

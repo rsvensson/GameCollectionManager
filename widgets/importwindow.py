@@ -7,7 +7,7 @@ from tools.text2dict import createGameData
 
 class ImportWindow(QDialog):
     def __init__(self):
-        super().__init__()
+        super(ImportWindow, self).__init__()
 
         self.gamesdata = []
 
