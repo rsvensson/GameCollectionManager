@@ -5,9 +5,6 @@ Converts a plain text games list from vgdb.io
 into csv data that can be used with GCM.
 """
 
-from sys import argv, exit
-from pathlib import Path
-import csv
 from collections import OrderedDict
 
 

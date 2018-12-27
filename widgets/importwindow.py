@@ -1,13 +1,12 @@
 from pathlib import Path
 
-from PySide2.QtWidgets import QDialog, QLabel, QCheckBox, QHBoxLayout, QVBoxLayout, QDesktopWidget,\
-    QPushButton
-
-from tools.text2csv import createGameData
+from PySide2.QtWidgets import QDialog, QLabel, QCheckBox, QHBoxLayout, QVBoxLayout,\
+    QDesktopWidget, QPushButton
+from tools.text2dict import createGameData
 
 
 class ImportWindow(QDialog):
-    def __init__(self, currentdb):
+    def __init__(self):
         super().__init__()
 
         self.gamesdata = []

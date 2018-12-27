@@ -1,15 +1,17 @@
 #!/usr/bin/env python
+import sys
+from PySide2.QtWidgets import QApplication
+from widgets.mainwindow import MainWindow
 
-from pathlib import Path
-from widgets.mainwindow import createWindow
+
+def createWindow():
+    app = QApplication(sys.argv)
+    win = MainWindow()
+    sys.exit(app.exec_())
 
 
 def main():
-    gamesDBPath = Path("data/db/gamesdb.tsv")
-    consolesDBPath = Path("data/db/consolesdb.tsv")
-    accessoriesDBPath = Path("data/db/accessoriesdb.tsv")
-
-    createWindow(gamesDBPath, consolesDBPath, accessoriesDBPath)
+    createWindow()
 
 
 if __name__ == "__main__":

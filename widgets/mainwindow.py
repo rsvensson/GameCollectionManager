@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-import sys
-from database import Database
 from widgets.tabwidgets import *
 from widgets.inputwindow import InputWindow
 from widgets.importwindow import ImportWindow
@@ -10,16 +8,15 @@ from widgets.overview import Overview
 from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget,\
     QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget
 from PySide2.QtGui import QIcon
+from PySide2.QtSql import QSqlDatabase
 
-_VERSION = "0.0.12"
+_VERSION = "0.0.13"
 
 
 class MainWindow(QMainWindow):
 
-    def __init__(self, gamesPath, consolesPath, accessoriesPath):
+    def __init__(self):
         super(MainWindow, self).__init__()
-        # Flag to control if table filters are on
-        self.isFiltering = False
 
         # 'Add to collection' window
         self.addWindow = None
@@ -28,39 +25,17 @@ class MainWindow(QMainWindow):
         self.importWindow = None
 
         # Tables and their databases
-        self.gamesDB = Database(gamesPath)
-        self.consolesDB = Database(consolesPath)
-        self.accessoriesDB = Database(accessoriesPath)
         self.db = QSqlDatabase.addDatabase("QSQLITE")
         self.db.setDatabaseName("data/db/collection.db")
         if not self.db.open():
             QMessageBox.critical(None, "Database Error", self.db.lastError().text())
-
-        self.gamesTableWidget = Table(self.gamesDB)
-        self.gamesTableWidget.setObjectName("games")
-        self.gamesTableWidget.updated.connect(self.updateStatusbar)
-        self.gamesTableView = SqlTable("games", self.db)
-        self.consolesTableWidget = Table(self.consolesDB)
-        self.consolesTableWidget.setObjectName("consoles")
-        self.consolesTableWidget.updated.connect(self.updateStatusbar)
-        self.consolesTableView = SqlTable("consoles", self.db)
-        self.accessoriesTableWidget = Table(self.accessoriesDB)
-        self.accessoriesTableWidget.setObjectName("accessories")
-        self.accessoriesTableWidget.updated.connect(self.updateStatusbar)
-        self.accessoriesTableView = SqlTable("accessories", self.db)
-
-        self.tableWidgetList = [self.gamesTableWidget,
-                                self.consolesTableWidget,
-                                self.accessoriesTableWidget]
+        self.gamesTableView = Table("games", self.db)
+        self.consolesTableView = Table("consoles", self.db)
+        self.accessoriesTableView = Table("accessories", self.db)
         self.tableViewList = [self.gamesTableView,
                               self.consolesTableView,
                               self.accessoriesTableView]
 
-        # Hide not owned items by default
-        for table in self.tableWidgetList:
-            table.setHideNotOwned(True)
-
-        #self.overview = Overview(self.tableWidgetList)
         self.overview = Overview(self.tableViewList)
 
         self.randomizer = Randomizer(self.gamesTableView.ownedItems())
@@ -68,8 +43,7 @@ class MainWindow(QMainWindow):
         self.randomizer.btnAll.clicked.connect(self.updateStatusbar)
         self.randomizer.btnNone.clicked.connect(self.updateStatusbar)
 
-        # MainWindow layout
-
+        ## MainWindow layout
         # Widgets
         self.centralWidget = QWidget()
         self.setCentralWidget(self.centralWidget)
@@ -78,7 +52,7 @@ class MainWindow(QMainWindow):
         self.toolbar = self.addToolBar("Exit")
         self.toolbar.addAction(self.buttonActions("exit"))
         self.toolbar.addAction(self.buttonActions("add"))
-        self.toolbar.addAction(self.buttonActions(("import")))
+        self.toolbar.addAction(self.buttonActions("import"))
 
         self.fileMenu = self.menuBar().addMenu(self.tr("&File"))
         self.fileMenu.addAction(self.buttonActions("add"))
@@ -323,37 +297,17 @@ class MainWindow(QMainWindow):
                                                                    self.tableViewList[currentTab-1].model.tableName()))
             else:
                 self.updateStatusbar()
-            """if self.tableWidgetList[currentTab-1].getDataLength() < 10000:
-                if searchText is not "":
-                    rowCount = self.tableWidgetList[currentTab-1].searchTable(searchText)
-                    self.statusBar().showMessage("Found {} {}.".format(rowCount,
-                                                                   self.tableWidgetList[currentTab-1].objectName()))
-                    self.isFiltering = True
-                else:
-                    self.isFiltering = False
-                    self.updateStatusbar()
-                    self.tableWidgetList[currentTab-1].searchTable("")
-            elif self.searchBox.returnPressed:
-                if searchText is not "":
-                    rowCount = self.tableWidgetList[currentTab - 1].searchTable(searchText)
-                    self.statusBar().showMessage("Found {} {}.".format(rowCount,
-                                                                           self.tableWidgetList[currentTab - 1].objectName()))
-                    self.isFiltering = True
-                else:
-                    self.isFiltering = False
-                    self.updateStatusbar()
-                    self.tableWidgetList[currentTab - 1].searchTable("")"""
         else:
             self.searchBox.setEnabled(False)
 
     def toggleOwnedFilter(self):
-        for table in self.tableWidgetList:
-            table.setHideNotOwned(True) if not table.isHideNotOwned()\
-                else table.setHideNotOwned(False)
+        for table in self.tableViewList:
+            table.setHideNotOwned(False) if table.hideNotOwned\
+                else table.setHideNotOwned(True)
         currentTab = self.tab.currentIndex()
         if 0 < currentTab < 4:
-            self.tableWidgetList[currentTab-1].searchTable(self.searchBox.text())
-            self.tableWidgetList[currentTab-1].resizeRowsToContents()
+            self.tableViewList[currentTab-1].filterTable(self.searchBox.text())
+            self.tableViewList[currentTab-1].resizeRowsToContents()
         self.updateStatusbar()
 
     def updateStatusbar(self):
@@ -364,7 +318,7 @@ class MainWindow(QMainWindow):
             self.statusBar().showMessage("")
         elif 0 < currentTab < 4:
             numItems = self.tableViewList[currentTab-1].ownedCount()
-            if self.tableWidgetList[currentTab-1].isHideNotOwned():
+            if self.tableViewList[currentTab-1].hideNotOwned:
                 self.statusBar().showMessage("{} {} in collection.".format(numItems, itemType[currentTab-1]))
             else:
                 self.statusBar().showMessage("Showing {} {} ({} {} in collection).".format(
@@ -378,9 +332,3 @@ class MainWindow(QMainWindow):
             if len(platforms) > 0:
                 self.statusBar().showMessage("Selecting from {} games.".format(self.randomizer.getGameCount()))
             return
-
-
-def createWindow(games, consoles, accessories):
-    app = QApplication(sys.argv)
-    win = MainWindow(games, consoles, accessories)
-    sys.exit(app.exec_())
