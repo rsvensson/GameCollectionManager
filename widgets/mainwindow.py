@@ -201,7 +201,7 @@ class MainWindow(QMainWindow):
         This is to make it easier for the user to quickly go through the games
         in a platform and check which games they own.
         """
-        self.importWindow = ImportWindow(self.gamesTableWidget.getData())
+        self.importWindow = ImportWindow()
         if self.importWindow.exec_() == QDialog.Accepted:
             data = self.importWindow.returnData()
             self.gamesTableView.addData(data)
