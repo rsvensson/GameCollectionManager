@@ -109,7 +109,6 @@ class MainWindow(QMainWindow):
             self.resize(1280, 768)
             self.center()
         self.setWindowTitle("Game Collection Manager v{}".format(_VERSION))
-        self.show()
 
         self.statusBar().showMessage("")
 
@@ -193,7 +192,7 @@ class MainWindow(QMainWindow):
             ok = msgBox.exec_()
 
             if ok == QMessageBox.Ok:
-                self.tableWidgetList[currentTab-1].deleteNotOwned()
+                self.tableViewList[currentTab-1].deleteNotOwned()
 
     def importToDatabase(self):
         """

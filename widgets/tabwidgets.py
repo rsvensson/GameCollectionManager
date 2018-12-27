@@ -100,11 +100,44 @@ class Table(QTableView):
         # The checkboxes' values gets put at the bottom of the table,
         # while the bottom row's checkbox values is put in the new row.
 
+        # table = self.model.tableName()
+        # query = QSqlQuery()
+        # query.exec_("SELECT COUNT(*) FROM {}".format(table))
+        # query.first()
+        # itemID = query.value(0)
+
         if isinstance(newData, list):
             for data in newData:
+                """if table == "games":
+                    query.exec_("INSERT INTO {} "
+                                "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Comment) "
+                                "VALUES "
+                                "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
+                        table, itemID, data["Platform"], data["Name"], data["Region"], data["Code"],
+                        data["Game"], data["Box"], data["Manual"], data["Year"], data["Comment"])
+                    )
+                elif table == "consoles":
+                    query.exec_("INSERT INTO {} "
+                                "(ID, Platform, Name, Region, Country, `Serial number`, Console, Box, Manual, "
+                                "Year, Comment) "
+                                "VALUES "
+                                "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
+                        table, itemID, data["Platform"], data["Name"], data["Region"], data["Country"],
+                        data["Serial number"], data["Console"], data["Box"], data["Manual"], data["Year"],
+                        data["Comment"])
+                    )
+                elif table == "accessories":
+                    query.exec_("INSERT INTO {} "
+                                "(ID, Platform, Name, Region, Country, Accessory, Box, Manual, Year, Comment) "
+                                "VALUES "
+                                "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
+                        table, itemID, data["Platform"], data["Name"], data["Region"], data["Country"],
+                        data["Accessory"], data["Box"], data["Manual"], data["Year"], data["Comment"])
+                    )"""
+
                 itemID = self.model.rowCount()
                 newRecord = self.model.record()
-                newRecord.setValue("ID", itemID)
+                newRecord.setValue("ID", int(itemID))
                 newRecord.setValue("Platform", data["Platform"])
                 newRecord.setValue("Name", data["Name"])
                 newRecord.setValue("Region", data["Region"])
@@ -124,9 +157,36 @@ class Table(QTableView):
                 newRecord.setValue("Comment", data["Comment"])
                 self.model.insertRecord(-1, newRecord)
         elif isinstance(newData, OrderedDict):
+            """if table == "games":
+                query.exec_("INSERT INTO {} "
+                            "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Comment) "
+                            "VALUES "
+                            "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
+                    table, itemID, data["Platform"], data["Name"], data["Region"], data["Code"],
+                    data["Game"], data["Box"], data["Manual"], data["Year"], data["Comment"])
+                )
+            elif table == "consoles":
+                query.exec_("INSERT INTO {} "
+                            "(ID, Platform, Name, Region, Country, `Serial number`, Console, Box, Manual, "
+                            "Year, Comment) "
+                            "VALUES "
+                            "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
+                    table, itemID, data["Platform"], data["Name"], data["Region"], data["Country"],
+                    data["Serial number"], data["Console"], data["Box"], data["Manual"], data["Year"],
+                    data["Comment"])
+                )
+            elif table == "accessories":
+                query.exec_("INSERT INTO {} "
+                            "(ID, Platform, Name, Region, Country, Accessory, Box, Manual, Year, Comment) "
+                            "VALUES "
+                            "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
+                    table, itemID, data["Platform"], data["Name"], data["Region"], data["Country"],
+                    data["Accessory"], data["Box"], data["Manual"], data["Year"], data["Comment"])
+                )"""
+
             itemID = self.model.rowCount()
             newRecord = self.model.record()
-            newRecord.setValue("ID", itemID)
+            newRecord.setValue("ID", int(itemID))
             newRecord.setValue("Platform", newData["Platform"])
             newRecord.setValue("Name", newData["Name"])
             newRecord.setValue("Region", newData["Region"])
@@ -164,6 +224,20 @@ class Table(QTableView):
         for row in rows:
             self.model.removeRows(row, 1, parent=QModelIndex())
         self.model.select()
+
+    def deleteNotOwned(self):
+        rows = []
+        item = "Game" if self.model.tableName() == "games" else\
+            "Console" if self.model.tableName() == "consoles" else\
+            "Accessory"
+        query = QSqlQuery()
+        query.exec_("SELECT ID FROM {} WHERE {}='No' AND Box='No' AND Manual='No'".format(
+            self.model.tableName(), item
+        ))
+        while query.next():
+            rows.append(query.value(0))
+
+        self.deleteData(rows)
 
     def filterTable(self, filterText):
         """

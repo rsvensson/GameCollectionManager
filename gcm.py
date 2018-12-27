@@ -7,6 +7,7 @@ from widgets.mainwindow import MainWindow
 def createWindow():
     app = QApplication(sys.argv)
     win = MainWindow()
+    win.show()
     sys.exit(app.exec_())
 
 
