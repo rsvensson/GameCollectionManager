@@ -1,7 +1,7 @@
 from pathlib import Path
 
-from PySide2.QtWidgets import QDialog, QLabel, QCheckBox, QHBoxLayout, QVBoxLayout,\
-    QDesktopWidget, QPushButton
+from PySide2.QtWidgets import QDialog, QLabel, QHBoxLayout, QVBoxLayout, \
+    QDesktopWidget, QPushButton, QListWidget, QAbstractItemView, QMessageBox
 from tools.text2dict import createGameData
 
 
@@ -12,32 +12,32 @@ class ImportWindow(QDialog):
         self.gamesdata = []
 
         self.platformListPath = Path("data/vgdb/")
-        self.platformList = dict()
+        self.platformList = []
+        for file in self.platformListPath.iterdir():
+            self.platformList.append(file.stem)
 
         self.setContentsMargins(5, 5, 5, 5)
-        self.lblAll = QLabel("All")
-        self.all = QCheckBox()
-        self.all.setObjectName("All")
+
+        self.lblSelect = QLabel("Select platforms to import from:")
+
+        self.consoleList = QListWidget()
+        self.consoleList.addItems(sorted(self.platformList))
+        self.consoleList.setSelectionMode(QAbstractItemView.MultiSelection)
 
         self.btnCancel = QPushButton("Cancel")
         self.btnCancel.clicked.connect(self.close)
         self.btnOK = QPushButton("OK")
         self.btnOK.clicked.connect(self._doImport)
-        self.btnOK.clicked.connect(self.accept)
 
-        self.hboxAll = QHBoxLayout()
-        self.hboxAll.addWidget(self.lblAll, 0)
-        self.hboxAll.addWidget(self.all, 1)
         self.hboxOKCancel = QHBoxLayout()
         self.hboxOKCancel.addStretch(5)
         self.hboxOKCancel.addWidget(self.btnCancel, 0)
         self.hboxOKCancel.addWidget(self.btnOK, 1)
 
         self.vbox = QVBoxLayout()
-        self.vbox.addLayout(self.hboxAll, 0)
-        self.vbox.addLayout(self.hboxOKCancel, 1)
-
-        self.checkboxList = [self.all]
+        self.vbox.addWidget(self.lblSelect, 0)
+        self.vbox.addWidget(self.consoleList, 1)
+        self.vbox.addLayout(self.hboxOKCancel, 2)
 
         self.setLayout(self.vbox)
         self.setWindowTitle("Import games")
@@ -53,13 +53,24 @@ class ImportWindow(QDialog):
         self.move(qr.topLeft())
 
     def _doImport(self):
-        if self.all.isChecked():
+        platforms = [x.text() for x in self.consoleList.selectedItems()]
+        proceed = QMessageBox.Ok
+
+        if len(platforms) > 1:
+            proceed = QMessageBox.warning(self, "Import warning",
+                                                "Importing multiple platforms can take a long time.\n"
+                                                "Are you sure you want to proceed?",
+                                                QMessageBox.Cancel | QMessageBox.Ok, QMessageBox.Cancel)
+
+        if proceed == QMessageBox.Ok:
             newData = []
             for file in self.platformListPath.iterdir():
-                newData.append(createGameData(file))
+                if file.stem in platforms:
+                    newData.append(createGameData(file))
             for lst in newData:
                 for game in lst:
                     self.gamesdata.append(game)
+            self.accept()
 
     def returnData(self):
         return self.gamesdata
