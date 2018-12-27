@@ -364,14 +364,15 @@ class MainWindow(QMainWindow):
         if currentTab == 0:
             self.statusBar().showMessage("")
         elif 0 < currentTab < 4:
-            numItems = self.tableWidgetList[currentTab-1].getOwnedCount()
+            numItems = self.tableViewList[currentTab-1].ownedCount()
             if self.tableWidgetList[currentTab-1].isHideNotOwned():
                 self.statusBar().showMessage("{} {} in collection.".format(numItems, itemType[currentTab-1]))
             else:
-                self.statusBar().showMessage("Showing {} {} ({} {} in collection).".format(self.tableWidgetList[currentTab-1].rowCount(),
-                                                                                        self.tableWidgetList[currentTab-1].objectName(),
-                                                                                        numItems,
-                                                                                        self.tableWidgetList[currentTab-1].objectName()))
+                self.statusBar().showMessage("Showing {} {} ({} {} in collection).".format(
+                    self.tableViewList[currentTab-1].model.rowCount(),  # TODO: Only shows currently loaded rows
+                    itemType[currentTab-1],
+                    numItems,
+                    itemType[currentTab-1]))
         elif currentTab == 4:
             platforms = self.randomizer.consoleList.selectedItems()
             self.statusBar().showMessage("Select platforms to randomize from.")
