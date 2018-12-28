@@ -89,8 +89,7 @@ class Table(QTableView):
         #self.model.setFilter("1=1 ORDER BY Platform ASC, Name ASC")  # Sort by platform
         self.verticalHeader().setVisible(False)  # Don't show row headers
         self.setColumnHidden(0, True)  # Don't show ID field
-        if self.hideNotOwned:
-            pass
+        self.setAlternatingRowColors(True)
         self.resizeRowsToContents()
 
     def addData(self, newData):
