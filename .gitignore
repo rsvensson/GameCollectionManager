@@ -1,3 +1,5 @@
-__pycache__
 /.idea
-/data/html
+/__pycache__
+/venv
+/GameCollectionManager/__pycache__
+/GameCollectionManager/data/html

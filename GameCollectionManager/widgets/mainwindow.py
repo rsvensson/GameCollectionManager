@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-from widgets.tabwidgets import *
-from widgets.inputwindow import InputWindow
-from widgets.importwindow import ImportWindow
-from widgets.overview import Overview
+from GameCollectionManager.widgets.tabwidgets import *
+from GameCollectionManager.widgets.inputwindow import InputWindow
+from GameCollectionManager.widgets.importwindow import ImportWindow
+from GameCollectionManager.widgets.overview import Overview
 
 from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget,\
     QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget

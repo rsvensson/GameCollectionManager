@@ -2,12 +2,11 @@ from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout,\
     QPushButton, QLabel, QListWidget, QAbstractItemView, QTableView
 from PySide2.QtSql import QSqlTableModel, QSqlQuery
 from PySide2.QtGui import QFont
-from PySide2.QtCore import Qt, Signal, QModelIndex, QPoint
+from PySide2.QtCore import Qt, Signal, QModelIndex
 from collections import OrderedDict
 from random import randint
 
-from widgets.models import TableModel
-from widgets.delegates import CheckboxDelegate
+from GameCollectionManager.widgets.models import TableModel
 
 
 class Table(QTableView):
@@ -25,6 +24,7 @@ class Table(QTableView):
 
         self.db = db
         self.hideNotOwned = True
+        self.table = tableName
 
         self.model = TableModel(self, self.db)
         self.model.setTable(tableName)
@@ -103,7 +103,7 @@ class Table(QTableView):
         # The checkboxes' values gets put at the bottom of the table,
         # while the bottom row's checkbox values is put in the new row.
 
-        table = self.model.tableName()
+        table = self.table
 
         if isinstance(newData, list):
             for data in newData:
@@ -184,18 +184,16 @@ class Table(QTableView):
 
     def deleteNotOwned(self):
         rows = []
-        item = "Game" if self.model.tableName() == "games" else\
-            "Console" if self.model.tableName() == "consoles" else\
+        item = "Game" if self.table == "games" else\
+            "Console" if self.table == "consoles" else\
             "Accessory"
         query = QSqlQuery()
-        query.exec_("SELECT ID FROM {} WHERE {}='No' AND Box='No' AND Manual='No'".format(
-            self.model.tableName(), item
-        ))
+        query.exec_("SELECT ID FROM {} WHERE {}='No' AND Box='No' AND Manual='No'".format(self.table, item))
         while query.next():
             rows.append(query.value(0))
 
         for row in rows:
-            query.exec_("DELETE FROM {} WHERE ID={}".format(self.model.tableName(), row))
+            query.exec_("DELETE FROM {} WHERE ID={}".format(self.table, row))
         self.model.select()
 
     def filterTable(self, filterText: str):
@@ -210,17 +208,17 @@ class Table(QTableView):
             self.resizeRowsToContents()
             return
 
-        if self.model.tableName() == "games":
+        if self.table == "games":
             f = "Platform LIKE '%{}%' " \
                 "OR Name LIKE '%{}%' " \
                 "OR Code LIKE '%{}%' " \
                 "OR Comment LIKE '%{}%'".format(filterText, filterText, filterText, filterText)
-        elif self.model.tableName() == "consoles":
+        elif self.table == "consoles":
             f = "Platform LIKE '%{}%' " \
                 "OR Name LIKE '%{}%' " \
                 "OR `Serial number` LIKE '%{}%' " \
                 "OR Comment LIKE '%{}%'".format(filterText, filterText, filterText, filterText)
-        elif self.model.tableName() == "accessories":
+        elif self.table == "accessories":
             f = "Platform LIKE '%{}%' " \
                 "OR Name LIKE '%{}%' " \
                 "OR Comment LIKE '%{}%'".format(filterText, filterText, filterText)
@@ -235,13 +233,13 @@ class Table(QTableView):
         """
 
         count = 0
-        item = "Game" if self.model.tableName() == "games" else\
-            "Console" if self.model.tableName() == "consoles" else "Accessory"
+        item = "Game" if self.table == "games" else\
+            "Console" if self.table == "consoles" else "Accessory"
 
         query = QSqlQuery()
         query.exec_("SELECT Name FROM {} WHERE Platform='{}'"
                     "AND ({}='Yes' OR Box='Yes' OR Manual='Yes')".format(
-            self.model.tableName(), platform, item))
+            self.table, platform, item))
         while query.next():
             count += 1
 
@@ -255,12 +253,12 @@ class Table(QTableView):
         """
 
         count = 0
-        item = "Game" if self.model.tableName() == "games" else\
-            "Console" if self.model.tableName() == "consoles" else "Accessory"
+        item = "Game" if self.table == "games" else\
+            "Console" if self.table == "consoles" else "Accessory"
 
         query = QSqlQuery()
         query.exec_("SELECT Name FROM {} WHERE {}='Yes' OR Box='Yes' OR Manual='Yes'".format(
-            self.model.tableName(), item))
+            self.table, item))
         while query.next():
             count += 1
 
@@ -274,12 +272,12 @@ class Table(QTableView):
         """
 
         items = []
-        item = "Game" if self.model.tableName() == "games" else\
-            "Console" if self.model.tableName() == "consoles" else "Accessory"
+        item = "Game" if self.table == "games" else\
+            "Console" if self.table == "consoles" else "Accessory"
 
         query = QSqlQuery()
         query.exec_("SELECT Platform, Name FROM {} WHERE {}='Yes' OR Box='Yes' OR Manual='Yes'".format(
-            self.model.tableName(), item))
+            self.table, item))
         while query.next():
             items.append(dict(Platform=query.value(0), Name=query.value(1)))
 
@@ -294,7 +292,7 @@ class Table(QTableView):
         platforms = set()
 
         query = QSqlQuery()
-        query.exec_("SELECT Platform FROM {}".format(self.model.tableName()))
+        query.exec_("SELECT Platform FROM {}".format(self.table))
         while query.next():
             platforms.add(query.value(0))
 
@@ -313,7 +311,7 @@ class Table(QTableView):
         return super().rowCountChanged(oldCount, newCount)
 
     def rowInfo(self, row: int):
-        table = self.model.tableName()
+        table = self.table
         query = QSqlQuery()
         query.exec_("SELECT * FROM {} WHERE ID={}".format(table, row))
         query.first()
@@ -326,7 +324,7 @@ class Table(QTableView):
 
         """if self.hideNotOwned:
             names = []
-            table = self.model.tableName()
+            table = self.table
             item = "Game" if table == "games" else\
                 "Console" if table == "consoles" else\
                 "Accessory"
