@@ -49,15 +49,8 @@ class TableModel(QSqlTableModel):
     http://www.wouterspekkink.org/software/q-sopra/technical/c++/qt/2018/01/19/qsltablemodels-booleans-and-check-boxes.html
     """
 
-    fetched = Signal()
-
     def __init__(self, *args, **kwargs):
         super(TableModel, self).__init__(*args, **kwargs)
-
-    def fetchMore(self, parent=QModelIndex()):
-        # So we can detect when more items has been fetched and resize rows. Not working yet.
-        self.fetched.emit()
-        return super().fetchMore(parent)
 
     def flags(self, index):
         if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
@@ -109,8 +102,8 @@ class TableModel(QSqlTableModel):
                 and self.headerData(index.column(), Qt.Horizontal) in ("Region", "Country"):
             return Qt.AlignCenter
         # Display the cell data in tooltip
-        elif role == Qt.ToolTipRole:
-            return super().data(index, Qt.DisplayRole)
+        #elif role == Qt.ToolTipRole:
+        #    return super().data(index, Qt.DisplayRole)
 
         return super().data(index, role)
 

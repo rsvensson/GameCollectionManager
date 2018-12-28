@@ -2,7 +2,7 @@ from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout,\
     QPushButton, QLabel, QListWidget, QAbstractItemView, QTableView
 from PySide2.QtSql import QSqlTableModel, QSqlQuery
 from PySide2.QtGui import QFont
-from PySide2.QtCore import Qt, Signal, QModelIndex
+from PySide2.QtCore import Qt, Signal, QModelIndex, QPoint
 from collections import OrderedDict
 from random import randint
 
@@ -13,11 +13,13 @@ from widgets.delegates import CheckboxDelegate
 class Table(QTableView):
 
     resized = Signal()
+    fetched = Signal()
 
-    def __init__(self, tableName, db):
+    def __init__(self, tableName: str, db):
         super(Table, self).__init__()
 
         self.resized.connect(self.resizeRowsToContents)
+        self.fetched.connect(self.resizeRowsToContents)
 
         assert tableName in ("games", "consoles", "accessories")
 
@@ -87,8 +89,9 @@ class Table(QTableView):
         #self.model.setFilter("1=1 ORDER BY Platform ASC, Name ASC")  # Sort by platform
         self.verticalHeader().setVisible(False)  # Don't show row headers
         self.setColumnHidden(0, True)  # Don't show ID field
+        if self.hideNotOwned:
+            pass
         self.resizeRowsToContents()
-        self.model.fetched.connect(self.resizeRowsToContents)  # Not working
 
     def addData(self, newData):
         """
@@ -169,7 +172,7 @@ class Table(QTableView):
 
         self.filterTable("")
 
-    def deleteData(self, rows):
+    def deleteData(self, rows: list):
         """
         Deletes rows from SQL database
         :param rows: Rows to delete
@@ -195,7 +198,7 @@ class Table(QTableView):
             query.exec_("DELETE FROM {} WHERE ID={}".format(self.model.tableName(), row))
         self.model.select()
 
-    def filterTable(self, filterText):
+    def filterTable(self, filterText: str):
         """
         Filters the table based on search strings
         :param filterText: The text to filter
@@ -224,7 +227,7 @@ class Table(QTableView):
         self.model.setFilter(f)
         self.resizeRowsToContents()
 
-    def itemsInPlatform(self, platform):
+    def itemsInPlatform(self, platform: str) -> int:
         """
         Counts how many items are in a platform
         :param platform: Platform to count items for
@@ -244,7 +247,7 @@ class Table(QTableView):
 
         return count
 
-    def ownedCount(self):
+    def ownedCount(self) -> int:
         """
         Counts how many items in the table that are owned. An owned item is one that
         has either the item itself, the box, or the manual.
@@ -263,7 +266,7 @@ class Table(QTableView):
 
         return count
 
-    def ownedItems(self):
+    def ownedItems(self) -> dict:
         """
         Fetches all items in the table that are owned. An owned item is one that
         has either the item itself, the box, or the manual.
@@ -282,8 +285,7 @@ class Table(QTableView):
 
         return items
 
-
-    def platforms(self):
+    def platforms(self) -> set:
         """
         Fetches the platforms that are currently in the table.
         :return: (set) Platforms in table
@@ -306,7 +308,11 @@ class Table(QTableView):
         self.resized.emit()
         return super().resizeEvent(event)
 
-    def rowInfo(self, row):
+    def rowCountChanged(self, oldCount: int, newCount: int):
+        self.fetched.emit()
+        return super().rowCountChanged(oldCount, newCount)
+
+    def rowInfo(self, row: int):
         table = self.model.tableName()
         query = QSqlQuery()
         query.exec_("SELECT * FROM {} WHERE ID={}".format(table, row))
@@ -315,8 +321,36 @@ class Table(QTableView):
         for i in range(length):
             print(query.value(i))
 
-    def setHideNotOwned(self, on):
+    def setHideNotOwned(self, on: bool):
         self.hideNotOwned = on
+
+        """if self.hideNotOwned:
+            names = []
+            table = self.model.tableName()
+            item = "Game" if table == "games" else\
+                "Console" if table == "consoles" else\
+                "Accessory"
+            query = QSqlQuery()
+            query.exec_("SELECT Name FROM {} WHERE {}='No' AND Box='No' AND Manual='No'".format(
+                table, item
+            ))
+            while query.next():
+                names.append(query.value(0))
+
+            while self.model.canFetchMore():
+                self.model.fetchMore()
+
+            for name in names:
+                for row in range(self.model.rowCount()):
+                    text = self.indexAt(QPoint(2, row))
+                    game = self.indexAt(QPoint(5, row))
+                    box = self.indexAt(QPoint(6, row))
+                    manual = self.indexAt(QPoint(7, row))
+                    print(row, name, text.data(), game.data(), box.data(), manual.data())  # ???
+
+                    if text.data() == name and game.data() == 'No'\
+                            and box.data() == 'No' and manual.data() == 'No':
+                        self.setRowHidden(row, True)"""
 
     def test(self):
         pass
@@ -328,7 +362,7 @@ class Randomizer(QWidget):
        platforms to choose from.
        gamesData: Raw table data in list of orderedDicts"""
 
-    def __init__(self, gamesData):
+    def __init__(self, gamesData: dict):
         super(Randomizer, self).__init__()
 
         self.gamesData = gamesData
@@ -391,7 +425,7 @@ class Randomizer(QWidget):
         self.layout = QWidget()
         self.layout.setLayout(self.Grid)
 
-    def _getSelectedPlatforms(self):
+    def _getSelectedPlatforms(self) -> list:
         return [x.text() for x in self.consoleList.selectedItems()]
 
     def _randomize(self):
@@ -422,7 +456,7 @@ class Randomizer(QWidget):
                     if col == "Platform" and row[col] in platforms:
                         self.gameCount += 1
 
-    def getGameCount(self):
+    def getGameCount(self) -> int:
         return self.gameCount
 
 

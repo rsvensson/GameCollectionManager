@@ -206,7 +206,7 @@ class MainWindow(QMainWindow):
             self.gamesTableView.addData(data)
 
     # noinspection PyCallByClass,PyTypeChecker
-    def buttonActions(self, action):
+    def buttonActions(self, action: str) -> QAction:
         addAct = QAction(QIcon().fromTheme("document-new"), "&Add to collection", self)
         addAct.setShortcut("Ctrl+A")
         addAct.setToolTip("Add to collection")
