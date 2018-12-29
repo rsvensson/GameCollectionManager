@@ -85,7 +85,7 @@ class TableModel(QSqlTableModel):
         # Set foreground color
         elif role == Qt.ForegroundRole:
             if self.headerData(index.column(), Qt.Horizontal) == "Region":
-                if index.data() in ("PAL", "Europe"):
+                if index.data() in ("PAL", "PAL B", "Europe"):
                     return QColor(255, 255, 0)
                 elif index.data() in ("NTSC (JP)", "Japan"):
                     return QColor(255, 0, 0)

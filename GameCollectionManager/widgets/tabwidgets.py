@@ -6,7 +6,7 @@ from PySide2.QtCore import Qt, Signal, QModelIndex
 from collections import OrderedDict
 from random import randint
 
-from GameCollectionManager.widgets.models import TableModel
+from widgets.models import TableModel
 
 
 class Table(QTableView):
@@ -103,13 +103,15 @@ class Table(QTableView):
         # while the bottom row's checkbox values is put in the new row.
 
         table = self.table
+        itemID = 0 if self.model.rowCount() == 0 else -1
 
         if isinstance(newData, list):
             for data in newData:
                 query = QSqlQuery()
-                query.exec_("SELECT COUNT(*) FROM {}".format(table))
-                query.first()
-                itemID = query.value(0)
+                if itemID != 0:
+                    query.exec_("SELECT COUNT(*) FROM {}".format(table))
+                    query.first()
+                    itemID = query.value(0)
                 if table == "games":
                     query.exec_("INSERT INTO {} "
                                 "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Comment) "
@@ -139,14 +141,16 @@ class Table(QTableView):
 
         elif isinstance(newData, OrderedDict):
             query = QSqlQuery()
-            query.exec_("SELECT COUNT(*) FROM {}".format(table))
-            query.first()
-            itemID = query.value(0)
+            if itemID != 0:
+                query.exec_("SELECT COUNT(*) FROM {}".format(table))
+                query.first()
+                itemID = query.value(0)
+
             if table == "games":
                 query.exec_("INSERT INTO {} "
                             "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Comment) "
                             "VALUES "
-                            "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
+                            "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
                     table, itemID, newData["Platform"], newData["Name"], newData["Region"], newData["Code"],
                     newData["Game"], newData["Box"], newData["Manual"], newData["Year"], newData["Comment"])
                 )
@@ -155,7 +159,7 @@ class Table(QTableView):
                             "(ID, Platform, Name, Region, Country, `Serial number`, Console, Box, Manual, "
                             "Year, Comment) "
                             "VALUES "
-                            "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
+                            "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
                     table, itemID, newData["Platform"], newData["Name"], newData["Region"], newData["Country"],
                     newData["Serial number"], newData["Console"], newData["Box"], newData["Manual"], newData["Year"],
                     newData["Comment"])
@@ -164,7 +168,7 @@ class Table(QTableView):
                 query.exec_("INSERT INTO {} "
                             "(ID, Platform, Name, Region, Country, Accessory, Box, Manual, Year, Comment) "
                             "VALUES "
-                            "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
+                            "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
                     table, itemID, newData["Platform"], newData["Name"], newData["Region"], newData["Country"],
                     newData["Accessory"], newData["Box"], newData["Manual"], newData["Year"], newData["Comment"])
                 )
@@ -211,7 +215,9 @@ class Table(QTableView):
             f = "Platform LIKE '%{}%' " \
                 "OR Name LIKE '%{}%' " \
                 "OR Code LIKE '%{}%' " \
-                "OR Comment LIKE '%{}%'".format(filterText, filterText, filterText, filterText)
+                "OR Year LIKE '%{}%' " \
+                "OR Comment LIKE '%{}%'".format(filterText, filterText, filterText,
+                                                filterText, filterText)
         elif self.table == "consoles":
             f = "Platform LIKE '%{}%' " \
                 "OR Name LIKE '%{}%' " \

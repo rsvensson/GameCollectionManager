@@ -3,23 +3,42 @@
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen
 
-url = "file:///home/synt4x/Nextcloud/Code/Projects/GameCollectionManager/data/html/FDS.html"
+url = "file:///home/synt4x/Code/Projects/GameCollectionManager/" +\
+    "GameCollectionManager/data/html/PS1-AL.html"
 
 rawHTML = urlopen(url)
 html = bs(rawHTML, "html.parser")
 
 titleColumn = 0
-#wtitleColumn = 0
+jpReleaseColumn = 3
+euReleaseColumn = 4
+naReleaseColumn = 5
 
 tr = html.find_all("tr")
-th = html.find_all("th")
+td = []
+
+for row in tr:
+    td.append(row.find_all("td"))
+
+stop = False
+for entry in td:
+    if stop == True:
+        break
+    for row in entry:
+        if row.text == "Home consoles":
+            stop = True
+            break
+        print(row.text)
 
 gamelist = []
 
-for data in html.find_all("tr"):
-    for i, header in enumerate(data.find_all("th", {"rowspan" : 2})):
-        if header.text == "Title":
-            titleColumn = i
+#for data in html.find_all("tr"):
+#    for i, header in enumerate(data.find_all("td", {""})):
+
+
+#print (titleColumn, jpReleaseColumn, euReleaseColumn, naReleaseColumn)
+
+
 
 #    dic = {"Title": "", "Comment": ""}
 #    temp = str(data.text).split("\n")

@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-from GameCollectionManager.widgets.tabwidgets import *
-from GameCollectionManager.widgets.inputwindow import InputWindow
-from GameCollectionManager.widgets.importwindow import ImportWindow
-from GameCollectionManager.widgets.overview import Overview
+from widgets.tabwidgets import *
+from widgets.inputwindow import InputWindow
+from widgets.importwindow import ImportWindow
+from widgets.overview import Overview
 
 from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget,\
     QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget
@@ -15,7 +15,7 @@ _VERSION = "0.0.13"
 
 class MainWindow(QMainWindow):
 
-    def __init__(self):
+    def __init__(self, dbpath):
         super(MainWindow, self).__init__()
 
         # 'Add to collection' window
@@ -26,7 +26,7 @@ class MainWindow(QMainWindow):
 
         # Tables and their databases
         self.db = QSqlDatabase.addDatabase("QSQLITE")
-        self.db.setDatabaseName("data/db/collection.db")
+        self.db.setDatabaseName(dbpath)
         if not self.db.open():
             QMessageBox.critical(None, "Database Error", self.db.lastError().text())
         self.gamesTableView = Table("games", self.db)
@@ -138,22 +138,23 @@ class MainWindow(QMainWindow):
             if self.addWindow.exec_() == QDialog.Accepted:
                 data = self.addWindow.returnData()
 
-                if "Game" in data.keys() and data['Name'] is not "":
-                    self.gamesTableView.addData(data)
-                    self.tab.setCurrentIndex(1)
-                elif "Console" in data.keys() and data['Name'] is not "":
-                    self.consolesTableView.addData(data)
-                    self.tab.setCurrentIndex(2)
-                elif "Accessory" in data.keys() and data['Name'] is not "":
-                    self.accessoriesTableView.addData(data)
-                    self.tab.setCurrentIndex(3)
-                else:
+                if data['Platform'].isspace() or data['Name'] == "":
                     msgBox = QMessageBox()
                     msgBox.setIcon(QMessageBox.Information)
-                    msgBox.setWindowTitle("Invalid name")
-                    msgBox.setText("Name cannot be empty")
+                    msgBox.setWindowTitle("Invalid entry")
+                    msgBox.setText("Platform and name cannot be empty")
                     msgBox.exec_()
                     continue
+
+                if "Game" in data.keys():
+                    self.gamesTableView.addData(data)
+                    self.tab.setCurrentIndex(1)
+                elif "Console" in data.keys():
+                    self.consolesTableView.addData(data)
+                    self.tab.setCurrentIndex(2)
+                elif "Accessory" in data.keys():
+                    self.accessoriesTableView.addData(data)
+                    self.tab.setCurrentIndex(3)
             break
 
     def deleteFromCollection(self):

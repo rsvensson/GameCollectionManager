@@ -29,7 +29,7 @@ class InputWindow(QDialog):
         self.platformLabel = QLabel("Platform\t ")
         self.platform = QComboBox()
         self.platform.addItems(platforms if len(platforms) > 0 else " ")
-        self.platform.addItem("New")
+        self.platform.addItem("(New platform)")
         self.platform.currentIndexChanged.connect(self._addPlatform)
 
         self.regionLabel = QLabel("Region\t ")
@@ -128,14 +128,27 @@ class InputWindow(QDialog):
         self._center()
 
     def _addPlatform(self):
-        if self.platform.currentText() == "New":
-            platform, ok = QInputDialog.getText(self, "Add platform",
+        if self.platform.currentText() == "(New platform)":
+            while True:
+                platform, ok = QInputDialog.getText(self, "Add platform",
                                                 "Platform name:")
-            if ok and platform is not "" and not platform.isspace():
-                lastIndex = self.platform.count()
-                self.platform.addItem(platform)
-                self.platform.setCurrentIndex(lastIndex)
-                self.platform.removeItem(self.platform.findText(" "))  # Remove the temp empty item if any
+                if ok:
+                    if platform == "" or platform.isspace():
+                        msgBox = QMessageBox()
+                        msgBox.setIcon(QMessageBox.Warning)
+                        msgBox.setWindowTitle("Invalid platform")
+                        msgBox.setText("<h2>Invalid platform</h2>")
+                        msgBox.setInformativeText("Can't add empty string or whitespace.")
+                        msgBox.exec_()
+                    else:
+                        lastIndex = self.platform.count()
+                        self.platform.addItem(platform)
+                        self.platform.setCurrentIndex(lastIndex)
+                        self.platform.removeItem(self.platform.findText(" "))  # Remove the temp empty item if any
+                        break
+                else:
+                    break
+
 
     def _center(self):
         """Centers window on screen"""
@@ -199,11 +212,5 @@ class InputWindow(QDialog):
                                 ('Manual', '{}'.format('Yes' if self.manual.isChecked() else 'No')),
                                 ('Year', '{}'.format(self.year.text())),
                                 ('Comment', '{}'.format(self.comment.text()))])
-        if data['Platform'] == "" or data['Platform'].isspace():
-                msgBox = QMessageBox()
-                msgBox.setIcon(QMessageBox.Warning)
-                msgBox.setText("<h2>Invalid platform</h2>")
-                msgBox.setInformativeText("Can't add empty string or whitespace "+
-                                          "as platform name. Aborting.")
 
         return data

@@ -2,7 +2,7 @@ from pathlib import Path
 
 from PySide2.QtWidgets import QDialog, QLabel, QHBoxLayout, QVBoxLayout, \
     QDesktopWidget, QPushButton, QListWidget, QAbstractItemView, QMessageBox
-from GameCollectionManager.tools.text2dict import createGameData
+from tools.text2dict import createGameData
 
 
 class ImportWindow(QDialog):
