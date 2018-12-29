@@ -1,7 +1,9 @@
-$PythonEXE = "C:\Users\KRS\AppData\Local\Programs\Python\Python37\python.exe"
+$PythonEXE = where.exe python
 $GCMFile = "$PSScriptRoot\..\gcm.py"
-$PyInstaller = "$PythonEXE -OO -m PyInstaller -F -w $GCMFile"
-$SourceFolder = "C:\Users\KRS\Desktop\Game Collection Manager"
+$BuildDir = "$PSScriptRoot\..\build"
+$DistDir = "$PSScriptRoot\..\dist"
+$PyInstaller = "$PythonEXE -OO -m PyInstaller -F -w --distpath $DistDir --workpath $BuildDir $GCMFile"
+$SourceFolder = "$PSScriptRoot\..\output\Game Collection Manager"
 $DestinationFile = "$PSScriptRoot\..\Game Collection Manager.zip"
 $Compression = "Optimal"
 
@@ -17,12 +19,24 @@ function Zip-Directory {
     [System.IO.Compression.ZipFile]::CreateFromDirectory($SourceDirectory, $DestinationFileName, $CompressionLevel, $IncludeParentDir)
 }
 
-"Cleaning $SourceFolder"
-Remove-Item $SourceFolder\* -recurse
-
-
-"Removing old $DestinationFile"
-Remove-Item $DestinationFile
+if ($SourceFolder | Test-Path) {
+    "Cleaning $SourceFolder"
+    Remove-Item $SourceFolder\* -recurse
+} else {
+    New-Item -ItemType directory -Path $SourceFolder
+}
+if ($BuildDir | Test-Path) {
+    "Cleaning old build directory"
+    Remove-Item "$PSScriptRoot\..\build" -recurse
+}
+if ($DistDir | Test-Path) {
+    "Cleaning old dist directory"
+    Remove-Item "$PSScriptRoot\..\dist" -recurse
+}
+if ($DestinationFile | Test-Path) {
+    "Removing old $DestinationFile"
+    Remove-Item $DestinationFile
+}
 
 "#########################"
 "# Executing PyInstaller #"
@@ -35,7 +49,7 @@ iex $PyInstaller
 New-Item -ItemType directory -Path "$SourceFolder\data\db"
 Copy-Item -Path $PSScriptRoot\..\data\db\collection.db -Destination $SourceFolder\data\db
 Copy-Item -Path $PSScriptRoot\..\data\vgdb -Destination $SourceFolder\data -Recurse
-Copy-Item -Path $PSScriptRoot\..\dist\gcm.exe -Destination $SourceFolder
+Copy-Item -Path $DistDir\gcm.exe -Destination $SourceFolder
 
 "Creating zip file $DestinationFile"
 Zip-Directory -DestinationFileName $DestinationFile `
