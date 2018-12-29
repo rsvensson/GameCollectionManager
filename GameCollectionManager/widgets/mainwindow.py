@@ -10,7 +10,7 @@ from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget,\
 from PySide2.QtGui import QIcon
 from PySide2.QtSql import QSqlDatabase
 
-_VERSION = "0.0.13"
+_VERSION = "0.0.14"
 
 
 class MainWindow(QMainWindow):

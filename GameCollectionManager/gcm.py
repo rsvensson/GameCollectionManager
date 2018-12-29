@@ -38,11 +38,11 @@ def detectPlatform() -> dict:
 
 
 def getScriptDir(followSymlinks=True):
-    if getattr(sys, 'frozen', False):  # py2exe, PyInstaller, cx_freeze
-        path = os.path.abspath(sys.executable)
-    else:
-        import inspect
-        path = inspect.getabsfile(getScriptDir)
+    #if getattr(sys, 'frozen', False):  # py2exe, PyInstaller, cx_freeze
+    #    path = os.path.abspath(sys.executable)
+    #else:
+    import inspect
+    path = inspect.getabsfile(getScriptDir)
     if followSymlinks:
         path = os.path.realpath(path)
     return os.path.dirname(path)
@@ -55,6 +55,11 @@ def main():
     if not os.path.exists(gcmDir+"/data"):
         os.makedirs(gcmDir+"/data/db")
         os.mkdir(gcmDir+"/data/vgdb")
+        createDB(dbPath)
+    elif not os.path.exists(gcmDir+"/data/db"):
+        os.mkdir(gcmDir+"/data/db")
+        if not os.path.exists(gcmDir+"/data/vgdb"):
+            os.mkdir(gcmDir+"/data/vgdb")
         createDB(dbPath)
 
     createWindow(dbPath)
