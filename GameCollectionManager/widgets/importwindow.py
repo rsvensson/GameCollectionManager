@@ -31,8 +31,8 @@ class ImportWindow(QDialog):
 
         self.hboxOKCancel = QHBoxLayout()
         self.hboxOKCancel.addStretch(5)
-        self.hboxOKCancel.addWidget(self.btnCancel, 0)
-        self.hboxOKCancel.addWidget(self.btnOK, 1)
+        self.hboxOKCancel.addWidget(self.btnOK, 0)
+        self.hboxOKCancel.addWidget(self.btnCancel, 1)
 
         self.vbox = QVBoxLayout()
         self.vbox.addWidget(self.lblSelect, 0)

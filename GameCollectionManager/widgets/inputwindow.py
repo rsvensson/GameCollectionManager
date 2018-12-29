@@ -108,8 +108,8 @@ class InputWindow(QDialog):
         self.hboxBoxMan.addWidget(self.manualLabel, 4)
         self.hboxBoxMan.addWidget(self.manual, 5)
         self.hboxBoxMan.addStretch(10)
-        self.hboxBtn.addWidget(self.cnclButton, 0)
-        self.hboxBtn.addWidget(self.okButton, 1)
+        self.hboxBtn.addWidget(self.okButton, 0)
+        self.hboxBtn.addWidget(self.cnclButton, 1)
 
         self.vbox.addLayout(self.hboxType, 0)
         self.vbox.addLayout(self.hboxName, 1)

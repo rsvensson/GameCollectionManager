@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 
-from widgets.tabwidgets import *
+from widgets.tabwidgets import Table, Randomizer
 from widgets.inputwindow import InputWindow
 from widgets.importwindow import ImportWindow
 from widgets.overview import Overview
 
-from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget,\
-    QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget
+from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget, \
+    QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget, \
+    QWidget, QLabel, QPushButton, QGridLayout
 from PySide2.QtGui import QIcon
 from PySide2.QtSql import QSqlDatabase
 

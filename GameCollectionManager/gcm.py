@@ -7,13 +7,13 @@ from widgets.mainwindow import MainWindow
 
 
 def createWindow(dbPath):
-    OS = detectPlatform()
+    #OS = detectPlatform()
     app = QApplication(sys.argv)
     win = MainWindow(dbPath)
 
-    if OS["system"] == "Windows":
-        import qdarkstyle
-        app.setStyleSheet(qdarkstyle.load_stylesheet(True))
+    #if OS["system"] == "Windows":
+    #    import qdarkstyle
+    #    app.setStyleSheet(qdarkstyle.load_stylesheet(True))
 
     win.show()
     sys.exit(app.exec_())
