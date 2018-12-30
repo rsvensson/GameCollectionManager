@@ -4,7 +4,7 @@ from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget, \
     QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget, \
     QWidget, QLabel, QPushButton, QGridLayout
 from PySide2.QtGui import QIcon
-from PySide2.QtSql import QSqlDatabase
+from PySide2.QtSql import QSqlDatabase, QSqlQuery
 
 from widgets.tabwidgets import Table, Randomizer
 from widgets.inputwindow import InputWindow

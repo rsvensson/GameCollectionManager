@@ -46,7 +46,6 @@ class CheckableSortFilterProxyModel(QSortFilterProxyModel):
 class TableModel(QSqlTableModel):
     """
     Subclassing QSqlTableModel to be able to customize data in our cells
-    http://www.wouterspekkink.org/software/q-sopra/technical/c++/qt/2018/01/19/qsltablemodels-booleans-and-check-boxes.html
     """
 
     def __init__(self, *args, **kwargs):
