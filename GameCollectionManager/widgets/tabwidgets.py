@@ -1,4 +1,4 @@
-from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout,\
+from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout, \
     QPushButton, QLabel, QListWidget, QAbstractItemView, QTableView
 from PySide2.QtSql import QSqlTableModel, QSqlQuery
 from PySide2.QtGui import QFont
@@ -269,7 +269,7 @@ class Table(QTableView):
 
         return count
 
-    def ownedItems(self) -> dict:
+    def ownedItems(self) -> list:
         """
         Fetches all items in the table that are owned. An owned item is one that
         has either the item itself, the box, or the manual.

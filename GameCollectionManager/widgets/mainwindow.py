@@ -7,6 +7,7 @@ from PySide2.QtGui import QIcon
 from PySide2.QtSql import QSqlDatabase, QSqlQuery
 
 from widgets.tabwidgets import Table, Randomizer
+from widgets.searchdock import AdvancedSearch
 from widgets.inputwindow import InputWindow
 from widgets.importwindow import ImportWindow
 from widgets.overview import Overview
@@ -44,6 +45,13 @@ class MainWindow(QMainWindow):
         self.randomizer.btnAll.clicked.connect(self.updateStatusbar)
         self.randomizer.btnNone.clicked.connect(self.updateStatusbar)
 
+        self.allPlatforms = set()
+        for table in self.tableViewList:
+            for row in table.ownedItems():
+                self.allPlatforms.add(row["Platform"])
+
+        self.advSearch = AdvancedSearch(sorted(self.allPlatforms))
+
         ## MainWindow layout
         # Widgets
         self.centralWidget = QWidget()
@@ -69,12 +77,15 @@ class MainWindow(QMainWindow):
 
         # Search stuff
         self.searchLabel = QLabel("Search")
+        self.searchLabel.setVisible(False)
         self.searchBox = QLineEdit()
-        self.searchBox.setEnabled(False)
+        self.searchBox.setVisible(False)
         self.searchBox.setClearButtonEnabled(True)
         self.searchBox.textChanged.connect(self.search)
         self.advSearchBtn = QPushButton("Advanced search")
         self.advSearchBtn.setToolTip("Doesn't actually work yet")
+        self.advSearchBtn.clicked.connect(self.advSearch.toggleVisibility)
+        self.advSearchBtn.setVisible(False)
 
         # Tab layout.
         self.tab.addTab(self.overview.layout, "Overview")
@@ -85,32 +96,26 @@ class MainWindow(QMainWindow):
         self.tab.currentChanged.connect(self.search)
         self.tab.currentChanged.connect(self.updateStatusbar)
 
-        self.tabGrid = QGridLayout()
-        self.tabGrid.setMargin(0)
-        self.tabGrid.setSpacing(0)
-        self.tabGrid.addWidget(self.tab, 0, 1, 1, 3)
-        self.tabGrid.addWidget(self.searchLabel, 1, 1)
-        self.tabGrid.addWidget(self.searchBox, 1, 2)
-        self.tabGrid.addWidget(self.advSearchBtn, 1, 3)
-        self.tabWidget = QWidget()
-        self.tabWidget.setLayout(self.tabGrid)
-
-        # Grid layout where we put everything
+        # Main layout
         self.mainGrid = QGridLayout()
         self.mainGrid.setMargin(0)
         self.mainGrid.setSpacing(0)
-        self.mainGrid.addWidget(self.tabWidget, 0, 0)
-
-        # Main layout
+        self.mainGrid.addWidget(self.tab, 0, 1, 1, 3)
+        self.mainGrid.addWidget(self.advSearch, 1, 1, 1, 3)
+        self.mainGrid.addWidget(self.searchLabel, 2, 1)
+        self.mainGrid.addWidget(self.searchBox, 2, 2)
+        self.mainGrid.addWidget(self.advSearchBtn, 2, 3)
         self.centralWidget.setLayout(self.mainGrid)
+
+        # Make sure screen geometry is big enough. Otherwise set window to maximized.
         gSize = QApplication.desktop().availableGeometry()
         if gSize.width() <= 1280 or gSize.height() <= 768:
             self.showMaximized()
         else:
             self.resize(1280, 768)
             self.center()
-        self.setWindowTitle("Game Collection Manager v{}".format(_VERSION))
 
+        self.setWindowTitle("Game Collection Manager v{}".format(_VERSION))
         self.statusBar().showMessage("")
 
     def about(self):
@@ -307,15 +312,22 @@ class MainWindow(QMainWindow):
         searchText = self.searchBox.text()
 
         if 0 < currentTab < 4:
-            self.searchBox.setEnabled(True)
+            self.searchLabel.setVisible(True)
+            self.searchBox.setVisible(True)
+            self.advSearchBtn.setVisible(True)
             self.tableViewList[currentTab - 1].filterTable(searchText)
+
             if searchText is not "":
                 self.statusBar().showMessage("Found {} {}.".format(self.tableViewList[currentTab-1].model.rowCount(),
                                                                    self.tableViewList[currentTab-1].model.tableName()))
             else:
                 self.updateStatusbar()
         else:
-            self.searchBox.setEnabled(False)
+            self.searchLabel.setVisible(False)
+            self.searchBox.setVisible(False)
+            self.advSearchBtn.setVisible(False)
+            if self.advSearch.isVisible():
+                self.advSearch.toggleVisibility()
 
     def toggleOwnedFilter(self):
         for table in self.tableViewList:
