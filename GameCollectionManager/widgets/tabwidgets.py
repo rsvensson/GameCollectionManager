@@ -215,19 +215,12 @@ class Table(QTableView):
         # Filter based on advanced search options
         if len(selections) > 0:
             f = "Name LIKE '%{}%'".format(filterText)
-            if "Platform" in selections:
-                platforms = sorted(selections["Platform"])
-                f += "AND (Platform = '{}' ".format(platforms[0])
-                if len(platforms) > 1:
-                    for platform in platforms[1:]:
-                        f += "OR Platform = '{}' ".format(platform)
-                f += ") "
-            if "Region" in selections:
-                regions = sorted(selections["Region"])
-                f += "AND (Region = '{}' ".format(regions[0])
-                if len(regions) > 1:
-                    for region in regions[1:]:
-                        f += "OR Region = '{}' ".format(region)
+            for selection in selections:
+                items = sorted(selections[selection])
+                f += "AND ({} = '{}' ".format(selection, items[0])
+                if len(items) > 1:
+                    for item in items[1:]:
+                        f += "OR {} = '{}' ".format(selection, item)
                 f += ") "
         else:  # Regular, simple, filter. It just seaches almost every column
             f = "Platform LIKE '%{}%' " \
