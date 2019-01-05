@@ -212,6 +212,7 @@ class Table(QTableView):
             self.resizeRowsToContents()
             return
 
+        # Filter based on advanced search options
         if len(selections) > 0:
             f = "Name LIKE '%{}%'".format(filterText)
             if "Platform" in selections:
@@ -228,23 +229,19 @@ class Table(QTableView):
                     for region in regions[1:]:
                         f += "OR Region = '{}' ".format(region)
                 f += ") "
-        else:
+        else:  # Regular, simple, filter. It just seaches almost every column
+            f = "Platform LIKE '%{}%' " \
+                "OR Name LIKE '%{}%' " \
+                "OR Region LIKE '%{}%' " \
+                "OR Comment LIKE '%{}%' " \
+                "OR Year LIKE '%{}%' ".format(filterText, filterText, filterText, filterText, filterText)
             if self.table == "games":
-                f = "Platform LIKE '%{}%' " \
-                    "OR Name LIKE '%{}%' " \
-                    "OR Code LIKE '%{}%' " \
-                    "OR Year LIKE '%{}%' " \
-                    "OR Comment LIKE '%{}%' ".format(filterText, filterText, filterText,
-                                                    filterText, filterText)
+                f += "OR Code LIKE '%{}%' ".format(filterText)
             elif self.table == "consoles":
-                f = "Platform LIKE '%{}%' " \
-                    "OR Name LIKE '%{}%' " \
-                    "OR `Serial number` LIKE '%{}%' " \
-                    "OR Comment LIKE '%{}%' ".format(filterText, filterText, filterText, filterText)
+                f += "OR Country LIKE '%{}%' " \
+                     "OR `Serial number` LIKE '%{}%' ".format(filterText, filterText)
             elif self.table == "accessories":
-                f = "Platform LIKE '%{}%' " \
-                    "OR Name LIKE '%{}%' " \
-                    "OR Comment LIKE '%{}%' ".format(filterText, filterText, filterText)
+                f += "OR Country LIKE '%{}%' ".format(filterText)
 
         f += "ORDER BY Platform ASC, Name ASC"
 
