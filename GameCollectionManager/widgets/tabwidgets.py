@@ -199,34 +199,55 @@ class Table(QTableView):
             query.exec_("DELETE FROM {} WHERE ID={}".format(self.table, row))
         self.model.select()
 
-    def filterTable(self, filterText: str):
+    def filterTable(self, filterText: str, selections: dict):
         """
         Filters the table based on search strings
         :param filterText: The text to filter
+        :param selections: Possible selected items from advanced search options
         """
 
         # Reset filtering to default if filterText is empty
-        if filterText == "":
+        if filterText == "" and len(selections) == 0:
             self.model.setFilter("1=1 ORDER BY Platform ASC, Name ASC")
             self.resizeRowsToContents()
             return
 
-        if self.table == "games":
-            f = "Platform LIKE '%{}%' " \
-                "OR Name LIKE '%{}%' " \
-                "OR Code LIKE '%{}%' " \
-                "OR Year LIKE '%{}%' " \
-                "OR Comment LIKE '%{}%'".format(filterText, filterText, filterText,
-                                                filterText, filterText)
-        elif self.table == "consoles":
-            f = "Platform LIKE '%{}%' " \
-                "OR Name LIKE '%{}%' " \
-                "OR `Serial number` LIKE '%{}%' " \
-                "OR Comment LIKE '%{}%'".format(filterText, filterText, filterText, filterText)
-        elif self.table == "accessories":
-            f = "Platform LIKE '%{}%' " \
-                "OR Name LIKE '%{}%' " \
-                "OR Comment LIKE '%{}%'".format(filterText, filterText, filterText)
+        if len(selections) > 0:
+            f = "Name LIKE '%{}%'".format(filterText)
+            if "Platform" in selections:
+                platforms = sorted(selections["Platform"])
+                f += "AND (Platform = '{}' ".format(platforms[0])
+                if len(platforms) > 1:
+                    for platform in platforms[1:]:
+                        f += "OR Platform = '{}' ".format(platform)
+                f += ") "
+            if "Region" in selections:
+                regions = sorted(selections["Region"])
+                f += "AND (Region = '{}' ".format(regions[0])
+                if len(regions) > 1:
+                    for region in regions[1:]:
+                        f += "OR Region = '{}' ".format(region)
+                f += ") "
+        else:
+            if self.table == "games":
+                f = "Platform LIKE '%{}%' " \
+                    "OR Name LIKE '%{}%' " \
+                    "OR Code LIKE '%{}%' " \
+                    "OR Year LIKE '%{}%' " \
+                    "OR Comment LIKE '%{}%' ".format(filterText, filterText, filterText,
+                                                    filterText, filterText)
+            elif self.table == "consoles":
+                f = "Platform LIKE '%{}%' " \
+                    "OR Name LIKE '%{}%' " \
+                    "OR `Serial number` LIKE '%{}%' " \
+                    "OR Comment LIKE '%{}%' ".format(filterText, filterText, filterText, filterText)
+            elif self.table == "accessories":
+                f = "Platform LIKE '%{}%' " \
+                    "OR Name LIKE '%{}%' " \
+                    "OR Comment LIKE '%{}%' ".format(filterText, filterText, filterText)
+
+        f += "ORDER BY Platform ASC, Name ASC"
+
         self.model.setFilter(f)
         self.resizeRowsToContents()
 
@@ -281,10 +302,10 @@ class Table(QTableView):
             "Console" if self.table == "consoles" else "Accessory"
 
         query = QSqlQuery()
-        query.exec_("SELECT Platform, Name FROM {} WHERE {}='Yes' OR Box='Yes' OR Manual='Yes'".format(
+        query.exec_("SELECT Platform, Name, Region FROM {} WHERE {}='Yes' OR Box='Yes' OR Manual='Yes'".format(
             self.table, item))
         while query.next():
-            items.append(dict(Platform=query.value(0), Name=query.value(1)))
+            items.append(dict(Platform=query.value(0), Name=query.value(1), Region=query.value(2)))
 
         return items
 

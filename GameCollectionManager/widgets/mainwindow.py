@@ -46,11 +46,13 @@ class MainWindow(QMainWindow):
         self.randomizer.btnNone.clicked.connect(self.updateStatusbar)
 
         self.allPlatforms = set()
+        self.allRegions = set()
         for table in self.tableViewList:
             for row in table.ownedItems():
                 self.allPlatforms.add(row["Platform"])
+                self.allRegions.add(row["Region"])
 
-        self.advSearch = AdvancedSearch(sorted(self.allPlatforms))
+        self.advSearch = AdvancedSearch(sorted(self.allPlatforms), sorted(self.allRegions))
 
         ## MainWindow layout
         # Widgets
@@ -315,9 +317,9 @@ class MainWindow(QMainWindow):
             self.searchLabel.setVisible(True)
             self.searchBox.setVisible(True)
             self.advSearchBtn.setVisible(True)
-            self.tableViewList[currentTab - 1].filterTable(searchText)
+            self.tableViewList[currentTab - 1].filterTable(searchText, self.advSearch.getSelections())
 
-            if searchText is not "":
+            if searchText is not "" or len(self.advSearch.getSelections()) > 0:
                 self.statusBar().showMessage("Found {} {}.".format(self.tableViewList[currentTab-1].model.rowCount(),
                                                                    self.tableViewList[currentTab-1].model.tableName()))
             else:
