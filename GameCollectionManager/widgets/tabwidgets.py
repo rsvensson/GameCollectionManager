@@ -116,7 +116,7 @@ class Table(QTableView):
                     query.exec_("INSERT INTO {} "
                                 "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Comment) "
                                 "VALUES "
-                                "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
+                                "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
                         table, itemID, data["Platform"], data["Name"], data["Region"], data["Code"],
                         data["Game"], data["Box"], data["Manual"], data["Year"], data["Comment"])
                     )
@@ -125,7 +125,7 @@ class Table(QTableView):
                                 "(ID, Platform, Name, Region, Country, `Serial number`, Console, Box, Manual, "
                                 "Year, Comment) "
                                 "VALUES "
-                                "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
+                                "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
                         table, itemID, data["Platform"], data["Name"], data["Region"], data["Country"],
                         data["Serial number"], data["Console"], data["Box"], data["Manual"], data["Year"],
                         data["Comment"])
@@ -134,7 +134,7 @@ class Table(QTableView):
                     query.exec_("INSERT INTO {} "
                                 "(ID, Platform, Name, Region, Country, Accessory, Box, Manual, Year, Comment) "
                                 "VALUES "
-                                "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, '{}')".format(
+                                "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
                         table, itemID, data["Platform"], data["Name"], data["Region"], data["Country"],
                         data["Accessory"], data["Box"], data["Manual"], data["Year"], data["Comment"])
                     )
@@ -173,7 +173,7 @@ class Table(QTableView):
                     newData["Accessory"], newData["Box"], newData["Manual"], newData["Year"], newData["Comment"])
                 )
 
-        self.filterTable("")
+        self.filterTable("", dict())
 
     def deleteData(self, rows: list):
         """

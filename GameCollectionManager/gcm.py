@@ -49,6 +49,8 @@ def getScriptDir(followSymlinks=True):
 
 
 def main():
+    # TODO: Doesn't create collection.db if only the file is missing
+    # TODO: Issue with dynamically created dbs where it removes items that are in collection
     gcmDir = getScriptDir()
     dbPath = gcmDir+"/data/db/collection.db"
 
