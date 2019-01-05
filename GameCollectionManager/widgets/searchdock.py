@@ -39,7 +39,7 @@ class AdvancedSearch(QDockWidget):
         self.clearBtn.clicked.connect(self.clearFilters)
         self.applyBtn = QPushButton("Apply filter")
         self.applyBtn.setMaximumSize(self.clearBtn.sizeHint())
-        self.applyBtn.clicked.connect(self.filterApplied.emit)
+        self.applyBtn.clicked.connect(self.applyFilters)
         self.btnHBox = QHBoxLayout()
         self.btnHBox.setAlignment(Qt.AlignBottom | Qt.AlignRight)
         self.btnHBox.addWidget(self.clearBtn, 0)
@@ -57,22 +57,20 @@ class AdvancedSearch(QDockWidget):
 
         self._selections = defaultdict(set)
 
+    def applyFilters(self):
+        self._selections = defaultdict(set)  # Reset state of dictionary
+        self.filterApplied.emit()
+
     def clearFilters(self):
         self.platforms.clearSelection()
         self.regions.clearSelection()
 
     def getSelections(self):
-        if len(self.platforms.selectedItems()) == 0:
-            if "Platform" in self._selections:
-                del self._selections["Platform"]
-        else:
+        if len(self.platforms.selectedItems()) > 0:
             temp = [x.text() for x in self.platforms.selectedItems()]
             for platform in temp:
                 self._selections["Platform"].add(platform)
-        if len(self.regions.selectedItems()) == 0:
-            if "Region" in self._selections:
-                del self._selections["Region"]
-        else:
+        if len(self.regions.selectedItems()) > 0:
             temp = [x.text() for x in self.regions.selectedItems()]
             for region in temp:
                 self._selections["Region"].add(region)

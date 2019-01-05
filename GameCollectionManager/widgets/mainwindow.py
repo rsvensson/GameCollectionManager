@@ -86,7 +86,6 @@ class MainWindow(QMainWindow):
         self.searchBox.setClearButtonEnabled(True)
         self.searchBox.textChanged.connect(self.search)
         self.advSearchBtn = QPushButton("Advanced search")
-        self.advSearchBtn.setToolTip("Doesn't actually work yet")
         self.advSearchBtn.clicked.connect(self.advSearch.toggleVisibility)
         self.advSearchBtn.setVisible(False)
 
