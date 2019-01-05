@@ -206,7 +206,7 @@ class Table(QTableView):
         :param selections: Possible selected items from advanced search options
         """
 
-        # Reset filtering to default if filterText is empty
+        # Reset filtering to default if no search filters
         if filterText == "" and len(selections) == 0:
             self.model.setFilter("1=1 ORDER BY Platform ASC, Name ASC")
             self.resizeRowsToContents()
@@ -214,9 +214,11 @@ class Table(QTableView):
 
         # Filter based on advanced search options
         if len(selections) > 0:
-            f = "Name LIKE '%{}%'".format(filterText)
+            f = "(Name LIKE '%{}%' " \
+                "OR Year LIKE '%{}%' " \
+                "OR Comment LIKE '%{}%') ".format(filterText, filterText, filterText)
             for selection in selections:
-                items = sorted(selections[selection])
+                items = list(selections[selection])
                 f += "AND ({} = '{}' ".format(selection, items[0])
                 if len(items) > 1:
                     for item in items[1:]:

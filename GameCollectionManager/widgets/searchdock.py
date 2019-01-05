@@ -1,49 +1,65 @@
-from PySide2.QtCore import Qt
+from PySide2.QtCore import Qt, Signal
 from PySide2.QtWidgets import QDockWidget, QWidget, QComboBox, QListWidget, QHBoxLayout, QLabel, QPushButton, \
     QAbstractItemView, QVBoxLayout
 from collections import defaultdict
 
 
 class AdvancedSearch(QDockWidget):
+    filterApplied = Signal()
+
     def __init__(self, platforms, regions):
         super(AdvancedSearch, self).__init__()
 
         self.setAllowedAreas(Qt.BottomDockWidgetArea)
         self.setFeatures(QDockWidget.DockWidgetClosable)
         self.setFixedHeight(150)
-        self.setVisible(True)
+        self.setVisible(False)
         self.setWindowTitle("Advanced search options")
 
-        self.platformsLabel = QLabel("Platforms")
+        self.platformLabel = QLabel("Platform")
         self.platforms = QListWidget()
         self.platforms.addItems(platforms)
         self.platforms.setSelectionMode(QAbstractItemView.MultiSelection)
         self.platforms.setMaximumWidth(200)
+        self.platformVBox = QVBoxLayout()
+        self.platformVBox.addWidget(self.platformLabel, 0)
+        self.platformVBox.addWidget(self.platforms, 1)
 
         self.regionLabel = QLabel("Region")
-        self.region = QListWidget()
-        self.region.addItems(regions)
-        self.region.setSelectionMode(QAbstractItemView.MultiSelection)
-        self.region.setMaximumWidth(200)
+        self.regions = QListWidget()
+        self.regions.addItems(regions)
+        self.regions.setSelectionMode(QAbstractItemView.MultiSelection)
+        self.regions.setMaximumWidth(200)
+        self.regionVBox = QVBoxLayout()
+        self.regionVBox.addWidget(self.regionLabel, 0)
+        self.regionVBox.addWidget(self.regions, 1)
 
-        self.labelHBox = QHBoxLayout()
-        self.labelHBox.addWidget(self.platformsLabel, 0)
-        self.labelHBox.addWidget(self.regionLabel, 1)
+        self.clearBtn = QPushButton("Clear selection")
+        self.clearBtn.setMaximumSize(self.clearBtn.sizeHint())
+        self.clearBtn.clicked.connect(self.clearFilters)
+        self.applyBtn = QPushButton("Apply filter")
+        self.applyBtn.setMaximumSize(self.clearBtn.sizeHint())
+        self.applyBtn.clicked.connect(self.filterApplied.emit)
+        self.btnHBox = QHBoxLayout()
+        self.btnHBox.setAlignment(Qt.AlignBottom | Qt.AlignRight)
+        self.btnHBox.addWidget(self.clearBtn, 0)
+        self.btnHBox.addWidget(self.applyBtn, 1)
 
-        self.selectionHBox = QHBoxLayout()
-        self.selectionHBox.setAlignment(Qt.AlignLeft)
-        self.selectionHBox.addWidget(self.platforms, 0)
-        self.selectionHBox.addWidget(self.region, 1)
-
-        self.vbox = QVBoxLayout()
-        self.vbox.addLayout(self.labelHBox, 0)
-        self.vbox.addLayout(self.selectionHBox, 1)
+        self.hbox = QHBoxLayout()
+        self.hbox.setAlignment(Qt.AlignLeft)
+        self.hbox.addLayout(self.platformVBox, 0)
+        self.hbox.addLayout(self.regionVBox, 1)
+        self.hbox.addLayout(self.btnHBox, 2)
 
         newWidget = QWidget()
-        newWidget.setLayout(self.vbox)
+        newWidget.setLayout(self.hbox)
         self.setWidget(newWidget)
 
         self._selections = defaultdict(set)
+
+    def clearFilters(self):
+        self.platforms.clearSelection()
+        self.regions.clearSelection()
 
     def getSelections(self):
         if len(self.platforms.selectedItems()) == 0:
@@ -53,11 +69,11 @@ class AdvancedSearch(QDockWidget):
             temp = [x.text() for x in self.platforms.selectedItems()]
             for platform in temp:
                 self._selections["Platform"].add(platform)
-        if len(self.region.selectedItems()) == 0:
+        if len(self.regions.selectedItems()) == 0:
             if "Region" in self._selections:
                 del self._selections["Region"]
         else:
-            temp = [x.text() for x in self.region.selectedItems()]
+            temp = [x.text() for x in self.regions.selectedItems()]
             for region in temp:
                 self._selections["Region"].add(region)
 

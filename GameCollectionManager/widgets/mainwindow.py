@@ -53,6 +53,7 @@ class MainWindow(QMainWindow):
                 self.allRegions.add(row["Region"])
 
         self.advSearch = AdvancedSearch(sorted(self.allPlatforms), sorted(self.allRegions))
+        self.advSearch.filterApplied.connect(self.search)
 
         ## MainWindow layout
         # Widgets
