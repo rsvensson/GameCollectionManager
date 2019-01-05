@@ -105,13 +105,14 @@ class Table(QTableView):
         table = self.table
         itemID = 0 if self.model.rowCount() == 0 else -1
 
+        query = QSqlQuery()
         if isinstance(newData, list):
+            if itemID != 0:
+                query.exec_("SELECT COUNT(*) FROM {}".format(table))
+                query.first()
+                itemID = query.value(0)
+
             for data in newData:
-                query = QSqlQuery()
-                if itemID != 0:
-                    query.exec_("SELECT COUNT(*) FROM {}".format(table))
-                    query.first()
-                    itemID = query.value(0)
                 if table == "games":
                     query.exec_("INSERT INTO {} "
                                 "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Comment) "
@@ -138,9 +139,9 @@ class Table(QTableView):
                         table, itemID, data["Platform"], data["Name"], data["Region"], data["Country"],
                         data["Accessory"], data["Box"], data["Manual"], data["Year"], data["Comment"])
                     )
+                itemID += 1
 
         elif isinstance(newData, OrderedDict):
-            query = QSqlQuery()
             if itemID != 0:
                 query.exec_("SELECT COUNT(*) FROM {}".format(table))
                 query.first()
