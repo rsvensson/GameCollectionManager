@@ -4,26 +4,14 @@ $BuildDir = "$PSScriptRoot\..\build"
 $DistDir = "$PSScriptRoot\..\dist"
 $PyInstaller = "$PythonEXE -OO -m PyInstaller -F -w --distpath $DistDir --workpath $BuildDir $GCMFile"
 $SourceFolder = "$PSScriptRoot\..\output\Game Collection Manager"
-$DestinationFile = "$PSScriptRoot\..\Game Collection Manager.zip"
-$Compression = "Optimal"
-
-function Zip-Directory {
-    Param(
-        [Parameter(Mandatory=$True)][string]$DestinationFileName,
-        [Parameter(Mandatory=$True)][string]$SourceDirectory,
-        [Parameter(Mandatory=$False)][string]$CompressionLevel = "Optimal",
-        [Parameter(Mandatory=$False)][switch]$IncludeParentDir
-    )
-    Add-Type -AssemblyName System.IO.Compression.FileSystem
-    $CompressionLevel = [System.IO.Compression.CompressionLevel]::$CompressionLevel
-    [System.IO.Compression.ZipFile]::CreateFromDirectory($SourceDirectory, $DestinationFileName, $CompressionLevel, $IncludeParentDir)
-}
+$DestinationFile = "$PSScriptRoot\..\Game Collection Manager.7z"
+set-alias 7z "$env:ProgramFiles\7-Zip\7z.exe"
 
 if ($SourceFolder | Test-Path) {
     "Cleaning $SourceFolder"
     Remove-Item $SourceFolder\* -recurse
 } else {
-    New-Item -ItemType directory -Path $SourceFolder
+    New-Item -ItemType directory -Path $SourceFolder | Out-Null
 }
 if ($BuildDir | Test-Path) {
     "Cleaning old build directory"
@@ -56,9 +44,6 @@ Copy-Item -Path $PSScriptRoot\..\data\vgdb -Destination $SourceFolder\data -Recu
 Copy-Item -Path $DistDir\gcm.exe -Destination $SourceFolder
 
 ""
-"Creating zip file $DestinationFile"
+"Creating 7z file $DestinationFile"
 ""
-Zip-Directory -DestinationFileName $DestinationFile `
-    -SourceDirectory $SourceFolder `
-    -CompressionLevel $Compression `
-    -IncludeParentDir
+7z a $DestinationFile $SourceFolder

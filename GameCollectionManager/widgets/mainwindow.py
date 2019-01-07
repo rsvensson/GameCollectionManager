@@ -12,7 +12,7 @@ from widgets.inputwindow import InputWindow
 from widgets.importwindow import ImportWindow
 from widgets.overview import Overview
 
-_VERSION = "0.0.15"
+_VERSION = "0.0.16"
 
 
 class MainWindow(QMainWindow):
