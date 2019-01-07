@@ -17,8 +17,7 @@ class InputWindow(QDialog):
         self.setContentsMargins(5, 5, 5, 5)
 
         self.dataTypes = ["Game", "Console", "Accessory"]
-        self.dataTypeLabel = QLabel()
-        self.dataTypeLabel.setText("Type\t ")
+        self.dataTypeLabel = QLabel("Type\t ")
         self.dataType = QComboBox()
         self.dataType.addItems(self.dataTypes)
         self.dataType.currentIndexChanged.connect(self._changeWidgets)
@@ -77,6 +76,8 @@ class InputWindow(QDialog):
         self.hboxRegion.addStretch()
         self.hboxCode = QHBoxLayout()
         self.hboxCode.addStretch()
+        self.hboxCountry = QHBoxLayout()
+        self.hboxCountry.addStretch()
         self.hboxBoxMan = QHBoxLayout()
         self.hboxYear = QHBoxLayout()
         self.hboxComment = QHBoxLayout()
@@ -94,6 +95,8 @@ class InputWindow(QDialog):
         self.hboxRegion.addWidget(self.region, 1)
         self.hboxCode.addWidget(self.codeLabel, 0)
         self.hboxCode.addWidget(self.code, 1)
+        self.hboxCountry.addWidget(self.countryLabel, 0)
+        self.hboxCountry.addWidget(self.country, 1)
         self.hboxYear.addWidget(self.yearLabel, 0)
         self.hboxYear.addWidget(self.year, 1)
         self.hboxComment.addWidget(self.commentLabel, 0)
@@ -116,10 +119,11 @@ class InputWindow(QDialog):
         self.vbox.addLayout(self.hboxPlatform, 2)
         self.vbox.addLayout(self.hboxRegion, 3)
         self.vbox.addLayout(self.hboxCode, 4)
-        self.vbox.addLayout(self.hboxYear, 5)
-        self.vbox.addLayout(self.hboxComment, 6)
-        self.vbox.addLayout(self.hboxBoxMan, 7)
-        self.vbox.addLayout(self.hboxBtn, 8)
+        self.vbox.addLayout(self.hboxCountry, 5)
+        self.vbox.addLayout(self.hboxYear, 6)
+        self.vbox.addLayout(self.hboxComment, 7)
+        self.vbox.addLayout(self.hboxBoxMan, 8)
+        self.vbox.addLayout(self.hboxBtn, 9)
 
         self.setLayout(self.vbox)
 

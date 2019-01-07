@@ -311,9 +311,9 @@ class MainWindow(QMainWindow):
         """Filters table contents based on user input"""
 
         currentTab = self.tab.currentIndex()
-        searchText = self.searchBox.text()
 
         if 0 < currentTab < 4:
+            searchText = self.searchBox.text()
             self.searchLabel.setVisible(True)
             self.searchBox.setVisible(True)
             self.advSearchBtn.setVisible(True)

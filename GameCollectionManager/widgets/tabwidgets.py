@@ -86,7 +86,6 @@ class Table(QTableView):
                 self.setColumnWidth(column, 70)
 
         #self.setSortingEnabled(True)
-        #self.model.setFilter("1=1 ORDER BY Platform ASC, Name ASC")  # Sort by platform
         self.verticalHeader().setVisible(False)  # Don't show row headers
         self.setColumnHidden(0, True)  # Don't show ID field
         self.setAlternatingRowColors(True)
@@ -104,8 +103,8 @@ class Table(QTableView):
 
         table = self.table
         itemID = 0 if self.model.rowCount() == 0 else -1
-
         query = QSqlQuery()
+
         if isinstance(newData, list):
             if itemID != 0:
                 query.exec_("SELECT COUNT(*) FROM {}".format(table))
@@ -214,7 +213,7 @@ class Table(QTableView):
             return
 
         # Filter based on advanced search options
-        if len(selections) > 0:
+        elif len(selections) > 0:
             f = "(Name LIKE '%{}%' " \
                 "OR Year LIKE '%{}%' " \
                 "OR Comment LIKE '%{}%') ".format(filterText, filterText, filterText)
@@ -389,9 +388,7 @@ class Randomizer(QWidget):
         self.consoleList = QListWidget()
         self.consoleItems = set()
         for row in gamesData:
-            for col in row:
-                if col == "Platform":
-                    self.consoleItems.add(row[col])
+            self.consoleItems.add(row["Platform"])
         self.consoleList.addItems(sorted(self.consoleItems))
         self.consoleList.setSelectionMode(QAbstractItemView.MultiSelection)
         self.consoleList.setMaximumWidth(350)
@@ -451,9 +448,8 @@ class Randomizer(QWidget):
 
         if len(platforms) > 0:
             for row in self.gamesData:
-                for col in row:
-                    if col == "Platform" and row[col] in platforms:
-                        games.append(row)
+                if row["Platform"] in platforms:
+                    games.append(row)
 
             choice = randint(0, len(games) - 1)
             self.lblPlay.setText("You will play:")
@@ -469,9 +465,8 @@ class Randomizer(QWidget):
 
         if len(platforms) > 0:
             for row in self.gamesData:
-                for col in row:
-                    if col == "Platform" and row[col] in platforms:
-                        self.gameCount += 1
+                if row["Platform"] in platforms:
+                    self.gameCount += 1
 
     def getGameCount(self) -> int:
         return self.gameCount
