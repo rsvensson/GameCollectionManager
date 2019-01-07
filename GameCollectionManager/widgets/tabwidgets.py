@@ -85,7 +85,6 @@ class Table(QTableView):
             elif self.model.headerData(column, Qt.Horizontal) in ("Game", "Console", "Accessory", "Box", "Manual"):
                 self.setColumnWidth(column, 70)
 
-        #self.setSortingEnabled(True)
         self.verticalHeader().setVisible(False)  # Don't show row headers
         self.setColumnHidden(0, True)  # Don't show ID field
         self.setAlternatingRowColors(True)

@@ -317,6 +317,7 @@ class MainWindow(QMainWindow):
             self.searchLabel.setVisible(True)
             self.searchBox.setVisible(True)
             self.advSearchBtn.setVisible(True)
+            self.advSearch.setItemType(currentTab)
             self.tableViewList[currentTab - 1].filterTable(searchText, self.advSearch.getSelections())
 
             if searchText is not "" or len(self.advSearch.getSelections()) > 0:

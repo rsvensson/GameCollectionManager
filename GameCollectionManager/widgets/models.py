@@ -1,7 +1,7 @@
 #!/usr/bin/env python
-from PySide2.QtCore import Qt, Signal, QModelIndex, QSortFilterProxyModel
+from PySide2.QtCore import Qt, Signal, QSortFilterProxyModel
 from PySide2.QtGui import QFont, QColor
-from PySide2.QtSql import QSqlTableModel, QSqlQuery
+from PySide2.QtSql import QSqlTableModel
 
 
 class CheckableSortFilterProxyModel(QSortFilterProxyModel):
