@@ -22,11 +22,11 @@ class Table(QTableView):
 
         assert tableName in ("games", "consoles", "accessories")
 
-        self.db = db
-        self.hideNotOwned = True
-        self.table = tableName
+        self._db = db
+        self._hideNotOwned = True
+        self._table = tableName
 
-        self.model = TableModel(self, self.db)
+        self.model = TableModel(self, self._db)
         self.model.setTable(tableName)
         self.model.setEditStrategy(QSqlTableModel.OnFieldChange)
         self.model.select()
@@ -35,7 +35,7 @@ class Table(QTableView):
         self.model.setHeaderData(1, Qt.Horizontal, "Platform")
         self.model.setHeaderData(2, Qt.Horizontal, "Name")
         self.model.setHeaderData(3, Qt.Horizontal, "Region")
-        if tableName == "games":
+        if self._table == "games":
             self.model.setHeaderData(4, Qt.Horizontal, "Code")
             self.model.setHeaderData(5, Qt.Horizontal, "Game")
             #self.setItemDelegateForColumn(5, CheckboxDelegate("Game", parent=self))
@@ -45,7 +45,7 @@ class Table(QTableView):
             #self.setItemDelegateForColumn(7, CheckboxDelegate("Manual", parent=self))
             self.model.setHeaderData(8, Qt.Horizontal, "Year")
             self.model.setHeaderData(9, Qt.Horizontal, "Comment")
-        elif tableName == "consoles":
+        elif self._table == "consoles":
             self.model.setHeaderData(4, Qt.Horizontal, "Country")
             self.model.setHeaderData(5, Qt.Horizontal, "Serial number")
             self.model.setHeaderData(6, Qt.Horizontal, "Console")
@@ -56,7 +56,7 @@ class Table(QTableView):
             #self.setItemDelegateForColumn(8, CheckboxDelegate("Manual", parent=self))
             self.model.setHeaderData(9, Qt.Horizontal, "Year")
             self.model.setHeaderData(10, Qt.Horizontal, "Comment")
-        elif tableName == "accessories":
+        elif self._table == "accessories":
             self.model.setHeaderData(4, Qt.Horizontal, "Country")
             self.model.setHeaderData(5, Qt.Horizontal, "Accessory")
             #self.setItemDelegateForColumn(5, CheckboxDelegate("Accessory", parent=self))
@@ -100,7 +100,7 @@ class Table(QTableView):
         # The checkboxes' values gets put at the bottom of the table,
         # while the bottom row's checkbox values is put in the new row.
 
-        table = self.table
+        table = self._table
         itemID = 0 if self.model.rowCount() == 0 else -1
         query = QSqlQuery()
 
@@ -186,16 +186,16 @@ class Table(QTableView):
 
     def deleteNotOwned(self):
         rows = []
-        item = "Game" if self.table == "games" else\
-            "Console" if self.table == "consoles" else\
+        item = "Game" if self._table == "games" else\
+            "Console" if self._table == "consoles" else\
             "Accessory"
         query = QSqlQuery()
-        query.exec_("SELECT ID FROM {} WHERE {}='No' AND Box='No' AND Manual='No'".format(self.table, item))
+        query.exec_("SELECT ID FROM {} WHERE {}='No' AND Box='No' AND Manual='No'".format(self._table, item))
         while query.next():
             rows.append(query.value(0))
 
         for row in rows:
-            query.exec_("DELETE FROM {} WHERE ID={}".format(self.table, row))
+            query.exec_("DELETE FROM {} WHERE ID={}".format(self._table, row))
         self.model.select()
 
     def filterTable(self, filterText: str, selections: dict):
@@ -229,12 +229,12 @@ class Table(QTableView):
                 "OR Region LIKE '%{}%' " \
                 "OR Comment LIKE '%{}%' " \
                 "OR Year LIKE '%{}%' ".format(filterText, filterText, filterText, filterText, filterText)
-            if self.table == "games":
+            if self._table == "games":
                 f += "OR Code LIKE '%{}%' ".format(filterText)
-            elif self.table == "consoles":
+            elif self._table == "consoles":
                 f += "OR Country LIKE '%{}%' " \
                      "OR `Serial number` LIKE '%{}%' ".format(filterText, filterText)
-            elif self.table == "accessories":
+            elif self._table == "accessories":
                 f += "OR Country LIKE '%{}%' ".format(filterText)
 
         f += "ORDER BY Platform ASC, Name ASC"
@@ -250,13 +250,13 @@ class Table(QTableView):
         """
 
         count = 0
-        item = "Game" if self.table == "games" else\
-            "Console" if self.table == "consoles" else "Accessory"
+        item = "Game" if self._table == "games" else\
+            "Console" if self._table == "consoles" else "Accessory"
 
         query = QSqlQuery()
         query.exec_("SELECT Name FROM {} WHERE Platform='{}'"
                     "AND ({}='Yes' OR Box='Yes' OR Manual='Yes')".format(
-            self.table, platform, item))
+            self._table, platform, item))
         while query.next():
             count += 1
 
@@ -270,12 +270,12 @@ class Table(QTableView):
         """
 
         count = 0
-        item = "Game" if self.table == "games" else\
-            "Console" if self.table == "consoles" else "Accessory"
+        item = "Game" if self._table == "games" else\
+            "Console" if self._table == "consoles" else "Accessory"
 
         query = QSqlQuery()
         query.exec_("SELECT Name FROM {} WHERE {}='Yes' OR Box='Yes' OR Manual='Yes'".format(
-            self.table, item))
+            self._table, item))
         while query.next():
             count += 1
 
@@ -289,12 +289,12 @@ class Table(QTableView):
         """
 
         items = []
-        item = "Game" if self.table == "games" else\
-            "Console" if self.table == "consoles" else "Accessory"
+        item = "Game" if self._table == "games" else\
+            "Console" if self._table == "consoles" else "Accessory"
 
         query = QSqlQuery()
         query.exec_("SELECT Platform, Name, Region FROM {} WHERE {}='Yes' OR Box='Yes' OR Manual='Yes'".format(
-            self.table, item))
+            self._table, item))
         while query.next():
             items.append(dict(Platform=query.value(0), Name=query.value(1), Region=query.value(2)))
 
@@ -309,7 +309,7 @@ class Table(QTableView):
         platforms = set()
 
         query = QSqlQuery()
-        query.exec_("SELECT Platform FROM {}".format(self.table))
+        query.exec_("SELECT Platform FROM {}".format(self._table))
         while query.next():
             platforms.add(query.value(0))
 
@@ -328,7 +328,7 @@ class Table(QTableView):
         return super().rowCountChanged(oldCount, newCount)
 
     def rowInfo(self, row: int):
-        table = self.table
+        table = self._table
         query = QSqlQuery()
         query.exec_("SELECT * FROM {} WHERE ID={}".format(table, row))
         query.first()
@@ -337,7 +337,7 @@ class Table(QTableView):
             print(query.value(i))
 
     def setHideNotOwned(self, on: bool):
-        self.hideNotOwned = on
+        self._hideNotOwned = on
 
         """if self.hideNotOwned:
             names = []
@@ -380,95 +380,95 @@ class Randomizer(QWidget):
     def __init__(self, gamesData: dict):
         super(Randomizer, self).__init__()
 
-        self.gamesData = gamesData
+        self._gamesData = gamesData
 
-        self.gameCount = 0
+        self._gameCount = 0
 
-        self.consoleList = QListWidget()
-        self.consoleItems = set()
+        self._consoleList = QListWidget()
+        self._consoleItems = set()
         for row in gamesData:
-            self.consoleItems.add(row["Platform"])
-        self.consoleList.addItems(sorted(self.consoleItems))
-        self.consoleList.setSelectionMode(QAbstractItemView.MultiSelection)
-        self.consoleList.setMaximumWidth(350)
-        self.consoleList.itemClicked.connect(self._updateGameCount)
+            self._consoleItems.add(row["Platform"])
+        self._consoleList.addItems(sorted(self._consoleItems))
+        self._consoleList.setSelectionMode(QAbstractItemView.MultiSelection)
+        self._consoleList.setMaximumWidth(350)
+        self._consoleList.itemClicked.connect(self._updateGameCount)
 
-        self.btnAll = QPushButton()
-        self.btnAll.setText("Select All")
-        self.btnAll.setMaximumSize(self.btnAll.sizeHint())
-        self.btnAll.clicked.connect(self.consoleList.selectAll)
-        self.btnAll.clicked.connect(self._updateGameCount)
-        self.btnNone = QPushButton()
-        self.btnNone.setText("Select None")
-        self.btnNone.setMaximumSize(self.btnNone.sizeHint())
-        self.btnNone.clicked.connect(self.consoleList.clearSelection)
-        self.btnNone.clicked.connect(self._updateGameCount)
-        self.btnRnd = QPushButton()
-        self.btnRnd.setText("Randomize")
-        self.btnRnd.setMaximumSize(self.btnRnd.sizeHint())
-        self.btnRnd.clicked.connect(self._randomize)
+        self._btnAll = QPushButton()
+        self._btnAll.setText("Select All")
+        self._btnAll.setMaximumSize(self._btnAll.sizeHint())
+        self._btnAll.clicked.connect(self._consoleList.selectAll)
+        self._btnAll.clicked.connect(self._updateGameCount)
+        self._btnNone = QPushButton()
+        self._btnNone.setText("Select None")
+        self._btnNone.setMaximumSize(self._btnNone.sizeHint())
+        self._btnNone.clicked.connect(self._consoleList.clearSelection)
+        self._btnNone.clicked.connect(self._updateGameCount)
+        self._btnRnd = QPushButton()
+        self._btnRnd.setText("Randomize")
+        self._btnRnd.setMaximumSize(self._btnRnd.sizeHint())
+        self._btnRnd.clicked.connect(self._randomize)
 
-        self.lblFont = QFont()
-        self.lblFont.setPointSize(14)
-        self.lblFont.setBold(True)
-        self.lblPlay = QLabel()
-        self.lblPlay.setAlignment(Qt.AlignCenter)
-        self.lblPlay.setFont(self.lblFont)
-        self.lblTitle = QLabel()
-        self.lblTitle.setAlignment(Qt.AlignCenter)
-        self.lblTitle.setFont(self.lblFont)
-        self.lblTitle.setWordWrap(True)
+        self._lblFont = QFont()
+        self._lblFont.setPointSize(14)
+        self._lblFont.setBold(True)
+        self._lblPlay = QLabel()
+        self._lblPlay.setAlignment(Qt.AlignCenter)
+        self._lblPlay.setFont(self._lblFont)
+        self._lblTitle = QLabel()
+        self._lblTitle.setAlignment(Qt.AlignCenter)
+        self._lblTitle.setFont(self._lblFont)
+        self._lblTitle.setWordWrap(True)
 
-        self.Grid = QGridLayout()
-        self.Grid.setMargin(0)
-        self.Grid.setSpacing(0)
-        self.HBox = QHBoxLayout()
-        self.VBox = QVBoxLayout()
-        self.HBox.addWidget(self.btnAll, 0)
-        self.HBox.addWidget(self.btnNone, 0)
-        self.HBox.addWidget(self.btnRnd, 0)
-        self.VBox.addStretch(3)
-        self.VBox.addWidget(self.lblPlay, 1)
-        self.VBox.addWidget(self.lblTitle, 1)
-        self.VBox.addStretch(3)
-        self.Grid.addWidget(self.consoleList, 0, 0)
-        self.Grid.addLayout(self.HBox, 1, 0)
-        self.Grid.addLayout(self.VBox, 0, 1, 1, -1)
+        self._grid = QGridLayout()
+        self._grid.setMargin(0)
+        self._grid.setSpacing(0)
+        self._hbox = QHBoxLayout()
+        self._vbox = QVBoxLayout()
+        self._hbox.addWidget(self._btnAll, 0)
+        self._hbox.addWidget(self._btnNone, 0)
+        self._hbox.addWidget(self._btnRnd, 0)
+        self._vbox.addStretch(3)
+        self._vbox.addWidget(self._lblPlay, 1)
+        self._vbox.addWidget(self._lblTitle, 1)
+        self._vbox.addStretch(3)
+        self._grid.addWidget(self._consoleList, 0, 0)
+        self._grid.addLayout(self._hbox, 1, 0)
+        self._grid.addLayout(self._vbox, 0, 1, 1, -1)
 
         self.layout = QWidget()
-        self.layout.setLayout(self.Grid)
+        self.layout.setLayout(self._grid)
 
     def _getSelectedPlatforms(self) -> list:
-        return [x.text() for x in self.consoleList.selectedItems()]
+        return [x.text() for x in self._consoleList.selectedItems()]
 
     def _randomize(self):
         platforms = self._getSelectedPlatforms()
         games = []
 
         if len(platforms) > 0:
-            for row in self.gamesData:
+            for row in self._gamesData:
                 if row["Platform"] in platforms:
                     games.append(row)
 
             choice = randint(0, len(games) - 1)
-            self.lblPlay.setText("You will play:")
-            self.lblTitle.setText("{}".format(games[choice]["Name"]) if len(platforms) == 1 else
+            self._lblPlay.setText("You will play:")
+            self._lblTitle.setText("{}".format(games[choice]["Name"]) if len(platforms) == 1 else
                                   "{} [{}]".format(games[choice]["Name"], games[choice]["Platform"]))
         else:
-            self.lblPlay.setText("")
-            self.lblTitle.setText("Select at least one console...")
+            self._lblPlay.setText("")
+            self._lblTitle.setText("Select at least one console...")
 
     def _updateGameCount(self):
         platforms = self._getSelectedPlatforms()
-        self.gameCount = 0
+        self._gameCount = 0
 
         if len(platforms) > 0:
-            for row in self.gamesData:
+            for row in self._gamesData:
                 if row["Platform"] in platforms:
-                    self.gameCount += 1
+                    self._gameCount += 1
 
     def getGameCount(self) -> int:
-        return self.gameCount
+        return self._gameCount
 
 
 """class Table(QTableWidget):

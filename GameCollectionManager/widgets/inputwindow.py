@@ -16,123 +16,123 @@ class InputWindow(QDialog):
 
         self.setContentsMargins(5, 5, 5, 5)
 
-        self.dataTypes = ["Game", "Console", "Accessory"]
-        self.dataTypeLabel = QLabel("Type\t ")
-        self.dataType = QComboBox()
-        self.dataType.addItems(self.dataTypes)
-        self.dataType.currentIndexChanged.connect(self._changeWidgets)
+        self._dataTypes = ["Game", "Console", "Accessory"]
+        self._dataTypeLabel = QLabel("Type\t ")
+        self._dataType = QComboBox()
+        self._dataType.addItems(self._dataTypes)
+        self._dataType.currentIndexChanged.connect(self._changeWidgets)
 
-        self.nameLabel = QLabel("Name\t ")
-        self.name = QLineEdit()
+        self._nameLabel = QLabel("Name\t ")
+        self._name = QLineEdit()
 
-        self.platformLabel = QLabel("Platform\t ")
-        self.platform = QComboBox()
-        self.platform.addItems(platforms if len(platforms) > 0 else " ")
-        self.platform.addItem("(New platform)")
-        self.platform.currentIndexChanged.connect(self._addPlatform)
+        self._platformLabel = QLabel("Platform\t ")
+        self._platform = QComboBox()
+        self._platform.addItems(platforms if len(platforms) > 0 else " ")
+        self._platform.addItem("(New platform)")
+        self._platform.currentIndexChanged.connect(self._addPlatform)
 
-        self.regionLabel = QLabel("Region\t ")
-        self.region = QLineEdit()
+        self._regionLabel = QLabel("Region\t ")
+        self._region = QLineEdit()
 
-        self.countryLabel = QLabel("Country\t ")
-        self.country = QLineEdit()
-        self.country.setEnabled(False)
+        self._countryLabel = QLabel("Country\t ")
+        self._country = QLineEdit()
+        self._country.setEnabled(False)
 
-        self.codeLabel = QLabel("Code\t ")
-        self.code = QLineEdit()
+        self._codeLabel = QLabel("Code\t ")
+        self._code = QLineEdit()
 
-        self.itemLabel = QLabel("Game")
-        self.item = QCheckBox()
+        self._itemLabel = QLabel("Game")
+        self._item = QCheckBox()
 
-        self.boxLabel = QLabel("Box")
-        self.box = QCheckBox()
+        self._boxLabel = QLabel("Box")
+        self._box = QCheckBox()
 
-        self.manualLabel = QLabel("Manual")
-        self.manual = QCheckBox()
+        self._manualLabel = QLabel("Manual")
+        self._manual = QCheckBox()
 
-        self.yearLabel = QLabel("Year\t ")
-        self.year = QLineEdit()
+        self._yearLabel = QLabel("Year\t ")
+        self._year = QLineEdit()
 
-        self.commentLabel = QLabel("Comment")
-        self.comment = QLineEdit()
+        self._commentLabel = QLabel("Comment")
+        self._comment = QLineEdit()
 
-        self.okButton = QPushButton()
-        self.okButton.setText("OK")
-        self.okButton.setMaximumSize(self.okButton.sizeHint())
-        self.okButton.clicked.connect(self.accept)
-        self.cnclButton = QPushButton()
-        self.cnclButton.setText("Cancel")
-        self.cnclButton.setMaximumSize(self.cnclButton.sizeHint())
-        self.cnclButton.clicked.connect(self.reject)
+        self._okButton = QPushButton()
+        self._okButton.setText("OK")
+        self._okButton.setMaximumSize(self._okButton.sizeHint())
+        self._okButton.clicked.connect(self.accept)
+        self._cnclButton = QPushButton()
+        self._cnclButton.setText("Cancel")
+        self._cnclButton.setMaximumSize(self._cnclButton.sizeHint())
+        self._cnclButton.clicked.connect(self.reject)
 
-        self.vbox = QVBoxLayout()
-        self.vbox.addStretch()
-        self.hboxType = QHBoxLayout()
-        self.hboxType.addStretch()
-        self.hboxName = QHBoxLayout()
-        self.hboxName.addStretch()
-        self.hboxPlatform = QHBoxLayout()
-        self.hboxRegion = QHBoxLayout()
-        self.hboxRegion.addStretch()
-        self.hboxCode = QHBoxLayout()
-        self.hboxCode.addStretch()
-        self.hboxCountry = QHBoxLayout()
-        self.hboxCountry.addStretch()
-        self.hboxBoxMan = QHBoxLayout()
-        self.hboxYear = QHBoxLayout()
-        self.hboxComment = QHBoxLayout()
-        self.hboxComment.addStretch()
-        self.hboxBtn = QHBoxLayout()
-        self.hboxBtn.addStretch()
+        self._vbox = QVBoxLayout()
+        self._vbox.addStretch()
+        self._hboxType = QHBoxLayout()
+        self._hboxType.addStretch()
+        self._hboxName = QHBoxLayout()
+        self._hboxName.addStretch()
+        self._hboxPlatform = QHBoxLayout()
+        self._hboxRegion = QHBoxLayout()
+        self._hboxRegion.addStretch()
+        self._hboxCode = QHBoxLayout()
+        self._hboxCode.addStretch()
+        self._hboxCountry = QHBoxLayout()
+        self._hboxCountry.addStretch()
+        self._hboxBoxMan = QHBoxLayout()
+        self._hboxYear = QHBoxLayout()
+        self._hboxComment = QHBoxLayout()
+        self._hboxComment.addStretch()
+        self._hboxBtn = QHBoxLayout()
+        self._hboxBtn.addStretch()
 
-        self.hboxType.addWidget(self.dataTypeLabel, 0)
-        self.hboxType.addWidget(self.dataType, 1)
-        self.hboxName.addWidget(self.nameLabel, 0)
-        self.hboxName.addWidget(self.name, 1)
-        self.hboxPlatform.addWidget(self.platformLabel, 0)
-        self.hboxPlatform.addWidget(self.platform, 1)
-        self.hboxRegion.addWidget(self.regionLabel, 0)
-        self.hboxRegion.addWidget(self.region, 1)
-        self.hboxCode.addWidget(self.codeLabel, 0)
-        self.hboxCode.addWidget(self.code, 1)
-        self.hboxCountry.addWidget(self.countryLabel, 0)
-        self.hboxCountry.addWidget(self.country, 1)
-        self.hboxYear.addWidget(self.yearLabel, 0)
-        self.hboxYear.addWidget(self.year, 1)
-        self.hboxComment.addWidget(self.commentLabel, 0)
-        self.hboxComment.addWidget(self.comment, 1)
-        self.hboxBoxMan.addStretch(10)
-        self.hboxBoxMan.addWidget(self.itemLabel, 0)
-        self.hboxBoxMan.addWidget(self.item, 1)
-        self.hboxBoxMan.addStretch(5)
-        self.hboxBoxMan.addWidget(self.boxLabel, 2)
-        self.hboxBoxMan.addWidget(self.box, 3)
-        self.hboxBoxMan.addStretch(5)
-        self.hboxBoxMan.addWidget(self.manualLabel, 4)
-        self.hboxBoxMan.addWidget(self.manual, 5)
-        self.hboxBoxMan.addStretch(10)
-        self.hboxBtn.addWidget(self.okButton, 0)
-        self.hboxBtn.addWidget(self.cnclButton, 1)
+        self._hboxType.addWidget(self._dataTypeLabel, 0)
+        self._hboxType.addWidget(self._dataType, 1)
+        self._hboxName.addWidget(self._nameLabel, 0)
+        self._hboxName.addWidget(self._name, 1)
+        self._hboxPlatform.addWidget(self._platformLabel, 0)
+        self._hboxPlatform.addWidget(self._platform, 1)
+        self._hboxRegion.addWidget(self._regionLabel, 0)
+        self._hboxRegion.addWidget(self._region, 1)
+        self._hboxCode.addWidget(self._codeLabel, 0)
+        self._hboxCode.addWidget(self._code, 1)
+        self._hboxCountry.addWidget(self._countryLabel, 0)
+        self._hboxCountry.addWidget(self._country, 1)
+        self._hboxYear.addWidget(self._yearLabel, 0)
+        self._hboxYear.addWidget(self._year, 1)
+        self._hboxComment.addWidget(self._commentLabel, 0)
+        self._hboxComment.addWidget(self._comment, 1)
+        self._hboxBoxMan.addStretch(10)
+        self._hboxBoxMan.addWidget(self._itemLabel, 0)
+        self._hboxBoxMan.addWidget(self._item, 1)
+        self._hboxBoxMan.addStretch(5)
+        self._hboxBoxMan.addWidget(self._boxLabel, 2)
+        self._hboxBoxMan.addWidget(self._box, 3)
+        self._hboxBoxMan.addStretch(5)
+        self._hboxBoxMan.addWidget(self._manualLabel, 4)
+        self._hboxBoxMan.addWidget(self._manual, 5)
+        self._hboxBoxMan.addStretch(10)
+        self._hboxBtn.addWidget(self._okButton, 0)
+        self._hboxBtn.addWidget(self._cnclButton, 1)
 
-        self.vbox.addLayout(self.hboxType, 0)
-        self.vbox.addLayout(self.hboxName, 1)
-        self.vbox.addLayout(self.hboxPlatform, 2)
-        self.vbox.addLayout(self.hboxRegion, 3)
-        self.vbox.addLayout(self.hboxCode, 4)
-        self.vbox.addLayout(self.hboxCountry, 5)
-        self.vbox.addLayout(self.hboxYear, 6)
-        self.vbox.addLayout(self.hboxComment, 7)
-        self.vbox.addLayout(self.hboxBoxMan, 8)
-        self.vbox.addLayout(self.hboxBtn, 9)
+        self._vbox.addLayout(self._hboxType, 0)
+        self._vbox.addLayout(self._hboxName, 1)
+        self._vbox.addLayout(self._hboxPlatform, 2)
+        self._vbox.addLayout(self._hboxRegion, 3)
+        self._vbox.addLayout(self._hboxCode, 4)
+        self._vbox.addLayout(self._hboxCountry, 5)
+        self._vbox.addLayout(self._hboxYear, 6)
+        self._vbox.addLayout(self._hboxComment, 7)
+        self._vbox.addLayout(self._hboxBoxMan, 8)
+        self._vbox.addLayout(self._hboxBtn, 9)
 
-        self.setLayout(self.vbox)
+        self.setLayout(self._vbox)
 
         self.setWindowTitle("Add to collection")
         self.setFixedSize(QSize(500, 280))
         self._center()
 
     def _addPlatform(self):
-        if self.platform.currentText() == "(New platform)":
+        if self._platform.currentText() == "(New platform)":
             while True:
                 platform, ok = QInputDialog.getText(self, "Add platform",
                                                 "Platform name:")
@@ -145,10 +145,10 @@ class InputWindow(QDialog):
                         msgBox.setInformativeText("Can't add empty string or whitespace.")
                         msgBox.exec_()
                     else:
-                        lastIndex = self.platform.count()
-                        self.platform.addItem(platform)
-                        self.platform.setCurrentIndex(lastIndex)
-                        self.platform.removeItem(self.platform.findText(" "))  # Remove the temp empty item if any
+                        lastIndex = self._platform.count()
+                        self._platform.addItem(platform)
+                        self._platform.setCurrentIndex(lastIndex)
+                        self._platform.removeItem(self._platform.findText(" "))  # Remove the temp empty item if any
                         break
                 else:
                     break
@@ -165,56 +165,56 @@ class InputWindow(QDialog):
     def _changeWidgets(self):
         """Changes the label widgets based on what type of data is being entered"""
 
-        if self.dataType.currentIndex() == 0:
-            self.code.setEnabled(True)
-            self.country.setEnabled(False)
-            self.codeLabel.setText("Code\t ")
-            self.itemLabel.setText("Game")
-        elif self.dataType.currentIndex() == 1:
-            self.code.setEnabled(True)
-            self.country.setEnabled(True)
-            self.codeLabel.setText("Serial No\t ")
-            self.itemLabel.setText("Console")
-        elif self.dataType.currentIndex() == 2:
-            self.country.setEnabled(True)
-            self.code.setEnabled(False)
-            self.itemLabel.setText("Accessory")
+        if self._dataType.currentIndex() == 0:
+            self._code.setEnabled(True)
+            self._country.setEnabled(False)
+            self._codeLabel.setText("Code\t ")
+            self._itemLabel.setText("Game")
+        elif self._dataType.currentIndex() == 1:
+            self._code.setEnabled(True)
+            self._country.setEnabled(True)
+            self._codeLabel.setText("Serial No\t ")
+            self._itemLabel.setText("Console")
+        elif self._dataType.currentIndex() == 2:
+            self._country.setEnabled(True)
+            self._code.setEnabled(False)
+            self._itemLabel.setText("Accessory")
 
     def returnData(self):
         data = None
 
-        if self.dataType.currentIndex() == 0:
-            data = OrderedDict([('Platform', '{}'.format(self.platform.currentText())),
-                                ('Name', '{}'.format(self.name.text())),
-                                ('Region', '{}'.format(self.region.text())),
-                                ('Code', '{}'.format(self.code.text())),
-                                ('Game', '{}'.format('Yes' if self.item.isChecked() else 'No')),
-                                ('Box', '{}'.format('Yes' if self.box.isChecked() else 'No')),
-                                ('Manual', '{}'.format('Yes' if self.manual.isChecked() else 'No')),
-                                ('Year', '{}'.format(self.year.text())),
-                                ('Comment', '{}'.format(self.comment.text()))])
+        if self._dataType.currentIndex() == 0:
+            data = OrderedDict([('Platform', '{}'.format(self._platform.currentText())),
+                                ('Name', '{}'.format(self._name.text())),
+                                ('Region', '{}'.format(self._region.text())),
+                                ('Code', '{}'.format(self._code.text())),
+                                ('Game', '{}'.format('Yes' if self._item.isChecked() else 'No')),
+                                ('Box', '{}'.format('Yes' if self._box.isChecked() else 'No')),
+                                ('Manual', '{}'.format('Yes' if self._manual.isChecked() else 'No')),
+                                ('Year', '{}'.format(self._year.text())),
+                                ('Comment', '{}'.format(self._comment.text()))])
 
-        elif self.dataType.currentIndex() == 1:
-            data = OrderedDict([('Platform', '{}'.format(self.platform.currentText())),
-                                ('Name', '{}'.format(self.name.text())),
-                                ('Region', '{}'.format(self.region.text())),
-                                ('Country', '{}'.format(self.country.text())),
-                                ('Serial number', '{}'.format(self.code.text())),
-                                ('Console', '{}'.format('Yes' if self.item.isChecked() else 'No')),
-                                ('Box', '{}'.format('Yes' if self.box.isChecked() else 'No')),
-                                ('Manual', '{}'.format('Yes' if self.manual.isChecked() else 'No')),
-                                ('Year', '{}'.format(self.year.text())),
-                                ('Comment', '{}'.format(self.comment.text()))])
+        elif self._dataType.currentIndex() == 1:
+            data = OrderedDict([('Platform', '{}'.format(self._platform.currentText())),
+                                ('Name', '{}'.format(self._name.text())),
+                                ('Region', '{}'.format(self._region.text())),
+                                ('Country', '{}'.format(self._country.text())),
+                                ('Serial number', '{}'.format(self._code.text())),
+                                ('Console', '{}'.format('Yes' if self._item.isChecked() else 'No')),
+                                ('Box', '{}'.format('Yes' if self._box.isChecked() else 'No')),
+                                ('Manual', '{}'.format('Yes' if self._manual.isChecked() else 'No')),
+                                ('Year', '{}'.format(self._year.text())),
+                                ('Comment', '{}'.format(self._comment.text()))])
 
-        elif self.dataType.currentIndex() == 2:
-            data = OrderedDict([('Platform', '{}'.format(self.platform.currentText())),
-                                ('Name', '{}'.format(self.name.text())),
-                                ('Region', '{}'.format(self.region.text())),
-                                ('Country', '{}'.format(self.country.text())),
-                                ('Accessory', '{}'.format('Yes' if self.item.isChecked() else 'No')),
-                                ('Box', '{}'.format('Yes' if self.box.isChecked() else 'No')),
-                                ('Manual', '{}'.format('Yes' if self.manual.isChecked() else 'No')),
-                                ('Year', '{}'.format(self.year.text())),
-                                ('Comment', '{}'.format(self.comment.text()))])
+        elif self._dataType.currentIndex() == 2:
+            data = OrderedDict([('Platform', '{}'.format(self._platform.currentText())),
+                                ('Name', '{}'.format(self._name.text())),
+                                ('Region', '{}'.format(self._region.text())),
+                                ('Country', '{}'.format(self._country.text())),
+                                ('Accessory', '{}'.format('Yes' if self._item.isChecked() else 'No')),
+                                ('Box', '{}'.format('Yes' if self._box.isChecked() else 'No')),
+                                ('Manual', '{}'.format('Yes' if self._manual.isChecked() else 'No')),
+                                ('Year', '{}'.format(self._year.text())),
+                                ('Comment', '{}'.format(self._comment.text()))])
 
         return data

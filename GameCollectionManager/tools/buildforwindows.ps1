@@ -11,6 +11,7 @@ if ($SourceFolder | Test-Path) {
     "Cleaning $SourceFolder"
     Remove-Item $SourceFolder\* -recurse
 } else {
+    "Creating $SourceFolder"
     New-Item -ItemType directory -Path $SourceFolder | Out-Null
 }
 if ($BuildDir | Test-Path) {

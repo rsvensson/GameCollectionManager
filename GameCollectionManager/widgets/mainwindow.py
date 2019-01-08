@@ -41,9 +41,9 @@ class MainWindow(QMainWindow):
         self.overview = Overview(self.tableViewList)
 
         self.randomizer = Randomizer(self.gamesTableView.ownedItems())
-        self.randomizer.consoleList.itemClicked.connect(self.updateStatusbar)
-        self.randomizer.btnAll.clicked.connect(self.updateStatusbar)
-        self.randomizer.btnNone.clicked.connect(self.updateStatusbar)
+        self.randomizer._consoleList.itemClicked.connect(self.updateStatusbar)
+        self.randomizer._btnAll.clicked.connect(self.updateStatusbar)
+        self.randomizer._btnNone.clicked.connect(self.updateStatusbar)
 
         self.allPlatforms = set()
         self.allRegions = set()
@@ -334,7 +334,7 @@ class MainWindow(QMainWindow):
 
     def toggleOwnedFilter(self):
         for table in self.tableViewList:
-            table.setHideNotOwned(False) if table.hideNotOwned\
+            table.setHideNotOwned(False) if table._hideNotOwned\
                 else table.setHideNotOwned(True)
         currentTab = self.tab.currentIndex()
         if 0 < currentTab < 4:
@@ -350,7 +350,7 @@ class MainWindow(QMainWindow):
             self.statusBar().showMessage("")
         elif 0 < currentTab < 4:
             numItems = self.tableViewList[currentTab-1].ownedCount()
-            if self.tableViewList[currentTab-1].hideNotOwned:
+            if self.tableViewList[currentTab-1]._hideNotOwned:
                 self.statusBar().showMessage("{} {} in collection.".format(numItems, itemType[currentTab-1]))
             else:
                 self.statusBar().showMessage("Showing {} {} ({} {} in collection).".format(
@@ -359,7 +359,7 @@ class MainWindow(QMainWindow):
                     numItems,
                     itemType[currentTab-1]))
         elif currentTab == 4:
-            platforms = self.randomizer.consoleList.selectedItems()
+            platforms = self.randomizer._consoleList.selectedItems()
             self.statusBar().showMessage("Select platforms to randomize from.")
             if len(platforms) > 0:
                 self.statusBar().showMessage("Selecting from {} games.".format(self.randomizer.getGameCount()))
