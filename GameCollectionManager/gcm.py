@@ -76,6 +76,7 @@ def main():
     gcmDir = getScriptDir()
     dbPath = gcmDir+"/data/db/collection.db"
 
+    # Make sure we have everything
     if not os.path.exists(gcmDir+"/data"):
         os.makedirs(gcmDir+"/data/db")
         os.mkdir(gcmDir+"/data/vgdb")

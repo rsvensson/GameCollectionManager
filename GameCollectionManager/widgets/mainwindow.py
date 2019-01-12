@@ -338,8 +338,7 @@ class MainWindow(QMainWindow):
                 else table.setHideNotOwned(True)
         currentTab = self.tab.currentIndex()
         if 0 < currentTab < 4:
-            self.tableViewList[currentTab-1].filterTable(self.searchBox.text())
-            self.tableViewList[currentTab-1].resizeRowsToContents()
+            self.tableViewList[currentTab-1].filterTable(self.searchBox.text(), self.advSearch.getSelections())
         self.updateStatusbar()
 
     def updateStatusbar(self):

@@ -25,6 +25,9 @@ class Table(QTableView):
         self._db = db
         self._hideNotOwned = True
         self._table = tableName
+        self._itemType = "Game" if self._table == "games"\
+            else "Consoles" if self._table == "consoles"\
+            else "Accessory"
 
         self.model = TableModel(self, self._db)
         self.model.setTable(tableName)
@@ -187,11 +190,8 @@ class Table(QTableView):
 
     def deleteNotOwned(self):
         rows = []
-        item = "Game" if self._table == "games" else\
-            "Console" if self._table == "consoles" else\
-            "Accessory"
         query = QSqlQuery()
-        query.exec_("SELECT ID FROM {} WHERE {}='No' AND Box='No' AND Manual='No'".format(self._table, item))
+        query.exec_("SELECT ID FROM {} WHERE {}='No' AND Box='No' AND Manual='No'".format(self._table, self._itemType))
         while query.next():
             rows.append(query.value(0))
 
@@ -208,7 +208,11 @@ class Table(QTableView):
 
         # Reset filtering to default if no search filters
         if filterText == "" and len(selections) == 0:
-            self.model.setFilter("1=1 ORDER BY Platform ASC, Name ASC")
+            if self._hideNotOwned:
+                self.model.setFilter("{}='Yes' OR Box='Yes' OR Manual='Yes' "
+                                     "ORDER BY Platform ASC, Name ASC".format(self._itemType))
+            else:
+                self.model.setFilter("1=1 ORDER BY Platform ASC, Name ASC")
             self.resizeRowsToContents()
             return
 
@@ -217,6 +221,8 @@ class Table(QTableView):
             f = "(Name LIKE '%{}%' " \
                 "OR Year LIKE '%{}%' " \
                 "OR Comment LIKE '%{}%') ".format(filterText, filterText, filterText)
+            if self._hideNotOwned:
+                f += "AND ({}='Yes' OR Box='Yes' OR Manual='Yes') ".format(self._itemType)
             for selection in selections:
                 items = list(selections[selection])
                 f += "AND ({} = '{}' ".format(selection, items[0])
@@ -237,6 +243,9 @@ class Table(QTableView):
                      "OR `Serial number` LIKE '%{}%' ".format(filterText, filterText)
             elif self._table == "accessories":
                 f += "OR Country LIKE '%{}%' ".format(filterText)
+            # TODO: Following doesn't actually hide not owned items
+            if self._hideNotOwned:
+                f += "AND ({}='Yes' OR Box='Yes' OR Manual='Yes') ".format(self._itemType)
 
         f += "ORDER BY Platform ASC, Name ASC"
 
@@ -251,13 +260,11 @@ class Table(QTableView):
         """
 
         count = 0
-        item = "Game" if self._table == "games" else\
-            "Console" if self._table == "consoles" else "Accessory"
 
         query = QSqlQuery()
         query.exec_("SELECT Name FROM {} WHERE Platform='{}'"
                     "AND ({}='Yes' OR Box='Yes' OR Manual='Yes')".format(
-            self._table, platform, item))
+            self._table, platform, self._itemType))
         while query.next():
             count += 1
 
@@ -271,12 +278,10 @@ class Table(QTableView):
         """
 
         count = 0
-        item = "Game" if self._table == "games" else\
-            "Console" if self._table == "consoles" else "Accessory"
 
         query = QSqlQuery()
         query.exec_("SELECT Name FROM {} WHERE {}='Yes' OR Box='Yes' OR Manual='Yes'".format(
-            self._table, item))
+            self._table, self._itemType))
         while query.next():
             count += 1
 
@@ -290,12 +295,10 @@ class Table(QTableView):
         """
 
         items = []
-        item = "Game" if self._table == "games" else\
-            "Console" if self._table == "consoles" else "Accessory"
 
         query = QSqlQuery()
         query.exec_("SELECT Platform, Name, Region FROM {} WHERE {}='Yes' OR Box='Yes' OR Manual='Yes'".format(
-            self._table, item))
+            self._table, self._itemType))
         while query.next():
             items.append(dict(Platform=query.value(0), Name=query.value(1), Region=query.value(2)))
 
