@@ -35,6 +35,7 @@ class InputWindow(QDialog):
         self._region = QLineEdit()
 
         self._countryLabel = QLabel("Country\t ")
+        self._countryLabel.setEnabled(False)
         self._country = QLineEdit()
         self._country.setEnabled(False)
 
@@ -166,17 +167,23 @@ class InputWindow(QDialog):
         """Changes the label widgets based on what type of data is being entered"""
 
         if self._dataType.currentIndex() == 0:
+            self._codeLabel.setEnabled(True)
             self._code.setEnabled(True)
+            self._countryLabel.setEnabled(False)
             self._country.setEnabled(False)
             self._codeLabel.setText("Code\t ")
             self._itemLabel.setText("Game")
         elif self._dataType.currentIndex() == 1:
+            self._codeLabel.setEnabled(True)
             self._code.setEnabled(True)
+            self._countryLabel.setEnabled(True)
             self._country.setEnabled(True)
             self._codeLabel.setText("Serial No\t ")
             self._itemLabel.setText("Console")
         elif self._dataType.currentIndex() == 2:
+            self._countryLabel.setEnabled(True)
             self._country.setEnabled(True)
+            self._codeLabel.setEnabled(False)
             self._code.setEnabled(False)
             self._itemLabel.setText("Accessory")
 

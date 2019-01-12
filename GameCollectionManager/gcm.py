@@ -2,6 +2,9 @@
 import os
 import sys
 import platform
+
+from PySide2.QtCore import Qt
+from PySide2.QtGui import QPalette, QColor
 from PySide2.QtWidgets import QApplication
 from widgets.mainwindow import MainWindow
 
@@ -9,11 +12,8 @@ from widgets.mainwindow import MainWindow
 def createWindow(dbPath):
     #OS = detectPlatform()
     app = QApplication(sys.argv)
+    setPalette(app)
     win = MainWindow(dbPath)
-
-    #if OS["system"] == "Windows":
-    #    import qdarkstyle
-    #    app.setStyleSheet(qdarkstyle.load_stylesheet(True))
 
     win.show()
     sys.exit(app.exec_())
@@ -46,6 +46,30 @@ def getScriptDir(followSymlinks=True):
     if followSymlinks:
         path = os.path.realpath(path)
     return os.path.dirname(path)
+
+
+def setPalette(app):
+    darkPalette = QPalette()
+    darkPalette.setColor(QPalette.Window, QColor(53, 53, 53))
+    darkPalette.setColor(QPalette.WindowText, Qt.white)
+    darkPalette.setColor(QPalette.Base, QColor(25, 25, 25))
+    darkPalette.setColor(QPalette.AlternateBase, QColor(53, 53, 53))
+    darkPalette.setColor(QPalette.ToolTipBase, Qt.white)
+    darkPalette.setColor(QPalette.ToolTipText, Qt.white)
+    darkPalette.setColor(QPalette.Text, Qt.white)
+    darkPalette.setColor(QPalette.Button, QColor(53, 53, 53))
+    darkPalette.setColor(QPalette.ButtonText, Qt.white)
+    darkPalette.setColor(QPalette.BrightText, Qt.red)
+    darkPalette.setColor(QPalette.Link, QColor(42, 130, 218))
+    darkPalette.setColor(QPalette.Highlight, QColor(42, 130, 218))
+    darkPalette.setColor(QPalette.HighlightedText, Qt.black)
+    darkPalette.setColor(QPalette.Disabled, QPalette.WindowText, Qt.darkGray)
+    darkPalette.setColor(QPalette.Disabled, QPalette.Text, Qt.darkGray)
+    darkPalette.setColor(QPalette.Disabled, QPalette.ButtonText, Qt.darkGray)
+
+    app.setStyle("Fusion")
+    app.setPalette(darkPalette)
+    app.setStyleSheet("QToolTip { color: #ffffff; background-color: #2a82da; border: 1px solid white; }")
 
 
 def main():

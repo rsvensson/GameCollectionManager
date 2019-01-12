@@ -87,7 +87,8 @@ class Table(QTableView):
 
         self.verticalHeader().setVisible(False)  # Don't show row headers
         self.setColumnHidden(0, True)  # Don't show ID field
-        self.setAlternatingRowColors(True)
+        self.setAlternatingRowColors(False)
+        self.setShowGrid(True)
         self.resizeRowsToContents()
 
     def addData(self, newData):
