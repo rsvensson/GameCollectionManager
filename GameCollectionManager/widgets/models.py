@@ -54,7 +54,6 @@ class TableModel(QSqlTableModel):
     def flags(self, index):
         if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
                                                               "Box", "Manual"):
-            #return Qt.ItemIsUserCheckable | Qt.ItemIsSelectable | Qt.ItemIsEnabled | Qt.ItemIsEditable
             return super().flags(index) | Qt.ItemIsUserCheckable
         else:
             return super().flags(index)

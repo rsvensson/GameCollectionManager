@@ -183,6 +183,7 @@ class Table(QTableView):
         for row in rows:
             self.model.removeRows(row, 1, parent=QModelIndex())
         self.model.select()
+        self.resizeRowsToContents()
 
     def deleteNotOwned(self):
         rows = []
@@ -194,6 +195,7 @@ class Table(QTableView):
         for row in rows:
             query.exec_("DELETE FROM {} WHERE ID={}".format(self._table, row))
         self.model.select()
+        self.resizeRowsToContents()
 
     def filterTable(self, filterText: str, selections: dict):
         """
@@ -227,19 +229,18 @@ class Table(QTableView):
                         f += "OR {} = '{}' ".format(selection, item)
                 f += ") "
         else:  # Regular, simple, filter. It just seaches almost every column
-            f = "Platform LIKE '%{}%' " \
+            f = "(Platform LIKE '%{}%' " \
                 "OR Name LIKE '%{}%' " \
                 "OR Region LIKE '%{}%' " \
                 "OR Comment LIKE '%{}%' " \
                 "OR Year LIKE '%{}%' ".format(filterText, filterText, filterText, filterText, filterText)
             if self._table == "games":
-                f += "OR Code LIKE '%{}%' ".format(filterText)
+                f += "OR Code LIKE '%{}%') ".format(filterText)
             elif self._table == "consoles":
                 f += "OR Country LIKE '%{}%' " \
-                     "OR `Serial number` LIKE '%{}%' ".format(filterText, filterText)
+                     "OR `Serial number` LIKE '%{}%') ".format(filterText, filterText)
             elif self._table == "accessories":
-                f += "OR Country LIKE '%{}%' ".format(filterText)
-            # TODO: Following doesn't actually hide not owned items
+                f += "OR Country LIKE '%{}%') ".format(filterText)
             if self._hideNotOwned:
                 f += "AND ({}='Yes' OR Box='Yes' OR Manual='Yes') ".format(self._itemType)
 
