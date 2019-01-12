@@ -26,7 +26,7 @@ class Table(QTableView):
         self._hideNotOwned = True
         self._table = tableName
         self._itemType = "Game" if self._table == "games"\
-            else "Consoles" if self._table == "consoles"\
+            else "Console" if self._table == "consoles"\
             else "Accessory"
 
         self.model = TableModel(self, self._db)
@@ -99,10 +99,6 @@ class Table(QTableView):
         Adds data to the SQL database
         :param newData: (dictionary or list of dictionaries) The data to be added
         """
-
-        # TODO: Checkboxes issue
-        # The checkboxes' values gets put at the bottom of the table,
-        # while the bottom row's checkbox values is put in the new row.
 
         table = self._table
         itemID = 0 if self.model.rowCount() == 0 else -1
