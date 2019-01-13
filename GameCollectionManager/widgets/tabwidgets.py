@@ -378,7 +378,7 @@ class Randomizer(QWidget):
        platforms to choose from.
        gamesData: Raw table data in list of orderedDicts"""
 
-    def __init__(self, gamesData: dict):
+    def __init__(self, gamesData: list):
         super(Randomizer, self).__init__()
 
         self._gamesData = gamesData
@@ -394,18 +394,15 @@ class Randomizer(QWidget):
         self._consoleList.setMaximumWidth(350)
         self._consoleList.itemClicked.connect(self._updateGameCount)
 
-        self._btnAll = QPushButton()
-        self._btnAll.setText("Select All")
+        self._btnAll = QPushButton("Select All")
         self._btnAll.setMaximumSize(self._btnAll.sizeHint())
         self._btnAll.clicked.connect(self._consoleList.selectAll)
         self._btnAll.clicked.connect(self._updateGameCount)
-        self._btnNone = QPushButton()
-        self._btnNone.setText("Select None")
+        self._btnNone = QPushButton("Select None")
         self._btnNone.setMaximumSize(self._btnNone.sizeHint())
         self._btnNone.clicked.connect(self._consoleList.clearSelection)
         self._btnNone.clicked.connect(self._updateGameCount)
-        self._btnRnd = QPushButton()
-        self._btnRnd.setText("Randomize")
+        self._btnRnd = QPushButton("Randomize")
         self._btnRnd.setMaximumSize(self._btnRnd.sizeHint())
         self._btnRnd.clicked.connect(self._randomize)
 
@@ -454,7 +451,7 @@ class Randomizer(QWidget):
             choice = randint(0, len(games) - 1)
             self._lblPlay.setText("You will play:")
             self._lblTitle.setText("{}".format(games[choice]["Name"]) if len(platforms) == 1 else
-                                  "{} [{}]".format(games[choice]["Name"], games[choice]["Platform"]))
+                                   "{} [{}]".format(games[choice]["Name"], games[choice]["Platform"]))
         else:
             self._lblPlay.setText("")
             self._lblTitle.setText("Select at least one console...")

@@ -1,6 +1,6 @@
 from PySide2.QtCore import Qt, Signal
-from PySide2.QtWidgets import QDockWidget, QWidget, QComboBox, QListWidget, QHBoxLayout, QLabel, QPushButton, \
-    QAbstractItemView, QVBoxLayout
+from PySide2.QtWidgets import QDockWidget, QWidget, QComboBox, QListWidget, QHBoxLayout,\
+    QLabel, QPushButton, QAbstractItemView, QVBoxLayout, QGroupBox
 from collections import defaultdict
 
 
@@ -42,7 +42,6 @@ class AdvancedSearch(QDockWidget):
         self._regionVBox.addWidget(self._regions, 1)
 
         # Inventory widgets
-        self._inventoryLabel = QLabel("Inventory")
         self._itemType = {1: "Game", 2: "Console", 3: "Accessory"}
         self._itemLabel = QLabel(self._itemType[1])
         self._item = QComboBox()
@@ -57,13 +56,11 @@ class AdvancedSearch(QDockWidget):
         self._box.addItems(["--", "Yes", "No"])
         self._box.setMaximumSize(self._box.sizeHint())
         self._inventoryLabelsVBox = QVBoxLayout()
-        self._inventoryLabelsVBox.addWidget(self._inventoryLabel, 0)
+        self._inventoryLabelsVBox.addWidget(self._itemLabel, 0)
         self._inventoryLabelsVBox.addStretch(1)
-        self._inventoryLabelsVBox.addWidget(self._itemLabel, 1)
+        self._inventoryLabelsVBox.addWidget(self._boxLabel, 1)
         self._inventoryLabelsVBox.addStretch(1)
-        self._inventoryLabelsVBox.addWidget(self._boxLabel, 2)
-        self._inventoryLabelsVBox.addStretch(1)
-        self._inventoryLabelsVBox.addWidget(self._manualLabel, 3)
+        self._inventoryLabelsVBox.addWidget(self._manualLabel, 2)
         self._inventorySelectionsVBox = QVBoxLayout()
         self._inventorySelectionsVBox.addStretch(3)
         self._inventorySelectionsVBox.addWidget(self._item, 0)
@@ -73,6 +70,9 @@ class AdvancedSearch(QDockWidget):
         self._haveHBox = QHBoxLayout()
         self._haveHBox.addLayout(self._inventoryLabelsVBox, 0)
         self._haveHBox.addLayout(self._inventorySelectionsVBox, 1)
+        self._inventoryGroup = QGroupBox("Inventory")
+        self._inventoryGroup.setMaximumWidth(150)
+        self._inventoryGroup.setLayout(self._haveHBox)
 
         # Clear and Apply button widgets
         self._clearBtn = QPushButton("Clear selection")
@@ -91,7 +91,7 @@ class AdvancedSearch(QDockWidget):
         mainHBox.setAlignment(Qt.AlignLeft)
         mainHBox.addLayout(self._platformVBox, 0)
         mainHBox.addLayout(self._regionVBox, 1)
-        mainHBox.addLayout(self._haveHBox, 2)
+        mainHBox.addWidget(self._inventoryGroup, 2)
         mainHBox.addLayout(self._btnHBox, 3)
         mainWidget = QWidget()
         mainWidget.setLayout(mainHBox)
