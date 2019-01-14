@@ -216,7 +216,7 @@ class MainWindow(QMainWindow):
 
     # noinspection PyCallByClass,PyTypeChecker
     def buttonActions(self, action: str) -> QAction:
-        addAct = QAction(QIcon().fromTheme("document-new"), "&Add to collection", self)
+        addAct = QAction(QIcon().fromTheme("list-add"), "&Add to collection", self)
         addAct.setShortcut("Ctrl+A")
         addAct.setToolTip("Add to collection")
         addAct.triggered.connect(self.addToCollection)
@@ -239,7 +239,7 @@ class MainWindow(QMainWindow):
         savAct.setShortcut("Ctrl+S")
         savAct.setToolTip("Saves the tables to the database")
 
-        impAct = QAction(QIcon.fromTheme("list-add"), "&Import games to database", self)
+        impAct = QAction(QIcon.fromTheme("insert-object"), "&Import games to database", self)
         impAct.setShortcut("Ctrl+I")
         impAct.setToolTip("Import games to database")
         impAct.triggered.connect(self.importToDatabase)
@@ -262,7 +262,7 @@ class MainWindow(QMainWindow):
         exitAct.setToolTip("Exit application")
         exitAct.triggered.connect(self.close)
 
-        infoAct = QAction("Print info", self)
+        infoAct = QAction("Debug: Print row info", self)
         infoAct.triggered.connect(self.info)
 
         act = {"add": addAct, "del": delAct, "open": opnAct, "import": impAct,
@@ -285,12 +285,9 @@ class MainWindow(QMainWindow):
 
         currentTab = self.tab.currentIndex()
 
-        addAct = cmenu.addAction(self.buttonActions("add"))
         if 0 < currentTab < 4:
             delAct = cmenu.addAction(self.buttonActions("del"))
             infoAct = cmenu.addAction(self.buttonActions("info"))
-        opnAct = cmenu.addAction(self.buttonActions("open"))
-        exitAct = cmenu.addAction(self.buttonActions("exit"))
         action = cmenu.exec_(self.mapToGlobal(event.pos()))
 
         self.updateStatusbar()
