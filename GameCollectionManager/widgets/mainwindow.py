@@ -2,10 +2,11 @@
 
 from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget, \
     QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget, \
-    QWidget, QLabel, QPushButton, QGridLayout
+    QWidget, QLabel, QPushButton, QGridLayout, QInputDialog, QProgressBar
 from PySide2.QtGui import QIcon
 from PySide2.QtSql import QSqlDatabase, QSqlQuery
 
+from tools.steamlibrary import getSteamLibrary
 from widgets.tabwidgets import Table, Randomizer
 from widgets.searchdock import AdvancedSearch
 from widgets.inputwindow import InputWindow
@@ -70,6 +71,7 @@ class MainWindow(QMainWindow):
         self.fileMenu.addAction(self.buttonActions("add"))
         self.fileMenu.addAction(self.buttonActions("open"))
         self.fileMenu.addAction(self.buttonActions("import"))
+        self.fileMenu.addAction(self.buttonActions("steam"))
         self.fileMenu.insertSeparator(self.buttonActions("exit"))
         self.fileMenu.addAction(self.buttonActions("exit"))
         self.viewMenu = self.menuBar().addMenu(self.tr("&View"))
@@ -77,6 +79,12 @@ class MainWindow(QMainWindow):
         self.viewMenu.addAction(self.buttonActions("delnotowned"))
         self.helpMenu = self.menuBar().addMenu(self.tr("&Help"))
         self.helpMenu.addAction(self.buttonActions("about"))
+
+        self.statusProgressBar = QProgressBar()
+        self.statusProgressBar.setMaximumSize(100, 15)
+        self.statusProgressBar.setRange(0, 0)
+        self.statusProgressBar.setVisible(False)
+        self.statusBar().addPermanentWidget(self.statusProgressBar)
 
         # Search stuff
         self.searchLabel = QLabel("Search")
@@ -212,7 +220,18 @@ class MainWindow(QMainWindow):
         self.importWindow = ImportWindow()
         if self.importWindow.exec_() == QDialog.Accepted:
             data = self.importWindow.returnData()
+            self.statusProgressBar.setVisible(True)
             self.gamesTableView.addData(data)
+            self.statusProgressBar.setVisible(False)
+
+    def importSteamLibrary(self):
+        apiKey, ok = QInputDialog.getText(self, "Import Steam Library", "Enter Steam API Key:")
+        if ok and not (apiKey.isspace() or apiKey == ""):
+            steamID, ok = QInputDialog.getText(self, "Import Steam Library", "Enter Steam User ID:")
+            if ok and not (steamID.isspace() or steamID == ""):
+                games = getSteamLibrary(apiKey, steamID)
+
+                self.gamesTableView.addData(games)
 
     # noinspection PyCallByClass,PyTypeChecker
     def buttonActions(self, action: str) -> QAction:
@@ -239,10 +258,13 @@ class MainWindow(QMainWindow):
         savAct.setShortcut("Ctrl+S")
         savAct.setToolTip("Saves the tables to the database")
 
-        impAct = QAction(QIcon.fromTheme("insert-object"), "&Import games to database", self)
+        impAct = QAction(QIcon.fromTheme("insert-object"), "&Import platform template", self)
         impAct.setShortcut("Ctrl+I")
         impAct.setToolTip("Import games to database")
         impAct.triggered.connect(self.importToDatabase)
+
+        stmAct = QAction(QIcon.fromTheme("insert-object"), "Import Steam Library", self)
+        stmAct.triggered.connect(self.importSteamLibrary)
 
         ownAct = QAction("Hide games not in collection", self)
         ownAct.setCheckable(True)
@@ -266,7 +288,7 @@ class MainWindow(QMainWindow):
         infoAct.triggered.connect(self.info)
 
         act = {"add": addAct, "del": delAct, "open": opnAct, "import": impAct,
-               "owned": ownAct, "delnotowned": delNotOwned,
+               "steam": stmAct, "owned": ownAct, "delnotowned": delNotOwned,
                "about": aboutAct, "exit": exitAct, "info": infoAct}
 
         return act.get(action)
