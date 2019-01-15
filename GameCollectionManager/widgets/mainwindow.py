@@ -229,9 +229,13 @@ class MainWindow(QMainWindow):
         if ok and not (apiKey.isspace() or apiKey == ""):
             steamID, ok = QInputDialog.getText(self, "Import Steam Library", "Enter Steam User ID:")
             if ok and not (steamID.isspace() or steamID == ""):
-                games = getSteamLibrary(apiKey, steamID)
-
-                self.gamesTableView.addData(games)
+                try:
+                    games = getSteamLibrary(apiKey, steamID)
+                    self.gamesTableView.addData(games)
+                except (PermissionError, ValueError) as e:
+                    msgBox = QMessageBox(QMessageBox.Critical, "Error", "An error occured.")
+                    msgBox.setInformativeText(str(e))
+                    msgBox.exec_()
 
     # noinspection PyCallByClass,PyTypeChecker
     def buttonActions(self, action: str) -> QAction:

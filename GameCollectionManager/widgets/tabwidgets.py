@@ -331,9 +331,11 @@ class Table(QTableView):
     def rowInfo(self, row: int):
         table = self._table
         query = QSqlQuery()
+        length = 11 if table == "consoles" else 10
+
         query.exec_("SELECT * FROM {} WHERE ID={}".format(table, row))
         query.first()
-        length = 11 if table == "consoles" else 10
+
         for i in range(length):
             print(query.value(i))
 
