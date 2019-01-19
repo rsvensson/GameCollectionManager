@@ -5,13 +5,13 @@ use("Qt5Agg")
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 from numpy import arange
-from PySide2.QtWidgets import QWidget, QLabel, QGridLayout, QSizePolicy, QScrollArea, QHBoxLayout, QVBoxLayout
+from PySide2.QtWidgets import QWidget, QLabel, QSizePolicy, QScrollArea, QHBoxLayout, QVBoxLayout
 
 
 class MplCanvas(FigureCanvas):
     """Shell class for setting up matplotlib"""
 
-    def __init__(self, data, ylabel, parent=None, width=5, height=4, dpi=100):
+    def __init__(self, data, ylabel, parent=None, width=10, height=4, dpi=100):
         self._fig = Figure(figsize=(width, height), dpi=dpi)
         self._ax = self._fig.subplots()
         self._ylabel = ylabel
@@ -24,7 +24,6 @@ class MplCanvas(FigureCanvas):
         super(MplCanvas, self).__init__(self._fig)
         self.setParent(parent)
 
-        super().setMinimumSize(self.size())
         super().setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         super().updateGeometry()
 
@@ -48,15 +47,27 @@ class CollectionDataCanvas(MplCanvas):
         bars = self._ax.bar(index, values, color="thistle")
         self._setupBars(self._ax, bars, index, platforms)
 
+    def updateFigure(self, data):
+        self._ax.cla()
+
+        values = []
+        platforms = data.keys()
+        index = arange(len(platforms))
+        for platform in platforms:
+            values.append(data[platform])
+
+        bars = self._ax.bar(index, values, color="thistle")
+        self._setupBars(self._ax, bars, index, platforms)
+        self.draw()
+
     def _setupBars(self, ax, bars, index, platforms):
         """Settings for bar graphs. Sets up labels, ticks,
            and puts the bar values as text on top of the bars."""
+        ax.set_title("{} per platform".format(self._ylabel))
         ax.set_xlabel(self._xlabel)
         ax.set_ylabel(self._ylabel)
         ax.set_xticks(index)
-        ax.set_xticklabels(platforms)
-        for tick in ax.get_xticklabels():
-            tick.set_rotation(45)
+        ax.set_xticklabels(platforms, rotation=45, ha='right')
 
         max_y_value = 0
         # Since max() doesn't seem to work with PyInstaller!?
@@ -81,49 +92,47 @@ class Overview(QWidget):
     def __init__(self, tables):
         super(Overview, self).__init__()
 
-        self._tables = tables
-
-        self._hbox = QHBoxLayout()
-        self._hbox.setAlignment(Qt.AlignLeft)
-        self._vboxPlots = QVBoxLayout()
-        self._vboxLabels = QVBoxLayout()
-        self._vboxLabels.setAlignment(Qt.AlignTop)
-        self.scroll = QScrollArea()
-        self.scroll.setLayout(self._vboxPlots)
-        self._hbox.addLayout(self._vboxLabels)
-        self._hbox.addWidget(self.scroll)
         self.widget = QWidget()
-        self.widget.setLayout(self._hbox)
 
-        self._lblTables = []  # List of table types (games, consoles, accessories)
-        self._platforms = []  # List of platforms from all tables
-
+        self._tables = tables
         # Data for how many items each platform has, for matplotlib
         self._gamesData = {}
         self._consoleData = {}
         self._accessoryData = {}
-
         self._totalItems = 0
-
-        self._extractData()
-
+        self._lblTables = []  # List of table type labels (games, consoles, accessories)
+        self._platforms = []  # List of platforms from all tables
+        self._extractData()  # Populate variables above with data
         self._lblTotal = QLabel()
         self._lblTotal.setText("Total items in collection: {}".format(self._totalItems))
 
-        self._gd = CollectionDataCanvas(self.layout, self._gamesData, "Games")
-        self._cd = CollectionDataCanvas(self.layout, self._consoleData, "Consoles")
-        self._ad = CollectionDataCanvas(self.layout, self._accessoryData, "Accessories")
+        # Canvas plots
+        self._gd = CollectionDataCanvas(self.widget, self._gamesData, "Games")
+        self._cd = CollectionDataCanvas(self.widget, self._consoleData, "Consoles")
+        self._ad = CollectionDataCanvas(self.widget, self._accessoryData, "Accessories")
 
-        self._gd.mpl_connect("scroll_event", self._scrolling)
-        self._cd.mpl_connect("scroll_event", self._scrolling)
-        self._ad.mpl_connect("scroll_event", self._scrolling)
-
+        # Layouts
+        self._vboxPlots = QVBoxLayout()
+        self._vboxLabels = QVBoxLayout()
+        self._vboxLabels.setAlignment(Qt.AlignTop)
         self._vboxPlots.addWidget(self._gd)
         self._vboxPlots.addWidget(self._cd)
         self._vboxPlots.addWidget(self._ad)
         for label in self._lblTables:
             self._vboxLabels.addWidget(label)
         self._vboxLabels.addWidget(self._lblTotal)
+
+        self._plotWidget = QWidget()
+        self._plotWidget.setLayout(self._vboxPlots)
+        self._scroll = QScrollArea()
+        self._scroll.setWidget(self._plotWidget)
+
+        self._hbox = QHBoxLayout()
+        self._hbox.setAlignment(Qt.AlignLeft)
+        self._hbox.addLayout(self._vboxLabels)
+        self._hbox.addWidget(self._scroll)
+
+        self.widget.setLayout(self._hbox)
 
     def _extractData(self):
         tempPlatforms = set()
@@ -137,10 +146,6 @@ class Overview(QWidget):
 
         # Counts how many items each platform has and puts it into a dictionary
         self._platforms = sorted(tempPlatforms, key=str.lower)
-        for platform in self._platforms:
-            self._gamesData[platform] = 0
-            self._consoleData[platform] = 0
-            self._accessoryData[platform] = 0
         for table in self._tables:
             for platform in self._platforms:
                 if table.model.tableName() == "games":
@@ -153,9 +158,27 @@ class Overview(QWidget):
         for table in self._tables:
             self._totalItems += table.ownedCount()
 
-    def _scrolling(self, event):
-        val = self.scroll.verticalScrollBar().value()
-        if event.button == "down":
-            self.scroll.verticalScrollBar().setValue(val+100)
-        else:
-            self.scroll.verticalScrollBar().setValue(val-100)
+    def updateData(self, table):
+        if table.model.tableName() == "games":
+            self._gamesData.clear()
+            self._lblTables[0].setText("Number of games: {}".format(table.ownedCount()))
+            for platform in sorted(table.platforms(), key=str.lower):
+                self._gamesData[platform] = table.itemsInPlatform(platform)
+            self._gd.updateFigure(self._gamesData)
+        elif table.model.tableName() == "consoles":
+            self._consoleData.clear()
+            self._lblTables[1].setText("Number of consoles: {}".format(table.ownedCount()))
+            for platform in sorted(table.platforms(), key=str.lower):
+                self._consoleData[platform] = table.itemsInPlatform(platform)
+            self._cd.updateFigure(self._consoleData)
+        elif table.model.tableName() == "accessories":
+            self._accessoryData.clear()
+            self._lblTotal[2].setText("Number of accessories: {}".format(table.ownedCount()))
+            for platform in sorted(table.platforms(), key=str.lower):
+                self._accessoryData[platform] = table.itemsInPlatform(platform)
+            self._ad.updateFigure(self._accessoryData)
+
+        self._totalItems = 0
+        for tbl in self._tables:
+            self._totalItems += tbl.ownedCount()
+        self._lblTotal.setText("Total items in collection: {}".format(self._totalItems))

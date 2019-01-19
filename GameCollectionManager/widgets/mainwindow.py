@@ -39,8 +39,10 @@ class MainWindow(QMainWindow):
                               self.consolesTableView,
                               self.accessoriesTableView]
 
+        # Overview tab
         self.overview = Overview(self.tableViewList)
 
+        # Randomizer tab
         self.randomizer = Randomizer(self.gamesTableView.ownedItems())
         self.randomizer._consoleList.itemClicked.connect(self.updateStatusbar)
         self.randomizer._btnAll.clicked.connect(self.updateStatusbar)
@@ -164,13 +166,16 @@ class MainWindow(QMainWindow):
 
                 if "Game" in data.keys():
                     self.gamesTableView.addData(data)
-                    self.tab.setCurrentIndex(1)
+                    self.overview.updateData(self.gamesTableView)
+                    #self.tab.setCurrentIndex(1)
                 elif "Console" in data.keys():
                     self.consolesTableView.addData(data)
-                    self.tab.setCurrentIndex(2)
+                    self.overview.updateData(self.consolesTableView)
+                    #self.tab.setCurrentIndex(2)
                 elif "Accessory" in data.keys():
                     self.accessoriesTableView.addData(data)
-                    self.tab.setCurrentIndex(3)
+                    self.overview.updateData(self.accessoriesTableView)
+                    #self.tab.setCurrentIndex(3)
             break
 
     def deleteFromCollection(self):
@@ -191,6 +196,7 @@ class MainWindow(QMainWindow):
                 for index in indexes:
                     rows.append(index.row())
                 self.tableViewList[currentTab-1].deleteData(rows)
+                self.overview.updateData(self.tableViewList[currentTab-1])
 
     def deleteNotOwned(self):
         """
