@@ -38,11 +38,11 @@ def detectPlatform() -> dict:
 
 
 def getScriptDir(followSymlinks=True):
-    #if getattr(sys, 'frozen', False):  # py2exe, PyInstaller, cx_freeze
-    #    path = os.path.abspath(sys.executable)
-    #else:
-    import inspect
-    path = inspect.getabsfile(getScriptDir)
+    if getattr(sys, 'frozen', False):  # py2exe, PyInstaller, cx_freeze
+        path = os.path.abspath(sys.executable)
+    else:
+        import inspect
+        path = inspect.getabsfile(getScriptDir)
     if followSymlinks:
         path = os.path.realpath(path)
     return os.path.dirname(path)

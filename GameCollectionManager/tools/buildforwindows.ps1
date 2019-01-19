@@ -1,10 +1,10 @@
-$PythonEXE = where.exe python
 $GCMFile = "$PSScriptRoot\..\gcm.py"
 $BuildDir = "$PSScriptRoot\..\build"
 $DistDir = "$PSScriptRoot\..\dist"
-$PyInstaller = "$PythonEXE -OO -m PyInstaller -F -w --distpath $DistDir --workpath $BuildDir $GCMFile"
+$PyInstallerEXE = where.exe pyinstaller
+$PyInstaller = "$PyInstallerEXE -F -w --distpath $DistDir --workpath $BuildDir $GCMFile"
 $SourceFolder = "$PSScriptRoot\..\output\Game Collection Manager"
-$DestinationFile = "$PSScriptRoot\..\output\Game Collection Manager.7z"
+$DestinationFile = "$PSScriptRoot\..\output\Game Collection Manager $($args[0]).7z"
 set-alias 7z "$env:ProgramFiles\7-Zip\7z.exe"
 
 if ($SourceFolder | Test-Path) {

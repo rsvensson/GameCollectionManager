@@ -135,3 +135,11 @@ class AdvancedSearch(QDockWidget):
 
     def toggleVisibility(self):
         self.setVisible(False if self.isVisible() else True)
+
+    def updatePlatforms(self, platforms):
+        self._platforms.clear()
+        self._platforms.addItems(platforms)
+
+    def updateRegions(self, regions):
+        self._regions.clear()
+        self._regions.addItems(regions)

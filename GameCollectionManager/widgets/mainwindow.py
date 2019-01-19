@@ -13,7 +13,7 @@ from widgets.inputwindow import InputWindow
 from widgets.importwindow import ImportWindow
 from widgets.overview import Overview
 
-_VERSION = "0.0.17"
+_VERSION = "0.1.0"
 
 
 class MainWindow(QMainWindow):
@@ -55,7 +55,8 @@ class MainWindow(QMainWindow):
                 self.allPlatforms.add(row["Platform"])
                 self.allRegions.add(row["Region"])
 
-        self.advSearch = AdvancedSearch(sorted(self.allPlatforms), sorted(self.allRegions))
+        self.advSearch = AdvancedSearch(sorted(self.allPlatforms, key=str.lower),
+                                        sorted(self.allRegions, key=str.lower))
         self.advSearch.filterApplied.connect(self.search)
 
         ## MainWindow layout
@@ -164,6 +165,13 @@ class MainWindow(QMainWindow):
                     msgBox.exec_()
                     continue
 
+                if data["Platform"] not in self.allPlatforms:
+                    self.allPlatforms.add(data["Platform"])
+                    self.advSearch.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
+                if data["Region"] not in self.allRegions:
+                    self.allRegions.add(data["Region"])
+                    self.advSearch.updateRegions(sorted(self.allRegions, key=str.lower))
+
                 if "Game" in data.keys():
                     self.gamesTableView.addData(data)
                     self.overview.updateData(self.gamesTableView)
@@ -243,6 +251,11 @@ class MainWindow(QMainWindow):
                     msgBox.exec_()
                 else:
                     self.gamesTableView.addData(games)
+                    if "Steam" not in self.allPlatforms:
+                        self.allPlatforms.add("Steam")
+                        self.allRegions.add("Steam")
+                        self.advSearch.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
+                        self.advSearch.updateRegions(sorted(self.allRegions, key=str.lower))
 
     # noinspection PyCallByClass,PyTypeChecker
     def buttonActions(self, action: str) -> QAction:
