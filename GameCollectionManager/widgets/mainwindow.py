@@ -250,12 +250,24 @@ class MainWindow(QMainWindow):
                     msgBox.setInformativeText(str(e))
                     msgBox.exec_()
                 else:
-                    self.gamesTableView.addData(games)
                     if "Steam" not in self.allPlatforms:
                         self.allPlatforms.add("Steam")
                         self.allRegions.add("Steam")
                         self.advSearch.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
                         self.advSearch.updateRegions(sorted(self.allRegions, key=str.lower))
+                        self.gamesTableView.addData(games)
+                    else:  # Only add games not already in collection
+                        existingGames = []
+                        query = QSqlQuery()
+                        query.exec_("SELECT Name from games WHERE Region='Steam'")
+                        while query.next():
+                            existingGames.append(query.value(0))
+
+                        for game in games:
+                            if game["Name"] not in existingGames:
+                                self.gamesTableView.addData(game)
+                    self.overview.updateData(self.gamesTableView)
+                    self.randomizer.updateData(self.gamesTableView.ownedItems())
 
     # noinspection PyCallByClass,PyTypeChecker
     def buttonActions(self, action: str) -> QAction:
