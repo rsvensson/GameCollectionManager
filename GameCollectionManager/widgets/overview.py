@@ -12,7 +12,7 @@ class MplCanvas(FigureCanvas):
     """Shell class for setting up matplotlib"""
 
     def __init__(self, data, ylabel, parent=None, width=10, height=4, dpi=100):
-        self._fig = Figure(figsize=(width, height), dpi=dpi)
+        self._fig = Figure(figsize=(width, height), dpi=dpi, tight_layout=True)
         self._ax = self._fig.subplots()
         self._ylabel = ylabel
         self._xlabel = "Platforms"
