@@ -1,11 +1,11 @@
 #!/usr/bin/env python
-
+from PySide2.QtCore import Qt
 from matplotlib import use
 use("Qt5Agg")
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 from numpy import arange
-from PySide2.QtWidgets import QWidget, QLabel, QGridLayout, QSizePolicy, QScrollArea
+from PySide2.QtWidgets import QWidget, QLabel, QGridLayout, QSizePolicy, QScrollArea, QHBoxLayout, QVBoxLayout
 
 
 class MplCanvas(FigureCanvas):
@@ -24,6 +24,7 @@ class MplCanvas(FigureCanvas):
         super(MplCanvas, self).__init__(self._fig)
         self.setParent(parent)
 
+        super().setMinimumSize(self.size())
         super().setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         super().updateGeometry()
 
@@ -82,11 +83,17 @@ class Overview(QWidget):
 
         self._tables = tables
 
-        self.layout = QWidget()
-        self._grid = QGridLayout()
-        self.layout.setLayout(self._grid)
-        #self.scroll = QScrollArea()
-        #self.scroll.setWidget(self.layout)
+        self._hbox = QHBoxLayout()
+        self._hbox.setAlignment(Qt.AlignLeft)
+        self._vboxPlots = QVBoxLayout()
+        self._vboxLabels = QVBoxLayout()
+        self._vboxLabels.setAlignment(Qt.AlignTop)
+        self.scroll = QScrollArea()
+        self.scroll.setLayout(self._vboxPlots)
+        self._hbox.addLayout(self._vboxLabels)
+        self._hbox.addWidget(self.scroll)
+        self.widget = QWidget()
+        self.widget.setLayout(self._hbox)
 
         self._lblTables = []  # List of table types (games, consoles, accessories)
         self._platforms = []  # List of platforms from all tables
@@ -106,12 +113,17 @@ class Overview(QWidget):
         self._gd = CollectionDataCanvas(self.layout, self._gamesData, "Games")
         self._cd = CollectionDataCanvas(self.layout, self._consoleData, "Consoles")
         self._ad = CollectionDataCanvas(self.layout, self._accessoryData, "Accessories")
-        #cd = CollectionDataCanvas(self.layout, width=5, height=4, dpi=100)
 
-        self._grid.addWidget(self._gd, 0, 1)
-        for i, label in enumerate(self._lblTables):
-            self._grid.addWidget(label, i + 1, 0)
-        self._grid.addWidget(self._lblTotal, 4, 0)
+        self._gd.mpl_connect("scroll_event", self._scrolling)
+        self._cd.mpl_connect("scroll_event", self._scrolling)
+        self._ad.mpl_connect("scroll_event", self._scrolling)
+
+        self._vboxPlots.addWidget(self._gd)
+        self._vboxPlots.addWidget(self._cd)
+        self._vboxPlots.addWidget(self._ad)
+        for label in self._lblTables:
+            self._vboxLabels.addWidget(label)
+        self._vboxLabels.addWidget(self._lblTotal)
 
     def _extractData(self):
         tempPlatforms = set()
@@ -140,3 +152,10 @@ class Overview(QWidget):
 
         for table in self._tables:
             self._totalItems += table.ownedCount()
+
+    def _scrolling(self, event):
+        val = self.scroll.verticalScrollBar().value()
+        if event.button == "down":
+            self.scroll.verticalScrollBar().setValue(val+100)
+        else:
+            self.scroll.verticalScrollBar().setValue(val-100)

@@ -98,11 +98,11 @@ class MainWindow(QMainWindow):
         self.advSearchBtn.setVisible(False)
 
         # Tab layout.
-        self.tab.addTab(self.overview.layout, "Overview")
+        self.tab.addTab(self.overview.widget, "Overview")
         self.tab.addTab(self.gamesTableView, "Games")
         self.tab.addTab(self.consolesTableView, "Consoles")
         self.tab.addTab(self.accessoriesTableView, "Accessories")
-        self.tab.addTab(self.randomizer.layout, "Randomizer")
+        self.tab.addTab(self.randomizer.widget, "Randomizer")
         self.tab.currentChanged.connect(self.search)
         self.tab.currentChanged.connect(self.updateStatusbar)
 
@@ -231,11 +231,12 @@ class MainWindow(QMainWindow):
             if ok and not (steamID.isspace() or steamID == ""):
                 try:
                     games = getSteamLibrary(apiKey, steamID)
-                    self.gamesTableView.addData(games)
                 except (PermissionError, ValueError) as e:
                     msgBox = QMessageBox(QMessageBox.Critical, "Error", "An error occured.")
                     msgBox.setInformativeText(str(e))
                     msgBox.exec_()
+                else:
+                    self.gamesTableView.addData(games)
 
     # noinspection PyCallByClass,PyTypeChecker
     def buttonActions(self, action: str) -> QAction:

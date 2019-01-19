@@ -384,7 +384,6 @@ class Randomizer(QWidget):
         super(Randomizer, self).__init__()
 
         self._gamesData = gamesData
-
         self._gameCount = 0
 
         self._consoleList = QListWidget()
@@ -419,11 +418,9 @@ class Randomizer(QWidget):
         self._lblTitle.setFont(self._lblFont)
         self._lblTitle.setWordWrap(True)
 
-        self._grid = QGridLayout()
-        self._grid.setMargin(0)
-        self._grid.setSpacing(0)
         self._hbox = QHBoxLayout()
         self._vbox = QVBoxLayout()
+        self._grid = QGridLayout()
         self._hbox.addWidget(self._btnAll, 0)
         self._hbox.addWidget(self._btnNone, 0)
         self._hbox.addWidget(self._btnRnd, 0)
@@ -431,12 +428,14 @@ class Randomizer(QWidget):
         self._vbox.addWidget(self._lblPlay, 1)
         self._vbox.addWidget(self._lblTitle, 1)
         self._vbox.addStretch(3)
+        self._grid.setMargin(0)
+        self._grid.setSpacing(0)
         self._grid.addWidget(self._consoleList, 0, 0)
         self._grid.addLayout(self._hbox, 1, 0)
         self._grid.addLayout(self._vbox, 0, 1, 1, -1)
 
-        self.layout = QWidget()
-        self.layout.setLayout(self._grid)
+        self.widget = QWidget()
+        self.widget.setLayout(self._grid)
 
     def _getSelectedPlatforms(self) -> list:
         return [x.text() for x in self._consoleList.selectedItems()]
