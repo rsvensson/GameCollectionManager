@@ -390,7 +390,7 @@ class Randomizer(QWidget):
         self._consoleItems = set()
         for row in gamesData:
             self._consoleItems.add(row["Platform"])
-        self._consoleList.addItems(sorted(self._consoleItems))
+        self._consoleList.addItems(sorted(self._consoleItems, key=str.lower))
         self._consoleList.setSelectionMode(QAbstractItemView.MultiSelection)
         self._consoleList.setMaximumWidth(350)
         self._consoleList.itemClicked.connect(self._updateGameCount)
@@ -466,8 +466,18 @@ class Randomizer(QWidget):
                 if row["Platform"] in platforms:
                     self._gameCount += 1
 
-    def getGameCount(self) -> int:
+    def gameCount(self) -> int:
         return self._gameCount
+
+    def updateData(self, gamesData: list):
+        self._gamesData.clear()
+        self._consoleItems.clear()
+        self._consoleList.clear()
+
+        self._gamesData = gamesData
+        for row in self._gamesData:
+            self._consoleItems.add(row["Platform"])
+        self._consoleList.addItems(sorted(self._consoleItems, key=str.lower))
 
 
 """class Table(QTableWidget):

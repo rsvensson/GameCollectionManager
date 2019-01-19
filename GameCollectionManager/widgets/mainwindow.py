@@ -167,15 +167,13 @@ class MainWindow(QMainWindow):
                 if "Game" in data.keys():
                     self.gamesTableView.addData(data)
                     self.overview.updateData(self.gamesTableView)
-                    #self.tab.setCurrentIndex(1)
+                    self.randomizer.updateData(self.gamesTableView.ownedItems())
                 elif "Console" in data.keys():
                     self.consolesTableView.addData(data)
                     self.overview.updateData(self.consolesTableView)
-                    #self.tab.setCurrentIndex(2)
                 elif "Accessory" in data.keys():
                     self.accessoriesTableView.addData(data)
                     self.overview.updateData(self.accessoriesTableView)
-                    #self.tab.setCurrentIndex(3)
             break
 
     def deleteFromCollection(self):
@@ -197,6 +195,8 @@ class MainWindow(QMainWindow):
                     rows.append(index.row())
                 self.tableViewList[currentTab-1].deleteData(rows)
                 self.overview.updateData(self.tableViewList[currentTab-1])
+                if currentTab == 1:
+                    self.randomizer.updateData(self.gamesTableView.ownedItems())
 
     def deleteNotOwned(self):
         """
@@ -391,5 +391,5 @@ class MainWindow(QMainWindow):
             platforms = self.randomizer._consoleList.selectedItems()
             self.statusBar().showMessage("Select platforms to randomize from.")
             if len(platforms) > 0:
-                self.statusBar().showMessage("Selecting from {} games.".format(self.randomizer.getGameCount()))
+                self.statusBar().showMessage("Selecting from {} games.".format(self.randomizer.gameCount()))
             return
