@@ -12,6 +12,8 @@ class ImportWindow(QDialog):
         self.setContentsMargins(5, 5, 5, 5)
 
         self._gamesdata = []
+        self._platforms = []
+        self._regions = set()
 
         self._platformListPath = Path("data/vgdb/")
         self._platformList = []
@@ -66,11 +68,13 @@ class ImportWindow(QDialog):
             newData = []
             for file in self._platformListPath.iterdir():
                 if file.stem in platforms:
+                    self._platforms.append(file.stem)
                     newData.append(createGameData(file))
             for lst in newData:
                 for game in lst:
                     self._gamesdata.append(game)
+                    self._regions.add(game["Region"])
             self.accept()
 
     def returnData(self):
-        return self._gamesdata
+        return self._gamesdata, self._platforms, self._regions

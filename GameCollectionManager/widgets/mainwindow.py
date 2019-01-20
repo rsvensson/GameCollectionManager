@@ -233,10 +233,19 @@ class MainWindow(QMainWindow):
         """
         self.importWindow = ImportWindow()
         if self.importWindow.exec_() == QDialog.Accepted:
-            data = self.importWindow.returnData()
+            data, platforms, regions = self.importWindow.returnData()
             self.statusProgressBar.setVisible(True)
             self.gamesTableView.addData(data)
             self.statusProgressBar.setVisible(False)
+
+            for platform in platforms:
+                if platform not in self.allPlatforms:
+                    self.allPlatforms.add(platform)
+                    self.advSearch.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
+            for region in regions:
+                if region not in self.allRegions:
+                    self.allRegions.add(region)
+                    self.advSearch.updateRegions(sorted(self.allRegions, key=str.lower))
 
     def importSteamLibrary(self):
         apiKey, ok = QInputDialog.getText(self, "Import Steam Library", "Enter Steam API Key:")
