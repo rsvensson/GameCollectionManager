@@ -27,15 +27,23 @@ def _readTextFile(infile):
         else:
             temp = line.split("|")
 
-        if len(temp) is not 7:
-            raise TypeError("Line {} in file {} malformed:\n{}".format(i, infile, temp))
-        else:
+        if 6 < len(temp) < 9:
             for i, row in enumerate(temp):
                 temp[i] = row.strip()
-            gamedata.append({"Name": temp[2],
-                             "Platform": temp[4],
-                             "Region": temp[6],
-                             "Year": temp[5]})
+            if len(temp) == 7:
+                gamedata.append({"Name": temp[2],
+                                 "Platform": temp[4],
+                                 "Region": temp[6],
+                                 "Year": temp[5],
+                                 "Code": ""})
+            elif len(temp) == 8:
+                gamedata.append({"Name": temp[2],
+                                 "Platform": temp[4],
+                                 "Region": temp[6],
+                                 "Year": "",
+                                 "Code": temp[7]})
+        else:
+            raise TypeError("Line {} in file {} malformed:\n{}".format(i, infile, temp))
 
     return gamedata
 
@@ -46,7 +54,7 @@ def createGameData(infile):
 
     for game in filedata:
         gamedata.append(OrderedDict({"Platform": game["Platform"], "Name": game["Name"],
-                                     "Region": game["Region"], "Code": "",
+                                     "Region": game["Region"], "Code": game["Code"],
                                      "Game": "No", "Box": "No",
                                      "Manual": "No", "Year": game["Year"],
                                      "Comment": ""}))
