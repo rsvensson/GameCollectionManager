@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from PySide2.QtCore import Qt, Signal, QSortFilterProxyModel
+from PySide2.QtCore import Qt, QSortFilterProxyModel
 from PySide2.QtGui import QFont, QColor
 from PySide2.QtSql import QSqlTableModel
 

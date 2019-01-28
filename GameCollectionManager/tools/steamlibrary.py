@@ -1,5 +1,5 @@
-from steam import WebAPI
 from requests.exceptions import HTTPError
+from steam import WebAPI
 
 
 def getSteamLibrary(apiKey: str, steamID: int) -> list:

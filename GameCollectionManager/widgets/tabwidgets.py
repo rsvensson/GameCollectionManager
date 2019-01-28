@@ -1,11 +1,11 @@
-from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout, \
-    QPushButton, QLabel, QListWidget, QAbstractItemView, QTableView
-from PySide2.QtSql import QSqlTableModel, QSqlQuery
-from PySide2.QtGui import QFont
-from PySide2.QtCore import Qt, Signal, QModelIndex
 from collections import OrderedDict
 from random import randint
 
+from PySide2.QtCore import Qt, Signal, QModelIndex
+from PySide2.QtGui import QFont
+from PySide2.QtSql import QSqlTableModel, QSqlQuery
+from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout, \
+    QPushButton, QLabel, QListWidget, QAbstractItemView, QTableView
 from widgets.models import TableModel
 
 

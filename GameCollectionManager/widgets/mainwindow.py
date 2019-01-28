@@ -1,17 +1,16 @@
 #!/usr/bin/env python
 
+from PySide2.QtGui import QIcon
+from PySide2.QtSql import QSqlDatabase, QSqlQuery
 from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget, \
     QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget, \
     QWidget, QLabel, QPushButton, QGridLayout, QInputDialog, QProgressBar
-from PySide2.QtGui import QIcon
-from PySide2.QtSql import QSqlDatabase, QSqlQuery
-
 from tools.steamlibrary import getSteamLibrary
-from widgets.tabwidgets import Table, Randomizer
-from widgets.searchdock import AdvancedSearch
-from widgets.inputwindow import InputWindow
 from widgets.importwindow import ImportWindow
+from widgets.inputwindow import InputWindow
 from widgets.overview import Overview
+from widgets.searchdock import AdvancedSearch
+from widgets.tabwidgets import Table, Randomizer
 
 _VERSION = "0.1.0"
 

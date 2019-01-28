@@ -1,0 +1,5 @@
+numpy
+matplotlib
+steam
+requests
+PySide2

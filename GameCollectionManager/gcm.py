@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
-import sys
 import platform
+import sys
 
 from PySide2.QtCore import Qt
 from PySide2.QtGui import QPalette, QColor

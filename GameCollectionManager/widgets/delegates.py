@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-from PySide2.QtWidgets import QApplication, QStyle, QStyledItemDelegate, QStyleOptionViewItem
 from PySide2.QtCore import QEvent, QRect, QSize, Qt
+from PySide2.QtWidgets import QApplication, QStyle, QStyledItemDelegate, QStyleOptionViewItem
 
 
 class CheckboxDelegate(QStyledItemDelegate):

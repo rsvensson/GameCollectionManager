@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 
-import pandas as pd
-import requests
-from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen
+
+from bs4 import BeautifulSoup as bs
 
 
 class TableParser:
