@@ -5,6 +5,7 @@ Game Collection Manager using QT for Python
 * Search/filter your library
 * Import Steam library
 * Import platform template
+* Export library to CSV
 * Library overview/stats
 * Game randomizer
 
@@ -19,6 +20,8 @@ To import games either use 'Add to collection' to add a single item (game/consol
 * Add to collection - Adds a single item to the collection. Select item type (game/console/accessory) and platform, and enter the information for the item.
 * Import Steam library - This allows you to import your Steam library into GCM. You need a Steam Web API key (https://steamcommunity.com/dev/apikey) as well as your SteamID.
 * Import platform template - When importing a platform template, all games for the selected platforms are imported but neither the 'Game', 'Box' or 'Manual' checkboxes are checked. These games are treated as not being part of your collection. To show them, untick the checkbox under 'View->Hide games not in collection'. To add games from the template, simply check the checkboxes of the games you own. When you're done, use 'View->Remove items not in collection' to remove unchecked items.
+### Export collection to CSV
+Choose which tables you want to export and the filetype. Possible filetypes are csv (comma-separated values) and tsv (tab-separated values). The resulting files will be put in the GameCollectionManager folder.
 
 ## Dependencies
 * PySide2
