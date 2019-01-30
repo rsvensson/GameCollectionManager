@@ -4,8 +4,9 @@ from PySide2.QtGui import QIcon
 from PySide2.QtSql import QSqlDatabase, QSqlQuery
 from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget, \
     QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget, \
-    QWidget, QLabel, QPushButton, QGridLayout, QInputDialog, QProgressBar
+    QWidget, QLabel, QPushButton, QGridLayout, QInputDialog, QProgressBar, QVBoxLayout, QComboBox, QHBoxLayout
 from utilities.steamlibrary import getSteamLibrary
+from utilities.exportcsv import sql2csv
 from widgets.importwindow import ImportWindow
 from widgets.inputwindow import InputWindow
 from widgets.overview import Overview
@@ -71,7 +72,7 @@ class MainWindow(QMainWindow):
 
         self.fileMenu = self.menuBar().addMenu(self.tr("&File"))
         self.fileMenu.addAction(self.buttonActions("add"))
-        self.fileMenu.addAction(self.buttonActions("open"))
+        self.fileMenu.addAction(self.buttonActions("export"))
         self.fileMenu.addAction(self.buttonActions("import"))
         self.fileMenu.addAction(self.buttonActions("steam"))
         self.fileMenu.insertSeparator(self.buttonActions("exit"))
@@ -277,6 +278,64 @@ class MainWindow(QMainWindow):
                     self.overview.updateData(self.gamesTableView)
                     self.randomizer.updateData(self.gamesTableView.ownedItems())
 
+    def exportToCSV(self):
+        def doexport():
+            filetype = filetypes.currentText()
+            exportTables = []
+            if tablesBox.currentIndex() == 0:
+                for table in tables[1:]:
+                    exportTables.append(table.lower())
+            elif tablesBox.currentIndex() == 1:
+                exportTables.append("games")
+            elif tablesBox.currentIndex() == 2:
+                exportTables.append("consoles")
+            elif tablesBox.currentIndex() == 3:
+                exportTables.append("accessories")
+
+            sql2csv(self.db, exportTables, filetype)
+            exportWindow.close()
+
+        exportWindow = QDialog()
+
+        tables = ["All", "Games", "Consoles", "Accessories"]
+        tablesLabel = QLabel("Tables to export")
+        tablesBox = QComboBox()
+        #tablesBox.addItem(None, text="All")
+        tablesBox.addItems(tables)
+        tablesLayout = QHBoxLayout()
+        tablesLayout.addWidget(tablesLabel)
+        tablesLayout.addWidget(tablesBox)
+
+        filetypesLabel = QLabel("Filetype")
+        filetypes = QComboBox()
+        filetypes.addItems(["csv", "tsv"])
+        filetypesLayout = QHBoxLayout()
+        filetypesLayout.addWidget(filetypesLabel)
+        filetypesLayout.addWidget(filetypes)
+
+        # filenameLabel = QLabel("Filename")
+        # filename = QLineEdit()
+        # filesLayout = QHBoxLayout()
+        # filesLayout.addWidget(filenameLabel)
+        # filesLayout.addWidget(filename)
+
+        ok = QPushButton("Ok")
+        ok.clicked.connect(doexport)
+        cancel = QPushButton("Cancel")
+        cancel.clicked.connect(exportWindow.close)
+        buttonLayout = QHBoxLayout()
+        buttonLayout.addWidget(ok)
+        buttonLayout.addWidget(cancel)
+
+        layout = QVBoxLayout()
+        layout.addLayout(tablesLayout)
+        # layout.addLayout(filesLayout)
+        layout.addLayout(filetypesLayout)
+        layout.addLayout(buttonLayout)
+
+        exportWindow.setLayout(layout)
+        exportWindow.exec_()
+
     # noinspection PyCallByClass,PyTypeChecker
     def buttonActions(self, action: str) -> QAction:
         addAct = QAction(QIcon().fromTheme("list-add"), "&Add to collection", self)
@@ -294,9 +353,10 @@ class MainWindow(QMainWindow):
         delAct.setToolTip("Delete from collection")
         delAct.triggered.connect(self.deleteFromCollection)
 
-        opnAct = QAction(QIcon.fromTheme("document-open"), "&Open csv file", self)
-        opnAct.setShortcut("Ctrl+O")
-        opnAct.setToolTip("Open a csv file for reading")
+        expAct = QAction(QIcon.fromTheme("text-x-generic-template"), "&Export as csv...", self)
+        expAct.setShortcut("Ctrl+E")
+        expAct.setToolTip("Export table as CSV file")
+        expAct.triggered.connect(self.exportToCSV)
 
         savAct = QAction(QIcon.fromTheme("document-save"), "&Save tables", self)
         savAct.setShortcut("Ctrl+S")
@@ -331,7 +391,7 @@ class MainWindow(QMainWindow):
         infoAct = QAction("Debug: Print row info", self)
         infoAct.triggered.connect(self.info)
 
-        act = {"add": addAct, "del": delAct, "open": opnAct, "import": impAct,
+        act = {"add": addAct, "del": delAct, "export": expAct, "import": impAct,
                "steam": stmAct, "owned": ownAct, "delnotowned": delNotOwned,
                "about": aboutAct, "exit": exitAct, "info": infoAct}
 
