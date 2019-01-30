@@ -13,7 +13,7 @@ def sql2csv(db: QSqlDatabase, tables: list, filetype: str):
             print(str(e))
 
     for table in tables:
-        query = db.exec_("SELECT * FROM {}".format(table))
+        query = db.exec_("SELECT * FROM {} ORDER BY Platform ASC, Name ASC".format(table))
         while query.next():
             if table == "games":
                 rows.append(OrderedDict([("Platform", query.value(1)),
