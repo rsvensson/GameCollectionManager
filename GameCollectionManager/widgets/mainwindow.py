@@ -5,7 +5,7 @@ from PySide2.QtSql import QSqlDatabase, QSqlQuery
 from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget, \
     QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget, \
     QWidget, QLabel, QPushButton, QGridLayout, QInputDialog, QProgressBar
-from tools.steamlibrary import getSteamLibrary
+from utilities.steamlibrary import getSteamLibrary
 from widgets.importwindow import ImportWindow
 from widgets.inputwindow import InputWindow
 from widgets.overview import Overview
