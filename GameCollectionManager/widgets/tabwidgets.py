@@ -386,23 +386,23 @@ class Randomizer(QWidget):
         self._gamesData = gamesData
         self._gameCount = 0
 
-        self._consoleList = QListWidget()
+        self.consoleList = QListWidget()
         self._consoleItems = set()
         for row in gamesData:
             self._consoleItems.add(row["Platform"])
-        self._consoleList.addItems(sorted(self._consoleItems, key=str.lower))
-        self._consoleList.setSelectionMode(QAbstractItemView.MultiSelection)
-        self._consoleList.setMaximumWidth(350)
-        self._consoleList.itemClicked.connect(self._updateGameCount)
+        self.consoleList.addItems(sorted(self._consoleItems, key=str.lower))
+        self.consoleList.setSelectionMode(QAbstractItemView.MultiSelection)
+        self.consoleList.setMaximumWidth(350)
+        self.consoleList.itemClicked.connect(self._updateGameCount)
 
-        self._btnAll = QPushButton("Select All")
-        self._btnAll.setMaximumSize(self._btnAll.sizeHint())
-        self._btnAll.clicked.connect(self._consoleList.selectAll)
-        self._btnAll.clicked.connect(self._updateGameCount)
-        self._btnNone = QPushButton("Select None")
-        self._btnNone.setMaximumSize(self._btnNone.sizeHint())
-        self._btnNone.clicked.connect(self._consoleList.clearSelection)
-        self._btnNone.clicked.connect(self._updateGameCount)
+        self.btnAll = QPushButton("Select All")
+        self.btnAll.setMaximumSize(self.btnAll.sizeHint())
+        self.btnAll.clicked.connect(self.consoleList.selectAll)
+        self.btnAll.clicked.connect(self._updateGameCount)
+        self.btnNone = QPushButton("Select None")
+        self.btnNone.setMaximumSize(self.btnNone.sizeHint())
+        self.btnNone.clicked.connect(self.consoleList.clearSelection)
+        self.btnNone.clicked.connect(self._updateGameCount)
         self._btnRnd = QPushButton("Randomize")
         self._btnRnd.setMaximumSize(self._btnRnd.sizeHint())
         self._btnRnd.clicked.connect(self._randomize)
@@ -421,8 +421,8 @@ class Randomizer(QWidget):
         self._hbox = QHBoxLayout()
         self._vbox = QVBoxLayout()
         self._grid = QGridLayout()
-        self._hbox.addWidget(self._btnAll, 0)
-        self._hbox.addWidget(self._btnNone, 0)
+        self._hbox.addWidget(self.btnAll, 0)
+        self._hbox.addWidget(self.btnNone, 0)
         self._hbox.addWidget(self._btnRnd, 0)
         self._vbox.addStretch(3)
         self._vbox.addWidget(self._lblPlay, 1)
@@ -430,7 +430,7 @@ class Randomizer(QWidget):
         self._vbox.addStretch(3)
         self._grid.setMargin(0)
         self._grid.setSpacing(0)
-        self._grid.addWidget(self._consoleList, 0, 0)
+        self._grid.addWidget(self.consoleList, 0, 0)
         self._grid.addLayout(self._hbox, 1, 0)
         self._grid.addLayout(self._vbox, 0, 1, 1, -1)
 
@@ -438,7 +438,7 @@ class Randomizer(QWidget):
         self.widget.setLayout(self._grid)
 
     def _getSelectedPlatforms(self) -> list:
-        return [x.text() for x in self._consoleList.selectedItems()]
+        return [x.text() for x in self.consoleList.selectedItems()]
 
     def _randomize(self):
         platforms = self._getSelectedPlatforms()
@@ -472,12 +472,12 @@ class Randomizer(QWidget):
     def updateData(self, gamesData: list):
         self._gamesData.clear()
         self._consoleItems.clear()
-        self._consoleList.clear()
+        self.consoleList.clear()
 
         self._gamesData = gamesData
         for row in self._gamesData:
             self._consoleItems.add(row["Platform"])
-        self._consoleList.addItems(sorted(self._consoleItems, key=str.lower))
+        self.consoleList.addItems(sorted(self._consoleItems, key=str.lower))
 
 
 """class Table(QTableWidget):
