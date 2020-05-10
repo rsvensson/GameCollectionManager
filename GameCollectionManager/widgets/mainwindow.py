@@ -443,7 +443,7 @@ class MainWindow(QMainWindow):
             self.advSearch.setItemType(currentTab)
             self.tableViewList[currentTab - 1].filterTable(searchText, self.advSearch.getSelections())
 
-            if searchText is not "" or len(self.advSearch.getSelections()) > 0:
+            if searchText != "" or len(self.advSearch.getSelections()) > 0:
                 self.statusBar().showMessage("Found {} {}.".format(self.tableViewList[currentTab-1].model.rowCount(),
                                                                    self.tableViewList[currentTab-1].model.tableName()))
             else:
