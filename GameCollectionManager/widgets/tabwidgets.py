@@ -106,7 +106,7 @@ class Table(QTableView):
 
         if isinstance(newData, list):
             if itemID != 0:
-                query.exec_("SELECT COUNT(*) FROM {}".format(table))
+                query.exec_(f"SELECT COUNT(*) FROM {table}")
                 query.first()
                 itemID = query.value(0)
 
@@ -141,7 +141,7 @@ class Table(QTableView):
 
         elif isinstance(newData, OrderedDict) or isinstance(newData, dict):
             if itemID != 0:
-                query.exec_("SELECT COUNT(*) FROM {}".format(table))
+                query.exec_(f"SELECT COUNT(*) FROM {table}")
                 query.first()
                 itemID = query.value(0)
 
@@ -188,12 +188,12 @@ class Table(QTableView):
     def deleteNotOwned(self):
         rows = []
         query = QSqlQuery()
-        query.exec_("SELECT ID FROM {} WHERE {}='No' AND Box='No' AND Manual='No'".format(self._table, self._itemType))
+        query.exec_(f"SELECT ID FROM {self._table} WHERE {self._itemType}='No' AND Box='No' AND Manual='No'")
         while query.next():
             rows.append(query.value(0))
 
         for row in rows:
-            query.exec_("DELETE FROM {} WHERE ID={}".format(self._table, row))
+            query.exec_(f"DELETE FROM {self._table} WHERE ID={row}")
         self.model.select()
         self.resizeRowsToContents()
 
@@ -207,8 +207,8 @@ class Table(QTableView):
         # Reset filtering to default if no search filters
         if filterText == "" and len(selections) == 0:
             if self._hideNotOwned:
-                self.model.setFilter("{}='Yes' OR Box='Yes' OR Manual='Yes' "
-                                     "ORDER BY Platform ASC, Name ASC".format(self._itemType))
+                self.model.setFilter(f"{self._itemType}='Yes' OR Box='Yes' OR Manual='Yes' "
+                                     "ORDER BY Platform ASC, Name ASC")
             else:
                 self.model.setFilter("1=1 ORDER BY Platform ASC, Name ASC")
             self.resizeRowsToContents()
@@ -216,33 +216,33 @@ class Table(QTableView):
 
         # Filter based on advanced search options
         elif len(selections) > 0:
-            f = "(Name LIKE '%{}%' " \
-                "OR Year LIKE '%{}%' " \
-                "OR Comment LIKE '%{}%') ".format(filterText, filterText, filterText)
+            f = f"(Name LIKE '%{filterText}%' " \
+                f"OR Year LIKE '%{filterText}%' " \
+                f"OR Comment LIKE '%{filterText}%') "
             if self._hideNotOwned:
-                f += "AND ({}='Yes' OR Box='Yes' OR Manual='Yes') ".format(self._itemType)
+                f += f"AND ({self._itemType}='Yes' OR Box='Yes' OR Manual='Yes') "
             for selection in selections:
                 items = list(selections[selection])
-                f += "AND ({} = '{}' ".format(selection, items[0])
+                f += f"AND ({selection} = '{items[0]}' "
                 if len(items) > 1:
                     for item in items[1:]:
-                        f += "OR {} = '{}' ".format(selection, item)
+                        f += f"OR {selection} = '{item}' "
                 f += ") "
         else:  # Regular, simple, filter. It just seaches almost every column
-            f = "(Platform LIKE '%{}%' " \
-                "OR Name LIKE '%{}%' " \
-                "OR Region LIKE '%{}%' " \
-                "OR Comment LIKE '%{}%' " \
-                "OR Year LIKE '%{}%' ".format(filterText, filterText, filterText, filterText, filterText)
+            f = f"(Platform LIKE '%{filterText}%' " \
+                f"OR Name LIKE '%{filterText}%' " \
+                f"OR Region LIKE '%{filterText}%' " \
+                f"OR Comment LIKE '%{filterText}%' " \
+                f"OR Year LIKE '%{filterText}%' "
             if self._table == "games":
-                f += "OR Code LIKE '%{}%') ".format(filterText)
+                f += f"OR Code LIKE '%{filterText}%') "
             elif self._table == "consoles":
-                f += "OR Country LIKE '%{}%' " \
-                     "OR `Serial number` LIKE '%{}%') ".format(filterText, filterText)
+                f += f"OR Country LIKE '%{filterText}%' " \
+                     f"OR `Serial number` LIKE '%{filterText}%') "
             elif self._table == "accessories":
-                f += "OR Country LIKE '%{}%') ".format(filterText)
+                f += f"OR Country LIKE '%{filterText}%') "
             if self._hideNotOwned:
-                f += "AND ({}='Yes' OR Box='Yes' OR Manual='Yes') ".format(self._itemType)
+                f += f"AND ({self._itemType}='Yes' OR Box='Yes' OR Manual='Yes') "
 
         f += "ORDER BY Platform ASC, Name ASC"
 
@@ -259,9 +259,8 @@ class Table(QTableView):
         count = 0
 
         query = QSqlQuery()
-        query.exec_("SELECT Name FROM {} WHERE Platform='{}'"
-                    "AND ({}='Yes' OR Box='Yes' OR Manual='Yes')".format(
-            self._table, platform, self._itemType))
+        query.exec_(f"SELECT Name FROM {self._table} WHERE Platform='{platform}'"
+                    f"AND ({self._itemType}='Yes' OR Box='Yes' OR Manual='Yes')")
         while query.next():
             count += 1
 
@@ -277,8 +276,7 @@ class Table(QTableView):
         count = 0
 
         query = QSqlQuery()
-        query.exec_("SELECT Name FROM {} WHERE {}='Yes' OR Box='Yes' OR Manual='Yes'".format(
-            self._table, self._itemType))
+        query.exec_(f"SELECT Name FROM {self._table} WHERE {self._itemType}='Yes' OR Box='Yes' OR Manual='Yes'")
         while query.next():
             count += 1
 
@@ -294,8 +292,8 @@ class Table(QTableView):
         items = []
 
         query = QSqlQuery()
-        query.exec_("SELECT Platform, Name, Region FROM {} WHERE {}='Yes' OR Box='Yes' OR Manual='Yes'".format(
-            self._table, self._itemType))
+        query.exec_("SELECT Platform, Name, Region "
+                    f"FROM {self._table} WHERE {self._itemType}='Yes' OR Box='Yes' OR Manual='Yes'")
         while query.next():
             items.append(dict(Platform=query.value(0), Name=query.value(1), Region=query.value(2)))
 
@@ -310,7 +308,7 @@ class Table(QTableView):
         platforms = set()
 
         query = QSqlQuery()
-        query.exec_("SELECT Platform FROM {}".format(self._table))
+        query.exec_(f"SELECT Platform FROM {self._table}")
         while query.next():
             platforms.add(query.value(0))
 
@@ -333,7 +331,7 @@ class Table(QTableView):
         query = QSqlQuery()
         length = 11 if table == "consoles" else 10
 
-        query.exec_("SELECT * FROM {} WHERE ID={}".format(table, row))
+        query.exec_(f"SELECT * FROM {table} WHERE ID={row}")
         query.first()
 
         for i in range(length):
@@ -451,8 +449,8 @@ class Randomizer(QWidget):
 
             choice = randint(0, len(games) - 1)
             self._lblPlay.setText("You will play:")
-            self._lblTitle.setText("{}".format(games[choice]["Name"]) if len(platforms) == 1 else
-                                   "{} [{}]".format(games[choice]["Name"], games[choice]["Platform"]))
+            self._lblTitle.setText(f"{games[choice]['Name']}" if len(platforms) == 1 else
+                                   f"{games[choice]['Name']} [{games[choice]['Platform']}]")
         else:
             self._lblPlay.setText("")
             self._lblTitle.setText("Select at least one console...")

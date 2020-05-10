@@ -63,7 +63,7 @@ class CollectionDataCanvas(MplCanvas):
     def _setupBars(self, ax, bars, index, platforms):
         """Settings for bar graphs. Sets up labels, ticks,
            and puts the bar values as text on top of the bars."""
-        ax.set_title("{} per platform".format(self._ylabel))
+        ax.set_title(f"{self._ylabel} per platform")
         ax.set_xlabel(self._xlabel)
         ax.set_ylabel(self._ylabel)
         ax.set_xticks(index)
@@ -104,7 +104,7 @@ class Overview(QWidget):
         self._platforms = []  # List of platforms from all tables
         self._extractData()  # Populate variables above with data
         self._lblTotal = QLabel()
-        self._lblTotal.setText("Total items in collection: {}".format(self._totalItems))
+        self._lblTotal.setText(f"Total items in collection: {self._totalItems}")
 
         # Canvas plots
         self._gd = CollectionDataCanvas(self.widget, self._gamesData, "Games")
@@ -141,8 +141,7 @@ class Overview(QWidget):
 
         for i, table in enumerate(self._tables):
             self._lblTables.append(QLabel())
-            self._lblTables[i].setText("Number of {}: {}".format(table.model.tableName(),
-                                                                 table.ownedCount()))
+            self._lblTables[i].setText(f"Number of {table.model.tableName()}: {table.ownedCount()}")
 
         # Counts how many items each platform has and puts it into a dictionary
         self._platforms = sorted(tempPlatforms, key=str.lower)
@@ -161,19 +160,19 @@ class Overview(QWidget):
     def updateData(self, table):
         if table.model.tableName() == "games":
             self._gamesData.clear()
-            self._lblTables[0].setText("Number of games: {}".format(table.ownedCount()))
+            self._lblTables[0].setText(f"Number of games: {table.ownedCount()}")
             for platform in sorted(table.platforms(), key=str.lower):
                 self._gamesData[platform] = table.itemsInPlatform(platform)
             self._gd.updateFigure(self._gamesData)
         elif table.model.tableName() == "consoles":
             self._consoleData.clear()
-            self._lblTables[1].setText("Number of consoles: {}".format(table.ownedCount()))
+            self._lblTables[1].setText(f"Number of consoles: {table.ownedCount()}")
             for platform in sorted(table.platforms(), key=str.lower):
                 self._consoleData[platform] = table.itemsInPlatform(platform)
             self._cd.updateFigure(self._consoleData)
         elif table.model.tableName() == "accessories":
             self._accessoryData.clear()
-            self._lblTotal[2].setText("Number of accessories: {}".format(table.ownedCount()))
+            self._lblTables[2].setText(f"Number of accessories: {table.ownedCount()}")
             for platform in sorted(table.platforms(), key=str.lower):
                 self._accessoryData[platform] = table.itemsInPlatform(platform)
             self._ad.updateFigure(self._accessoryData)
@@ -181,4 +180,4 @@ class Overview(QWidget):
         self._totalItems = 0
         for tbl in self._tables:
             self._totalItems += tbl.ownedCount()
-        self._lblTotal.setText("Total items in collection: {}".format(self._totalItems))
+        self._lblTotal.setText(f"Total items in collection: {self._totalItems}")

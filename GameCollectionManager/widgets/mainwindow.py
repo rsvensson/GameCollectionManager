@@ -128,7 +128,7 @@ class MainWindow(QMainWindow):
             self.resize(1280, 768)
             self.center()
 
-        self.setWindowTitle("Game Collection Manager v{}".format(_VERSION))
+        self.setWindowTitle(f"Game Collection Manager v{_VERSION}")
         self.statusBar().showMessage("")
 
     def about(self):
@@ -136,7 +136,7 @@ class MainWindow(QMainWindow):
         aboutMsg.setIcon(QMessageBox.Information)
         aboutMsg.setWindowTitle("About")
         aboutMsg.setText("<h2>Game Collection Manager</h2>")
-        aboutMsg.setInformativeText("Version {}\n".format(_VERSION))
+        aboutMsg.setInformativeText(f"Version {_VERSION}\n")
         aboutMsg.exec_()
         self.updateStatusbar()
 
@@ -425,7 +425,7 @@ class MainWindow(QMainWindow):
         names = [index.data() for index in indexes]
         query = QSqlQuery()
         for name in names:
-            query.exec_("SELECT ID FROM {} WHERE Name='{}'".format(table, name))
+            query.exec_(f"SELECT ID FROM {table} WHERE Name='{name}'")
             query.first()
             print(query.lastError().text())
             self.tableViewList[currentTab-1].rowInfo(query.value(0))
@@ -473,7 +473,7 @@ class MainWindow(QMainWindow):
         elif 0 < currentTab < 4:
             numItems = self.tableViewList[currentTab-1].ownedCount()
             if self.tableViewList[currentTab-1]._hideNotOwned:
-                self.statusBar().showMessage("{} {} in collection.".format(numItems, itemType[currentTab-1]))
+                self.statusBar().showMessage(f"{numItems} {itemType[currentTab-1]} in collection.")
             else:
                 self.statusBar().showMessage("Showing {} {} ({} {} in collection).".format(
                     self.tableViewList[currentTab-1].model.rowCount(),  # TODO: Only shows currently loaded rows
@@ -484,5 +484,5 @@ class MainWindow(QMainWindow):
             platforms = self.randomizer.consoleList.selectedItems()
             self.statusBar().showMessage("Select platforms to randomize from.")
             if len(platforms) > 0:
-                self.statusBar().showMessage("Selecting from {} games.".format(self.randomizer.gameCount()))
+                self.statusBar().showMessage(f"Selecting from {self.randomizer.gameCount()} games.")
             return
