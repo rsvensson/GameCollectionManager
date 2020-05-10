@@ -139,7 +139,7 @@ class Table(QTableView):
                     )
                 itemID += 1
 
-        elif isinstance(newData, OrderedDict):
+        elif isinstance(newData, OrderedDict) or isinstance(newData, dict):
             if itemID != 0:
                 query.exec_("SELECT COUNT(*) FROM {}".format(table))
                 query.first()
