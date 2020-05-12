@@ -3,8 +3,11 @@ import bs4
 import requests
 import unicodedata  # For converting '\xa0' to spaces etc
 
-baseURL = "https://www.mobygames.com/game/"
-platforms = {  # name : url
+_baseURL = "https://www.mobygames.com/game/"
+_titleCSS = ".niceHeaderTitle > a:nth-child(1)"  # CSS for title string
+_platformCSS = ".niceHeaderTitle > small:nth-child(2) > a:nth-child(1)"  # CSS for platform string
+
+_platforms = {  # name : url
     "Arcade": "arcade",
     # Atari
     "Atari 2600": "atari-2600", "Atari 5200": "atari-5200",
@@ -40,7 +43,7 @@ platforms = {  # name : url
 }
 
 
-def parseTitle(title: str) -> str:
+def _parseTitle(title: str) -> str:
     # Parse game name to fit Moby Games' standards for URLs
 
     badchars = '''!()[]{};:'"\,<>./?@#$%^&*~ōūåäö'''
@@ -61,10 +64,9 @@ def _trySuggestions(title: str, platform: str):
     # Checks if the suggested URLs match
 
     newtitle = ""
-    pTitle = parseTitle(title)
-    res = requests.get(baseURL + "/".join((platforms[platform], pTitle, "release-info")))
+    pTitle = _parseTitle(title)
+    res = requests.get(_baseURL + "/".join((_platforms[platform], pTitle, "release-info")))
     suggestionsCSS = ".col-md-12 > div:nth-child(3) > ul:nth-child(2)"  # List of URLs
-    titleCSS = ".niceHeaderTitle > a:nth-child(1)"  # For comparing with the game title
 
     # Find new url
     url = re.compile(r'".*"')  # URL is located within quotation marks
@@ -79,13 +81,13 @@ def _trySuggestions(title: str, platform: str):
     for suggestion in suggestionURLs:
         # The suggestions all use the Combined View. Insert the platform into url
         temp = suggestion.strip('"').split('/')
-        temp.insert(4, platforms[platform])
+        temp.insert(4, _platforms[platform])
         newurl = "/".join(temp)
 
         # Get the platform and title strings
         res = requests.get(newurl)
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
-        te = soup.select(titleCSS)
+        te = soup.select(_titleCSS)
         if len(te) == 0:  # This shouldn't happen but who knows
             continue
         newtitle = te[0].text.strip()
@@ -106,23 +108,20 @@ def _trySuggestions(title: str, platform: str):
 def _tryAlternatives(title: str, platform: str):
     # Occasionally the title has a trailing '-' or '_' in the url
 
-    pTitle = parseTitle(title)
-    titleCSS = ".niceHeaderTitle > a:nth-child(1)"  # For comparing with the game title
-    platformCSS = ".niceHeaderTitle > small:nth-child(2) > a:nth-child(1)"
-
-    tempurl = [platforms[platform], pTitle]
+    pTitle = _parseTitle(title)
+    tempurl = [_platforms[platform], pTitle]
     for c in ["-", "_"]:
         tempurl[1] = pTitle  # Reset pTitle
         tempurl[1] += c  # Add either - or _ to string
-        res = requests.get(baseURL + "/".join(tempurl))  # Try alternative URL
+        res = requests.get(_baseURL + "/".join(tempurl))  # Try alternative URL
         try:
             res.raise_for_status()
         except (requests.exceptions.HTTPError):  # Not a valid page
             continue
         # Parse the html and get title and platform strings
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
-        te = soup.select(titleCSS)
-        pf = soup.select(platformCSS)
+        te = soup.select(_titleCSS)
+        pf = soup.select(_platformCSS)
         # Check if title and platform match
         if len(te) > 0 and te[0].text.strip() == title and pf[0].text.strip() == platform:
             return res
@@ -133,16 +132,17 @@ def _tryAlternatives(title: str, platform: str):
 
 
 def getMobyInfo(game: str, platform: str) -> dict():
-    platformCSS = ".niceHeaderTitle > small:nth-child(2) > a:nth-child(1)"
-    mobyCSSData = {"title": "html body div#wrapper div.container div#main.row div.col-md-12.col-lg-12 div.rightPanelHeader h1.niceHeaderTitle a",
-                   "publisher": "#coreGameRelease > div:nth-child(2) > a:nth-child(1)",
-                   "developer": "#coreGameRelease > div:nth-child(4) > a:nth-child(1)",
-                   "release": "#coreGameRelease > div:nth-child(6) > a:nth-child(1)",
-                   "platforms": "#coreGameRelease > div:nth-child(8)"}
-    pTitle = parseTitle(game)
+    mobyCSSData = {
+        "title": "html body div#wrapper div.container div#main.row div.col-md-12.col-lg-12 div.rightPanelHeader h1.niceHeaderTitle a",
+        "publisher": "#coreGameRelease > div:nth-child(2) > a:nth-child(1)",
+        "developer": "#coreGameRelease > div:nth-child(4) > a:nth-child(1)",
+        "release": "#coreGameRelease > div:nth-child(6) > a:nth-child(1)",
+        "platforms": "#coreGameRelease > div:nth-child(8)"
+    }
+    pTitle = _parseTitle(game)
 
     # Get data
-    res = requests.get(baseURL + "/".join((platforms[platform], pTitle, "release-info")))
+    res = requests.get(_baseURL + "/".join((_platforms[platform], pTitle, "release-info")))
     try:
         res.raise_for_status()
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
@@ -156,7 +156,7 @@ def getMobyInfo(game: str, platform: str) -> dict():
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
 
     for data in mobyCSSData.keys():
-        pf = soup.select(platformCSS)
+        pf = soup.select(_platformCSS)
         pf = pf[0].text.strip() if len(pf) > 0 else ""
         if pf != platform:
             # Try some alternative URLs
