@@ -145,15 +145,9 @@ class MainWindow(QMainWindow):
         Adds data to the collection using InputWindow
         """
 
-        # Get all the platforms in the collection for InputWindow's platform spinbox
-        platforms = set()
-        platforms |= self.gamesTableView.platforms()
-        platforms |= self.consolesTableView.platforms()
-        platforms |= self.accessoriesTableView.platforms()
-
         # Loop until user enters valid data
         while True:
-            self.addWindow = InputWindow(sorted(platforms, key=str.lower))
+            self.addWindow = InputWindow()
             if self.addWindow.exec_() == QDialog.Accepted:
                 data = self.addWindow.returnData()
 
