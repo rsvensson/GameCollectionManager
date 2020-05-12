@@ -345,10 +345,10 @@ def _trySuggestions(title: str, platform: str):
             return res, title
         else:
             # Try removing any weird characters from the sides of the game name:
-            title = title.rstrip("\\-%$£@")
-            title = title.lstrip("\\-%$£@")
-            if newtitle == title:
-                return res, title
+            t = title.rstrip("\\-%$£@")
+            t = t.lstrip("\\-%$£@")
+            if newtitle == t:
+                return res, t
             else:
                 continue
 
