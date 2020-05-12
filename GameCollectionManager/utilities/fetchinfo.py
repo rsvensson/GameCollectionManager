@@ -325,7 +325,7 @@ def _trySuggestions(title: str, platform: str):
     if len(res) > 0:
         suggestionURLs = url.findall(res.pop().decode())
     else:
-        return None
+        return None, title
 
     # Try each suggestion
     for suggestion in suggestionURLs:
@@ -390,6 +390,13 @@ def getMobyInfo(game: str, platform: str) -> dict():
         "platforms": "#coreGameRelease > div:nth-child(8)"
     }
     pTitle = _parseTitle(game)
+
+    # Some substitutions for certain platforms:
+    if platform == "Game & Watch":
+        game = "Game & Watch Wide Screen: " + game  # Need to figure out something better for each variety
+        platform = "Dedicated handheld"
+    elif platform == "Mega Drive":  # Because Genesis is a band not a console
+        platform = "Genesis"
 
     # Get data
     res = requests.get(_baseURL + "/".join((_platforms[platform], pTitle, "release-info")))
