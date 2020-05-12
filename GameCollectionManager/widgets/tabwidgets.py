@@ -7,6 +7,7 @@ from PySide2.QtSql import QSqlTableModel, QSqlQuery
 from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout, \
     QPushButton, QLabel, QListWidget, QAbstractItemView, QTableView
 from widgets.models import TableModel
+from utilities.fetchinfo import getMobyInfo
 
 
 class Table(QTableView):
@@ -334,8 +335,22 @@ class Table(QTableView):
         query.exec_(f"SELECT * FROM {table} WHERE ID={row}")
         query.first()
 
+        title = ""
+        platform = ""
         for i in range(length):
+            if table == "games":
+                if i == 1:
+                    platform = query.value(i)
+                if i == 2:
+                    title = query.value(i)
             print(query.value(i))
+
+        print()
+
+        if table == "games":
+            info = getMobyInfo(title, platform)
+            for i in info:
+                print(i + ":\t\t" + info[i])
 
     def setHideNotOwned(self, on: bool):
         self._hideNotOwned = on
