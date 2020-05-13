@@ -13,17 +13,17 @@ def _readTextFile(infile):
         with open(infile, 'r', encoding='utf8') as f:
             lines = f.readlines()
     except FileNotFoundError:
-        raise FileNotFoundError("No such file: {}".format(infile))
+        raise FileNotFoundError(f"No such file: {infile}")
 
     if len(lines) == 0:
-        raise IOError("File {} is empty!".format(infile))
+        raise IOError(f"File {infile} is empty!")
 
     gamedata = []
 
     # Extract the info we want
     for i, line in enumerate(lines):
         if "|" not in line:
-            raise TypeError("Line {} in file {} is missing '|' delimiters.".format(i, infile))
+            raise TypeError(f"Line {i} in file {infile} is missing '|' delimiters.")
         else:
             temp = line.split("|")
 
@@ -43,7 +43,7 @@ def _readTextFile(infile):
                                  "Year": "",
                                  "Code": temp[7]})
         else:
-            raise TypeError("Line {} in file {} malformed:\n{}".format(i, infile, temp))
+            raise TypeError(f"Line {i} in file {infile} malformed:\n{temp}")
 
     return gamedata
 
