@@ -1,4 +1,4 @@
-from collections import OrderedDict, defaultdict
+from collections import OrderedDict
 from random import randint
 
 from PySide2.QtCore import Qt, Signal, QModelIndex
