@@ -1,4 +1,4 @@
-from collections import OrderedDict
+from collections import OrderedDict, defaultdict
 from random import randint
 
 from PySide2.QtCore import Qt, Signal, QModelIndex
@@ -337,20 +337,43 @@ class Table(QTableView):
 
         title = ""
         platform = ""
+        columns = {"games": ["Id", "Platform", "Name", "Region", "Code", "Game", "Box", "Manual", "Year", "Comment"],
+                   "consoles": ["Id", "Platform", "Name", "Region", "Country", "Serial number", "Console", "Box", "Manual", "Year", "Comment"],
+                   "accessories": ["Id", "Platform", "Name", "Region", "Country", "Accessory", "Box", "Manual", "Year", "Comment"]}
+
         for i in range(length):
             if table == "games":
                 if i == 1:
                     platform = query.value(i)
                 if i == 2:
                     title = query.value(i)
+            col = columns[table][i]
+            print(col, end=":\t" if len(col) > 6 else ":\t\t\t" if len(col) < 3 else ":\t\t")
             print(query.value(i))
 
         print()
 
         if table == "games":
             info = getMobyInfo(title, platform)
+            print("====================================")
             for i in info:
-                print(i + ":\t\t" + info[i])
+                if i == "releases":
+                    releases = info[i].keys()
+                    details = info[i].values()
+                    print("====================================\n\n")
+                    print("====================================")
+                    print("Releases:")
+                    print("====================================")
+                    for release, detail in zip(releases, details):
+                        print(release + ":")
+                        print("------------------------------------")
+                        for d in detail:
+                            print(d[0] + ":\t\t\t\t" + d[1] if len(d[0]) < 7
+                                  else d[0] + ":\t" + d[1] if len(d[0]) > 16
+                                  else d[0] + ":\t\t" + d[1])
+                        print("====================================")
+                else:
+                    print(i + ":\t\t\t" + info[i] if i == "title" or i == "genre" else i + ":\t\t" + info[i])
 
     def setHideNotOwned(self, on: bool):
         self._hideNotOwned = on

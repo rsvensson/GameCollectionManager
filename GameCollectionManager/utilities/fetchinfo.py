@@ -1,7 +1,8 @@
 import re
 import bs4
 import requests
-import unicodedata  # For converting '\xa0' to spaces etc
+import unicodedata  as ucd  # For converting '\xa0' to spaces etc
+from collections import defaultdict
 
 _baseURL = "https://www.mobygames.com/game/"
 _titleCSS = ".niceHeaderTitle > a:nth-child(1)"  # CSS for title string
@@ -296,7 +297,7 @@ _platforms = {  # Name: URL
 def _parseTitle(title: str) -> str:
     # Parse game name to fit Moby Games' standards for URLs
 
-    badchars = '''!()[]{};:'"\,<>./?@#$%^&*~ōūåäö'''
+    badchars = '''!()[]{};:'"\,<>./?@#$%^&*~ōūåäöé'''
     title = title.lower()  # Make lowercase
     title = title.strip()  # Remove surrounding whitespace
     temp = []
@@ -356,11 +357,11 @@ def _trySuggestions(title: str, platform: str):
 
 
 def _tryAlternatives(title: str, platform: str):
-    # Occasionally the title has a trailing '-' or '_' in the url
+    # Occasionally the title has a trailing '-', '_', or rarely '__' in the url
 
     pTitle = _parseTitle(title)
     tempurl = [_platforms[platform], pTitle]
-    for c in ["-", "_"]:
+    for c in ["-", "_", "__"]:
         tempurl[1] = pTitle  # Reset pTitle
         tempurl[1] += c  # Add either - or _ to string
         res = requests.get(_baseURL + "/".join(tempurl))  # Try alternative URL
@@ -387,7 +388,8 @@ def getMobyInfo(game: str, platform: str) -> dict():
         "publisher": "#coreGameRelease > div:nth-child(2) > a:nth-child(1)",
         "developer": "#coreGameRelease > div:nth-child(4) > a:nth-child(1)",
         "release": "#coreGameRelease > div:nth-child(6) > a:nth-child(1)",
-        "platforms": "#coreGameRelease > div:nth-child(8)"
+        "platforms": "#coreGameRelease > div:nth-child(8)",
+        "genre": "#coreGameGenre > div:nth-child(1) > div:nth-child(2)"
     }
     pTitle = _parseTitle(game)
 
@@ -399,6 +401,7 @@ def getMobyInfo(game: str, platform: str) -> dict():
         platform = "Genesis"
 
     # Get data
+    # print(_baseURL + "/".join((_platforms[platform], pTitle, "release-info")))
     res = requests.get(_baseURL + "/".join((_platforms[platform], pTitle, "release-info")))
     try:
         res.raise_for_status()
@@ -421,18 +424,44 @@ def getMobyInfo(game: str, platform: str) -> dict():
             if res is None:  # Nothing was found.
                 return {x: "" for x in mobyCSSData.keys()}
             soup = bs4.BeautifulSoup(res.text, 'html.parser')
-        temp = soup.select(mobyCSSData[data])
         try:
+            temp = soup.select(mobyCSSData[data])
             if data == "platforms":
                 # Make sure we don't include the '| Combined View' text
-                mobyCSSData[data] = unicodedata.normalize("NFKD", temp[0].text.split("|", 1)[0].strip())
+                mobyCSSData[data] = ucd.normalize("NFKD", temp[0].text.split("|", 1)[0].strip())
                 # Also make sure to insert the platform we're looking for
                 if platform not in mobyCSSData[data]:
                     mobyCSSData[data] = platform + ", " + mobyCSSData[data]
             else:
-                mobyCSSData[data] = unicodedata.normalize("NFKD", temp[0].text.strip())
-        except (IndexError):  # Not all games have all data
-            mobyCSSData[data] = ""
+                mobyCSSData[data] = ucd.normalize("NFKD", temp[0].text.strip())
+        except (IndexError):  # Not all games have all data. Just add an empty string instead.
+            if data == "genre":
+                # If there's an ESRB rating it takes the place of the normal genre position
+                altGenreCSS = "#coreGameGenre > div:nth-child(2) > div:nth-child(4) > a:nth-child(1)"
+                try:
+                    temp = soup.select(altGenreCSS)
+                    mobyCSSData[data] = ucd.normalize("NFKD", temp[0].text.strip())
+                except (IndexError):  # Still nothing
+                    mobyCSSData[data] = ""
+            else:
+                mobyCSSData[data] = ""
+
+    # Get release info
+    releases = {}
+    info = soup.findAll("div", {"class": "floatholder relInfo"})
+    release = ""
+    for i in info:
+        titles = i.find_all("div", {"class": "relInfoTitle"})
+        details = i.find_all("div", {"class": "relInfoDetails"})
+
+        for title, detail in zip(titles, details):
+            if title.text.strip() in ("Country", "Countries"):  # Make the country name the dict key
+                release = detail.text.strip()
+                releases[release] = []
+            else:  # Add the rest of the info to the country name key
+                releases[release].append([ucd.normalize("NFKD", title.text.strip()),
+                                          ucd.normalize("NFKD", detail.text.strip())])
+    mobyCSSData["releases"] = releases
 
     return mobyCSSData
 
