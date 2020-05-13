@@ -304,8 +304,8 @@ def _parseTitle(title: str) -> str:
         if letter in badchars:
             continue
         temp.append(letter)
-        title = "".join(temp)
-        title = title.replace(" ", "-")  # Replace spaces inside string with hyphens
+    title = "".join(temp)
+    title = title.replace(" ", "-")  # Replace spaces inside string with hyphens
 
     # Remove leading "the"
     if title[:4] == "the-":
