@@ -307,6 +307,10 @@ def _parseTitle(title: str) -> str:
         title = "".join(temp)
         title = title.replace(" ", "-")  # Replace spaces inside string with hyphens
 
+    # Remove leading "the"
+    if title[:4] == "the-":
+        title = title[4:]
+
     return title
 
 
@@ -398,6 +402,8 @@ def getMobyInfo(game: str, platform: str) -> dict():
         platform = "Dedicated handheld"
     elif platform == "Mega Drive":  # Because Genesis is a band not a console
         platform = "Genesis"
+    elif platform == "Steam":
+        platform = "Windows"  # Well it could be Linux or Mac as well but...
 
     # Get data
     # print(_baseURL + "/".join((_platforms[platform], pTitle, "release-info")))
