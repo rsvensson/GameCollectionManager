@@ -415,14 +415,9 @@ class MainWindow(QMainWindow):
     def info(self):
         currentTab = self.tab.currentIndex()
         indexes = self.tableViewList[currentTab-1].selectedIndexes()
-        table = self.tableViewList[currentTab-1].model.tableName()
-        names = [index.data() for index in indexes]
-        query = QSqlQuery()
-        for name in names:
-            query.exec_(f"SELECT ID FROM {table} WHERE Name='{name}'")
-            query.first()
-            print(query.lastError().text())
-            self.tableViewList[currentTab-1].rowInfo(query.value(0))
+        rows = [index.row() for index in indexes]
+        for row in rows:
+            self.tableViewList[currentTab-1].rowInfo(row)
 
     def search(self):
         """Filters table contents based on user input"""
