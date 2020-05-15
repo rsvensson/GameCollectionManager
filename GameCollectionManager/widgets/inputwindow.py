@@ -1,6 +1,7 @@
+import re
 from collections.__init__ import OrderedDict
 
-from PySide2.QtCore import QSize
+from PySide2.QtCore import QSize, Qt
 from PySide2.QtWidgets import QDialog, QLabel, QComboBox, QLineEdit, QCheckBox, QPushButton, QVBoxLayout, QHBoxLayout, \
     QInputDialog, QDesktopWidget, QMessageBox
 from utilities.fetchinfo import getMobyInfo
@@ -308,15 +309,22 @@ class InputWindow(QDialog):
 
         self._nameLabel = QLabel("Name\t ")
         self._name = QLineEdit()
+        self._name.textChanged.connect(self._changeWidgets)
 
         self._platformLabel = QLabel("Platform\t ")
         self._platform = QComboBox()
+        self._platform.view().setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
+        self._platform.addItems(["", "(New platform)"])
         self._platform.addItems(self._platforms)
-        self._platform.addItem("(New platform)")
         self._platform.currentIndexChanged.connect(self._addPlatform)
 
+        self._autofillButton = QPushButton("Autofill")
+        self._autofillButton.clicked.connect(self._autofill)
+        self._autofillButton.setEnabled(False)
+
         self._regionLabel = QLabel("Region\t ")
-        self._region = QLineEdit()
+        self._region = QComboBox()
+        self._region.addItems(["NTSC (JP)", "NTSC (NA)", "PAL"])
 
         self._countryLabel = QLabel("Country\t ")
         self._countryLabel.setEnabled(False)
@@ -338,6 +346,9 @@ class InputWindow(QDialog):
         self._yearLabel = QLabel("Year\t ")
         self._year = QLineEdit()
 
+        self._genreLabel = QLabel("Genre\t ")
+        self._genre = QLineEdit()
+
         self._commentLabel = QLabel("Comment")
         self._comment = QLineEdit()
 
@@ -357,6 +368,8 @@ class InputWindow(QDialog):
         self._hboxName = QHBoxLayout()
         self._hboxName.addStretch()
         self._hboxPlatform = QHBoxLayout()
+        self._hboxFetch = QHBoxLayout()
+        self._hboxFetch.addStretch()
         self._hboxRegion = QHBoxLayout()
         self._hboxRegion.addStretch()
         self._hboxCode = QHBoxLayout()
@@ -365,6 +378,7 @@ class InputWindow(QDialog):
         self._hboxCountry.addStretch()
         self._hboxBoxMan = QHBoxLayout()
         self._hboxYear = QHBoxLayout()
+        self._hboxGenre = QHBoxLayout()
         self._hboxComment = QHBoxLayout()
         self._hboxComment.addStretch()
         self._hboxBtn = QHBoxLayout()
@@ -384,6 +398,8 @@ class InputWindow(QDialog):
         self._hboxCountry.addWidget(self._country, 1)
         self._hboxYear.addWidget(self._yearLabel, 0)
         self._hboxYear.addWidget(self._year, 1)
+        self._hboxGenre.addWidget(self._genreLabel, 0)
+        self._hboxGenre.addWidget(self._genre, 1)
         self._hboxComment.addWidget(self._commentLabel, 0)
         self._hboxComment.addWidget(self._comment, 1)
         self._hboxBoxMan.addStretch(10)
@@ -396,8 +412,10 @@ class InputWindow(QDialog):
         self._hboxBoxMan.addWidget(self._manualLabel, 4)
         self._hboxBoxMan.addWidget(self._manual, 5)
         self._hboxBoxMan.addStretch(10)
-        self._hboxBtn.addWidget(self._okButton, 0)
-        self._hboxBtn.addWidget(self._cnclButton, 1)
+        self._hboxBtn.addWidget(self._autofillButton, 0, Qt.AlignLeft)
+        self._hboxBtn.addStretch(10)
+        self._hboxBtn.addWidget(self._okButton, 1)
+        self._hboxBtn.addWidget(self._cnclButton, 2)
 
         self._vbox.addLayout(self._hboxType, 0)
         self._vbox.addLayout(self._hboxName, 1)
@@ -406,9 +424,10 @@ class InputWindow(QDialog):
         self._vbox.addLayout(self._hboxCode, 4)
         self._vbox.addLayout(self._hboxCountry, 5)
         self._vbox.addLayout(self._hboxYear, 6)
-        self._vbox.addLayout(self._hboxComment, 7)
-        self._vbox.addLayout(self._hboxBoxMan, 8)
-        self._vbox.addLayout(self._hboxBtn, 9)
+        self._vbox.addLayout(self._hboxGenre, 7)
+        self._vbox.addLayout(self._hboxComment, 8)
+        self._vbox.addLayout(self._hboxBoxMan, 9)
+        self._vbox.addLayout(self._hboxBtn, 10)
 
         self.setLayout(self._vbox)
 
@@ -417,6 +436,12 @@ class InputWindow(QDialog):
         self._center()
 
     def _addPlatform(self):
+        if (self._platform.currentText() not in ("", "(New platform)") and
+                self._name.text() != "" and not self._name.text().isspace()):
+            self._autofillButton.setEnabled(True)
+        else:
+            self._autofillButton.setEnabled(False)
+
         if self._platform.currentText() == "(New platform)":
             while True:
                 platform, ok = QInputDialog.getText(self, "Add platform",
@@ -433,7 +458,7 @@ class InputWindow(QDialog):
                         lastIndex = self._platform.count()
                         self._platform.addItem(platform)
                         self._platform.setCurrentIndex(lastIndex)
-                        self._platform.removeItem(self._platform.findText(" "))  # Remove the temp empty item if any
+                        # self._platform.removeItem(self._platform.findText(" "))  # Remove the temp empty item if any
                         break
                 else:
                     break
@@ -457,6 +482,11 @@ class InputWindow(QDialog):
             self._country.setEnabled(False)
             self._codeLabel.setText("Code\t ")
             self._itemLabel.setText("Game")
+            if (self._name.text() != "" and not self._name.text().isspace() and
+                    self._platform.currentText() not in ("", "(New platform)")):
+                self._autofillButton.setEnabled(True)
+            else:
+                self._autofillButton.setEnabled(False)
         elif self._dataType.currentIndex() == 1:
             self._codeLabel.setEnabled(True)
             self._code.setEnabled(True)
@@ -464,12 +494,91 @@ class InputWindow(QDialog):
             self._country.setEnabled(True)
             self._codeLabel.setText("Serial No\t ")
             self._itemLabel.setText("Console")
+            self._autofillButton.setEnabled(False)
         elif self._dataType.currentIndex() == 2:
             self._countryLabel.setEnabled(True)
             self._country.setEnabled(True)
             self._codeLabel.setEnabled(False)
             self._code.setEnabled(False)
             self._itemLabel.setText("Accessory")
+            self._autofillButton.setEnabled(False)
+
+    def _autofill(self):
+        name = self._name.text()
+        platform = self._platform.currentText()
+        regionDict = {"NTSC (JP)": ("Japan", "Worldwide"),
+                      "NTSC (NA)": ("United States", "Canada", "Worldwide"),
+                      "PAL": ("United Kingdom", "Ireland", "Germany", "France", "Italy",
+                              "Austria", "Belgium", "The Netherlands", "Portugal",
+                              "Spain", "Switzerland", "Russia",
+                              "Sweden", "Denmark", "Norway", "Finland",
+                              "Australia, New Zealand", "Worldwide")}
+        region = regionDict[self._region.currentText()]
+
+        if name == "" or platform == "" or name.isspace() or platform.isspace():
+            msgBox = QMessageBox()
+            msgBox.setIcon(QMessageBox.Critical)
+            msgBox.setWindowTitle("Missing data")
+            msgBox.setText("<h2>Missing data</h2>")
+            msgBox.setInformativeText("Please enter both a name and a platform.")
+            msgBox.exec_()
+        else:
+            info = getMobyInfo(name, platform)
+            if info["title"] == "":
+                msgBox = QMessageBox()
+                msgBox.setIcon(QMessageBox.Warning)
+                msgBox.setWindowTitle("No info found")
+                msgBox.setText("<h2>No info found</h2>")
+                msgBox.setInformativeText("Couldn't find any info on that title. Is the spelling and platform correct?")
+                msgBox.exec_()
+                return
+
+            yearFormat = re.compile(r"\d{4}")
+            year = yearFormat.findall(info["release"])
+            genre = info["genre"]
+            code = ""
+
+            # Try to get product code
+            for release, details in zip(info["releases"].keys(), info["releases"].values()):
+                correctRelease = False
+
+                for r in release:
+                    print(r)
+                    print(region)
+                    if r in region or r == region:
+                        correctRelease = True
+                        break
+
+                if correctRelease:
+                    for d in details:
+                        print(d)
+                        if d[0] in ("Company Code", "Nintendo Media PN", "Sony PN"):
+                            code = d[1]
+                            break
+                if code != "":
+                    break
+
+            # Try with EAN-13 or UPC-A as a fallback
+            if code == "":
+                for release, details in zip(info["releases"].keys(), info["releases"].values()):
+                    for d in details:
+                        if d[0] in ("EAN-13", "UPC-A"):
+                            code = d[1]
+                            break
+                    if code != "":
+                        break
+
+            if year == "" and code == "":
+                msgBox = QMessageBox()
+                msgBox.setIcon(QMessageBox.Warning)
+                msgBox.setWindowTitle("No info found")
+                msgBox.setText("<h2>No info found</h2>")
+                msgBox.setInformativeText("Sorry, couldn't find any info about this title.")
+                msgBox.exec_()
+            else:
+                self._year.setText(year[0])
+                self._code.setText(code)
+                self._genre.setText(genre)
 
     def returnData(self):
         data = None
@@ -477,7 +586,7 @@ class InputWindow(QDialog):
         if self._dataType.currentIndex() == 0:
             data = OrderedDict([('Platform', '{}'.format(self._platform.currentText())),
                                 ('Name', '{}'.format(self._name.text())),
-                                ('Region', '{}'.format(self._region.text())),
+                                ('Region', '{}'.format(self._region.currentText())),
                                 ('Code', '{}'.format(self._code.text())),
                                 ('Game', '{}'.format('Yes' if self._item.isChecked() else 'No')),
                                 ('Box', '{}'.format('Yes' if self._box.isChecked() else 'No')),

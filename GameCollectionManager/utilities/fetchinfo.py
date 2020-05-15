@@ -461,7 +461,9 @@ def getMobyInfo(game: str, platform: str) -> dict():
 
         for title, detail in zip(titles, details):
             if title.text.strip() in ("Country", "Countries"):  # Make the country name the dict key
-                release = detail.text.strip()
+                temprelease = detail.text.split(",")
+                temprelease = [x.strip() for x in temprelease]
+                release = tuple(temprelease)
                 releases[release] = []
             else:  # Add the rest of the info to the country name key
                 releases[release].append([ucd.normalize("NFKD", title.text.strip()),
@@ -486,6 +488,22 @@ if __name__ == "__main__":
         data = getMobyInfo(game[0], game[1])
 
         for i in data:
-            print(i + ":\t" + data[i])
+            if i == "releases":
+                releases = data[i].keys()
+                details = data[i].values()
+                print("====================================\n\n")
+                print("====================================")
+                print("Releases:")
+                print("====================================")
+                for release, detail in zip(str(releases), details):
+                    print(release + ":")
+                    print("------------------------------------")
+                    for d in detail:
+                        print(d[0] + ":\t\t\t\t" + d[1] if len(d[0]) < 7
+                              else d[0] + ":\t" + d[1] if len(d[0]) > 16
+                        else d[0] + ":\t\t" + d[1])
+                    print("====================================")
+            else:
+                print(i + ":\t" + data[i])
         print()
 

@@ -48,7 +48,12 @@ class Table(QTableView):
             self.model.setHeaderData(7, Qt.Horizontal, "Manual")
             #self.setItemDelegateForColumn(7, CheckboxDelegate("Manual", parent=self))
             self.model.setHeaderData(8, Qt.Horizontal, "Year")
-            self.model.setHeaderData(9, Qt.Horizontal, "Comment")
+            self.model.setHeaderData(9, Qt.Horizontal, "Genre")
+            self.model.setHeaderData(10, Qt.Horizontal, "Comment")
+            self.model.setHeaderData(11, Qt.Horizontal, "Publisher")
+            self.model.setHeaderData(12, Qt.Horizontal, "Developer")
+            self.model.setHeaderData(13, Qt.Horizontal, "Platforms")
+            # Hide the publisher, developer, and platforms columns
         elif self._table == "consoles":
             self.model.setHeaderData(4, Qt.Horizontal, "Country")
             self.model.setHeaderData(5, Qt.Horizontal, "Serial number")
@@ -91,6 +96,10 @@ class Table(QTableView):
 
         self.verticalHeader().setVisible(False)  # Don't show row headers
         self.setColumnHidden(0, True)  # Don't show ID field
+        # Hide the Publisher, Developer, and Platforms columns since it's for internal use
+        self.setColumnHidden(11, True)
+        self.setColumnHidden(12, True)
+        self.setColumnHidden(13, True)
         self.setAlternatingRowColors(False)
         self.setShowGrid(True)
         self.resizeRowsToContents()
@@ -330,14 +339,14 @@ class Table(QTableView):
     def rowInfo(self, row: int):
         table = self._table
         query = QSqlQuery()
-        length = 11 if table == "consoles" else 10
+        length = 10 if table == "accessories" else 11
 
         query.exec_(f"SELECT * FROM {table} WHERE ID={row}")
         query.first()
 
         title = ""
         platform = ""
-        columns = {"games": ["Id", "Platform", "Name", "Region", "Code", "Game", "Box", "Manual", "Year", "Comment"],
+        columns = {"games": ["Id", "Platform", "Name", "Region", "Code", "Game", "Box", "Manual", "Year", "Genre", "Comment"],
                    "consoles": ["Id", "Platform", "Name", "Region", "Country", "Serial number", "Console", "Box", "Manual", "Year", "Comment"],
                    "accessories": ["Id", "Platform", "Name", "Region", "Country", "Accessory", "Box", "Manual", "Year", "Comment"]}
 
@@ -365,7 +374,7 @@ class Table(QTableView):
                     print("Releases:")
                     print("====================================")
                     for release, detail in zip(releases, details):
-                        print(release + ":")
+                        print(", ".join(release) + ":")
                         print("------------------------------------")
                         for d in detail:
                             print(d[0] + ":\t\t\t\t" + d[1] if len(d[0]) < 7
