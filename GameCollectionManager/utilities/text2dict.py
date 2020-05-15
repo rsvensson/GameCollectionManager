@@ -28,8 +28,8 @@ def _readTextFile(infile):
             temp = line.split("|")
 
         if 6 < len(temp) < 9:
-            for i, row in enumerate(temp):
-                temp[i] = row.strip()
+            for j, row in enumerate(temp):
+                temp[j] = row.strip()
             if len(temp) == 7:
                 gamedata.append({"Name": temp[2],
                                  "Platform": temp[4],
@@ -43,7 +43,7 @@ def _readTextFile(infile):
                                  "Year": "",
                                  "Code": temp[7]})
         else:
-            raise TypeError("Line {} in file {} malformed:\n{}".format(i, infile, temp))
+            raise TypeError(f"Line {i} in file {infile} malformed:\n{temp}")
 
     return gamedata
 

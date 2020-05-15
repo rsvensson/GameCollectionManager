@@ -18,6 +18,7 @@ _VERSION = "0.1.0"
 
 class MainWindow(QMainWindow):
 
+    # noinspection PyUnresolvedReferences
     def __init__(self, dbpath):
         super(MainWindow, self).__init__()
 
@@ -446,7 +447,7 @@ class MainWindow(QMainWindow):
 
     def toggleOwnedFilter(self):
         for table in self.tableViewList:
-            table.setHideNotOwned(False) if table._hideNotOwned\
+            table.setHideNotOwned(False) if table.hideNotOwned\
                 else table.setHideNotOwned(True)
         currentTab = self.tab.currentIndex()
         if 0 < currentTab < 4:
@@ -461,7 +462,7 @@ class MainWindow(QMainWindow):
             self.statusBar().showMessage("")
         elif 0 < currentTab < 4:
             numItems = self.tableViewList[currentTab-1].ownedCount()
-            if self.tableViewList[currentTab-1]._hideNotOwned:
+            if self.tableViewList[currentTab-1].hideNotOwned:
                 self.statusBar().showMessage(f"{numItems} {itemType[currentTab-1]} in collection.")
             else:
                 self.statusBar().showMessage("Showing {} {} ({} {} in collection).".format(

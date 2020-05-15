@@ -317,7 +317,6 @@ def _parseTitle(title: str) -> str:
 def _trySuggestions(title: str, platform: str):
     # Checks if the suggested URLs match
 
-    newtitle = ""
     pTitle = _parseTitle(title)
     res = requests.get(_baseURL + "/".join((_platforms[platform], pTitle, "release-info")))
     suggestionsCSS = ".col-md-12 > div:nth-child(3) > ul:nth-child(2)"  # List of URLs
@@ -370,7 +369,7 @@ def _tryAlternatives(title: str, platform: str):
         res = requests.get(_baseURL + "/".join(tempurl))  # Try alternative URL
         try:
             res.raise_for_status()
-        except (requests.exceptions.HTTPError):  # Not a valid page
+        except requests.exceptions.HTTPError:  # Not a valid page
             continue
         # Parse the html and get title and platform strings
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
@@ -385,7 +384,7 @@ def _tryAlternatives(title: str, platform: str):
     return None
 
 
-def getMobyInfo(game: str, platform: str) -> dict():
+def getMobyInfo(game: str, platform: str) -> dict:
     mobyCSSData = {
         "title": "html body div#wrapper div.container div#main.row div.col-md-12.col-lg-12 div.rightPanelHeader h1.niceHeaderTitle a",
         "publisher": "#coreGameRelease > div:nth-child(2) > a:nth-child(1)",
@@ -411,7 +410,7 @@ def getMobyInfo(game: str, platform: str) -> dict():
     try:
         res.raise_for_status()
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
-    except (requests.exceptions.HTTPError):
+    except requests.exceptions.HTTPError:
         # Try the suggested results on the 404 page
         res, game = _trySuggestions(game, platform)
         if res is None:
@@ -439,14 +438,14 @@ def getMobyInfo(game: str, platform: str) -> dict():
                     mobyCSSData[data] = platform + ", " + mobyCSSData[data]
             else:
                 mobyCSSData[data] = ucd.normalize("NFKD", temp[0].text.strip())
-        except (IndexError):  # Not all games have all data. Just add an empty string instead.
+        except IndexError:  # Not all games have all data. Just add an empty string instead.
             if data == "genre":
                 # If there's an ESRB rating it takes the place of the normal genre position
                 altGenreCSS = "#coreGameGenre > div:nth-child(2) > div:nth-child(4) > a:nth-child(1)"
                 try:
                     temp = soup.select(altGenreCSS)
                     mobyCSSData[data] = ucd.normalize("NFKD", temp[0].text.strip())
-                except (IndexError):  # Still nothing
+                except IndexError:  # Still nothing
                     mobyCSSData[data] = ""
             else:
                 mobyCSSData[data] = ""

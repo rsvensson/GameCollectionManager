@@ -24,7 +24,7 @@ class Table(QTableView):
         assert tableName in ("games", "consoles", "accessories")
 
         self._db = db
-        self._hideNotOwned = True
+        self.hideNotOwned = True
         self._table = tableName
         self._itemType = "Game" if self._table == "games"\
             else "Console" if self._table == "consoles"\
@@ -216,7 +216,7 @@ class Table(QTableView):
 
         # Reset filtering to default if no search filters
         if filterText == "" and len(selections) == 0:
-            if self._hideNotOwned:
+            if self.hideNotOwned:
                 self.model.setFilter(f"{self._itemType}='Yes' OR Box='Yes' OR Manual='Yes' "
                                      "ORDER BY Platform ASC, Name ASC")
             else:
@@ -229,7 +229,7 @@ class Table(QTableView):
             f = f"(Name LIKE '%{filterText}%' " \
                 f"OR Year LIKE '%{filterText}%' " \
                 f"OR Comment LIKE '%{filterText}%') "
-            if self._hideNotOwned:
+            if self.hideNotOwned:
                 f += f"AND ({self._itemType}='Yes' OR Box='Yes' OR Manual='Yes') "
             for selection in selections:
                 items = list(selections[selection])
@@ -251,7 +251,7 @@ class Table(QTableView):
                      f"OR `Serial number` LIKE '%{filterText}%') "
             elif self._table == "accessories":
                 f += f"OR Country LIKE '%{filterText}%') "
-            if self._hideNotOwned:
+            if self.hideNotOwned:
                 f += f"AND ({self._itemType}='Yes' OR Box='Yes' OR Manual='Yes') "
 
         f += "ORDER BY Platform ASC, Name ASC"
@@ -385,7 +385,7 @@ class Table(QTableView):
                     print(i + ":\t\t\t" + info[i] if i == "title" or i == "genre" else i + ":\t\t" + info[i])
 
     def setHideNotOwned(self, on: bool):
-        self._hideNotOwned = on
+        self.hideNotOwned = on
 
         """if self.hideNotOwned:
             names = []

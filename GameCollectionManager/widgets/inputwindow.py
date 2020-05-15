@@ -368,8 +368,6 @@ class InputWindow(QDialog):
         self._hboxName = QHBoxLayout()
         self._hboxName.addStretch()
         self._hboxPlatform = QHBoxLayout()
-        self._hboxFetch = QHBoxLayout()
-        self._hboxFetch.addStretch()
         self._hboxRegion = QHBoxLayout()
         self._hboxRegion.addStretch()
         self._hboxCode = QHBoxLayout()
@@ -445,7 +443,7 @@ class InputWindow(QDialog):
         if self._platform.currentText() == "(New platform)":
             while True:
                 platform, ok = QInputDialog.getText(self, "Add platform",
-                                                "Platform name:")
+                                                    "Platform name:")
                 if ok:
                     if platform == "" or platform.isspace():
                         msgBox = QMessageBox()
@@ -542,16 +540,17 @@ class InputWindow(QDialog):
             for release, details in zip(info["releases"].keys(), info["releases"].values()):
                 correctRelease = False
 
+                if region == "PAL" and "United Kingdom" in release:
+                    # TODO: Make the UK release be the default one if we select PAL
+                    pass
+
                 for r in release:
-                    print(r)
-                    print(region)
                     if r in region or r == region:
                         correctRelease = True
                         break
 
                 if correctRelease:
                     for d in details:
-                        print(d)
                         if d[0] in ("Company Code", "Nintendo Media PN", "Sony PN"):
                             code = d[1]
                             break
