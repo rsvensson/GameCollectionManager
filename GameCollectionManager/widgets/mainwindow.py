@@ -46,6 +46,7 @@ class MainWindow(QMainWindow):
         # Randomizer tab
         self.randomizer = Randomizer(self.gamesTableView.ownedItems())
         self.randomizer.consoleList.itemClicked.connect(self.updateStatusbar)
+        self.randomizer.genreList.itemClicked.connect(self.updateStatusbar)
         self.randomizer.btnAll.clicked.connect(self.updateStatusbar)
         self.randomizer.btnNone.clicked.connect(self.updateStatusbar)
 
@@ -472,7 +473,8 @@ class MainWindow(QMainWindow):
                     itemType[currentTab-1]))
         elif currentTab == 4:
             platforms = self.randomizer.consoleList.selectedItems()
-            self.statusBar().showMessage("Select platforms to randomize from.")
-            if len(platforms) > 0:
+            genres = self.randomizer.genreList.selectedItems()
+            self.statusBar().showMessage("Select platforms or genre to randomize from.")
+            if len(platforms) > 0 or len(genres) > 0:
                 self.statusBar().showMessage(f"Selecting from {self.randomizer.gameCount()} games.")
             return

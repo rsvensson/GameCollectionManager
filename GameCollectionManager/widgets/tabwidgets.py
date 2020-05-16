@@ -306,10 +306,10 @@ class Table(QTableView):
         items = []
 
         query = QSqlQuery()
-        query.exec_("SELECT Platform, Name, Region "
+        query.exec_("SELECT Platform, Name, Region, Genre "
                     f"FROM {self._table} WHERE {self._itemType}='Yes' OR Box='Yes' OR Manual='Yes'")
         while query.next():
-            items.append(dict(Platform=query.value(0), Name=query.value(1), Region=query.value(2)))
+            items.append(dict(Platform=query.value(0), Name=query.value(1), Region=query.value(2), Genre=query.value(3)))
 
         return items
 
@@ -417,22 +417,36 @@ class Randomizer(QWidget):
         self._gamesData = gamesData
         self._gameCount = 0
 
-        self.consoleList = QListWidget()
         self._consoleItems = set()
+        self._genreItems = set()
         for row in gamesData:
             self._consoleItems.add(row["Platform"])
+            if row["Genre"] != "":
+                self._genreItems.add(row["Genre"])
+
+        self.consoleLabel = QLabel("Platforms")
+        self.consoleList = QListWidget()
         self.consoleList.addItems(sorted(self._consoleItems, key=str.lower))
         self.consoleList.setSelectionMode(QAbstractItemView.MultiSelection)
         self.consoleList.setMaximumWidth(350)
         self.consoleList.itemClicked.connect(self._updateGameCount)
 
+        self.genreLabel = QLabel("Genres")
+        self.genreList = QListWidget()
+        self.genreList.addItems(sorted(self._genreItems, key=str.lower))
+        self.genreList.setSelectionMode(QAbstractItemView.MultiSelection)
+        self.genreList.setMaximumWidth(350)
+        self.genreList.itemClicked.connect(self._updateGameCount)
+
         self.btnAll = QPushButton("Select All")
         self.btnAll.setMaximumSize(self.btnAll.sizeHint())
         self.btnAll.clicked.connect(self.consoleList.selectAll)
+        self.btnAll.clicked.connect(self.genreList.selectAll)
         self.btnAll.clicked.connect(self._updateGameCount)
         self.btnNone = QPushButton("Select None")
         self.btnNone.setMaximumSize(self.btnNone.sizeHint())
         self.btnNone.clicked.connect(self.consoleList.clearSelection)
+        self.btnNone.clicked.connect(self.genreList.clearSelection)
         self.btnNone.clicked.connect(self._updateGameCount)
         self._btnRnd = QPushButton("Randomize")
         self._btnRnd.setMaximumSize(self._btnRnd.sizeHint())
@@ -449,36 +463,54 @@ class Randomizer(QWidget):
         self._lblTitle.setFont(self._lblFont)
         self._lblTitle.setWordWrap(True)
 
-        self._hbox = QHBoxLayout()
-        self._vbox = QVBoxLayout()
+        self._hboxButtons = QHBoxLayout()
+        self._vboxLists = QVBoxLayout()
+        self._vboxConsoles = QVBoxLayout()
+        self._vboxGenres = QVBoxLayout()
+        self._vboxResult = QVBoxLayout()
         self._grid = QGridLayout()
-        self._hbox.addWidget(self.btnAll, 0)
-        self._hbox.addWidget(self.btnNone, 0)
-        self._hbox.addWidget(self._btnRnd, 0)
-        self._vbox.addStretch(3)
-        self._vbox.addWidget(self._lblPlay, 1)
-        self._vbox.addWidget(self._lblTitle, 1)
-        self._vbox.addStretch(3)
+        self._hboxButtons.addWidget(self.btnAll, 0)
+        self._hboxButtons.addWidget(self.btnNone, 0)
+        self._hboxButtons.addWidget(self._btnRnd, 0)
+        self._vboxConsoles.addWidget(self.consoleLabel, 0)
+        self._vboxConsoles.addWidget(self.consoleList, 1)
+        self._vboxGenres.addWidget(self.genreLabel, 0)
+        self._vboxGenres.addWidget(self.genreList, 1)
+        self._vboxLists.addSpacing(10)
+        self._vboxLists.addLayout(self._vboxConsoles, 1)
+        self._vboxLists.addSpacing(10)
+        self._vboxLists.addLayout(self._vboxGenres, 1)
+        self._vboxResult.addStretch(3)
+        self._vboxResult.addWidget(self._lblPlay, 1)
+        self._vboxResult.addWidget(self._lblTitle, 1)
+        self._vboxResult.addStretch(3)
         self._grid.setMargin(0)
         self._grid.setSpacing(0)
-        self._grid.addWidget(self.consoleList, 0, 0)
-        self._grid.addLayout(self._hbox, 1, 0)
-        self._grid.addLayout(self._vbox, 0, 1, 1, -1)
+        self._grid.addLayout(self._vboxLists, 0, 0)
+        self._grid.addLayout(self._hboxButtons, 1, 0)
+        self._grid.addLayout(self._vboxResult, 0, 1, 1, -1)
 
         self.widget = QWidget()
         self.widget.setLayout(self._grid)
 
-    def _getSelectedPlatforms(self) -> list:
-        return [x.text() for x in self.consoleList.selectedItems()]
+    def _getSelectedItems(self) -> tuple:
+        return [x.text() for x in self.consoleList.selectedItems()], [x.text() for x in self.genreList.selectedItems()]
 
     def _randomize(self):
-        platforms = self._getSelectedPlatforms()
+        platforms, genres = self._getSelectedItems()
         games = []
 
-        if len(platforms) > 0:
+        if len(platforms) > 0 or len(genres) > 0:
             for row in self._gamesData:
-                if row["Platform"] in platforms:
-                    games.append(row)
+                if len(platforms) > 0 and len(genres) > 0:
+                    if row["Platform"] in platforms and row["Genre"] in genres:
+                        games.append(row)
+                elif len(platforms) > 0 and len(genres) == 0:
+                    if row["Platform"] in platforms:
+                        games.append(row)
+                elif len(platforms) == 0 and len(genres) > 0:
+                    if row["Genre"] in genres:
+                        games.append(row)
 
             choice = randint(0, len(games) - 1)
             self._lblPlay.setText("You will play:")
@@ -486,16 +518,23 @@ class Randomizer(QWidget):
                                    f"{games[choice]['Name']} [{games[choice]['Platform']}]")
         else:
             self._lblPlay.setText("")
-            self._lblTitle.setText("Select at least one console...")
+            self._lblTitle.setText("Select at least one console or genre...")
 
     def _updateGameCount(self):
-        platforms = self._getSelectedPlatforms()
+        platforms, genres = self._getSelectedItems()
         self._gameCount = 0
 
-        if len(platforms) > 0:
+        if len(platforms) > 0 or len(genres) > 0:
             for row in self._gamesData:
-                if row["Platform"] in platforms:
-                    self._gameCount += 1
+                if len(platforms) > 0 and len(genres) > 0:
+                    if row["Platform"] in platforms and row["Genre"] in genres:
+                        self._gameCount += 1
+                elif len(platforms) > 0 and len(genres) == 0:
+                    if row["Platform"] in platforms:
+                        self._gameCount += 1
+                elif len(platforms) == 0 and len(genres) > 0:
+                    if row["Genre"] in genres:
+                        self._gameCount += 1
 
     def gameCount(self) -> int:
         return self._gameCount
@@ -504,11 +543,15 @@ class Randomizer(QWidget):
         self._gamesData.clear()
         self._consoleItems.clear()
         self.consoleList.clear()
+        self._genreItems.clear()
+        self.genreList.clear()
 
         self._gamesData = gamesData
         for row in self._gamesData:
             self._consoleItems.add(row["Platform"])
+            self._genreItems.add(row["Genre"])
         self.consoleList.addItems(sorted(self._consoleItems, key=str.lower))
+        self.genreList.addItems(sorted(self._genreItems, key=str.lower))
 
 
 """class Table(QTableWidget):
