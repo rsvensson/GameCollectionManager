@@ -13,17 +13,17 @@ def _readTextFile(infile):
         with open(infile, 'r', encoding='utf8') as f:
             lines = f.readlines()
     except FileNotFoundError:
-        raise FileNotFoundError("No such file: {}".format(infile))
+        raise FileNotFoundError(f"No such file: {infile}")
 
     if len(lines) == 0:
-        raise IOError("File {} is empty!".format(infile))
+        raise IOError(f"File {infile} is empty!")
 
     gamedata = []
 
     # Extract the info we want
     for i, line in enumerate(lines):
         if "|" not in line:
-            raise TypeError("Line {} in file {} is missing '|' delimiters.".format(i, infile))
+            raise TypeError(f"Line {i} in file {infile} is missing '|' delimiters.")
         else:
             temp = line.split("|")
 
@@ -55,8 +55,8 @@ def createGameData(infile):
     for game in filedata:
         gamedata.append(OrderedDict({"Platform": game["Platform"], "Name": game["Name"],
                                      "Region": game["Region"], "Code": game["Code"],
-                                     "Game": "No", "Box": "No",
-                                     "Manual": "No", "Year": game["Year"],
-                                     "Comment": ""}))
+                                     "Game": "No", "Box": "No", "Manual": "No",
+                                     "Year": game["Year"], "Genre": "", "Comment": "",
+                                     "Publisher": "", "Developer": "", "Platforms": ""}))
 
     return gamedata

@@ -1,7 +1,7 @@
 import re
 import bs4
 import requests
-import unicodedata  as ucd  # For converting '\xa0' to spaces etc
+import unicodedata as ucd  # For converting '\xa0' to spaces etc
 
 _baseURL = "https://www.mobygames.com/game/"
 _titleCSS = ".niceHeaderTitle > a:nth-child(1)"  # CSS for title string
@@ -326,14 +326,14 @@ def _trySuggestions(title: str, platform: str):
     soup = bs4.BeautifulSoup(res.text, 'html.parser')
     res = soup.select(suggestionsCSS)
     if len(res) > 0:
-        suggestionURLs = url.findall(res.pop().decode())
+        suggestionURLs = [u.strip('"') for u in url.findall(res.pop().decode())]
     else:
         return None, title
 
     # Try each suggestion
     for suggestion in suggestionURLs:
         # The suggestions all use the Combined View. Insert the platform into url
-        temp = suggestion.strip('"').split('/')
+        temp = suggestion.split('/')
         temp.insert(4, _platforms[platform])
         newurl = "/".join(temp)
 
@@ -362,10 +362,10 @@ def _tryAlternatives(title: str, platform: str):
     # Occasionally the title has a trailing '-', '_', or rarely '__' in the url
 
     pTitle = _parseTitle(title)
-    tempurl = [_platforms[platform], pTitle]
+    tempurl = [_platforms[platform], pTitle, "release-info"]
     for c in ["-", "_", "__"]:
         tempurl[1] = pTitle  # Reset pTitle
-        tempurl[1] += c  # Add either - or _ to string
+        tempurl[1] += c  # Add either '-', '_', or '__' to string
         res = requests.get(_baseURL + "/".join(tempurl))  # Try alternative URL
         try:
             res.raise_for_status()
@@ -376,7 +376,7 @@ def _tryAlternatives(title: str, platform: str):
         te = soup.select(_titleCSS)
         pf = soup.select(_platformCSS)
         # Check if title and platform match
-        if len(te) > 0 and te[0].text.strip() == title and pf[0].text.strip() == platform:
+        if te[0].text.strip() == title and pf[0].text.strip() == platform:
             return res
         else:
             continue
@@ -472,6 +472,30 @@ def getMobyInfo(game: str, platform: str) -> dict:
     return mobyCSSData
 
 
+def printInfo(data: dict):
+    # Print out the info with pretty formatting
+    for i in data:
+        if i == "releases":
+            releases = data[i].keys()
+            details = data[i].values()
+            print("====================================\n\n")
+            print("====================================")
+            print("Releases:")
+            print("====================================")
+            for release, detail in zip(releases, details):
+                print(", ".join(release) + ":")
+                print("------------------------------------")
+                for d in detail:
+                    print(d[0] + ":\t\t\t\t" + d[1] if len(d[0]) < 7
+                          else d[0] + ":\t" + d[1] if len(d[0]) > 16
+                    else d[0] + ":\t\t" + d[1])
+                print("====================================")
+        else:
+            print(i + ":\t\t\t" + data[i] if i == "title" or i == "genre" else i + ":\t\t" + data[i])
+    print()
+
+
+
 if __name__ == "__main__":
     testGames = [("Wai Wai World 2 - SOS!! Parsley Jō", "NES"),  # 'ō' gets truncated, but is a '-' in the actual url. Found through the suggestions.
                  ("Mega Man", "NES"),  # First result is the DOS game. NES game found by the alternative URL checks.
@@ -486,23 +510,5 @@ if __name__ == "__main__":
     for game in testGames:
         data = getMobyInfo(game[0], game[1])
 
-        for i in data:
-            if i == "releases":
-                releases = data[i].keys()
-                details = data[i].values()
-                print("====================================\n\n")
-                print("====================================")
-                print("Releases:")
-                print("====================================")
-                for release, detail in zip(str(releases), details):
-                    print(release + ":")
-                    print("------------------------------------")
-                    for d in detail:
-                        print(d[0] + ":\t\t\t\t" + d[1] if len(d[0]) < 7
-                              else d[0] + ":\t" + d[1] if len(d[0]) > 16
-                        else d[0] + ":\t\t" + d[1])
-                    print("====================================")
-            else:
-                print(i + ":\t" + data[i])
-        print()
+        printInfo(data)
 

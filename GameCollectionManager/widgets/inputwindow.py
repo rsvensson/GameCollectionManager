@@ -301,6 +301,9 @@ class InputWindow(QDialog):
                            'watchOS',
                            'webOS']
 
+        # For holding the internal platforms column's data
+        self._platformsData = ""
+
         self._dataTypes = ["Game", "Console", "Accessory"]
         self._dataTypeLabel = QLabel("Type\t ")
         self._dataType = QComboBox()
@@ -327,9 +330,18 @@ class InputWindow(QDialog):
         self._region.addItems(["NTSC (JP)", "NTSC (NA)", "PAL"])
 
         self._countryLabel = QLabel("Country\t ")
-        self._countryLabel.setEnabled(False)
+        self._countryLabel.setEnabled(True)
         self._country = QLineEdit()
-        self._country.setEnabled(False)
+        self._country.setEnabled(True)
+
+        self._publisherLabel = QLabel("Publisher\t")
+        self._publisherLabel.setEnabled(True)
+        self._publisher = QLineEdit()
+        self._publisher.setEnabled(True)
+
+        self._developerLabel = QLabel("Developer")
+        self._developer = QLineEdit()
+        self._developer.setEnabled(True)
 
         self._codeLabel = QLabel("Code\t ")
         self._code = QLineEdit()
@@ -374,6 +386,8 @@ class InputWindow(QDialog):
         self._hboxCode.addStretch()
         self._hboxCountry = QHBoxLayout()
         self._hboxCountry.addStretch()
+        self._hboxPublisher = QHBoxLayout()
+        self._hboxDeveloper = QHBoxLayout()
         self._hboxBoxMan = QHBoxLayout()
         self._hboxYear = QHBoxLayout()
         self._hboxGenre = QHBoxLayout()
@@ -390,15 +404,21 @@ class InputWindow(QDialog):
         self._hboxPlatform.addWidget(self._platform, 1)
         self._hboxRegion.addWidget(self._regionLabel, 0)
         self._hboxRegion.addWidget(self._region, 1)
-        self._hboxCode.addWidget(self._codeLabel, 0)
-        self._hboxCode.addWidget(self._code, 1)
         self._hboxCountry.addWidget(self._countryLabel, 0)
         self._hboxCountry.addWidget(self._country, 1)
+        self._hboxPublisher.addWidget(self._publisherLabel, 0)
+        self._hboxPublisher.addSpacing(5)
+        self._hboxPublisher.addWidget(self._publisher, 1)
+        self._hboxDeveloper.addWidget(self._developerLabel, 0)
+        self._hboxDeveloper.addWidget(self._developer, 1)
+        self._hboxCode.addWidget(self._codeLabel, 0)
+        self._hboxCode.addWidget(self._code, 1)
         self._hboxYear.addWidget(self._yearLabel, 0)
         self._hboxYear.addWidget(self._year, 1)
         self._hboxGenre.addWidget(self._genreLabel, 0)
         self._hboxGenre.addWidget(self._genre, 1)
         self._hboxComment.addWidget(self._commentLabel, 0)
+        self._hboxComment.addSpacing(2)
         self._hboxComment.addWidget(self._comment, 1)
         self._hboxBoxMan.addStretch(10)
         self._hboxBoxMan.addWidget(self._itemLabel, 0)
@@ -419,18 +439,20 @@ class InputWindow(QDialog):
         self._vbox.addLayout(self._hboxName, 1)
         self._vbox.addLayout(self._hboxPlatform, 2)
         self._vbox.addLayout(self._hboxRegion, 3)
-        self._vbox.addLayout(self._hboxCode, 4)
-        self._vbox.addLayout(self._hboxCountry, 5)
-        self._vbox.addLayout(self._hboxYear, 6)
-        self._vbox.addLayout(self._hboxGenre, 7)
-        self._vbox.addLayout(self._hboxComment, 8)
-        self._vbox.addLayout(self._hboxBoxMan, 9)
-        self._vbox.addLayout(self._hboxBtn, 10)
+        self._vbox.addLayout(self._hboxPublisher, 4)
+        self._vbox.addLayout(self._hboxDeveloper, 5)
+        self._vbox.addLayout(self._hboxCountry, 6)
+        self._vbox.addLayout(self._hboxCode, 7)
+        self._vbox.addLayout(self._hboxYear, 8)
+        self._vbox.addLayout(self._hboxGenre, 9)
+        self._vbox.addLayout(self._hboxComment, 10)
+        self._vbox.addLayout(self._hboxBoxMan, 11)
+        self._vbox.addLayout(self._hboxBtn, 12)
 
         self.setLayout(self._vbox)
 
         self.setWindowTitle("Add to collection")
-        self.setFixedSize(QSize(500, 280))
+        self.setFixedSize(QSize(500, 320))
         self._center()
 
     def _addPlatform(self):
@@ -442,25 +464,97 @@ class InputWindow(QDialog):
 
         if self._platform.currentText() == "(New platform)":
             while True:
-                platform, ok = QInputDialog.getText(self, "Add platform",
-                                                    "Platform name:")
+                platform, ok = QInputDialog.getText(self, "Add platform", "Platform name:")
                 if ok:
                     if platform == "" or platform.isspace():
-                        msgBox = QMessageBox()
-                        msgBox.setIcon(QMessageBox.Warning)
-                        msgBox.setWindowTitle("Invalid platform")
-                        msgBox.setText("<h2>Invalid platform</h2>")
-                        msgBox.setInformativeText("Can't add empty string or whitespace.")
-                        msgBox.exec_()
+                        self._displayMsgBox(0)
                     else:
                         lastIndex = self._platform.count()
                         self._platform.addItem(platform)
                         self._platform.setCurrentIndex(lastIndex)
-                        # self._platform.removeItem(self._platform.findText(" "))  # Remove the temp empty item if any
                         break
                 else:
                     break
 
+    def _autofill(self):
+        name = self._name.text()
+        platform = self._platform.currentText()
+        country = self._country.text()
+        print(country)
+        regionDict = {"NTSC (JP)": ("Japan", "Worldwide"),
+                      "NTSC (NA)": ("United States", "Canada", "Worldwide"),
+                      "PAL": ("United Kingdom", "Ireland", "Germany", "France", "Italy",
+                              "Austria", "Belgium", "The Netherlands", "Portugal",
+                              "Spain", "Switzerland", "Russia",
+                              "Sweden", "Denmark", "Norway", "Finland",
+                              "Australia, New Zealand", "Worldwide")}
+        region = regionDict[self._region.currentText()]
+
+        if name == "" or platform == "" or name.isspace() or platform.isspace():
+            self._displayMsgBox(1)
+        else:
+            info = getMobyInfo(name, platform)
+            if info["title"] == "":
+                self._displayMsgBox(2)
+                return
+
+            publisher = info["publisher"]
+            developer = info["developer"]
+            self._platformsData = info["platforms"]
+            yearFormat = re.compile(r"\d{4}")
+            genre = info["genre"]
+            code = ""
+            year = ""
+
+            # Try to get product code, and also year since it might be different between releases
+            correctRelease = False
+            for release, details in zip(info["releases"].keys(), info["releases"].values()):
+                # Optionally check the specific country's release, but only if it makes sense
+                # (e.g. don't check for Norway if region == NTSC (JP)
+                if country != "" and country in region and country in release:
+                    print(country + " = Correct release")
+                    correctRelease = True
+                else:
+                    if self._region.currentText() == "PAL" and "United Kingdom" in release:
+                        # Make UK release default for PAL
+                        correctRelease = True
+                    else:
+                        if country == "" and not correctRelease:
+                            # UK not found, or region isn't PAL, try to find another release
+                            for r in release:
+                                if r in region or r == region:
+                                    correctRelease = True
+                                    break
+                        elif country != "" and not correctRelease:
+                            continue
+
+                if correctRelease:
+                    for d in details:
+                        if d[0] in ("Company Code", "Nintendo Media PN", "Sony PN"):
+                            code = d[1]
+                        elif d[0] == "Release Date":
+                            year = yearFormat.findall(d[1])[0]
+
+                if code != "" and year != "":
+                    break
+
+            # Try with EAN-13 or UPC-A for the code as a fallback
+            if code == "" and correctRelease:
+                for d in details:
+                    if d[0] in ("EAN-13", "UPC-A"):
+                        code = d[1]
+                        break
+
+            if year == "" and code == "" and country != "":
+                self._displayMsgBox(3)
+            elif year == "" and code == "":
+                self._displayMsgBox(4)
+            else:
+                self._year.setText(year)
+                self._code.setText(code)
+                self._genre.setText(genre)
+                self._publisher.setText(publisher)
+                self._developer.setText(developer)
 
     def _center(self):
         """Centers window on screen"""
@@ -476,10 +570,12 @@ class InputWindow(QDialog):
         if self._dataType.currentIndex() == 0:
             self._codeLabel.setEnabled(True)
             self._code.setEnabled(True)
-            self._countryLabel.setEnabled(False)
-            self._country.setEnabled(False)
+            self._countryLabel.setEnabled(True)
+            self._country.setEnabled(True)
             self._codeLabel.setText("Code\t ")
             self._itemLabel.setText("Game")
+            self._genreLabel.setEnabled(True)
+            self._genre.setEnabled(True)
             if (self._name.text() != "" and not self._name.text().isspace() and
                     self._platform.currentText() not in ("", "(New platform)")):
                 self._autofillButton.setEnabled(True)
@@ -492,6 +588,8 @@ class InputWindow(QDialog):
             self._country.setEnabled(True)
             self._codeLabel.setText("Serial No\t ")
             self._itemLabel.setText("Console")
+            self._genreLabel.setEnabled(False)
+            self._genreLaber.setEnabled(False)
             self._autofillButton.setEnabled(False)
         elif self._dataType.currentIndex() == 2:
             self._countryLabel.setEnabled(True)
@@ -499,85 +597,28 @@ class InputWindow(QDialog):
             self._codeLabel.setEnabled(False)
             self._code.setEnabled(False)
             self._itemLabel.setText("Accessory")
+            self._genreLabel.setEnabled(False)
+            self._genre.setEnabled(False)
             self._autofillButton.setEnabled(False)
 
-    def _autofill(self):
-        name = self._name.text()
-        platform = self._platform.currentText()
-        regionDict = {"NTSC (JP)": ("Japan", "Worldwide"),
-                      "NTSC (NA)": ("United States", "Canada", "Worldwide"),
-                      "PAL": ("United Kingdom", "Ireland", "Germany", "France", "Italy",
-                              "Austria", "Belgium", "The Netherlands", "Portugal",
-                              "Spain", "Switzerland", "Russia",
-                              "Sweden", "Denmark", "Norway", "Finland",
-                              "Australia, New Zealand", "Worldwide")}
-        region = regionDict[self._region.currentText()]
+    def _displayMsgBox(self, value: int, level=QMessageBox.Warning):
+        titles = ["Invalid platform",
+                  "Missing data",
+                  "No title found",
+                  "No info found for country",
+                  "No info found"]
+        messages = ["Can't add empty string or whitespace.",
+                    "Please enter both a name and a platform.",
+                    "Couldn't find any info on that title. Is the spelling and platform correct?",
+                    "Couldn't find any info for that country. Is the region correct?",
+                    "Sorry, couldn't find any info about this title."]
 
-        if name == "" or platform == "" or name.isspace() or platform.isspace():
-            msgBox = QMessageBox()
-            msgBox.setIcon(QMessageBox.Critical)
-            msgBox.setWindowTitle("Missing data")
-            msgBox.setText("<h2>Missing data</h2>")
-            msgBox.setInformativeText("Please enter both a name and a platform.")
-            msgBox.exec_()
-        else:
-            info = getMobyInfo(name, platform)
-            if info["title"] == "":
-                msgBox = QMessageBox()
-                msgBox.setIcon(QMessageBox.Warning)
-                msgBox.setWindowTitle("No info found")
-                msgBox.setText("<h2>No info found</h2>")
-                msgBox.setInformativeText("Couldn't find any info on that title. Is the spelling and platform correct?")
-                msgBox.exec_()
-                return
-
-            yearFormat = re.compile(r"\d{4}")
-            year = yearFormat.findall(info["release"])
-            genre = info["genre"]
-            code = ""
-
-            # Try to get product code
-            for release, details in zip(info["releases"].keys(), info["releases"].values()):
-                correctRelease = False
-
-                if region == "PAL" and "United Kingdom" in release:
-                    # TODO: Make the UK release be the default one if we select PAL
-                    pass
-
-                for r in release:
-                    if r in region or r == region:
-                        correctRelease = True
-                        break
-
-                if correctRelease:
-                    for d in details:
-                        if d[0] in ("Company Code", "Nintendo Media PN", "Sony PN"):
-                            code = d[1]
-                            break
-                if code != "":
-                    break
-
-            # Try with EAN-13 or UPC-A as a fallback
-            if code == "":
-                for release, details in zip(info["releases"].keys(), info["releases"].values()):
-                    for d in details:
-                        if d[0] in ("EAN-13", "UPC-A"):
-                            code = d[1]
-                            break
-                    if code != "":
-                        break
-
-            if year == "" and code == "":
-                msgBox = QMessageBox()
-                msgBox.setIcon(QMessageBox.Warning)
-                msgBox.setWindowTitle("No info found")
-                msgBox.setText("<h2>No info found</h2>")
-                msgBox.setInformativeText("Sorry, couldn't find any info about this title.")
-                msgBox.exec_()
-            else:
-                self._year.setText(year[0])
-                self._code.setText(code)
-                self._genre.setText(genre)
+        msgBox = QMessageBox()
+        msgBox.setIcon(level)
+        msgBox.setWindowTitle(titles[value])
+        msgBox.setText("<h2>" + titles[value] + "</h2>")
+        msgBox.setInformativeText(messages[value])
+        msgBox.exec_()
 
     def returnData(self):
         data = None
@@ -591,7 +632,11 @@ class InputWindow(QDialog):
                                 ('Box', '{}'.format('Yes' if self._box.isChecked() else 'No')),
                                 ('Manual', '{}'.format('Yes' if self._manual.isChecked() else 'No')),
                                 ('Year', '{}'.format(self._year.text())),
-                                ('Comment', '{}'.format(self._comment.text()))])
+                                ('Genre', '{}'.format(self._genre.text())),
+                                ('Comment', '{}'.format(self._comment.text())),
+                                ('Publisher', '{}'.format(self._publisher.text())),
+                                ('Developer', '{}'.format(self._developer.text())),
+                                ('Platforms', '{}'.format(self._platformsData))])
 
         elif self._dataType.currentIndex() == 1:
             data = OrderedDict([('Platform', '{}'.format(self._platform.currentText())),

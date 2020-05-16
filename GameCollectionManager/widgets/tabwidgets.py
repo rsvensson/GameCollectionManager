@@ -7,7 +7,7 @@ from PySide2.QtSql import QSqlTableModel, QSqlQuery
 from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout, \
     QPushButton, QLabel, QListWidget, QAbstractItemView, QTableView
 from widgets.models import TableModel
-from utilities.fetchinfo import getMobyInfo
+from utilities.fetchinfo import getMobyInfo, printInfo
 
 
 class Table(QTableView):
@@ -123,11 +123,13 @@ class Table(QTableView):
             for data in newData:
                 if table == "games":
                     query.exec_("INSERT INTO {} "
-                                "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Comment) "
+                                "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Genre, Comment, "
+                                "Publisher, Developer, Platforms) "
                                 "VALUES "
-                                "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
+                                "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
                         table, itemID, data["Platform"], data["Name"], data["Region"], data["Code"],
-                        data["Game"], data["Box"], data["Manual"], data["Year"], data["Comment"])
+                        data["Game"], data["Box"], data["Manual"], data["Year"], data["Genre"], data["Comment"],
+                        data["Publisher"], data["Developer"], data["Platforms"])
                     )
                 elif table == "consoles":
                     query.exec_("INSERT INTO {} "
@@ -157,11 +159,13 @@ class Table(QTableView):
 
             if table == "games":
                 query.exec_("INSERT INTO {} "
-                            "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Comment) "
+                            "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Genre, Comment, "
+                            "Publisher, Developer, Platforms) "
                             "VALUES "
-                            "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
-                    table, itemID, newData["Platform"], newData["Name"], newData["Region"], newData["Code"],
-                    newData["Game"], newData["Box"], newData["Manual"], newData["Year"], newData["Comment"])
+                            "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
+                        table, itemID, newData["Platform"], newData["Name"], newData["Region"], newData["Code"],
+                        newData["Game"], newData["Box"], newData["Manual"], newData["Year"], newData["Genre"], newData["Comment"],
+                        newData["Publisher"], newData["Developer"], newData["Platforms"])
                 )
             elif table == "consoles":
                 query.exec_("INSERT INTO {} "
@@ -364,25 +368,7 @@ class Table(QTableView):
 
         if table == "games":
             info = getMobyInfo(title, platform)
-            print("====================================")
-            for i in info:
-                if i == "releases":
-                    releases = info[i].keys()
-                    details = info[i].values()
-                    print("====================================\n\n")
-                    print("====================================")
-                    print("Releases:")
-                    print("====================================")
-                    for release, detail in zip(releases, details):
-                        print(", ".join(release) + ":")
-                        print("------------------------------------")
-                        for d in detail:
-                            print(d[0] + ":\t\t\t\t" + d[1] if len(d[0]) < 7
-                                  else d[0] + ":\t" + d[1] if len(d[0]) > 16
-                                  else d[0] + ":\t\t" + d[1])
-                        print("====================================")
-                else:
-                    print(i + ":\t\t\t" + info[i] if i == "title" or i == "genre" else i + ":\t\t" + info[i])
+            printInfo(info)
 
     def setHideNotOwned(self, on: bool):
         self.hideNotOwned = on
