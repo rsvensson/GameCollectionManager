@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 from PySide2.QtGui import Qt
 from PySide2.QtCore import Slot
-from PySide2.QtWidgets import QDockWidget, QLabel, QVBoxLayout, QHBoxLayout, QWidget
+from PySide2.QtWidgets import QDockWidget, QLabel, QVBoxLayout, QHBoxLayout, QWidget, QPushButton
+from utilities.fetchinfo import getMobyRelease
 
 
 class SidePanel(QDockWidget):
@@ -45,6 +46,11 @@ class SidePanel(QDockWidget):
         self.commentInfoLabel = QLabel()
         self.commentInfoLabel.setWordWrap(True)
 
+        # Buttons
+        self.fetchInfoButton = QPushButton("Fetch missing info")
+        self.fetchInfoButton.clicked.connect(self._fetchInfo)
+        self.saveButton = QPushButton("Save")
+
         # Layouts
         self.nameHbox = QHBoxLayout()
         self.nameHbox.addWidget(self.nameLabel, 0)
@@ -85,6 +91,9 @@ class SidePanel(QDockWidget):
         self.commentHbox = QHBoxLayout()
         self.commentHbox.addWidget(self.commentLabel, 0)
         self.commentHbox.addWidget(self.commentInfoLabel, 0)
+        self.buttonHbox = QHBoxLayout()
+        self.buttonHbox.addWidget(self.fetchInfoButton, 0)
+        self.buttonHbox.addWidget(self.saveButton, 0)
         self.mainLayout = QVBoxLayout()
         self.mainLayout.addLayout(self.nameHbox, 0)
         self.mainLayout.addLayout(self.platformHbox, 0)
@@ -99,10 +108,30 @@ class SidePanel(QDockWidget):
         self.mainLayout.addLayout(self.manualHbox, 0)
         self.mainLayout.addLayout(self.commentHbox, 0)
         self.mainLayout.addLayout(self.platformsHbox, 0)
+        self.mainLayout.addLayout(self.buttonHbox, 0)
 
         self.mainWidget = QWidget()
         self.mainWidget.setLayout(self.mainLayout)
         self.setWidget(self.mainWidget)
+
+    def _fetchInfo(self):
+        name = self.nameInfoLabel.text()
+        platform = self.platformInfoLabel.text()
+        region = self.regionInfoLabel.text()
+        info = getMobyRelease(name, platform, region)
+
+        if self.publisherInfoLabel.text() == "":
+            self.publisherInfoLabel.setText(info["publisher"])
+        if self.developerInfoLabel.text() == "":
+            self.developerInfoLabel.setText(info["developer"])
+        if self.genreInfoLabel.text() == "":
+            self.genreInfoLabel.setText(info["genre"])
+        if self.yearLabel.text() == "":
+            self.yearLabel.setText(info["year"])
+        if self.codeInfoLabel.text() == "":
+            self.codeInfoLabel.setText(info["code"])
+        if self.platformsInfoLabel.text() == "":
+            self.platformsInfoLabel.setText(info["platforms"])
 
     def showDetails(self, info):
         if not self.isVisible():

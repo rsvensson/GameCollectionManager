@@ -4,7 +4,7 @@ from collections.__init__ import OrderedDict
 from PySide2.QtCore import QSize, Qt
 from PySide2.QtWidgets import QDialog, QLabel, QComboBox, QLineEdit, QCheckBox, QPushButton, QVBoxLayout, QHBoxLayout, \
     QInputDialog, QDesktopWidget, QMessageBox
-from utilities.fetchinfo import getMobyInfo
+from utilities.fetchinfo import getMobyInfo, getMobyRelease
 
 
 class InputWindow(QDialog):
@@ -480,74 +480,28 @@ class InputWindow(QDialog):
         name = self._name.text()
         platform = self._platform.currentText()
         country = self._country.text()
-        print(country)
-        regionDict = {"NTSC (JP)": ("Japan", "Worldwide"),
-                      "NTSC (NA)": ("United States", "Canada", "Worldwide"),
-                      "PAL": ("United Kingdom", "Ireland", "Germany", "France", "Italy",
-                              "Austria", "Belgium", "The Netherlands", "Portugal",
-                              "Spain", "Switzerland", "Russia",
-                              "Sweden", "Denmark", "Norway", "Finland",
-                              "Australia, New Zealand", "Worldwide")}
-        region = regionDict[self._region.currentText()]
+        region = self._region.currentText()
 
         if name == "" or platform == "" or name.isspace() or platform.isspace():
             self._displayMsgBox(1)
         else:
-            info = getMobyInfo(name, platform)
-            if info["title"] == "":
+            # Fill in missing info
+            info = getMobyRelease(name, platform, region, country)
+            if info["publisher"] == "":
                 self._displayMsgBox(2)
                 return
 
             publisher = info["publisher"]
             developer = info["developer"]
-            self._platformsData = info["platforms"]
-            yearFormat = re.compile(r"\d{4}")
             genre = info["genre"]
-            code = ""
-            year = ""
-
-            # Try to get product code, and also year since it might be different between releases
-            correctRelease = False
-            for release, details in zip(info["releases"].keys(), info["releases"].values()):
-                # Optionally check the specific country's release, but only if it makes sense
-                # (e.g. don't check for Norway if region == NTSC (JP)
-                if country != "" and country in region and country in release:
-                    print(country + " = Correct release")
-                    correctRelease = True
-                else:
-                    if self._region.currentText() == "PAL" and "United Kingdom" in release:
-                        # Make UK release default for PAL
-                        correctRelease = True
-                    else:
-                        if country == "" and not correctRelease:
-                            # UK not found, or region isn't PAL, try to find another release
-                            for r in release:
-                                if r in region or r == region:
-                                    correctRelease = True
-                                    break
-                        elif country != "" and not correctRelease:
-                            continue
-
-                if correctRelease:
-                    for d in details:
-                        if d[0] in ("Company Code", "Nintendo Media PN", "Sony PN"):
-                            code = d[1]
-                        elif d[0] == "Release Date":
-                            year = yearFormat.findall(d[1])[0]
-
-                if code != "" and year != "":
-                    break
-
-            # Try with EAN-13 or UPC-A for the code as a fallback
-            if code == "" and correctRelease:
-                for d in details:
-                    if d[0] in ("EAN-13", "UPC-A"):
-                        code = d[1]
-                        break
+            code = info["code"]
+            year = info["year"]
 
             if year == "" and code == "" and country != "":
+                # Can't find release for country
                 self._displayMsgBox(3)
             elif year == "" and code == "":
+                # Can't find release at all
                 self._displayMsgBox(4)
             else:
                 self._year.setText(year)

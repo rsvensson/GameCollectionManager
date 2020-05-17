@@ -472,6 +472,73 @@ def getMobyInfo(game: str, platform: str) -> dict:
     return mobyCSSData
 
 
+def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
+    regionDict = {"NTSC (JP)": ("Japan", "Worldwide"),
+                  "NTSC (NA)": ("United States", "Canada", "Worldwide"),
+                  "PAL": ("United Kingdom", "Ireland", "Germany", "France", "Italy",
+                          "Austria", "Belgium", "The Netherlands", "Portugal",
+                          "Spain", "Switzerland", "Russia",
+                          "Sweden", "Denmark", "Norway", "Finland",
+                          "Australia, New Zealand", "Worldwide")}
+    region = regionDict[region]
+    info = getMobyInfo(name, platform)
+
+    if info["title"] == "":
+        # No data found, return empty values
+        return {x: "" for x in info.keys()}
+
+    publisher = info["publisher"]
+    developer = info["developer"]
+    platforms = info["platforms"]
+    genre = info["genre"]
+    yearFormat = re.compile(r"\d{4}")
+    code = ""
+    year = ""
+
+    # Try to get product code, and also year since it might be different between releases
+    correctRelease = False
+    for release, details in zip(info["releases"].keys(), info["releases"].values()):
+        # Optionally check the specific country's release, but only if it makes sense
+        # (e.g. don't check for Norway if region == NTSC (JP)
+        if country != "" and country in region and country in release:
+            print(country + " = Correct release")
+            correctRelease = True
+        else:
+            if region == "PAL" and "United Kingdom" in release:
+                # Make UK release default for PAL
+                correctRelease = True
+            else:
+                if country == "" and not correctRelease:
+                    # UK not found, or region isn't PAL, try to find another release
+                    for r in release:
+                        if r in region or r == region:
+                            correctRelease = True
+                            break
+                elif country != "" and not correctRelease:
+                    continue
+
+        if correctRelease:
+            for d in details:
+                if d[0] in ("Company Code", "Nintendo Media PN", "Sony PN"):
+                    code = d[1]
+                elif d[0] == "Release Date":
+                    year = yearFormat.findall(d[1])[0]
+
+        if code != "" and year != "":
+            break
+
+    # Try with EAN-13 or UPC-A for the code as a fallback
+    if code == "" and correctRelease:
+        for d in details:
+            if d[0] in ("EAN-13", "UPC-A"):
+                code = d[1]
+                break
+
+    releaseInfo = {"publisher": publisher, "developer": developer, "platforms": platforms,
+                   "genre": genre, "code": code, "year": year}
+    return releaseInfo
+
+
 def printInfo(data: dict):
     # Print out the info with pretty formatting
     for i in data:
