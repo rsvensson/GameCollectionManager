@@ -385,6 +385,12 @@ def _tryAlternatives(title: str, platform: str):
 
 
 def getMobyInfo(game: str, platform: str) -> dict:
+    '''Takes a game name and its platform, and returns a dictionary with the game's
+       information from MobyGames.com.
+       :param game: Title of the game
+       :param platform: The game's platform
+       :return: Dictionary of the game's info
+    '''
     mobyCSSData = {
         "title": "html body div#wrapper div.container div#main.row div.col-md-12.col-lg-12 div.rightPanelHeader h1.niceHeaderTitle a",
         "publisher": "#coreGameRelease > div:nth-child(2) > a:nth-child(1)",
@@ -473,6 +479,18 @@ def getMobyInfo(game: str, platform: str) -> dict:
 
 
 def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
+    '''
+    Finds a specific release for a game on MobyGames.com
+    :param name: The name of the game
+    :param platform: The game's platform
+    :param region: The game's region (NTSC (JP), NTSC (NA), PAL accepted)
+    :param country: Optionally specify a specific country
+    :return: Dictionary of the release info
+    '''
+
+    releaseInfo = {"publisher": "", "developer": "", "platforms": "",
+                   "genre": "", "code": "", "year": ""}
+
     regionDict = {"NTSC (JP)": ("Japan", "Worldwide"),
                   "NTSC (NA)": ("United States", "Canada", "Worldwide"),
                   "PAL": ("United Kingdom", "Ireland", "Germany", "France", "Italy",
@@ -487,7 +505,7 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
 
     if info["title"] == "":
         # No data found, return empty values
-        return {x: "" for x in info.keys()}
+        return releaseInfo
 
     publisher = info["publisher"]
     developer = info["developer"]
@@ -498,29 +516,29 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
     year = ""
 
     # Try to get product code, and also year since it might be different between releases
-    correctRelease = False
+    correctRelease = ""
     for release, details in zip(info["releases"].keys(), info["releases"].values()):
         # Optionally check the specific country's release, but only if it makes sense
         # (e.g. don't check for Norway if region == NTSC (JP)
         if country != "" and country in region and country in release:
-            print(country + " = Correct release")
-            correctRelease = True
+            correctRelease = release
         else:
             if region == "PAL" and "United Kingdom" in release:
                 # Make UK release default for PAL
-                correctRelease = True
+                correctRelease = release
             else:
-                if country == "" and not correctRelease:
+                if country == "" and correctRelease == "":
                     # UK not found, or region isn't PAL, try to find another release
                     for r in release:
                         if r in region or r == region:
-                            correctRelease = True
+                            correctRelease = release
                             break
-                elif country != "" and not correctRelease:
+                elif country != "" and correctRelease == "":
                     continue
 
-        if correctRelease:
+        if correctRelease != "":
             for d in details:
+                print(d)
                 if d[0] in ("Company Code", "Nintendo Media PN", "Sony PN"):
                     code = d[1]
                 elif d[0] == "Release Date":
@@ -530,8 +548,8 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
             break
 
     # Try with EAN-13 or UPC-A for the code as a fallback
-    if code == "" and correctRelease:
-        for d in details:
+    if code == "" and correctRelease != "":
+        for d in info["releases"][correctRelease]:
             if d[0] in ("EAN-13", "UPC-A"):
                 code = d[1]
                 break

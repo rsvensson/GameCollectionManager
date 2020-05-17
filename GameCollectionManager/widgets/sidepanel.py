@@ -126,8 +126,8 @@ class SidePanel(QDockWidget):
             self.developerInfoLabel.setText(info["developer"])
         if self.genreInfoLabel.text() == "":
             self.genreInfoLabel.setText(info["genre"])
-        if self.yearLabel.text() == "":
-            self.yearLabel.setText(info["year"])
+        if self.yearInfoLabel.text() == "":
+            self.yearInfoLabel.setText(info["year"])
         if self.codeInfoLabel.text() == "":
             self.codeInfoLabel.setText(info["code"])
         if self.platformsInfoLabel.text() == "":
