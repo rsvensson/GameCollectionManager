@@ -538,7 +538,6 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
 
         if correctRelease != "":
             for d in details:
-                print(d)
                 if d[0] in ("Company Code", "Nintendo Media PN", "Sony PN"):
                     code = d[1]
                 elif d[0] == "Release Date":

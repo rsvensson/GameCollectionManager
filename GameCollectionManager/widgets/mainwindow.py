@@ -118,6 +118,8 @@ class MainWindow(QMainWindow):
         self.tab.currentChanged.connect(self.search)
         self.tab.currentChanged.connect(self.updateStatusbar)
         self.tab.currentChanged.connect(self.sidePanel.hideDetails)
+        # Connect sidePanel's saved signal to corresponding table's updateData()
+        self.sidePanel.saved.connect(self.tableViewList[self.tab.currentIndex()].updateData)
 
         # Main layout
         self.tabHbox = QHBoxLayout()

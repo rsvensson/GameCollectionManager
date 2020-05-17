@@ -421,6 +421,24 @@ class Table(QTableView):
     def test(self):
         pass
 
+    def updateData(self, data: dict):
+        currentRow = self.currentIndex().row()
+
+        if self._table == "games":
+            codeIndex = self.model.index(currentRow, 4)
+            yearIndex = self.model.index(currentRow, 8)
+            genreIndex = self.model.index(currentRow, 9)
+            publisherIndex = self.model.index(currentRow, 11)
+            developerIndex = self.model.index(currentRow, 12)
+            platformsIndex = self.model.index(currentRow, 13)
+            self.model.setData(codeIndex, data["code"])
+            self.model.setData(yearIndex, data["year"])
+            self.model.setData(genreIndex, data["genre"])
+            self.model.setData(publisherIndex, data["publisher"])
+            self.model.setData(developerIndex, data["developer"])
+            self.model.setData(platformsIndex, data["platforms"])
+
+
 
 class Randomizer(QWidget):
     """A game randomizer for selecting a random game to play

@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 from PySide2.QtGui import Qt
-from PySide2.QtCore import Slot
+from PySide2.QtCore import Signal
 from PySide2.QtWidgets import QDockWidget, QLabel, QVBoxLayout, QHBoxLayout, QWidget, QPushButton
 from utilities.fetchinfo import getMobyRelease
 
 
 class SidePanel(QDockWidget):
+    saved = Signal(dict)
+
     def __init__(self):
         super(SidePanel, self).__init__()
 
@@ -50,6 +52,7 @@ class SidePanel(QDockWidget):
         self.fetchInfoButton = QPushButton("Fetch missing info")
         self.fetchInfoButton.clicked.connect(self._fetchInfo)
         self.saveButton = QPushButton("Save")
+        self.saveButton.clicked.connect(self._saveInfo)
 
         # Layouts
         self.nameHbox = QHBoxLayout()
@@ -132,6 +135,15 @@ class SidePanel(QDockWidget):
             self.codeInfoLabel.setText(info["code"])
         if self.platformsInfoLabel.text() == "":
             self.platformsInfoLabel.setText(info["platforms"])
+
+    def _saveInfo(self):
+        info = {"publisher": self.publisherInfoLabel.text(),
+                "developer": self.developerInfoLabel.text(),
+                "platforms": self.platformsInfoLabel.text(),
+                "genre": self.genreInfoLabel.text(),
+                "code": self.codeInfoLabel.text(),
+                "year": self.yearInfoLabel.text()}
+        self.saved.emit(info)
 
     def showDetails(self, info):
         if not self.isVisible():

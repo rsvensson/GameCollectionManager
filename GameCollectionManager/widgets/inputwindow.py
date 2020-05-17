@@ -1,4 +1,3 @@
-import re
 from collections.__init__ import OrderedDict
 
 from PySide2.QtCore import QSize, Qt
