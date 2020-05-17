@@ -12,7 +12,8 @@ from widgets.inputwindow import InputWindow
 from widgets.overview import Overview
 from widgets.searchdock import AdvancedSearch
 from widgets.sidepanel import SidePanel
-from widgets.tabwidgets import Table, Randomizer
+from widgets.tables import Table
+from widgets.randomizer import Randomizer
 
 _VERSION = "0.2.0"
 
