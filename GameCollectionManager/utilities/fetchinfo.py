@@ -397,7 +397,7 @@ def getMobyInfo(game: str, platform: str) -> dict:
 
     # Some substitutions for certain platforms:
     if platform == "Game & Watch":
-        game = "Game & Watch Wide Screen: " + game  # Need to figure out something better for each variety
+        game = "Game & Watch Wide Screen: " + game  # TODO: Need to figure out something better for each variety
         platform = "Dedicated handheld"
     elif platform == "Mega Drive":  # Because Genesis is a band not a console
         platform = "Genesis"

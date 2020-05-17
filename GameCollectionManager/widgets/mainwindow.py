@@ -4,13 +4,14 @@ from PySide2.QtGui import QIcon
 from PySide2.QtSql import QSqlDatabase, QSqlQuery
 from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget, \
     QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget, \
-    QWidget, QLabel, QPushButton, QGridLayout, QInputDialog, QProgressBar, QVBoxLayout, QComboBox, QHBoxLayout
+    QWidget, QLabel, QPushButton, QInputDialog, QProgressBar, QVBoxLayout, QComboBox, QHBoxLayout
 from utilities.steamlibrary import getSteamLibrary
 from utilities.exportcsv import sql2csv
 from widgets.importwindow import ImportWindow
 from widgets.inputwindow import InputWindow
 from widgets.overview import Overview
 from widgets.searchdock import AdvancedSearch
+from widgets.sidepanel import SidePanel
 from widgets.tabwidgets import Table, Randomizer
 
 _VERSION = "0.1.0"
@@ -28,14 +29,20 @@ class MainWindow(QMainWindow):
         # 'Import games' window
         self.importWindow = None
 
+        # Side panel
+        self.sidePanel = SidePanel()
+
         # Tables and their databases
         self.db = QSqlDatabase.addDatabase("QSQLITE")
         self.db.setDatabaseName(dbpath)
         if not self.db.open():
             QMessageBox.critical(None, "Database Error", self.db.lastError().text())
         self.gamesTableView = Table("games", self.db)
+        self.gamesTableView.doubleClick.connect(self.sidePanel.showDetails)
         self.consolesTableView = Table("consoles", self.db)
+        self.consolesTableView.doubleClick.connect(self.sidePanel.showDetails)
         self.accessoriesTableView = Table("accessories", self.db)
+        self.accessoriesTableView.doubleClick.connect(self.sidePanel.showDetails)
         self.tableViewList = [self.gamesTableView,
                               self.consolesTableView,
                               self.accessoriesTableView]
@@ -110,17 +117,23 @@ class MainWindow(QMainWindow):
         self.tab.addTab(self.randomizer.widget, "Randomizer")
         self.tab.currentChanged.connect(self.search)
         self.tab.currentChanged.connect(self.updateStatusbar)
+        self.tab.currentChanged.connect(self.sidePanel.hideDetails)
 
         # Main layout
-        self.mainGrid = QGridLayout()
-        self.mainGrid.setMargin(0)
-        self.mainGrid.setSpacing(0)
-        self.mainGrid.addWidget(self.tab, 0, 1, 1, 3)
-        self.mainGrid.addWidget(self.advSearch, 1, 1, 1, 3)
-        self.mainGrid.addWidget(self.searchLabel, 2, 1)
-        self.mainGrid.addWidget(self.searchBox, 2, 2)
-        self.mainGrid.addWidget(self.advSearchBtn, 2, 3)
-        self.centralWidget.setLayout(self.mainGrid)
+        self.tabHbox = QHBoxLayout()
+        self.tabHbox.addWidget(self.tab, 1)
+        self.tabHbox.addWidget(self.sidePanel, 1)
+        self.advSearchHbox = QHBoxLayout()
+        self.advSearchHbox.addWidget(self.advSearch, 0)
+        self.searchHbox = QHBoxLayout()
+        self.searchHbox.addWidget(self.searchLabel, 0)
+        self.searchHbox.addWidget(self.searchBox, 1)
+        self.searchHbox.addWidget(self.advSearchBtn, 0)
+        self.mainLayout = QVBoxLayout()
+        self.mainLayout.addLayout(self.tabHbox, 1)
+        self.mainLayout.addLayout(self.advSearchHbox, 0)
+        self.mainLayout.addLayout(self.searchHbox, 0)
+        self.centralWidget.setLayout(self.mainLayout)
 
         # Make sure screen geometry is big enough. Otherwise set window to maximized.
         gSize = QApplication.desktop().availableGeometry()
@@ -340,7 +353,6 @@ class MainWindow(QMainWindow):
         addAct.triggered.connect(self.addToCollection)
 
         delText = "&Delete row"
-
         currentTab = self.tab.currentIndex()
         if 0 < currentTab < 4:
             if len(self.tableViewList[currentTab-1].selectedIndexes()) > 1:
@@ -349,11 +361,16 @@ class MainWindow(QMainWindow):
         delAct.setToolTip("Delete from collection")
         delAct.triggered.connect(self.deleteFromCollection)
 
+        detAct = QAction(QIcon.fromTheme("text-x-generic-template"), "Details...", self)
+        detAct.setToolTip("Open details side-panel")
+        detAct.triggered.connect(self.tableViewList[currentTab-1].rowData)
+
         expAct = QAction(QIcon.fromTheme("text-x-generic-template"), "&Export as csv...", self)
         expAct.setShortcut("Ctrl+E")
         expAct.setToolTip("Export table as CSV file")
         expAct.triggered.connect(self.exportToCSV)
 
+        # not used
         savAct = QAction(QIcon.fromTheme("document-save"), "&Save tables", self)
         savAct.setShortcut("Ctrl+S")
         savAct.setToolTip("Saves the tables to the database")
@@ -387,9 +404,10 @@ class MainWindow(QMainWindow):
         infoAct = QAction("Debug: Print row info", self)
         infoAct.triggered.connect(self.info)
 
-        act = {"add": addAct, "del": delAct, "export": expAct, "import": impAct,
-               "steam": stmAct, "owned": ownAct, "delnotowned": delNotOwned,
-               "about": aboutAct, "exit": exitAct, "info": infoAct}
+        act = {"add": addAct, "del": delAct, "det": detAct, "export": expAct,
+               "import": impAct, "steam": stmAct, "owned": ownAct,
+               "delnotowned": delNotOwned, "about": aboutAct, "exit": exitAct,
+               "info": infoAct}
 
         return act.get(action)
 
@@ -408,6 +426,7 @@ class MainWindow(QMainWindow):
         currentTab = self.tab.currentIndex()
 
         if 0 < currentTab < 4:
+            detAct = cmenu.addAction(self.buttonActions("det"))
             delAct = cmenu.addAction(self.buttonActions("del"))
             infoAct = cmenu.addAction(self.buttonActions("info"))
         action = cmenu.exec_(self.mapToGlobal(event.pos()))

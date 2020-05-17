@@ -624,41 +624,41 @@ class InputWindow(QDialog):
         data = None
 
         if self._dataType.currentIndex() == 0:
-            data = OrderedDict([('Platform', '{}'.format(self._platform.currentText())),
-                                ('Name', '{}'.format(self._name.text())),
-                                ('Region', '{}'.format(self._region.currentText())),
-                                ('Code', '{}'.format(self._code.text())),
-                                ('Game', '{}'.format('Yes' if self._item.isChecked() else 'No')),
-                                ('Box', '{}'.format('Yes' if self._box.isChecked() else 'No')),
-                                ('Manual', '{}'.format('Yes' if self._manual.isChecked() else 'No')),
-                                ('Year', '{}'.format(self._year.text())),
-                                ('Genre', '{}'.format(self._genre.text())),
-                                ('Comment', '{}'.format(self._comment.text())),
-                                ('Publisher', '{}'.format(self._publisher.text())),
-                                ('Developer', '{}'.format(self._developer.text())),
-                                ('Platforms', '{}'.format(self._platformsData))])
+            data = OrderedDict([("Platform", "{}".format(self._platform.currentText())),
+                                ("Name", "{}".format(self._name.text())),
+                                ("Region", "{}".format(self._region.currentText())),
+                                ("Code", "{}".format(self._code.text())),
+                                ("Game", "{}".format('Yes' if self._item.isChecked() else 'No')),
+                                ("Box", "{}".format('Yes' if self._box.isChecked() else 'No')),
+                                ("Manual", "{}".format('Yes' if self._manual.isChecked() else 'No')),
+                                ("Year", "{}".format(self._year.text())),
+                                ("Genre", "{}".format(self._genre.text())),
+                                ("Comment", "{}".format(self._comment.text())),
+                                ("Publisher", "{}".format(self._publisher.text())),
+                                ("Developer", "{}".format(self._developer.text())),
+                                ("Platforms", "{}".format(self._platformsData))])
 
         elif self._dataType.currentIndex() == 1:
-            data = OrderedDict([('Platform', '{}'.format(self._platform.currentText())),
-                                ('Name', '{}'.format(self._name.text())),
-                                ('Region', '{}'.format(self._region.text())),
-                                ('Country', '{}'.format(self._country.text())),
-                                ('Serial number', '{}'.format(self._code.text())),
-                                ('Console', '{}'.format('Yes' if self._item.isChecked() else 'No')),
-                                ('Box', '{}'.format('Yes' if self._box.isChecked() else 'No')),
-                                ('Manual', '{}'.format('Yes' if self._manual.isChecked() else 'No')),
-                                ('Year', '{}'.format(self._year.text())),
-                                ('Comment', '{}'.format(self._comment.text()))])
+            data = OrderedDict([("Platform", "{}".format(self._platform.currentText())),
+                                ("Name", "{}".format(self._name.text())),
+                                ("Region", "{}".format(self._region.text())),
+                                ("Country", "{}".format(self._country.text())),
+                                ("Serial number", "{}".format(self._code.text())),
+                                ("Console", "{}".format('Yes' if self._item.isChecked() else 'No')),
+                                ("Box", "{}".format('Yes' if self._box.isChecked() else 'No')),
+                                ("Manual", "{}".format('Yes' if self._manual.isChecked() else 'No')),
+                                ("Year", "{}".format(self._year.text())),
+                                ("Comment", "{}".format(self._comment.text()))])
 
         elif self._dataType.currentIndex() == 2:
-            data = OrderedDict([('Platform', '{}'.format(self._platform.currentText())),
-                                ('Name', '{}'.format(self._name.text())),
-                                ('Region', '{}'.format(self._region.text())),
-                                ('Country', '{}'.format(self._country.text())),
-                                ('Accessory', '{}'.format('Yes' if self._item.isChecked() else 'No')),
-                                ('Box', '{}'.format('Yes' if self._box.isChecked() else 'No')),
-                                ('Manual', '{}'.format('Yes' if self._manual.isChecked() else 'No')),
-                                ('Year', '{}'.format(self._year.text())),
-                                ('Comment', '{}'.format(self._comment.text()))])
+            data = OrderedDict([("Platform", "{}".format(self._platform.currentText())),
+                                ("Name", "{}".format(self._name.text())),
+                                ("Region", "{}".format(self._region.text())),
+                                ("Country", "{}".format(self._country.text())),
+                                ("Accessory", "{}".format('Yes' if self._item.isChecked() else 'No')),
+                                ("Box", "{}".format('Yes' if self._box.isChecked() else 'No')),
+                                ("Manual", "{}".format('Yes' if self._manual.isChecked() else 'No')),
+                                ("Year", "{}".format(self._year.text())),
+                                ("Comment", "{}".format(self._comment.text()))])
 
         return data

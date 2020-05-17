@@ -1,8 +1,8 @@
 from collections import OrderedDict
 from random import randint
 
-from PySide2.QtCore import Qt, Signal, QModelIndex
-from PySide2.QtGui import QFont
+from PySide2.QtCore import Qt, Signal, QModelIndex, QItemSelectionModel
+from PySide2.QtGui import QFont, QKeyEvent, QMouseEvent
 from PySide2.QtSql import QSqlTableModel, QSqlQuery
 from PySide2.QtWidgets import QWidget, QGridLayout, QVBoxLayout, QHBoxLayout, \
     QPushButton, QLabel, QListWidget, QAbstractItemView, QTableView
@@ -14,6 +14,7 @@ class Table(QTableView):
 
     resized = Signal()
     fetched = Signal()
+    doubleClick = Signal(dict)
 
     def __init__(self, tableName: str, db):
         super(Table, self).__init__()
@@ -122,6 +123,7 @@ class Table(QTableView):
 
             for data in newData:
                 if table == "games":
+                    # SQLite3 doesn't support batch execution so just execute each statement is sequence.
                     query.exec_("INSERT INTO {} "
                                 "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Genre, Comment, "
                                 "Publisher, Developer, Platforms) "
@@ -280,6 +282,30 @@ class Table(QTableView):
 
         return count
 
+    def keyPressEvent(self, event: QKeyEvent):
+        # Custom handling for enter key to start editing
+        if event.key() == Qt.Key_Return:
+            nextRow = self.currentIndex().row() + 1
+            if nextRow > self.model.rowCount(self.currentIndex()):
+                # Can't go further down
+                nextRow -= 1
+            if self.state() == QAbstractItemView.EditingState:
+                nextIndex = self.model.index(nextRow, self.currentIndex().column())
+                self.setCurrentIndex(nextIndex)
+                self.selectionModel().select(nextIndex, QItemSelectionModel.ClearAndSelect)
+            else:
+                # If we're not editing, start editing
+                self.edit(self.currentIndex())
+        else:
+            super(Table, self).keyPressEvent(event)
+
+    def mouseDoubleClickEvent(self, event: QMouseEvent):
+        # Custom handling for double clicking so we open the side panel
+        if event.button() == Qt.LeftButton:
+            self.rowData()
+        else:
+            super(Table, self).mouseDoubleClickEvent(event)
+
     def ownedCount(self) -> int:
         """
         Counts how many items in the table that are owned. An owned item is one that
@@ -339,6 +365,25 @@ class Table(QTableView):
     def rowCountChanged(self, oldCount: int, newCount: int):
         self.fetched.emit()
         return super().rowCountChanged(oldCount, newCount)
+
+    def rowData(self):
+        rowData = {}
+        gamesColumns = ["Id", "Platform", "Name", "Region", "Code", "Game", "Box", "Manual", "Year", "Genre",
+                        "Comment", "Publisher", "Developer", "Platforms"]
+        consoleColumns = ["Id", "Platform", "Name", "Region", "Country", "Serial number", "Console", "Box",
+                          "Manual", "Year", "Comment"]
+        accessoriesColumns = ["Id", "Platform", "Name", "Region", "Country", "Accessory", "Box", "Manual",
+                              "Year", "Comment"]
+
+        id = self.model.index(self.currentIndex().row(), 0).data()
+        query = QSqlQuery()
+        query.exec_(f"SELECT * FROM {self._table} WHERE Id={id}")
+        query.first()
+        if self._table == "games":
+            for i in range(1, len(gamesColumns)):
+                rowData[gamesColumns[i]] = query.value(i)
+
+            self.doubleClick.emit(rowData)
 
     def rowInfo(self, row: int):
         table = self._table
