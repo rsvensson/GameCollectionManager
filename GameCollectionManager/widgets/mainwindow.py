@@ -14,7 +14,7 @@ from widgets.searchdock import AdvancedSearch
 from widgets.sidepanel import SidePanel
 from widgets.tabwidgets import Table, Randomizer
 
-_VERSION = "0.1.0"
+_VERSION = "0.2.0"
 
 
 class MainWindow(QMainWindow):
