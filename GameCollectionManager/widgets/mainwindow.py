@@ -116,7 +116,6 @@ class MainWindow(QMainWindow):
         self.tab.addTab(self.accessoriesTableView, "Accessories")
         self.tab.addTab(self.randomizer.widget, "Randomizer")
         self.tab.currentChanged.connect(self.search)
-        self.tab.currentChanged.connect(self.updateStatusbar)
         self.tab.currentChanged.connect(self.sidePanel.hideDetails)
         # Connect sidePanel's saved signal to corresponding table's updateData()
         self.sidePanel.saved.connect(self.tableViewList[self.tab.currentIndex()].updateData)
@@ -155,7 +154,7 @@ class MainWindow(QMainWindow):
         aboutMsg.setText("<h2>Game Collection Manager</h2>")
         aboutMsg.setInformativeText(f"Version {_VERSION}\n")
         aboutMsg.exec_()
-        self.updateStatusbar()
+        self.search()
 
     def addToCollection(self):
         """
@@ -193,6 +192,7 @@ class MainWindow(QMainWindow):
                 elif "Accessory" in data.keys():
                     self.accessoriesTableView.addData(data)
                     self.overview.updateData(self.accessoriesTableView)
+                self.search()
             break
 
     def deleteFromCollection(self):
@@ -216,6 +216,7 @@ class MainWindow(QMainWindow):
                 self.overview.updateData(self.tableViewList[currentTab-1])
                 if currentTab == 1:
                     self.randomizer.updateData(self.gamesTableView.ownedItems())
+                self.search()
 
     def deleteNotOwned(self):
         """
@@ -235,6 +236,7 @@ class MainWindow(QMainWindow):
 
             if ok == QMessageBox.Ok:
                 self.tableViewList[currentTab-1].deleteNotOwned()
+                self.search()
 
     def importToDatabase(self):
         """
@@ -257,6 +259,7 @@ class MainWindow(QMainWindow):
                 if region not in self.allRegions:
                     self.allRegions.add(region)
                     self.advSearch.updateRegions(sorted(self.allRegions, key=str.lower))
+            self.search()
 
     def importSteamLibrary(self):
         apiKey, ok = QInputDialog.getText(self, "Import Steam Library", "Enter Steam API Key:")
@@ -288,6 +291,7 @@ class MainWindow(QMainWindow):
                                 self.gamesTableView.addData(game)
                     self.overview.updateData(self.gamesTableView)
                     self.randomizer.updateData(self.gamesTableView.ownedItems())
+                    self.search()
 
     def exportToCSV(self):
         def doexport():
@@ -433,7 +437,7 @@ class MainWindow(QMainWindow):
             infoAct = cmenu.addAction(self.buttonActions("info"))
         action = cmenu.exec_(self.mapToGlobal(event.pos()))
 
-        self.updateStatusbar()
+        self.search()
 
     def info(self):
         currentTab = self.tab.currentIndex()
@@ -474,7 +478,7 @@ class MainWindow(QMainWindow):
         currentTab = self.tab.currentIndex()
         if 0 < currentTab < 4:
             self.tableViewList[currentTab-1].filterTable(self.searchBox.text(), self.advSearch.getSelections())
-        self.updateStatusbar()
+        self.search()
 
     def updateStatusbar(self):
         currentTab = self.tab.currentIndex()
