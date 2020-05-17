@@ -418,34 +418,6 @@ class Table(QTableView):
     def setHideNotOwned(self, on: bool):
         self.hideNotOwned = on
 
-        """if self.hideNotOwned:
-            names = []
-            table = self.table
-            item = "Game" if table == "games" else\
-                "Console" if table == "consoles" else\
-                "Accessory"
-            query = QSqlQuery()
-            query.exec_("SELECT Name FROM {} WHERE {}='No' AND Box='No' AND Manual='No'".format(
-                table, item
-            ))
-            while query.next():
-                names.append(query.value(0))
-
-            while self.model.canFetchMore():
-                self.model.fetchMore()
-
-            for name in names:
-                for row in range(self.model.rowCount()):
-                    text = self.indexAt(QPoint(2, row))
-                    game = self.indexAt(QPoint(5, row))
-                    box = self.indexAt(QPoint(6, row))
-                    manual = self.indexAt(QPoint(7, row))
-                    print(row, name, text.data(), game.data(), box.data(), manual.data())  # ???
-
-                    if text.data() == name and game.data() == 'No'\
-                            and box.data() == 'No' and manual.data() == 'No':
-                        self.setRowHidden(row, True)"""
-
     def test(self):
         pass
 
