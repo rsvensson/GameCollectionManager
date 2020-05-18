@@ -24,11 +24,11 @@ def createDB(dbpath):
     con = sqlite3.connect(dbpath)
     cur = con.cursor()
     cur.execute("CREATE TABLE IF NOT EXISTS games "
-                "(ID int, Platform, Name, Region, Code, Game, Box, Manual, Year, Genre, Comment, Publisher, Developer, Platforms);")
+                "(ID INTEGER PRIMARY KEY, Platform, Name, Region, Code, Game, Box, Manual, Year, Genre, Comment, Publisher, Developer, Platforms);")
     cur.execute("CREATE TABLE IF NOT EXISTS consoles "
-                "(ID int, Platform, Name, Region, Country, 'Serial number', Console, Box, Manual, Year, Comment);")
+                "(ID INTEGER PRIMARY KEY, Platform, Name, Region, Country, 'Serial number', Console, Box, Manual, Year, Comment);")
     cur.execute("CREATE TABLE IF NOT EXISTS accessories "
-                "(ID int, Platform, Name, Region, Country, Accessory, Box, Manual, Year, Comment);")
+                "(ID INTEGER PRIMARY KEY, Platform, Name, Region, Country, Accessory, Box, Manual, Year, Comment);")
     con.commit()
     con.close()
 

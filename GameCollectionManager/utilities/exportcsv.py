@@ -24,7 +24,11 @@ def sql2csv(db: QSqlDatabase, tables: list, filetype: str):
                                          ("Box", query.value(6)),
                                          ("Manual", query.value(7)),
                                          ("Year", query.value(8)),
-                                         ("Comment", query.value(9))]))
+                                         ("Genre", query.value(9)),
+                                         ("Comment", query.value(10)),
+                                         ("Publisher", query.value(11)),
+                                         ("Developer", query.value(12)),
+                                         ("Platforms", query.value(13))]))
             elif table == "consoles":
                 rows.append(OrderedDict([("Platform", query.value(1)),
                                          ("Name", query.value(2)),
@@ -47,7 +51,7 @@ def sql2csv(db: QSqlDatabase, tables: list, filetype: str):
                                          ("Year", query.value(8)),
                                          ("Comment", query.value(9))]))
 
-        with open("{}.{}".format(table, filetype), 'w', encoding='utf8') as f:
+        with open(f"{table}.{filetype}", 'w', encoding='utf8') as f:
             writer = csv.DictWriter(f,
                                     dialect="excel-tab" if filetype == "tsv" else "excel",
                                     fieldnames=list(rows[0].keys()))

@@ -542,7 +542,7 @@ class InputWindow(QDialog):
             self._codeLabel.setText("Serial No\t ")
             self._itemLabel.setText("Console")
             self._genreLabel.setEnabled(False)
-            self._genreLaber.setEnabled(False)
+            self._genre.setEnabled(False)
             self._autofillButton.setEnabled(False)
         elif self._dataType.currentIndex() == 2:
             self._countryLabel.setEnabled(True)
@@ -594,7 +594,7 @@ class InputWindow(QDialog):
         elif self._dataType.currentIndex() == 1:
             data = OrderedDict([("Platform", "{}".format(self._platform.currentText())),
                                 ("Name", "{}".format(self._name.text())),
-                                ("Region", "{}".format(self._region.text())),
+                                ("Region", "{}".format(self._region.currentText())),
                                 ("Country", "{}".format(self._country.text())),
                                 ("Serial number", "{}".format(self._code.text())),
                                 ("Console", "{}".format('Yes' if self._item.isChecked() else 'No')),
@@ -606,7 +606,7 @@ class InputWindow(QDialog):
         elif self._dataType.currentIndex() == 2:
             data = OrderedDict([("Platform", "{}".format(self._platform.currentText())),
                                 ("Name", "{}".format(self._name.text())),
-                                ("Region", "{}".format(self._region.text())),
+                                ("Region", "{}".format(self._region.currentText())),
                                 ("Country", "{}".format(self._country.text())),
                                 ("Accessory", "{}".format('Yes' if self._item.isChecked() else 'No')),
                                 ("Box", "{}".format('Yes' if self._box.isChecked() else 'No')),

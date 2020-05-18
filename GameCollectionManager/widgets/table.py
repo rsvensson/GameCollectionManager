@@ -1,10 +1,9 @@
 from collections import OrderedDict
 
 from PySide2.QtCore import Qt, Signal, QModelIndex, QItemSelectionModel
-from PySide2.QtGui import QKeyEvent, QMouseEvent
+from PySide2.QtGui import QKeyEvent, QMouseEvent, QFont, QColor
 from PySide2.QtSql import QSqlTableModel, QSqlQuery
 from PySide2.QtWidgets import QAbstractItemView, QTableView
-from widgets.models import TableModel
 from utilities.fetchinfo import getMobyInfo, printInfo
 
 
@@ -22,14 +21,13 @@ class Table(QTableView):
 
         assert tableName in ("games", "consoles", "accessories")
 
-        self._db = db
         self.hideNotOwned = True
         self._table = tableName
         self._itemType = "Game" if self._table == "games"\
             else "Console" if self._table == "consoles"\
             else "Accessory"
 
-        self.model = TableModel(self, self._db)
+        self.model = TableModel(self, db)
         self.model.setTable(tableName)
         self.model.setEditStrategy(QSqlTableModel.OnFieldChange)
         self.model.select()
@@ -109,82 +107,81 @@ class Table(QTableView):
         :param newData: (dictionary or list of dictionaries) The data to be added
         """
 
+        db = self.model.database()
         table = self._table
-        itemID = 0 if self.model.rowCount() == 0 else -1
-        query = QSqlQuery()
+
+        gamesColumns = ["Platform", "Name", "Region", "Code", "Game", "Box", "Manual",
+                        "Year", "Genre", "Comment", "Publisher", "Developer", "Platforms"]
+        consolesColumns = ["Platform", "Name", "Region", "Country", "Serial number",
+                           "Console", "Box", "Manual", "Year", "Comment"]
+        accessoriesColumns = ["Platform", "Name", "Region", "Country", "Accessory",
+                              "Box", "Manual", "Year", "Comment"]
 
         if isinstance(newData, list):
-            if itemID != 0:
-                query.exec_(f"SELECT COUNT(*) FROM {table}")
-                query.first()
-                itemID = query.value(0)
-
             for data in newData:
                 if table == "games":
-                    # SQLite3 doesn't support batch execution so just execute each statement is sequence.
-                    query.exec_("INSERT INTO {} "
-                                "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Genre, Comment, "
-                                "Publisher, Developer, Platforms) "
-                                "VALUES "
-                                "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
-                        table, itemID, data["Platform"], data["Name"], data["Region"], data["Code"],
-                        data["Game"], data["Box"], data["Manual"], data["Year"], data["Genre"], data["Comment"],
-                        data["Publisher"], data["Developer"], data["Platforms"])
-                    )
+                    record = self.model.record()
+                    record.remove(record.indexOf("ID"))
+                    for i in gamesColumns:
+                        record.setValue(i, data[i])
+
+                    if self.model.insertRecord(-1, record):
+                        pass
+                    else:
+                        db.rollback()
                 elif table == "consoles":
-                    query.exec_("INSERT INTO {} "
-                                "(ID, Platform, Name, Region, Country, `Serial number`, Console, Box, Manual, "
-                                "Year, Comment) "
-                                "VALUES "
-                                "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
-                        table, itemID, data["Platform"], data["Name"], data["Region"], data["Country"],
-                        data["Serial number"], data["Console"], data["Box"], data["Manual"], data["Year"],
-                        data["Comment"])
-                    )
+                    record = self.model.record()
+                    record.remove(record.indexOf("ID"))
+                    for i in consolesColumns:
+                        record.setValue(i, data[i])
+
+                    if self.model.insertRecord(-1, record):
+                        pass
+                    else:
+                        db.rollback()
                 elif table == "accessories":
-                    query.exec_("INSERT INTO {} "
-                                "(ID, Platform, Name, Region, Country, Accessory, Box, Manual, Year, Comment) "
-                                "VALUES "
-                                "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
-                        table, itemID, data["Platform"], data["Name"], data["Region"], data["Country"],
-                        data["Accessory"], data["Box"], data["Manual"], data["Year"], data["Comment"])
-                    )
-                itemID += 1
+                    record = self.model.record()
+                    record.remove(record.indexOf("ID"))
+                    for i in accessoriesColumns:
+                        record.setValue(i, data[i])
+
+                    if self.model.insertRecord(-1, record):
+                        pass
+                    else:
+                        db.rollback()
 
         elif isinstance(newData, OrderedDict) or isinstance(newData, dict):
-            if itemID != 0:
-                query.exec_(f"SELECT COUNT(*) FROM {table}")
-                query.first()
-                itemID = query.value(0)
-
             if table == "games":
-                query.exec_("INSERT INTO {} "
-                            "(ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Genre, Comment, "
-                            "Publisher, Developer, Platforms) "
-                            "VALUES "
-                            "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
-                        table, itemID, newData["Platform"], newData["Name"], newData["Region"], newData["Code"],
-                        newData["Game"], newData["Box"], newData["Manual"], newData["Year"], newData["Genre"], newData["Comment"],
-                        newData["Publisher"], newData["Developer"], newData["Platforms"])
-                )
+                record = self.model.record()
+                record.remove(record.indexOf("ID"))
+                for i in gamesColumns:
+                    record.setValue(i, newData[i])
+
+                if self.model.insertRecord(-1, record):
+                    pass
+                else:
+                    db.rollback()
+
             elif table == "consoles":
-                query.exec_("INSERT INTO {} "
-                            "(ID, Platform, Name, Region, Country, `Serial number`, Console, Box, Manual, "
-                            "Year, Comment) "
-                            "VALUES "
-                            "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
-                    table, itemID, newData["Platform"], newData["Name"], newData["Region"], newData["Country"],
-                    newData["Serial number"], newData["Console"], newData["Box"], newData["Manual"], newData["Year"],
-                    newData["Comment"])
-                )
+                record = self.model.record()
+                record.remove(record.indexOf("ID"))
+                for i in consolesColumns:
+                    record.setValue(i, newData[i])
+
+                if self.model.insertRecord(-1, record):
+                    pass
+                else:
+                    db.rollback()
             elif table == "accessories":
-                query.exec_("INSERT INTO {} "
-                            "(ID, Platform, Name, Region, Country, Accessory, Box, Manual, Year, Comment) "
-                            "VALUES "
-                            "({}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(
-                    table, itemID, newData["Platform"], newData["Name"], newData["Region"], newData["Country"],
-                    newData["Accessory"], newData["Box"], newData["Manual"], newData["Year"], newData["Comment"])
-                )
+                record = self.model.record()
+                record.remove(record.indexOf("ID"))
+                for i in accessoriesColumns:
+                    record.setValue(i, newData[i])
+
+                if self.model.insertRecord(-1, record):
+                    pass
+                else:
+                    db.rollback()
 
         self.filterTable("", dict())
 
@@ -383,7 +380,8 @@ class Table(QTableView):
 
             self.doubleClick.emit(rowData)
 
-    def rowInfo(self, row: int):
+    def rowInfo(self):
+        row = self.currentIndex().row()
         table = self._table
         query = QSqlQuery()
         length = 10 if table == "accessories" else 11
@@ -435,3 +433,75 @@ class Table(QTableView):
             self.model.setData(publisherIndex, data["publisher"])
             self.model.setData(developerIndex, data["developer"])
             self.model.setData(platformsIndex, data["platforms"])
+
+
+class TableModel(QSqlTableModel):
+    """
+    Subclassing QSqlTableModel to be able to customize data in our cells
+    """
+
+    def __init__(self, *args, **kwargs):
+        super(TableModel, self).__init__(*args, **kwargs)
+
+    def flags(self, index):
+        if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
+                                                              "Box", "Manual"):
+            return super().flags(index) | Qt.ItemIsUserCheckable
+        else:
+            return super().flags(index)
+
+    def data(self, index, role=Qt.DisplayRole):
+        # Handle setting our checkboxes
+        if (role == Qt.CheckStateRole or role == Qt.DisplayRole)\
+            and self.headerData(index.column(), Qt.Horizontal) in\
+                ("Game", "Console", "Accessory", "Box", "Manual"):
+
+            if role == Qt.CheckStateRole:
+                if index.data(Qt.EditRole) == "Yes":
+                    return Qt.Checked
+                elif index.data(Qt.EditRole) == "No":
+                    return Qt.Unchecked
+            elif role == Qt.DisplayRole:
+                # Display text next to checkboxes
+                return super().data(index, role)
+                # No text
+                # return ""
+        # Bold fonts
+        elif role == Qt.FontRole and self.headerData(index.column(), Qt.Horizontal) in \
+                ("Region", "Country", "Game", "Console", "Accessory", "Box", "Manual"):
+            font = QFont()
+            font.setBold(True)
+            return font
+        # Set foreground color
+        elif role == Qt.ForegroundRole:
+            if self.headerData(index.column(), Qt.Horizontal) == "Region":
+                if index.data() in ("PAL", "PAL A", "PAL B", "Europe"):
+                    return QColor(255, 255, 0)
+                elif index.data() in ("NTSC (JP)", "Japan"):
+                    return QColor(255, 0, 0)
+                elif index.data() in ("NTSC (NA)", "North America"):
+                    return QColor(0, 0, 255)
+            elif self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
+                                                                    "Box", "Manual"):
+                if index.data(Qt.EditRole) == "Yes":
+                    return QColor(0, 255, 0)
+                elif index.data(Qt.EditRole) == "No":
+                    return QColor(255, 0, 0)
+        # Set text alignment
+        elif role == Qt.TextAlignmentRole \
+                and self.headerData(index.column(), Qt.Horizontal) in ("Region", "Country"):
+            return Qt.AlignCenter
+        # Display the cell data in tooltip
+        #elif role == Qt.ToolTipRole:
+        #    return super().data(index, Qt.DisplayRole)
+
+        return super().data(index, role)
+
+    def setData(self, index, value, role=Qt.EditRole):
+        if role == Qt.CheckStateRole\
+                and self.headerData(index.column(), Qt.Horizontal) in \
+                ("Game", "Console", "Accessory", "Box", "Manual"):
+            data = "Yes" if value == Qt.Checked else "No"
+            return super().setData(index, data, Qt.EditRole)
+        else:
+            return super().setData(index, value, role)

@@ -550,7 +550,7 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
     if code == "" and correctRelease != "":
         for d in info["releases"][correctRelease]:
             if d[0] in ("EAN-13", "UPC-A"):
-                code = d[1]
+                code = d[0] + ": " + d[1]
                 break
 
     releaseInfo = {"publisher": publisher, "developer": developer, "platforms": platforms,

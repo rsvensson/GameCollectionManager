@@ -12,7 +12,7 @@ from widgets.inputwindow import InputWindow
 from widgets.overview import Overview
 from widgets.searchdock import AdvancedSearch
 from widgets.sidepanel import SidePanel
-from widgets.tables import Table
+from widgets.table import Table
 from widgets.randomizer import Randomizer
 
 _VERSION = "0.2.0"
@@ -34,15 +34,16 @@ class MainWindow(QMainWindow):
         self.sidePanel = SidePanel()
 
         # Tables and their databases
-        self.db = QSqlDatabase.addDatabase("QSQLITE")
-        self.db.setDatabaseName(dbpath)
-        if not self.db.open():
-            QMessageBox.critical(None, "Database Error", self.db.lastError().text())
-        self.gamesTableView = Table("games", self.db)
+        db = QSqlDatabase.addDatabase("QSQLITE")
+        db.setDatabaseName(dbpath)
+
+        if not db.open():
+            QMessageBox.critical(None, "Database Error", db.lastError().text())
+        self.gamesTableView = Table("games", db)
         self.gamesTableView.doubleClick.connect(self.sidePanel.showDetails)
-        self.consolesTableView = Table("consoles", self.db)
+        self.consolesTableView = Table("consoles", db)
         self.consolesTableView.doubleClick.connect(self.sidePanel.showDetails)
-        self.accessoriesTableView = Table("accessories", self.db)
+        self.accessoriesTableView = Table("accessories", db)
         self.accessoriesTableView.doubleClick.connect(self.sidePanel.showDetails)
         self.tableViewList = [self.gamesTableView,
                               self.consolesTableView,
@@ -120,6 +121,7 @@ class MainWindow(QMainWindow):
         self.tab.currentChanged.connect(self.sidePanel.hideDetails)
         # Connect sidePanel's saved signal to corresponding table's updateData()
         self.sidePanel.saved.connect(self.tableViewList[self.tab.currentIndex()].updateData)
+        self.sidePanel.saved.connect(self.randomizer.updateData)
 
         # Main layout
         self.tabHbox = QHBoxLayout()
@@ -298,6 +300,7 @@ class MainWindow(QMainWindow):
         def doexport():
             filetype = filetypes.currentText()
             exportTables = []
+            db = self.consolesTableView.model.database()
             if tablesBox.currentIndex() == 0:
                 for table in tables[1:]:
                     exportTables.append(table.lower())
@@ -308,7 +311,7 @@ class MainWindow(QMainWindow):
             elif tablesBox.currentIndex() == 3:
                 exportTables.append("accessories")
 
-            sql2csv(self.db, exportTables, filetype)
+            sql2csv(db, exportTables, filetype)
             exportWindow.close()
 
         exportWindow = QDialog()
@@ -445,7 +448,7 @@ class MainWindow(QMainWindow):
         indexes = self.tableViewList[currentTab-1].selectedIndexes()
         rows = [index.row() for index in indexes]
         for row in rows:
-            self.tableViewList[currentTab-1].rowInfo(row)
+            self.tableViewList[currentTab-1].rowInfo()
 
     def search(self):
         """Filters table contents based on user input"""
