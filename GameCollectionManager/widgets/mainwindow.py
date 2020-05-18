@@ -15,7 +15,7 @@ from widgets.sidepanel import SidePanel
 from widgets.table import Table
 from widgets.randomizer import Randomizer
 
-_VERSION = "0.2.1"
+_VERSION = "0.2.2"
 
 
 class MainWindow(QMainWindow):
@@ -36,7 +36,6 @@ class MainWindow(QMainWindow):
         # Tables and their databases
         db = QSqlDatabase.addDatabase("QSQLITE")
         db.setDatabaseName(dbpath)
-
         if not db.open():
             QMessageBox.critical(None, "Database Error", db.lastError().text())
         self.gamesTableView = Table("games", db)

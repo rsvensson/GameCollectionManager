@@ -109,74 +109,30 @@ class Table(QTableView):
 
         db = self.model.database()
         table = self._table
+        tableColumns = {"games": ["Platform", "Name", "Region", "Code", "Game", "Box", "Manual",
+                                  "Year", "Genre", "Comment", "Publisher", "Developer", "Platforms"],
+                        "consoles": ["Platform", "Name", "Region", "Country", "Serial number",
+                                     "Console", "Box", "Manual", "Year", "Comment"],
+                        "accessories": ["Platform", "Name", "Region", "Country", "Accessory",
+                                        "Box", "Manual", "Year", "Comment"]}
 
-        gamesColumns = ["Platform", "Name", "Region", "Code", "Game", "Box", "Manual",
-                        "Year", "Genre", "Comment", "Publisher", "Developer", "Platforms"]
-        consolesColumns = ["Platform", "Name", "Region", "Country", "Serial number",
-                           "Console", "Box", "Manual", "Year", "Comment"]
-        accessoriesColumns = ["Platform", "Name", "Region", "Country", "Accessory",
-                              "Box", "Manual", "Year", "Comment"]
+        if isinstance(newData, OrderedDict) or isinstance(newData, dict):  # Add single item
+            record = self.model.record()
+            record.remove(record.indexOf("ID"))
+            for i in tableColumns[table]:
+                record.setValue(i, newData[i])
 
-        if isinstance(newData, list):
+            if self.model.insertRecord(-1, record):
+                pass
+            else:
+                db.rollback()
+
+        elif isinstance(newData, list):  # Add list of items
             for data in newData:
-                if table == "games":
-                    record = self.model.record()
-                    record.remove(record.indexOf("ID"))
-                    for i in gamesColumns:
-                        record.setValue(i, data[i])
-
-                    if self.model.insertRecord(-1, record):
-                        pass
-                    else:
-                        db.rollback()
-                elif table == "consoles":
-                    record = self.model.record()
-                    record.remove(record.indexOf("ID"))
-                    for i in consolesColumns:
-                        record.setValue(i, data[i])
-
-                    if self.model.insertRecord(-1, record):
-                        pass
-                    else:
-                        db.rollback()
-                elif table == "accessories":
-                    record = self.model.record()
-                    record.remove(record.indexOf("ID"))
-                    for i in accessoriesColumns:
-                        record.setValue(i, data[i])
-
-                    if self.model.insertRecord(-1, record):
-                        pass
-                    else:
-                        db.rollback()
-
-        elif isinstance(newData, OrderedDict) or isinstance(newData, dict):
-            if table == "games":
                 record = self.model.record()
                 record.remove(record.indexOf("ID"))
-                for i in gamesColumns:
-                    record.setValue(i, newData[i])
-
-                if self.model.insertRecord(-1, record):
-                    pass
-                else:
-                    db.rollback()
-
-            elif table == "consoles":
-                record = self.model.record()
-                record.remove(record.indexOf("ID"))
-                for i in consolesColumns:
-                    record.setValue(i, newData[i])
-
-                if self.model.insertRecord(-1, record):
-                    pass
-                else:
-                    db.rollback()
-            elif table == "accessories":
-                record = self.model.record()
-                record.remove(record.indexOf("ID"))
-                for i in accessoriesColumns:
-                    record.setValue(i, newData[i])
+                for i in tableColumns[table]:
+                    record.setValue(i, data[i])
 
                 if self.model.insertRecord(-1, record):
                     pass
