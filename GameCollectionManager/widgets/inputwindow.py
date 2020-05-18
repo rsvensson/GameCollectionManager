@@ -492,6 +492,7 @@ class InputWindow(QDialog):
 
             publisher = info["publisher"]
             developer = info["developer"]
+            platforms = info["platforms"]
             genre = info["genre"]
             code = info["code"]
             year = info["year"]
@@ -508,6 +509,7 @@ class InputWindow(QDialog):
                 self._genre.setText(genre)
                 self._publisher.setText(publisher)
                 self._developer.setText(developer)
+                self._platformsData = platforms
 
     def _center(self):
         """Centers window on screen"""
