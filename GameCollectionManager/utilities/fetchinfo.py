@@ -500,6 +500,8 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
                           "Australia, New Zealand", "Worldwide")}
     if region in ("PAL A", "PAL B"):
         region = "PAL"
+    if region == "Steam":
+        region = "NTSC (NA)"
     region = regionDict[region]
     info = getMobyInfo(name, platform)
 

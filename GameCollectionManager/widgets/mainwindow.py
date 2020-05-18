@@ -15,7 +15,7 @@ from widgets.sidepanel import SidePanel
 from widgets.table import Table
 from widgets.randomizer import Randomizer
 
-_VERSION = "0.2.2"
+_VERSION = "0.2.3"
 
 
 class MainWindow(QMainWindow):

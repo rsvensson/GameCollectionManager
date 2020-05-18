@@ -9,15 +9,10 @@ from utilities.fetchinfo import getMobyInfo, printInfo
 
 class Table(QTableView):
 
-    resized = Signal()
-    fetched = Signal()
     doubleClick = Signal(dict)
 
     def __init__(self, tableName: str, db):
         super(Table, self).__init__()
-
-        self.resized.connect(self.resizeRowsToContents)
-        self.fetched.connect(self.resizeRowsToContents)
 
         assert tableName in ("games", "consoles", "accessories")
 
@@ -30,6 +25,7 @@ class Table(QTableView):
         self.model = TableModel(self, db)
         self.model.setTable(tableName)
         self.model.setEditStrategy(QSqlTableModel.OnFieldChange)
+        self.model.fetched.connect(self.resizeRowsToContents)  # Resize rows when fetching more
         self.model.select()
 
         self.model.setHeaderData(0, Qt.Horizontal, "ID")
@@ -39,37 +35,27 @@ class Table(QTableView):
         if self._table == "games":
             self.model.setHeaderData(4, Qt.Horizontal, "Code")
             self.model.setHeaderData(5, Qt.Horizontal, "Game")
-            #self.setItemDelegateForColumn(5, CheckboxDelegate("Game", parent=self))
             self.model.setHeaderData(6, Qt.Horizontal, "Box")
-            #self.setItemDelegateForColumn(6, CheckboxDelegate("Box", parent=self))
             self.model.setHeaderData(7, Qt.Horizontal, "Manual")
-            #self.setItemDelegateForColumn(7, CheckboxDelegate("Manual", parent=self))
             self.model.setHeaderData(8, Qt.Horizontal, "Year")
             self.model.setHeaderData(9, Qt.Horizontal, "Genre")
             self.model.setHeaderData(10, Qt.Horizontal, "Comment")
             self.model.setHeaderData(11, Qt.Horizontal, "Publisher")
             self.model.setHeaderData(12, Qt.Horizontal, "Developer")
             self.model.setHeaderData(13, Qt.Horizontal, "Platforms")
-            # Hide the publisher, developer, and platforms columns
         elif self._table == "consoles":
             self.model.setHeaderData(4, Qt.Horizontal, "Country")
             self.model.setHeaderData(5, Qt.Horizontal, "Serial number")
             self.model.setHeaderData(6, Qt.Horizontal, "Console")
-            #self.setItemDelegateForColumn(6, CheckboxDelegate("Console", parent=self))
             self.model.setHeaderData(7, Qt.Horizontal, "Box")
-            #self.setItemDelegateForColumn(7, CheckboxDelegate("Box", parent=self))
             self.model.setHeaderData(8, Qt.Horizontal, "Manual")
-            #self.setItemDelegateForColumn(8, CheckboxDelegate("Manual", parent=self))
             self.model.setHeaderData(9, Qt.Horizontal, "Year")
             self.model.setHeaderData(10, Qt.Horizontal, "Comment")
         elif self._table == "accessories":
             self.model.setHeaderData(4, Qt.Horizontal, "Country")
             self.model.setHeaderData(5, Qt.Horizontal, "Accessory")
-            #self.setItemDelegateForColumn(5, CheckboxDelegate("Accessory", parent=self))
             self.model.setHeaderData(6, Qt.Horizontal, "Box")
-            #self.setItemDelegateForColumn(6, CheckboxDelegate("Box", parent=self))
             self.model.setHeaderData(7, Qt.Horizontal, "Manual")
-            #self.setItemDelegateForColumn(7, CheckboxDelegate("Manual", parent=self))
             self.model.setHeaderData(8, Qt.Horizontal, "Year")
             self.model.setHeaderData(9, Qt.Horizontal, "Comment")
 
@@ -305,18 +291,6 @@ class Table(QTableView):
 
         return platforms
 
-    def resizeEvent(self, event):
-        """
-        Currently doesn't seem to trigger when pressing window manager minimize/maximize button
-        """
-
-        self.resized.emit()
-        return super().resizeEvent(event)
-
-    def rowCountChanged(self, oldCount: int, newCount: int):
-        self.fetched.emit()
-        return super().rowCountChanged(oldCount, newCount)
-
     def rowData(self):
         rowData = {}
         gamesColumns = ["Id", "Platform", "Name", "Region", "Code", "Game", "Box", "Manual", "Year", "Genre",
@@ -370,9 +344,6 @@ class Table(QTableView):
     def setHideNotOwned(self, on: bool):
         self.hideNotOwned = on
 
-    def test(self):
-        pass
-
     def updateData(self, data: dict):
         currentRow = self.currentIndex().row()
 
@@ -395,10 +366,16 @@ class TableModel(QSqlTableModel):
     """
     Subclassing QSqlTableModel to be able to customize data in our cells
     """
+    fetched = Signal()
 
     def __init__(self, *args, **kwargs):
         super(TableModel, self).__init__(*args, **kwargs)
 
+    def fetchMore(self, parent:QModelIndex=...):
+        # Emit signal after fetching more rows, so we can handle resizing of the rows in the table view
+        super(TableModel, self).fetchMore(parent)
+        self.fetched.emit()
+    
     def flags(self, index):
         if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
                                                               "Box", "Manual"):
