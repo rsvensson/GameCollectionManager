@@ -15,7 +15,7 @@ from widgets.sidepanel import SidePanel
 from widgets.table import Table
 from widgets.randomizer import Randomizer
 
-_VERSION = "0.2.3"
+_VERSION = "0.2.4"
 
 
 class MainWindow(QMainWindow):
@@ -105,7 +105,8 @@ class MainWindow(QMainWindow):
         self.searchBox = QLineEdit()
         self.searchBox.setVisible(False)
         self.searchBox.setClearButtonEnabled(True)
-        self.searchBox.textChanged.connect(self.search)
+        #self.searchBox.textChanged.connect(self.search)
+        self.searchBox.returnPressed.connect(self.search)
         self.advSearchBtn = QPushButton("Advanced search")
         self.advSearchBtn.clicked.connect(self.advSearch.toggleVisibility)
         self.advSearchBtn.setVisible(False)
@@ -460,10 +461,10 @@ class MainWindow(QMainWindow):
             self.searchBox.setVisible(True)
             self.advSearchBtn.setVisible(True)
             self.advSearch.setItemType(currentTab)
-            self.tableViewList[currentTab - 1].filterTable(searchText, self.advSearch.getSelections())
+            itemCount = self.tableViewList[currentTab - 1].filterTable(searchText, self.advSearch.getSelections())
 
             if searchText != "" or len(self.advSearch.getSelections()) > 0:
-                self.statusBar().showMessage("Found {} {}.".format(self.tableViewList[currentTab-1].model.rowCount(),
+                self.statusBar().showMessage("Found {} {}.".format(itemCount,
                                                                    self.tableViewList[currentTab-1].model.tableName()))
             else:
                 self.updateStatusbar()

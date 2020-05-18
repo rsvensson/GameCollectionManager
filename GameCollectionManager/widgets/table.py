@@ -2,7 +2,7 @@ from collections import OrderedDict
 
 from PySide2.QtCore import Qt, Signal, QModelIndex, QItemSelectionModel
 from PySide2.QtGui import QKeyEvent, QMouseEvent, QFont, QColor
-from PySide2.QtSql import QSqlTableModel, QSqlQuery
+from PySide2.QtSql import QSqlTableModel, QSqlQuery, QSqlQueryModel
 from PySide2.QtWidgets import QAbstractItemView, QTableView
 from utilities.fetchinfo import getMobyInfo, printInfo
 
@@ -165,7 +165,7 @@ class Table(QTableView):
             else:
                 self.model.setFilter("1=1 ORDER BY Platform ASC, Name ASC")
             self.resizeRowsToContents()
-            return
+            return self.ownedCount()
 
         # Filter based on advanced search options
         elif len(selections) > 0:
@@ -199,8 +199,18 @@ class Table(QTableView):
 
         f += "ORDER BY Platform ASC, Name ASC"
 
+        # Get number of items in the search
+        itemCount = 0
+        query = QSqlQuery()
+        query.exec_(f"SELECT ID FROM {self._table} WHERE {f}")
+        while query.next():
+             itemCount += 1
+
+        # Apply filter to table
         self.model.setFilter(f)
         self.resizeRowsToContents()
+
+        return itemCount
 
     def itemsInPlatform(self, platform: str) -> int:
         """
