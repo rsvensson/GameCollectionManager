@@ -321,6 +321,7 @@ def _trySuggestions(title: str, platform: str):
     pTitle = _parseTitle(title)
     res = requests.get(_baseURL + "/".join((_platforms[platform], pTitle, "release-info")))
     suggestionsCSS = ".col-md-12 > div:nth-child(3) > ul:nth-child(2)"  # List of URLs
+    alternativeTitlesCSS = [".col-md-8 > ul:nth-child(19)", ".col-md-8 > ul:nth-child(20)"]
 
     # Find new url
     url = re.compile(r'".*"')  # URL is located within quotation marks
@@ -354,7 +355,18 @@ def _trySuggestions(title: str, platform: str):
             if newtitle == t:
                 return res, t
             else:
-                continue
+                # Check the alternative titles (Japanese games often have different titles for example)
+                temp = soup.select(alternativeTitlesCSS[0])
+                if len(temp) == 0:
+                    temp = soup.select(alternativeTitlesCSS[1])  # Sometimes it's a bit further down
+                altTitles = [t.strip('"') for t in url.findall(temp[0].text)]
+                for alt in altTitles:
+                    if alt == title:
+                        return res, title
+                    elif alt == t:
+                        return res, t
+                    else:
+                        continue
 
     return None, title
 
