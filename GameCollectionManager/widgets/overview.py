@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 from PySide2.QtCore import Qt
-from matplotlib import use
+from matplotlib import use, colors as mcd
 use("Qt5Agg")
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
-from matplotlib.figure import Figure
+from matplotlib.figure import Figure, rcParams
 from numpy import arange
 from PySide2.QtWidgets import QWidget, QLabel, QSizePolicy, QScrollArea, QHBoxLayout, QVBoxLayout
 
@@ -12,11 +12,19 @@ class MplCanvas(FigureCanvas):
     """Shell class for setting up matplotlib"""
 
     def __init__(self, data, ylabel, parent=None, width=10, height=4, dpi=100):
+        # Set up default colors
+        rcParams["text.color"] = "w"
+        rcParams["xtick.color"] = "w"
+        rcParams["ytick.color"] = "w"
+        rcParams["axes.labelcolor"] = "w"
+        rcParams["axes.facecolor"] = "#252525"
+        rcParams["figure.facecolor"] = "#535353"
+
+        # Set up figure and default settings/values
         self._fig = Figure(figsize=(width, height), dpi=dpi, tight_layout=True)
         self._ax = self._fig.subplots()
         self._ylabel = ylabel
         self._xlabel = "Platforms"
-
         self._data = data
 
         self.computeInitialFigure()
@@ -37,26 +45,29 @@ class CollectionDataCanvas(MplCanvas):
         super(CollectionDataCanvas, self).__init__(ylabel, *args, **kwargs)
 
     def computeInitialFigure(self):
-
         values = []
+        colors = []
         platforms = self._data.keys()
         index = arange(len(platforms))
-        for platform in platforms:
+        for platform, color in zip(platforms, mcd.XKCD_COLORS):
+            colors.append(color)
             values.append(self._data[platform])
 
-        bars = self._ax.bar(index, values, color="thistle")
+        bars = self._ax.bar(index, values, color=colors, edgecolor='black')
         self._setupBars(self._ax, bars, index, platforms)
 
     def updateFigure(self, data):
         self._ax.cla()
 
         values = []
+        colors = []
         platforms = data.keys()
         index = arange(len(platforms))
-        for platform in platforms:
+        for platform, color in zip(platforms, mcd.XKCD_COLORS):
+            colors.append(color)
             values.append(data[platform])
 
-        bars = self._ax.bar(index, values, color="thistle")
+        bars = self._ax.bar(index, values, color=colors, edgecolor='black')
         self._setupBars(self._ax, bars, index, platforms)
         self.draw()
 
@@ -74,9 +85,10 @@ class CollectionDataCanvas(MplCanvas):
         for bar in bars:
             if bar.get_height() > max_y_value:
                 max_y_value = bar.get_height()
-        distance = max_y_value * 0.05
+        distance = max_y_value * -0.01
 
         for bar in bars:
+            # Puts y-value slightly above bar
             text = bar.get_height()
             text_x = bar.get_x() + bar.get_width() / 2
             text_y = bar.get_height() - distance
