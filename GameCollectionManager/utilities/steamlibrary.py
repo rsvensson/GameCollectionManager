@@ -16,9 +16,10 @@ def getSteamLibrary(apiKey: str, steamID: int) -> list:
             gamelist = []
             for game in games["response"]["games"]:
                 gamelist.append({"Platform": "Steam", "Name": game["name"],
-                                 "Region": "Steam", "Code": game["appid"],
+                                 "Region": "Steam", "Code": str(game["appid"]),
                                  "Game": "Yes", "Box": "Yes", "Manual": "Yes",
-                                 "Year": "", "Comment": ""})
+                                 "Year": "", "Genre": "", "Comment": "",
+                                 "Publisher": "", "Developer": "", "Platforms": ""})
 
             return gamelist
 
