@@ -21,7 +21,7 @@ class AdvancedSearch(QDockWidget):
         # The selected items for each widget are saved in a set-dictionary
         self._selections = defaultdict(set)
 
-        ## Widget settings
+        #  Widget settings
         # Platform widgets
         self._platformLabel = QLabel("Platform")
         self._platforms = QListWidget()

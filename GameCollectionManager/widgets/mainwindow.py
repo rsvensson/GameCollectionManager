@@ -106,7 +106,7 @@ class MainWindow(QMainWindow):
         self.searchBox = QLineEdit()
         self.searchBox.setVisible(False)
         self.searchBox.setClearButtonEnabled(True)
-        #self.searchBox.textChanged.connect(self.search)
+        # self.searchBox.textChanged.connect(self.search)
         self.searchBox.returnPressed.connect(self.search)
         self.advSearchBtn = QPushButton("Advanced search")
         self.advSearchBtn.clicked.connect(self.advSearch.toggleVisibility)
@@ -320,7 +320,7 @@ class MainWindow(QMainWindow):
         tables = ["All", "Games", "Consoles", "Accessories"]
         tablesLabel = QLabel("Tables to export")
         tablesBox = QComboBox()
-        #tablesBox.addItem(None, text="All")
+        # tablesBox.addItem(None, text="All")
         tablesBox.addItems(tables)
         tablesLayout = QHBoxLayout()
         tablesLayout.addWidget(tablesLabel)
@@ -437,10 +437,10 @@ class MainWindow(QMainWindow):
         currentTab = self.tab.currentIndex()
 
         if 0 < currentTab < 4:
-            detAct = cmenu.addAction(self.buttonActions("det"))
-            delAct = cmenu.addAction(self.buttonActions("del"))
-            infoAct = cmenu.addAction(self.buttonActions("info"))
-        action = cmenu.exec_(self.mapToGlobal(event.pos()))
+            cmenu.addAction(self.buttonActions("det"))
+            cmenu.addAction(self.buttonActions("del"))
+            cmenu.addAction(self.buttonActions("info"))
+            cmenu.exec_(self.mapToGlobal(event.pos()))
 
         self.search()
 
@@ -448,7 +448,7 @@ class MainWindow(QMainWindow):
         currentTab = self.tab.currentIndex()
         indexes = self.tableViewList[currentTab-1].selectedIndexes()
         rows = [index.row() for index in indexes]
-        for row in rows:
+        for _ in rows:
             self.tableViewList[currentTab-1].rowInfo()
 
     def search(self):

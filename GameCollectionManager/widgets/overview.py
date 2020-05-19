@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 from PySide2.QtCore import Qt
 from matplotlib import use, colors as mcd
-use("Qt5Agg")
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure, rcParams
 from numpy import arange
 from PySide2.QtWidgets import QWidget, QLabel, QSizePolicy, QScrollArea, QHBoxLayout, QVBoxLayout
+use("Qt5Agg")
 
 
 class MplCanvas(FigureCanvas):
@@ -43,6 +43,7 @@ class CollectionDataCanvas(MplCanvas):
     """Collection data-specific matplotlib class"""
     def __init__(self, data, ylabel, *args, **kwargs):
         super(CollectionDataCanvas, self).__init__(ylabel, *args, **kwargs)
+        self.data = data
 
     def computeInitialFigure(self):
         values = []

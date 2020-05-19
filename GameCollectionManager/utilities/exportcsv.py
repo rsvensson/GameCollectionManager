@@ -61,4 +61,3 @@ def sql2csv(db: QSqlDatabase, tables: list, filetype: str):
                 writer.writerow(row)
 
         rows.clear()
-

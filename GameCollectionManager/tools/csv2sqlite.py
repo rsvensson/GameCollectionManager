@@ -33,7 +33,8 @@ with open("accessoriesdb.tsv", 'r', encoding='utf8') as f:
 
 cur.executemany('INSERT INTO games (ID, Platform, Name, Region, Code, Game, Box, Manual, Year, Comment)'
                 'VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);', to_games)
-cur.executemany('INSERT INTO consoles (ID, Platform, Name, Region, Country, "Serial number", Console, Box, Manual, Year, Comment)'
+cur.executemany('INSERT INTO consoles (ID, Platform, Name, Region, Country, "Serial number", Console, Box, Manual, '
+                'Year, Comment) '
                 'VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);', to_consoles)
 cur.executemany('INSERT INTO accessories (ID, Platform, Name, Region, Country, Accessory, Box, Manual, Year, Comment)'
                 'VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);', to_accessories)

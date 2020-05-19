@@ -205,7 +205,7 @@ class Table(QTableView):
         query = QSqlQuery()
         query.exec_(f"SELECT ID FROM {self._table} WHERE {f}")
         while query.next():
-             itemCount += 1
+            itemCount += 1
 
         # Apply filter to table
         self.model.setFilter(f)
@@ -283,7 +283,8 @@ class Table(QTableView):
         query.exec_("SELECT Platform, Name, Region, Genre "
                     f"FROM {self._table} WHERE {self._itemType}='Yes' OR Box='Yes' OR Manual='Yes'")
         while query.next():
-            items.append(dict(Platform=query.value(0), Name=query.value(1), Region=query.value(2), Genre=query.value(3)))
+            items.append(dict(Platform=query.value(0), Name=query.value(1),
+                              Region=query.value(2), Genre=query.value(3)))
 
         return items
 
@@ -306,14 +307,14 @@ class Table(QTableView):
         rowData = {}
         gamesColumns = ["Id", "Platform", "Name", "Region", "Code", "Game", "Box", "Manual", "Year", "Genre",
                         "Comment", "Publisher", "Developer", "Platforms"]
-        consoleColumns = ["Id", "Platform", "Name", "Region", "Country", "Serial number", "Console", "Box",
-                          "Manual", "Year", "Comment"]
-        accessoriesColumns = ["Id", "Platform", "Name", "Region", "Country", "Accessory", "Box", "Manual",
-                              "Year", "Comment"]
+        # consoleColumns = ["Id", "Platform", "Name", "Region", "Country", "Serial number", "Console", "Box",
+        #                  "Manual", "Year", "Comment"]
+        # accessoriesColumns = ["Id", "Platform", "Name", "Region", "Country", "Accessory", "Box", "Manual",
+        #                      "Year", "Comment"]
 
-        id = self.model.index(self.currentIndex().row(), 0).data()
+        rowid = self.model.index(self.currentIndex().row(), 0).data()
         query = QSqlQuery()
-        query.exec_(f"SELECT * FROM {self._table} WHERE Id={id}")
+        query.exec_(f"SELECT * FROM {self._table} WHERE Id={rowid}")
         query.first()
         if self._table == "games":
             for i in range(1, len(gamesColumns)):
@@ -332,9 +333,12 @@ class Table(QTableView):
 
         title = ""
         platform = ""
-        columns = {"games": ["Id", "Platform", "Name", "Region", "Code", "Game", "Box", "Manual", "Year", "Genre", "Comment"],
-                   "consoles": ["Id", "Platform", "Name", "Region", "Country", "Serial number", "Console", "Box", "Manual", "Year", "Comment"],
-                   "accessories": ["Id", "Platform", "Name", "Region", "Country", "Accessory", "Box", "Manual", "Year", "Comment"]}
+        columns = {"games": ["Id", "Platform", "Name", "Region", "Code",
+                             "Game", "Box", "Manual", "Year", "Genre", "Comment"],
+                   "consoles": ["Id", "Platform", "Name", "Region", "Country", "Serial number",
+                                "Console", "Box", "Manual", "Year", "Comment"],
+                   "accessories": ["Id", "Platform", "Name", "Region", "Country",
+                                   "Accessory", "Box", "Manual", "Year", "Comment"]}
 
         for i in range(length):
             if table == "games":
@@ -382,7 +386,7 @@ class TableModel(QSqlTableModel):
     def __init__(self, *args, **kwargs):
         super(TableModel, self).__init__(*args, **kwargs)
 
-    def fetchMore(self, parent:QModelIndex=...):
+    def fetchMore(self, parent: QModelIndex = ...):
         # Emit signal after fetching more rows, so we can handle resizing of the rows in the table view
         super(TableModel, self).fetchMore(parent)
         self.fetched.emit()
@@ -436,7 +440,7 @@ class TableModel(QSqlTableModel):
                 and self.headerData(index.column(), Qt.Horizontal) in ("Region", "Country"):
             return Qt.AlignCenter
         # Display the cell data in tooltip
-        #elif role == Qt.ToolTipRole:
+        # elif role == Qt.ToolTipRole:
         #    return super().data(index, Qt.DisplayRole)
 
         return super().data(index, role)

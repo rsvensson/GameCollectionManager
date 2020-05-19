@@ -385,26 +385,28 @@ def _tryAlternatives(title: str, platform: str):
     return None
 
 
-def getMobyInfo(game: str, platform: str) -> dict:
-    '''Takes a game name and its platform, and returns a dictionary with the game's
+def getMobyInfo(title: str, platform: str) -> dict:
+    """Takes a game name and its platform, and returns a dictionary with the game's
        information from MobyGames.com.
-       :param game: Title of the game
+       :param title: Title of the game
        :param platform: The game's platform
        :return: Dictionary of the game's info
-    '''
+    """
+
     mobyCSSData = {
-        "title": "html body div#wrapper div.container div#main.row div.col-md-12.col-lg-12 div.rightPanelHeader h1.niceHeaderTitle a",
+        "title": "html body div#wrapper div.container div#main.row div.col-md-12.col-lg-12 div.rightPanelHeader "
+                 "h1.niceHeaderTitle a",
         "publisher": "#coreGameRelease > div:nth-child(2) > a:nth-child(1)",
         "developer": "#coreGameRelease > div:nth-child(4) > a:nth-child(1)",
         "release": "#coreGameRelease > div:nth-child(6) > a:nth-child(1)",
         "platforms": "#coreGameRelease > div:nth-child(8)",
         "genre": "#coreGameGenre > div:nth-child(1) > div:nth-child(2)"
     }
-    pTitle = _parseTitle(game)
+    pTitle = _parseTitle(title)
 
     # Some substitutions for certain platforms:
     if platform == "Game & Watch":
-        game = "Game & Watch Wide Screen: " + game  # TODO: Need to figure out something better for each variety
+        title = "Game & Watch Wide Screen: " + title  # TODO: Need to figure out something better for each variety
         platform = "Dedicated handheld"
     elif platform == "Mega Drive":  # Because Genesis is a band not a console
         platform = "Genesis"
@@ -419,43 +421,43 @@ def getMobyInfo(game: str, platform: str) -> dict:
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
     except requests.exceptions.HTTPError:
         # Try the suggested results on the 404 page
-        res, game = _trySuggestions(game, platform)
+        res, title = _trySuggestions(title, platform)
         if res is None:
             # Couldn't find anything. Return empty values
             return {x: "" for x in mobyCSSData.keys()}
 
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
 
-    for data in mobyCSSData.keys():
+    for key in mobyCSSData.keys():
         pf = soup.select(_platformCSS)
         pf = pf[0].text.strip() if len(pf) > 0 else ""
         if pf != platform:
             # Try some alternative URLs
-            res = _tryAlternatives(game, platform)
+            res = _tryAlternatives(title, platform)
             if res is None:  # Nothing was found.
                 return {x: "" for x in mobyCSSData.keys()}
             soup = bs4.BeautifulSoup(res.text, 'html.parser')
         try:
-            temp = soup.select(mobyCSSData[data])
-            if data == "platforms":
+            temp = soup.select(mobyCSSData[key])
+            if key == "platforms":
                 # Make sure we don't include the '| Combined View' text
-                mobyCSSData[data] = ucd.normalize("NFKD", temp[0].text.split("|", 1)[0].strip())
+                mobyCSSData[key] = ucd.normalize("NFKD", temp[0].text.split("|", 1)[0].strip())
                 # Also make sure to insert the platform we're looking for
-                if platform not in mobyCSSData[data]:
-                    mobyCSSData[data] = platform + ", " + mobyCSSData[data]
+                if platform not in mobyCSSData[key]:
+                    mobyCSSData[key] = platform + ", " + mobyCSSData[key]
             else:
-                mobyCSSData[data] = ucd.normalize("NFKD", temp[0].text.strip())
+                mobyCSSData[key] = ucd.normalize("NFKD", temp[0].text.strip())
         except IndexError:  # Not all games have all data. Just add an empty string instead.
-            if data == "genre":
+            if key == "genre":
                 # If there's an ESRB rating it takes the place of the normal genre position
                 altGenreCSS = "#coreGameGenre > div:nth-child(2) > div:nth-child(4) > a:nth-child(1)"
                 try:
                     temp = soup.select(altGenreCSS)
-                    mobyCSSData[data] = ucd.normalize("NFKD", temp[0].text.strip())
+                    mobyCSSData[key] = ucd.normalize("NFKD", temp[0].text.strip())
                 except IndexError:  # Still nothing
-                    mobyCSSData[data] = ""
+                    mobyCSSData[key] = ""
             else:
-                mobyCSSData[data] = ""
+                mobyCSSData[key] = ""
 
     # Get release info
     releases = {}
@@ -480,14 +482,14 @@ def getMobyInfo(game: str, platform: str) -> dict:
 
 
 def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
-    '''
+    """
     Finds a specific release for a game on MobyGames.com
     :param name: The name of the game
     :param platform: The game's platform
     :param region: The game's region (NTSC (JP), NTSC (NA), PAL accepted)
     :param country: Optionally specify a specific country
     :return: Dictionary of the release info
-    '''
+    """
 
     releaseInfo = {"publisher": "", "developer": "", "platforms": "",
                    "genre": "", "code": "", "year": ""}
@@ -561,12 +563,12 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
     return releaseInfo
 
 
-def printInfo(data: dict):
+def printInfo(info: dict):
     # Print out the info with pretty formatting
-    for i in data:
+    for i in info:
         if i == "releases":
-            releases = data[i].keys()
-            details = data[i].values()
+            releases = info[i].keys()
+            details = info[i].values()
             print("====================================\n\n")
             print("====================================")
             print("Releases:")
@@ -577,16 +579,16 @@ def printInfo(data: dict):
                 for d in detail:
                     print(d[0] + ":\t\t\t\t" + d[1] if len(d[0]) < 7
                           else d[0] + ":\t" + d[1] if len(d[0]) > 16
-                    else d[0] + ":\t\t" + d[1])
+                          else d[0] + ":\t\t" + d[1])
                 print("====================================")
         else:
-            print(i + ":\t\t\t" + data[i] if i == "title" or i == "genre" else i + ":\t\t" + data[i])
+            print(i + ":\t\t\t" + info[i] if i == "title" or i == "genre" else i + ":\t\t" + info[i])
     print()
 
 
-
 if __name__ == "__main__":
-    testGames = [("Wai Wai World 2 - SOS!! Parsley Jō", "NES"),  # 'ō' gets truncated, but is a '-' in the actual url. Found through the suggestions.
+    testGames = [("Wai Wai World 2 - SOS!! Parsley Jō", "NES"),
+                 # 'ō' gets truncated, but is a '-' in the actual url. Found through the suggestions.
                  ("Mega Man", "NES"),  # First result is the DOS game. NES game found by the alternative URL checks.
                  ("Final Fantasy-", "NES"),  # The suggestions for this don't include the right game
                  ("Super Mario 64-", "Nintendo 64"),  # Found correctly in the suggestions
@@ -600,4 +602,3 @@ if __name__ == "__main__":
         data = getMobyInfo(game[0], game[1])
 
         printInfo(data)
-
