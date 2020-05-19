@@ -1,7 +1,8 @@
 import re
+import unicodedata as ucd  # For converting '\xa0' to spaces etc
+
 import bs4
 import requests
-import unicodedata as ucd  # For converting '\xa0' to spaces etc
 
 _baseURL = "https://www.mobygames.com/game/"
 _titleCSS = ".niceHeaderTitle > a:nth-child(1)"  # CSS for title string

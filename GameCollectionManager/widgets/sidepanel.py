@@ -1,7 +1,8 @@
 #!/usr/bin/env python
-from PySide2.QtGui import Qt
 from PySide2.QtCore import Signal
+from PySide2.QtGui import Qt
 from PySide2.QtWidgets import QDockWidget, QLabel, QVBoxLayout, QHBoxLayout, QWidget, QPushButton
+
 from utilities.fetchinfo import getMobyRelease
 
 

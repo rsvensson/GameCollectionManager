@@ -3,6 +3,7 @@ from collections.__init__ import OrderedDict
 from PySide2.QtCore import QSize, Qt
 from PySide2.QtWidgets import QDialog, QLabel, QComboBox, QLineEdit, QCheckBox, QPushButton, QVBoxLayout, QHBoxLayout, \
     QInputDialog, QDesktopWidget, QMessageBox
+
 from utilities.fetchinfo import getMobyRelease
 
 

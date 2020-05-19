@@ -2,8 +2,9 @@ from collections import OrderedDict
 
 from PySide2.QtCore import Qt, Signal, QModelIndex, QItemSelectionModel
 from PySide2.QtGui import QKeyEvent, QMouseEvent, QFont, QColor
-from PySide2.QtSql import QSqlTableModel, QSqlQuery, QSqlQueryModel
+from PySide2.QtSql import QSqlTableModel, QSqlQuery
 from PySide2.QtWidgets import QAbstractItemView, QTableView
+
 from utilities.fetchinfo import getMobyInfo, printInfo
 
 

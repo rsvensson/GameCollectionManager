@@ -5,15 +5,16 @@ from PySide2.QtSql import QSqlDatabase, QSqlQuery
 from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget, \
     QAction, QMenu, QApplication, QMessageBox, QLineEdit, QDesktopWidget, \
     QWidget, QLabel, QPushButton, QInputDialog, QProgressBar, QVBoxLayout, QComboBox, QHBoxLayout
-from utilities.steamlibrary import getSteamLibrary
+
 from utilities.exportcsv import sql2csv
+from utilities.steamlibrary import getSteamLibrary
 from widgets.importwindow import ImportWindow
 from widgets.inputwindow import InputWindow
 from widgets.overview import Overview
+from widgets.randomizer import Randomizer
 from widgets.searchdock import AdvancedSearch
 from widgets.sidepanel import SidePanel
 from widgets.table import Table
-from widgets.randomizer import Randomizer
 
 _VERSION = "0.2.4"
 
