@@ -140,16 +140,16 @@ class Randomizer(QWidget):
     def gameCount(self) -> int:
         return self._gameCount
 
-    def updateData(self, gamesData: list):
-        self._gamesData.clear()
-        self._consoleItems.clear()
-        self.consoleList.clear()
-        self._genreItems.clear()
+    def updateGenres(self, genreData: dict):
         self.genreList.clear()
+        self._genreItems.add(genreData["genre"])
+        self.genreList.addItems(sorted(self._genreItems, key=str.lower))
 
+    def updatePlatforms(self, gamesData: list):
+        self._gamesData.clear()
+        self.consoleList.clear()
         self._gamesData = gamesData
+
         for row in self._gamesData:
             self._consoleItems.add(row["Platform"])
-            self._genreItems.add(row["Genre"])
         self.consoleList.addItems(sorted(self._consoleItems, key=str.lower))
-        self.genreList.addItems(sorted(self._genreItems, key=str.lower))

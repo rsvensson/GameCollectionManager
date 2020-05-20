@@ -122,7 +122,7 @@ class MainWindow(QMainWindow):
         self.tab.currentChanged.connect(self.sidePanel.hideDetails)
         # Connect sidePanel's saved signal to corresponding table's updateData()
         self.sidePanel.saved.connect(self.tableViewList[self.tab.currentIndex()].updateData)
-        self.sidePanel.saved.connect(self.randomizer.updateData)
+        self.sidePanel.saved.connect(self.randomizer.updateGenres)
 
         # Main layout
         self.tabHbox = QHBoxLayout()
@@ -189,7 +189,7 @@ class MainWindow(QMainWindow):
                 if "Game" in data.keys():
                     self.gamesTableView.addData(data)
                     self.overview.updateData(self.gamesTableView)
-                    self.randomizer.updateData(self.gamesTableView.ownedItems())
+                    self.randomizer.updatePlatforms(self.gamesTableView.ownedItems())
                 elif "Console" in data.keys():
                     self.consolesTableView.addData(data)
                     self.overview.updateData(self.consolesTableView)
@@ -219,7 +219,7 @@ class MainWindow(QMainWindow):
                 self.tableViewList[currentTab-1].deleteData(rows)
                 self.overview.updateData(self.tableViewList[currentTab-1])
                 if currentTab == 1:
-                    self.randomizer.updateData(self.gamesTableView.ownedItems())
+                    self.randomizer.updatePlatforms(self.gamesTableView.ownedItems())
                 self.search()
 
     def deleteNotOwned(self):
@@ -294,7 +294,7 @@ class MainWindow(QMainWindow):
                             if game["Name"] not in existingGames:
                                 self.gamesTableView.addData(game)
                     self.overview.updateData(self.gamesTableView)
-                    self.randomizer.updateData(self.gamesTableView.ownedItems())
+                    self.randomizer.updatePlatforms(self.gamesTableView.ownedItems())
                     self.search()
 
     def exportToCSV(self):
