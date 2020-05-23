@@ -321,7 +321,13 @@ def _trySuggestions(title: str, platform: str):
     pTitle = _parseTitle(title)
     res = requests.get(_baseURL + "/".join((_platforms[platform], pTitle, "release-info")))
     suggestionsCSS = ".col-md-12 > div:nth-child(3) > ul:nth-child(2)"  # List of URLs
-    alternativeTitlesCSS = [".col-md-8 > ul:nth-child(19)", ".col-md-8 > ul:nth-child(20)"]
+    alternativeTitlesCSS = [".col-md-8 > ul:nth-child(19)",  # List of alternative titles
+                            ".col-md-8 > ul:nth-child(20)",  # Not all of them might be valid,
+                            ".col-md-8 > ul:nth-child(21)",  # but I've seen 19, 20 and 25 being used
+                            ".col-md-8 > ul:nth-child(22)",
+                            ".col-md-8 > ul:nth-child(23)",
+                            ".col-md-8 > ul:nth-child(24)",
+                            ".col-md-8 > ul:nth-child(25)"]
 
     # Find new url
     url = re.compile(r'".*"')  # URL is located within quotation marks
@@ -329,41 +335,58 @@ def _trySuggestions(title: str, platform: str):
     res = soup.select(suggestionsCSS)
     if len(res) > 0:
         suggestionURLs = [u.strip('"') for u in url.findall(res.pop().decode())]
-    else:
+    else:  # No suggestions found
         return None, title
 
     # Try each suggestion
     for suggestion in suggestionURLs:
         # The suggestions all use the Combined View. Insert the platform into url
-        temp = suggestion.split('/')
+        temp = suggestion.split("/")
         temp.insert(4, _platforms[platform])
+        temp.append("release-info")
         newurl = "/".join(temp)
 
         # Get the platform and title strings
         res = requests.get(newurl)
-        soup = bs4.BeautifulSoup(res.text, 'html.parser')
+        soup = bs4.BeautifulSoup(res.text, "html.parser")
         te = soup.select(_titleCSS)
-        if len(te) == 0:  # This shouldn't happen but who knows
+        pf = soup.select(_platformCSS)
+
+        if len(te) == 0 or len(pf) == 0:  # This shouldn't happen but who knows
             continue
+        if pf[0].text.strip() != platform:
+            continue  # Not the right platform, abort
+
         newtitle = te[0].text.strip()
-        if newtitle == title:
+        if newtitle.lower() == title.lower():
             return res, title
         else:
             # Try removing any weird characters from the sides of the game name:
             t = title.rstrip("\\-%$£@")
             t = t.lstrip("\\-%$£@")
-            if newtitle == t:
+            if newtitle.lower() == t.lower():
                 return res, t
             else:
                 # Check the alternative titles (Japanese games often have different titles for example)
-                temp = soup.select(alternativeTitlesCSS[0])
-                if len(temp) == 0:
-                    temp = soup.select(alternativeTitlesCSS[1])  # Sometimes it's a bit further down
-                altTitles = [t.strip('"') for t in url.findall(temp[0].text)]
+                alturl = newurl.split("/")
+                alturl = "/".join(alturl[:-1])  # Remove the 'release-info' part. Alt titles are on the main page.
+                altres = requests.get(alturl)
+                soup = bs4.BeautifulSoup(altres.text, "html.parser")
+
+                temp = []
+                for alt in alternativeTitlesCSS:
+                    # Try to find the alt titles
+                    temp = soup.select(alt)
+                    if len(temp) > 0:
+                        break
+                if len(temp) == 0:  # Still nothing, give up
+                    continue
+
+                altTitles = [t.strip('"') for t in url.findall(temp[0].text)]  # Not URLs but regex rule is the same
                 for alt in altTitles:
-                    if alt == title:
+                    if alt.lower() == title.lower():
                         return res, title
-                    elif alt == t:
+                    elif alt.lower() == t.lower():
                         return res, t
                     else:
                         continue
@@ -389,7 +412,7 @@ def _tryAlternatives(title: str, platform: str):
         te = soup.select(_titleCSS)
         pf = soup.select(_platformCSS)
         # Check if title and platform match
-        if te[0].text.strip() == title and pf[0].text.strip() == platform:
+        if te[0].text.strip().lower() == title.lower() and pf[0].text.strip().lower() == platform.lower():
             return res
         else:
             continue
@@ -443,7 +466,7 @@ def getMobyInfo(title: str, platform: str) -> dict:
     for key in mobyCSSData.keys():
         pf = soup.select(_platformCSS)
         pf = pf[0].text.strip() if len(pf) > 0 else ""
-        if pf != platform:
+        if pf.lower() != platform.lower():
             # Try some alternative URLs
             res = _tryAlternatives(title, platform)
             if res is None:  # Nothing was found.
