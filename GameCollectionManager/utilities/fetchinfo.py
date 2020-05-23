@@ -442,7 +442,8 @@ def getMobyInfo(title: str, platform: str) -> dict:
         "developer": "#coreGameRelease > div:nth-child(4) > a:nth-child(1)",
         "release": "#coreGameRelease > div:nth-child(6) > a:nth-child(1)",
         "platforms": "#coreGameRelease > div:nth-child(8)",
-        "genre": "#coreGameGenre > div:nth-child(1) > div:nth-child(2)"
+        "genre": "#coreGameGenre > div:nth-child(1) > div:nth-child(2)",
+        "image": ""
     }
     pTitle = _parseTitle(title)
 
@@ -480,6 +481,9 @@ def getMobyInfo(title: str, platform: str) -> dict:
                 return {x: "" for x in mobyCSSData.keys()}
             soup = bs4.BeautifulSoup(res.text, 'html.parser')
         try:
+            if key == "image":
+                continue  # We'll get the image url later
+
             temp = soup.select(mobyCSSData[key])
             if key == "platforms":
                 # Make sure we don't include the '| Combined View' text

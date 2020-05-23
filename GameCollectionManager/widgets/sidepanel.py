@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from PySide2.QtCore import Signal
-from PySide2.QtGui import Qt, QPixmap
+from PySide2.QtGui import Qt, QPixmap, QFont
 from PySide2.QtWidgets import QDockWidget, QLabel, QVBoxLayout, QHBoxLayout, QWidget, QPushButton
 
 from os import path
@@ -16,19 +16,31 @@ class SidePanel(QDockWidget):
     def __init__(self):
         super(SidePanel, self).__init__()
 
-        self.coverdir = path.join("data", "images", "covers")
-        self.id = ""
+        # Internal variables
+        self._coverdir = path.join("data", "images", "covers")
+        self._id = ""
+        self._imagedata = ""
 
         # QDockWidget settings
         self.setAllowedAreas(Qt.RightDockWidgetArea)
         self.setFeatures(QDockWidget.DockWidgetClosable)
         self.setFixedWidth(350)
         self.setVisible(False)
-        self.setWindowTitle("Details")
+        #self.setWindowTitle("Details")
+
+        # Fonts
+        boldUnderline = QFont()
+        boldUnderline.setBold(True)
+        boldUnderline.setUnderline(True)
 
         # Labels
+        self.coverLabel = QLabel("Cover:")
+        self.coverLabel.setFont(boldUnderline)
         self.cover = QLabel()
         self.cover.setAlignment(Qt.AlignTop)
+        self.detailsLabel = QLabel("Details:")
+        self.detailsLabel.setAlignment(Qt.AlignBottom)
+        self.detailsLabel.setFont(boldUnderline)
         self.nameLabel = QLabel("Name")
         self.nameInfoLabel = QLabel()
         self.platformLabel = QLabel("Platform")
@@ -66,7 +78,10 @@ class SidePanel(QDockWidget):
 
         # Layouts
         self.coverVbox = QVBoxLayout()
-        self.coverVbox.addWidget(self.cover, 0)
+        self.coverVbox.addWidget(self.coverLabel, 0)
+        self.coverVbox.addWidget(self.cover, 1)
+        self.detailsHbox = QHBoxLayout()
+        self.detailsHbox.addWidget(self.detailsLabel, 0)
         self.nameHbox = QHBoxLayout()
         self.nameHbox.addWidget(self.nameLabel, 0)
         self.nameHbox.addWidget(self.nameInfoLabel, 0)
@@ -111,6 +126,7 @@ class SidePanel(QDockWidget):
         self.buttonHbox.addWidget(self.saveButton, 0)
         self.mainLayout = QVBoxLayout()
         self.mainLayout.addLayout(self.coverVbox, 0)
+        self.mainLayout.addLayout(self.detailsHbox, 0)
         self.mainLayout.addLayout(self.nameHbox, 0)
         self.mainLayout.addLayout(self.platformHbox, 0)
         self.mainLayout.addLayout(self.publisherHbox, 0)
@@ -135,11 +151,12 @@ class SidePanel(QDockWidget):
         platform = self.platformInfoLabel.text()
         region = self.regionInfoLabel.text()
         info = getMobyRelease(name, platform, region)
-        pixmap = QPixmap()
-        self.imagedata = requests.get(info["image"]).content
-        pixmap.loadFromData(self.imagedata)
+        if info["image"] != "":
+            self._imagedata = requests.get(info["image"]).content
+            pixmap = QPixmap()
+            pixmap.loadFromData(self._imagedata)
+            self.cover.setPixmap(pixmap)
 
-        self.cover.setPixmap(pixmap)
         if self.publisherInfoLabel.text() == "":
             self.publisherInfoLabel.setText(info["publisher"])
         if self.developerInfoLabel.text() == "":
@@ -162,9 +179,9 @@ class SidePanel(QDockWidget):
                 "year": self.yearInfoLabel.text()}
 
         # Save imagedata to file
-        if not path.exists(path.join(self.coverdir, self.id)):
-            with open(path.join(self.coverdir, self.id), "wb") as f:
-                f.write(self.imagedata)
+        if self._imagedata != "" and not path.exists(path.join(self._coverdir, self._id)):
+            with open(path.join(self._coverdir, self._id), "wb") as f:
+                f.write(self._imagedata)
 
         self.saved.emit(info)
 
@@ -172,10 +189,11 @@ class SidePanel(QDockWidget):
         if not self.isVisible():
             self.setVisible(True)
 
-        self.id = str(info["ID"]) + ".jpg"
-        pixmap = path.join(self.coverdir, "none.png")
-        if path.exists(path.join(self.coverdir, self.id)):
-            pixmap = path.join(self.coverdir, self.id)
+        self._id = str(info["ID"]) + ".jpg"
+        self._imagedata = ""
+        pixmap = path.join(self._coverdir, "none.png")
+        if path.exists(path.join(self._coverdir, self._id)):
+            pixmap = path.join(self._coverdir, self._id)
 
         self.cover.setPixmap(pixmap)
         self.nameInfoLabel.setText(info["Name"])
