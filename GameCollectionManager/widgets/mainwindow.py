@@ -16,7 +16,7 @@ from widgets.searchdock import AdvancedSearch
 from widgets.sidepanel import SidePanel
 from widgets.table import Table
 
-_VERSION = "0.2.4"
+_VERSION = "0.3.0"
 
 
 class MainWindow(QMainWindow):
