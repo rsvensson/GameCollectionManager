@@ -1,4 +1,5 @@
 from collections import OrderedDict
+from os import path, remove
 
 from PySide2.QtCore import Qt, Signal, QModelIndex, QItemSelectionModel
 from PySide2.QtGui import QKeyEvent, QMouseEvent, QFont, QColor
@@ -138,9 +139,15 @@ class Table(QTableView):
         Deletes rows from SQL database
         :param rows: Rows to delete
         """
+        coversdir = path.join("data", "images", "covers")
 
         for row in rows:
+            image = str(self.model.index(row, 0).data()) + ".jpg"
+            if path.exists(path.join(coversdir, image)):
+                remove(path.join(coversdir, image))
             self.model.removeRows(row, 1, parent=QModelIndex())
+
+
         self.model.select()
         self.ownedCount = self.model.getOwnedCount()
         self.allCount = self.model.getAllCount()

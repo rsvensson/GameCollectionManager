@@ -1,13 +1,12 @@
 #!/usr/bin/env python
+from os import path
+
+import requests
 from PySide2.QtCore import Signal
 from PySide2.QtGui import Qt, QPixmap, QFont
 from PySide2.QtWidgets import QDockWidget, QLabel, QVBoxLayout, QHBoxLayout, QWidget, QPushButton
 
-from os import path
-
 from utilities.fetchinfo import getMobyRelease
-
-import requests
 
 
 class SidePanel(QDockWidget):
@@ -37,7 +36,7 @@ class SidePanel(QDockWidget):
         self.coverLabel = QLabel("Cover:")
         self.coverLabel.setFont(boldUnderline)
         self.cover = QLabel()
-        self.cover.setAlignment(Qt.AlignTop)
+        self.cover.setAlignment(Qt.AlignCenter)
         self.detailsLabel = QLabel("Details:")
         self.detailsLabel.setAlignment(Qt.AlignBottom)
         self.detailsLabel.setFont(boldUnderline)
@@ -151,7 +150,7 @@ class SidePanel(QDockWidget):
         platform = self.platformInfoLabel.text()
         region = self.regionInfoLabel.text()
         info = getMobyRelease(name, platform, region)
-        if info["image"] != "":
+        if "image" in info.keys():
             self._imagedata = requests.get(info["image"]).content
             pixmap = QPixmap()
             pixmap.loadFromData(self._imagedata)
