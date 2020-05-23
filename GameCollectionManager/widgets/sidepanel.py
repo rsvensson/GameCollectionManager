@@ -1,9 +1,13 @@
 #!/usr/bin/env python
 from PySide2.QtCore import Signal
-from PySide2.QtGui import Qt
+from PySide2.QtGui import Qt, QPixmap
 from PySide2.QtWidgets import QDockWidget, QLabel, QVBoxLayout, QHBoxLayout, QWidget, QPushButton
 
+from os import path
+
 from utilities.fetchinfo import getMobyRelease
+
+import requests
 
 
 class SidePanel(QDockWidget):
@@ -11,6 +15,9 @@ class SidePanel(QDockWidget):
 
     def __init__(self):
         super(SidePanel, self).__init__()
+
+        self.coverdir = path.join("data", "images", "covers")
+        self.id = ""
 
         # QDockWidget settings
         self.setAllowedAreas(Qt.RightDockWidgetArea)
@@ -20,6 +27,8 @@ class SidePanel(QDockWidget):
         self.setWindowTitle("Details")
 
         # Labels
+        self.cover = QLabel()
+        self.cover.setAlignment(Qt.AlignTop)
         self.nameLabel = QLabel("Name")
         self.nameInfoLabel = QLabel()
         self.platformLabel = QLabel("Platform")
@@ -56,6 +65,8 @@ class SidePanel(QDockWidget):
         self.saveButton.clicked.connect(self._saveInfo)
 
         # Layouts
+        self.coverVbox = QVBoxLayout()
+        self.coverVbox.addWidget(self.cover, 0)
         self.nameHbox = QHBoxLayout()
         self.nameHbox.addWidget(self.nameLabel, 0)
         self.nameHbox.addWidget(self.nameInfoLabel, 0)
@@ -99,6 +110,7 @@ class SidePanel(QDockWidget):
         self.buttonHbox.addWidget(self.fetchInfoButton, 0)
         self.buttonHbox.addWidget(self.saveButton, 0)
         self.mainLayout = QVBoxLayout()
+        self.mainLayout.addLayout(self.coverVbox, 0)
         self.mainLayout.addLayout(self.nameHbox, 0)
         self.mainLayout.addLayout(self.platformHbox, 0)
         self.mainLayout.addLayout(self.publisherHbox, 0)
@@ -123,7 +135,11 @@ class SidePanel(QDockWidget):
         platform = self.platformInfoLabel.text()
         region = self.regionInfoLabel.text()
         info = getMobyRelease(name, platform, region)
+        pixmap = QPixmap()
+        self.imagedata = requests.get(info["image"]).content
+        pixmap.loadFromData(self.imagedata)
 
+        self.cover.setPixmap(pixmap)
         if self.publisherInfoLabel.text() == "":
             self.publisherInfoLabel.setText(info["publisher"])
         if self.developerInfoLabel.text() == "":
@@ -144,12 +160,24 @@ class SidePanel(QDockWidget):
                 "genre": self.genreInfoLabel.text(),
                 "code": self.codeInfoLabel.text(),
                 "year": self.yearInfoLabel.text()}
+
+        # Save imagedata to file
+        if not path.exists(path.join(self.coverdir, self.id)):
+            with open(path.join(self.coverdir, self.id), "wb") as f:
+                f.write(self.imagedata)
+
         self.saved.emit(info)
 
     def showDetails(self, info):
         if not self.isVisible():
             self.setVisible(True)
 
+        self.id = str(info["ID"]) + ".jpg"
+        pixmap = path.join(self.coverdir, "none.png")
+        if path.exists(path.join(self.coverdir, self.id)):
+            pixmap = path.join(self.coverdir, self.id)
+
+        self.cover.setPixmap(pixmap)
         self.nameInfoLabel.setText(info["Name"])
         self.platformInfoLabel.setText(info["Platform"])
         self.publisherInfoLabel.setText(info["Publisher"])

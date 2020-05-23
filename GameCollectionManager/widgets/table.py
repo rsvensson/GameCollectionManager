@@ -298,11 +298,11 @@ class Table(QTableView):
 
     def rowData(self):
         rowData = {}
-        gamesColumns = ["Id", "Platform", "Name", "Region", "Code", "Game", "Box", "Manual", "Year", "Genre",
+        gamesColumns = ["ID", "Platform", "Name", "Region", "Code", "Game", "Box", "Manual", "Year", "Genre",
                         "Comment", "Publisher", "Developer", "Platforms"]
-        # consoleColumns = ["Id", "Platform", "Name", "Region", "Country", "Serial number", "Console", "Box",
+        # consoleColumns = ["ID", "Platform", "Name", "Region", "Country", "Serial number", "Console", "Box",
         #                  "Manual", "Year", "Comment"]
-        # accessoriesColumns = ["Id", "Platform", "Name", "Region", "Country", "Accessory", "Box", "Manual",
+        # accessoriesColumns = ["ID", "Platform", "Name", "Region", "Country", "Accessory", "Box", "Manual",
         #                      "Year", "Comment"]
 
         rowid = self.model.index(self.currentIndex().row(), 0).data()
@@ -310,7 +310,7 @@ class Table(QTableView):
         query.exec_(f"SELECT * FROM {self._table} WHERE Id={rowid}")
         query.first()
         if self._table == "games":
-            for i in range(1, len(gamesColumns)):
+            for i in range(len(gamesColumns)):
                 rowData[gamesColumns[i]] = query.value(i)
 
             self.doubleClick.emit(rowData)

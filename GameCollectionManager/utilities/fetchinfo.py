@@ -503,7 +503,7 @@ def getMobyInfo(title: str, platform: str) -> dict:
 
     # Get release info
     releases = {}
-    info = soup.findAll("div", {"class": "floatholder relInfo"})
+    info = soup.find_all("div", {"class": "floatholder relInfo"})
     release = ""
     for i in info:
         titles = i.find_all("div", {"class": "relInfoTitle"})
@@ -519,6 +519,15 @@ def getMobyInfo(title: str, platform: str) -> dict:
                 releases[release].append([ucd.normalize("NFKD", title.text.strip()),
                                           ucd.normalize("NFKD", detail.text.strip())])
     mobyCSSData["releases"] = releases
+
+    # Get cover image
+    imgurlReg = re.compile(r'src=\".*?\"')
+    image = soup.find_all("div", {"id": "coreGameCover"})
+    temp = []
+    for i in image.pop().decode():
+        temp.append(i)
+    imgsrc = imgurlReg.findall("".join(temp)).pop().split('=')[1].strip('"')  # Find 'src=' part, then split at '='
+    mobyCSSData["image"] = "https://www.mobygames.com" + imgsrc
 
     return mobyCSSData
 
@@ -558,6 +567,7 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
     developer = info["developer"]
     platforms = info["platforms"]
     genre = info["genre"]
+    image = info["image"]
     yearFormat = re.compile(r"\d{4}")
     code = ""
     year = ""
@@ -601,7 +611,7 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
                 break
 
     releaseInfo = {"publisher": publisher, "developer": developer, "platforms": platforms,
-                   "genre": genre, "code": code, "year": year}
+                   "genre": genre, "image": image, "code": code, "year": year}
     return releaseInfo
 
 
