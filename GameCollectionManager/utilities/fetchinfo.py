@@ -323,11 +323,14 @@ def _trySuggestions(title: str, platform: str):
     suggestionsCSS = ".col-md-12 > div:nth-child(3) > ul:nth-child(2)"  # List of URLs
     alternativeTitlesCSS = [".col-md-8 > ul:nth-child(19)",  # List of alternative titles
                             ".col-md-8 > ul:nth-child(20)",  # Not all of them might be valid,
-                            ".col-md-8 > ul:nth-child(21)",  # but I've seen 19, 20 and 25 being used
+                            ".col-md-8 > ul:nth-child(21)",  # but I've seen 19, 20, 25 and 28, being used
                             ".col-md-8 > ul:nth-child(22)",
                             ".col-md-8 > ul:nth-child(23)",
                             ".col-md-8 > ul:nth-child(24)",
-                            ".col-md-8 > ul:nth-child(25)"]
+                            ".col-md-8 > ul:nth-child(25)",
+                            ".col-md-8 > ul:nth-child(26)",
+                            ".col-md-8 > ul:nth-child(27)",
+                            ".col-md-8 > ul:nth-child(28)"]
 
     # Find new url
     url = re.compile(r'".*"')  # URL is located within quotation marks
