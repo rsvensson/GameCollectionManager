@@ -29,6 +29,9 @@ class Table(QTableView):
         self.model.fetched.connect(self.resizeRowsToContents)  # Resize rows when fetching more
         self.model.select()
 
+        self.ownedCount = self.model.getOwnedCount()
+        self.allCount = self.model.getAllCount()
+
         self.model.setHeaderData(0, Qt.Horizontal, "ID")
         self.model.setHeaderData(1, Qt.Horizontal, "Platform")
         self.model.setHeaderData(2, Qt.Horizontal, "Name")
@@ -127,6 +130,8 @@ class Table(QTableView):
                     db.rollback()
 
         self.filterTable("", dict())
+        self.ownedCount = self.model.getOwnedCount()
+        self.allCount = self.model.getAllCount()
 
     def deleteData(self, rows: list):
         """
@@ -137,6 +142,8 @@ class Table(QTableView):
         for row in rows:
             self.model.removeRows(row, 1, parent=QModelIndex())
         self.model.select()
+        self.ownedCount = self.model.getOwnedCount()
+        self.allCount = self.model.getAllCount()
         self.resizeRowsToContents()
 
     def deleteNotOwned(self):
@@ -149,6 +156,8 @@ class Table(QTableView):
         for row in rows:
             query.exec_(f"DELETE FROM {self._table} WHERE ID={row}")
         self.model.select()
+
+        self.allCount = self.model.getAllCount()
         self.resizeRowsToContents()
 
     def filterTable(self, filterText: str, selections: dict):
@@ -166,7 +175,7 @@ class Table(QTableView):
             else:
                 self.model.setFilter("1=1 ORDER BY Platform ASC, Name ASC")
             self.resizeRowsToContents()
-            return self.ownedCount()
+            return self.ownedCount
 
         # Filter based on advanced search options
         elif len(selections) > 0:
@@ -253,22 +262,6 @@ class Table(QTableView):
             self.rowData()
         else:
             super(Table, self).mouseDoubleClickEvent(event)
-
-    def ownedCount(self) -> int:
-        """
-        Counts how many items in the table that are owned. An owned item is one that
-        has either the item itself, the box, or the manual.
-        :return: (int) Item count
-        """
-
-        count = 0
-
-        query = QSqlQuery()
-        query.exec_(f"SELECT Name FROM {self._table} WHERE {self._itemType}='Yes' OR Box='Yes' OR Manual='Yes'")
-        while query.next():
-            count += 1
-
-        return count
 
     def ownedItems(self) -> list:
         """
@@ -394,9 +387,31 @@ class TableModel(QSqlTableModel):
     def flags(self, index):
         if self.headerData(index.column(), Qt.Horizontal) in ("Game", "Console", "Accessory",
                                                               "Box", "Manual"):
-            return super().flags(index) | Qt.ItemIsUserCheckable
+            return super().flags(index) | Qt.ItemIsUserCheckable  # Allows clicking on the checkbox
         else:
             return super().flags(index)
+
+    def getAllCount(self):
+        # SQLite3 only loads in chunks of 256 rows at a time, making rowCount useless.
+        count = 0
+        query = QSqlQuery()
+        query.exec_(f"SELECT ID FROM {self.tableName()}")
+        while query.next():
+            count += 1
+
+        return count
+
+    def getOwnedCount(self):
+        # Returns number of owned items in table
+        itemnames = {"games": "Game", "consoles": "Console", "accessories": "Accessory"}
+        count = 0
+        query = QSqlQuery()
+        query.exec_(f"SELECT ID FROM {self.tableName()} "
+                    f"WHERE {itemnames[self.tableName()]}='Yes' OR Box='Yes' OR Manual='Yes'")
+        while query.next():
+            count += 1
+
+        return count
 
     def data(self, index, role=Qt.DisplayRole):
         # Handle setting our checkboxes

@@ -154,11 +154,12 @@ class Overview(QWidget):
 
         for i, table in enumerate(self._tables):
             self._lblTables.append(QLabel())
-            self._lblTables[i].setText(f"Number of {table.model.tableName()}: {table.ownedCount()}")
+            self._lblTables[i].setText(f"Number of {table.model.tableName()}: {table.ownedCount}")
 
         # Counts how many items each platform has and puts it into a dictionary
         self._platforms = sorted(tempPlatforms, key=str.lower)
         for table in self._tables:
+            self._totalItems += table.ownedCount
             for platform in self._platforms:
                 if table.model.tableName() == "games":
                     self._gamesData[platform] = table.itemsInPlatform(platform)
@@ -167,30 +168,27 @@ class Overview(QWidget):
                 elif table.model.tableName() == "accessories":
                     self._accessoryData[platform] = table.itemsInPlatform(platform)
 
-        for table in self._tables:
-            self._totalItems += table.ownedCount()
-
     def updateData(self, table):
         if table.model.tableName() == "games":
             self._gamesData.clear()
-            self._lblTables[0].setText(f"Number of games: {table.ownedCount()}")
+            self._lblTables[0].setText(f"Number of games: {table.ownedCount}")
             for platform in sorted(table.platforms(), key=str.lower):
                 self._gamesData[platform] = table.itemsInPlatform(platform)
             self._gd.updateFigure(self._gamesData)
         elif table.model.tableName() == "consoles":
             self._consoleData.clear()
-            self._lblTables[1].setText(f"Number of consoles: {table.ownedCount()}")
+            self._lblTables[1].setText(f"Number of consoles: {table.ownedCount}")
             for platform in sorted(table.platforms(), key=str.lower):
                 self._consoleData[platform] = table.itemsInPlatform(platform)
             self._cd.updateFigure(self._consoleData)
         elif table.model.tableName() == "accessories":
             self._accessoryData.clear()
-            self._lblTables[2].setText(f"Number of accessories: {table.ownedCount()}")
+            self._lblTables[2].setText(f"Number of accessories: {table.ownedCount}")
             for platform in sorted(table.platforms(), key=str.lower):
                 self._accessoryData[platform] = table.itemsInPlatform(platform)
             self._ad.updateFigure(self._accessoryData)
 
         self._totalItems = 0
         for tbl in self._tables:
-            self._totalItems += tbl.ownedCount()
+            self._totalItems += tbl.ownedCount
         self._lblTotal.setText(f"Total items in collection: {self._totalItems}")

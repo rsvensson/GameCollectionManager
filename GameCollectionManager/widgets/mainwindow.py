@@ -492,12 +492,12 @@ class MainWindow(QMainWindow):
         if currentTab == 0:
             self.statusBar().showMessage("")
         elif 0 < currentTab < 4:
-            numItems = self.tableViewList[currentTab-1].ownedCount()
+            numItems = self.tableViewList[currentTab-1].ownedCount
             if self.tableViewList[currentTab-1].hideNotOwned:
                 self.statusBar().showMessage(f"{numItems} {itemType[currentTab-1]} in collection.")
             else:
                 self.statusBar().showMessage("Showing {} {} ({} {} in collection).".format(
-                    self.tableViewList[currentTab-1].model.rowCount(),  # TODO: Only shows currently loaded rows
+                    self.tableViewList[currentTab-1].allCount,
                     itemType[currentTab-1],
                     numItems,
                     itemType[currentTab-1]))
