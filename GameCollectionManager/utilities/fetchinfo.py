@@ -388,6 +388,13 @@ def _trySuggestions(title: str, platform: str):
                         return res, title
                     elif alt.lower() == t.lower():
                         return res, t
+                    # Sometimes ō is transliterated as ou or oo
+                    elif alt.lower() == title.replace("ō", "ou").lower() or\
+                            alt.lower() == title.replace("ō", "oo").lower():
+                        return res, title
+                    elif alt.lower() == t.replace("ō", "ou").lower() or\
+                            alt.lower() == t.replace("ō", "oo").lower():
+                        return res, t
                     else:
                         continue
 
