@@ -440,12 +440,12 @@ def getMobyInfo(title: str, platform: str) -> dict:
     pTitle = _parseTitle(title)
 
     # Some substitutions for certain platforms:
-    if platform == "Game & Watch":
+    if platform.lower() == "game & watch":
         title = "Game & Watch Wide Screen: " + title  # TODO: Need to figure out something better for each variety
         platform = "Dedicated handheld"
-    elif platform == "Mega Drive":  # Because Genesis is a band not a console
+    elif platform.lower() == "mega drive":  # Because Genesis is a band not a console
         platform = "Genesis"
-    elif platform == "Steam":
+    elif platform.lower() == "steam":
         platform = "Windows"  # Well it could be Linux or Mac as well but...
 
     # Get data
