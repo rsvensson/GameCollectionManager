@@ -562,6 +562,8 @@ def getMobyInfo(title: str, platform: str) -> dict:
         for release, url in zip(coverReleases, coverURLs):
             rel = release.find_all("td")
             for j, r in enumerate(rel):  # Find index of countries list
+                if len(rel) > 9:
+                    continue  # Skips player's choice releases etc (anything that has a "Package Comments" section)
                 if r.text in ("Country", "Countries"):
                     # Country as key, url as value. When several countries the last ones are separated with " and ".
                     covers[rel[j+2].text.replace(" and ", " , ")] = url

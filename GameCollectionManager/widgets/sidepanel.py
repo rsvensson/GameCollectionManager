@@ -157,7 +157,7 @@ class SidePanel(QDockWidget):
             pixmap.loadFromData(self._imagedata)
             w = self.cover.width()
             h = self.cover.height()
-            self.cover.setPixmap(pixmap.scaled(w, h, Qt.KeepAspectRatio))
+            self.cover.setPixmap(pixmap.scaled(w, h, Qt.KeepAspectRatio, Qt.SmoothTransformation))
 
         if self.publisherInfoLabel.text() == "":
             self.publisherInfoLabel.setText(info["publisher"])
@@ -200,7 +200,7 @@ class SidePanel(QDockWidget):
         p = QPixmap(pixmap)
         w = self.cover.width()
         h = self.cover.height()
-        self.cover.setPixmap(p.scaled(w, h, Qt.KeepAspectRatio))
+        self.cover.setPixmap(p.scaled(w, h, Qt.KeepAspectRatio, Qt.SmoothTransformation))
 
         self.nameInfoLabel.setText(info["Name"])
         self.platformInfoLabel.setText(info["Platform"])
