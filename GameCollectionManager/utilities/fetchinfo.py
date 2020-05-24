@@ -559,11 +559,12 @@ def getMobyInfo(title: str, platform: str) -> dict:
         mobyCSSData["covers"] = {"United States": "https://www.mobygames.com" + imgsrc}
     else:
         covers = {}
-        for release, url in zip(coverReleases, coverURLs):
-            countries = release.find_all("td")
-            countries[5].text.replace(" and ", " , ")  # index 5 has the countries list
-            # Country as key, url as value. When several countries the two last ones are separated with " and ".
-            covers[countries[5].text.replace(" and ", " , ")] = url
+        for i, release in enumerate(coverReleases):
+            rel = release.find_all("td")
+            for j, r in enumerate(rel):  # Find index of countries list
+                if r.text in ("Country", "Countries"):
+                    # Country as key, url as value. When several countries the last ones are separated with " and ".
+                    covers[rel[j+2].text.replace(" and ", " , ")] = coverURLs[i]
 
         mobyCSSData["covers"] = covers
 
@@ -650,7 +651,7 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
 
     # Find the release's cover image
     if len(covers) > 0 and str(list(covers.values())[0]).find("/shots") == -1:
-        # We have found a cover image, determine region
+        # We have a cover image, determine region
         res = None
         for cover in covers:
             countries = cover.split(" , ")
@@ -659,7 +660,7 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
                     # Default to UK for PAL region
                     res = requests.get(covers[cover])
                     break
-                elif country.strip() in region:
+                elif country.strip() in regionValue:
                     res = requests.get(covers[cover])
                     break
             if res is not None:
