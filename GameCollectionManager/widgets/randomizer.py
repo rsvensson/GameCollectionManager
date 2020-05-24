@@ -1,7 +1,8 @@
 from random import randint
+from os import path
 
 from PySide2.QtCore import Qt
-from PySide2.QtGui import QFont
+from PySide2.QtGui import QFont, QPixmap
 from PySide2.QtWidgets import QWidget, QLabel, QListWidget, QAbstractItemView, QPushButton, QHBoxLayout, QVBoxLayout, \
     QGridLayout
 
@@ -17,6 +18,7 @@ class Randomizer(QWidget):
 
         self._gamesData = gamesData
         self._gameCount = 0
+        self._coverdir = path.join("data", "images", "covers")
 
         self._consoleItems = set()
         self._genreItems = set()
@@ -64,6 +66,15 @@ class Randomizer(QWidget):
         self._lblTitle.setFont(self._lblFont)
         self._lblTitle.setWordWrap(True)
 
+        # Cover image
+        self._cover = QLabel()
+        self._cover.setVisible(False)
+        self._cover.setAlignment(Qt.AlignCenter)
+        p = QPixmap(path.join(self._coverdir, "none.png"))
+        w = self._cover.width()
+        h = self._cover.height()
+        self._cover.setPixmap(p.scaled(w, h, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+
         self._hboxButtons = QHBoxLayout()
         self._vboxLists = QVBoxLayout()
         self._vboxConsoles = QVBoxLayout()
@@ -82,8 +93,10 @@ class Randomizer(QWidget):
         self._vboxLists.addSpacing(10)
         self._vboxLists.addLayout(self._vboxGenres, 1)
         self._vboxResult.addStretch(3)
-        self._vboxResult.addWidget(self._lblPlay, 1)
-        self._vboxResult.addWidget(self._lblTitle, 1)
+        self._vboxResult.addWidget(self._lblPlay, 0)
+        self._vboxResult.addWidget(self._lblTitle, 0)
+        self._vboxResult.addSpacing(50)
+        self._vboxResult.addWidget(self._cover, 0)
         self._vboxResult.addStretch(3)
         self._grid.setMargin(0)
         self._grid.setSpacing(0)
@@ -117,6 +130,19 @@ class Randomizer(QWidget):
             self._lblPlay.setText("You will play:")
             self._lblTitle.setText(f"{games[choice]['Name']}" if len(platforms) == 1 else
                                    f"{games[choice]['Name']} [{games[choice]['Platform']}]")
+            # Cover image
+            cover = str(games[choice]['ID']) + ".jpg"
+            if path.exists(path.join(self._coverdir, cover)):
+                # Update cover image if the game has one
+                pixmap = path.join(self._coverdir, cover)
+                self._cover.setVisible(True)
+            else:
+                pixmap = path.join(self._coverdir, "none.png")
+                self._cover.setVisible(False)
+            p = QPixmap(pixmap)
+            w = self._cover.width()
+            h = self._cover.height()
+            self._cover.setPixmap(p.scaled(w, h, Qt.KeepAspectRatio, Qt.SmoothTransformation))
         else:
             self._lblPlay.setText("")
             self._lblTitle.setText("Select at least one console or genre...")

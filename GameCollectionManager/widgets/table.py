@@ -280,11 +280,11 @@ class Table(QTableView):
         items = []
 
         query = QSqlQuery()
-        query.exec_("SELECT Platform, Name, Region, Genre "
+        query.exec_("SELECT ID, Platform, Name, Region, Genre "
                     f"FROM {self._table} WHERE {self._itemType}='Yes' OR Box='Yes' OR Manual='Yes'")
         while query.next():
-            items.append(dict(Platform=query.value(0), Name=query.value(1),
-                              Region=query.value(2), Genre=query.value(3)))
+            items.append(dict(ID=query.value(0), Platform=query.value(1), Name=query.value(2),
+                              Region=query.value(3), Genre=query.value(4)))
 
         return items
 
