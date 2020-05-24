@@ -344,7 +344,7 @@ def _trySuggestions(title: str, platform: str):
     if len(res) > 0:
         suggestionURLs = [u.strip('"') for u in url.findall(res.pop().decode())]
     else:  # No suggestions found
-        return None, title
+        return None, title, ""
 
     # Try each suggestion
     for suggestion in suggestionURLs:
@@ -398,10 +398,14 @@ def _trySuggestions(title: str, platform: str):
                         return res, t, newurl
                     # Sometimes ō is transliterated as ou or oo
                     elif alt.lower() == title.replace("ō", "ou").lower() or\
-                            alt.lower() == title.replace("ō", "oo").lower():
+                            alt.lower() == title.replace("ou", "ō").lower() or\
+                            alt.lower() == title.replace("ō", "oo").lower() or\
+                            alt.lower() == title.replace("oo", "ō").lower():
                         return res, title, newurl
                     elif alt.lower() == t.replace("ō", "ou").lower() or\
-                            alt.lower() == t.replace("ō", "oo").lower():
+                            alt.lower() == t.replace("ou", "ō").lower() or\
+                            alt.lower() == t.replace("ō", "oo").lower() or\
+                            alt.lower() == t.replace("oo", "ō").lower():
                         return res, t, newurl
                     else:
                         continue
@@ -461,10 +465,38 @@ def getMobyInfo(title: str, platform: str) -> dict:
     if platform.lower() == "game & watch":
         title = "Game & Watch Wide Screen: " + title  # TODO: Need to figure out something better for each variety
         platform = "Dedicated handheld"
-    elif platform.lower() == "mega drive":  # Because Genesis is a band not a console
+    elif platform.lower() in ("mega drive", "sega mega drive"):  # Because Genesis is a band not a console
         platform = "Genesis"
+    elif platform.lower() == "sega dreamcast":
+        platform = "Dreamcast"
+    elif platform.lower() == "sega mega cd":
+        platform = "Sega CD"
     elif platform.lower() == "steam":
         platform = "Windows"  # Well it could be Linux or Mac as well but...
+    elif platform.lower() == "famicom disk system":
+        platform = "NES"  # FDS games aren't separated on Mobygames
+    elif platform.lower() == "nintendo entertainment system":
+        platform = "NES"
+    elif platform.lower() == "nintendo gamecube":
+        platform = "GameCube"
+    elif platform.lower() == "nintendo wii":
+        platform = "Wii"
+    elif platform.lower() == "nintendo wii u":
+        platform = "Wii U"
+    elif platform.lower() == "atari lynx":
+        platform = "Lynx"
+    elif platform.lower() == "magnavox odyssey²":
+        platform = "Odyssey 2"
+    elif platform.lower() == "neo geo aes":
+        platform = "Neo Geo"
+    elif platform.lower() == "nintendo 64dd":
+        platform = "Nintendo 64"
+    elif platform.lower() == "playstation portable":
+        platform = "PSP"
+    elif platform.lower() == "playstation vita":
+        platform = "PS Vita"
+    elif platform.lower() == "turbografx-16 cd":
+        platform = "TurboGrafx CD"
 
     # Get data
     fullURL = _baseURL + "/".join((_platforms[platform], pTitle, "release-info"))
@@ -562,8 +594,8 @@ def getMobyInfo(title: str, platform: str) -> dict:
         for release, url in zip(coverReleases, coverURLs):
             rel = release.find_all("td")
             for j, r in enumerate(rel):  # Find index of countries list
-                if len(rel) > 9:
-                    continue  # Skips player's choice releases etc (anything that has a "Package Comments" section)
+                # if len(rel) > 9:
+                #    continue  # Skips player's choice releases etc (anything that has a "Package Comments" section)
                 if r.text in ("Country", "Countries"):
                     # Country as key, url as value. When several countries the last ones are separated with " and ".
                     covers[rel[j+2].text.replace(" and ", " , ")] = url
@@ -653,7 +685,7 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
                 break
 
     # Find the release's cover image
-    if len(covers) > 0 and str(list(covers.values())[0]).find("/shots") == -1:
+    if len(covers) > 0 and str(list(covers.values())[0]).find("/shots/") == -1:
         # We have a cover image, determine region
         res = None
         for cover in covers:
