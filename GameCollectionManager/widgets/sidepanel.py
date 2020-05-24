@@ -4,7 +4,7 @@ from os import path
 import requests
 from PySide2.QtCore import Signal
 from PySide2.QtGui import Qt, QPixmap, QFont
-from PySide2.QtWidgets import QDockWidget, QLabel, QVBoxLayout, QHBoxLayout, QWidget, QPushButton
+from PySide2.QtWidgets import QDockWidget, QLabel, QVBoxLayout, QHBoxLayout, QWidget, QPushButton, QFrame
 
 from utilities.fetchinfo import getMobyRelease
 
@@ -32,12 +32,18 @@ class SidePanel(QDockWidget):
         boldUnderline.setBold(True)
         boldUnderline.setUnderline(True)
 
+        # Line
+        hline = QFrame()
+        hline.setFrameShape(QFrame.HLine)
+        hline.setFrameShadow(QFrame.Sunken)
+
         # Labels
-        self.coverLabel = QLabel("Cover:")
-        self.coverLabel.setFont(boldUnderline)
+        #self.coverLabel = QLabel("Cover:")
+        #self.coverLabel.setFont(boldUnderline)
         self.cover = QLabel()
         self.cover.setAlignment(Qt.AlignCenter)
-        self.cover.setMaximumSize(250, 250)
+        self.cover.setMinimumHeight(200)
+        self.cover.setMaximumSize(self.width(), 250)
         self.detailsLabel = QLabel("Details:")
         self.detailsLabel.setAlignment(Qt.AlignBottom)
         self.detailsLabel.setFont(boldUnderline)
@@ -78,7 +84,7 @@ class SidePanel(QDockWidget):
 
         # Layouts
         self.coverVbox = QVBoxLayout()
-        self.coverVbox.addWidget(self.coverLabel, 0)
+        #self.coverVbox.addWidget(self.coverLabel, 0)
         self.coverVbox.addWidget(self.cover, 1)
         self.detailsHbox = QHBoxLayout()
         self.detailsHbox.addWidget(self.detailsLabel, 0)
@@ -126,6 +132,7 @@ class SidePanel(QDockWidget):
         self.buttonHbox.addWidget(self.saveButton, 0)
         self.mainLayout = QVBoxLayout()
         self.mainLayout.addLayout(self.coverVbox, 0)
+        self.mainLayout.addWidget(hline, 0)
         self.mainLayout.addLayout(self.detailsHbox, 0)
         self.mainLayout.addLayout(self.nameHbox, 0)
         self.mainLayout.addLayout(self.platformHbox, 0)
