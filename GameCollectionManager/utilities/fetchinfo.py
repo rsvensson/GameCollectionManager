@@ -321,16 +321,21 @@ def _trySuggestions(title: str, platform: str):
     pTitle = _parseTitle(title)
     res = requests.get(_baseURL + "/".join((_platforms[platform], pTitle, "release-info")))
     suggestionsCSS = ".col-md-12 > div:nth-child(3) > ul:nth-child(2)"  # List of URLs
-    alternativeTitlesCSS = [".col-md-8 > ul:nth-child(19)",  # List of alternative titles
+    alternativeTitlesCSS = [".col-md-8 > ul:nth-child(17)",
+                            ".col-md-8 > ul:nth-child(18)",
+                            ".col-md-8 > ul:nth-child(19)",  # List of alternative titles
                             ".col-md-8 > ul:nth-child(20)",  # Not all of them might be valid,
-                            ".col-md-8 > ul:nth-child(21)",  # but I've seen 19, 20, 25 and 28, being used
+                            ".col-md-8 > ul:nth-child(21)",  # but I've seen 17, 19, 20, 25, 28 and 30 being used
                             ".col-md-8 > ul:nth-child(22)",
                             ".col-md-8 > ul:nth-child(23)",
                             ".col-md-8 > ul:nth-child(24)",
                             ".col-md-8 > ul:nth-child(25)",
                             ".col-md-8 > ul:nth-child(26)",
                             ".col-md-8 > ul:nth-child(27)",
-                            ".col-md-8 > ul:nth-child(28)"]
+                            ".col-md-8 > ul:nth-child(28)",
+                            ".col-md-8 > ul:nth-child(29)",
+                            ".col-md-8 > ul:nth-child(30)",
+                            ".col-md-8 > ul:nth-child(31)"]
 
     # Find new url
     url = re.compile(r'".*"')  # URL is located within quotation marks
@@ -362,7 +367,7 @@ def _trySuggestions(title: str, platform: str):
 
         newtitle = te[0].text.strip()
         if newtitle.lower() == title.lower():
-            return res, title
+            return res, title, newurl
         else:
             # Try removing any weird characters from the sides of the game name:
             t = title.rstrip("\\-%$£@")
@@ -388,31 +393,31 @@ def _trySuggestions(title: str, platform: str):
                 altTitles = [t.strip('"') for t in url.findall(temp[0].text)]  # Not URLs but regex rule is the same
                 for alt in altTitles:
                     if alt.lower() == title.lower():
-                        return res, title
+                        return res, title, newurl
                     elif alt.lower() == t.lower():
-                        return res, t
+                        return res, t, newurl
                     # Sometimes ō is transliterated as ou or oo
                     elif alt.lower() == title.replace("ō", "ou").lower() or\
                             alt.lower() == title.replace("ō", "oo").lower():
-                        return res, title
+                        return res, title, newurl
                     elif alt.lower() == t.replace("ō", "ou").lower() or\
                             alt.lower() == t.replace("ō", "oo").lower():
-                        return res, t
+                        return res, t, newurl
                     else:
                         continue
 
-    return None, title
+    return None, title, ""
 
 
 def _tryAlternatives(title: str, platform: str):
     # Occasionally the title has a trailing '-', '_', or rarely '__' in the url
 
     pTitle = _parseTitle(title)
-    tempurl = [_platforms[platform], pTitle, "release-info"]
+    testurl = [_platforms[platform], pTitle, "release-info"]
     for c in ["-", "_", "__"]:
-        tempurl[1] = pTitle  # Reset pTitle
-        tempurl[1] += c  # Add either '-', '_', or '__' to string
-        res = requests.get(_baseURL + "/".join(tempurl))  # Try alternative URL
+        testurl[1] = pTitle  # Reset pTitle
+        testurl[1] += c  # Add either '-', '_', or '__' to string
+        res = requests.get(_baseURL + "/".join(testurl))  # Try alternative URL
         try:
             res.raise_for_status()
         except requests.exceptions.HTTPError:  # Not a valid page
@@ -421,13 +426,16 @@ def _tryAlternatives(title: str, platform: str):
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
         te = soup.select(_titleCSS)
         pf = soup.select(_platformCSS)
+        if len(te) == 0 or len(pf) == 0:
+            continue
+
         # Check if title and platform match
         if te[0].text.strip().lower() == title.lower() and pf[0].text.strip().lower() == platform.lower():
-            return res
+            return res, _baseURL + "/".join(testurl)
         else:
             continue
 
-    return None
+    return None, ""
 
 
 def getMobyInfo(title: str, platform: str) -> dict:
@@ -446,7 +454,6 @@ def getMobyInfo(title: str, platform: str) -> dict:
         "release": "#coreGameRelease > div:nth-child(6) > a:nth-child(1)",
         "platforms": "#coreGameRelease > div:nth-child(8)",
         "genre": "#coreGameGenre > div:nth-child(1) > div:nth-child(2)",
-        "image": ""
     }
     pTitle = _parseTitle(title)
 
@@ -460,14 +467,14 @@ def getMobyInfo(title: str, platform: str) -> dict:
         platform = "Windows"  # Well it could be Linux or Mac as well but...
 
     # Get data
-    # print(_baseURL + "/".join((_platforms[platform], pTitle, "release-info")))
-    res = requests.get(_baseURL + "/".join((_platforms[platform], pTitle, "release-info")))
+    fullURL = _baseURL + "/".join((_platforms[platform], pTitle, "release-info"))
+    res = requests.get(fullURL)
     try:
         res.raise_for_status()
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
     except requests.exceptions.HTTPError:
         # Try the suggested results on the 404 page
-        res, title = _trySuggestions(title, platform)
+        res, title, fullURL = _trySuggestions(title, platform)
         if res is None:
             # Couldn't find anything. Return empty values
             return {x: "" for x in mobyCSSData.keys()}
@@ -479,14 +486,11 @@ def getMobyInfo(title: str, platform: str) -> dict:
         pf = pf[0].text.strip() if len(pf) > 0 else ""
         if pf.lower() != platform.lower():
             # Try some alternative URLs
-            res = _tryAlternatives(title, platform)
+            res, fullURL = _tryAlternatives(title, platform)
             if res is None:  # Nothing was found.
                 return {x: "" for x in mobyCSSData.keys()}
             soup = bs4.BeautifulSoup(res.text, 'html.parser')
         try:
-            if key == "image":
-                continue  # We'll get the image url later
-
             temp = soup.select(mobyCSSData[key])
             if key == "platforms":
                 # Make sure we don't include the '| Combined View' text
@@ -528,13 +532,40 @@ def getMobyInfo(title: str, platform: str) -> dict:
     mobyCSSData["releases"] = releases
 
     # Get cover image
-    imgurlReg = re.compile(r'src=\".*?\"')
-    image = soup.find_all("div", {"id": "coreGameCover"})
-    temp = []
-    for i in image.pop().decode():
-        temp.append(i)
-    imgsrc = imgurlReg.findall("".join(temp)).pop().split('=')[1].strip('"')  # Find 'src=' part, then split at '='
-    mobyCSSData["image"] = "https://www.mobygames.com" + imgsrc
+    imgurlReg = re.compile(r'href=\".*?\"')
+    coverURL = fullURL.replace("release-info", "cover-art")
+    coverRes = requests.get(coverURL)
+    coverSoup = bs4.BeautifulSoup(coverRes.text, "html.parser")
+    coverReleases = coverSoup.find_all("table", {"summary": "Description of Covers"})
+    coverMedia = coverSoup.find_all("div", {"class": "thumbnail"})
+
+    # Find the "Front Cover" URLs
+    coverURLs = []
+    for media in coverMedia:
+        covers = media.find_all("a", {"class": "thumbnail-cover"})
+        for cover in covers:
+            if str(cover).find("Front Cover") != -1:
+                # Find 'href=' part, split at '=', and strip away '"' on the right side
+                coverURLs.append(imgurlReg.findall(str(cover)).pop().split('=')[1].strip('"'))
+
+    if len(coverURLs) == 0:  # No covers found, default to title screen shot
+        imgurlReg = re.compile(r'src=\".*?\"')
+        image = soup.find_all("div", {"id": "coreGameCover"})
+        temp = []
+        for i in image.pop().decode():
+            temp.append(i)
+        imgsrc = imgurlReg.findall("".join(temp)).pop().split('=')[1].strip('"')  # Find 'src=' part, then split at '='
+
+        mobyCSSData["covers"] = {"United States": "https://www.mobygames.com" + imgsrc}
+    else:
+        covers = {}
+        for release, url in zip(coverReleases, coverURLs):
+            countries = release.find_all("td")
+            countries[5].text.replace(" and ", " , ")  # index 5 has the countries list
+            # Country as key, url as value. When several countries the two last ones are separated with " and ".
+            covers[countries[5].text.replace(" and ", " , ")] = url
+
+        mobyCSSData["covers"] = covers
 
     return mobyCSSData
 
@@ -563,7 +594,7 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
         region = "PAL"
     if region == "Steam":
         region = "NTSC (NA)"
-    region = regionDict[region]
+    regionValue = regionDict[region]
     info = getMobyInfo(name, platform)
 
     if info["title"] == "":
@@ -574,7 +605,7 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
     developer = info["developer"]
     platforms = info["platforms"]
     genre = info["genre"]
-    image = info["image"]
+    covers = info["covers"]
     yearFormat = re.compile(r"\d{4}")
     code = ""
     year = ""
@@ -584,7 +615,7 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
     for release, details in zip(info["releases"].keys(), info["releases"].values()):
         # Optionally check the specific country's release, but only if it makes sense
         # (e.g. don't check for Norway if region == NTSC (JP)
-        if country != "" and country in region and country in release:
+        if country != "" and country in regionValue and country in release:
             correctRelease = release
         else:
             if region == "PAL" and "United Kingdom" in release:
@@ -594,7 +625,7 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
                 if country == "" and correctRelease == "":
                     # UK not found, or region isn't PAL, try to find another release
                     for r in release:
-                        if r in region or r == region:
+                        if r in regionValue or r == regionValue:
                             correctRelease = release
                             break
                 elif country != "" and correctRelease == "":
@@ -617,8 +648,40 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
                 code = d[0] + ": " + d[1]
                 break
 
+    # Find the release's cover image
+    if len(covers) > 0 and str(list(covers.values())[0]).find("/shots") == -1:
+        # We have found a cover image, determine region
+        res = None
+        for cover in covers:
+            countries = cover.split(" , ")
+            for country in countries:
+                if region == "PAL" and country.strip() == "United Kingdom":
+                    # Default to UK for PAL region
+                    res = requests.get(covers[cover])
+                    break
+                elif country.strip() in region:
+                    res = requests.get(covers[cover])
+                    break
+            if res is not None:
+                break
+
+        if res is None:  # Correct region not found, select the first one.
+            res = requests.get(list(covers.values())[0])
+
+        imgCSS = ".img-responsive"
+        imgURLReg = re.compile(r'src=\".*?\"')
+        soup = bs4.BeautifulSoup(res.text, "html.parser")
+        imgURL = "https://www.mobygames.com" + imgURLReg.findall(str(soup.select(imgCSS))).pop().split('=')[1].strip('"')
+
+    elif len(covers) > 0 and str(list(covers.values())[0]).find("/shots/") != -1:
+        # Cover image wasn't found but we have a screen shot
+        imgURL = list(covers.values())[0]
+    else:
+        # No image found
+        imgURL = ""
+
     releaseInfo = {"publisher": publisher, "developer": developer, "platforms": platforms,
-                   "genre": genre, "image": image, "code": code, "year": year}
+                   "genre": genre, "image": imgURL, "code": code, "year": year}
     return releaseInfo
 
 

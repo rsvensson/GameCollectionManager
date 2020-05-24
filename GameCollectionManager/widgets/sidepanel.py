@@ -37,6 +37,7 @@ class SidePanel(QDockWidget):
         self.coverLabel.setFont(boldUnderline)
         self.cover = QLabel()
         self.cover.setAlignment(Qt.AlignCenter)
+        self.cover.setMaximumSize(250, 250)
         self.detailsLabel = QLabel("Details:")
         self.detailsLabel.setAlignment(Qt.AlignBottom)
         self.detailsLabel.setFont(boldUnderline)
@@ -150,11 +151,13 @@ class SidePanel(QDockWidget):
         platform = self.platformInfoLabel.text()
         region = self.regionInfoLabel.text()
         info = getMobyRelease(name, platform, region)
-        if "image" in info.keys():
+        if "image" in info.keys() and info["image"] != "":
             self._imagedata = requests.get(info["image"]).content
             pixmap = QPixmap()
             pixmap.loadFromData(self._imagedata)
-            self.cover.setPixmap(pixmap)
+            w = self.cover.width()
+            h = self.cover.height()
+            self.cover.setPixmap(pixmap.scaled(w, h, Qt.KeepAspectRatio))
 
         if self.publisherInfoLabel.text() == "":
             self.publisherInfoLabel.setText(info["publisher"])
@@ -194,7 +197,11 @@ class SidePanel(QDockWidget):
         if path.exists(path.join(self._coverdir, self._id)):
             pixmap = path.join(self._coverdir, self._id)
 
-        self.cover.setPixmap(pixmap)
+        p = QPixmap(pixmap)
+        w = self.cover.width()
+        h = self.cover.height()
+        self.cover.setPixmap(p.scaled(w, h, Qt.KeepAspectRatio))
+
         self.nameInfoLabel.setText(info["Name"])
         self.platformInfoLabel.setText(info["Platform"])
         self.publisherInfoLabel.setText(info["Publisher"])
