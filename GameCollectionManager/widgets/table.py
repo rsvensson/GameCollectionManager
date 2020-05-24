@@ -305,22 +305,23 @@ class Table(QTableView):
 
     def rowData(self):
         rowData = {}
-        gamesColumns = ["ID", "Platform", "Name", "Region", "Code", "Game", "Box", "Manual", "Year", "Genre",
-                        "Comment", "Publisher", "Developer", "Platforms"]
-        # consoleColumns = ["ID", "Platform", "Name", "Region", "Country", "Serial number", "Console", "Box",
-        #                  "Manual", "Year", "Comment"]
-        # accessoriesColumns = ["ID", "Platform", "Name", "Region", "Country", "Accessory", "Box", "Manual",
-        #                      "Year", "Comment"]
+        columns = {"games": ["ID", "Platform", "Name", "Region", "Code", "Game", "Box", "Manual", "Year", "Genre",
+                            "Comment", "Publisher", "Developer", "Platforms"],
+                   "consoles": ["ID", "Platform", "Name", "Region", "Country", "Serial number", "Console", "Box",
+                                "Manual", "Year", "Comment"],
+                   "accessories": ["ID", "Platform", "Name", "Region", "Country", "Accessory", "Box", "Manual",
+                                   "Year", "Comment"]}
 
         rowid = self.model.index(self.currentIndex().row(), 0).data()
         query = QSqlQuery()
         query.exec_(f"SELECT * FROM {self._table} WHERE Id={rowid}")
         query.first()
-        if self._table == "games":
-            for i in range(len(gamesColumns)):
-                rowData[gamesColumns[i]] = query.value(i)
+        for i, col in enumerate(columns[self._table]):
+            rowData[col] = query.value(i)
 
-            self.doubleClick.emit(rowData)
+        rowData["Table"] = self._table
+
+        self.doubleClick.emit(rowData)
 
     def rowInfo(self):
         row = self.currentIndex().row()
@@ -375,6 +376,8 @@ class Table(QTableView):
             self.model.setData(publisherIndex, data["publisher"])
             self.model.setData(developerIndex, data["developer"])
             self.model.setData(platformsIndex, data["platforms"])
+
+        self.resizeRowsToContents()
 
 
 class TableModel(QSqlTableModel):
