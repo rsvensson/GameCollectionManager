@@ -42,6 +42,7 @@ iex $PyInstaller
 New-Item -ItemType directory -Path "$SourceFolder\data\db" | Out-Null
 Copy-Item -Path $PSScriptRoot\..\data\db\collection.db -Destination $SourceFolder\data\db
 Copy-Item -Path $PSScriptRoot\..\data\vgdb -Destination $SourceFolder\data -Recurse
+Copy-Item -Path $PSScriptRoot\..\data\images -Destination $SourceFolder\data -Recurse
 Copy-Item -Path $DistDir\gcm.exe -Destination $SourceFolder
 
 ""
