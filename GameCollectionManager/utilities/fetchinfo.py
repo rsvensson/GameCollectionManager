@@ -366,13 +366,25 @@ def _trySuggestions(title: str, platform: str):
             continue  # Not the right platform, abort
 
         newtitle = te[0].text.strip()
-        if newtitle.lower() == title.lower():
+        # Sometimes ō is transliterated as ou or oo, and ū as uu
+        if newtitle.lower() == title.lower() or \
+                newtitle.lower() == title.replace("ō", "ou").lower() or \
+                newtitle.lower() == title.replace("ou", "ō").lower() or \
+                newtitle.lower() == title.replace("ō", "oo").lower() or \
+                newtitle.lower() == title.replace("oo", "ō").lower() or \
+                newtitle.lower() == title.replace("ū", "uu").lower() or \
+                newtitle.lower() == title.replace("uu", "ū").lower():
             return res, title, newurl
         else:
             # Try removing any weird characters from the sides of the game name:
             t = title.rstrip("\\-%$£@")
             t = t.lstrip("\\-%$£@")
-            if newtitle.lower() == t.lower():
+            if newtitle.lower() == t.lower() or \
+                    newtitle.lower() == t.replace("ou", "ō").lower() or \
+                    newtitle.lower() == t.replace("ō", "oo").lower() or \
+                    newtitle.lower() == t.replace("oo", "ō").lower() or \
+                    newtitle.lower() == t.replace("ū", "uu").lower() or \
+                    newtitle.lower() == t.replace("uu", "ū").lower():
                 return res, t
             else:
                 # Check the alternative titles (Japanese games often have different titles for example)
@@ -396,16 +408,20 @@ def _trySuggestions(title: str, platform: str):
                         return res, title, newurl
                     elif alt.lower() == t.lower():
                         return res, t, newurl
-                    # Sometimes ō is transliterated as ou or oo
+                    # Sometimes ō is transliterated as ou or oo, and ū as uu
                     elif alt.lower() == title.replace("ō", "ou").lower() or\
                             alt.lower() == title.replace("ou", "ō").lower() or\
                             alt.lower() == title.replace("ō", "oo").lower() or\
-                            alt.lower() == title.replace("oo", "ō").lower():
+                            alt.lower() == title.replace("oo", "ō").lower() or\
+                            alt.lower() == title.replace("ū", "uu").lower() or\
+                            alt.lower() == title.replace("uu", "ū").lower():
                         return res, title, newurl
                     elif alt.lower() == t.replace("ō", "ou").lower() or\
                             alt.lower() == t.replace("ou", "ō").lower() or\
                             alt.lower() == t.replace("ō", "oo").lower() or\
-                            alt.lower() == t.replace("oo", "ō").lower():
+                            alt.lower() == t.replace("oo", "ō").lower() or\
+                            alt.lower() == t.replace("ū", "uu").lower() or\
+                            alt.lower() == t.replace("uu", "ū").lower():
                         return res, t, newurl
                     else:
                         continue
@@ -469,13 +485,11 @@ def getMobyInfo(title: str, platform: str) -> dict:
         platform = "Genesis"
     elif platform.lower() == "sega dreamcast":
         platform = "Dreamcast"
-    elif platform.lower() == "sega mega cd":
+    elif platform.lower() in ("sega mega cd", "mega cd"):
         platform = "Sega CD"
     elif platform.lower() == "steam":
         platform = "Windows"  # Well it could be Linux or Mac as well but...
-    elif platform.lower() == "famicom disk system":
-        platform = "NES"  # FDS games aren't separated on Mobygames
-    elif platform.lower() == "nintendo entertainment system":
+    elif platform.lower() in ("nintendo entertainment system", "famicom disk system"):
         platform = "NES"
     elif platform.lower() == "nintendo gamecube":
         platform = "GameCube"
