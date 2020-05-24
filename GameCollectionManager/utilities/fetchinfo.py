@@ -559,12 +559,13 @@ def getMobyInfo(title: str, platform: str) -> dict:
         mobyCSSData["covers"] = {"United States": "https://www.mobygames.com" + imgsrc}
     else:
         covers = {}
-        for i, release in enumerate(coverReleases):
+        for release, url in zip(coverReleases, coverURLs):
             rel = release.find_all("td")
             for j, r in enumerate(rel):  # Find index of countries list
                 if r.text in ("Country", "Countries"):
                     # Country as key, url as value. When several countries the last ones are separated with " and ".
-                    covers[rel[j+2].text.replace(" and ", " , ")] = coverURLs[i]
+                    covers[rel[j+2].text.replace(" and ", " , ")] = url
+                    break
 
         mobyCSSData["covers"] = covers
 
