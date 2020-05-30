@@ -197,7 +197,8 @@ class MainWindow(QMainWindow):
                     self.accessoriesTableView.addData(data)
                     self.overview.updateData(self.accessoriesTableView)
                 self.search()
-            break
+            else:
+                break
 
     def deleteFromCollection(self):
         currentTab = self.tab.currentIndex()
