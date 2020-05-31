@@ -29,6 +29,7 @@ Choose which tables you want to export and the filetype. Possible filetypes are 
 * Matplotlib
 * Numpy
 * Requests
+* BeautifulSoup 4 (bs4)
 * python-steam (https://github.com/ValvePython/steam)
 
-To make a Windows binary, install the above dependencies using pip, as well as PyInstaller. You also need 7zip installed. Then run 'tools/buildforwindows.ps1' from the project root in a PowerShell window. A .7z file will be created in the 'output' directory.
+To make a Windows binary, install [PyInstaller](https://www.pyinstaller.org/), then the above dependencies using 'pip install -r requirements.txt' in the source dir. You also need 7zip installed. Then run 'tools/buildforwindows.ps1' from the source dir in a PowerShell window. A .7z file will be created in the 'output' directory.
