@@ -113,6 +113,7 @@ class FilterDock(QDockWidget):
         self._manual.setCurrentIndex(0)
 
     def getSelections(self):
+        self._selections = defaultdict(set)  # Reset selections
         if len(self._platforms.selectedItems()) > 0:
             temp = [x.text() for x in self._platforms.selectedItems()]
             for platform in temp:
