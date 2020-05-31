@@ -66,7 +66,9 @@ class MainWindow(QMainWindow):
             for row in table.ownedItems():
                 self.allPlatforms.add(row["Platform"])
                 self.allRegions.add(row["Region"])
-                self.allGenres.add(row["Genre"])
+                # Split multi-genre entries
+                for genre in row["Genre"].split(", "):
+                    self.allGenres.add(genre)
 
         self.filter = FilterDock(sorted(self.allPlatforms, key=str.lower),
                                  sorted(self.allRegions, key=str.lower),

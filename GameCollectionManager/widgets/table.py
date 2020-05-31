@@ -174,6 +174,8 @@ class Table(QTableView):
         :param selections: Possible selected items from advanced search options
         """
 
+        filterText = filterText.replace("'", "''")  # Escape single quote
+
         # Reset filtering to default if no search filters
         if filterText == "" and len(selections) == 0:
             if self.hideNotOwned:
@@ -192,11 +194,11 @@ class Table(QTableView):
             if self.hideNotOwned:
                 f += f"AND ({self._itemType}='Yes' OR Box='Yes' OR Manual='Yes') "
             for selection in selections:
-                items = list(selections[selection])
-                f += f"AND ({selection} = '{items[0]}' "
+                items = [s.replace("'", "''") for s in list(selections[selection])]  # Escape single quotes
+                f += f"AND ({selection} LIKE '%{items[0]}%' "
                 if len(items) > 1:
                     for item in items[1:]:
-                        f += f"OR {selection} = '{item}' "
+                        f += f"OR {selection} LIKE '%{item}%' "
                 f += ") "
         else:  # Regular, simple, filter. It just seaches almost every column
             f = f"(Platform LIKE '%{filterText}%' " \
