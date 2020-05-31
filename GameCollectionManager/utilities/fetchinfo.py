@@ -297,9 +297,12 @@ _platforms = {  # Name: URL
 def _parseTitle(title: str) -> str:
     # Parse game name to fit Moby Games' standards for URLs
 
-    badchars = '''!()[]{};:'"\,<>./?@#$%^&*~ōūåäöé'''
+    badchars = '''!()[]{};:'"\,<>./?@#$%^&*~ōūåäöé°'''
     title = title.lower()  # Make lowercase
     title = title.strip()  # Remove surrounding whitespace
+
+    # Some people like to have the leading "the" after the main part of the title, e.g. "Legend of Zelda, the"
+    title = title.replace(", the", "")
     temp = []
     for letter in title:  # Remove bad characters
         if letter in badchars:
@@ -325,8 +328,8 @@ def _trySuggestions(title: str, platform: str):
                             ".col-md-8 > ul:nth-child(18)",
                             ".col-md-8 > ul:nth-child(19)",  # List of alternative titles
                             ".col-md-8 > ul:nth-child(20)",  # Not all of them might be valid,
-                            ".col-md-8 > ul:nth-child(21)",  # but I've seen 17, 19, 20, 25, 28 and 30 being used
-                            ".col-md-8 > ul:nth-child(22)",
+                            ".col-md-8 > ul:nth-child(21)",  # but I've seen 17, 19, 20, 25, 28, 31, 39, and 42
+                            ".col-md-8 > ul:nth-child(22)",  # being used
                             ".col-md-8 > ul:nth-child(23)",
                             ".col-md-8 > ul:nth-child(24)",
                             ".col-md-8 > ul:nth-child(25)",
@@ -335,7 +338,18 @@ def _trySuggestions(title: str, platform: str):
                             ".col-md-8 > ul:nth-child(28)",
                             ".col-md-8 > ul:nth-child(29)",
                             ".col-md-8 > ul:nth-child(30)",
-                            ".col-md-8 > ul:nth-child(31)"]
+                            ".col-md-8 > ul:nth-child(31)",
+                            ".col-md-8 > ul:nth-child(32)",
+                            ".col-md-8 > ul:nth-child(33)",
+                            ".col-md-8 > ul:nth-child(34)",
+                            ".col-md-8 > ul:nth-child(35)",
+                            ".col-md-8 > ul:nth-child(36)",
+                            ".col-md-8 > ul:nth-child(37)",
+                            ".col-md-8 > ul:nth-child(38)",
+                            ".col-md-8 > ul:nth-child(39)",
+                            ".col-md-8 > ul:nth-child(40)",
+                            ".col-md-8 > ul:nth-child(41)",
+                            ".col-md-8 > ul:nth-child(42)"]
 
     # Find new url
     url = re.compile(r'".*"')  # URL is located within quotation marks
@@ -409,18 +423,18 @@ def _trySuggestions(title: str, platform: str):
                     elif alt.lower() == t.lower():
                         return res, t, newurl
                     # Sometimes ō is transliterated as ou or oo, and ū as uu
-                    elif alt.lower() == title.replace("ō", "ou").lower() or\
-                            alt.lower() == title.replace("ou", "ō").lower() or\
-                            alt.lower() == title.replace("ō", "oo").lower() or\
-                            alt.lower() == title.replace("oo", "ō").lower() or\
-                            alt.lower() == title.replace("ū", "uu").lower() or\
+                    elif alt.lower() == title.replace("ō", "ou").lower() or \
+                            alt.lower() == title.replace("ou", "ō").lower() or \
+                            alt.lower() == title.replace("ō", "oo").lower() or \
+                            alt.lower() == title.replace("oo", "ō").lower() or \
+                            alt.lower() == title.replace("ū", "uu").lower() or \
                             alt.lower() == title.replace("uu", "ū").lower():
                         return res, title, newurl
-                    elif alt.lower() == t.replace("ō", "ou").lower() or\
-                            alt.lower() == t.replace("ou", "ō").lower() or\
-                            alt.lower() == t.replace("ō", "oo").lower() or\
-                            alt.lower() == t.replace("oo", "ō").lower() or\
-                            alt.lower() == t.replace("ū", "uu").lower() or\
+                    elif alt.lower() == t.replace("ō", "ou").lower() or \
+                            alt.lower() == t.replace("ou", "ō").lower() or \
+                            alt.lower() == t.replace("ō", "oo").lower() or \
+                            alt.lower() == t.replace("oo", "ō").lower() or \
+                            alt.lower() == t.replace("ū", "uu").lower() or \
                             alt.lower() == t.replace("uu", "ū").lower():
                         return res, t, newurl
                     else:
@@ -430,11 +444,11 @@ def _trySuggestions(title: str, platform: str):
 
 
 def _tryAlternatives(title: str, platform: str):
-    # Occasionally the title has a trailing '-', '_', or rarely '__' in the url
+    # Occasionally the title has a trailing "-", "_", "__", or very rarely "___" in the url
 
     pTitle = _parseTitle(title)
     testurl = [_platforms[platform], pTitle, "release-info"]
-    for c in ["-", "_", "__"]:
+    for c in ["-", "_", "__", "___"]:
         testurl[1] = pTitle  # Reset pTitle
         testurl[1] += c  # Add either '-', '_', or '__' to string
         res = requests.get(_baseURL + "/".join(testurl))  # Try alternative URL
@@ -475,6 +489,30 @@ def getMobyInfo(title: str, platform: str) -> dict:
         "platforms": "#coreGameRelease > div:nth-child(8)",
         "genre": "#coreGameGenre > div:nth-child(1) > div:nth-child(2)",
     }
+
+    # Gameplay type. If found, used instead of Genre since it's usually more
+    # representative (e.g. "Platform" instead of "Action")
+    gameplayCSS = ["#coreGameGenre > div:nth-child(1) > div:nth-child(3)",
+                   "#coreGameGenre > div:nth-child(1) > div:nth-child(4)",
+                   "#coreGameGenre > div:nth-child(1) > div:nth-child(5)",
+                   "#coreGameGenre > div:nth-child(1) > div:nth-child(6)",
+                   "#coreGameGenre > div:nth-child(1) > div:nth-child(7)",
+                   "#coreGameGenre > div:nth-child(1) > div:nth-child(8)",
+                   "#coreGameGenre > div:nth-child(1) > div:nth-child(9)",
+                   "#coreGameGenre > div:nth-child(1) > div:nth-child(10)",
+                   "#coreGameGenre > div:nth-child(1) > div:nth-child(11)",
+                   "#coreGameGenre > div:nth-child(1) > div:nth-child(12)",
+                   "#coreGameGenre > div:nth-child(2) > div:nth-child(3)",
+                   "#coreGameGenre > div:nth-child(2) > div:nth-child(4)",
+                   "#coreGameGenre > div:nth-child(2) > div:nth-child(5)",
+                   "#coreGameGenre > div:nth-child(2) > div:nth-child(6)",
+                   "#coreGameGenre > div:nth-child(2) > div:nth-child(7)",
+                   "#coreGameGenre > div:nth-child(2) > div:nth-child(8)",
+                   "#coreGameGenre > div:nth-child(2) > div:nth-child(9)",
+                   "#coreGameGenre > div:nth-child(2) > div:nth-child(10)",
+                   "#coreGameGenre > div:nth-child(2) > div:nth-child(11)",
+                   "#coreGameGenre > div:nth-child(2) > div:nth-child(12)"]
+
     pTitle = _parseTitle(title)
 
     # Some substitutions for certain platforms:
@@ -537,22 +575,40 @@ def getMobyInfo(title: str, platform: str) -> dict:
                 return {x: "" for x in mobyCSSData.keys()}
             soup = bs4.BeautifulSoup(res.text, 'html.parser')
         try:
-            temp = soup.select(mobyCSSData[key])
+            value = soup.select(mobyCSSData[key])
             if key == "platforms":
                 # Make sure we don't include the '| Combined View' text
-                mobyCSSData[key] = ucd.normalize("NFKD", temp[0].text.split("|", 1)[0].strip())
+                mobyCSSData[key] = ucd.normalize("NFKD", value[0].text.split("|", 1)[0].strip())
                 # Also make sure to insert the platform we're looking for
                 if platform not in mobyCSSData[key]:
                     mobyCSSData[key] = platform + ", " + mobyCSSData[key]
+            elif key == "genre":
+                # Try finding the "Gameplay" category since it's more accurate but not always available
+                gameplay = ""
+                for i in range(len(gameplayCSS)):
+                    temp = soup.select(gameplayCSS[i])
+                    if len(temp) > 0:
+                        if temp[0].text.strip() == "Gameplay":  # Gameplay type is under this header
+                            gameplay = soup.select(gameplayCSS[i + 1])
+                            break
+
+                # "Arcade" and "Puzzle elements" by themselves are about as useful as "Action"
+                if len(gameplay) > 0 and gameplay[0].text.strip() != "Arcade" and\
+                        ucd.normalize("NFKD", gameplay[0].text.strip()) != "Puzzle elements" and\
+                        ucd.normalize("NFKD", gameplay[0].text.strip()) != "Arcade, Puzzle elements":
+                    # Save gameplay types without "Arcade", since it's pretty useless.
+                    mobyCSSData[key] = str(ucd.normalize("NFKD", gameplay[0].text.strip())).replace("Arcade, ", "")
+                else:  # Default back to normal Genre
+                    mobyCSSData[key] = ucd.normalize("NFKD", value[0].text.strip())
             else:
-                mobyCSSData[key] = ucd.normalize("NFKD", temp[0].text.strip())
+                mobyCSSData[key] = ucd.normalize("NFKD", value[0].text.strip())
         except IndexError:  # Not all games have all data. Just add an empty string instead.
             if key == "genre":
                 # If there's an ESRB rating it takes the place of the normal genre position
-                altGenreCSS = "#coreGameGenre > div:nth-child(2) > div:nth-child(4) > a:nth-child(1)"
+                altGenreCSS = "#coreGameGenre > div:nth-child(2) > div:nth-child(4)"
                 try:
-                    temp = soup.select(altGenreCSS)
-                    mobyCSSData[key] = ucd.normalize("NFKD", temp[0].text.strip())
+                    value = soup.select(altGenreCSS)
+                    mobyCSSData[key] = ucd.normalize("NFKD", value[0].text.strip())
                 except IndexError:  # Still nothing
                     mobyCSSData[key] = ""
             else:
@@ -585,25 +641,25 @@ def getMobyInfo(title: str, platform: str) -> dict:
     coverReleases = coverSoup.find_all("table", {"summary": "Description of Covers"})
     coverMedia = coverSoup.find_all("div", {"class": "thumbnail"})
 
-    # Find the "Front Cover" URLs
-    coverURLs = []
-    for media in coverMedia:
-        covers = media.find_all("a", {"class": "thumbnail-cover"})
-        for cover in covers:
-            if str(cover).find("Front Cover") != -1:
-                # Find 'href=' part, split at '=', and strip away '"' on the right side
-                coverURLs.append(imgurlReg.findall(str(cover)).pop().split('=')[1].strip('"'))
-
-    if len(coverURLs) == 0:  # No covers found, default to title screen shot
+    if len(coverMedia) == 0:  # No covers found, default to title screen shot
         imgurlReg = re.compile(r'src=\".*?\"')
         image = soup.find_all("div", {"id": "coreGameCover"})
         temp = []
         for i in image.pop().decode():
             temp.append(i)
-        imgsrc = imgurlReg.findall("".join(temp)).pop().split('=')[1].strip('"')  # Find 'src=' part, then split at '='
-
-        mobyCSSData["covers"] = {"United States": "https://www.mobygames.com" + imgsrc}
+        tmpsrc = imgurlReg.findall("".join(temp))
+        if len(tmpsrc) > 0:
+            imgsrc = tmpsrc.pop().split('=')[1].strip('"')  # Find 'src=' part, then split at '='
+            mobyCSSData["covers"] = {"United States": "https://www.mobygames.com" + imgsrc}
     else:
+        # Find the "Front Cover" URLs
+        coverURLs = []
+        for media in coverMedia:
+            covers = media.find_all("a", {"class": "thumbnail-cover"})
+            for cover in covers:
+                if str(cover).find("Front Cover") != -1:
+                    # Find 'href=' part, split at '=', and strip away '"' on the right side
+                    coverURLs.append(imgurlReg.findall(str(cover)).pop().split('=')[1].strip('"'))
         covers = {}
         for release, url in zip(coverReleases, coverURLs):
             rel = release.find_all("td")
@@ -612,7 +668,7 @@ def getMobyInfo(title: str, platform: str) -> dict:
                 #    continue  # Skips player's choice releases etc (anything that has a "Package Comments" section)
                 if r.text in ("Country", "Countries"):
                     # Country as key, url as value. When several countries the last ones are separated with " and ".
-                    covers[rel[j+2].text.replace(" and ", " , ")] = url
+                    covers[rel[j + 2].text.replace(" and ", " , ")] = url
                     break
 
         mobyCSSData["covers"] = covers
@@ -655,7 +711,9 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
     developer = info["developer"]
     platforms = info["platforms"]
     genre = info["genre"]
-    covers = info["covers"]
+    covers = ""
+    if "covers" in info.keys():
+        covers = info["covers"]
     yearFormat = re.compile(r"\d{4}")
     code = ""
     year = ""
@@ -751,7 +809,7 @@ def printInfo(info: dict):
                 for d in detail:
                     print(d[0] + ":\t\t\t\t" + d[1] if len(d[0]) < 7
                           else d[0] + ":\t" + d[1] if len(d[0]) > 16
-                          else d[0] + ":\t\t" + d[1])
+                    else d[0] + ":\t\t" + d[1])
                 print("====================================")
         else:
             print(i + ":\t\t\t" + info[i] if i == "title" or i == "genre" else i + ":\t\t" + info[i])

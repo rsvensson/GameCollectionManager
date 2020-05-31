@@ -219,7 +219,7 @@ class SidePanel(QDockWidget):
         self._id = str(info["ID"]) + ".jpg"
         self._imagedata = ""
         pixmap = path.join(self._coverdir, "none.png")
-        if path.exists(path.join(self._coverdir, self._id)):
+        if path.exists(path.join(self._coverdir, self._id)) and info["Table"] == "games":
             pixmap = path.join(self._coverdir, self._id)
         p = QPixmap(pixmap)
         w = self.cover.width()
