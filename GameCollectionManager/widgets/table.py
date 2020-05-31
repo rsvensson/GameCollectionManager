@@ -203,7 +203,8 @@ class Table(QTableView):
                 f"OR Name LIKE '%{filterText}%' " \
                 f"OR Region LIKE '%{filterText}%' " \
                 f"OR Comment LIKE '%{filterText}%' " \
-                f"OR Year LIKE '%{filterText}%' "
+                f"OR Year LIKE '%{filterText}%' " \
+                f"OR Genre LIKE '%{filterText}%' "
             if self._table == "games":
                 f += f"OR Code LIKE '%{filterText}%') "
             elif self._table == "consoles":
