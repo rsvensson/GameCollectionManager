@@ -1,13 +1,12 @@
 import re
-import unicodedata as ucd  # For converting '\xa0' to spaces etc
-
 import bs4
 import requests
+import unicodedata as ucd  # For converting '\xa0' to spaces etc
+from time import sleep
 
 _baseURL = "https://www.mobygames.com/game/"
 _titleCSS = ".niceHeaderTitle > a:nth-child(1)"  # CSS for title string
 _platformCSS = ".niceHeaderTitle > small:nth-child(2) > a:nth-child(1)"  # CSS for platform string
-
 _platforms = {  # Name: URL
     '1292 Advanced Programmable Video System': '1292-advanced-programmable-video-system',
     '3DO': '3do',
@@ -389,6 +388,7 @@ def _trySuggestions(title: str, platform: str):
                 newtitle.lower() == title.replace("ū", "uu").lower() or \
                 newtitle.lower() == title.replace("uu", "ū").lower():
             return res, title, newurl
+
         else:
             # Try removing any weird characters from the sides of the game name:
             t = title.rstrip("\\-%$£@")
@@ -399,7 +399,8 @@ def _trySuggestions(title: str, platform: str):
                     newtitle.lower() == t.replace("oo", "ō").lower() or \
                     newtitle.lower() == t.replace("ū", "uu").lower() or \
                     newtitle.lower() == t.replace("uu", "ū").lower():
-                return res, t
+                return res, t, newurl
+
             else:
                 # Check the alternative titles (Japanese games often have different titles for example)
                 alturl = newurl.split("/")
@@ -413,6 +414,7 @@ def _trySuggestions(title: str, platform: str):
                     temp = soup.select(alt)
                     if len(temp) > 0:
                         break
+
                 if len(temp) == 0:  # Still nothing, give up
                     continue
 
@@ -422,6 +424,7 @@ def _trySuggestions(title: str, platform: str):
                         return res, title, newurl
                     elif alt.lower() == t.lower():
                         return res, t, newurl
+
                     # Sometimes ō is transliterated as ou or oo, and ū as uu
                     elif alt.lower() == title.replace("ō", "ou").lower() or \
                             alt.lower() == title.replace("ou", "ō").lower() or \
@@ -437,6 +440,7 @@ def _trySuggestions(title: str, platform: str):
                             alt.lower() == t.replace("ū", "uu").lower() or \
                             alt.lower() == t.replace("uu", "ū").lower():
                         return res, t, newurl
+
                     else:
                         continue
 
@@ -449,13 +453,14 @@ def _tryAlternatives(title: str, platform: str):
     pTitle = _parseTitle(title)
     testurl = [_platforms[platform], pTitle, "release-info"]
     for c in ["-", "_", "__", "___"]:
-        testurl[1] = pTitle  # Reset pTitle
-        testurl[1] += c  # Add either '-', '_', or '__' to string
+        testurl[1] = pTitle + c  # Add either '-', '_', or '__' to string
         res = requests.get(_baseURL + "/".join(testurl))  # Try alternative URL
+
         try:
             res.raise_for_status()
         except requests.exceptions.HTTPError:  # Not a valid page
             continue
+
         # Parse the html and get title and platform strings
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
         te = soup.select(_titleCSS)
@@ -573,7 +578,9 @@ def getMobyInfo(title: str, platform: str) -> dict:
             res, fullURL = _tryAlternatives(title, platform)
             if res is None:  # Nothing was found.
                 return {x: "" for x in mobyCSSData.keys()}
+
             soup = bs4.BeautifulSoup(res.text, 'html.parser')
+
         try:
             value = soup.select(mobyCSSData[key])
             if key == "platforms":
@@ -582,6 +589,7 @@ def getMobyInfo(title: str, platform: str) -> dict:
                 # Also make sure to insert the platform we're looking for
                 if platform not in mobyCSSData[key]:
                     mobyCSSData[key] = platform + ", " + mobyCSSData[key]
+
             elif key == "genre":
                 # Try finding the "Gameplay" category since it's more accurate but not always available
                 gameplay = ""
@@ -602,6 +610,7 @@ def getMobyInfo(title: str, platform: str) -> dict:
                     mobyCSSData[key] = ucd.normalize("NFKD", value[0].text.strip())
             else:
                 mobyCSSData[key] = ucd.normalize("NFKD", value[0].text.strip())
+
         except IndexError:  # Not all games have all data. Just add an empty string instead.
             if key == "genre":
                 # If there's an ESRB rating it takes the place of the normal genre position
@@ -616,8 +625,9 @@ def getMobyInfo(title: str, platform: str) -> dict:
 
     # Get release info
     releases = {}
-    info = soup.find_all("div", {"class": "floatholder relInfo"})
     release = ""
+    info = soup.find_all("div", {"class": "floatholder relInfo"})
+
     for i in info:
         titles = i.find_all("div", {"class": "relInfoTitle"})
         details = i.find_all("div", {"class": "relInfoDetails"})
@@ -631,6 +641,7 @@ def getMobyInfo(title: str, platform: str) -> dict:
             else:  # Add the rest of the info to the country name key
                 releases[release].append([ucd.normalize("NFKD", title.text.strip()),
                                           ucd.normalize("NFKD", detail.text.strip())])
+
     mobyCSSData["releases"] = releases
 
     # Get cover image
@@ -648,9 +659,11 @@ def getMobyInfo(title: str, platform: str) -> dict:
         for i in image.pop().decode():
             temp.append(i)
         tmpsrc = imgurlReg.findall("".join(temp))
+
         if len(tmpsrc) > 0:
             imgsrc = tmpsrc.pop().split('=')[1].strip('"')  # Find 'src=' part, then split at '='
             mobyCSSData["covers"] = {"United States": "https://www.mobygames.com" + imgsrc}
+
     else:
         # Find the "Front Cover" URLs
         coverURLs = []
@@ -660,6 +673,7 @@ def getMobyInfo(title: str, platform: str) -> dict:
                 if str(cover).find("Front Cover") != -1:
                     # Find 'href=' part, split at '=', and strip away '"' on the right side
                     coverURLs.append(imgurlReg.findall(str(cover)).pop().split('=')[1].strip('"'))
+
         covers = {}
         for release, url in zip(coverReleases, coverURLs):
             rel = release.find_all("td")
@@ -696,10 +710,12 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
                           "Spain", "Switzerland", "Russia",
                           "Sweden", "Denmark", "Norway", "Finland",
                           "Australia, New Zealand", "Worldwide")}
+
     if region in ("PAL A", "PAL B"):
         region = "PAL"
-    if region == "Steam":
+    elif region not in ("PAL", "NTSC (NA)", "NTSC (JP)"):  # Catch all for other non-valid regions
         region = "NTSC (NA)"
+
     regionValue = regionDict[region]
     info = getMobyInfo(name, platform)
 
@@ -711,9 +727,7 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
     developer = info["developer"]
     platforms = info["platforms"]
     genre = info["genre"]
-    covers = ""
-    if "covers" in info.keys():
-        covers = info["covers"]
+    covers = info["covers"] if "covers" in info.keys() else ""
     yearFormat = re.compile(r"\d{4}")
     code = ""
     year = ""
@@ -725,10 +739,12 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
         # (e.g. don't check for Norway if region == NTSC (JP)
         if country != "" and country in regionValue and country in release:
             correctRelease = release
+
         else:
             if region == "PAL" and "United Kingdom" in release:
                 # Make UK release default for PAL
                 correctRelease = release
+
             else:
                 if country == "" and correctRelease == "":
                     # UK not found, or region isn't PAL, try to find another release
@@ -736,6 +752,7 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
                         if r in regionValue or r == regionValue:
                             correctRelease = release
                             break
+
                 elif country != "" and correctRelease == "":
                     continue
 
@@ -767,9 +784,11 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
                     # Default to UK for PAL region
                     res = requests.get(covers[cover])
                     break
+
                 elif country.strip() in regionValue:
                     res = requests.get(covers[cover])
                     break
+
             if res is not None:
                 break
 
@@ -784,12 +803,12 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
     elif len(covers) > 0 and str(list(covers.values())[0]).find("/shots/") != -1:
         # Cover image wasn't found but we have a screen shot
         imgURL = list(covers.values())[0]
-    else:
-        # No image found
+    else:  # No image found
         imgURL = ""
 
     releaseInfo = {"publisher": publisher, "developer": developer, "platforms": platforms,
                    "genre": genre, "image": imgURL, "code": code, "year": year}
+
     return releaseInfo
 
 
@@ -799,7 +818,7 @@ def printInfo(info: dict):
         if i == "releases":
             releases = info[i].keys()
             details = info[i].values()
-            print("====================================\n\n")
+            #print("====================================\n\n")
             print("====================================")
             print("Releases:")
             print("====================================")
@@ -809,7 +828,15 @@ def printInfo(info: dict):
                 for d in detail:
                     print(d[0] + ":\t\t\t\t" + d[1] if len(d[0]) < 7
                           else d[0] + ":\t" + d[1] if len(d[0]) > 16
-                    else d[0] + ":\t\t" + d[1])
+                          else d[0] + ":\t\t" + d[1])
+                print("====================================")
+        elif i == "covers":
+            print("Covers:")
+            print("====================================")
+            for release, cover in zip(info[i].keys(), info[i].values()):
+                print(release + ":")
+                print("------------------------------------")
+                print(cover)
                 print("====================================")
         else:
             print(i + ":\t\t\t" + info[i] if i == "title" or i == "genre" else i + ":\t\t" + info[i])
@@ -830,5 +857,6 @@ if __name__ == "__main__":
 
     for game in testGames:
         data = getMobyInfo(game[0], game[1])
+        sleep(5)  # Be nice
 
         printInfo(data)
