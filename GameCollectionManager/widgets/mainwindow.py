@@ -12,7 +12,7 @@ from widgets.importwindow import ImportWindow
 from widgets.inputwindow import InputWindow
 from widgets.overview import Overview
 from widgets.randomizer import Randomizer
-from widgets.searchdock import AdvancedSearch
+from widgets.filterdock import FilterDock
 from widgets.sidepanel import SidePanel
 from widgets.table import Table
 
@@ -61,14 +61,16 @@ class MainWindow(QMainWindow):
 
         self.allPlatforms = set()
         self.allRegions = set()
+        self.allGenres = set()
         for table in self.tableViewList:
             for row in table.ownedItems():
                 self.allPlatforms.add(row["Platform"])
                 self.allRegions.add(row["Region"])
+                self.allGenres.add(row["Genre"])
 
-        self.advSearch = AdvancedSearch(sorted(self.allPlatforms, key=str.lower),
-                                        sorted(self.allRegions, key=str.lower))
-        self.advSearch.filterApplied.connect(self.search)
+        self.filter = FilterDock(sorted(self.allPlatforms, key=str.lower),
+                                 sorted(self.allRegions, key=str.lower),
+                                 sorted(self.allGenres, key=str.lower))
 
         ## MainWindow layout
         # Widgets
@@ -108,9 +110,12 @@ class MainWindow(QMainWindow):
         self.searchBox.setClearButtonEnabled(True)
         # self.searchBox.textChanged.connect(self.search)
         self.searchBox.returnPressed.connect(self.search)
-        self.advSearchBtn = QPushButton("Advanced search")
-        self.advSearchBtn.clicked.connect(self.advSearch.toggleVisibility)
-        self.advSearchBtn.setVisible(False)
+        self.searchBtn = QPushButton("Search")
+        self.searchBtn.clicked.connect(self.search)
+        self.searchBtn.setVisible(False)
+        self.filterBtn = QPushButton("Filter")
+        self.filterBtn.clicked.connect(self.filter.toggleVisibility)
+        self.filterBtn.setVisible(False)
 
         # Tab layout.
         self.tab.addTab(self.overview.widget, "Overview")
@@ -129,11 +134,12 @@ class MainWindow(QMainWindow):
         self.tabHbox.addWidget(self.tab, 1)
         self.tabHbox.addWidget(self.sidePanel, 1)
         self.advSearchHbox = QHBoxLayout()
-        self.advSearchHbox.addWidget(self.advSearch, 0)
+        self.advSearchHbox.addWidget(self.filter, 0)
         self.searchHbox = QHBoxLayout()
         self.searchHbox.addWidget(self.searchLabel, 0)
         self.searchHbox.addWidget(self.searchBox, 1)
-        self.searchHbox.addWidget(self.advSearchBtn, 0)
+        self.searchHbox.addWidget(self.filterBtn, 0)
+        self.searchHbox.addWidget(self.searchBtn, 0)
         self.mainLayout = QVBoxLayout()
         self.mainLayout.addLayout(self.tabHbox, 1)
         self.mainLayout.addLayout(self.advSearchHbox, 0)
@@ -179,12 +185,16 @@ class MainWindow(QMainWindow):
                     msgBox.exec_()
                     continue
 
+                # Update Platform, Region, and Genre in filter dock if necessary
                 if data["Platform"] not in self.allPlatforms:
                     self.allPlatforms.add(data["Platform"])
-                    self.advSearch.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
+                    self.filter.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
                 if data["Region"] not in self.allRegions:
                     self.allRegions.add(data["Region"])
-                    self.advSearch.updateRegions(sorted(self.allRegions, key=str.lower))
+                    self.filter.updateRegions(sorted(self.allRegions, key=str.lower))
+                if data["Genre"] not in self.allGenres:
+                    self.allGenres.add(data["Genre"])
+                    self.filter.updateGenres(sorted(self.allGenres, key=str.lower))
 
                 if "Game" in data.keys():
                     self.gamesTableView.addData(data)
@@ -259,11 +269,11 @@ class MainWindow(QMainWindow):
             for platform in platforms:
                 if platform not in self.allPlatforms:
                     self.allPlatforms.add(platform)
-                    self.advSearch.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
+                    self.filter.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
             for region in regions:
                 if region not in self.allRegions:
                     self.allRegions.add(region)
-                    self.advSearch.updateRegions(sorted(self.allRegions, key=str.lower))
+                    self.filter.updateRegions(sorted(self.allRegions, key=str.lower))
             self.search()
 
     def importSteamLibrary(self):
@@ -281,8 +291,8 @@ class MainWindow(QMainWindow):
                     if "Steam" not in self.allPlatforms:
                         self.allPlatforms.add("Steam")
                         self.allRegions.add("Steam")
-                        self.advSearch.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
-                        self.advSearch.updateRegions(sorted(self.allRegions, key=str.lower))
+                        self.filter.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
+                        self.filter.updateRegions(sorted(self.allRegions, key=str.lower))
                         self.gamesTableView.addData(games)
                     else:  # Only add games not already in collection
                         existingGames = []
@@ -461,11 +471,12 @@ class MainWindow(QMainWindow):
             searchText = self.searchBox.text()
             self.searchLabel.setVisible(True)
             self.searchBox.setVisible(True)
-            self.advSearchBtn.setVisible(True)
-            self.advSearch.setItemType(currentTab)
-            itemCount = self.tableViewList[currentTab - 1].filterTable(searchText, self.advSearch.getSelections())
+            self.filterBtn.setVisible(True)
+            self.searchBtn.setVisible(True)
+            self.filter.setItemType(currentTab)
+            itemCount = self.tableViewList[currentTab - 1].filterTable(searchText, self.filter.getSelections())
 
-            if searchText != "" or len(self.advSearch.getSelections()) > 0:
+            if searchText != "" or len(self.filter.getSelections()) > 0:
                 self.statusBar().showMessage("Found {} {}.".format(itemCount,
                                                                    self.tableViewList[currentTab-1].model.tableName()))
             else:
@@ -473,9 +484,10 @@ class MainWindow(QMainWindow):
         else:
             self.searchLabel.setVisible(False)
             self.searchBox.setVisible(False)
-            self.advSearchBtn.setVisible(False)
-            if self.advSearch.isVisible():
-                self.advSearch.toggleVisibility()
+            self.filterBtn.setVisible(False)
+            self.searchBtn.setVisible(False)
+            if self.filter.isVisible():
+                self.filter.toggleVisibility()
 
     def toggleOwnedFilter(self):
         for table in self.tableViewList:
@@ -483,7 +495,7 @@ class MainWindow(QMainWindow):
                 else table.setHideNotOwned(True)
         currentTab = self.tab.currentIndex()
         if 0 < currentTab < 4:
-            self.tableViewList[currentTab-1].filterTable(self.searchBox.text(), self.advSearch.getSelections())
+            self.tableViewList[currentTab-1].filterTable(self.searchBox.text(), self.filter.getSelections())
         self.search()
 
     def updateStatusbar(self):

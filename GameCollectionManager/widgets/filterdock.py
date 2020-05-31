@@ -5,18 +5,17 @@ from PySide2.QtWidgets import QDockWidget, QWidget, QComboBox, QListWidget, QHBo
     QLabel, QPushButton, QAbstractItemView, QVBoxLayout, QGroupBox
 
 
-class AdvancedSearch(QDockWidget):
-    filterApplied = Signal()
+class FilterDock(QDockWidget):
 
-    def __init__(self, platforms, regions):
-        super(AdvancedSearch, self).__init__()
+    def __init__(self, platforms, regions, genres):
+        super(FilterDock, self).__init__()
 
         # QDockWidget settings
         self.setAllowedAreas(Qt.BottomDockWidgetArea)
         self.setFeatures(QDockWidget.DockWidgetClosable)
         self.setFixedHeight(150)
         self.setVisible(False)
-        self.setWindowTitle("Advanced search options")
+        self.setWindowTitle("Filter options")
 
         # The selected items for each widget are saved in a set-dictionary
         self._selections = defaultdict(set)
@@ -41,6 +40,16 @@ class AdvancedSearch(QDockWidget):
         self._regionVBox = QVBoxLayout()
         self._regionVBox.addWidget(self._regionLabel, 0)
         self._regionVBox.addWidget(self._regions, 1)
+
+        # Genre widgets
+        self._genreLabel = QLabel("Genre")
+        self._genres = QListWidget()
+        self._genres.addItems(genres)
+        self._genres.setSelectionMode(QAbstractItemView.MultiSelection)
+        self._genres.setMaximumWidth(500)
+        self._genreVBox = QVBoxLayout()
+        self._genreVBox.addWidget(self._genreLabel, 0)
+        self._genreVBox.addWidget(self._genres, 1)
 
         # Inventory widgets
         self._itemType = {1: "Game", 2: "Console", 3: "Accessory"}
@@ -79,32 +88,26 @@ class AdvancedSearch(QDockWidget):
         self._clearBtn = QPushButton("Clear selection")
         self._clearBtn.setMaximumSize(self._clearBtn.sizeHint())
         self._clearBtn.clicked.connect(self._clearFilters)
-        self._applyBtn = QPushButton("Apply filter")
-        self._applyBtn.setMaximumSize(self._clearBtn.sizeHint())
-        self._applyBtn.clicked.connect(self._applyFilters)
         self._btnHBox = QHBoxLayout()
         self._btnHBox.setAlignment(Qt.AlignBottom | Qt.AlignRight)
         self._btnHBox.addWidget(self._clearBtn, 0)
-        self._btnHBox.addWidget(self._applyBtn, 1)
 
         # General layout
         mainHBox = QHBoxLayout()
         mainHBox.setAlignment(Qt.AlignLeft)
         mainHBox.addLayout(self._platformVBox, 0)
-        mainHBox.addLayout(self._regionVBox, 1)
-        mainHBox.addWidget(self._inventoryGroup, 2)
-        mainHBox.addLayout(self._btnHBox, 3)
+        mainHBox.addLayout(self._regionVBox, 0)
+        mainHBox.addLayout(self._genreVBox, 0)
+        mainHBox.addWidget(self._inventoryGroup, 0)
+        mainHBox.addLayout(self._btnHBox, 0)
         mainWidget = QWidget()
         mainWidget.setLayout(mainHBox)
         self.setWidget(mainWidget)
 
-    def _applyFilters(self):
-        self._selections = defaultdict(set)  # Reset state of dictionary
-        self.filterApplied.emit()
-
     def _clearFilters(self):
         self._platforms.clearSelection()
         self._regions.clearSelection()
+        self._genres.clearSelection()
         self._item.setCurrentIndex(0)
         self._box.setCurrentIndex(0)
         self._manual.setCurrentIndex(0)
@@ -118,6 +121,10 @@ class AdvancedSearch(QDockWidget):
             temp = [x.text() for x in self._regions.selectedItems()]
             for region in temp:
                 self._selections["Region"].add(region)
+        if len(self._genres.selectedItems()) > 0:
+            temp = [x.text() for x in self._genres.selectedItems()]
+            for genre in temp:
+                self._selections["Genre"].add(genre)
         if self._item.currentIndex() != 0:
             self._selections[self._itemLabel.text()].add(self._item.currentText())
         if self._manual.currentIndex() != 0:
@@ -144,3 +151,7 @@ class AdvancedSearch(QDockWidget):
     def updateRegions(self, regions):
         self._regions.clear()
         self._regions.addItems(regions)
+
+    def updateGenres(self, genres):
+        self._genres.clear()
+        self._genres.addItems(genres)
