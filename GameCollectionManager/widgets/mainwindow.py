@@ -16,7 +16,7 @@ from widgets.filterdock import FilterDock
 from widgets.sidepanel import SidePanel
 from widgets.table import Table
 
-_VERSION = "0.3.3"
+_VERSION = "0.3.4"
 
 
 class MainWindow(QMainWindow):
@@ -49,16 +49,6 @@ class MainWindow(QMainWindow):
                               self.consolesTableView,
                               self.accessoriesTableView]
 
-        # Overview tab
-        self.overview = Overview(self.tableViewList)
-
-        # Randomizer tab
-        self.randomizer = Randomizer(self.gamesTableView.ownedItems())
-        self.randomizer.consoleList.itemClicked.connect(self.updateStatusbar)
-        self.randomizer.genreList.itemClicked.connect(self.updateStatusbar)
-        self.randomizer.btnAll.clicked.connect(self.updateStatusbar)
-        self.randomizer.btnNone.clicked.connect(self.updateStatusbar)
-
         self.allPlatforms = set()
         self.allRegions = set()
         self.allGenres = set()
@@ -70,9 +60,21 @@ class MainWindow(QMainWindow):
                 for genre in row["Genre"].split(", "):
                     self.allGenres.add(genre)
 
-        self.filter = FilterDock(sorted(self.allPlatforms, key=str.lower),
-                                 sorted(self.allRegions, key=str.lower),
-                                 sorted(self.allGenres, key=str.lower))
+        self.filterDock = FilterDock(sorted(self.allPlatforms, key=str.lower),
+                                     sorted(self.allRegions, key=str.lower),
+                                     sorted(self.allGenres, key=str.lower))
+
+        # Overview tab
+        self.overview = Overview(self.tableViewList)
+
+        # Randomizer tab
+        self.randomizer = Randomizer(self.gamesTableView.ownedItems(),
+                                     sorted(self.allPlatforms, key=str.lower),
+                                     sorted(self.allGenres, key=str.lower))
+        self.randomizer.consoleList.itemClicked.connect(self.updateStatusbar)
+        self.randomizer.genreList.itemClicked.connect(self.updateStatusbar)
+        self.randomizer.btnAll.clicked.connect(self.updateStatusbar)
+        self.randomizer.btnNone.clicked.connect(self.updateStatusbar)
 
         ## MainWindow layout
         # Widgets
@@ -116,7 +118,7 @@ class MainWindow(QMainWindow):
         self.searchBtn.clicked.connect(self.search)
         self.searchBtn.setVisible(False)
         self.filterBtn = QPushButton("Filter")
-        self.filterBtn.clicked.connect(self.filter.toggleVisibility)
+        self.filterBtn.clicked.connect(self.filterDock.toggleVisibility)
         self.filterBtn.setVisible(False)
 
         # Tab layout.
@@ -136,7 +138,7 @@ class MainWindow(QMainWindow):
         self.tabHbox.addWidget(self.tab, 1)
         self.tabHbox.addWidget(self.sidePanel, 1)
         self.advSearchHbox = QHBoxLayout()
-        self.advSearchHbox.addWidget(self.filter, 0)
+        self.advSearchHbox.addWidget(self.filterDock, 0)
         self.searchHbox = QHBoxLayout()
         self.searchHbox.addWidget(self.searchLabel, 0)
         self.searchHbox.addWidget(self.searchBox, 1)
@@ -190,13 +192,13 @@ class MainWindow(QMainWindow):
                 # Update Platform, Region, and Genre in filter dock if necessary
                 if data["Platform"] not in self.allPlatforms:
                     self.allPlatforms.add(data["Platform"])
-                    self.filter.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
+                    self.filterDock.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
                 if data["Region"] not in self.allRegions:
                     self.allRegions.add(data["Region"])
-                    self.filter.updateRegions(sorted(self.allRegions, key=str.lower))
+                    self.filterDock.updateRegions(sorted(self.allRegions, key=str.lower))
                 if data["Genre"] not in self.allGenres:
                     self.allGenres.add(data["Genre"])
-                    self.filter.updateGenres(sorted(self.allGenres, key=str.lower))
+                    self.filterDock.updateGenres(sorted(self.allGenres, key=str.lower))
 
                 if "Game" in data.keys():
                     self.gamesTableView.addData(data)
@@ -271,11 +273,11 @@ class MainWindow(QMainWindow):
             for platform in platforms:
                 if platform not in self.allPlatforms:
                     self.allPlatforms.add(platform)
-                    self.filter.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
+                    self.filterDock.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
             for region in regions:
                 if region not in self.allRegions:
                     self.allRegions.add(region)
-                    self.filter.updateRegions(sorted(self.allRegions, key=str.lower))
+                    self.filterDock.updateRegions(sorted(self.allRegions, key=str.lower))
             self.search()
 
     def importSteamLibrary(self):
@@ -293,8 +295,8 @@ class MainWindow(QMainWindow):
                     if "Steam" not in self.allPlatforms:
                         self.allPlatforms.add("Steam")
                         self.allRegions.add("Steam")
-                        self.filter.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
-                        self.filter.updateRegions(sorted(self.allRegions, key=str.lower))
+                        self.filterDock.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
+                        self.filterDock.updateRegions(sorted(self.allRegions, key=str.lower))
                         self.gamesTableView.addData(games)
                     else:  # Only add games not already in collection
                         existingGames = []
@@ -371,7 +373,7 @@ class MainWindow(QMainWindow):
 
     # noinspection PyCallByClass,PyTypeChecker
     def buttonActions(self, action: str) -> QAction:
-        addAct = QAction(QIcon().fromTheme("list-add"), "&Add to collection", self)
+        addAct = QAction(QIcon().fromTheme("list-add"), "&Add to collection...", self)
         addAct.setShortcut("Ctrl+A")
         addAct.setToolTip("Add to collection")
         addAct.triggered.connect(self.addToCollection)
@@ -399,12 +401,12 @@ class MainWindow(QMainWindow):
         savAct.setShortcut("Ctrl+S")
         savAct.setToolTip("Saves the tables to the database")
 
-        impAct = QAction(QIcon.fromTheme("insert-object"), "&Import platform template", self)
+        impAct = QAction(QIcon.fromTheme("insert-object"), "&Import platform template...", self)
         impAct.setShortcut("Ctrl+I")
         impAct.setToolTip("Import games to database")
         impAct.triggered.connect(self.importToDatabase)
 
-        stmAct = QAction(QIcon.fromTheme("insert-object"), "Import Steam Library", self)
+        stmAct = QAction(QIcon.fromTheme("insert-object"), "Import Steam Library...", self)
         stmAct.triggered.connect(self.importSteamLibrary)
 
         ownAct = QAction("Hide games not in collection", self)
@@ -475,10 +477,10 @@ class MainWindow(QMainWindow):
             self.searchBox.setVisible(True)
             self.filterBtn.setVisible(True)
             self.searchBtn.setVisible(True)
-            self.filter.setItemType(currentTab)
-            itemCount = self.tableViewList[currentTab - 1].filterTable(searchText, self.filter.getSelections())
+            self.filterDock.setItemType(currentTab)
+            itemCount = self.tableViewList[currentTab - 1].filterTable(searchText, self.filterDock.getSelections())
 
-            if searchText != "" or len(self.filter.getSelections()) > 0:
+            if searchText != "" or len(self.filterDock.getSelections()) > 0:
                 self.statusBar().showMessage("Found {} {}.".format(itemCount,
                                                                    self.tableViewList[currentTab-1].model.tableName()))
             else:
@@ -488,8 +490,8 @@ class MainWindow(QMainWindow):
             self.searchBox.setVisible(False)
             self.filterBtn.setVisible(False)
             self.searchBtn.setVisible(False)
-            if self.filter.isVisible():
-                self.filter.toggleVisibility()
+            if self.filterDock.isVisible():
+                self.filterDock.toggleVisibility()
 
     def toggleOwnedFilter(self):
         for table in self.tableViewList:
@@ -497,7 +499,7 @@ class MainWindow(QMainWindow):
                 else table.setHideNotOwned(True)
         currentTab = self.tab.currentIndex()
         if 0 < currentTab < 4:
-            self.tableViewList[currentTab-1].filterTable(self.searchBox.text(), self.filter.getSelections())
+            self.tableViewList[currentTab-1].filterTable(self.searchBox.text(), self.filterDock.getSelections())
         self.search()
 
     def updateStatusbar(self):

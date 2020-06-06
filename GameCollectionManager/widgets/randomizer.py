@@ -13,30 +13,25 @@ class Randomizer(QWidget):
        platforms to choose from.
        gamesData: Raw table data in list of orderedDicts"""
 
-    def __init__(self, gamesData: list):
+    def __init__(self, gamesData: list, platformsData: list, genresData: list):
         super(Randomizer, self).__init__()
 
         self._gamesData = gamesData
+        self._consoleItems = platformsData
+        self._genreItems = genresData
         self._gameCount = 0
         self._coverdir = path.join("data", "images", "covers")
 
-        self._consoleItems = set()
-        self._genreItems = set()
-        for row in gamesData:
-            self._consoleItems.add(row["Platform"])
-            if row["Genre"] != "":
-                self._genreItems.add(row["Genre"])
-
         self.consoleLabel = QLabel("Platforms")
         self.consoleList = QListWidget()
-        self.consoleList.addItems(sorted(self._consoleItems, key=str.lower))
+        self.consoleList.addItems(self._consoleItems)
         self.consoleList.setSelectionMode(QAbstractItemView.MultiSelection)
         self.consoleList.setMaximumWidth(350)
         self.consoleList.itemClicked.connect(self._updateGameCount)
 
         self.genreLabel = QLabel("Genres")
         self.genreList = QListWidget()
-        self.genreList.addItems(sorted(self._genreItems, key=str.lower))
+        self.genreList.addItems(self._genreItems)
         self.genreList.setSelectionMode(QAbstractItemView.MultiSelection)
         self.genreList.setMaximumWidth(350)
         self.genreList.itemClicked.connect(self._updateGameCount)
@@ -112,26 +107,14 @@ class Randomizer(QWidget):
 
     def _randomize(self):
         platforms, genres = self._getSelectedItems()
-        games = []
 
         if len(platforms) > 0 or len(genres) > 0:
-            for row in self._gamesData:
-                if len(platforms) > 0 and len(genres) > 0:
-                    if row["Platform"] in platforms and row["Genre"] in genres:
-                        games.append(row)
-                elif len(platforms) > 0 and len(genres) == 0:
-                    if row["Platform"] in platforms:
-                        games.append(row)
-                elif len(platforms) == 0 and len(genres) > 0:
-                    if row["Genre"] in genres:
-                        games.append(row)
-
-            choice = randint(0, len(games) - 1)
+            choice = randint(0, len(self._games) - 1)
             self._lblPlay.setText("You will play:")
-            self._lblTitle.setText(f"{games[choice]['Name']}" if len(platforms) == 1 else
-                                   f"{games[choice]['Name']} [{games[choice]['Platform']}]")
+            self._lblTitle.setText(f"{self._games[choice]['Name']}" if len(platforms) == 1 else
+                                   f"{self._games[choice]['Name']} [{self._games[choice]['Platform']}]")
             # Cover image
-            cover = str(games[choice]['ID']) + ".jpg"
+            cover = str(self._games[choice]['ID']) + ".jpg"
             if path.exists(path.join(self._coverdir, cover)):
                 # Update cover image if the game has one
                 pixmap = path.join(self._coverdir, cover)
@@ -150,18 +133,23 @@ class Randomizer(QWidget):
     def _updateGameCount(self):
         platforms, genres = self._getSelectedItems()
         self._gameCount = 0
+        self._games = []
 
         if len(platforms) > 0 or len(genres) > 0:
             for row in self._gamesData:
                 if len(platforms) > 0 and len(genres) > 0:
                     if row["Platform"] in platforms and row["Genre"] in genres:
                         self._gameCount += 1
+                        self._games.append(row)
                 elif len(platforms) > 0 and len(genres) == 0:
                     if row["Platform"] in platforms:
                         self._gameCount += 1
+                        self._games.append(row)
                 elif len(platforms) == 0 and len(genres) > 0:
-                    if row["Genre"] in genres:
-                        self._gameCount += 1
+                    for genre in row["Genre"].split(", "):
+                        if genre in genres:
+                            self._gameCount += 1
+                            self._games.append(row)
 
     def gameCount(self) -> int:
         return self._gameCount
