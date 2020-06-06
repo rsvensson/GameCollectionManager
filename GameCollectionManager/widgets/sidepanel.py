@@ -5,7 +5,7 @@ import requests
 from PySide2.QtCore import Signal
 from PySide2.QtGui import Qt, QPixmap, QFont
 from PySide2.QtWidgets import QDockWidget, QLabel, QVBoxLayout, QHBoxLayout, QWidget, QPushButton, QFrame, QLineEdit, \
-    QTextEdit, QStackedLayout, QCheckBox
+    QTextEdit, QStackedLayout, QCheckBox, QComboBox
 
 from utilities.fetchinfo import getMobyRelease
 
@@ -127,8 +127,10 @@ class SidePanel(QDockWidget):
         self.developerDataLE.setMaximumSize(size[0], size[1])
         self.regionEditLabel = QLabel("Region:")
         self.regionEditLabel.setFont(bold)
-        self.regionDataLE = QLineEdit()
-        self.regionDataLE.setMaximumSize(size[0], size[1])
+        self.regionDataCoB = QComboBox()
+        self.regionDataCoB.addItems(("NTSC (JP)", "NTSC (NA)", "PAL"))
+        self.regionDataCoB.setMinimumWidth(size[0])  # If not set it will be too small
+        self.regionDataCoB.setMaximumSize(size[0], size[1])
         self.codeEditLabel = QLabel("Code:")
         self.codeEditLabel.setFont(bold)
         self.codeDataLE = QLineEdit()
@@ -137,17 +139,14 @@ class SidePanel(QDockWidget):
         self.itemEditLabel.setFont(bold)
         self.itemDataCB = QCheckBox()
         self.itemDataCB.setChecked(False)
-        #self.itemDataLE.setMaximumSize(size[0], size[1])
         self.boxEditLabel = QLabel("Box:")
         self.boxEditLabel.setFont(bold)
         self.boxDataCB = QCheckBox()
         self.boxDataCB.setChecked(False)
-        #self.boxDataLE.setMaximumSize(size[0], size[1])
         self.manualEditLabel = QLabel("Manual:")
         self.manualEditLabel.setFont(bold)
         self.manualDataCB = QCheckBox()
         self.manualDataCB.setChecked(False)
-        #self.manualDataLE.setMaximumSize(size[0], size[1])
         self.genreEditLabel = QLabel("Genre:")
         self.genreEditLabel.setFont(bold)
         self.genreDataLE = QLineEdit()
@@ -237,7 +236,7 @@ class SidePanel(QDockWidget):
         self.developerEditHbox.addWidget(self.developerDataLE, 0)
         self.regionEditHbox = QHBoxLayout()
         self.regionEditHbox.addWidget(self.regionEditLabel, 0)
-        self.regionEditHbox.addWidget(self.regionDataLE, 0)
+        self.regionEditHbox.addWidget(self.regionDataCoB, 0)
         self.codeEditHbox = QHBoxLayout()
         self.codeEditHbox.addWidget(self.codeEditLabel, 0)
         self.codeEditHbox.addWidget(self.codeDataLE, 0)
@@ -386,7 +385,7 @@ class SidePanel(QDockWidget):
             self.publisherDataLabel.setText(self.publisherDataLE.text())
             self.developerDataLabel.setText(self.developerDataLE.text())
             self.genreDataLabel.setText(self.genreDataLE.text())
-            self.regionDataLabel.setText(self.regionDataLE.text())
+            self.regionDataLabel.setText(self.regionDataCoB.currentText())
             self.yearDataLabel.setText(self.yearDataLE.text())
             self.codeDataLabel.setText(self.codeDataLE.text())
             self.itemDataLabel.setText("Yes") if self.itemDataCB.isChecked() else self.itemDataLabel.setText("No")
@@ -400,7 +399,9 @@ class SidePanel(QDockWidget):
             self.publisherDataLE.setText(self.publisherDataLabel.text())
             self.developerDataLE.setText(self.developerDataLabel.text())
             self.genreDataLE.setText(self.genreDataLabel.text())
-            self.regionDataLE.setText(self.regionDataLabel.text())
+            self.regionDataCoB.setCurrentIndex(0) if self.regionDataLabel.text == "NTSC (JP)"\
+                else self.regionDataCoB.setCurrentIndex(1) if self.regionDataLabel.text == "NTSC (NA)"\
+                else self.regionDataCoB.setCurrentIndex(2)
             self.yearDataLE.setText(self.yearDataLabel.text())
             self.codeDataLE.setText(self.codeDataLabel.text())
             self.itemDataCB.setChecked(True) if self.itemDataLabel.text() == "Yes" \
