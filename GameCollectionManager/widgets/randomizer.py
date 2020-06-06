@@ -168,7 +168,7 @@ class Randomizer(QWidget):
 
     def updateGenres(self, genreData: dict):
         self.genreList.clear()
-        self._genreItems.add(genreData["genre"])
+        self._genreItems.add(genreData["Genre"])
         self.genreList.addItems(sorted(self._genreItems, key=str.lower))
 
     def updatePlatforms(self, gamesData: list):
