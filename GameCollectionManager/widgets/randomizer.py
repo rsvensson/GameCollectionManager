@@ -16,9 +16,10 @@ class Randomizer(QWidget):
     def __init__(self, gamesData: list, platformsData: list, genresData: list):
         super(Randomizer, self).__init__()
 
-        self._gamesData = gamesData
         self._consoleItems = platformsData
         self._genreItems = genresData
+        self._gamesData = gamesData
+        self._games = []  # For holding the games to randomize
         self._gameCount = 0
         self._coverdir = path.join("data", "images", "covers")
 
@@ -108,7 +109,7 @@ class Randomizer(QWidget):
     def _randomize(self):
         platforms, genres = self._getSelectedItems()
 
-        if len(platforms) > 0 or len(genres) > 0:
+        if len(self._games) > 0 and (len(platforms) > 0 or len(genres) > 0):
             choice = randint(0, len(self._games) - 1)
             self._lblPlay.setText("You will play:")
             self._lblTitle.setText(f"{self._games[choice]['Name']}" if len(platforms) == 1 else
@@ -126,9 +127,14 @@ class Randomizer(QWidget):
             w = self._cover.width()
             h = self._cover.height()
             self._cover.setPixmap(p.scaled(w, h, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+        elif len(self._games) == 0 and (len(platforms) > 0 or len(genres) > 0):
+            self._lblPlay.setText("")
+            self._lblTitle.setText("No games found with those criteria.")
+            self._cover.setVisible(False)
         else:
             self._lblPlay.setText("")
             self._lblTitle.setText("Select at least one console or genre...")
+            self._cover.setVisible(False)
 
     def _updateGameCount(self):
         platforms, genres = self._getSelectedItems()
@@ -138,9 +144,12 @@ class Randomizer(QWidget):
         if len(platforms) > 0 or len(genres) > 0:
             for row in self._gamesData:
                 if len(platforms) > 0 and len(genres) > 0:
-                    if row["Platform"] in platforms and row["Genre"] in genres:
-                        self._gameCount += 1
-                        self._games.append(row)
+                    if row["Platform"] in platforms:
+                        for genre in row["Genre"].split(", "):
+                            if genre in genres:
+                                self._gameCount += 1
+                                self._games.append(row)
+                                break  # We only need to match with one genre
                 elif len(platforms) > 0 and len(genres) == 0:
                     if row["Platform"] in platforms:
                         self._gameCount += 1
@@ -150,6 +159,7 @@ class Randomizer(QWidget):
                         if genre in genres:
                             self._gameCount += 1
                             self._games.append(row)
+                            break  # We only need to match with one genre
 
     def gameCount(self) -> int:
         return self._gameCount
