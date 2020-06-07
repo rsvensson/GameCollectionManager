@@ -202,5 +202,5 @@ class Randomizer(QWidget):
         self.consoleList.clear()
         self.genreList.clear()
 
-        self.consoleList.addItems(sorted(self._consoleItems, key=str.lower))
-        self.genreList.addItems(sorted(self._genreItems, key=str.lower))
+        self.consoleList.addItems(self._consoleItems)
+        self.genreList.addItems(self._genreItems)
