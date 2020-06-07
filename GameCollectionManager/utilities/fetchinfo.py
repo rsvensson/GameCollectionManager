@@ -1,5 +1,6 @@
 import re
 import bs4
+import socket
 import requests
 import unicodedata as ucd  # For converting '\xa0' to spaces etc
 from time import sleep
@@ -557,7 +558,12 @@ def getMobyInfo(title: str, platform: str) -> dict:
 
     # Get data
     fullURL = _baseURL + "/".join((_platforms[platform], pTitle, "release-info"))
-    res = requests.get(fullURL)
+    try:
+        res = requests.get(fullURL)
+    except socket.gaierror:
+        # Most likely no internet connection
+        return {x: "" for x in mobyCSSData.keys()}
+
     try:
         res.raise_for_status()
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
