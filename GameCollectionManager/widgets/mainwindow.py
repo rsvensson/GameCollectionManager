@@ -1,5 +1,8 @@
 #!/usr/bin/env python
+from os import path
+from time import sleep
 
+import requests
 from PySide2.QtGui import QIcon
 from PySide2.QtSql import QSqlDatabase, QSqlQuery
 from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget, \
@@ -7,6 +10,7 @@ from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget, \
     QWidget, QLabel, QPushButton, QInputDialog, QProgressBar, QVBoxLayout, QComboBox, QHBoxLayout
 
 from utilities.exportcsv import sql2csv
+from utilities.fetchinfo import getMobyRelease
 from utilities.steamlibrary import getSteamLibrary
 from widgets.importwindow import ImportWindow
 from widgets.inputwindow import InputWindow
@@ -16,7 +20,7 @@ from widgets.filterdock import FilterDock
 from widgets.sidepanel import SidePanel
 from widgets.table import Table
 
-_VERSION = "0.3.5"
+_VERSION = "0.3.6"
 
 
 class MainWindow(QMainWindow):
@@ -96,6 +100,7 @@ class MainWindow(QMainWindow):
         self.fileMenu.addAction(self.buttonActions("export"))
         self.fileMenu.addAction(self.buttonActions("import"))
         self.fileMenu.addAction(self.buttonActions("steam"))
+        self.fileMenu.addAction(self.buttonActions("fetch"))
         self.fileMenu.insertSeparator(self.buttonActions("exit"))
         self.fileMenu.addAction(self.buttonActions("exit"))
         self.viewMenu = self.menuBar().addMenu(self.tr("&View"))
@@ -271,6 +276,36 @@ class MainWindow(QMainWindow):
                 self.tableViewList[currentTab-1].deleteNotOwned()
                 self.search()
 
+    def fetchInfo(self):
+        """
+        Fetches info for all games from MobyGames. Sleeps for 5 seconds
+        between game so we don't annoy their servers.
+        :return:
+        """
+        msgBox = QMessageBox()
+        msgBox.setWindowTitle("Fetch info for all games")
+        msgBox.setText("This will take a long time. Are you sure?")
+        msgBox.setIcon(QMessageBox.Warning)
+        msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
+        msgBox.setDefaultButton(QMessageBox.Cancel)
+        ok = msgBox.exec_()
+
+        if ok == QMessageBox.Ok:
+            games = self.gamesTableView.ownedItems()
+            for game in games:
+                info = getMobyRelease(game["Name"], game["Platform"], game["Region"])
+                self.gamesTableView.updateData(info)
+                if "Image" in info.keys() and info["Image"] != "":
+                    coverDir = path.join("data", "images", "covers")
+                    id = str(game["ID"]) + ".jpg"
+                    imageData = requests.get(info["Image"]).content
+
+                    if not path.exists(path.join(coverDir, id)):
+                        with open(path.join(coverDir, id), "wb") as f:
+                            f.write(imageData)
+
+                sleep(5)  # Be nice
+
     def importToDatabase(self):
         """
         Imports all games from selected platforms into database as not owned.
@@ -444,10 +479,14 @@ class MainWindow(QMainWindow):
         infoAct = QAction("Debug: Print row info", self)
         infoAct.triggered.connect(self.info)
 
+        fetchAct = QAction("Fetch info for all games...", self)
+        fetchAct.setToolTip("Tries to fetch info for all games from MobyGames")
+        fetchAct.triggered.connect(self.fetchInfo)
+
         act = {"add": addAct, "del": delAct, "det": detAct, "export": expAct,
                "import": impAct, "steam": stmAct, "owned": ownAct,
                "delnotowned": delNotOwned, "about": aboutAct, "exit": exitAct,
-               "info": infoAct}
+               "info": infoAct, "fetch": fetchAct}
 
         return act.get(action)
 

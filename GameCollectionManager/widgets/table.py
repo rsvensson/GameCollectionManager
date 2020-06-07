@@ -380,19 +380,32 @@ class Table(QTableView):
             publisherIndex = self.model.index(currentRow, 11)
             developerIndex = self.model.index(currentRow, 12)
             platformsIndex = self.model.index(currentRow, 13)
-            self.model.setData(platformIndex, data["Platform"])
-            self.model.setData(nameIndex, data["Name"])
-            self.model.setData(regionIndex, data["Region"])
-            self.model.setData(codeIndex, data["Code"])
-            self.model.setData(itemIndex, data["Item"])
-            self.model.setData(boxIndex, data["Box"])
-            self.model.setData(manualIndex, data["Manual"])
-            self.model.setData(yearIndex, data["Year"])
-            self.model.setData(genreIndex, data["Genre"])
-            self.model.setData(commentIndex, data["Comment"])
-            self.model.setData(publisherIndex, data["Publisher"])
-            self.model.setData(developerIndex, data["Developer"])
-            self.model.setData(platformsIndex, data["Platforms"])
+            if "Platform" in data.keys():
+                self.model.setData(platformIndex, data["Platform"])
+            if "Name" in data.keys():
+                self.model.setData(nameIndex, data["Name"])
+            if "Region" in data.keys():
+                self.model.setData(regionIndex, data["Region"])
+            if "Code" in data.keys():
+                self.model.setData(codeIndex, data["Code"])
+            if "Item" in data.keys():
+                self.model.setData(itemIndex, data["Item"])
+            if "Box" in data.keys():
+                self.model.setData(boxIndex, data["Box"])
+            if "Manual" in data.keys():
+                self.model.setData(manualIndex, data["Manual"])
+            if "Year" in data.keys():
+                self.model.setData(yearIndex, data["Year"])
+            if "Genre" in data.keys():
+                self.model.setData(genreIndex, data["Genre"])
+            if "Comment" in data.keys():
+                self.model.setData(commentIndex, data["Comment"])
+            if "Publisher" in data.keys():
+                self.model.setData(publisherIndex, data["Publisher"])
+            if "Developer" in data.keys():
+                self.model.setData(developerIndex, data["Developer"])
+            if "Platforms" in data.keys():
+                self.model.setData(platformsIndex, data["Platforms"])
 
         self.resizeRowsToContents()
 

@@ -487,16 +487,16 @@ class InputWindow(QDialog):
         else:
             # Fill in missing info
             info = getMobyRelease(name, platform, region, country)
-            if info["publisher"] == "":
+            if info["Publisher"] == "":
                 self._displayMsgBox(2)
                 return
 
-            publisher = info["publisher"]
-            developer = info["developer"]
-            platforms = info["platforms"]
-            genre = info["genre"]
-            code = info["code"]
-            year = info["year"]
+            publisher = info["Publisher"]
+            developer = info["Developer"]
+            platforms = info["Platforms"]
+            genre = info["Genre"]
+            code = info["Code"]
+            year = info["Year"]
 
             if year == "" and code == "" and country != "":
                 # Can't find release for country

@@ -338,17 +338,17 @@ class SidePanel(QDockWidget):
             self.cover.setPixmap(pixmap.scaled(w, h, Qt.KeepAspectRatio, Qt.SmoothTransformation))
 
         if self.publisherDataLabel.text() == "":
-            self.publisherDataLabel.setText(info["publisher"])
+            self.publisherDataLabel.setText(info["Publisher"])
         if self.developerDataLabel.text() == "":
-            self.developerDataLabel.setText(info["developer"])
+            self.developerDataLabel.setText(info["Developer"])
         if self.genreDataLabel.text() == "":
-            self.genreDataLabel.setText(info["genre"])
+            self.genreDataLabel.setText(info["Genre"])
         if self.yearDataLabel.text() == "":
-            self.yearDataLabel.setText(info["year"])
+            self.yearDataLabel.setText(info["Year"])
         if self.codeDataLabel.text() == "":
-            self.codeDataLabel.setText(info["code"])
+            self.codeDataLabel.setText(info["Code"])
         if self.platformsDataLabel.text() == "":
-            self.platformsDataLabel.setText(info["platforms"])
+            self.platformsDataLabel.setText(info["Platforms"])
         # Update edit widgets if we're editing:
         if self.editButton.isChecked():
             self._updateWidgetData(1)
