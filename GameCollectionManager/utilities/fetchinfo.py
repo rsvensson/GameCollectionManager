@@ -593,8 +593,10 @@ def getMobyInfo(title: str, platform: str) -> dict:
                 # Make sure we don't include the '| Combined View' text
                 mobyCSSData[key] = ucd.normalize("NFKD", value[0].text.split("|", 1)[0].strip())
                 # Also make sure to insert the platform we're looking for
-                if platform not in mobyCSSData[key]:
-                    mobyCSSData[key] = platform + ", " + mobyCSSData[key]
+                platforms = mobyCSSData[key].split(", ")
+                if platform not in platforms:
+                    platforms.append(platform)
+                    mobyCSSData[key] = ", ".join(sorted(platforms, key=str.lower))
 
             elif key == "genre":
                 # Try finding the "Gameplay" category since it's more accurate but not always available
