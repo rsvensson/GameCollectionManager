@@ -74,7 +74,7 @@ class ImportWindow(QDialog):
             for lst in newData:
                 for game in lst:
                     self._gamesdata.append(game)
-                    self._regions.add(game["Region"])
+                    self._regions.add(game["region"])
             self.accept()
 
     def returnData(self):

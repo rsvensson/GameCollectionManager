@@ -59,11 +59,11 @@ class MainWindow(QMainWindow):
         self.allYears = set()
         for table in self.tableViewList:
             for row in table.ownedItems():
-                self.allPlatforms.add(row["Platform"])
-                self.allRegions.add(row["Region"])
-                self.allYears.add(row["Year"])
+                self.allPlatforms.add(row["platform"])
+                self.allRegions.add(row["region"])
+                self.allYears.add(row["year"])
                 # Split multi-genre entries
-                for genre in row["Genre"].split(", "):
+                for genre in row["genre"].split(", "):
                     self.allGenres.add(genre)
 
         self.filterDock = FilterDock(sorted(self.allPlatforms, key=str.lower),
@@ -193,7 +193,7 @@ class MainWindow(QMainWindow):
             if self.addWindow.exec_() == QDialog.Accepted:
                 data = self.addWindow.returnData()
 
-                if data['Platform'].isspace() or data['Name'] == "":
+                if data['platform'].isspace() or data['name'] == "":
                     msgBox = QMessageBox()
                     msgBox.setIcon(QMessageBox.Information)
                     msgBox.setWindowTitle("Invalid entry")
@@ -202,29 +202,29 @@ class MainWindow(QMainWindow):
                     continue
 
                 # Update Platform, Region, Genre, and Year in filter dock if necessary
-                if data["Platform"] not in self.allPlatforms:
-                    self.allPlatforms.add(data["Platform"])
+                if data["platform"] not in self.allPlatforms:
+                    self.allPlatforms.add(data["platform"])
                     self.filterDock.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
-                if data["Region"] not in self.allRegions:
-                    self.allRegions.add(data["Region"])
+                if data["region"] not in self.allRegions:
+                    self.allRegions.add(data["region"])
                     self.filterDock.updateRegions(sorted(self.allRegions, key=str.lower))
-                if data["Genre"] not in self.allGenres:
-                    self.allGenres.add(data["Genre"])
+                if data["genre"] not in self.allGenres:
+                    self.allGenres.add(data["genre"])
                     self.filterDock.updateGenres(sorted(self.allGenres, key=str.lower))
-                if data["Year"] not in self.allYears:
-                    self.allYears.add(data["Year"])
+                if data["year"] not in self.allYears:
+                    self.allYears.add(data["year"])
                     self.filterDock.updateYears(sorted(self.allYears, key=str.lower))
 
-                if "Game" in data.keys():
+                if "game" in data.keys():
                     self.gamesTableView.addData(data)
                     self.overview.updateData(self.gamesTableView)
                     self.randomizer.updateLists(self.gamesTableView.ownedItems(),
                                                 sorted(self.allPlatforms, key=str.lower),
                                                 sorted(self.allGenres, key=str.lower))
-                elif "Console" in data.keys():
+                elif "console" in data.keys():
                     self.consolesTableView.addData(data)
                     self.overview.updateData(self.consolesTableView)
-                elif "Accessory" in data.keys():
+                elif "accessory" in data.keys():
                     self.accessoriesTableView.addData(data)
                     self.overview.updateData(self.accessoriesTableView)
                 self.search()
@@ -293,12 +293,12 @@ class MainWindow(QMainWindow):
         if ok == QMessageBox.Ok:
             games = self.gamesTableView.ownedItems()
             for game in games:
-                info = getMobyRelease(game["Name"], game["Platform"], game["Region"])
+                info = getMobyRelease(game["name"], game["platform"], game["region"])
                 self.gamesTableView.updateData(info)
-                if "Image" in info.keys() and info["Image"] != "":
+                if "image" in info.keys() and info["image"] != "":
                     coverDir = path.join("data", "images", "covers")
                     id = str(game["ID"]) + ".jpg"
-                    imageData = requests.get(info["Image"]).content
+                    imageData = requests.get(info["image"]).content
 
                     if not path.exists(path.join(coverDir, id)):
                         with open(path.join(coverDir, id), "wb") as f:
@@ -355,10 +355,12 @@ class MainWindow(QMainWindow):
                             existingGames.append(query.value(0))
 
                         for game in games:
-                            if game["Name"] not in existingGames:
+                            if game["name"] not in existingGames:
                                 self.gamesTableView.addData(game)
                     self.overview.updateData(self.gamesTableView)
-                    self.randomizer.updateLists(self.gamesTableView.ownedItems())
+                    self.randomizer.updateLists(self.gamesTableView.ownedItems(),
+                                                sorted(self.allPlatforms, key=str.lower),
+                                                sorted(self.allGenres, key=str.lower))
                     self.search()
 
     def exportToCSV(self):

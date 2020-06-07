@@ -1,5 +1,3 @@
-from collections.__init__ import OrderedDict
-
 from PySide2.QtCore import QSize, Qt
 from PySide2.QtWidgets import QDialog, QLabel, QComboBox, QLineEdit, QCheckBox, QPushButton, QVBoxLayout, QHBoxLayout, \
     QInputDialog, QDesktopWidget, QMessageBox
@@ -9,7 +7,7 @@ from utilities.fetchinfo import getMobyRelease
 
 class InputWindow(QDialog):
     """Window where user can enter new data into a table.
-       It returns the data formatted into an OrderedDict.
+       It returns the data formatted into a dictionary.
        platforms: the platforms from the currently loaded
                   collection."""
 
@@ -487,16 +485,16 @@ class InputWindow(QDialog):
         else:
             # Fill in missing info
             info = getMobyRelease(name, platform, region, country)
-            if info["Publisher"] == "":
+            if info["publisher"] == "":
                 self._displayMsgBox(2)
                 return
 
-            publisher = info["Publisher"]
-            developer = info["Developer"]
-            platforms = info["Platforms"]
-            genre = info["Genre"]
-            code = info["Code"]
-            year = info["Year"]
+            publisher = info["publisher"]
+            developer = info["developer"]
+            platforms = info["platforms"]
+            genre = info["genre"]
+            code = info["code"]
+            year = info["year"]
 
             if year == "" and code == "" and country != "":
                 # Can't find release for country
@@ -580,41 +578,44 @@ class InputWindow(QDialog):
         data = None
 
         if self._dataType.currentIndex() == 0:
-            data = OrderedDict([("Platform", "{}".format(self._platform.currentText())),
-                                ("Name", "{}".format(self._name.text())),
-                                ("Region", "{}".format(self._region.currentText())),
-                                ("Code", "{}".format(self._code.text())),
-                                ("Game", "{}".format('Yes' if self._item.isChecked() else 'No')),
-                                ("Box", "{}".format('Yes' if self._box.isChecked() else 'No')),
-                                ("Manual", "{}".format('Yes' if self._manual.isChecked() else 'No')),
-                                ("Year", "{}".format(self._year.text())),
-                                ("Genre", "{}".format(self._genre.text())),
-                                ("Comment", "{}".format(self._comment.text())),
-                                ("Publisher", "{}".format(self._publisher.text())),
-                                ("Developer", "{}".format(self._developer.text())),
-                                ("Platforms", "{}".format(self._platformsData))])
+            data = {"platform":     self._platform.currentText(),
+                    "name":         self._name.text(),
+                    "region":       self._region.currentText(),
+                    "code":         self._code.text(),
+                    "game":         "Yes" if self._item.isChecked() else "No",
+                    "box":          "Yes" if self._box.isChecked() else "No",
+                    "manual":       "Yes" if self._manual.isChecked() else "No",
+                    "year":         self._year.text(),
+                    "genre":        self._genre.text(),
+                    "comment":      self._comment.text(),
+                    "publisher":    self._publisher.text(),
+                    "developer":    self._developer.text(),
+                    "platforms":    self._platformsData
+                    }
 
         elif self._dataType.currentIndex() == 1:
-            data = OrderedDict([("Platform", "{}".format(self._platform.currentText())),
-                                ("Name", "{}".format(self._name.text())),
-                                ("Region", "{}".format(self._region.currentText())),
-                                ("Country", "{}".format(self._country.text())),
-                                ("Serial number", "{}".format(self._code.text())),
-                                ("Console", "{}".format('Yes' if self._item.isChecked() else 'No')),
-                                ("Box", "{}".format('Yes' if self._box.isChecked() else 'No')),
-                                ("Manual", "{}".format('Yes' if self._manual.isChecked() else 'No')),
-                                ("Year", "{}".format(self._year.text())),
-                                ("Comment", "{}".format(self._comment.text()))])
+            data = {"platform":         self._platform.currentText(),
+                    "name":             self._name.text(),
+                    "region":           self._region.currentText(),
+                    "country":          self._country.text(),
+                    "serial number":    self._code.text(),
+                    "console":          "Yes" if self._item.isChecked() else "No",
+                    "box":              "Yes" if self._box.isChecked() else "No",
+                    "manual":           "Yes" if self._manual.isChecked() else "No",
+                    "year":             self._year.text(),
+                    "comment":          self._comment.text()
+                    }
 
         elif self._dataType.currentIndex() == 2:
-            data = OrderedDict([("Platform", "{}".format(self._platform.currentText())),
-                                ("Name", "{}".format(self._name.text())),
-                                ("Region", "{}".format(self._region.currentText())),
-                                ("Country", "{}".format(self._country.text())),
-                                ("Accessory", "{}".format('Yes' if self._item.isChecked() else 'No')),
-                                ("Box", "{}".format('Yes' if self._box.isChecked() else 'No')),
-                                ("Manual", "{}".format('Yes' if self._manual.isChecked() else 'No')),
-                                ("Year", "{}".format(self._year.text())),
-                                ("Comment", "{}".format(self._comment.text()))])
+            data = {"platform":     self._platform.currentText(),
+                    "name":         self._name.text(),
+                    "region":       self._region.currentText(),
+                    "country":      self._country.text(),
+                    "accessory":    "Yes" if self._item.isChecked() else "No",
+                    "box":          "Yes" if self._box.isChecked() else "No",
+                    "manual":       "Yes" if self._manual.isChecked() else "No",
+                    "year":         self._year.text(),
+                    "comment":      self._comment.text()
+                    }
 
         return data

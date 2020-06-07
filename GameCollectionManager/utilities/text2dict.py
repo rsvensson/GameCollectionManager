@@ -5,8 +5,6 @@ Converts a plain text games list from vgdb.io
 into csv data that can be used with GCM.
 """
 
-from collections import OrderedDict
-
 
 def _readTextFile(infile):
     try:
@@ -31,17 +29,17 @@ def _readTextFile(infile):
             for j, row in enumerate(temp):
                 temp[j] = row.strip()
             if len(temp) == 7:
-                gamedata.append({"Name": temp[2],
-                                 "Platform": temp[4],
-                                 "Region": temp[6],
-                                 "Year": temp[5],
-                                 "Code": ""})
+                gamedata.append({"name": temp[2],
+                                 "platform": temp[4],
+                                 "region": temp[6],
+                                 "year": temp[5],
+                                 "code": ""})
             elif len(temp) == 8:
-                gamedata.append({"Name": temp[2],
-                                 "Platform": temp[4],
-                                 "Region": temp[6],
-                                 "Year": "",
-                                 "Code": temp[7]})
+                gamedata.append({"name": temp[2],
+                                 "platform": temp[4],
+                                 "region": temp[6],
+                                 "year": "",
+                                 "code": temp[7]})
         else:
             raise TypeError(f"Line {i} in file {infile} malformed:\n{temp}")
 
@@ -53,10 +51,10 @@ def createGameData(infile):
     gamedata = []
 
     for game in filedata:
-        gamedata.append(OrderedDict({"Platform": game["Platform"], "Name": game["Name"],
-                                     "Region": game["Region"], "Code": game["Code"],
-                                     "Game": "No", "Box": "No", "Manual": "No",
-                                     "Year": game["Year"], "Genre": "", "Comment": "",
-                                     "Publisher": "", "Developer": "", "Platforms": ""}))
+        gamedata.append({"platform": game["platform"], "name": game["name"],
+                         "region": game["region"], "code": game["code"],
+                         "game": "No", "box": "No", "manual": "No",
+                         "year": game["year"], "genre": "", "comment": "",
+                         "publisher": "", "developer": "", "platforms": ""})
 
     return gamedata

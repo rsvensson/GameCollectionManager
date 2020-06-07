@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 from PySide2.QtCore import Qt, Signal
-from PySide2.QtWidgets import QDockWidget, QWidget, QComboBox, QListWidget, QHBoxLayout, \
+from PySide2.QtWidgets import QDockWidget, QWidget, QListWidget, QHBoxLayout, \
     QLabel, QPushButton, QAbstractItemView, QVBoxLayout, QGroupBox, QCheckBox
 
 

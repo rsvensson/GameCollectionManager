@@ -700,8 +700,8 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
     :return: Dictionary of the release info
     """
 
-    releaseInfo = {"Publisher": "", "Developer": "", "Platforms": "",
-                   "Genre": "", "Code": "", "Year": ""}
+    releaseInfo = {"publisher": "", "developer": "", "platforms": "",
+                   "genre": "", "code": "", "year": ""}
 
     regionDict = {"NTSC (JP)": ("Japan", "Worldwide"),
                   "NTSC (NA)": ("United States", "Canada", "Worldwide"),
@@ -806,8 +806,8 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
     else:  # No image found
         imgURL = ""
 
-    releaseInfo = {"Publisher": publisher, "Developer": developer, "Platforms": platforms,
-                   "Genre": genre, "Image": imgURL, "Code": code, "Year": year}
+    releaseInfo = {"publisher": publisher, "developer": developer, "platforms": platforms,
+                   "genre": genre, "image": imgURL, "code": code, "year": year}
 
     return releaseInfo
 

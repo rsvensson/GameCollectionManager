@@ -338,17 +338,17 @@ class SidePanel(QDockWidget):
             self.cover.setPixmap(pixmap.scaled(w, h, Qt.KeepAspectRatio, Qt.SmoothTransformation))
 
         if self.publisherDataLabel.text() == "":
-            self.publisherDataLabel.setText(info["Publisher"])
+            self.publisherDataLabel.setText(info["publisher"])
         if self.developerDataLabel.text() == "":
-            self.developerDataLabel.setText(info["Developer"])
+            self.developerDataLabel.setText(info["developer"])
         if self.genreDataLabel.text() == "":
-            self.genreDataLabel.setText(info["Genre"])
+            self.genreDataLabel.setText(info["genre"])
         if self.yearDataLabel.text() == "":
-            self.yearDataLabel.setText(info["Year"])
+            self.yearDataLabel.setText(info["year"])
         if self.codeDataLabel.text() == "":
-            self.codeDataLabel.setText(info["Code"])
+            self.codeDataLabel.setText(info["code"])
         if self.platformsDataLabel.text() == "":
-            self.platformsDataLabel.setText(info["Platforms"])
+            self.platformsDataLabel.setText(info["platforms"])
         # Update edit widgets if we're editing:
         if self.editButton.isChecked():
             self._updateWidgetData(1)
@@ -357,19 +357,19 @@ class SidePanel(QDockWidget):
         if self.editButton.isChecked():
             self._updateWidgetData(0)
 
-        info = {"Name": self.nameDataLabel.text(),
-                "Platform": self.platformDataLabel.text(),
-                "Publisher": self.publisherDataLabel.text(),
-                "Developer": self.developerDataLabel.text(),
-                "Genre": self.genreDataLabel.text(),
-                "Region": self.regionDataLabel.text(),
-                "Year": self.yearDataLabel.text(),
-                "Code": self.codeDataLabel.text(),
-                "Item": self.itemDataLabel.text(),
-                "Box": self.boxDataLabel.text(),
-                "Manual": self.manualDataLabel.text(),
-                "Comment": self.commentDataLabel.text(),
-                "Platforms": self.platformsDataLabel.text()}
+        info = {"name": self.nameDataLabel.text(),
+                "platform": self.platformDataLabel.text(),
+                "publisher": self.publisherDataLabel.text(),
+                "developer": self.developerDataLabel.text(),
+                "genre": self.genreDataLabel.text(),
+                "region": self.regionDataLabel.text(),
+                "year": self.yearDataLabel.text(),
+                "code": self.codeDataLabel.text(),
+                "item": self.itemDataLabel.text(),
+                "box": self.boxDataLabel.text(),
+                "manual": self.manualDataLabel.text(),
+                "comment": self.commentDataLabel.text(),
+                "platforms": self.platformsDataLabel.text()}
 
         # Save imagedata to file
         if self._imagedata != "" and not path.exists(path.join(self._coverdir, self._id)):
@@ -420,40 +420,40 @@ class SidePanel(QDockWidget):
             self.editButton.setChecked(False)
         self.stackedLayout.setCurrentIndex(0)  # Show info layout initially
 
-        self._id = str(info["ID"]) + ".jpg"
+        self._id = str(info["id"]) + ".jpg"
         self._imagedata = ""
         pixmap = path.join(self._coverdir, "none.png")
-        if path.exists(path.join(self._coverdir, self._id)) and info["Table"] == "games":
+        if path.exists(path.join(self._coverdir, self._id)) and info["table"] == "games":
             pixmap = path.join(self._coverdir, self._id)
         p = QPixmap(pixmap)
         w = self.cover.width()
         h = self.cover.height()
         self.cover.setPixmap(p.scaled(w, h, Qt.KeepAspectRatio, Qt.SmoothTransformation))
 
-        self.nameDataLabel.setText(info["Name"])
-        self.platformDataLabel.setText(info["Platform"])
-        self.regionDataLabel.setText(info["Region"])
-        self.boxDataLabel.setText(info["Box"])
-        self.manualDataLabel.setText(info["Manual"])
-        self.yearDataLabel.setText(str(info["Year"]))
-        self.commentDataLabel.setText(info["Comment"])
-        if info["Table"] == "games":
-            self.publisherDataLabel.setText(info["Publisher"])
-            self.developerDataLabel.setText(info["Developer"])
+        self.nameDataLabel.setText(info["name"])
+        self.platformDataLabel.setText(info["platform"])
+        self.regionDataLabel.setText(info["region"])
+        self.boxDataLabel.setText(info["box"])
+        self.manualDataLabel.setText(info["manual"])
+        self.yearDataLabel.setText(str(info["year"]))
+        self.commentDataLabel.setText(info["comment"])
+        if info["table"] == "games":
+            self.publisherDataLabel.setText(info["publisher"])
+            self.developerDataLabel.setText(info["developer"])
             self.genreInfoLabel.setText("Genre:")
             self.genreEditLabel.setText("Genre:")
-            self.genreDataLabel.setText(info["Genre"])
+            self.genreDataLabel.setText(info["genre"])
             self.codeInfoLabel.setText("Code:")
             self.codeInfoLabel.setVisible(True)
             self.codeEditLabel.setText("Code")
             self.codeEditLabel.setVisible(True)
-            self.codeDataLabel.setText(info["Code"])
+            self.codeDataLabel.setText(info["code"])
             self.codeDataLabel.setVisible(True)
             self.codeDataLE.setVisible(True)
             self.itemInfoLabel.setText("Game:")
             self.itemEditLabel.setText("Game:")
-            self.itemDataLabel.setText(info["Game"])
-            self.platformsDataLabel.setText(info["Platforms"])
+            self.itemDataLabel.setText(info["game"])
+            self.platformsDataLabel.setText(info["platforms"])
             self.platformsDataLabel.setVisible(True)
             self.platformsInfoLabel.setVisible(True)
             self.fetchInfoButton.setEnabled(True)
@@ -461,20 +461,20 @@ class SidePanel(QDockWidget):
             self.fetchInfoButton.setToolTip("Try to fetch info from MobyGames")
             self.saveButton.setEnabled(True)
             self.saveButton.setVisible(True)
-        elif info["Table"] == "consoles":
+        elif info["table"] == "consoles":
             self.genreInfoLabel.setText("Country:")
             self.genreEditLabel.setText("Country:")
-            self.genreDataLabel.setText(info["Country"])
+            self.genreDataLabel.setText(info["country"])
             self.codeInfoLabel.setText("Serial Number:")
             self.codeInfoLabel.setVisible(True)
             self.codeEditLabel.setText("Serial Number:")
             self.codeEditLabel.setVisible(True)
-            self.codeDataLabel.setText(info["Serial number"])
+            self.codeDataLabel.setText(info["serial number"])
             self.codeDataLabel.setVisible(True)
             self.codeDataLE.setVisible(True)
             self.itemInfoLabel.setText("Console:")
             self.itemEditLabel.setText("Console:")
-            self.itemDataLabel.setText(info["Console"])
+            self.itemDataLabel.setText(info["console"])
             self.platformsInfoLabel.setVisible(False)
             self.platformsDataLabel.setVisible(False)
             self.fetchInfoButton.setEnabled(False)
@@ -482,10 +482,10 @@ class SidePanel(QDockWidget):
         elif info["Table"] == "accessories":
             self.genreInfoLabel.setText("Country:")
             self.genreEditLabel.setText("Country:")
-            self.genreDataLabel.setText(info["Country"])
+            self.genreDataLabel.setText(info["country"])
             self.itemInfoLabel.setText("Accessory:")
             self.itemEditLabel.setText("Accessory:")
-            self.itemDataLabel.setText(info["Accessory"])
+            self.itemDataLabel.setText(info["accessory"])
             self.codeInfoLabel.setVisible(False)
             self.codeEditLabel.setVisible(False)
             self.codeDataLabel.setVisible(False)

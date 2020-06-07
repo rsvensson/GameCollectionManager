@@ -1,4 +1,3 @@
-from collections import OrderedDict
 from os import path, remove
 
 from PySide2.QtCore import Qt, Signal, QModelIndex, QItemSelectionModel
@@ -107,11 +106,11 @@ class Table(QTableView):
                         "accessories": ["Platform", "Name", "Region", "Country", "Accessory",
                                         "Box", "Manual", "Year", "Comment"]}
 
-        if isinstance(newData, OrderedDict) or isinstance(newData, dict):  # Add single item
+        if isinstance(newData, dict):  # Add single item
             record = self.model.record()
             record.remove(record.indexOf("ID"))
             for i in tableColumns[table]:
-                record.setValue(i, newData[i])
+                record.setValue(i, newData[i.lower()])
 
             if self.model.insertRecord(-1, record):
                 pass
@@ -123,7 +122,7 @@ class Table(QTableView):
                 record = self.model.record()
                 record.remove(record.indexOf("ID"))
                 for i in tableColumns[table]:
-                    record.setValue(i, data[i])
+                    record.setValue(i, data[i.lower()])
 
                 if self.model.insertRecord(-1, record):
                     pass
@@ -286,8 +285,8 @@ class Table(QTableView):
         query.exec_("SELECT ID, Platform, Name, Region, Year, Genre "
                     f"FROM {self._table} WHERE {self._itemType}='Yes' OR Box='Yes' OR Manual='Yes'")
         while query.next():
-            items.append(dict(ID=query.value(0), Platform=query.value(1), Name=query.value(2),
-                              Region=query.value(3), Year=str(query.value(4)), Genre=query.value(5)))
+            items.append(dict(id=query.value(0), platform=query.value(1), name=query.value(2),
+                              region=query.value(3), year=str(query.value(4)), genre=query.value(5)))
 
         return items
 
@@ -308,12 +307,12 @@ class Table(QTableView):
 
     def rowData(self):
         rowData = {}
-        columns = {"games": ["ID", "Platform", "Name", "Region", "Code", "Game", "Box", "Manual", "Year", "Genre",
-                            "Comment", "Publisher", "Developer", "Platforms"],
-                   "consoles": ["ID", "Platform", "Name", "Region", "Country", "Serial number", "Console", "Box",
-                                "Manual", "Year", "Comment"],
-                   "accessories": ["ID", "Platform", "Name", "Region", "Country", "Accessory", "Box", "Manual",
-                                   "Year", "Comment"]}
+        columns = {"games": ["id", "platform", "name", "region", "code", "game", "box", "manual", "year", "genre",
+                             "comment", "publisher", "developer", "platforms"],
+                   "consoles": ["id", "platform", "name", "region", "country", "serial number", "console", "box",
+                                "manual", "year", "comment"],
+                   "accessories": ["id", "platform", "name", "region", "country", "accessory", "box", "manual",
+                                   "year", "comment"]}
 
         rowid = self.model.index(self.currentIndex().row(), 0).data()
         query = QSqlQuery()
@@ -322,7 +321,7 @@ class Table(QTableView):
         for i, col in enumerate(columns[self._table]):
             rowData[col] = query.value(i)
 
-        rowData["Table"] = self._table
+        rowData["table"] = self._table
 
         self.doubleClick.emit(rowData)
 
@@ -337,11 +336,11 @@ class Table(QTableView):
 
         title = ""
         platform = ""
-        columns = {"games": ["Id", "Platform", "Name", "Region", "Code",
+        columns = {"games": ["ID", "Platform", "Name", "Region", "Code",
                              "Game", "Box", "Manual", "Year", "Genre", "Comment"],
-                   "consoles": ["Id", "Platform", "Name", "Region", "Country", "Serial number",
+                   "consoles": ["ID", "Platform", "Name", "Region", "Country", "Serial number",
                                 "Console", "Box", "Manual", "Year", "Comment"],
-                   "accessories": ["Id", "Platform", "Name", "Region", "Country",
+                   "accessories": ["ID", "Platform", "Name", "Region", "Country",
                                    "Accessory", "Box", "Manual", "Year", "Comment"]}
 
         for i in range(length):
@@ -380,32 +379,32 @@ class Table(QTableView):
             publisherIndex = self.model.index(currentRow, 11)
             developerIndex = self.model.index(currentRow, 12)
             platformsIndex = self.model.index(currentRow, 13)
-            if "Platform" in data.keys():
-                self.model.setData(platformIndex, data["Platform"])
-            if "Name" in data.keys():
-                self.model.setData(nameIndex, data["Name"])
-            if "Region" in data.keys():
-                self.model.setData(regionIndex, data["Region"])
-            if "Code" in data.keys():
-                self.model.setData(codeIndex, data["Code"])
-            if "Item" in data.keys():
-                self.model.setData(itemIndex, data["Item"])
-            if "Box" in data.keys():
-                self.model.setData(boxIndex, data["Box"])
-            if "Manual" in data.keys():
-                self.model.setData(manualIndex, data["Manual"])
-            if "Year" in data.keys():
-                self.model.setData(yearIndex, data["Year"])
-            if "Genre" in data.keys():
-                self.model.setData(genreIndex, data["Genre"])
-            if "Comment" in data.keys():
-                self.model.setData(commentIndex, data["Comment"])
-            if "Publisher" in data.keys():
-                self.model.setData(publisherIndex, data["Publisher"])
-            if "Developer" in data.keys():
-                self.model.setData(developerIndex, data["Developer"])
-            if "Platforms" in data.keys():
-                self.model.setData(platformsIndex, data["Platforms"])
+            if "platform" in data.keys():
+                self.model.setData(platformIndex, data["platform"])
+            if "name" in data.keys():
+                self.model.setData(nameIndex, data["name"])
+            if "region" in data.keys():
+                self.model.setData(regionIndex, data["region"])
+            if "code" in data.keys():
+                self.model.setData(codeIndex, data["code"])
+            if "item" in data.keys():
+                self.model.setData(itemIndex, data["item"])
+            if "box" in data.keys():
+                self.model.setData(boxIndex, data["box"])
+            if "manual" in data.keys():
+                self.model.setData(manualIndex, data["manual"])
+            if "year" in data.keys():
+                self.model.setData(yearIndex, data["year"])
+            if "genre" in data.keys():
+                self.model.setData(genreIndex, data["genre"])
+            if "comment" in data.keys():
+                self.model.setData(commentIndex, data["comment"])
+            if "publisher" in data.keys():
+                self.model.setData(publisherIndex, data["publisher"])
+            if "developer" in data.keys():
+                self.model.setData(developerIndex, data["developer"])
+            if "platforms" in data.keys():
+                self.model.setData(platformsIndex, data["platforms"])
 
         self.resizeRowsToContents()
 

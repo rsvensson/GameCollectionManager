@@ -11,7 +11,7 @@ class Randomizer(QWidget):
     """A game randomizer for selecting a random game to play
        from the user's collection. User can select which
        platforms to choose from.
-       gamesData: Raw table data in list of orderedDicts"""
+       gamesData: Raw table data in list of dictionaries"""
 
     def __init__(self, gamesData: list, platformsData: list, genresData: list):
         super(Randomizer, self).__init__()
@@ -119,10 +119,10 @@ class Randomizer(QWidget):
         if len(self._games) > 0 and (len(platforms) > 0 or len(genres) > 0):
             choice = randint(0, len(self._games) - 1)
             self._lblPlay.setText("You will play:")
-            self._lblTitle.setText(f"{self._games[choice]['Name']}" if len(platforms) == 1 else
-                                   f"{self._games[choice]['Name']} [{self._games[choice]['Platform']}]")
+            self._lblTitle.setText(f"{self._games[choice]['name']}" if len(platforms) == 1 else
+                                   f"{self._games[choice]['name']} [{self._games[choice]['platform']}]")
             # Cover image
-            cover = str(self._games[choice]['ID']) + ".jpg"
+            cover = str(self._games[choice]['id']) + ".jpg"
             if path.exists(path.join(self._coverdir, cover)):
                 # Update cover image if the game has one
                 pixmap = path.join(self._coverdir, cover)
@@ -151,10 +151,10 @@ class Randomizer(QWidget):
         if len(platforms) > 0 or len(genres) > 0:
             for row in self._gamesData:
                 if len(platforms) > 0 and len(genres) > 0:
-                    if row["Platform"] in platforms:
+                    if row["platform"] in platforms:
                         if self.genreMatchExclusiveCB.isChecked():
                             count = 0
-                            for genre in row["Genre"].split(", "):
+                            for genre in row["genre"].split(", "):
                                 if genre in genres:
                                     count += 1
                                 else:  # Not exclusive
@@ -164,19 +164,19 @@ class Randomizer(QWidget):
                                 self._gameCount += 1
                                 self._games.append(row)
                         else:
-                            for genre in row["Genre"].split(", "):
+                            for genre in row["genre"].split(", "):
                                 if genre in genres:
                                     self._gameCount += 1
                                     self._games.append(row)
                                     break  # We only need to match with one genre
                 elif len(platforms) > 0 and len(genres) == 0:
-                    if row["Platform"] in platforms:
+                    if row["platform"] in platforms:
                         self._gameCount += 1
                         self._games.append(row)
                 elif len(platforms) == 0 and len(genres) > 0:
                     if self.genreMatchExclusiveCB.isChecked():
                         count = 0
-                        for genre in row["Genre"].split(", "):
+                        for genre in row["genre"].split(", "):
                             if genre in genres:
                                 count += 1
                             else:  # Not exclusive
@@ -186,7 +186,7 @@ class Randomizer(QWidget):
                             self._gameCount += 1
                             self._games.append(row)
                     else:
-                        for genre in row["Genre"].split(", "):
+                        for genre in row["genre"].split(", "):
                             if genre in genres:
                                 self._gameCount += 1
                                 self._games.append(row)
