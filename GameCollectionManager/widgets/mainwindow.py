@@ -16,7 +16,7 @@ from widgets.filterdock import FilterDock
 from widgets.sidepanel import SidePanel
 from widgets.table import Table
 
-_VERSION = "0.3.4"
+_VERSION = "0.3.5"
 
 
 class MainWindow(QMainWindow):
@@ -73,6 +73,7 @@ class MainWindow(QMainWindow):
                                      sorted(self.allGenres, key=str.lower))
         self.randomizer.consoleList.itemClicked.connect(self.updateStatusbar)
         self.randomizer.genreList.itemClicked.connect(self.updateStatusbar)
+        self.randomizer.genreMatchExclusiveCB.stateChanged.connect(self.updateStatusbar)
         self.randomizer.btnAll.clicked.connect(self.updateStatusbar)
         self.randomizer.btnNone.clicked.connect(self.updateStatusbar)
 
@@ -130,8 +131,11 @@ class MainWindow(QMainWindow):
         self.tab.currentChanged.connect(self.search)
         self.tab.currentChanged.connect(self.sidePanel.hideDetails)
         # Connect sidePanel's saved signal to corresponding table's updateData()
+        # TODO: Update the sets of platforms and genres properly
         self.sidePanel.saved.connect(self.tableViewList[self.tab.currentIndex()].updateData)
-        self.sidePanel.saved.connect(self.randomizer.updateGenres)
+        self.sidePanel.saved.connect(lambda: self.randomizer.updateLists(self.gamesTableView.ownedItems(),
+                                                                         sorted(self.allPlatforms, key=str.lower),
+                                                                         sorted(self.allGenres, key=str.lower)))
 
         # Main layout
         self.tabHbox = QHBoxLayout()
@@ -203,7 +207,9 @@ class MainWindow(QMainWindow):
                 if "Game" in data.keys():
                     self.gamesTableView.addData(data)
                     self.overview.updateData(self.gamesTableView)
-                    self.randomizer.updatePlatforms(self.gamesTableView.ownedItems())
+                    self.randomizer.updateLists(self.gamesTableView.ownedItems(),
+                                                sorted(self.allPlatforms, key=str.lower),
+                                                sorted(self.allGenres, key=str.lower))
                 elif "Console" in data.keys():
                     self.consolesTableView.addData(data)
                     self.overview.updateData(self.consolesTableView)
@@ -234,7 +240,7 @@ class MainWindow(QMainWindow):
                 self.tableViewList[currentTab-1].deleteData(rows)
                 self.overview.updateData(self.tableViewList[currentTab-1])
                 if currentTab == 1:
-                    self.randomizer.updatePlatforms(self.gamesTableView.ownedItems())
+                    self.randomizer.updateLists(self.gamesTableView.ownedItems())
                 self.search()
 
     def deleteNotOwned(self):
@@ -309,7 +315,7 @@ class MainWindow(QMainWindow):
                             if game["Name"] not in existingGames:
                                 self.gamesTableView.addData(game)
                     self.overview.updateData(self.gamesTableView)
-                    self.randomizer.updatePlatforms(self.gamesTableView.ownedItems())
+                    self.randomizer.updateLists(self.gamesTableView.ownedItems())
                     self.search()
 
     def exportToCSV(self):

@@ -4,7 +4,7 @@ from os import path
 from PySide2.QtCore import Qt
 from PySide2.QtGui import QFont, QPixmap
 from PySide2.QtWidgets import QWidget, QLabel, QListWidget, QAbstractItemView, QPushButton, QHBoxLayout, QVBoxLayout, \
-    QGridLayout
+    QGridLayout, QCheckBox
 
 
 class Randomizer(QWidget):
@@ -31,6 +31,10 @@ class Randomizer(QWidget):
         self.consoleList.itemClicked.connect(self._updateGameCount)
 
         self.genreLabel = QLabel("Genres")
+        self.genreMatchExclusiveCB = QCheckBox("Match exclusive")
+        self.genreMatchExclusiveCB.setToolTip("Only match games which exclusively contain the selected genres.")
+        self.genreMatchExclusiveCB.setChecked(False)
+        self.genreMatchExclusiveCB.stateChanged.connect(self._updateGameCount)
         self.genreList = QListWidget()
         self.genreList.addItems(self._genreItems)
         self.genreList.setSelectionMode(QAbstractItemView.MultiSelection)
@@ -74,6 +78,7 @@ class Randomizer(QWidget):
         self._hboxButtons = QHBoxLayout()
         self._vboxLists = QVBoxLayout()
         self._vboxConsoles = QVBoxLayout()
+        self._hboxGenres = QHBoxLayout()
         self._vboxGenres = QVBoxLayout()
         self._vboxResult = QVBoxLayout()
         self._grid = QGridLayout()
@@ -82,11 +87,13 @@ class Randomizer(QWidget):
         self._hboxButtons.addWidget(self._btnRnd, 0)
         self._vboxConsoles.addWidget(self.consoleLabel, 0)
         self._vboxConsoles.addWidget(self.consoleList, 1)
-        self._vboxGenres.addWidget(self.genreLabel, 0)
+        self._hboxGenres.addWidget(self.genreLabel, 0)
+        self._hboxGenres.addWidget(self.genreMatchExclusiveCB, 0)
         self._vboxGenres.addWidget(self.genreList, 1)
         self._vboxLists.addSpacing(10)
         self._vboxLists.addLayout(self._vboxConsoles, 1)
         self._vboxLists.addSpacing(10)
+        self._vboxLists.addLayout(self._hboxGenres, 0)
         self._vboxLists.addLayout(self._vboxGenres, 1)
         self._vboxResult.addStretch(3)
         self._vboxResult.addWidget(self._lblPlay, 0)
@@ -145,35 +152,55 @@ class Randomizer(QWidget):
             for row in self._gamesData:
                 if len(platforms) > 0 and len(genres) > 0:
                     if row["Platform"] in platforms:
-                        for genre in row["Genre"].split(", "):
-                            if genre in genres:
+                        if self.genreMatchExclusiveCB.isChecked():
+                            count = 0
+                            for genre in row["Genre"].split(", "):
+                                if genre in genres:
+                                    count += 1
+                                else:  # Not exclusive
+                                    count = 0
+                                    break
+                            if count == len(genres):
                                 self._gameCount += 1
                                 self._games.append(row)
-                                break  # We only need to match with one genre
+                        else:
+                            for genre in row["Genre"].split(", "):
+                                if genre in genres:
+                                    self._gameCount += 1
+                                    self._games.append(row)
+                                    break  # We only need to match with one genre
                 elif len(platforms) > 0 and len(genres) == 0:
                     if row["Platform"] in platforms:
                         self._gameCount += 1
                         self._games.append(row)
                 elif len(platforms) == 0 and len(genres) > 0:
-                    for genre in row["Genre"].split(", "):
-                        if genre in genres:
+                    if self.genreMatchExclusiveCB.isChecked():
+                        count = 0
+                        for genre in row["Genre"].split(", "):
+                            if genre in genres:
+                                count += 1
+                            else:  # Not exclusive
+                                count = 0
+                                break
+                        if count == len(genres):
                             self._gameCount += 1
                             self._games.append(row)
-                            break  # We only need to match with one genre
+                    else:
+                        for genre in row["Genre"].split(", "):
+                            if genre in genres:
+                                self._gameCount += 1
+                                self._games.append(row)
+                                break  # We only need to match with one genre
 
     def gameCount(self) -> int:
         return self._gameCount
 
-    def updateGenres(self, genreData: dict):
-        self.genreList.clear()
-        self._genreItems.add(genreData["Genre"])
-        self.genreList.addItems(sorted(self._genreItems, key=str.lower))
-
-    def updatePlatforms(self, gamesData: list):
-        self._gamesData.clear()
-        self.consoleList.clear()
+    def updateLists(self, gamesData: list, platformsData: list, genresData: list):
         self._gamesData = gamesData
+        self._consoleItems = platformsData
+        self._genreItems = genresData
+        self.consoleList.clear()
+        self.genreList.clear()
 
-        for row in self._gamesData:
-            self._consoleItems.add(row["Platform"])
         self.consoleList.addItems(sorted(self._consoleItems, key=str.lower))
+        self.genreList.addItems(sorted(self._genreItems, key=str.lower))
