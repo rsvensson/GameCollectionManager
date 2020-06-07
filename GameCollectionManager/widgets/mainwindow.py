@@ -52,17 +52,20 @@ class MainWindow(QMainWindow):
         self.allPlatforms = set()
         self.allRegions = set()
         self.allGenres = set()
+        self.allYears = set()
         for table in self.tableViewList:
             for row in table.ownedItems():
                 self.allPlatforms.add(row["Platform"])
                 self.allRegions.add(row["Region"])
+                self.allYears.add(row["Year"])
                 # Split multi-genre entries
                 for genre in row["Genre"].split(", "):
                     self.allGenres.add(genre)
 
         self.filterDock = FilterDock(sorted(self.allPlatforms, key=str.lower),
                                      sorted(self.allRegions, key=str.lower),
-                                     sorted(self.allGenres, key=str.lower))
+                                     sorted(self.allGenres, key=str.lower),
+                                     sorted(self.allYears, key=str.lower))
 
         # Overview tab
         self.overview = Overview(self.tableViewList)
@@ -193,7 +196,7 @@ class MainWindow(QMainWindow):
                     msgBox.exec_()
                     continue
 
-                # Update Platform, Region, and Genre in filter dock if necessary
+                # Update Platform, Region, Genre, and Year in filter dock if necessary
                 if data["Platform"] not in self.allPlatforms:
                     self.allPlatforms.add(data["Platform"])
                     self.filterDock.updatePlatforms(sorted(self.allPlatforms, key=str.lower))
@@ -203,6 +206,9 @@ class MainWindow(QMainWindow):
                 if data["Genre"] not in self.allGenres:
                     self.allGenres.add(data["Genre"])
                     self.filterDock.updateGenres(sorted(self.allGenres, key=str.lower))
+                if data["Year"] not in self.allYears:
+                    self.allYears.add(data["Year"])
+                    self.filterDock.updateYears(sorted(self.allYears, key=str.lower))
 
                 if "Game" in data.keys():
                     self.gamesTableView.addData(data)
@@ -240,7 +246,9 @@ class MainWindow(QMainWindow):
                 self.tableViewList[currentTab-1].deleteData(rows)
                 self.overview.updateData(self.tableViewList[currentTab-1])
                 if currentTab == 1:
-                    self.randomizer.updateLists(self.gamesTableView.ownedItems())
+                    self.randomizer.updateLists(self.gamesTableView.ownedItems(),
+                                                sorted(self.allPlatforms, key=str.lower),
+                                                sorted(self.allGenres, key=str.lower))
                 self.search()
 
     def deleteNotOwned(self):
