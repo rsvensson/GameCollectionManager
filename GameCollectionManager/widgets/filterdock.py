@@ -111,6 +111,7 @@ class FilterDock(QDockWidget):
         self._platforms.clearSelection()
         self._regions.clearSelection()
         self._genres.clearSelection()
+        self._years.clearSelection()
         self._item.setCheckState(Qt.PartiallyChecked)
         self._box.setCheckState(Qt.PartiallyChecked)
         self._manual.setCheckState(Qt.PartiallyChecked)
