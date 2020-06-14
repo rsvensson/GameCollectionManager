@@ -11,6 +11,7 @@ from PySide2.QtWidgets import QMainWindow, QDialog, QTabWidget, \
 
 from utilities.exportcsv import sql2csv
 from utilities.fetchinfo import getMobyRelease
+from utilities.fetchprice import getPriceData
 from utilities.steamlibrary import getSteamLibrary
 from widgets.importwindow import ImportWindow
 from widgets.inputwindow import InputWindow
@@ -20,7 +21,7 @@ from widgets.filterdock import FilterDock
 from widgets.sidepanel import SidePanel
 from widgets.table import Table
 
-_VERSION = "0.3.6"
+_VERSION = "0.4.0"
 
 
 class MainWindow(QMainWindow):
@@ -294,10 +295,15 @@ class MainWindow(QMainWindow):
             games = self.gamesTableView.ownedItems()
             for game in games:
                 info = getMobyRelease(game["name"], game["platform"], game["region"])
+                price = getPriceData(game["name"], game["platform"], game["region"])
+                paidPrice = game["price"].split(",")[0]
+                info["price"] = ",".join((paidPrice, price["loose"], price["cib"], price["new"]))
+                info["id"] = game["id"]
                 self.gamesTableView.updateData(info)
+
                 if "image" in info.keys() and info["image"] != "":
                     coverDir = path.join("data", "images", "covers")
-                    id = str(game["ID"]) + ".jpg"
+                    id = str(game["id"]) + ".jpg"
                     imageData = requests.get(info["image"]).content
 
                     if not path.exists(path.join(coverDir, id)):

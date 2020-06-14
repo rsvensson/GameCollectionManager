@@ -18,7 +18,7 @@ class SidePanel(QDockWidget):
 
         # Internal variables
         self._coverdir = path.join("data", "images", "covers")
-        self._id = ""
+        self._id = 0
         self._imagedata = ""
         size = [220, 16]  # Width, Height (for QLineEdits/QTextEdits)
 
@@ -420,7 +420,8 @@ class SidePanel(QDockWidget):
 
         paidPrice = str(self.paidPriceDataLE.text()).replace(",", ".")  # Better use '.' as decimal denominator
 
-        info = {"name": self.nameDataLabel.text(),
+        info = {"id": self._id,
+                "name": self.nameDataLabel.text(),
                 "platform": self.platformDataLabel.text(),
                 "publisher": self.publisherDataLabel.text(),
                 "developer": self.developerDataLabel.text(),
@@ -438,7 +439,7 @@ class SidePanel(QDockWidget):
 
         # Save imagedata to file
         if self._imagedata != "" and not path.exists(path.join(self._coverdir, self._id)):
-            with open(path.join(self._coverdir, self._id), "wb") as f:
+            with open(path.join(self._coverdir, str(self._id)), "wb") as f:
                 f.write(self._imagedata)
 
         self.saved.emit(info)
@@ -486,11 +487,11 @@ class SidePanel(QDockWidget):
         self.stackedLayout.setCurrentIndex(0)  # Show info layout initially
         self.tab.setCurrentIndex(0)  # Show details tab initially
 
-        self._id = str(info["id"]) + ".jpg"
+        self._id = info["id"]
         self._imagedata = ""
         pixmap = path.join(self._coverdir, "none.png")
-        if path.exists(path.join(self._coverdir, self._id)) and info["table"] == "games":
-            pixmap = path.join(self._coverdir, self._id)
+        if path.exists(path.join(self._coverdir, str(self._id) + ".jpg")) and info["table"] == "games":
+            pixmap = path.join(self._coverdir, str(self._id) + ".jpg")
         p = QPixmap(pixmap)
         w = self.cover.width()
         h = self.cover.height()

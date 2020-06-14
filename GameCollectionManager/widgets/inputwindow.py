@@ -362,6 +362,9 @@ class InputWindow(QDialog):
         self._genreLabel = QLabel("Genre\t ")
         self._genre = QLineEdit()
 
+        self._paidLabel = QLabel("Paid price ")
+        self._paid = QLineEdit("$0")
+
         self._commentLabel = QLabel("Comment")
         self._comment = QLineEdit()
 
@@ -392,6 +395,7 @@ class InputWindow(QDialog):
         self._hboxBoxMan = QHBoxLayout()
         self._hboxYear = QHBoxLayout()
         self._hboxGenre = QHBoxLayout()
+        self._hboxPaid = QHBoxLayout()
         self._hboxComment = QHBoxLayout()
         self._hboxComment.addStretch()
         self._hboxBtn = QHBoxLayout()
@@ -418,6 +422,8 @@ class InputWindow(QDialog):
         self._hboxYear.addWidget(self._year, 1)
         self._hboxGenre.addWidget(self._genreLabel, 0)
         self._hboxGenre.addWidget(self._genre, 1)
+        self._hboxPaid.addWidget(self._paidLabel, 0)
+        self._hboxPaid.addWidget(self._paid, 1)
         self._hboxComment.addWidget(self._commentLabel, 0)
         self._hboxComment.addSpacing(2)
         self._hboxComment.addWidget(self._comment, 1)
@@ -446,14 +452,15 @@ class InputWindow(QDialog):
         self._vbox.addLayout(self._hboxCode, 7)
         self._vbox.addLayout(self._hboxYear, 8)
         self._vbox.addLayout(self._hboxGenre, 9)
-        self._vbox.addLayout(self._hboxComment, 10)
-        self._vbox.addLayout(self._hboxBoxMan, 11)
-        self._vbox.addLayout(self._hboxBtn, 12)
+        self._vbox.addLayout(self._hboxPaid, 10)
+        self._vbox.addLayout(self._hboxComment, 11)
+        self._vbox.addLayout(self._hboxBoxMan, 12)
+        self._vbox.addLayout(self._hboxBtn, 13)
 
         self.setLayout(self._vbox)
 
         self.setWindowTitle("Add to collection")
-        self.setFixedSize(QSize(500, 320))
+        self.setFixedSize(QSize(500, 340))
         self._center()
 
     def _addPlatform(self):
@@ -590,6 +597,7 @@ class InputWindow(QDialog):
                     "manual":       "Yes" if self._manual.isChecked() else "No",
                     "year":         self._year.text(),
                     "genre":        self._genre.text(),
+                    "price":        ",".join((self._paid.text(), "$0", "$0", "$0")),
                     "comment":      self._comment.text(),
                     "publisher":    self._publisher.text(),
                     "developer":    self._developer.text(),
@@ -606,6 +614,7 @@ class InputWindow(QDialog):
                     "box":              "Yes" if self._box.isChecked() else "No",
                     "manual":           "Yes" if self._manual.isChecked() else "No",
                     "year":             self._year.text(),
+                    "price":            ",".join((self._paid.text(), "$0", "$0", "$0")),
                     "comment":          self._comment.text()
                     }
 
@@ -618,6 +627,7 @@ class InputWindow(QDialog):
                     "box":          "Yes" if self._box.isChecked() else "No",
                     "manual":       "Yes" if self._manual.isChecked() else "No",
                     "year":         self._year.text(),
+                    "price":        ",".join((self._paid.text(), "$0", "$0", "$0")),
                     "comment":      self._comment.text()
                     }
 

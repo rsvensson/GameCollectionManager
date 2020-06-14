@@ -194,7 +194,16 @@ def getPriceData(title: str, platform: str, region: str, currency="USD") -> dict
 
     pTitle = _parseTitle(title)
     pPlatform = _parsePlatform(platform)
-    fullURL = _baseURL + "/".join((_platforms[pPlatform][regions[region]], pTitle))
+
+    # Sanity check
+    if region in ("PAL A", "PAL B"):
+        region = "PAL"
+    elif region not in ("NTSC (JP)", "NTSC (NA)", "PAL"):
+        region = "NTSC (NA)"
+    if pPlatform in _platforms.keys():
+        fullURL = _baseURL + "/".join((_platforms[pPlatform][regions[region]], pTitle))
+    else:  # Platform not supported
+        return {x: "N/A" for x in priceInfo.keys()}
 
     # Error handling
     try:

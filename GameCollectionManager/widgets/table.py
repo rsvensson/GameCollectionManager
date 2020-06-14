@@ -101,11 +101,11 @@ class Table(QTableView):
         db = self.model.database()
         table = self._table
         tableColumns = {"games": ["Platform", "Name", "Region", "Code", "Game", "Box", "Manual",
-                                  "Year", "Genre", "Comment", "Publisher", "Developer", "Platforms"],
+                                  "Year", "Genre", "Comment", "Publisher", "Developer", "Platforms", "Price"],
                         "consoles": ["Platform", "Name", "Region", "Country", "Serial number",
-                                     "Console", "Box", "Manual", "Year", "Comment"],
+                                     "Console", "Box", "Manual", "Year", "Comment", "Price"],
                         "accessories": ["Platform", "Name", "Region", "Country", "Accessory",
-                                        "Box", "Manual", "Year", "Comment"]}
+                                        "Box", "Manual", "Year", "Comment", "Price"]}
 
         if isinstance(newData, dict):  # Add single item
             record = self.model.record()
@@ -283,11 +283,12 @@ class Table(QTableView):
         items = []
 
         query = QSqlQuery()
-        query.exec_("SELECT ID, Platform, Name, Region, Year, Genre "
+        query.exec_("SELECT ID, Platform, Name, Region, Year, Genre, Price "
                     f"FROM {self._table} WHERE {self._itemType}='Yes' OR Box='Yes' OR Manual='Yes'")
         while query.next():
             items.append(dict(id=query.value(0), platform=query.value(1), name=query.value(2),
-                              region=query.value(3), year=str(query.value(4)), genre=query.value(5)))
+                              region=query.value(3), year=str(query.value(4)), genre=query.value(5),
+                              price=query.value(6)))
 
         return items
 
@@ -364,7 +365,7 @@ class Table(QTableView):
         self.hideNotOwned = on
 
     def updateData(self, data: dict):
-        currentRow = self.currentIndex().row()
+        currentRow = data["id"]
 
         if self._table == "games":
             platformIndex = self.model.index(currentRow, 1)

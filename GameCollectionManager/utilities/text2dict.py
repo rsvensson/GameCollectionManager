@@ -55,6 +55,7 @@ def createGameData(infile):
                          "region": game["region"], "code": game["code"],
                          "game": "No", "box": "No", "manual": "No",
                          "year": game["year"], "genre": "", "comment": "",
-                         "publisher": "", "developer": "", "platforms": ""})
+                         "publisher": "", "developer": "", "platforms": "",
+                         "price": "$0,$0,$0,$0"})
 
     return gamedata
