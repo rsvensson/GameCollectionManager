@@ -62,9 +62,6 @@ class SidePanel(QDockWidget):
         self.savePriceButton.clicked.connect(self._saveInfo)
 
         # Info layout widgets
-        self.detailsInfoLabel = QLabel("Details:")
-        self.detailsInfoLabel.setAlignment(Qt.AlignBottom)
-        self.detailsInfoLabel.setFont(boldUnderline)
         self.nameInfoLabel = QLabel("Name:")
         self.nameInfoLabel.setFont(bold)
         self.nameDataLabel = QLabel()
@@ -111,9 +108,6 @@ class SidePanel(QDockWidget):
         self.platformsDataLabel.setMaximumHeight(50)  # Can get quite large otherwise
 
         # Edit layout widgets
-        self.detailsEditLabel = QLabel("Details:")
-        self.detailsEditLabel.setAlignment(Qt.AlignBottom)
-        self.detailsEditLabel.setFont(boldUnderline)
         self.nameEditLabel = QLabel("Name:")
         self.nameEditLabel.setFont(bold)
         self.nameDataTE = QTextEdit()
@@ -171,17 +165,22 @@ class SidePanel(QDockWidget):
 
         # Price widgets
         self.paidPriceLabel = QLabel("Paid:")
+        self.paidPriceLabel.setFont(bold)
         self.paidPriceDataLE = QLineEdit()
-        self.paidPriceDataLE.setMaximumSize(size[0], size[1])
+        self.paidPriceDataLE.setMaximumSize(60, size[1])
+        self.paidPriceDataLE.setAlignment(Qt.AlignRight)
         self.loosePriceLabel = QLabel("Loose:")
         self.loosePriceLabel.setFont(bold)
         self.loosePriceDataLabel = QLabel()
+        self.loosePriceDataLabel.setAlignment(Qt.AlignRight)
         self.cibPriceLabel = QLabel("CIB:")
         self.cibPriceLabel.setFont(bold)
         self.cibPriceDataLabel = QLabel()
+        self.cibPriceDataLabel.setAlignment(Qt.AlignRight)
         self.newPriceLabel = QLabel("New:")
         self.newPriceLabel.setFont(bold)
         self.newPriceDataLabel = QLabel()
+        self.newPriceDataLabel.setAlignment(Qt.AlignRight)
 
         """Layouts"""
         # Cover
@@ -199,8 +198,6 @@ class SidePanel(QDockWidget):
         self.priceButtonHbox.addWidget(self.savePriceButton, 0)
 
         # Info layouts
-        self.detailsInfoHbox = QHBoxLayout()
-        self.detailsInfoHbox.addWidget(self.detailsInfoLabel, 0)
         self.nameInfoHbox = QHBoxLayout()
         self.nameInfoHbox.addWidget(self.nameInfoLabel, 0)
         self.nameInfoHbox.addWidget(self.nameDataLabel, 0)
@@ -242,8 +239,6 @@ class SidePanel(QDockWidget):
         self.platformsInfoHbox.addWidget(self.platformsDataLabel, 0)
 
         # Edit layouts
-        self.detailsEditHbox = QHBoxLayout()
-        self.detailsEditHbox.addWidget(self.detailsEditLabel, 0)
         self.nameEditHbox = QHBoxLayout()
         self.nameEditHbox.addWidget(self.nameEditLabel, 0)
         self.nameEditHbox.addWidget(self.nameDataTE, 0)
@@ -264,13 +259,16 @@ class SidePanel(QDockWidget):
         self.codeEditHbox.addWidget(self.codeDataLE, 0)
         self.itemEditHbox = QHBoxLayout()
         self.itemEditHbox.addWidget(self.itemEditLabel, 0)
-        self.itemEditHbox.addWidget(self.itemDataCB, 0)  # TODO: This, and the other checkboxes, doesn't align well.
+        self.itemEditHbox.addWidget(self.itemDataCB, 0)
+        self.itemEditHbox.addSpacing(135)
         self.boxEditHbox = QHBoxLayout()
         self.boxEditHbox.addWidget(self.boxEditLabel, 0)
         self.boxEditHbox.addWidget(self.boxDataCB, 0)
+        self.boxEditHbox.addSpacing(135)
         self.manualEditHbox = QHBoxLayout()
         self.manualEditHbox.addWidget(self.manualEditLabel, 0)
         self.manualEditHbox.addWidget(self.manualDataCB, 0)
+        self.manualEditHbox.addSpacing(135)
         self.genreEditHbox = QHBoxLayout()
         self.genreEditHbox.addWidget(self.genreEditLabel, 0)
         self.genreEditHbox.addWidget(self.genreDataLE, 0)
@@ -300,7 +298,6 @@ class SidePanel(QDockWidget):
 
         # Info layout
         self.infoLayout = QVBoxLayout()
-        self.infoLayout.addLayout(self.detailsInfoHbox, 0)
         self.infoLayout.addLayout(self.nameInfoHbox, 0)
         self.infoLayout.addLayout(self.platformInfoHbox, 0)
         self.infoLayout.addLayout(self.publisherInfoHbox, 0)
@@ -317,7 +314,6 @@ class SidePanel(QDockWidget):
 
         # Edit layout
         self.editLayout = QVBoxLayout()
-        self.editLayout.addLayout(self.detailsEditHbox, 0)
         self.editLayout.addLayout(self.nameEditHbox, 0)
         self.editLayout.addLayout(self.platformEditHbox, 0)
         self.editLayout.addLayout(self.publisherEditHbox, 0)
@@ -438,8 +434,8 @@ class SidePanel(QDockWidget):
                                    self.cibPriceDataLabel.text(), self.newPriceDataLabel.text()))}
 
         # Save imagedata to file
-        if self._imagedata != "" and not path.exists(path.join(self._coverdir, self._id)):
-            with open(path.join(self._coverdir, str(self._id)), "wb") as f:
+        if self._imagedata != "" and not path.exists(path.join(self._coverdir, str(self._id) + ".jpg")):
+            with open(path.join(self._coverdir, str(self._id) + ".jpg"), "wb") as f:
                 f.write(self._imagedata)
 
         self.saved.emit(info)
@@ -482,10 +478,10 @@ class SidePanel(QDockWidget):
     def showDetails(self, info: dict):
         if not self.isVisible():
             self.setVisible(True)
+            self.tab.setCurrentIndex(0)  # Show details tab initially
         if self.editDetailsButton.isChecked():
             self.editDetailsButton.setChecked(False)
         self.stackedLayout.setCurrentIndex(0)  # Show info layout initially
-        self.tab.setCurrentIndex(0)  # Show details tab initially
 
         self._id = info["id"]
         self._imagedata = ""
