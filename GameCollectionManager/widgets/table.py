@@ -83,10 +83,11 @@ class Table(QTableView):
 
         self.verticalHeader().setVisible(False)  # Don't show row headers
         self.setColumnHidden(0, True)  # Don't show ID field
-        # Hide the Publisher, Developer, and Platforms columns since it's for internal use
+        # Hide the Publisher, Developer, Platforms and Price columns since it's for internal use
         self.setColumnHidden(11, True)
         self.setColumnHidden(12, True)
         self.setColumnHidden(13, True)
+        self.setColumnHidden(14, True)
         self.setAlternatingRowColors(False)
         self.setShowGrid(True)
         self.resizeRowsToContents()
@@ -308,11 +309,11 @@ class Table(QTableView):
     def rowData(self):
         rowData = {}
         columns = {"games": ["id", "platform", "name", "region", "code", "game", "box", "manual", "year", "genre",
-                             "comment", "publisher", "developer", "platforms"],
+                             "comment", "publisher", "developer", "platforms", "price"],
                    "consoles": ["id", "platform", "name", "region", "country", "serial number", "console", "box",
-                                "manual", "year", "comment"],
+                                "manual", "year", "comment", "price"],
                    "accessories": ["id", "platform", "name", "region", "country", "accessory", "box", "manual",
-                                   "year", "comment"]}
+                                   "year", "comment", "price"]}
 
         rowid = self.model.index(self.currentIndex().row(), 0).data()
         query = QSqlQuery()
@@ -379,6 +380,7 @@ class Table(QTableView):
             publisherIndex = self.model.index(currentRow, 11)
             developerIndex = self.model.index(currentRow, 12)
             platformsIndex = self.model.index(currentRow, 13)
+            priceIndex = self.model.index(currentRow, 14)
             if "platform" in data.keys():
                 self.model.setData(platformIndex, data["platform"])
             if "name" in data.keys():
@@ -405,6 +407,8 @@ class Table(QTableView):
                 self.model.setData(developerIndex, data["developer"])
             if "platforms" in data.keys():
                 self.model.setData(platformsIndex, data["platforms"])
+            if "price" in data.keys():
+                self.model.setData(priceIndex, data["price"])
 
         self.resizeRowsToContents()
 

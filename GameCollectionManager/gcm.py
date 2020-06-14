@@ -26,12 +26,13 @@ def createDB(dbpath):
     cur = con.cursor()
     cur.execute("CREATE TABLE IF NOT EXISTS games "
                 "(ID INTEGER PRIMARY KEY, Platform, Name, Region, Code, Game, Box, Manual, Year, Genre, Comment, "
-                "Publisher, Developer, Platforms);")
+                "Publisher, Developer, Platforms, Price);")
     cur.execute("CREATE TABLE IF NOT EXISTS consoles "
                 "(ID INTEGER PRIMARY KEY, Platform, Name, Region, Country, 'Serial number', Console, Box, Manual, "
-                "Year, Comment);")
+                "Year, Comment, Price);")
     cur.execute("CREATE TABLE IF NOT EXISTS accessories "
-                "(ID INTEGER PRIMARY KEY, Platform, Name, Region, Country, Accessory, Box, Manual, Year, Comment);")
+                "(ID INTEGER PRIMARY KEY, Platform, Name, Region, Country, Accessory, Box, Manual, Year,"
+                "Comment, Price);")
     con.commit()
     con.close()
 

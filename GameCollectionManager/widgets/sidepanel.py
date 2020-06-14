@@ -1,13 +1,13 @@
 #!/usr/bin/env python
-from os import path
-
 import requests
+from os import path
 from PySide2.QtCore import Signal
 from PySide2.QtGui import Qt, QPixmap, QFont
 from PySide2.QtWidgets import QDockWidget, QLabel, QVBoxLayout, QHBoxLayout, QWidget, QPushButton, QFrame, QLineEdit, \
-    QTextEdit, QStackedLayout, QCheckBox, QComboBox
+    QTextEdit, QStackedLayout, QCheckBox, QComboBox, QTabWidget
 
 from utilities.fetchinfo import getMobyRelease
+from utilities.fetchprice import getPriceData
 
 
 class SidePanel(QDockWidget):
@@ -50,11 +50,16 @@ class SidePanel(QDockWidget):
         self.fetchInfoButton = QPushButton("Fetch missing info")
         self.fetchInfoButton.setToolTip("Try to fetch info from MobyGames")
         self.fetchInfoButton.clicked.connect(self._fetchInfo)
-        self.editButton = QPushButton("Edit")
-        self.editButton.setCheckable(True)
-        self.editButton.clicked.connect(self._edit)
-        self.saveButton = QPushButton("Save")
-        self.saveButton.clicked.connect(self._saveInfo)
+        self.editDetailsButton = QPushButton("Edit")
+        self.editDetailsButton.setCheckable(True)
+        self.editDetailsButton.clicked.connect(self._editDetails)
+        self.saveDetailsButton = QPushButton("Save")
+        self.saveDetailsButton.clicked.connect(self._saveInfo)
+        self.fetchPriceButton = QPushButton("Fetch price data")
+        self.fetchPriceButton.setToolTip("Try to fetch price data from Pricecharting")
+        self.fetchPriceButton.clicked.connect(self._fetchPriceData)
+        self.savePriceButton = QPushButton("Save")
+        self.savePriceButton.clicked.connect(self._saveInfo)
 
         # Info layout widgets
         self.detailsInfoLabel = QLabel("Details:")
@@ -164,17 +169,34 @@ class SidePanel(QDockWidget):
         self.platformsDataTE = QTextEdit()
         self.platformsDataTE.setMaximumSize(size[0], size[1] * 2)
 
+        # Price widgets
+        self.paidPriceLabel = QLabel("Paid:")
+        self.paidPriceDataLE = QLineEdit()
+        self.paidPriceDataLE.setMaximumSize(size[0], size[1])
+        self.loosePriceLabel = QLabel("Loose:")
+        self.loosePriceLabel.setFont(bold)
+        self.loosePriceDataLabel = QLabel()
+        self.cibPriceLabel = QLabel("CIB:")
+        self.cibPriceLabel.setFont(bold)
+        self.cibPriceDataLabel = QLabel()
+        self.newPriceLabel = QLabel("New:")
+        self.newPriceLabel.setFont(bold)
+        self.newPriceDataLabel = QLabel()
+
         """Layouts"""
         # Cover
         self.coverVbox = QVBoxLayout()
         self.coverVbox.addWidget(self.cover, 1)
         self.coverVbox.addWidget(hline, 0)
 
-        # Button
-        self.buttonHbox = QHBoxLayout()
-        self.buttonHbox.addWidget(self.fetchInfoButton, 0)
-        self.buttonHbox.addWidget(self.editButton, 0)
-        self.buttonHbox.addWidget(self.saveButton, 0)
+        # Buttons
+        self.detailsButtonHbox = QHBoxLayout()
+        self.detailsButtonHbox.addWidget(self.fetchInfoButton, 0)
+        self.detailsButtonHbox.addWidget(self.editDetailsButton, 0)
+        self.detailsButtonHbox.addWidget(self.saveDetailsButton, 0)
+        self.priceButtonHbox = QHBoxLayout()
+        self.priceButtonHbox.addWidget(self.fetchPriceButton, 0)
+        self.priceButtonHbox.addWidget(self.savePriceButton, 0)
 
         # Info layouts
         self.detailsInfoHbox = QHBoxLayout()
@@ -262,6 +284,20 @@ class SidePanel(QDockWidget):
         self.platformsEditHbox.addWidget(self.platformsEditLabel, 0)
         self.platformsEditHbox.addWidget(self.platformsDataTE, 0)
 
+        # Price layouts
+        self.paidPriceHbox = QHBoxLayout()
+        self.paidPriceHbox.addWidget(self.paidPriceLabel, 0)
+        self.paidPriceHbox.addWidget(self.paidPriceDataLE, 0)
+        self.loosePriceHbox = QHBoxLayout()
+        self.loosePriceHbox.addWidget(self.loosePriceLabel, 0)
+        self.loosePriceHbox.addWidget(self.loosePriceDataLabel, 0)
+        self.cibPriceHbox = QHBoxLayout()
+        self.cibPriceHbox.addWidget(self.cibPriceLabel, 0)
+        self.cibPriceHbox.addWidget(self.cibPriceDataLabel, 0)
+        self.newPriceHbox = QHBoxLayout()
+        self.newPriceHbox.addWidget(self.newPriceLabel, 0)
+        self.newPriceHbox.addWidget(self.newPriceDataLabel, 0)
+
         # Info layout
         self.infoLayout = QVBoxLayout()
         self.infoLayout.addLayout(self.detailsInfoHbox, 0)
@@ -296,6 +332,15 @@ class SidePanel(QDockWidget):
         self.editLayout.addLayout(self.commentEditHbox, 0)
         self.editLayout.addLayout(self.platformsEditHbox, 0)
 
+        # Price layout
+        self.priceLayout = QVBoxLayout()
+        self.priceLayout.addLayout(self.paidPriceHbox, 0)
+        self.priceLayout.addLayout(self.loosePriceHbox, 0)
+        self.priceLayout.addLayout(self.cibPriceHbox, 0)
+        self.priceLayout.addLayout(self.newPriceHbox, 0)
+        self.priceLayout.addStretch(1)
+        self.priceLayout.addLayout(self.priceButtonHbox, 0)
+
         """Main layout"""
         self.infoWidget = QWidget()
         self.infoWidget.setLayout(self.infoLayout)
@@ -307,17 +352,23 @@ class SidePanel(QDockWidget):
         self.stackedLayout.addWidget(self.editWidget)
         self.stackedLayout.setCurrentIndex(0)  # Default to info layout
 
-        self.mainLayout = QVBoxLayout()
-        self.mainLayout.addLayout(self.coverVbox, 1)
-        self.mainLayout.addLayout(self.stackedLayout, 0)
-        self.mainLayout.addLayout(self.buttonHbox, 0)
+        self.detailsLayout = QVBoxLayout()
+        self.detailsLayout.addLayout(self.coverVbox, 1)
+        self.detailsLayout.addLayout(self.stackedLayout, 0)
+        self.detailsLayout.addLayout(self.detailsButtonHbox, 0)
+        self.detailsWidget = QWidget()
+        self.detailsWidget.setLayout(self.detailsLayout)
 
-        self.mainWidget = QWidget()
-        self.mainWidget.setLayout(self.mainLayout)
-        self.setWidget(self.mainWidget)
+        self.priceWidget = QWidget()
+        self.priceWidget.setLayout(self.priceLayout)
 
-    def _edit(self):
-        if self.editButton.isChecked():
+        self.tab = QTabWidget()
+        self.tab.addTab(self.detailsWidget, "Details")
+        self.tab.addTab(self.priceWidget, "Price info")
+        self.setWidget(self.tab)
+
+    def _editDetails(self):
+        if self.editDetailsButton.isChecked():
             self._updateWidgetData(1)
             self.stackedLayout.setCurrentIndex(1)
         else:
@@ -350,12 +401,24 @@ class SidePanel(QDockWidget):
         if self.platformsDataLabel.text() == "":
             self.platformsDataLabel.setText(info["platforms"])
         # Update edit widgets if we're editing:
-        if self.editButton.isChecked():
+        if self.editDetailsButton.isChecked():
             self._updateWidgetData(1)
 
+    def _fetchPriceData(self):
+        name = self.nameDataLabel.text()
+        platform = self.platformDataLabel.text()
+        region = self.regionDataLabel.text()
+        prices = getPriceData(name, platform, region)
+
+        self.loosePriceDataLabel.setText(prices["loose"])
+        self.cibPriceDataLabel.setText(prices["cib"])
+        self.newPriceDataLabel.setText(prices["new"])
+
     def _saveInfo(self):
-        if self.editButton.isChecked():
+        if self.editDetailsButton.isChecked():
             self._updateWidgetData(0)
+
+        paidPrice = str(self.paidPriceDataLE.text()).replace(",", ".")  # Better use '.' as decimal denominator
 
         info = {"name": self.nameDataLabel.text(),
                 "platform": self.platformDataLabel.text(),
@@ -369,7 +432,9 @@ class SidePanel(QDockWidget):
                 "box": self.boxDataLabel.text(),
                 "manual": self.manualDataLabel.text(),
                 "comment": self.commentDataLabel.text(),
-                "platforms": self.platformsDataLabel.text()}
+                "platforms": self.platformsDataLabel.text(),
+                "price": ",".join((paidPrice, self.loosePriceDataLabel.text(),
+                                   self.cibPriceDataLabel.text(), self.newPriceDataLabel.text()))}
 
         # Save imagedata to file
         if self._imagedata != "" and not path.exists(path.join(self._coverdir, self._id)):
@@ -416,9 +481,10 @@ class SidePanel(QDockWidget):
     def showDetails(self, info: dict):
         if not self.isVisible():
             self.setVisible(True)
-        if self.editButton.isChecked():
-            self.editButton.setChecked(False)
+        if self.editDetailsButton.isChecked():
+            self.editDetailsButton.setChecked(False)
         self.stackedLayout.setCurrentIndex(0)  # Show info layout initially
+        self.tab.setCurrentIndex(0)  # Show details tab initially
 
         self._id = str(info["id"]) + ".jpg"
         self._imagedata = ""
@@ -430,6 +496,9 @@ class SidePanel(QDockWidget):
         h = self.cover.height()
         self.cover.setPixmap(p.scaled(w, h, Qt.KeepAspectRatio, Qt.SmoothTransformation))
 
+        # Price data is stored in form $x,$x,$x,$x [paid, loose, cib, new]
+        paidPrice, loosePrice, cibPrice, newPrice = info["price"].split(",")
+
         self.nameDataLabel.setText(info["name"])
         self.platformDataLabel.setText(info["platform"])
         self.regionDataLabel.setText(info["region"])
@@ -437,6 +506,10 @@ class SidePanel(QDockWidget):
         self.manualDataLabel.setText(info["manual"])
         self.yearDataLabel.setText(str(info["year"]))
         self.commentDataLabel.setText(info["comment"])
+        self.paidPriceDataLE.setText(paidPrice)
+        self.loosePriceDataLabel.setText(loosePrice)
+        self.cibPriceDataLabel.setText(cibPrice)
+        self.newPriceDataLabel.setText(newPrice)
         if info["table"] == "games":
             self.publisherDataLabel.setText(info["publisher"])
             self.developerDataLabel.setText(info["developer"])
@@ -459,8 +532,8 @@ class SidePanel(QDockWidget):
             self.fetchInfoButton.setEnabled(True)
             self.fetchInfoButton.setVisible(True)
             self.fetchInfoButton.setToolTip("Try to fetch info from MobyGames")
-            self.saveButton.setEnabled(True)
-            self.saveButton.setVisible(True)
+            self.saveDetailsButton.setEnabled(True)
+            self.saveDetailsButton.setVisible(True)
         elif info["table"] == "consoles":
             self.genreInfoLabel.setText("Country:")
             self.genreEditLabel.setText("Country:")

@@ -318,6 +318,50 @@ def _parseTitle(title: str) -> str:
     return title
 
 
+def _parsePlatform(platform: str) -> str:
+    # Some substitutions for certain platforms:
+    if platform.lower() == "game & watch":
+        platform = "Dedicated handheld"
+    elif platform.lower() in ("mega drive", "sega mega drive"):  # Because Genesis is a band not a console
+        platform = "Genesis"
+    elif platform.lower() == "sega dreamcast":
+        platform = "Dreamcast"
+    elif platform.lower() in ("sega mega cd", "mega cd"):
+        platform = "Sega CD"
+    elif platform.lower() == "steam":
+        platform = "Windows"  # Well it could be Linux or Mac as well but...
+    elif platform.lower() in ("nintendo entertainment system", "famicom disk system"):
+        platform = "NES"
+    elif platform.lower() == "nintendo gamecube":
+        platform = "GameCube"
+    elif platform.lower() == "nintendo wii":
+        platform = "Wii"
+    elif platform.lower() == "nintendo wii u":
+        platform = "Wii U"
+    elif platform.lower() == "atari lynx":
+        platform = "Lynx"
+    elif platform.lower() == "magnavox odyssey²":
+        platform = "Odyssey 2"
+    elif platform.lower() == "neo geo aes":
+        platform = "Neo Geo"
+    elif platform.lower() == "nintendo 64dd":
+        platform = "Nintendo 64"
+    elif platform.lower() == "playstation portable":
+        platform = "PSP"
+    elif platform.lower() == "playstation vita":
+        platform = "PS Vita"
+    elif platform.lower() == "turbografx-16 cd":
+        platform = "TurboGrafx CD"
+    elif platform.lower() in ("neo geo aes", "neo geo mvs"):
+        platform = "Neo Geo"
+    elif platform.lower() == "fairchild channel f":
+        platform = "Channel F"
+    elif platform.lower() == "msx 2":
+        platform = "MSX"
+
+    return platform
+
+
 def _trySuggestions(title: str, platform: str):
     # Checks if the suggested URLs match
 
@@ -519,45 +563,14 @@ def getMobyInfo(title: str, platform: str) -> dict:
                    "#coreGameGenre > div:nth-child(2) > div:nth-child(11)",
                    "#coreGameGenre > div:nth-child(2) > div:nth-child(12)"]
 
-    pTitle = _parseTitle(title)
-
-    # Some substitutions for certain platforms:
     if platform.lower() == "game & watch":
         title = "Game & Watch Wide Screen: " + title  # TODO: Need to figure out something better for each variety
-        platform = "Dedicated handheld"
-    elif platform.lower() in ("mega drive", "sega mega drive"):  # Because Genesis is a band not a console
-        platform = "Genesis"
-    elif platform.lower() == "sega dreamcast":
-        platform = "Dreamcast"
-    elif platform.lower() in ("sega mega cd", "mega cd"):
-        platform = "Sega CD"
-    elif platform.lower() == "steam":
-        platform = "Windows"  # Well it could be Linux or Mac as well but...
-    elif platform.lower() in ("nintendo entertainment system", "famicom disk system"):
-        platform = "NES"
-    elif platform.lower() == "nintendo gamecube":
-        platform = "GameCube"
-    elif platform.lower() == "nintendo wii":
-        platform = "Wii"
-    elif platform.lower() == "nintendo wii u":
-        platform = "Wii U"
-    elif platform.lower() == "atari lynx":
-        platform = "Lynx"
-    elif platform.lower() == "magnavox odyssey²":
-        platform = "Odyssey 2"
-    elif platform.lower() == "neo geo aes":
-        platform = "Neo Geo"
-    elif platform.lower() == "nintendo 64dd":
-        platform = "Nintendo 64"
-    elif platform.lower() == "playstation portable":
-        platform = "PSP"
-    elif platform.lower() == "playstation vita":
-        platform = "PS Vita"
-    elif platform.lower() == "turbografx-16 cd":
-        platform = "TurboGrafx CD"
+
+    pTitle = _parseTitle(title)
+    pPlatform = _parsePlatform(platform)
 
     # Get data
-    fullURL = _baseURL + "/".join((_platforms[platform], pTitle, "release-info"))
+    fullURL = _baseURL + "/".join((_platforms[pPlatform], pTitle, "release-info"))
     try:
         res = requests.get(fullURL)
     except socket.gaierror:
@@ -569,7 +582,7 @@ def getMobyInfo(title: str, platform: str) -> dict:
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
     except requests.exceptions.HTTPError:
         # Try the suggested results on the 404 page
-        res, title, fullURL = _trySuggestions(title, platform)
+        res, title, fullURL = _trySuggestions(title, pPlatform)
         if res is None:
             # Couldn't find anything. Return empty values
             return {x: "" for x in mobyCSSData.keys()}
@@ -579,9 +592,9 @@ def getMobyInfo(title: str, platform: str) -> dict:
     for key in mobyCSSData.keys():
         pf = soup.select(_platformCSS)
         pf = pf[0].text.strip() if len(pf) > 0 else ""
-        if pf.lower() != platform.lower():
+        if pf.lower() != pPlatform.lower():
             # Try some alternative URLs
-            res, fullURL = _tryAlternatives(title, platform)
+            res, fullURL = _tryAlternatives(title, pPlatform)
             if res is None:  # Nothing was found.
                 return {x: "" for x in mobyCSSData.keys()}
 
@@ -594,8 +607,8 @@ def getMobyInfo(title: str, platform: str) -> dict:
                 mobyCSSData[key] = ucd.normalize("NFKD", value[0].text.split("|", 1)[0].strip())
                 # Also make sure to insert the platform we're looking for
                 platforms = mobyCSSData[key].split(", ")
-                if platform not in platforms:
-                    platforms.append(platform)
+                if pPlatform not in platforms:
+                    platforms.append(pPlatform)
                     mobyCSSData[key] = ", ".join(sorted(platforms, key=str.lower))
 
             elif key == "genre":
