@@ -107,6 +107,7 @@ class MainWindow(QMainWindow):
         self.viewMenu = self.menuBar().addMenu(self.tr("&View"))
         self.viewMenu.addAction(self.buttonActions("owned"))
         self.viewMenu.addAction(self.buttonActions("delnotowned"))
+        self.viewMenu.addAction(self.buttonActions("value"))
         self.helpMenu = self.menuBar().addMenu(self.tr("&Help"))
         self.helpMenu.addAction(self.buttonActions("about"))
 
@@ -453,11 +454,6 @@ class MainWindow(QMainWindow):
         expAct.setToolTip("Export table as CSV file")
         expAct.triggered.connect(self.exportToCSV)
 
-        # not used
-        savAct = QAction(QIcon.fromTheme("document-save"), "&Save tables", self)
-        savAct.setShortcut("Ctrl+S")
-        savAct.setToolTip("Saves the tables to the database")
-
         impAct = QAction(QIcon.fromTheme("insert-object"), "&Import platform template...", self)
         impAct.setShortcut("Ctrl+I")
         impAct.setToolTip("Import games to database")
@@ -491,10 +487,14 @@ class MainWindow(QMainWindow):
         fetchAct.setToolTip("Tries to fetch info for all games from MobyGames")
         fetchAct.triggered.connect(self.fetchInfo)
 
+        valAct = QAction("Total value of collection", self)
+        valAct.setToolTip("Rough estimate of the total value of collection")
+        valAct.triggered.connect(self.totalValue)
+
         act = {"add": addAct, "del": delAct, "det": detAct, "export": expAct,
                "import": impAct, "steam": stmAct, "owned": ownAct,
                "delnotowned": delNotOwned, "about": aboutAct, "exit": exitAct,
-               "info": infoAct, "fetch": fetchAct}
+               "info": infoAct, "fetch": fetchAct, "value": valAct}
 
         return act.get(action)
 
@@ -563,6 +563,26 @@ class MainWindow(QMainWindow):
             self.tableViewList[currentTab-1].filterTable(self.searchBox.text(), self.filterDock.getSelections())
         self.search()
 
+    def totalValue(self):
+        value = 0.0
+        items = []
+        for table in self.tableViewList:
+            items.extend(table.ownedItems())
+
+        for item in items:
+            if item["item"] == "Yes" and item["box"] == "Yes" and item["manual"] == "Yes":
+                price = item["price"].split(",")[2]
+            else:
+                price = item["price"].split(",")[1]
+
+            if price == "N/A":
+                value += 0
+                continue
+            value += float(price.lstrip("$"))
+
+        displayMsgBox("Collection value", "Rough estimate of collection's value.",
+                      f"<h2>${str(value)}</h2>", "information")
+
     def updateStatusbar(self):
         currentTab = self.tab.currentIndex()
         itemType = ["games", "consoles", "accessories"]
@@ -586,3 +606,21 @@ class MainWindow(QMainWindow):
             if len(platforms) > 0 or len(genres) > 0:
                 self.statusBar().showMessage(f"Selecting from {self.randomizer.gameCount()} games.")
             return
+
+
+def displayMsgBox(title: str, message: str, info: str, messageType: str):
+    icons = {"warning": QMessageBox.Warning,
+             "critical": QMessageBox.Critical,
+             "question": QMessageBox.Question,
+             "information": QMessageBox.Information}
+
+    msgBox = QMessageBox()
+    msgBox.setWindowTitle(title)
+    msgBox.setText(message)
+    msgBox.setInformativeText(info)
+    msgBox.setIcon(icons[messageType])
+    if messageType == "question":
+        msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
+        msgBox.setDefaultButton(QMessageBox.Cancel)
+
+    return msgBox.exec_()

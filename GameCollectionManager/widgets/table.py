@@ -84,6 +84,8 @@ class Table(QTableView):
         self.verticalHeader().setVisible(False)  # Don't show row headers
         self.setColumnHidden(0, True)  # Don't show ID field
         # Hide the Publisher, Developer, Platforms and Price columns since it's for internal use
+        if self._table == "accessories":
+            self.setColumnHidden(10, True)
         self.setColumnHidden(11, True)
         self.setColumnHidden(12, True)
         self.setColumnHidden(13, True)
@@ -279,16 +281,16 @@ class Table(QTableView):
         has either the item itself, the box, or the manual.
         :return: (list) List of items
         """
-
+        itemName = "Game" if self._table == "games" else "Console" if self._table == "consoles" else "Accessory"
         items = []
 
         query = QSqlQuery()
-        query.exec_("SELECT ID, Platform, Name, Region, Year, Genre, Price "
+        query.exec_(f"SELECT ID, Platform, Name, Region, {itemName}, Box, Manual, Year, Genre, Price "
                     f"FROM {self._table} WHERE {self._itemType}='Yes' OR Box='Yes' OR Manual='Yes'")
         while query.next():
             items.append(dict(id=query.value(0), platform=query.value(1), name=query.value(2),
-                              region=query.value(3), year=str(query.value(4)), genre=query.value(5),
-                              price=query.value(6)))
+                              region=query.value(3), item=query.value(4), box=query.value(5), manual=query.value(6),
+                              year=str(query.value(7)), genre=query.value(8), price=query.value(9)))
 
         return items
 

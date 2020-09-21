@@ -89,10 +89,12 @@ _platforms = {  # Platform: [NTSC (JP), NTSC (NA), PAL]
 def _parseTitle(title: str) -> str:
     # Parse game name to fit Pricecharting's standards for URLs
 
-    badchars = '''!()[]{};:'"\,<>./?@#$%^&*~ōūåäö°'''
+    badchars = '''!()[]{};:'"\,<>./?@#$%^*~åäö°'''
     title = title.lower()  # Make lowercase
     title = title.strip()  # Remove surrounding whitespace
     title = title.replace("é", "e")  # Pricecharting uses e everywhere instead of é, i.e. Pokemon rather than Pokémon
+    title = title.replace("ō", "ou")  # Similarly, ō seems to mostly be ou
+    title = title.replace("ū", "u")  # And again
 
     # Some people like to have the leading "the" after the main part of the title, e.g. "Legend of Zelda, the"
     title = title.replace(", the", "")
@@ -200,10 +202,11 @@ def getPriceData(title: str, platform: str, region: str, currency="USD") -> dict
         region = "PAL"
     elif region not in ("NTSC (JP)", "NTSC (NA)", "PAL"):
         region = "NTSC (NA)"
-    if pPlatform in _platforms.keys():
-        fullURL = _baseURL + "/".join((_platforms[pPlatform][regions[region]], pTitle))
-    else:  # Platform not supported
+    if pPlatform not in _platforms.keys():  # Platform not supported
         return {x: "N/A" for x in priceInfo.keys()}
+
+    fullURL = _baseURL + "/".join((_platforms[pPlatform][regions[region]], pTitle))
+    print(fullURL)
 
     # Error handling
     try:
@@ -216,7 +219,7 @@ def getPriceData(title: str, platform: str, region: str, currency="USD") -> dict
     except requests.exceptions.HTTPError:  # Not found
         return {x: "N/A" for x in priceInfo.keys()}
     if len(soup.select("#product_name > a:nth-child(1)")) == 0:  # Didn't find the right page, try suggestions
-        soup = _trySuggestions(platform, regions[region], soup)
+        soup = _trySuggestions(pPlatform, regions[region], soup)
         if soup is None:  # Still couldn't find anything
             return {x: "N/A" for x in priceInfo.keys()}
 
@@ -227,6 +230,10 @@ def getPriceData(title: str, platform: str, region: str, currency="USD") -> dict
         rates[cur.strip('"')] = float(rate.rstrip("};"))
 
     for key, val in priceInfo.items():
+        if len(soup.select(val)) == 0:  # Maybe not right page?
+            priceInfo[key] = "N/A"
+            continue
+
         price = ucd.normalize("NFKD", soup.select(val)[0].text.strip()).lstrip("$")
         if price == "N/A":  # No price found
             priceInfo[key] = "N/A"

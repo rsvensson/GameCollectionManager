@@ -55,8 +55,8 @@ class SidePanel(QDockWidget):
         self.editDetailsButton.clicked.connect(self._editDetails)
         self.saveDetailsButton = QPushButton("Save")
         self.saveDetailsButton.clicked.connect(self._saveInfo)
-        self.fetchPriceButton = QPushButton("Fetch price data")
-        self.fetchPriceButton.setToolTip("Try to fetch price data from Pricecharting")
+        self.fetchPriceButton = QPushButton("Update price data")
+        self.fetchPriceButton.setToolTip("Try to update price data from Pricecharting")
         self.fetchPriceButton.clicked.connect(self._fetchPriceData)
         self.savePriceButton = QPushButton("Save")
         self.savePriceButton.clicked.connect(self._saveInfo)
@@ -549,7 +549,7 @@ class SidePanel(QDockWidget):
             self.platformsDataLabel.setVisible(False)
             self.fetchInfoButton.setEnabled(False)
             self.fetchInfoButton.setToolTip("Not available for Consoles tab")
-        elif info["Table"] == "accessories":
+        elif info["table"] == "accessories":
             self.genreInfoLabel.setText("Country:")
             self.genreEditLabel.setText("Country:")
             self.genreDataLabel.setText(info["country"])

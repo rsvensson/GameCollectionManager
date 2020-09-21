@@ -570,6 +570,8 @@ def getMobyInfo(title: str, platform: str) -> dict:
     pPlatform = _parsePlatform(platform)
 
     # Get data
+    if pPlatform not in _platforms.keys():  # Platform not supported
+        return {x: "" for x in mobyCSSData.keys()}
     fullURL = _baseURL + "/".join((_platforms[pPlatform], pTitle, "release-info"))
     try:
         res = requests.get(fullURL)
