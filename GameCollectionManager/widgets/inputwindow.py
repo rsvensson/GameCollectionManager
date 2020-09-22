@@ -11,7 +11,7 @@ class InputWindow(QDialog):
        platforms: the platforms from the currently loaded
                   collection."""
 
-    def __init__(self, parent=None):
+    def __init__(self, platforms, parent=None):
         super(InputWindow, self).__init__(parent=parent)
 
         self.setContentsMargins(5, 5, 5, 5)
@@ -147,6 +147,7 @@ class InputWindow(QDialog):
                            'Mainframe',
                            'Mattel Aquarius',
                            'MeeGo',
+                           'Mega Drive',
                            'Memotech MTX',
                            'Microbee',
                            'Microtan 65',
@@ -301,6 +302,12 @@ class InputWindow(QDialog):
                            'tvOS',
                            'watchOS',
                            'webOS']
+
+        # Add any platforms in user's collection that doesn't exist in the platform list
+        for platform in platforms:
+            if platform not in self._platforms:
+                self._platforms.append(platform)
+        self._platforms.sort()
 
         # For holding the internal platforms column's data
         self._platformsData = ""

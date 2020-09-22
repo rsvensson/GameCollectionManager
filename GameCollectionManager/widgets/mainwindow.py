@@ -191,7 +191,7 @@ class MainWindow(QMainWindow):
 
         # Loop until user enters valid data
         while True:
-            self.addWindow = InputWindow()
+            self.addWindow = InputWindow(self.allPlatforms)
             if self.addWindow.exec_() == QDialog.Accepted:
                 data = self.addWindow.returnData()
 
