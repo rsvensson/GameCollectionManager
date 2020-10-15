@@ -501,5 +501,4 @@ class TableModel(QSqlTableModel):
             data = "Yes" if value == Qt.Checked else "No"
             return super().setData(index, data, Qt.EditRole)
         else:
-            logger.info(f"{index.row()}, {index.column()}, {value}")
             return super().setData(index, value, role)

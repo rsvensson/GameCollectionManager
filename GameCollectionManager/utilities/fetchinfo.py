@@ -5,6 +5,8 @@ import requests
 import unicodedata as ucd  # For converting '\xa0' to spaces etc
 from time import sleep
 
+from utilities.log import logger
+
 _baseURL = "https://www.mobygames.com/game/"
 _titleCSS = ".niceHeaderTitle > a:nth-child(1)"  # CSS for title string
 _platformCSS = ".niceHeaderTitle > small:nth-child(2) > a:nth-child(1)"  # CSS for platform string
@@ -310,6 +312,7 @@ def _parseTitle(title: str) -> str:
         temp.append(letter)
     title = "".join(temp)
     title = title.replace(" ", "-")  # Replace spaces inside string with hyphens
+    title = title.replace("--", "-")  # Fix for double hyphen (can happen if there's a spaces around a bad char, like &)
 
     # Remove leading "the"
     if title[:4] == "the-":
@@ -402,6 +405,7 @@ def _trySuggestions(title: str, platform: str):
     if len(res) > 0:
         suggestionURLs = [u.strip('"') for u in url.findall(res.pop().decode())]
     else:  # No suggestions found
+        logger.warning("Couldn't find any suggestions.")
         return None, title, ""
 
     # Try each suggestion
@@ -411,6 +415,7 @@ def _trySuggestions(title: str, platform: str):
         temp.insert(4, _platforms[platform])
         temp.append("release-info")
         newurl = "/".join(temp)
+        logger.info(f"Trying with url: {newurl}")
 
         # Get the platform and title strings
         res = requests.get(newurl)
@@ -421,6 +426,7 @@ def _trySuggestions(title: str, platform: str):
         if len(te) == 0 or len(pf) == 0:  # This shouldn't happen but who knows
             continue
         if pf[0].text.strip() != platform:
+            logger.info("Not the correct platform.")
             continue  # Not the right platform, abort
 
         newtitle = te[0].text.strip()
@@ -432,6 +438,7 @@ def _trySuggestions(title: str, platform: str):
                 newtitle.lower() == title.replace("oo", "ō").lower() or \
                 newtitle.lower() == title.replace("ū", "uu").lower() or \
                 newtitle.lower() == title.replace("uu", "ū").lower():
+            logger.info("Found match at url.")
             return res, title, newurl
 
         else:
@@ -444,10 +451,12 @@ def _trySuggestions(title: str, platform: str):
                     newtitle.lower() == t.replace("oo", "ō").lower() or \
                     newtitle.lower() == t.replace("ū", "uu").lower() or \
                     newtitle.lower() == t.replace("uu", "ū").lower():
+                logger.info(f"Found match at url with title '{t}'.")
                 return res, t, newurl
 
             else:
                 # Check the alternative titles (Japanese games often have different titles for example)
+                logger.info(f"Platform matches, but not title ({newtitle}). Trying to find it in 'Alternate Titles'.")
                 alturl = newurl.split("/")
                 alturl = "/".join(alturl[:-1])  # Remove the 'release-info' part. Alt titles are on the main page.
                 altres = requests.get(alturl)
@@ -461,13 +470,17 @@ def _trySuggestions(title: str, platform: str):
                         break
 
                 if len(temp) == 0:  # Still nothing, give up
+                    logger.info("No alternative titles found on page.")
                     continue
 
                 altTitles = [t.strip('"') for t in url.findall(temp[0].text)]  # Not URLs but regex rule is the same
                 for alt in altTitles:
+                    logger.info(f"Found alternative title: '{alt}'.")
                     if alt.lower() == title.lower():
+                        logger.info("Found match at url.")
                         return res, title, newurl
                     elif alt.lower() == t.lower():
+                        logger.info(f"Found match at url with title '{t}'.")
                         return res, t, newurl
 
                     # Sometimes ō is transliterated as ou or oo, and ū as uu
@@ -477,6 +490,7 @@ def _trySuggestions(title: str, platform: str):
                             alt.lower() == title.replace("oo", "ō").lower() or \
                             alt.lower() == title.replace("ū", "uu").lower() or \
                             alt.lower() == title.replace("uu", "ū").lower():
+                        logger.info(f"Found matching alternative title'.")
                         return res, title, newurl
                     elif alt.lower() == t.replace("ō", "ou").lower() or \
                             alt.lower() == t.replace("ou", "ō").lower() or \
@@ -484,11 +498,13 @@ def _trySuggestions(title: str, platform: str):
                             alt.lower() == t.replace("oo", "ō").lower() or \
                             alt.lower() == t.replace("ū", "uu").lower() or \
                             alt.lower() == t.replace("uu", "ū").lower():
+                        logger.info(f"Found matching alternative title, with title '{t}'")
                         return res, t, newurl
 
                     else:
                         continue
 
+    logger.info("Suggestions doesn't match the title.")
     return None, title, ""
 
 
@@ -499,11 +515,13 @@ def _tryAlternatives(title: str, platform: str):
     testurl = [_platforms[platform], pTitle, "release-info"]
     for c in ["-", "_", "__", "___"]:
         testurl[1] = pTitle + c  # Add either '-', '_', or '__' to string
+        logger.info(f"Trying with url: {_baseURL + '/'.join(testurl)}")
         res = requests.get(_baseURL + "/".join(testurl))  # Try alternative URL
 
         try:
             res.raise_for_status()
         except requests.exceptions.HTTPError:  # Not a valid page
+            logger.info("Not a valid page.")
             continue
 
         # Parse the html and get title and platform strings
@@ -515,6 +533,7 @@ def _tryAlternatives(title: str, platform: str):
 
         # Check if title and platform match
         if te[0].text.strip().lower() == title.lower() and pf[0].text.strip().lower() == platform.lower():
+            logger.info(f"Found matching title at: {_baseURL + '/'.join(testurl)}")
             return res, _baseURL + "/".join(testurl)
         else:
             continue
@@ -529,6 +548,8 @@ def getMobyInfo(title: str, platform: str) -> dict:
        :param platform: The game's platform
        :return: Dictionary of the game's info
     """
+
+    logger.info(f"Getting info for '{title}' for '{platform}'...")
 
     mobyCSSData = {
         "title": "html body div#wrapper div.container div#main.row div.col-md-12.col-lg-12 div.rightPanelHeader "
@@ -568,15 +589,22 @@ def getMobyInfo(title: str, platform: str) -> dict:
 
     pTitle = _parseTitle(title)
     pPlatform = _parsePlatform(platform)
+    logger.info(f"Parsed title to '{pTitle}'.")
+    logger.info(f"Parsed platform to '{pPlatform}'")
 
     # Get data
     if pPlatform not in _platforms.keys():  # Platform not supported
+        logger.error(f"Platform '{platform}' not supported.")
         return {x: "" for x in mobyCSSData.keys()}
+
     fullURL = _baseURL + "/".join((_platforms[pPlatform], pTitle, "release-info"))
+    logger.info(f"Full url to mobygames: {fullURL}")
+
     try:
         res = requests.get(fullURL)
     except socket.gaierror:
         # Most likely no internet connection
+        logger.error("Can't establish connection.")
         return {x: "" for x in mobyCSSData.keys()}
 
     try:
@@ -584,20 +612,25 @@ def getMobyInfo(title: str, platform: str) -> dict:
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
     except requests.exceptions.HTTPError:
         # Try the suggested results on the 404 page
+        logger.info("Title not immediately found. Trying the suggestions.")
         res, title, fullURL = _trySuggestions(title, pPlatform)
         if res is None:
             # Couldn't find anything. Return empty values
+            logger.error("Title not found.")
             return {x: "" for x in mobyCSSData.keys()}
 
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
 
+    # Extract data
     for key in mobyCSSData.keys():
         pf = soup.select(_platformCSS)
         pf = pf[0].text.strip() if len(pf) > 0 else ""
         if pf.lower() != pPlatform.lower():
             # Try some alternative URLs
+            logger.info("Platform mismatch. Trying some alternative urls.")
             res, fullURL = _tryAlternatives(title, pPlatform)
             if res is None:  # Nothing was found.
+                logger.error("Title not found.")
                 return {x: "" for x in mobyCSSData.keys()}
 
             soup = bs4.BeautifulSoup(res.text, 'html.parser')
@@ -642,8 +675,10 @@ def getMobyInfo(title: str, platform: str) -> dict:
                     value = soup.select(altGenreCSS)
                     mobyCSSData[key] = ucd.normalize("NFKD", value[0].text.strip())
                 except IndexError:  # Still nothing
+                    logger.info(f"No data for value: '{key}'")
                     mobyCSSData[key] = ""
             else:
+                logger.info(f"No data for value: '{key}'")
                 mobyCSSData[key] = ""
 
     # Get release info
@@ -686,6 +721,8 @@ def getMobyInfo(title: str, platform: str) -> dict:
         if len(tmpsrc) > 0:
             imgsrc = tmpsrc.pop().split('=')[1].strip('"')  # Find 'src=' part, then split at '='
             mobyCSSData["covers"] = {"United States": "https://www.mobygames.com" + imgsrc}
+        else:
+            logger.warning("No cover image found.")
 
     else:
         # Find the "Front Cover" URLs
@@ -710,6 +747,7 @@ def getMobyInfo(title: str, platform: str) -> dict:
 
         mobyCSSData["covers"] = covers
 
+    logger.info("Title info found.")
     return mobyCSSData
 
 
@@ -722,6 +760,9 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
     :param country: Optionally specify a specific country
     :return: Dictionary of the release info
     """
+
+    logger.info(f"Find release info for '{name}' on '{region} {platform}' for country '{country}'"
+                if country != "" else f"Find release info for '{name}' on '{region} {platform}'.")
 
     releaseInfo = {"publisher": "", "developer": "", "platforms": "",
                    "genre": "", "code": "", "year": ""}
@@ -744,6 +785,7 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
 
     if info["title"] == "":
         # No data found, return empty values
+        logger.error("Release info not found.")
         return releaseInfo
 
     publisher = info["publisher"]
@@ -752,12 +794,13 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
     genre = info["genre"]
     covers = info["covers"] if "covers" in info.keys() else ""
     yearFormat = re.compile(r"\d{4}")
+    skipCode = False
     code = ""
     year = ""
 
     # Try to get product code, and also year since it might be different between releases
     correctRelease = ""
-    for release, details in zip(info["releases"].keys(), info["releases"].values()):
+    for release in info["releases"].keys():
         # Optionally check the specific country's release, but only if it makes sense
         # (e.g. don't check for Norway if region == NTSC (JP)
         if country != "" and country in regionValue and country in release:
@@ -780,21 +823,31 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
                     continue
 
         if correctRelease != "":
-            for d in details:
-                if d[0] in ("Company Code", "Nintendo Media PN", "Sony PN"):
-                    code = d[1]
-                elif d[0] == "Release Date":
-                    year = yearFormat.findall(d[1])[0]
-
-        if code != "" and year != "":
             break
 
-    # Try with EAN-13 or UPC-A for the code as a fallback
-    if code == "" and correctRelease != "":
-        for d in info["releases"][correctRelease]:
-            if d[0] in ("EAN-13", "UPC-A"):
-                code = d[0] + ": " + d[1]
-                break
+    if correctRelease == "":
+        correctRelease = list(info['releases'].keys())[0]
+        skipCode = True
+        logger.warning(f"Couldn't find correct release for given region. Defaulting to the first one {correctRelease}. "
+                       "This also means we skip checking the product code. Please enter it manually.")
+
+    details = info['releases'][correctRelease]
+
+    for d in details:
+        if d[0] in ("Company Code", "Nintendo Media PN", "Sony PN") and not skipCode:
+            code = d[1]
+        elif d[0] == "Release Date":
+            year = yearFormat.findall(d[1])[0]
+
+        # Try with EAN-13 or UPC-A for the code as a fallback
+        if code == "" and not skipCode:
+            logger.warning("Couldn't find product code. Trying with barcode instead.")
+            for d in info["releases"][correctRelease]:
+                if d[0] in ("EAN-13", "UPC-A"):
+                    code = d[0] + ": " + d[1]
+                    break
+            if code == "":
+                logger.warning("Can't find barcode either.")
 
     # Find the release's cover image
     if len(covers) > 0 and str(list(covers.values())[0]).find("/shots/") == -1:
@@ -816,22 +869,28 @@ def getMobyRelease(name: str, platform: str, region: str, country: str = ""):
                 break
 
         if res is None:  # Correct region not found, select the first one.
+            logger.warning("Couldn't find correct cover for the region. Defaulting to the first image.")
             res = requests.get(list(covers.values())[0])
 
         imgCSS = ".img-responsive"
         imgURLReg = re.compile(r'src=\".*?\"')
         soup = bs4.BeautifulSoup(res.text, "html.parser")
         imgURL = "https://www.mobygames.com" + imgURLReg.findall(str(soup.select(imgCSS))).pop().split('=')[1].strip('"')
+        logger.info(f"Found cover image at: {imgURL}")
 
     elif len(covers) > 0 and str(list(covers.values())[0]).find("/shots/") != -1:
         # Cover image wasn't found but we have a screen shot
         imgURL = list(covers.values())[0]
+        logger.warning("A proper cover image wasn't found. But found a screen shot.")
+        logger.info(f"Screenshot url: {imgURL}")
     else:  # No image found
+        logger.warning("Couldn't find a cover image.")
         imgURL = ""
 
     releaseInfo = {"publisher": publisher, "developer": developer, "platforms": platforms,
                    "genre": genre, "image": imgURL, "code": code, "year": year}
 
+    logger.info("Release info found.")
     return releaseInfo
 
 
