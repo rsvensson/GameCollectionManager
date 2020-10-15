@@ -22,7 +22,7 @@ from widgets.filterdock import FilterDock
 from widgets.sidepanel import SidePanel
 from widgets.table import Table
 
-_VERSION = "0.5.0"
+_VERSION = "0.5.1"
 
 
 class MainWindow(QMainWindow):

@@ -19,7 +19,8 @@ def getSteamLibrary(apiKey: str, steamID: int) -> list:
                                  "region": "Steam", "code": str(game["appid"]),
                                  "game": "Yes", "box": "Yes", "manual": "Yes",
                                  "year": "", "genre": "", "comment": "",
-                                 "publisher": "", "developer": "", "platforms": ""})
+                                 "publisher": "", "developer": "", "platforms": "",
+                                 "price": "$0,$0,$0,$0"})
 
             return gamelist
 
