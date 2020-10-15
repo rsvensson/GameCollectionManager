@@ -4,23 +4,32 @@ import os
 import sys
 
 # Formatters
-FILE_FORMATTER = logging.Formatter("[%(levelname)s:%(asctime)s:%(module)s]: %(message)s")
-
 SIMPLE_FORMATTER = logging.Formatter("%(asctime)s: %(message)s")
-
+ERROR_FORMATTER = logging.Formatter("[%(levelname)s:%(asctime)s:%(module)s]: %(message)s")
 DEBUG_FORMATTER = logging.Formatter("%(levelname)-8s %(asctime)s [%(module)s.%(funcName)s:%(lineno)s]:%(message)s")
 
-# Log file
-LOG_FILENAME = "data/log/gcm.log"
-loghandler = logging.handlers.RotatingFileHandler(LOG_FILENAME, maxBytes=20971520, backupCount=3)
-loghandler.setFormatter(FILE_FORMATTER)
+# Logfiles
+ERROR_LOGFILE = "data/log/error.log"
+DEBUG_LOGFILE = "data/log/debug.log"
 
+# Set up logger
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
+
+# Console logs
+loghandler = logging.StreamHandler()
+loghandler.setLevel(logging.WARNING)
+loghandler.setFormatter(SIMPLE_FORMATTER)
 logger.addHandler(loghandler)
 
-# Set logging level to Warnings
-console_handler = logging.StreamHandler(stream=sys.stdout)
-console_handler.setFormatter(SIMPLE_FORMATTER)
-logger.addHandler(console_handler)
-logger.setLevel(logging.INFO)
+# Error logs
+loghandler = logging.handlers.RotatingFileHandler(ERROR_LOGFILE, maxBytes=20971520, backupCount=3)
+loghandler.setLevel(logging.ERROR)
+loghandler.setFormatter(ERROR_FORMATTER)
+logger.addHandler(loghandler)
+
+# Debug logs
+loghandler = logging.handlers.RotatingFileHandler(DEBUG_LOGFILE, maxBytes=20971520, backupCount=3)
+loghandler.setLevel(logging.INFO)
+loghandler.setFormatter(DEBUG_FORMATTER)
+logger.addHandler(loghandler)
