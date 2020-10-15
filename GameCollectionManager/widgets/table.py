@@ -6,6 +6,7 @@ from PySide2.QtSql import QSqlTableModel, QSqlQuery
 from PySide2.QtWidgets import QAbstractItemView, QTableView
 
 from utilities.fetchinfo import getMobyInfo, printInfo
+from utilities.log import logger
 
 
 class Table(QTableView):
@@ -116,6 +117,7 @@ class Table(QTableView):
                 record.setValue(i, newData[i.lower()])
 
             if self.model.insertRecord(-1, record):
+                logger.info(f"Added to table '{self._table}': {newData}")
                 pass
             else:
                 db.rollback()
@@ -128,6 +130,7 @@ class Table(QTableView):
                     record.setValue(i, data[i.lower()])
 
                 if self.model.insertRecord(-1, record):
+                    logger.info(f"Added to table '{self._table}': {data}")
                     pass
                 else:
                     db.rollback()
@@ -148,6 +151,7 @@ class Table(QTableView):
             if path.exists(path.join(coversdir, image)):
                 remove(path.join(coversdir, image))
             self.model.removeRows(row, 1, parent=QModelIndex())
+            logger.info(f"Removed row {row} from table '{self._table}'.")
 
 
         self.model.select()
@@ -367,51 +371,35 @@ class Table(QTableView):
         self.hideNotOwned = on
 
     def updateData(self, data: dict):
-        currentRow = data["id"]
+        row = self.selectionModel().currentIndex().row()  # Need to use selectionModel here to also support filters
+        record = self.model.record(row)
+        gamesColumns =       ["Platform", "Name", "Region", "Code", "Game",
+                              "Box", "Manual", "Year", "Genre", "Comment",
+                              "Publisher", "Developer", "Platforms", "Price"]
+        consoleColumns =     ["Platform", "Name", "Region", "Country", "Serial number",
+                              "Console", "Box", "Manual", "Year", "Comment", "Price"]
+        accessoriesColumns = ["Platform", "Name", "Region", "Country", "Accessory",
+                              "Box", "Manual", "Year", "Comment", "Price"]
 
         if self._table == "games":
-            platformIndex = self.model.index(currentRow, 1)
-            nameIndex = self.model.index(currentRow, 2)
-            regionIndex = self.model.index(currentRow, 3)
-            codeIndex = self.model.index(currentRow, 4)
-            itemIndex = self.model.index(currentRow, 5)
-            boxIndex = self.model.index(currentRow, 6)
-            manualIndex = self.model.index(currentRow, 7)
-            yearIndex = self.model.index(currentRow, 8)
-            genreIndex = self.model.index(currentRow, 9)
-            commentIndex = self.model.index(currentRow, 10)
-            publisherIndex = self.model.index(currentRow, 11)
-            developerIndex = self.model.index(currentRow, 12)
-            platformsIndex = self.model.index(currentRow, 13)
-            priceIndex = self.model.index(currentRow, 14)
-            if "platform" in data.keys():
-                self.model.setData(platformIndex, data["platform"])
-            if "name" in data.keys():
-                self.model.setData(nameIndex, data["name"])
-            if "region" in data.keys():
-                self.model.setData(regionIndex, data["region"])
-            if "code" in data.keys():
-                self.model.setData(codeIndex, data["code"])
-            if "item" in data.keys():
-                self.model.setData(itemIndex, data["item"])
-            if "box" in data.keys():
-                self.model.setData(boxIndex, data["box"])
-            if "manual" in data.keys():
-                self.model.setData(manualIndex, data["manual"])
-            if "year" in data.keys():
-                self.model.setData(yearIndex, data["year"])
-            if "genre" in data.keys():
-                self.model.setData(genreIndex, data["genre"])
-            if "comment" in data.keys():
-                self.model.setData(commentIndex, data["comment"])
-            if "publisher" in data.keys():
-                self.model.setData(publisherIndex, data["publisher"])
-            if "developer" in data.keys():
-                self.model.setData(developerIndex, data["developer"])
-            if "platforms" in data.keys():
-                self.model.setData(platformsIndex, data["platforms"])
-            if "price" in data.keys():
-                self.model.setData(priceIndex, data["price"])
+            for value in gamesColumns:
+                if value.lower() in data.keys():
+                    record.setValue(value, data[value.lower()])
+                    self.model.setRecord(row, record)
+        elif self._table == "consoles":
+            for value in consoleColumns:
+                if value.lower() in data.keys():
+                    record.setValue(value, data[value.lower()])
+                    self.model.setRecord(row, record)
+        elif self._table == "accessories":
+            for value in accessoriesColumns:
+                if value.lower() in data.keys():
+                    record.setValue(value, data[value.lower()])
+                    self.model.setRecord(row, record)
+
+        self.model.submitAll()
+        logger.debug(f"Updated row {data['id']} in table {self._table} with:")
+        logger.debug(f"{data}")
 
         self.resizeRowsToContents()
 
@@ -513,4 +501,5 @@ class TableModel(QSqlTableModel):
             data = "Yes" if value == Qt.Checked else "No"
             return super().setData(index, data, Qt.EditRole)
         else:
+            logger.info(f"{index.row()}, {index.column()}, {value}")
             return super().setData(index, value, role)

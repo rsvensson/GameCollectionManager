@@ -7,6 +7,8 @@ import requests
 import unicodedata as ucd
 from decimal import *
 
+from utilities.log import logger
+
 
 _baseURL = "https://www.pricecharting.com/game/"
 _loosePriceCSS = "#used_price > span:nth-child(1)"
@@ -158,6 +160,8 @@ def _trySuggestions(platform: str, region: int, soup: bs4.BeautifulSoup) -> bs4.
     :return: BeautifulSoup object for new page if found, else a NoneType BeautifulSoup object
     """
 
+    logger.info("Couldn't find game at url. Trying alternatives...")
+
     titleUrlRegex = re.compile(r'href=\".*?\"')
     titles = soup.find_all("td", {"class": "title"})
     consoles = soup.find_all("td", {"class": "console"})
@@ -169,10 +173,12 @@ def _trySuggestions(platform: str, region: int, soup: bs4.BeautifulSoup) -> bs4.
             break
 
     if len(url) > 0:
+        logger.info(f"New url found: {url}")
         res = requests.get(url)
         soup = bs4.BeautifulSoup(res.text, "html.parser")
         return soup
 
+    logger.info("Couldn't find title in alternate urls.")
     return soup.clear()
 
 def getPriceData(title: str, platform: str, region: str, currency="USD") -> dict:
@@ -185,6 +191,8 @@ def getPriceData(title: str, platform: str, region: str, currency="USD") -> dict
     :return: A dictionary with the game's current average prices (loose, cib, and new)
     """
 
+    logger.info(f"Looking up price for '{title}' {region} on {platform}...")
+
     priceInfo = {"loose": "#used_price > span:nth-child(1)",
                  "cib": "#complete_price > span:nth-child(1)",
                  "new": "#new_price > span:nth-child(1)"}
@@ -196,31 +204,39 @@ def getPriceData(title: str, platform: str, region: str, currency="USD") -> dict
 
     pTitle = _parseTitle(title)
     pPlatform = _parsePlatform(platform)
+    logger.info(f"Title parsed to '{pTitle}'.")
+    logger.info(f"Platform parsed to '{pPlatform}'.")
 
     # Sanity check
     if region in ("PAL A", "PAL B"):
+        logger.info(f"Changing {region} to 'PAL'...")
         region = "PAL"
     elif region not in ("NTSC (JP)", "NTSC (NA)", "PAL"):
+        logger.info(f"Changing {region} to 'NTSC (NA)'")
         region = "NTSC (NA)"
     if pPlatform not in _platforms.keys():  # Platform not supported
+        logger.error("Platform is not supported currently.")
         return {x: "N/A" for x in priceInfo.keys()}
 
     fullURL = _baseURL + "/".join((_platforms[pPlatform][regions[region]], pTitle))
-    print(fullURL)
+    logger.info(f"Full url to price info is: {fullURL}")
 
     # Error handling
     try:
         res = requests.get(fullURL)
     except socket.gaierror:  # Most likely no internet connection
+        logger.error("Couldn't establish connection.")
         return {x: "N/A" for x in priceInfo.keys()}
     try:
         res.raise_for_status()
         soup = bs4.BeautifulSoup(res.text, "html.parser")
     except requests.exceptions.HTTPError:  # Not found
+        logger.error("Title not found.")
         return {x: "N/A" for x in priceInfo.keys()}
     if len(soup.select("#product_name > a:nth-child(1)")) == 0:  # Didn't find the right page, try suggestions
         soup = _trySuggestions(pPlatform, regions[region], soup)
         if soup is None:  # Still couldn't find anything
+            logger.error("Title not found.")
             return {x: "N/A" for x in priceInfo.keys()}
 
     # Get currency rates
@@ -241,6 +257,7 @@ def getPriceData(title: str, platform: str, region: str, currency="USD") -> dict
         getcontext().prec = len(price) - 1  # Dynamically set precision to 2 decimal points
         priceInfo[key] = sign[currency] + str(Decimal(price) * Decimal(rates[currency]))
 
+    logger.info("Price data found.")
     return priceInfo
 
 

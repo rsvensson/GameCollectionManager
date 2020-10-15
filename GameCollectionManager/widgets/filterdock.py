@@ -4,6 +4,8 @@ from PySide2.QtCore import Qt, Signal
 from PySide2.QtWidgets import QDockWidget, QWidget, QListWidget, QHBoxLayout, \
     QLabel, QPushButton, QAbstractItemView, QVBoxLayout, QGroupBox, QCheckBox
 
+from utilities.log import logger
+
 
 class FilterDock(QDockWidget):
 
@@ -115,6 +117,7 @@ class FilterDock(QDockWidget):
         self._item.setCheckState(Qt.PartiallyChecked)
         self._box.setCheckState(Qt.PartiallyChecked)
         self._manual.setCheckState(Qt.PartiallyChecked)
+        logger.info("Cleared all filters.")
 
     def getSelections(self):
         self._selections = defaultdict(set)  # Reset selections
@@ -156,15 +159,19 @@ class FilterDock(QDockWidget):
     def updatePlatforms(self, platforms):
         self._platforms.clear()
         self._platforms.addItems(platforms)
+        logger.info("Updated platforms list.")
 
     def updateRegions(self, regions):
         self._regions.clear()
         self._regions.addItems(regions)
+        logger.info("Updated regions list.")
 
     def updateGenres(self, genres):
         self._genres.clear()
         self._genres.addItems(genres)
+        logger.info("Updated genres list.")
 
     def updateYears(self, years):
         self._years.clear()
         self._years.addItems(years)
+        logger.info("Updated years list.")

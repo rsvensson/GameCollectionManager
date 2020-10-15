@@ -13,6 +13,7 @@ from utilities.exportcsv import sql2csv
 from utilities.fetchinfo import getMobyRelease
 from utilities.fetchprice import getPriceData
 from utilities.steamlibrary import getSteamLibrary
+from utilities.log import logger
 from widgets.importwindow import ImportWindow
 from widgets.inputwindow import InputWindow
 from widgets.overview import Overview
@@ -43,6 +44,7 @@ class MainWindow(QMainWindow):
         db = QSqlDatabase.addDatabase("QSQLITE")
         db.setDatabaseName(dbpath)
         if not db.open():
+            logger.critical(f"Couldn't open database: {db.lastError().text()}")
             QMessageBox.critical(None, "Database Error", db.lastError().text())
         self.gamesTableView = Table("games", db)
         self.gamesTableView.doubleClick.connect(self.sidePanel.showDetails)
@@ -167,6 +169,7 @@ class MainWindow(QMainWindow):
         # Make sure screen geometry is big enough. Otherwise set window to maximized.
         gSize = QApplication.desktop().availableGeometry()
         if gSize.width() <= 1280 or gSize.height() <= 768:
+            logger.info("Screen geometry smaller than 1280x768. Setting window to maximized mode.")
             self.showMaximized()
         else:
             self.resize(1280, 768)

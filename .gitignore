@@ -6,3 +6,4 @@
 /GameCollectionManager/widgets/__pycache__
 /GameCollectionManager/data/html
 /GameCollectionManager/data/images/covers/*.jpg
+/GameCollectionManager/data/log/gcm.log

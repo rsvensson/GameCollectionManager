@@ -8,6 +8,7 @@ from PySide2.QtWidgets import QDockWidget, QLabel, QVBoxLayout, QHBoxLayout, QWi
 
 from utilities.fetchinfo import getMobyRelease
 from utilities.fetchprice import getPriceData
+from utilities.log import logger
 
 
 class SidePanel(QDockWidget):

@@ -8,6 +8,7 @@ from PySide2.QtGui import QPalette, QColor
 from PySide2.QtWidgets import QApplication
 
 from widgets.mainwindow import MainWindow
+from utilities.log import logger
 
 
 def createWindow(dbPath):
@@ -21,6 +22,7 @@ def createWindow(dbPath):
 
 
 def createDB(dbpath):
+    logger.warning(f"Creating database at {dbpath}")
     import sqlite3
     con = sqlite3.connect(dbpath)
     cur = con.cursor()
@@ -79,22 +81,30 @@ def setPalette(app):
 def main():
     gcmDir = getScriptDir()
     dbPath = gcmDir+"/data/db/collection.db"
+    logger.info(f"Program directory set to {gcmDir}.")
 
     # Make sure we have everything
     if not os.path.exists(gcmDir+"/data"):
+        logger.critical("Data directory doesn't exist. Creating '/data/db' and '/data/vgdb'...")
         os.makedirs(gcmDir+"/data/db")
         os.mkdir(gcmDir+"/data/vgdb")
+        os.mkdir(gcmDir+"/data/log")
         createDB(dbPath)
     if not os.path.exists(gcmDir+"/data/db"):
+        logger.critical("'/data/db' doest't exist. Creating...")
         os.mkdir(gcmDir+"/data/db")
         createDB(dbPath)
     if not os.path.exists(gcmDir+"/data/vgdb"):
         os.mkdir(gcmDir+"/data/vgdb")
+    if not os.path.exists(gcmDir+"/data/log"):
+        os.mkdir(gcmDir+"/data/log")
     if not os.path.exists(dbPath):
+        logger.critical("No database was found.")
         createDB(dbPath)
 
     createWindow(dbPath)
 
 
 if __name__ == "__main__":
+    logger.info("Starting up...")
     main()
