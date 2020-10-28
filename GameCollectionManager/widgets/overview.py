@@ -1,15 +1,14 @@
 #!/usr/bin/env python
 from PySide2.QtCore import Qt
-from matplotlib import use, colors as mcd
+from matplotlib import use, colors as mcd, rcParams
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
-from matplotlib.figure import Figure, rcParams
+from matplotlib.figure import Figure
 from numpy import arange
 from PySide2.QtWidgets import QWidget, QLabel, QSizePolicy, QScrollArea, QHBoxLayout, QVBoxLayout
 use("Qt5Agg")
 
 
 class MplCanvas(FigureCanvas):
-    """Shell class for setting up matplotlib"""
 
     def __init__(self, data, ylabel, parent=None, width=10, height=4, dpi=100):
         # Set up default colors
