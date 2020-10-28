@@ -88,7 +88,6 @@ def main():
         logger.critical("Data directory doesn't exist. Creating '/data/db' and '/data/vgdb'...")
         os.makedirs(gcmDir+"/data/db")
         os.mkdir(gcmDir+"/data/vgdb")
-        os.mkdir(gcmDir+"/data/log")
         createDB(dbPath)
     if not os.path.exists(gcmDir+"/data/db"):
         logger.critical("'/data/db' doest't exist. Creating...")
@@ -96,8 +95,6 @@ def main():
         createDB(dbPath)
     if not os.path.exists(gcmDir+"/data/vgdb"):
         os.mkdir(gcmDir+"/data/vgdb")
-    if not os.path.exists(gcmDir+"/data/log"):
-        os.mkdir(gcmDir+"/data/log")
     if not os.path.exists(dbPath):
         logger.critical("No database was found.")
         createDB(dbPath)

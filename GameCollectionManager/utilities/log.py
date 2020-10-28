@@ -11,6 +11,12 @@ DEBUG_FORMATTER = logging.Formatter("%(levelname)-8s %(asctime)s [%(module)s.%(f
 # Logfiles
 ERROR_LOGFILE = "data/log/error.log"
 DEBUG_LOGFILE = "data/log/debug.log"
+if not os.path.exists("data/log"):
+    os.makedirs("data/log")
+if not os.path.exists(ERROR_LOGFILE):
+    with open(ERROR_LOGFILE, "w"): pass
+if not os.path.exists(DEBUG_LOGFILE):
+    with open(DEBUG_LOGFILE, "w"): pass
 
 # Set up logger
 logger = logging.getLogger(__name__)
